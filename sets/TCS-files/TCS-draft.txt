@@ -1,0 +1,3726 @@
+﻿[CustomCards]
+	[
+		{
+			"name": "Gliding Guardian",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Artifact Creature — Robot Knight ",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/16_Gliding Guardian.png"
+			}
+		},
+		{
+			"name": "Wasp-8 Strike Wing",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Artifact — Vehicle ",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/38_Wasp-8 Strike Wing.png"
+			}
+		},
+		{
+			"name": "Sword Storm Angel",
+			"rarity": "common",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Artifact Creature — Angel Warrior ",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/37_Sword Storm Angel.png"
+			}
+		},
+		{
+			"name": "Augmented Peacekeeper",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Artifact Creature — Cyborg Soldier ",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/4_Augmented Peacekeeper.png"
+			}
+		},
+		{
+			"name": "Resolute Defender",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Artifact Creature — Cyborg Soldier ",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/30_Resolute Defender.png"
+			}
+		},
+		{
+			"name": "Outland Scouts",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Nomad Scout ",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/25_Outland Scouts.png"
+			}
+		},
+		{
+			"name": "Concerned Citizen",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Citizen ",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/9_Concerned Citizen.png"
+			}
+		},
+		{
+			"name": "Horizon Flier",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Pilot Scout ",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/20_Horizon Flier.png"
+			}
+		},
+		{
+			"name": "Outland Sentinel",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Human Nomad Soldier ",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/26_Outland Sentinel.png"
+			}
+		},
+		{
+			"name": "Hiveguard Sliver",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Sliver ",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/19_Hiveguard Sliver.png"
+			}
+		},
+		{
+			"name": "Combat Training",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Instant",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/8_Combat Training.png"
+			}
+		},
+		{
+			"name": "Close Support Mecha",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Artifact — Vehicle ",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/7_Close Support Mecha.png"
+			}
+		},
+		{
+			"name": "Ruin Strider",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Artifact — Vehicle ",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/33_Ruin Strider.png"
+			}
+		},
+		{
+			"name": "Impossible Dodging",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/21_Impossible Dodging.png"
+			}
+		},
+		{
+			"name": "Daring Chase",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Sorcery",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/12_Daring Chase.png"
+			}
+		},
+		{
+			"name": "Recovery Efforts",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/29_Recovery Efforts.png"
+			}
+		},
+		{
+			"name": "K-11 Super Heavy Weapon",
+			"rarity": "common",
+			"mana_cost": "{4}{W}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/22_K-11 Super Heavy Weapon.png"
+			}
+		},
+		{
+			"name": "Roadblock",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/31_Roadblock.png"
+			}
+		},
+		{
+			"name": "Outland Leaper",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Drake Mutant ",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/58_Outland Leaper.png"
+			}
+		},
+		{
+			"name": "Riftstrider Sliver",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Sliver ",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/64_Riftstrider Sliver.png"
+			}
+		},
+		{
+			"name": "Edge Runner",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Artificer Rogue ",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/47_Edge Runner.png"
+			}
+		},
+		{
+			"name": "Social Engineer",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Artifact Creature — Cyborg Citizen ",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/66_Social Engineer.png"
+			}
+		},
+		{
+			"name": "Discrete Decker",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Rogue ",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/46_Discrete Decker.png"
+			}
+		},
+		{
+			"name": "Frost-Glare Assassin",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Rogue Assassin ",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/50_Frost-Glare Assassin.png"
+			}
+		},
+		{
+			"name": "Digital Ghost",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Artifact Creature — Spirit ",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/45_Digital Ghost.png"
+			}
+		},
+		{
+			"name": "Warp Knight",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Artifact Creature — Centaur Knight ",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/74_Warp Knight.png"
+			}
+		},
+		{
+			"name": "Inventory Finder",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Artifact Creature — Assembly-Worker ",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/54_Inventory Finder.png"
+			}
+		},
+		{
+			"name": "Misconfiguration",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Instant",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/56_Misconfiguration.png"
+			}
+		},
+		{
+			"name": "Track the Target",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/71_Track the Target.png"
+			}
+		},
+		{
+			"name": "Private Investigation",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Sorcery",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/60_Private Investigation.png"
+			}
+		},
+		{
+			"name": "Respected Cabbie",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Human Citizen ",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/63_Respected Cabbie.png"
+			}
+		},
+		{
+			"name": "Digital Detective",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Artifact Creature — Cyborg Rogue ",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/44_Digital Detective.png"
+			}
+		},
+		{
+			"name": "Act Like You Belong",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/39_Act Like You Belong.png"
+			}
+		},
+		{
+			"name": "Portal Jump",
+			"rarity": "common",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Instant",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/59_Portal Jump.png"
+			}
+		},
+		{
+			"name": "Leap",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/55_Leap.png"
+			}
+		},
+		{
+			"name": "Brazen Thieving",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/41_Brazen Thieving.png"
+			}
+		},
+		{
+			"name": "Orbital Salvage Rig",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Artifact — Vehicle ",
+			"collector_number": "100",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/100_Orbital Salvage Rig.png"
+			}
+		},
+		{
+			"name": "Destructive Mecha",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Artifact — Vehicle ",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/84_Destructive Mecha.png"
+			}
+		},
+		{
+			"name": "Outland Hunter",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Nomad Soldier ",
+			"collector_number": "101",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/101_Outland Hunter.png"
+			}
+		},
+		{
+			"name": "Specimen Collector",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Artifact Creature — Construct Warrior ",
+			"collector_number": "104",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/104_Specimen Collector.png"
+			}
+		},
+		{
+			"name": "Daring Assassin",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Cyborg Rogue Assassin ",
+			"collector_number": "81",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/81_Daring Assassin.png"
+			}
+		},
+		{
+			"name": "Gatling Gunship",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Artifact — Vehicle ",
+			"collector_number": "92",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/92_Gatling Gunship.png"
+			}
+		},
+		{
+			"name": "Elite Fixer",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Human Rogue Sniper ",
+			"collector_number": "88",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/88_Elite Fixer.png"
+			}
+		},
+		{
+			"name": "Artificial Reinforcement",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Artifact Creature — Construct Soldier ",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/76_Artificial Reinforcement.png"
+			}
+		},
+		{
+			"name": "Gruff Pilot",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Pilot Soldier ",
+			"collector_number": "94",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/94_Gruff Pilot.png"
+			}
+		},
+		{
+			"name": "Goliath Sliver",
+			"rarity": "common",
+			"mana_cost": "{5}{B}",
+			"type": "Creature — Sliver ",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/93_Goliath Sliver.png"
+			}
+		},
+		{
+			"name": "Belch Smog",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/78_Belch Smog.png"
+			}
+		},
+		{
+			"name": "Invasive Scrutiny",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "98",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/98_Invasive Scrutiny.png"
+			}
+		},
+		{
+			"name": "Hired Hit",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "95",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/95_Hired Hit.png"
+			}
+		},
+		{
+			"name": "Smuggler's Sentinel",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Human Rogue Sniper ",
+			"collector_number": "103",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/103_Smuggler's Sentinel.png"
+			}
+		},
+		{
+			"name": "VIP Treatment",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "110",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/110_VIP Treatment.png"
+			}
+		},
+		{
+			"name": "Fight Beyond the End",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Instant",
+			"collector_number": "90",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/90_Fight Beyond the End.png"
+			}
+		},
+		{
+			"name": "Track from the Shadows",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "107",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/107_Track from the Shadows.png"
+			}
+		},
+		{
+			"name": "Wanted",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "111",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/111_Wanted.png"
+			}
+		},
+		{
+			"name": "Outland Lancer",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Knight ",
+			"collector_number": "127",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/127_Outland Lancer.png"
+			}
+		},
+		{
+			"name": "Sparkthrower Shieldmate",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Human Warrior ",
+			"collector_number": "135",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/135_Sparkthrower Shieldmate.png"
+			}
+		},
+		{
+			"name": "Alley Knight",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Artifact Creature — Cyborg Knight ",
+			"collector_number": "113",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/113_Alley Knight.png"
+			}
+		},
+		{
+			"name": "Outland Survivor",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Artifact Creature — Construct Warrior ",
+			"collector_number": "129",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/129_Outland Survivor.png"
+			}
+		},
+		{
+			"name": "Exotic Slasher",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Artifact Creature — Alien Cyborg ",
+			"collector_number": "121",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/121_Exotic Slasher.png"
+			}
+		},
+		{
+			"name": "Stranded Mech",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "140",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/140_Stranded Mech.png"
+			}
+		},
+		{
+			"name": "Final Guard",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "122",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/122_Final Guard.png"
+			}
+		},
+		{
+			"name": "Sprinting Speedster",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "136",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/136_Sprinting Speedster.png"
+			}
+		},
+		{
+			"name": "Outland Speeder Bike",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Artifact — Vehicle ",
+			"collector_number": "128",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/128_Outland Speeder Bike.png"
+			}
+		},
+		{
+			"name": "Tunnel Borer Sliver",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Sliver ",
+			"collector_number": "144",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/144_Tunnel Borer Sliver.png"
+			}
+		},
+		{
+			"name": "Pulsefire",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Sorcery",
+			"collector_number": "130",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/130_Pulsefire.png"
+			}
+		},
+		{
+			"name": "Convenient Timing",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
+			"collector_number": "118",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/118_Convenient Timing.png"
+			}
+		},
+		{
+			"name": "Full Salvo",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "123",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/123_Full Salvo.png"
+			}
+		},
+		{
+			"name": "Salvage Operation",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Sorcery",
+			"collector_number": "131",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/131_Salvage Operation.png"
+			}
+		},
+		{
+			"name": "Cathartic Reunion",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "117",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/117_Cathartic Reunion.png"
+			}
+		},
+		{
+			"name": "Spark Throw",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "134",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/134_Spark Throw.png"
+			}
+		},
+		{
+			"name": "Sharp Sliver",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Sliver ",
+			"collector_number": "132",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/132_Sharp Sliver.png"
+			}
+		},
+		{
+			"name": "Alien Monolith",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Artifact",
+			"collector_number": "112",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/112_Alien Monolith.png"
+			}
+		},
+		{
+			"name": "Guard For Hire",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Human Soldier Mercenary ",
+			"collector_number": "160",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/160_Guard For Hire.png"
+			}
+		},
+		{
+			"name": "Tower Climber",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "177",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/177_Tower Climber.png"
+			}
+		},
+		{
+			"name": "Arachnid Architect",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Cyborg Scout ",
+			"collector_number": "151",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/151_Arachnid Architect.png"
+			}
+		},
+		{
+			"name": "Outland Smuggler",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Alien Boar Rogue ",
+			"collector_number": "167",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/167_Outland Smuggler.png"
+			}
+		},
+		{
+			"name": "Outland Juggernaut",
+			"rarity": "common",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Human Warrior Juggernaut ",
+			"collector_number": "166",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/166_Outland Juggernaut.png"
+			}
+		},
+		{
+			"name": "Aimless Explorer",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Artifact Creature — Construct Scout ",
+			"collector_number": "149",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/149_Aimless Explorer.png"
+			}
+		},
+		{
+			"name": "Xenosaur Scout",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Artifact Creature — Alien Dinosaur Scout ",
+			"collector_number": "183",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/183_Xenosaur Scout.png"
+			}
+		},
+		{
+			"name": "Thrashing Sliver",
+			"rarity": "common",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Sliver ",
+			"collector_number": "175",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/175_Thrashing Sliver.png"
+			}
+		},
+		{
+			"name": "Sand Strider",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Human Nomad ",
+			"collector_number": "170",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/170_Sand Strider.png"
+			}
+		},
+		{
+			"name": "Outlands Friendship",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "169",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/169_Outlands Friendship.png"
+			}
+		},
+		{
+			"name": "Traffic Accident",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Instant",
+			"collector_number": "179",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/179_Traffic Accident.png"
+			}
+		},
+		{
+			"name": "Shield Charge",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "172",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/172_Shield Charge.png"
+			}
+		},
+		{
+			"name": "Hired Hand",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Human Mercenary ",
+			"collector_number": "161",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/161_Hired Hand.png"
+			}
+		},
+		{
+			"name": "Amber Sliver",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Sliver Mutant ",
+			"collector_number": "150",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/150_Amber Sliver.png"
+			}
+		},
+		{
+			"name": "Titanic Sand Wurm",
+			"rarity": "common",
+			"mana_cost": "{5}{G}{G}",
+			"type": "Creature — Wurm ",
+			"collector_number": "176",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/176_Titanic Sand Wurm.png"
+			}
+		},
+		{
+			"name": "Doom Blaster",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Artifact Creature — Dog Soldier ",
+			"collector_number": "155",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/155_Doom Blaster.png"
+			}
+		},
+		{
+			"name": "Unleash Carnage",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Instant",
+			"collector_number": "180",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/180_Unleash Carnage.png"
+			}
+		},
+		{
+			"name": "Outland War Scout",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Human Nomad Scout ",
+			"collector_number": "168",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/168_Outland War Scout.png"
+			}
+		},
+		{
+			"name": "Cache Smasher",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Cache Robot ",
+			"collector_number": "210",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/210_Cache Smasher.png"
+			}
+		},
+		{
+			"name": "Robotic Retriever",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Dog Robot ",
+			"collector_number": "226",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/226_Robotic Retriever.png"
+			}
+		},
+		{
+			"name": "Desolation Wanderer",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Robot Scout ",
+			"collector_number": "216",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/216_Desolation Wanderer.png"
+			}
+		},
+		{
+			"name": "Cache Collector",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Construct Citizen ",
+			"collector_number": "209",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/209_Cache Collector.png"
+			}
+		},
+		{
+			"name": "Salvager's Scanner",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "227",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/227_Salvager's Scanner.png"
+			}
+		},
+		{
+			"name": "Abandoned Bar",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact — Cache ",
+			"collector_number": "206",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/206_Abandoned Bar.png"
+			}
+		},
+		{
+			"name": "Corporate Headquarters",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact — Cache ",
+			"collector_number": "212",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/212_Corporate Headquarters.png"
+			}
+		},
+		{
+			"name": "Blood Hold",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact — Cache ",
+			"collector_number": "208",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/208_Blood Hold.png"
+			}
+		},
+		{
+			"name": "Undercity Alleyway",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact — Cache ",
+			"collector_number": "232",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/232_Undercity Alleyway.png"
+			}
+		},
+		{
+			"name": "Merchant's Terminal",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact — Cache ",
+			"collector_number": "222",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/222_Merchant's Terminal.png"
+			}
+		},
+		{
+			"name": "Digital City",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Artifact Land",
+			"collector_number": "235",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/235_Digital City.png"
+			}
+		},
+		{
+			"name": "Steelborn Wanderer",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Artifact Creature — Construct Scout ",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/36_Steelborn Wanderer.png"
+			}
+		},
+		{
+			"name": "Chimeric Pilot",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Artifact Creature — Cyborg Pilot ",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/5_Chimeric Pilot.png"
+			}
+		},
+		{
+			"name": "Outland Strike Squad",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/27_Outland Strike Squad.png"
+			}
+		},
+		{
+			"name": "Portal Smasher",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Artifact Creature — Cyborg Citizen ",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/28_Portal Smasher.png"
+			}
+		},
+		{
+			"name": "Angelic Warden",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Artifact Creature — Angel ",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/3_Angelic Warden.png"
+			}
+		},
+		{
+			"name": "Destruction Run",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/13_Destruction Run.png"
+			}
+		},
+		{
+			"name": "Emergency Ejection",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Sorcery",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/15_Emergency Ejection.png"
+			}
+		},
+		{
+			"name": "Containment Chamber",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Artifact",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/11_Containment Chamber.png"
+			}
+		},
+		{
+			"name": "Alrajeia, Retroist",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Legendary Creature — Human Citizen ",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/40_Alrajeia, Retroist.png"
+			}
+		},
+		{
+			"name": "Data Architect",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Advisor ",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/42_Data Architect.png"
+			}
+		},
+		{
+			"name": "Intelligence Agent",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Artifact Creature — Cyborg Rogue ",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/53_Intelligence Agent.png"
+			}
+		},
+		{
+			"name": "High-Tech Tinkerer",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Artificer ",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/51_High-Tech Tinkerer.png"
+			}
+		},
+		{
+			"name": "Tech Support",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Instant",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/69_Tech Support.png"
+			}
+		},
+		{
+			"name": "Forced Digitization",
+			"rarity": "uncommon",
+			"mana_cost": "{U}{U}",
+			"type": "Instant",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/49_Forced Digitization.png"
+			}
+		},
+		{
+			"name": "Universal Connection",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Enchantment",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/73_Universal Connection.png"
+			}
+		},
+		{
+			"name": "Unceasing Propaganda",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Enchantment",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/72_Unceasing Propaganda.png"
+			}
+		},
+		{
+			"name": "Mind Thief",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Human Rogue ",
+			"collector_number": "99",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/99_Mind Thief.png"
+			}
+		},
+		{
+			"name": "Aggressive Archaeologist",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Human Rogue ",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/75_Aggressive Archaeologist.png"
+			}
+		},
+		{
+			"name": "Timsah Crasher",
+			"rarity": "common",
+			"mana_cost": "{5}{B}",
+			"type": "Artifact Creature — Alien Viashino Warrior ",
+			"collector_number": "106",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/106_Timsah Crasher.png"
+			}
+		},
+		{
+			"name": "Darkstar Pilot",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Alien Pilot ",
+			"collector_number": "82",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/82_Darkstar Pilot.png"
+			}
+		},
+		{
+			"name": "Assault Mecha",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Artifact — Vehicle ",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/77_Assault Mecha.png"
+			}
+		},
+		{
+			"name": "Bisect",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/79_Bisect.png"
+			}
+		},
+		{
+			"name": "Intel Theft",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Sorcery",
+			"collector_number": "97",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/97_Intel Theft.png"
+			}
+		},
+		{
+			"name": "Transfer Memories",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{B}",
+			"type": "Sorcery",
+			"collector_number": "108",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/108_Transfer Memories.png"
+			}
+		},
+		{
+			"name": "Shvydko, High-Speed Roller",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Legendary Creature — Human Rogue ",
+			"collector_number": "133",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/133_Shvydko, High-Speed Roller.png"
+			}
+		},
+		{
+			"name": "Static Sniper",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Viashino Alien Sniper ",
+			"collector_number": "137",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/137_Static Sniper.png"
+			}
+		},
+		{
+			"name": "Thoughtwave Tuner",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Bard ",
+			"collector_number": "143",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/143_Thoughtwave Tuner.png"
+			}
+		},
+		{
+			"name": "Outland Enforcer",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "126",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/126_Outland Enforcer.png"
+			}
+		},
+		{
+			"name": "Twin-Sword Striker",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Artifact Creature — Cyborg Warrior ",
+			"collector_number": "145",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/145_Twin-Sword Striker.png"
+			}
+		},
+		{
+			"name": "Mobile Arms Deal",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Artifact — Cache ",
+			"collector_number": "125",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/125_Mobile Arms Deal.png"
+			}
+		},
+		{
+			"name": "Static Wave",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "138",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/138_Static Wave.png"
+			}
+		},
+		{
+			"name": "Unspeakable Power",
+			"rarity": "uncommon",
+			"mana_cost": "{X}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "147",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/147_Unspeakable Power.png"
+			}
+		},
+		{
+			"name": "Urban Navigator",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Human Citizen ",
+			"collector_number": "181",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/181_Urban Navigator.png"
+			}
+		},
+		{
+			"name": "Wasteland Bard",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Human Bard ",
+			"collector_number": "182",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/182_Wasteland Bard.png"
+			}
+		},
+		{
+			"name": "Advanced Guard Dog",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Artifact Creature — Dog Robot ",
+			"collector_number": "148",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/148_Advanced Guard Dog.png"
+			}
+		},
+		{
+			"name": "Shell-Dweller Street Seller",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Alien Turtle Rogue ",
+			"collector_number": "171",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/171_Shell-Dweller Street Seller.png"
+			}
+		},
+		{
+			"name": "Buildbot",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Artifact Creature — Robot ",
+			"collector_number": "152",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/152_Buildbot.png"
+			}
+		},
+		{
+			"name": "Memories of Home",
+			"rarity": "uncommon",
+			"mana_cost": "{G}",
+			"type": "Instant",
+			"collector_number": "162",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/162_Memories of Home.png"
+			}
+		},
+		{
+			"name": "Outland Gargantuan",
+			"rarity": "uncommon",
+			"mana_cost": "{9}{G}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "165",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/165_Outland Gargantuan.png"
+			}
+		},
+		{
+			"name": "Explore the City",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{G}",
+			"type": "Sorcery",
+			"collector_number": "157",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/157_Explore the City.png"
+			}
+		},
+		{
+			"name": "Luxury Highrise",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact — Cache ",
+			"collector_number": "221",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/221_Luxury Highrise.png"
+			}
+		},
+		{
+			"name": "Subsurface Bazaar",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact — Cache ",
+			"collector_number": "230",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/230_Subsurface Bazaar.png"
+			}
+		},
+		{
+			"name": "Scrap Heap",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact — Cache ",
+			"collector_number": "228",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/228_Scrap Heap.png"
+			}
+		},
+		{
+			"name": "Eldritch Outcropping",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact — Cache ",
+			"collector_number": "217",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/217_Eldritch Outcropping.png"
+			}
+		},
+		{
+			"name": "Construction Zone",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact — Cache ",
+			"collector_number": "211",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/211_Construction Zone.png"
+			}
+		},
+		{
+			"name": "Deserted Marketplace",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact — Cache ",
+			"collector_number": "215",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/215_Deserted Marketplace.png"
+			}
+		},
+		{
+			"name": "Abandoned Mainframe",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact — Cache ",
+			"collector_number": "207",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/207_Abandoned Mainframe.png"
+			}
+		},
+		{
+			"name": "Dark Market",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact — Cache ",
+			"collector_number": "214",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/214_Dark Market.png"
+			}
+		},
+		{
+			"name": "Crashed Craft",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact — Cache ",
+			"collector_number": "213",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/213_Crashed Craft.png"
+			}
+		},
+		{
+			"name": "Frosted Outpost",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact — Cache ",
+			"collector_number": "219",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/219_Frosted Outpost.png"
+			}
+		},
+		{
+			"name": "Evacuation Site",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact — Cache ",
+			"collector_number": "218",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/218_Evacuation Site.png"
+			}
+		},
+		{
+			"name": "Heavy Frost Mech",
+			"rarity": "uncommon",
+			"mana_cost": "{4}",
+			"type": "Artifact — Vehicle ",
+			"collector_number": "220",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/220_Heavy Frost Mech.png"
+			}
+		},
+		{
+			"name": "Psi-Striker",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Robot ",
+			"collector_number": "225",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/225_Psi-Striker.png"
+			}
+		},
+		{
+			"name": "Stellar Scanner",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "229",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/229_Stellar Scanner.png"
+			}
+		},
+		{
+			"name": "Salvage Yard",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "242",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/242_Salvage Yard.png"
+			}
+		},
+		{
+			"name": "Icecrag Encampment",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Plains Island ",
+			"collector_number": "237",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/237_Icecrag Encampment.png"
+			}
+		},
+		{
+			"name": "Murky Waterfront",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Island Swamp ",
+			"collector_number": "241",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/241_Murky Waterfront.png"
+			}
+		},
+		{
+			"name": "Sky Spires",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Swamp Mountain ",
+			"collector_number": "243",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/243_Sky Spires.png"
+			}
+		},
+		{
+			"name": "Moonlit Stockyard",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Mountain Forest ",
+			"collector_number": "240",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/240_Moonlit Stockyard.png"
+			}
+		},
+		{
+			"name": "Deserted Cantina",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Forest Plains ",
+			"collector_number": "234",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/234_Deserted Cantina.png"
+			}
+		},
+		{
+			"name": "Frostlocked Fortress",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Plains Swamp ",
+			"collector_number": "236",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/236_Frostlocked Fortress.png"
+			}
+		},
+		{
+			"name": "Lost Outpost",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Island Mountain ",
+			"collector_number": "239",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/239_Lost Outpost.png"
+			}
+		},
+		{
+			"name": "Undercity Market",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Swamp Forest ",
+			"collector_number": "244",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/244_Undercity Market.png"
+			}
+		},
+		{
+			"name": "Wasteland Respite",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Mountain Plains ",
+			"collector_number": "245",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/245_Wasteland Respite.png"
+			}
+		},
+		{
+			"name": "Biomedical Lab",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Forest Island ",
+			"collector_number": "233",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/233_Biomedical Lab.png"
+			}
+		},
+		{
+			"name": "Imo-Ero, Technomage",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{U}",
+			"type": "Legendary Artifact Creature — Cyborg Wizard ",
+			"collector_number": "190",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/190_Imo-Ero, Technomage.png"
+			}
+		},
+		{
+			"name": "Selmis, the Shadow Walker",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{B}",
+			"type": "Legendary Artifact Creature — Cyborg Rogue ",
+			"collector_number": "200",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/200_Selmis, the Shadow Walker.png"
+			}
+		},
+		{
+			"name": "Varus, Skyline Slasher",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Legendary Artifact Creature — Cyborg Warrior ",
+			"collector_number": "204",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/204_Varus, Skyline Slasher.png"
+			}
+		},
+		{
+			"name": "Altin, the Golden Idol",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{G}",
+			"type": "Legendary Artifact Creature — Avatar ",
+			"collector_number": "185",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/185_Altin, the Golden Idol.png"
+			}
+		},
+		{
+			"name": "Dr. Imbwa, Prodigy",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{W}",
+			"type": "Legendary Creature — Dog Citizen ",
+			"collector_number": "186",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/186_Dr. Imbwa, Prodigy.png"
+			}
+		},
+		{
+			"name": "Nakbin, Bioengineered Pilot",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{B}",
+			"type": "Legendary Artifact Creature — Cyborg Pilot ",
+			"collector_number": "195",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/195_Nakbin, Bioengineered Pilot.png"
+			}
+		},
+		{
+			"name": "Allira, Cyber Blade",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{R}",
+			"type": "Legendary Creature — Elf Wizard ",
+			"collector_number": "184",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/184_Allira, Cyber Blade.png"
+			}
+		},
+		{
+			"name": "Verlig, Outland Officer",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{G}",
+			"type": "Legendary Creature — Human Scout ",
+			"collector_number": "205",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/205_Verlig, Outland Officer.png"
+			}
+		},
+		{
+			"name": "Intore, Elite Arms Dealer",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{W}",
+			"type": "Legendary Creature — Human Advisor ",
+			"collector_number": "191",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/191_Intore, Elite Arms Dealer.png"
+			}
+		},
+		{
+			"name": "Pulse, Portal Jumper",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}{U}",
+			"type": "Legendary Creature — Human Scout ",
+			"collector_number": "198",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/198_Pulse, Portal Jumper.png"
+			}
+		},
+		{
+			"name": "Network Angel",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Artifact Creature — Cyborg Angel ",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/23_Network Angel.png"
+			}
+		},
+		{
+			"name": "Orbital Artillery Commander",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}",
+			"type": "Artifact Creature — Human Soldier ",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/24_Orbital Artillery Commander.png"
+			}
+		},
+		{
+			"name": "Ruin Sliver",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Sliver ",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/32_Ruin Sliver.png"
+			}
+		},
+		{
+			"name": "Connected Criminal",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Artifact Creature — Cyborg Citizen ",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/10_Connected Criminal.png"
+			}
+		},
+		{
+			"name": "Hacktivist",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Citizen ",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/17_Hacktivist.png"
+			}
+		},
+		{
+			"name": "Dune Racer",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Artifact — Vehicle ",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/14_Dune Racer.png"
+			}
+		},
+		{
+			"name": "Clandestine Financier",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Advisor Citizen ",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/6_Clandestine Financier.png"
+			}
+		},
+		{
+			"name": "Self-Tinkering",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/34_Self-Tinkering.png"
+			}
+		},
+		{
+			"name": "Networked Hacker",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Rogue ",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/57_Networked Hacker.png"
+			}
+		},
+		{
+			"name": "Steladus",
+			"rarity": "rare",
+			"mana_cost": "{U}{U}{U}{U}{U}",
+			"type": "Creature — Horror Avatar ",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/67_Steladus.png"
+			}
+		},
+		{
+			"name": "Digital Combat Platform",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/43_Digital Combat Platform.png"
+			}
+		},
+		{
+			"name": "Reach for the Core",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/61_Reach for the Core.png"
+			}
+		},
+		{
+			"name": "Integrated Agent",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}",
+			"type": "Artifact Creature — Cyborg Rogue ",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/52_Integrated Agent.png"
+			}
+		},
+		{
+			"name": "Stormcloud Sliver",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Sliver ",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/68_Stormcloud Sliver.png"
+			}
+		},
+		{
+			"name": "Electrode Clairvoyance",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Sorcery",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/48_Electrode Clairvoyance.png"
+			}
+		},
+		{
+			"name": "Ripple Reality",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Instant",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/65_Ripple Reality.png"
+			}
+		},
+		{
+			"name": "Eater of Despair",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}",
+			"type": "Artifact Creature — Demon ",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/87_Eater of Despair.png"
+			}
+		},
+		{
+			"name": "Vershina, Apex of Twilight",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Legendary Creature — Avatar ",
+			"collector_number": "109",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/109_Vershina, Apex of Twilight.png"
+			}
+		},
+		{
+			"name": "Tech Recovery Specialist",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Elf Rogue ",
+			"collector_number": "105",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/105_Tech Recovery Specialist.png"
+			}
+		},
+		{
+			"name": "Doomed Encounter",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Instant",
+			"collector_number": "86",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/86_Doomed Encounter.png"
+			}
+		},
+		{
+			"name": "Digital Combat Club",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Enchantment",
+			"collector_number": "85",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/85_Digital Combat Club.png"
+			}
+		},
+		{
+			"name": "Death's Head Sliver",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Sliver ",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/83_Death's Head Sliver.png"
+			}
+		},
+		{
+			"name": "Extermination Expedition",
+			"rarity": "rare",
+			"mana_cost": "{X}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/89_Extermination Expedition.png"
+			}
+		},
+		{
+			"name": "Burst Evolution",
+			"rarity": "rare",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "80",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/80_Burst Evolution.png"
+			}
+		},
+		{
+			"name": "Augmented Wasp",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Artifact Creature — Insect Cyborg ",
+			"collector_number": "114",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/114_Augmented Wasp.png"
+			}
+		},
+		{
+			"name": "Street Slicer",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Artifact Creature — Cyborg Warrior ",
+			"collector_number": "141",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/141_Street Slicer.png"
+			}
+		},
+		{
+			"name": "Mengeja, Cyber Spellblade",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}",
+			"type": "Legendary Artifact Creature — Cyborg Rogue ",
+			"collector_number": "124",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/124_Mengeja, Cyber Spellblade.png"
+			}
+		},
+		{
+			"name": "Underworld Kingpin",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Artifact Creature — Devil Noble ",
+			"collector_number": "146",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/146_Underworld Kingpin.png"
+			}
+		},
+		{
+			"name": "Blood-Dipped Sliver",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Sliver ",
+			"collector_number": "115",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/115_Blood-Dipped Sliver.png"
+			}
+		},
+		{
+			"name": "Cyber-Phoenix",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Artifact Creature — Phoenix ",
+			"collector_number": "119",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/119_Cyber-Phoenix.png"
+			}
+		},
+		{
+			"name": "Bloodsport Battle",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "116",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/116_Bloodsport Battle.png"
+			}
+		},
+		{
+			"name": "Stellar Boarding Party",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Human Pirate ",
+			"collector_number": "139",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/139_Stellar Boarding Party.png"
+			}
+		},
+		{
+			"name": "Emergency Airlift",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "156",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/156_Emergency Airlift.png"
+			}
+		},
+		{
+			"name": "Cosmosaur",
+			"rarity": "rare",
+			"mana_cost": "{X}{G}{G}",
+			"type": "Creature — Snake Hydra Scout ",
+			"collector_number": "154",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/154_Cosmosaur.png"
+			}
+		},
+		{
+			"name": "Shimmer Shielder",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "173",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/173_Shimmer Shielder.png"
+			}
+		},
+		{
+			"name": "Outland Dustwalkers",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Human Nomad Scout ",
+			"collector_number": "164",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/164_Outland Dustwalkers.png"
+			}
+		},
+		{
+			"name": "Sonic Smasher",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Alien Viashino Warrior ",
+			"collector_number": "174",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/174_Sonic Smasher.png"
+			}
+		},
+		{
+			"name": "Fog Spewer Sliver",
+			"rarity": "rare",
+			"mana_cost": "{5}{G}",
+			"type": "Creature — Sliver ",
+			"collector_number": "159",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/159_Fog Spewer Sliver.png"
+			}
+		},
+		{
+			"name": "Extract Resources",
+			"rarity": "rare",
+			"mana_cost": "{X}{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "158",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/158_Extract Resources.png"
+			}
+		},
+		{
+			"name": "Camp Among the Desolation",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}",
+			"type": "Enchantment",
+			"collector_number": "153",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/153_Camp Among the Desolation.png"
+			}
+		},
+		{
+			"name": "Eamil, Corporate Hacker",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{U}",
+			"type": "Legendary Creature — Human Advisor ",
+			"collector_number": "187",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/187_Eamil, Corporate Hacker.png"
+			}
+		},
+		{
+			"name": "Ochi, the Face Stealer",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{B}",
+			"type": "Legendary Creature — Human Rogue ",
+			"collector_number": "196",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/196_Ochi, the Face Stealer.png"
+			}
+		},
+		{
+			"name": "Pernicieux, Last of His Kind",
+			"rarity": "rare",
+			"mana_cost": "{B}{R}",
+			"type": "Legendary Creature — Alien Insect Warrior ",
+			"collector_number": "197",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/197_Pernicieux, Last of His Kind.png"
+			}
+		},
+		{
+			"name": "Eldritch Sliver",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{G}",
+			"type": "Creature — Sliver ",
+			"collector_number": "188",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/188_Eldritch Sliver.png"
+			}
+		},
+		{
+			"name": "The Unyielding Phalanx",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{W}",
+			"type": "Legendary Artifact — Vehicle ",
+			"collector_number": "203",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/203_The Unyielding Phalanx.png"
+			}
+		},
+		{
+			"name": "Krylo, Death's Wing",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{B}",
+			"type": "Legendary Artifact Creature — Angel ",
+			"collector_number": "194",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/194_Krylo, Death's Wing.png"
+			}
+		},
+		{
+			"name": "Saraf, Tuned Disciple",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{R}",
+			"type": "Legendary Artifact Creature — Robot Monk ",
+			"collector_number": "199",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/199_Saraf, Tuned Disciple.png"
+			}
+		},
+		{
+			"name": "Kethokan, Scrap Goliath",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{G}",
+			"type": "Legendary Artifact Creature — Cyborg ",
+			"collector_number": "193",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/193_Kethokan, Scrap Goliath.png"
+			}
+		},
+		{
+			"name": "Faylaq, First of the Legion",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{W}",
+			"type": "Legendary Artifact Creature — Robot Soldier ",
+			"collector_number": "189",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/189_Faylaq, First of the Legion.png"
+			}
+		},
+		{
+			"name": "Kehanet, Digital Oracle",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{U}",
+			"type": "Legendary Artifact Creature — Avatar ",
+			"collector_number": "192",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/192_Kehanet, Digital Oracle.png"
+			}
+		},
+		{
+			"name": "The Last Bastion",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Land",
+			"collector_number": "238",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/238_The Last Bastion.png"
+			}
+		},
+		{
+			"name": "Overloaded Power Conduit",
+			"rarity": "rare",
+			"mana_cost": "{4}",
+			"type": "Artifact",
+			"collector_number": "223",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/223_Overloaded Power Conduit.png"
+			}
+		},
+		{
+			"name": "Apex Sliver",
+			"rarity": "rare",
+			"mana_cost": "{5}",
+			"type": "Legendary Creature — Sliver ",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/1_Apex Sliver.png"
+			}
+		},
+		{
+			"name": "Planetary Gateway",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "224",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/224_Planetary Gateway.png"
+			}
+		},
+		{
+			"name": "Halcyon Space Carrier",
+			"rarity": "mythic",
+			"mana_cost": "{W}{W}",
+			"type": "Artifact — Vehicle ",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/18_Halcyon Space Carrier.png"
+			}
+		},
+		{
+			"name": "Reality Eye",
+			"rarity": "mythic",
+			"mana_cost": "{2}{U}",
+			"type": "Legendary Artifact — Cache ",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/62_Reality Eye.png"
+			}
+		},
+		{
+			"name": "Final Stand",
+			"rarity": "mythic",
+			"mana_cost": "{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/91_Final Stand.png"
+			}
+		},
+		{
+			"name": "Taniyn, Dragon of the Outlands",
+			"rarity": "mythic",
+			"mana_cost": "{2}{R}",
+			"type": "Legendary Creature — Human Nomad Sniper ",
+			"collector_number": "142",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/142_Taniyn, Dragon of the Outlands.png"
+			}
+		},
+		{
+			"name": "Toxic Salvage Station",
+			"rarity": "mythic",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Artifact — Vehicle ",
+			"collector_number": "178",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/178_Toxic Salvage Station.png"
+			}
+		},
+		{
+			"name": "Singeing Seraph",
+			"rarity": "mythic",
+			"mana_cost": "{8}{W}{W}",
+			"type": "Artifact Creature — Robot Angel ",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/35_Singeing Seraph.png"
+			}
+		},
+		{
+			"name": "Teferi's Temporal Foresight",
+			"rarity": "mythic",
+			"mana_cost": "{4}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "70",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/70_Teferi's Temporal Foresight.png"
+			}
+		},
+		{
+			"name": "Ratling Gunner",
+			"rarity": "mythic",
+			"mana_cost": "{X}{B}{B}{B}",
+			"type": "Creature — Rat Alien Soldier ",
+			"collector_number": "102",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/102_Ratling Gunner.png"
+			}
+		},
+		{
+			"name": "Eldritch Devastator",
+			"rarity": "mythic",
+			"mana_cost": "{4}{R}{R}{R}",
+			"type": "Creature — Avatar Horror ",
+			"collector_number": "120",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/120_Eldritch Devastator.png"
+			}
+		},
+		{
+			"name": "Outland Ambusher",
+			"rarity": "mythic",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Human Nomad Warrior ",
+			"collector_number": "163",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/163_Outland Ambusher.png"
+			}
+		},
+		{
+			"name": "Tower of Annihilation",
+			"rarity": "mythic",
+			"mana_cost": "{X}{5}",
+			"type": "Legendary Artifact",
+			"collector_number": "231",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/231_Tower of Annihilation.png"
+			}
+		},
+		{
+			"name": "Shakhray, Death's Blade",
+			"rarity": "mythic",
+			"mana_cost": "{2}{U}{B}",
+			"type": "Legendary Artifact Creature — Cyborg Rogue ",
+			"collector_number": "201",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/201_Shakhray, Death's Blade.png"
+			}
+		},
+		{
+			"name": "The Seeker",
+			"rarity": "mythic",
+			"mana_cost": "{5}",
+			"type": "Legendary Planeswalker — Seeker ",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/2_The Seeker.png"
+			}
+		},
+		{
+			"name": "Teferi, Ageless Scholar",
+			"rarity": "mythic",
+			"mana_cost": "{2}{W}{U}",
+			"type": "Legendary Planeswalker — Teferi ",
+			"collector_number": "202",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/202_Teferi, Ageless Scholar.png"
+			}
+		},
+		{
+			"name": "Hugo, Hardened Criminal",
+			"rarity": "mythic",
+			"mana_cost": "{3}{B}",
+			"type": "Legendary Planeswalker — Hugo ",
+			"collector_number": "96",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/96_Hugo, Hardened Criminal.png"
+			}
+		},
+		{
+			"name": "Abeyance",
+			"rarity": "special",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/1_Abeyance.png"
+			}
+		},
+		{
+			"name": "Swords to Plowshares",
+			"rarity": "special",
+			"mana_cost": "{W}",
+			"type": "Instant",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/11_Swords to Plowshares.png"
+			}
+		},
+		{
+			"name": "Master's Call",
+			"rarity": "special",
+			"mana_cost": "{2}{W}",
+			"type": "Instant",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/7_Master's Call.png"
+			}
+		},
+		{
+			"name": "Herald of Faith",
+			"rarity": "special",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Creature — Angel ",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/5_Herald of Faith.png"
+			}
+		},
+		{
+			"name": "Cloud Crusader",
+			"rarity": "special",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/3_Cloud Crusader.png"
+			}
+		},
+		{
+			"name": "Kill Shot",
+			"rarity": "special",
+			"mana_cost": "{2}{W}",
+			"type": "Instant",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/6_Kill Shot.png"
+			}
+		},
+		{
+			"name": "Felidar Guardian",
+			"rarity": "special",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Cat Beast ",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/4_Felidar Guardian.png"
+			}
+		},
+		{
+			"name": "Alley Evasion",
+			"rarity": "special",
+			"mana_cost": "{W}",
+			"type": "Instant",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/2_Alley Evasion.png"
+			}
+		},
+		{
+			"name": "Stasis Snare",
+			"rarity": "special",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Enchantment",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/10_Stasis Snare.png"
+			}
+		},
+		{
+			"name": "Moment of Heroism",
+			"rarity": "special",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/9_Moment of Heroism.png"
+			}
+		},
+		{
+			"name": "Metallurgeon",
+			"rarity": "special",
+			"mana_cost": "{1}{W}",
+			"type": "Artifact Creature — Human Artificer ",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/8_Metallurgeon.png"
+			}
+		},
+		{
+			"name": "Divination",
+			"rarity": "special",
+			"mana_cost": "{2}{U}",
+			"type": "Sorcery",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/14_Divination.png"
+			}
+		},
+		{
+			"name": "Aviation Pioneer",
+			"rarity": "special",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Artificer ",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/12_Aviation Pioneer.png"
+			}
+		},
+		{
+			"name": "Vivisection",
+			"rarity": "special",
+			"mana_cost": "{3}{U}",
+			"type": "Sorcery",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/20_Vivisection.png"
+			}
+		},
+		{
+			"name": "Octoprophet",
+			"rarity": "special",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Octopus ",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/15_Octoprophet.png"
+			}
+		},
+		{
+			"name": "Reduce in Stature",
+			"rarity": "special",
+			"mana_cost": "{2}{U}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/17_Reduce in Stature.png"
+			}
+		},
+		{
+			"name": "Cruel Witness",
+			"rarity": "special",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Creature — Bird Horror ",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/13_Cruel Witness.png"
+			}
+		},
+		{
+			"name": "Phantom Warrior",
+			"rarity": "special",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Creature — Illusion Warrior ",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/16_Phantom Warrior.png"
+			}
+		},
+		{
+			"name": "Shrieking Drake",
+			"rarity": "special",
+			"mana_cost": "{U}",
+			"type": "Creature — Drake ",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/18_Shrieking Drake.png"
+			}
+		},
+		{
+			"name": "Spell Crumple",
+			"rarity": "special",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Instant",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/19_Spell Crumple.png"
+			}
+		},
+		{
+			"name": "Vizzerdrix",
+			"rarity": "special",
+			"mana_cost": "{6}{U}",
+			"type": "Creature — Rabbit Beast ",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/21_Vizzerdrix.png"
+			}
+		},
+		{
+			"name": "Duress",
+			"rarity": "special",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/26_Duress.png"
+			}
+		},
+		{
+			"name": "Zombify",
+			"rarity": "special",
+			"mana_cost": "{3}{B}",
+			"type": "Sorcery",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/31_Zombify.png"
+			}
+		},
+		{
+			"name": "Blood Artist",
+			"rarity": "special",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Vampire ",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/23_Blood Artist.png"
+			}
+		},
+		{
+			"name": "Slum Reaper",
+			"rarity": "special",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Horror ",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/28_Slum Reaper.png"
+			}
+		},
+		{
+			"name": "Blighted Bat",
+			"rarity": "special",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Zombie Bat ",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/22_Blighted Bat.png"
+			}
+		},
+		{
+			"name": "Crucify",
+			"rarity": "special",
+			"mana_cost": "{2}{B}",
+			"type": "Instant",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/24_Crucify.png"
+			}
+		},
+		{
+			"name": "Twisted Experiment",
+			"rarity": "special",
+			"mana_cost": "{1}{B}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/29_Twisted Experiment.png"
+			}
+		},
+		{
+			"name": "Vile Entomber",
+			"rarity": "special",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Zombie Warlock ",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/30_Vile Entomber.png"
+			}
+		},
+		{
+			"name": "Open the Graves",
+			"rarity": "special",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Enchantment",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/27_Open the Graves.png"
+			}
+		},
+		{
+			"name": "Dogged Detective",
+			"rarity": "special",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Rogue ",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/25_Dogged Detective.png"
+			}
+		},
+		{
+			"name": "Bloodthirster",
+			"rarity": "special",
+			"mana_cost": "{5}{R}",
+			"type": "Creature — Demon ",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/32_Bloodthirster.png"
+			}
+		},
+		{
+			"name": "Scrap",
+			"rarity": "special",
+			"mana_cost": "{2}{R}",
+			"type": "Instant",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/38_Scrap.png"
+			}
+		},
+		{
+			"name": "Goblin Rally",
+			"rarity": "special",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/34_Goblin Rally.png"
+			}
+		},
+		{
+			"name": "Unexpected Windfall",
+			"rarity": "special",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Instant",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/41_Unexpected Windfall.png"
+			}
+		},
+		{
+			"name": "Prodigal Pyromancer",
+			"rarity": "special",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Wizard ",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/37_Prodigal Pyromancer.png"
+			}
+		},
+		{
+			"name": "Fireball",
+			"rarity": "special",
+			"mana_cost": "{X}{R}",
+			"type": "Sorcery",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/33_Fireball.png"
+			}
+		},
+		{
+			"name": "Thrill of Possibility",
+			"rarity": "special",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/40_Thrill of Possibility.png"
+			}
+		},
+		{
+			"name": "Lightning Strike",
+			"rarity": "special",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/36_Lightning Strike.png"
+			}
+		},
+		{
+			"name": "Shock",
+			"rarity": "special",
+			"mana_cost": "{R}",
+			"type": "Instant",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/39_Shock.png"
+			}
+		},
+		{
+			"name": "Hijack",
+			"rarity": "special",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/35_Hijack.png"
+			}
+		},
+		{
+			"name": "Kurgadon",
+			"rarity": "special",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Beast ",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/46_Kurgadon.png"
+			}
+		},
+		{
+			"name": "Jewel-Eye Cobra",
+			"rarity": "special",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Snake ",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/45_Jewel-Eye Cobra.png"
+			}
+		},
+		{
+			"name": "Tracker",
+			"rarity": "special",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Human ",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/51_Tracker.png"
+			}
+		},
+		{
+			"name": "Colossal Dreadmaw",
+			"rarity": "special",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Creature — Dinosaur ",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/43_Colossal Dreadmaw.png"
+			}
+		},
+		{
+			"name": "Saber Ants",
+			"rarity": "special",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Insect ",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/50_Saber Ants.png"
+			}
+		},
+		{
+			"name": "Barroom Brawl",
+			"rarity": "special",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/42_Barroom Brawl.png"
+			}
+		},
+		{
+			"name": "Plummet",
+			"rarity": "special",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/47_Plummet.png"
+			}
+		},
+		{
+			"name": "Eldritch Evolution",
+			"rarity": "special",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/44_Eldritch Evolution.png"
+			}
+		},
+		{
+			"name": "Ridgescale Tusker",
+			"rarity": "special",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Beast ",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/49_Ridgescale Tusker.png"
+			}
+		},
+		{
+			"name": "Prodigious Growth",
+			"rarity": "special",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/48_Prodigious Growth.png"
+			}
+		},
+		{
+			"name": "Skittering Surveyor",
+			"rarity": "special",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/66_Skittering Surveyor.png"
+			}
+		},
+		{
+			"name": "Sky Skiff",
+			"rarity": "special",
+			"mana_cost": "{2}",
+			"type": "Artifact — Vehicle ",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/67_Sky Skiff.png"
+			}
+		},
+		{
+			"name": "Solemn Simulacrum",
+			"rarity": "special",
+			"mana_cost": "{4}",
+			"type": "Artifact Creature — Golem ",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/69_Solemn Simulacrum.png"
+			}
+		},
+		{
+			"name": "Spy Kit",
+			"rarity": "special",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "70",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/70_Spy Kit.png"
+			}
+		},
+		{
+			"name": "Meteor Golem",
+			"rarity": "special",
+			"mana_cost": "{7}",
+			"type": "Artifact Creature — Golem ",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/63_Meteor Golem.png"
+			}
+		},
+		{
+			"name": "Planar Portal",
+			"rarity": "special",
+			"mana_cost": "{6}",
+			"type": "Artifact",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/65_Planar Portal.png"
+			}
+		},
+		{
+			"name": "Smuggler's Copter",
+			"rarity": "special",
+			"mana_cost": "{2}",
+			"type": "Artifact — Vehicle ",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/68_Smuggler's Copter.png"
+			}
+		},
+		{
+			"name": "Planar Gate",
+			"rarity": "special",
+			"mana_cost": "{6}",
+			"type": "Artifact",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/64_Planar Gate.png"
+			}
+		},
+		{
+			"name": "Contested War Zone",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/73_Contested War Zone.png"
+			}
+		},
+		{
+			"name": "City of Brass",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/72_City of Brass.png"
+			}
+		},
+		{
+			"name": "Evolving Wilds",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/74_Evolving Wilds.png"
+			}
+		},
+		{
+			"name": "Rupture Spire",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/75_Rupture Spire.png"
+			}
+		},
+		{
+			"name": "Teferi's Puzzle Box",
+			"rarity": "special",
+			"mana_cost": "{4}",
+			"type": "Artifact",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/71_Teferi's Puzzle Box.png"
+			}
+		},
+		{
+			"name": "Diamond Knight",
+			"rarity": "special",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Knight ",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/62_Diamond Knight.png"
+			}
+		},
+		{
+			"name": "Chrome Courier",
+			"rarity": "special",
+			"mana_cost": "{1}{W}{U}",
+			"type": "Artifact Creature — Thopter ",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/55_Chrome Courier.png"
+			}
+		},
+		{
+			"name": "Soaring Thought-Thief",
+			"rarity": "special",
+			"mana_cost": "{U}{B}",
+			"type": "Creature — Human Rogue ",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/59_Soaring Thought-Thief.png"
+			}
+		},
+		{
+			"name": "Blood Cultist",
+			"rarity": "special",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Creature — Human Wizard ",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/54_Blood Cultist.png"
+			}
+		},
+		{
+			"name": "Sunder Shaman",
+			"rarity": "special",
+			"mana_cost": "{R}{R}{G}{G}",
+			"type": "Creature — Giant Shaman ",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/61_Sunder Shaman.png"
+			}
+		},
+		{
+			"name": "Belligerent Brontodon",
+			"rarity": "special",
+			"mana_cost": "{5}{G}{W}",
+			"type": "Creature — Dinosaur ",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/53_Belligerent Brontodon.png"
+			}
+		},
+		{
+			"name": "Sin Collector",
+			"rarity": "special",
+			"mana_cost": "{1}{W}{B}",
+			"type": "Creature — Human Cleric ",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/57_Sin Collector.png"
+			}
+		},
+		{
+			"name": "Spellbound Dragon",
+			"rarity": "special",
+			"mana_cost": "{3}{U}{R}",
+			"type": "Creature — Dragon ",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/60_Spellbound Dragon.png"
+			}
+		},
+		{
+			"name": "Acolyte of Affliction",
+			"rarity": "special",
+			"mana_cost": "{2}{B}{G}",
+			"type": "Creature — Human Cleric ",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/52_Acolyte of Affliction.png"
+			}
+		},
+		{
+			"name": "Sky Terror",
+			"rarity": "special",
+			"mana_cost": "{R}{W}",
+			"type": "Creature — Dinosaur ",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/58_Sky Terror.png"
+			}
+		},
+		{
+			"name": "Progenitor Mimic",
+			"rarity": "special",
+			"mana_cost": "{4}{G}{U}",
+			"type": "Creature — Shapeshifter ",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/56_Progenitor Mimic.png"
+			}
+		},
+		{
+			"name": "Plains",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Plains ",
+			"collector_number": "246",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/246_Plains.png"
+			}
+		},
+		{
+			"name": "Island",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Island ",
+			"collector_number": "247",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/247_Island.png"
+			}
+		},
+		{
+			"name": "Swamp",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Swamp ",
+			"collector_number": "248",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/248_Swamp.png"
+			}
+		},
+		{
+			"name": "Mountain",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Mountain ",
+			"collector_number": "249",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/249_Mountain.png"
+			}
+		},
+		{
+			"name": "Forest",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Forest ",
+			"collector_number": "250",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/250_Forest.png"
+			}
+		},
+		{
+			"name": "Food",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Token Artifact — Food ",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/4_Food.png"
+			}
+		},
+		{
+			"name": "Spider Drone",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact Creature — Spider Drone ",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/2_Spider Drone.png"
+			}
+		},
+		{
+			"name": "Treasure",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Treasure ",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/7_Treasure.png"
+			}
+		},
+		{
+			"name": "Ancient Relic",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/3_Ancient Relic.png"
+			}
+		},
+		{
+			"name": "Weapon",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Equipment ",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/9_Weapon.png"
+			}
+		},
+		{
+			"name": "Robot",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact Creature — Robot ",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/5_Robot.png"
+			}
+		},
+		{
+			"name": "Illusion",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Illusion ",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/1_Illusion.png"
+			}
+		},
+		{
+			"name": "Vehicle",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Vehicle ",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/8_Vehicle.png"
+			}
+		},
+		{
+			"name": "Soldier",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact Creature — Soldier ",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/6_Soldier.png"
+			}
+		},
+		{
+			"name": "Weapons Expert (Buy-A-Box Promo)",
+			"rarity": "masterpiece",
+			"mana_cost": "{1}{W}",
+			"type": "Artifact Creature — Cyborg Warrior ",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/2_Weapons Expert (Buy-A-Box Promo).png"
+			}
+		},
+		{
+			"name": "Destruction Run (FNM Promo)",
+			"rarity": "masterpiece",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/1_Destruction Run (FNM Promo).png"
+			}
+		},
+		{
+			"name": "Forced Digitization (FNM Promo)",
+			"rarity": "masterpiece",
+			"mana_cost": "{U}{U}",
+			"type": "Instant",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/3_Forced Digitization (FNM Promo).png"
+			}
+		},
+		{
+			"name": "Burst Evolution (FNM Promo)",
+			"rarity": "masterpiece",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/4_Burst Evolution (FNM Promo).png"
+			}
+		},
+		{
+			"name": "Sharp Sliver (FNM Promo)",
+			"rarity": "masterpiece",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Sliver ",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/5_Sharp Sliver (FNM Promo).png"
+			}
+		},
+		{
+			"name": "Shell-Dweller Street Seller (FNM Promo)",
+			"rarity": "masterpiece",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Alien Turtle Rogue ",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https:///sets/TCS-files/img/6_Shell-Dweller Street Seller (FNM Promo).png"
+			}
+		}
+	]
+[RareSlot(1)]
+2 Network Angel
+2 Orbital Artillery Commander
+2 Ruin Sliver
+2 Connected Criminal
+2 Hacktivist
+2 Dune Racer
+2 Clandestine Financier
+2 Self-Tinkering
+2 Networked Hacker
+2 Steladus
+2 Digital Combat Platform
+2 Reach for the Core
+2 Integrated Agent
+2 Stormcloud Sliver
+2 Electrode Clairvoyance
+2 Ripple Reality
+2 Eater of Despair
+2 Vershina, Apex of Twilight
+2 Tech Recovery Specialist
+2 Doomed Encounter
+2 Digital Combat Club
+2 Death's Head Sliver
+2 Extermination Expedition
+2 Burst Evolution
+2 Augmented Wasp
+2 Street Slicer
+2 Mengeja, Cyber Spellblade
+2 Underworld Kingpin
+2 Blood-Dipped Sliver
+2 Cyber-Phoenix
+2 Bloodsport Battle
+2 Stellar Boarding Party
+2 Emergency Airlift
+2 Cosmosaur
+2 Shimmer Shielder
+2 Outland Dustwalkers
+2 Sonic Smasher
+2 Fog Spewer Sliver
+2 Extract Resources
+2 Camp Among the Desolation
+2 Eamil, Corporate Hacker
+2 Ochi, the Face Stealer
+2 Pernicieux, Last of His Kind
+2 Eldritch Sliver
+2 The Unyielding Phalanx
+2 Krylo, Death's Wing
+2 Saraf, Tuned Disciple
+2 Kethokan, Scrap Goliath
+2 Faylaq, First of the Legion
+2 Kehanet, Digital Oracle
+2 The Last Bastion
+2 Overloaded Power Conduit
+2 Apex Sliver
+2 Planetary Gateway
+1 Halcyon Space Carrier
+1 Reality Eye
+1 Final Stand
+1 Taniyn, Dragon of the Outlands
+1 Toxic Salvage Station
+1 Singeing Seraph
+1 Teferi's Temporal Foresight
+1 Ratling Gunner
+1 Eldritch Devastator
+1 Outland Ambusher
+1 Tower of Annihilation
+1 Shakhray, Death's Blade
+1 The Seeker
+1 Teferi, Ageless Scholar
+1 Hugo, Hardened Criminal
+[UncommonSlot(3)]
+9 Hired Hit
+9 Steelborn Wanderer
+9 Chimeric Pilot
+9 Outland Strike Squad
+9 Portal Smasher
+9 Angelic Warden
+9 Destruction Run
+9 Emergency Ejection
+9 Containment Chamber
+9 Alrajeia, Retroist
+9 Data Architect
+9 Intelligence Agent
+9 High-Tech Tinkerer
+9 Tech Support
+9 Forced Digitization
+9 Universal Connection
+9 Unceasing Propaganda
+9 Mind Thief
+9 Aggressive Archaeologist
+9 Darkstar Pilot
+9 Assault Mecha
+9 Bisect
+9 Intel Theft
+9 Transfer Memories
+9 Shvydko, High-Speed Roller
+9 Static Sniper
+9 Thoughtwave Tuner
+9 Outland Enforcer
+9 Twin-Sword Striker
+9 Mobile Arms Deal
+9 Static Wave
+9 Unspeakable Power
+9 Urban Navigator
+9 Wasteland Bard
+9 Advanced Guard Dog
+9 Shell-Dweller Street Seller
+9 Buildbot
+9 Memories of Home
+9 Outland Gargantuan
+9 Explore the City
+9 Luxury Highrise
+9 Subsurface Bazaar
+9 Scrap Heap
+9 Eldritch Outcropping
+9 Construction Zone
+9 Deserted Marketplace
+9 Abandoned Mainframe
+9 Dark Market
+9 Crashed Craft
+9 Frosted Outpost
+9 Evacuation Site
+9 Heavy Frost Mech
+9 Psi-Striker
+9 Stellar Scanner
+9 Salvage Yard
+9 Icecrag Encampment
+9 Murky Waterfront
+9 Sky Spires
+9 Moonlit Stockyard
+9 Deserted Cantina
+9 Frostlocked Fortress
+9 Lost Outpost
+9 Undercity Market
+9 Wasteland Respite
+9 Biomedical Lab
+9 Imo-Ero, Technomage
+9 Selmis, the Shadow Walker
+9 Varus, Skyline Slasher
+9 Altin, the Golden Idol
+9 Dr. Imbwa, Prodigy
+9 Nakbin, Bioengineered Pilot
+9 Allira, Cyber Blade
+9 Verlig, Outland Officer
+9 Intore, Elite Arms Dealer
+9 Pulse, Portal Jumper
+[CommonSlot(10)]
+30 Gliding Guardian
+30 Wasp-8 Strike Wing
+30 Sword Storm Angel
+30 Augmented Peacekeeper
+30 Resolute Defender
+30 Outland Scouts
+30 Concerned Citizen
+30 Horizon Flier
+30 Outland Sentinel
+30 Hiveguard Sliver
+30 Combat Training
+30 Close Support Mecha
+30 Ruin Strider
+30 Impossible Dodging
+30 Daring Chase
+30 Recovery Efforts
+30 K-11 Super Heavy Weapon
+30 Roadblock
+30 Outland Leaper
+30 Riftstrider Sliver
+30 Edge Runner
+30 Social Engineer
+30 Discrete Decker
+30 Frost-Glare Assassin
+30 Digital Ghost
+30 Warp Knight
+30 Inventory Finder
+30 Misconfiguration
+30 Track the Target
+30 Private Investigation
+30 Respected Cabbie
+30 Digital Detective
+30 Act Like You Belong
+30 Portal Jump
+30 Leap
+30 Brazen Thieving
+30 Orbital Salvage Rig
+30 Destructive Mecha
+30 Outland Hunter
+30 Specimen Collector
+30 Daring Assassin
+30 Gatling Gunship
+30 Elite Fixer
+30 Artificial Reinforcement
+30 Gruff Pilot
+30 Goliath Sliver
+30 Belch Smog
+30 Invasive Scrutiny
+30 Smuggler's Sentinel
+30 VIP Treatment
+30 Fight Beyond the End
+30 Track from the Shadows
+30 Wanted
+30 Outland Lancer
+30 Sparkthrower Shieldmate
+30 Alley Knight
+30 Outland Survivor
+30 Exotic Slasher
+30 Stranded Mech
+30 Final Guard
+30 Sprinting Speedster
+30 Outland Speeder Bike
+30 Tunnel Borer Sliver
+30 Pulsefire
+30 Convenient Timing
+30 Full Salvo
+30 Salvage Operation
+30 Cathartic Reunion
+30 Spark Throw
+30 Sharp Sliver
+30 Alien Monolith
+30 Guard For Hire
+30 Tower Climber
+30 Arachnid Architect
+30 Outland Smuggler
+30 Outland Juggernaut
+30 Aimless Explorer
+30 Xenosaur Scout
+30 Thrashing Sliver
+30 Sand Strider
+30 Outlands Friendship
+30 Traffic Accident
+30 Shield Charge
+30 Hired Hand
+30 Amber Sliver
+30 Titanic Sand Wurm
+30 Doom Blaster
+30 Unleash Carnage
+30 Outland War Scout
+30 Cache Smasher
+30 Robotic Retriever
+30 Desolation Wanderer
+30 Cache Collector
+30 Salvager's Scanner
+30 Abandoned Bar
+30 Corporate Headquarters
+30 Blood Hold
+30 Undercity Alleyway
+30 Merchant's Terminal
+30 Digital City
+30 Timsah Crasher
+[LandSlot(1)]
+10 Abeyance
+10 Swords to Plowshares
+10 Master's Call
+10 Herald of Faith
+10 Cloud Crusader
+10 Kill Shot
+10 Felidar Guardian
+10 Alley Evasion
+10 Stasis Snare
+10 Moment of Heroism
+10 Metallurgeon
+10 Divination
+10 Aviation Pioneer
+10 Vivisection
+10 Octoprophet
+10 Reduce in Stature
+10 Cruel Witness
+10 Phantom Warrior
+10 Shrieking Drake
+10 Spell Crumple
+10 Vizzerdrix
+10 Duress
+10 Zombify
+10 Blood Artist
+10 Slum Reaper
+10 Blighted Bat
+10 Crucify
+10 Twisted Experiment
+10 Vile Entomber
+10 Open the Graves
+10 Dogged Detective
+10 Bloodthirster
+10 Scrap
+10 Goblin Rally
+10 Unexpected Windfall
+10 Prodigal Pyromancer
+10 Fireball
+10 Thrill of Possibility
+10 Lightning Strike
+10 Shock
+10 Hijack
+10 Kurgadon
+10 Jewel-Eye Cobra
+10 Tracker
+10 Colossal Dreadmaw
+10 Saber Ants
+10 Barroom Brawl
+10 Plummet
+10 Eldritch Evolution
+10 Ridgescale Tusker
+10 Prodigious Growth
+10 Skittering Surveyor
+10 Sky Skiff
+10 Solemn Simulacrum
+10 Spy Kit
+10 Meteor Golem
+10 Planar Portal
+10 Smuggler's Copter
+10 Planar Gate
+10 City of Brass
+10 Evolving Wilds
+10 Rupture Spire
+10 Teferi's Puzzle Box
+10 Diamond Knight
+10 Chrome Courier
+10 Soaring Thought-Thief
+10 Blood Cultist
+10 Sunder Shaman
+10 Belligerent Brontodon
+10 Sin Collector
+10 Spellbound Dragon
+10 Acolyte of Affliction
+10 Sky Terror
+10 Progenitor Mimic
