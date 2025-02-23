@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="/sets/SYZ-files/icon.png"/>
+	<link rel="stylesheet" href="/resources/header.css">
+	<title>SYZ visual preview</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			display: none;
+			transform: rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+		}
+		.close-btn {
+			background: url('/img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('/img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 3%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 20px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+		}
+		.flip-btn {
+			background: url('/img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('/img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.icon-bar {
+			display: grid;
+			grid-template-columns: repeat(10, 3fr 2fr) 3fr;
+			gap: 1px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-top: 2%;
+			padding-bottom: 1%;
+			justify-items: center;
+			align-items: center;
+		}
+		.icon-bar .icon img {
+			width: 90%;
+			max-width: 80px;
+			height: auto;
+			display: block;
+			padding: 5%;
+			margin: auto;
+			text-align: center;
+		}
+		.icon-bar .dot img {
+			width: 50%;
+			max-width: 65px;
+			height: auto;
+			display: block;
+			margin: auto;
+			text-align: center;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="/img/dot.png" />
+	<img class="preload-hidden" src="/sets/SYZ-files/logo.png" />
+	<img class="preload-hidden" src="/sets/BEY-files/icon.png" />
+		<img class="preload-hidden" src="/sets/SYZ-files/icon.png" />
+		<img class="preload-hidden" src="/sets/TCS-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
+			<img class="sg-icon" src="/img/search.png">
+			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+		</div>
+	</div>
+
+	<div class="icon-bar">
+			<div class="icon"><a href="BEY"><img src="/sets/BEY-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="SYZ"><img src="/sets/SYZ-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="TCS"><img src="/sets/TCS-files/icon.png"></img></a></div>
+
+		</div>
+		<div class="banner">
+		<img class="logo" src="/sets/SYZ-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+				<div class="container"><img alt="/sets\SYZ-files\img\5_Amanecer, Dawn-Plumed.png" id="5_Amanecer, Dawn-Plumed" data-flag="@X" onclick="openSidebar('5_Amanecer, Dawn-Plumed',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\52_Breach the Astral Sea.png" id="52_Breach the Astral Sea" data-flag="@X" onclick="openSidebar('52_Breach the Astral Sea',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\103_Blood Lake Emergence.png" id="103_Blood Lake Emergence" data-flag="@X" onclick="openSidebar('103_Blood Lake Emergence',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\145_Balaur, the Gold Wing.png" id="145_Balaur, the Gold Wing" data-flag="@X" onclick="openSidebar('145_Balaur, the Gold Wing',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\199_Expansive Growth.png" id="199_Expansive Growth" data-flag="@X" onclick="openSidebar('199_Expansive Growth',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\10_Burung, the Golden Wing.png" id="10_Burung, the Golden Wing" data-flag="@X" onclick="openSidebar('10_Burung, the Golden Wing',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\55_Cade, Planar Pillager.png" id="55_Cade, Planar Pillager" data-flag="@X" onclick="openSidebar('55_Cade, Planar Pillager',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\127_Gax'lin, the Eldritch.png" id="127_Gaxlin, the Eldritch" data-flag="@X" onclick="openSidebar('127_Gaxlin, the Eldritch',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\164_Gla'aki, Blood Poet.png" id="164_Glaaki, Blood Poet" data-flag="@X" onclick="openSidebar('164_Glaaki, Blood Poet',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\210_Hongo, the Ever-Expanding.png" id="210_Hongo, the Ever-Expanding" data-flag="@X" onclick="openSidebar('210_Hongo, the Ever-Expanding',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\39_Ulama, the Exalted Wind.png" id="39_Ulama, the Exalted Wind" data-flag="@X" onclick="openSidebar('39_Ulama, the Exalted Wind',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\56_Captain Greatbeard.png" id="56_Captain Greatbeard" data-flag="@X" onclick="openSidebar('56_Captain Greatbeard',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\132_Regina, Eternal Broodmother.png" id="132_Regina, Eternal Broodmother" data-flag="@X" onclick="openSidebar('132_Regina, Eternal Broodmother',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\171_Reality Warp.png" id="171_Reality Warp" data-flag="@X" onclick="openSidebar('171_Reality Warp',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\212_Hrybok, Progenitor Supreme.png" id="212_Hrybok, Progenitor Supreme" data-flag="@X" onclick="openSidebar('212_Hrybok, Progenitor Supreme',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\40_Unleash the Guardians.png" id="40_Unleash the Guardians" data-flag="@X" onclick="openSidebar('40_Unleash the Guardians',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\89_Taitai, Fearless Captain.png" id="89_Taitai, Fearless Captain" data-flag="@X" onclick="openSidebar('89_Taitai, Fearless Captain',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\133_Sânge, Lord of Blood.png" id="133_Sânge, Lord of Blood" data-flag="@X" onclick="openSidebar('133_Sânge, Lord of Blood',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\188_Trogat, Starstruck.png" id="188_Trogat, Starstruck" data-flag="@X" onclick="openSidebar('188_Trogat, Starstruck',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\219_Pye'Bwa, Eternal Bloom.png" id="219_PyeBwa, Eternal Bloom" data-flag="@X" onclick="openSidebar('219_PyeBwa, Eternal Bloom',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\4_Alchemical Shift.png" id="4_Alchemical Shift" data-flag="@X" onclick="openSidebar('4_Alchemical Shift',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\50_Back Blaster.png" id="50_Back Blaster" data-flag="@X" onclick="openSidebar('50_Back Blaster',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\101_Blood Elemental.png" id="101_Blood Elemental" data-flag="@X" onclick="openSidebar('101_Blood Elemental',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\153_Dragon Dancer Shaman.png" id="153_Dragon Dancer Shaman" data-flag="@X" onclick="openSidebar('153_Dragon Dancer Shaman',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\197_Club Swinger Thallid.png" id="197_Club Swinger Thallid" data-flag="@X" onclick="openSidebar('197_Club Swinger Thallid',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\14_Dissolve Reality.png" id="14_Dissolve Reality" data-flag="@X" onclick="openSidebar('14_Dissolve Reality',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\64_Exceptional Alchemist.png" id="64_Exceptional Alchemist" data-flag="@X" onclick="openSidebar('64_Exceptional Alchemist',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\102_Blood Fire Devil.png" id="102_Blood Fire Devil" data-flag="@X" onclick="openSidebar('102_Blood Fire Devil',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\154_Dragon Swarm.png" id="154_Dragon Swarm" data-flag="@X" onclick="openSidebar('154_Dragon Swarm',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\198_Deathcap Thallid.png" id="198_Deathcap Thallid" data-flag="@X" onclick="openSidebar('198_Deathcap Thallid',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\15_Elegant Artificer.png" id="15_Elegant Artificer" data-flag="@X" onclick="openSidebar('15_Elegant Artificer',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\69_Grab the Treasure.png" id="69_Grab the Treasure" data-flag="@X" onclick="openSidebar('69_Grab the Treasure',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\115_Crescent Moon Ritual.png" id="115_Crescent Moon Ritual" data-flag="@X" onclick="openSidebar('115_Crescent Moon Ritual',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\156_Dragonform Shaman.png" id="156_Dragonform Shaman" data-flag="@X" onclick="openSidebar('156_Dragonform Shaman',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\203_Fungal Force.png" id="203_Fungal Force" data-flag="@X" onclick="openSidebar('203_Fungal Force',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\21_Gustwing Aven.png" id="21_Gustwing Aven" data-flag="@X" onclick="openSidebar('21_Gustwing Aven',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\71_Massive Turtlebug.png" id="71_Massive Turtlebug" data-flag="@X" onclick="openSidebar('71_Massive Turtlebug',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\118_Dark Night Lurker.png" id="118_Dark Night Lurker" data-flag="@X" onclick="openSidebar('118_Dark Night Lurker',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\157_Dragonmaw Shaman.png" id="157_Dragonmaw Shaman" data-flag="@X" onclick="openSidebar('157_Dragonmaw Shaman',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\206_Fungal Undead.png" id="206_Fungal Undead" data-flag="@X" onclick="openSidebar('206_Fungal Undead',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\29_Night Wing Agent.png" id="29_Night Wing Agent" data-flag="@X" onclick="openSidebar('29_Night Wing Agent',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\77_Relic Thief.png" id="77_Relic Thief" data-flag="@X" onclick="openSidebar('77_Relic Thief',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\119_Dark Rites.png" id="119_Dark Rites" data-flag="@X" onclick="openSidebar('119_Dark Rites',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\159_Elemental Outburst.png" id="159_Elemental Outburst" data-flag="@X" onclick="openSidebar('159_Elemental Outburst',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\207_Great Growth Thallid.png" id="207_Great Growth Thallid" data-flag="@X" onclick="openSidebar('207_Great Growth Thallid',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\31_Sky Dasher Aven.png" id="31_Sky Dasher Aven" data-flag="@X" onclick="openSidebar('31_Sky Dasher Aven',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\86_Squall-Surfer.png" id="86_Squall-Surfer" data-flag="@X" onclick="openSidebar('86_Squall-Surfer',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\123_Deathknell Devastor.png" id="123_Deathknell Devastor" data-flag="@X" onclick="openSidebar('123_Deathknell Devastor',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\162_Form of the Storm Dragon.png" id="162_Form of the Storm Dragon" data-flag="@X" onclick="openSidebar('162_Form of the Storm Dragon',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\211_Hryb, Thallid Titan.png" id="211_Hryb, Thallid Titan" data-flag="@X" onclick="openSidebar('211_Hryb, Thallid Titan',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\41_Vandè, Merchant King.png" id="41_Vandè, Merchant King" data-flag="@X" onclick="openSidebar('41_Vandè, Merchant King',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\90_The Greensail.png" id="90_The Greensail" data-flag="@X" onclick="openSidebar('90_The Greensail',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\134_Sânge's Invitation.png" id="134_Sânges Invitation" data-flag="@X" onclick="openSidebar('134_Sânges Invitation',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\163_Frost-Peak Blood Wing.png" id="163_Frost-Peak Blood Wing" data-flag="@X" onclick="openSidebar('163_Frost-Peak Blood Wing',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\213_Hulking Thallid.png" id="213_Hulking Thallid" data-flag="@X" onclick="openSidebar('213_Hulking Thallid',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\42_Wandering Hermit.png" id="42_Wandering Hermit" data-flag="@X" onclick="openSidebar('42_Wandering Hermit',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\91_Tugator, Shellback Captain.png" id="91_Tugator, Shellback Captain" data-flag="@X" onclick="openSidebar('91_Tugator, Shellback Captain',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\139_Ucidere, Blood Lord.png" id="139_Ucidere, Blood Lord" data-flag="@X" onclick="openSidebar('139_Ucidere, Blood Lord',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\178_Skyship Crasher.png" id="178_Skyship Crasher" data-flag="@X" onclick="openSidebar('178_Skyship Crasher',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\226_Spore Dragon.png" id="226_Spore Dragon" data-flag="@X" onclick="openSidebar('226_Spore Dragon',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\43_Warped Warlock.png" id="43_Warped Warlock" data-flag="@X" onclick="openSidebar('43_Warped Warlock',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\94_Wealthy Captain.png" id="94_Wealthy Captain" data-flag="@X" onclick="openSidebar('94_Wealthy Captain',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\143_Will of the Blood Lord.png" id="143_Will of the Blood Lord" data-flag="@X" onclick="openSidebar('143_Will of the Blood Lord',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\179_Slag Breath Strike.png" id="179_Slag Breath Strike" data-flag="@X" onclick="openSidebar('179_Slag Breath Strike',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\237_Worldspan Thallid.png" id="237_Worldspan Thallid" data-flag="@X" onclick="openSidebar('237_Worldspan Thallid',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\3_Airon, the Guardian.png" id="3_Airon, the Guardian" data-flag="@X" onclick="openSidebar('3_Airon, the Guardian',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\51_Bianca the Buccaneer.png" id="51_Bianca the Buccaneer" data-flag="@X" onclick="openSidebar('51_Bianca the Buccaneer',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\97_Agent of the Night.png" id="97_Agent of the Night" data-flag="@X" onclick="openSidebar('97_Agent of the Night',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\144_Axe of Dead-Feather.png" id="144_Axe of Dead-Feather" data-flag="@X" onclick="openSidebar('144_Axe of Dead-Feather',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\191_Accelerated Growth.png" id="191_Accelerated Growth" data-flag="@X" onclick="openSidebar('191_Accelerated Growth',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\6_Aven Gadgeteer.png" id="6_Aven Gadgeteer" data-flag="@X" onclick="openSidebar('6_Aven Gadgeteer',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\53_Brilliant Buccaneer.png" id="53_Brilliant Buccaneer" data-flag="@X" onclick="openSidebar('53_Brilliant Buccaneer',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\99_Blood Artist.png" id="99_Blood Artist" data-flag="@X" onclick="openSidebar('99_Blood Artist',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\147_Blood Mountain Broodmates.png" id="147_Blood Mountain Broodmates" data-flag="@X" onclick="openSidebar('147_Blood Mountain Broodmates',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\193_Basilisk Blade.png" id="193_Basilisk Blade" data-flag="@X" onclick="openSidebar('193_Basilisk Blade',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\9_Burning Daylight.png" id="9_Burning Daylight" data-flag="@X" onclick="openSidebar('9_Burning Daylight',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\57_Captain's Watch.png" id="57_Captains Watch" data-flag="@X" onclick="openSidebar('57_Captains Watch',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\100_Blood Cult Ritualist.png" id="100_Blood Cult Ritualist" data-flag="@X" onclick="openSidebar('100_Blood Cult Ritualist',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\149_Call of the Storm Lords.png" id="149_Call of the Storm Lords" data-flag="@X" onclick="openSidebar('149_Call of the Storm Lords',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\194_Budding Thallid.png" id="194_Budding Thallid" data-flag="@X" onclick="openSidebar('194_Budding Thallid',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\11_Contact Contract.png" id="11_Contact Contract" data-flag="@X" onclick="openSidebar('11_Contact Contract',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\59_Corsair's Cutter.png" id="59_Corsairs Cutter" data-flag="@X" onclick="openSidebar('59_Corsairs Cutter',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\104_Blood Offering.png" id="104_Blood Offering" data-flag="@X" onclick="openSidebar('104_Blood Offering',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\152_Draconic Connection.png" id="152_Draconic Connection" data-flag="@X" onclick="openSidebar('152_Draconic Connection',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\196_Civil Wanderer.png" id="196_Civil Wanderer" data-flag="@X" onclick="openSidebar('196_Civil Wanderer',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\12_Dawnbreak Cleric.png" id="12_Dawnbreak Cleric" data-flag="@X" onclick="openSidebar('12_Dawnbreak Cleric',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\63_Disdainful Stroke.png" id="63_Disdainful Stroke" data-flag="@X" onclick="openSidebar('63_Disdainful Stroke',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\106_Blood Strike.png" id="106_Blood Strike" data-flag="@X" onclick="openSidebar('106_Blood Strike',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\161_Forge Flame.png" id="161_Forge Flame" data-flag="@X" onclick="openSidebar('161_Forge Flame',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\202_Fracture Cap Thallid.png" id="202_Fracture Cap Thallid" data-flag="@X" onclick="openSidebar('202_Fracture Cap Thallid',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\16_Feather of the Forebearers.png" id="16_Feather of the Forebearers" data-flag="@X" onclick="openSidebar('16_Feather of the Forebearers',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\67_Freebooting Buccaneer.png" id="67_Freebooting Buccaneer" data-flag="@X" onclick="openSidebar('67_Freebooting Buccaneer',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\109_Bloodmad Cleric.png" id="109_Bloodmad Cleric" data-flag="@X" onclick="openSidebar('109_Bloodmad Cleric',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\165_Glide Wing Dragon.png" id="165_Glide Wing Dragon" data-flag="@X" onclick="openSidebar('165_Glide Wing Dragon',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\209_Headchopper Thallid.png" id="209_Headchopper Thallid" data-flag="@X" onclick="openSidebar('209_Headchopper Thallid',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\23_Lavish Party-Thrower.png" id="23_Lavish Party-Thrower" data-flag="@X" onclick="openSidebar('23_Lavish Party-Thrower',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\68_Frost-Form Sharpshooter.png" id="68_Frost-Form Sharpshooter" data-flag="@X" onclick="openSidebar('68_Frost-Form Sharpshooter',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\113_Bloodsoaked Graverobbers.png" id="113_Bloodsoaked Graverobbers" data-flag="@X" onclick="openSidebar('113_Bloodsoaked Graverobbers',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\167_Muscle-Bound Orc.png" id="167_Muscle-Bound Orc" data-flag="@X" onclick="openSidebar('167_Muscle-Bound Orc',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\214_Insurmountable Thallid.png" id="214_Insurmountable Thallid" data-flag="@X" onclick="openSidebar('214_Insurmountable Thallid',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\26_Moon-Feather Druid.png" id="26_Moon-Feather Druid" data-flag="@X" onclick="openSidebar('26_Moon-Feather Druid',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\76_Port Accountant.png" id="76_Port Accountant" data-flag="@X" onclick="openSidebar('76_Port Accountant',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\116_Crystal Gravestones.png" id="116_Crystal Gravestones" data-flag="@X" onclick="openSidebar('116_Crystal Gravestones',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\172_Rite of the Dragon Gate.png" id="172_Rite of the Dragon Gate" data-flag="@X" onclick="openSidebar('172_Rite of the Dragon Gate',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\216_Megalithic Thallid.png" id="216_Megalithic Thallid" data-flag="@X" onclick="openSidebar('216_Megalithic Thallid',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\28_Netted Cage.png" id="28_Netted Cage" data-flag="@X" onclick="openSidebar('28_Netted Cage',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\78_Sailtop Navigator.png" id="78_Sailtop Navigator" data-flag="@X" onclick="openSidebar('78_Sailtop Navigator',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\121_Death Scythe Vampire.png" id="121_Death Scythe Vampire" data-flag="@X" onclick="openSidebar('121_Death Scythe Vampire',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\180_Spark Gate.png" id="180_Spark Gate" data-flag="@X" onclick="openSidebar('180_Spark Gate',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\222_Rotting Regrowth.png" id="222_Rotting Regrowth" data-flag="@X" onclick="openSidebar('222_Rotting Regrowth',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\30_Reject.png" id="30_Reject" data-flag="@X" onclick="openSidebar('30_Reject',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\80_Scout Scoundrel.png" id="80_Scout Scoundrel" data-flag="@X" onclick="openSidebar('80_Scout Scoundrel',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\124_Dissolve into Shadow.png" id="124_Dissolve into Shadow" data-flag="@X" onclick="openSidebar('124_Dissolve into Shadow',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\181_Sparking Shaman.png" id="181_Sparking Shaman" data-flag="@X" onclick="openSidebar('181_Sparking Shaman',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\225_Sphere of Growth.png" id="225_Sphere of Growth" data-flag="@X" onclick="openSidebar('225_Sphere of Growth',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\34_Sparkcaster Aven.png" id="34_Sparkcaster Aven" data-flag="@X" onclick="openSidebar('34_Sparkcaster Aven',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\81_Silver Sword Orc.png" id="81_Silver Sword Orc" data-flag="@X" onclick="openSidebar('81_Silver Sword Orc',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\128_Gnawing Heart Ritual.png" id="128_Gnawing Heart Ritual" data-flag="@X" onclick="openSidebar('128_Gnawing Heart Ritual',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\183_Staff of the Silverwing.png" id="183_Staff of the Silverwing" data-flag="@X" onclick="openSidebar('183_Staff of the Silverwing',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\227_Spore Spreader.png" id="227_Spore Spreader" data-flag="@X" onclick="openSidebar('227_Spore Spreader',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\35_Storm Cloud Rapier.png" id="35_Storm Cloud Rapier" data-flag="@X" onclick="openSidebar('35_Storm Cloud Rapier',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\88_Steelclad Skyship.png" id="88_Steelclad Skyship" data-flag="@X" onclick="openSidebar('88_Steelclad Skyship',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\129_Grotesque Bloodbender.png" id="129_Grotesque Bloodbender" data-flag="@X" onclick="openSidebar('129_Grotesque Bloodbender',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\184_Stormcaller Shaman.png" id="184_Stormcaller Shaman" data-flag="@X" onclick="openSidebar('184_Stormcaller Shaman',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\231_Thallid Scout.png" id="231_Thallid Scout" data-flag="@X" onclick="openSidebar('231_Thallid Scout',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\37_Sunrise Sentinel.png" id="37_Sunrise Sentinel" data-flag="@X" onclick="openSidebar('37_Sunrise Sentinel',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\92_Waterfall Orb.png" id="92_Waterfall Orb" data-flag="@X" onclick="openSidebar('92_Waterfall Orb',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\130_Grotesque Night Terror.png" id="130_Grotesque Night Terror" data-flag="@X" onclick="openSidebar('130_Grotesque Night Terror',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\186_Swift-Step Shaman.png" id="186_Swift-Step Shaman" data-flag="@X" onclick="openSidebar('186_Swift-Step Shaman',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\232_Titanic Thallid.png" id="232_Titanic Thallid" data-flag="@X" onclick="openSidebar('232_Titanic Thallid',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\38_Sure-Shot Sargeant.png" id="38_Sure-Shot Sargeant" data-flag="@X" onclick="openSidebar('38_Sure-Shot Sargeant',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\93_Wayward Treasure Hunter.png" id="93_Wayward Treasure Hunter" data-flag="@X" onclick="openSidebar('93_Wayward Treasure Hunter',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\135_Shattersky Vampire.png" id="135_Shattersky Vampire" data-flag="@X" onclick="openSidebar('135_Shattersky Vampire',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\187_Thunderclap Dragon.png" id="187_Thunderclap Dragon" data-flag="@X" onclick="openSidebar('187_Thunderclap Dragon',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\235_Wildheart Thallid.png" id="235_Wildheart Thallid" data-flag="@X" onclick="openSidebar('235_Wildheart Thallid',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\49_Zwazo Twinblade.png" id="49_Zwazo Twinblade" data-flag="@X" onclick="openSidebar('49_Zwazo Twinblade',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\96_Wrist Cannon.png" id="96_Wrist Cannon" data-flag="@X" onclick="openSidebar('96_Wrist Cannon',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\137_Smoke Form Reaper.png" id="137_Smoke Form Reaper" data-flag="@X" onclick="openSidebar('137_Smoke Form Reaper',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\190_Warforged Shaman.png" id="190_Warforged Shaman" data-flag="@X" onclick="openSidebar('190_Warforged Shaman',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\236_Wildwood Trasher.png" id="236_Wildwood Trasher" data-flag="@X" onclick="openSidebar('236_Wildwood Trasher',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\7_Aven Legionary.png" id="7_Aven Legionary" data-flag="@X" onclick="openSidebar('7_Aven Legionary',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\54_Buckshot Buccaneer.png" id="54_Buckshot Buccaneer" data-flag="@X" onclick="openSidebar('54_Buckshot Buccaneer',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\98_Batty Broodmother.png" id="98_Batty Broodmother" data-flag="@X" onclick="openSidebar('98_Batty Broodmother',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\146_Bleeding Edge Shaman.png" id="146_Bleeding Edge Shaman" data-flag="@X" onclick="openSidebar('146_Bleeding Edge Shaman',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\192_Adventurous Thallid.png" id="192_Adventurous Thallid" data-flag="@X" onclick="openSidebar('192_Adventurous Thallid',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\8_Bardic Bird.png" id="8_Bardic Bird" data-flag="@X" onclick="openSidebar('8_Bardic Bird',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\58_Cascada Tamer.png" id="58_Cascada Tamer" data-flag="@X" onclick="openSidebar('58_Cascada Tamer',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\105_Blood Ritual.png" id="105_Blood Ritual" data-flag="@X" onclick="openSidebar('105_Blood Ritual',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\148_Boneskull Shaman.png" id="148_Boneskull Shaman" data-flag="@X" onclick="openSidebar('148_Boneskull Shaman',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\195_Canopy Thallid.png" id="195_Canopy Thallid" data-flag="@X" onclick="openSidebar('195_Canopy Thallid',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\13_Deathrattle Wizard.png" id="13_Deathrattle Wizard" data-flag="@X" onclick="openSidebar('13_Deathrattle Wizard',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\60_Cruising Skyfish.png" id="60_Cruising Skyfish" data-flag="@X" onclick="openSidebar('60_Cruising Skyfish',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\107_Blood Swarm.png" id="107_Blood Swarm" data-flag="@X" onclick="openSidebar('107_Blood Swarm',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\150_Calling Shaman.png" id="150_Calling Shaman" data-flag="@X" onclick="openSidebar('150_Calling Shaman',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\200_Explosive Blooming.png" id="200_Explosive Blooming" data-flag="@X" onclick="openSidebar('200_Explosive Blooming',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\17_Ferocious Fencer.png" id="17_Ferocious Fencer" data-flag="@X" onclick="openSidebar('17_Ferocious Fencer',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\61_Daring Dive.png" id="61_Daring Dive" data-flag="@X" onclick="openSidebar('61_Daring Dive',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\108_Bloodhunter Vampire.png" id="108_Bloodhunter Vampire" data-flag="@X" onclick="openSidebar('108_Bloodhunter Vampire',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\151_Canopy Runner Shaman.png" id="151_Canopy Runner Shaman" data-flag="@X" onclick="openSidebar('151_Canopy Runner Shaman',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\201_Explosive Outbreak.png" id="201_Explosive Outbreak" data-flag="@X" onclick="openSidebar('201_Explosive Outbreak',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\18_Fight-Feather Aven.png" id="18_Fight-Feather Aven" data-flag="@X" onclick="openSidebar('18_Fight-Feather Aven',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\62_Dashing Deckhand.png" id="62_Dashing Deckhand" data-flag="@X" onclick="openSidebar('62_Dashing Deckhand',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\110_Bloodmad Hunter.png" id="110_Bloodmad Hunter" data-flag="@X" onclick="openSidebar('110_Bloodmad Hunter',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\155_Dragonflame Warshaman.png" id="155_Dragonflame Warshaman" data-flag="@X" onclick="openSidebar('155_Dragonflame Warshaman',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\204_Fungal Shield Slammer.png" id="204_Fungal Shield Slammer" data-flag="@X" onclick="openSidebar('204_Fungal Shield Slammer',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\19_Gift of Feathers.png" id="19_Gift of Feathers" data-flag="@X" onclick="openSidebar('19_Gift of Feathers',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\65_Experienced Rig-Runner.png" id="65_Experienced Rig-Runner" data-flag="@X" onclick="openSidebar('65_Experienced Rig-Runner',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\111_Bloodseeker.png" id="111_Bloodseeker" data-flag="@X" onclick="openSidebar('111_Bloodseeker',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\158_Dusk Flame Shaman.png" id="158_Dusk Flame Shaman" data-flag="@X" onclick="openSidebar('158_Dusk Flame Shaman',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\205_Fungal Sprouting.png" id="205_Fungal Sprouting" data-flag="@X" onclick="openSidebar('205_Fungal Sprouting',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\20_Gustblown Archer.png" id="20_Gustblown Archer" data-flag="@X" onclick="openSidebar('20_Gustblown Archer',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\66_Expert Navigator.png" id="66_Expert Navigator" data-flag="@X" onclick="openSidebar('66_Expert Navigator',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\112_Bloodsoaked Deathwing.png" id="112_Bloodsoaked Deathwing" data-flag="@X" onclick="openSidebar('112_Bloodsoaked Deathwing',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\160_Emergent Power.png" id="160_Emergent Power" data-flag="@X" onclick="openSidebar('160_Emergent Power',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\208_Gustblown Fungus.png" id="208_Gustblown Fungus" data-flag="@X" onclick="openSidebar('208_Gustblown Fungus',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\22_Inspiring Aven.png" id="22_Inspiring Aven" data-flag="@X" onclick="openSidebar('22_Inspiring Aven',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\70_Kitesail Corsair.png" id="70_Kitesail Corsair" data-flag="@X" onclick="openSidebar('70_Kitesail Corsair',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\114_Bloodsoaked Reinvigoration.png" id="114_Bloodsoaked Reinvigoration" data-flag="@X" onclick="openSidebar('114_Bloodsoaked Reinvigoration',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\166_Inferno Shaman.png" id="166_Inferno Shaman" data-flag="@X" onclick="openSidebar('166_Inferno Shaman',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\215_Inversion of Reality.png" id="215_Inversion of Reality" data-flag="@X" onclick="openSidebar('215_Inversion of Reality',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\24_Magi-Blade Wizard.png" id="24_Magi-Blade Wizard" data-flag="@X" onclick="openSidebar('24_Magi-Blade Wizard',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\72_Narrow Escape.png" id="72_Narrow Escape" data-flag="@X" onclick="openSidebar('72_Narrow Escape',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\117_Dark Bloodlord.png" id="117_Dark Bloodlord" data-flag="@X" onclick="openSidebar('117_Dark Bloodlord',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\168_Muscular Growth.png" id="168_Muscular Growth" data-flag="@X" onclick="openSidebar('168_Muscular Growth',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\217_Oakshield Thallid.png" id="217_Oakshield Thallid" data-flag="@X" onclick="openSidebar('217_Oakshield Thallid',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\25_Meadows Guide.png" id="25_Meadows Guide" data-flag="@X" onclick="openSidebar('25_Meadows Guide',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\73_Net Snare.png" id="73_Net Snare" data-flag="@X" onclick="openSidebar('73_Net Snare',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\120_Dark Sky Diviner.png" id="120_Dark Sky Diviner" data-flag="@X" onclick="openSidebar('120_Dark Sky Diviner',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\169_Orcish Stormcaller.png" id="169_Orcish Stormcaller" data-flag="@X" onclick="openSidebar('169_Orcish Stormcaller',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\218_Overgrown Thallid.png" id="218_Overgrown Thallid" data-flag="@X" onclick="openSidebar('218_Overgrown Thallid',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\27_Moon-Feather Fowl.png" id="27_Moon-Feather Fowl" data-flag="@X" onclick="openSidebar('27_Moon-Feather Fowl',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\74_Pathcutter Pirate.png" id="74_Pathcutter Pirate" data-flag="@X" onclick="openSidebar('74_Pathcutter Pirate',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\122_Death-Chain Vampire.png" id="122_Death-Chain Vampire" data-flag="@X" onclick="openSidebar('122_Death-Chain Vampire',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\170_Read the Stones.png" id="170_Read the Stones" data-flag="@X" onclick="openSidebar('170_Read the Stones',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\220_Raccopossum Matriarch.png" id="220_Raccopossum Matriarch" data-flag="@X" onclick="openSidebar('220_Raccopossum Matriarch',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\32_Sky Ranger.png" id="32_Sky Ranger" data-flag="@X" onclick="openSidebar('32_Sky Ranger',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\75_Pirate's Plunder.png" id="75_Pirates Plunder" data-flag="@X" onclick="openSidebar('75_Pirates Plunder',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\125_Dusk Reaper.png" id="125_Dusk Reaper" data-flag="@X" onclick="openSidebar('125_Dusk Reaper',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\173_Ruin Rune Dragon.png" id="173_Ruin Rune Dragon" data-flag="@X" onclick="openSidebar('173_Ruin Rune Dragon',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\221_Raging Thallid.png" id="221_Raging Thallid" data-flag="@X" onclick="openSidebar('221_Raging Thallid',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\33_Spark of Inspiration.png" id="33_Spark of Inspiration" data-flag="@X" onclick="openSidebar('33_Spark of Inspiration',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\79_Savvy Shipwright.png" id="79_Savvy Shipwright" data-flag="@X" onclick="openSidebar('79_Savvy Shipwright',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\126_Feral Blood Knight.png" id="126_Feral Blood Knight" data-flag="@X" onclick="openSidebar('126_Feral Blood Knight',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\174_Samanas Slasher.png" id="174_Samanas Slasher" data-flag="@X" onclick="openSidebar('174_Samanas Slasher',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\223_Screamshroom.png" id="223_Screamshroom" data-flag="@X" onclick="openSidebar('223_Screamshroom',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\36_Striking Spear.png" id="36_Striking Spear" data-flag="@X" onclick="openSidebar('36_Striking Spear',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\82_Sky Sail Vanguard.png" id="82_Sky Sail Vanguard" data-flag="@X" onclick="openSidebar('82_Sky Sail Vanguard',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\131_Of Blood and Mind.png" id="131_Of Blood and Mind" data-flag="@X" onclick="openSidebar('131_Of Blood and Mind',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\175_Samanas Smasher.png" id="175_Samanas Smasher" data-flag="@X" onclick="openSidebar('175_Samanas Smasher',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\224_Skyshot Sporeling.png" id="224_Skyshot Sporeling" data-flag="@X" onclick="openSidebar('224_Skyshot Sporeling',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\44_Winds of Change.png" id="44_Winds of Change" data-flag="@X" onclick="openSidebar('44_Winds of Change',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\83_Sky-Sail Skiff.png" id="83_Sky-Sail Skiff" data-flag="@X" onclick="openSidebar('83_Sky-Sail Skiff',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\136_Sign in Blood.png" id="136_Sign in Blood" data-flag="@X" onclick="openSidebar('136_Sign in Blood',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\176_Shaman's Skull-Axe.png" id="176_Shamans Skull-Axe" data-flag="@X" onclick="openSidebar('176_Shamans Skull-Axe',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\228_Stoneblade Thallid.png" id="228_Stoneblade Thallid" data-flag="@X" onclick="openSidebar('228_Stoneblade Thallid',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\45_Zwazo Blade.png" id="45_Zwazo Blade" data-flag="@X" onclick="openSidebar('45_Zwazo Blade',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\84_Skyship Harpoonist.png" id="84_Skyship Harpoonist" data-flag="@X" onclick="openSidebar('84_Skyship Harpoonist',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\138_Smoke Form Slasher.png" id="138_Smoke Form Slasher" data-flag="@X" onclick="openSidebar('138_Smoke Form Slasher',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\177_Silver-Wing Dragon.png" id="177_Silver-Wing Dragon" data-flag="@X" onclick="openSidebar('177_Silver-Wing Dragon',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\229_Thallicorn.png" id="229_Thallicorn" data-flag="@X" onclick="openSidebar('229_Thallicorn',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\46_Zwazo Brawler.png" id="46_Zwazo Brawler" data-flag="@X" onclick="openSidebar('46_Zwazo Brawler',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\85_Spell Slash.png" id="85_Spell Slash" data-flag="@X" onclick="openSidebar('85_Spell Slash',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\140_Vampiric Armor.png" id="140_Vampiric Armor" data-flag="@X" onclick="openSidebar('140_Vampiric Armor',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\182_Staff of the Shaman.png" id="182_Staff of the Shaman" data-flag="@X" onclick="openSidebar('182_Staff of the Shaman',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\230_Thallid Knight.png" id="230_Thallid Knight" data-flag="@X" onclick="openSidebar('230_Thallid Knight',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\47_Zwazo Infiltrator.png" id="47_Zwazo Infiltrator" data-flag="@X" onclick="openSidebar('47_Zwazo Infiltrator',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\87_Stay Sharp.png" id="87_Stay Sharp" data-flag="@X" onclick="openSidebar('87_Stay Sharp',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\141_Vampiric Brute.png" id="141_Vampiric Brute" data-flag="@X" onclick="openSidebar('141_Vampiric Brute',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\185_Superhuman Speed.png" id="185_Superhuman Speed" data-flag="@X" onclick="openSidebar('185_Superhuman Speed',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\233_Toxic Archer.png" id="233_Toxic Archer" data-flag="@X" onclick="openSidebar('233_Toxic Archer',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\48_Zwazo Sharpshooter.png" id="48_Zwazo Sharpshooter" data-flag="@X" onclick="openSidebar('48_Zwazo Sharpshooter',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\95_Wispwater Blade.png" id="95_Wispwater Blade" data-flag="@X" onclick="openSidebar('95_Wispwater Blade',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\142_Vampiric Shade.png" id="142_Vampiric Shade" data-flag="@X" onclick="openSidebar('142_Vampiric Shade',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\189_Vaporization.png" id="189_Vaporization" data-flag="@X" onclick="openSidebar('189_Vaporization',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\234_Wandering Myconid.png" id="234_Wandering Myconid" data-flag="@X" onclick="openSidebar('234_Wandering Myconid',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\1_Blood Strike (Promo).png" id="1_Blood Strike (Promo)" data-flag="@X" onclick="openSidebar('1_Blood Strike (Promo)',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\238_Avatar of All.png" id="238_Avatar of All" data-flag="@X" onclick="openSidebar('238_Avatar of All',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\1_Avatar of None.png" id="1_Avatar of None" data-flag="@X" onclick="openSidebar('1_Avatar of None',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\239_Blood Contract.png" id="239_Blood Contract" data-flag="@X" onclick="openSidebar('239_Blood Contract',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\242_Rift Coin.png" id="242_Rift Coin" data-flag="@X" onclick="openSidebar('242_Rift Coin',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\243_Riftstone Dynamo.png" id="243_Riftstone Dynamo" data-flag="@X" onclick="openSidebar('243_Riftstone Dynamo',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\244_Riftstone Fragment.png" id="244_Riftstone Fragment" data-flag="@X" onclick="openSidebar('244_Riftstone Fragment',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\2_Cantrip.png" id="2_Cantrip" data-flag="@X" onclick="openSidebar('2_Cantrip',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\240_Ethereal Compass.png" id="240_Ethereal Compass" data-flag="@X" onclick="openSidebar('240_Ethereal Compass',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\241_Forgeborn Sentinel.png" id="241_Forgeborn Sentinel" data-flag="@X" onclick="openSidebar('241_Forgeborn Sentinel',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\245_Riftstone Spear.png" id="245_Riftstone Spear" data-flag="@X" onclick="openSidebar('245_Riftstone Spear',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\246_Windswept Airship.png" id="246_Windswept Airship" data-flag="@X" onclick="openSidebar('246_Windswept Airship',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\253_Estrago, the Shattered Ruins.png" id="253_Estrago, the Shattered Ruins" data-flag="@X" onclick="openSidebar('253_Estrago, the Shattered Ruins',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\258_Relèv, Pirates' Respite.png" id="258_Relèv, Pirates Respite" data-flag="@X" onclick="openSidebar('258_Relèv, Pirates Respite',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\248_Chato, Moonlit Fortress.png" id="248_Chato, Moonlit Fortress" data-flag="@X" onclick="openSidebar('248_Chato, Moonlit Fortress',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\263_Tanwar, the Dragon's Den.png" id="263_Tanwar, the Dragons Den" data-flag="@X" onclick="openSidebar('263_Tanwar, the Dragons Den',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\251_Djondjon, Eternal Sporegrounds.png" id="251_Djondjon, Eternal Sporegrounds" data-flag="@X" onclick="openSidebar('251_Djondjon, Eternal Sporegrounds',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\261_Ruined Temple.png" id="261_Ruined Temple" data-flag="@X" onclick="openSidebar('261_Ruined Temple',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\252_Elevated Wreckage.png" id="252_Elevated Wreckage" data-flag="@X" onclick="openSidebar('252_Elevated Wreckage',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\250_Decrepit Castle.png" id="250_Decrepit Castle" data-flag="@X" onclick="openSidebar('250_Decrepit Castle',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\262_Shattered Spires.png" id="262_Shattered Spires" data-flag="@X" onclick="openSidebar('262_Shattered Spires',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\247_Blooming Skyway.png" id="247_Blooming Skyway" data-flag="@X" onclick="openSidebar('247_Blooming Skyway',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\249_Citadel in the Sky.png" id="249_Citadel in the Sky" data-flag="@X" onclick="openSidebar('249_Citadel in the Sky',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\259_Riftstone Altar.png" id="259_Riftstone Altar" data-flag="@X" onclick="openSidebar('259_Riftstone Altar',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\254_Frozen Peaks.png" id="254_Frozen Peaks" data-flag="@X" onclick="openSidebar('254_Frozen Peaks',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\255_Gloomy Marsh.png" id="255_Gloomy Marsh" data-flag="@X" onclick="openSidebar('255_Gloomy Marsh',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\256_Hallowed Field.png" id="256_Hallowed Field" data-flag="@X" onclick="openSidebar('256_Hallowed Field',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\257_Quiet Waterfall.png" id="257_Quiet Waterfall" data-flag="@X" onclick="openSidebar('257_Quiet Waterfall',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\264_Verdant Savageland.png" id="264_Verdant Savageland" data-flag="@X" onclick="openSidebar('264_Verdant Savageland',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\260_Riftstone Tear.png" id="260_Riftstone Tear" data-flag="@X" onclick="openSidebar('260_Riftstone Tear',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\265_Plains.png" id="265_Plains" data-flag="@X" onclick="openSidebar('265_Plains',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\266_Island.png" id="266_Island" data-flag="@X" onclick="openSidebar('266_Island',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\267_Swamp.png" id="267_Swamp" data-flag="@X" onclick="openSidebar('267_Swamp',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\268_Mountain.png" id="268_Mountain" data-flag="@X" onclick="openSidebar('268_Mountain',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\269_Forest.png" id="269_Forest" data-flag="@X" onclick="openSidebar('269_Forest',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\1t_Bird Soldier.png" id="1t_Bird Soldier" data-flag="@X" onclick="openSidebar('1t_Bird Soldier',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\2t_Bird Pirate.png" id="2t_Bird Pirate" data-flag="@X" onclick="openSidebar('2t_Bird Pirate',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\3t_Pirate.png" id="3t_Pirate" data-flag="@X" onclick="openSidebar('3t_Pirate',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\4t_Vampire.png" id="4t_Vampire" data-flag="@X" onclick="openSidebar('4t_Vampire',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\5t_Vampire Bat.png" id="5t_Vampire Bat" data-flag="@X" onclick="openSidebar('5t_Vampire Bat',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\6t_Vampire Knight.png" id="6t_Vampire Knight" data-flag="@X" onclick="openSidebar('6t_Vampire Knight',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\7t_Zombie.png" id="7t_Zombie" data-flag="@X" onclick="openSidebar('7t_Zombie',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\8t_Dragon.png" id="8t_Dragon" data-flag="@X" onclick="openSidebar('8t_Dragon',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\9t_Shaman.png" id="9t_Shaman" data-flag="@X" onclick="openSidebar('9t_Shaman',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\10t_Cat Pirate.png" id="10t_Cat Pirate" data-flag="@X" onclick="openSidebar('10t_Cat Pirate',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\11t_Saproling.png" id="11t_Saproling" data-flag="@X" onclick="openSidebar('11t_Saproling',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\12t_Bird Construct.png" id="12t_Bird Construct" data-flag="@X" onclick="openSidebar('12t_Bird Construct',false)"></div>
+			<div class="container"><img alt="/sets\SYZ-files\img\13t_Treasure_Pirate.png" id="13t_Treasure_Pirate" data-flag="@X" onclick="openSidebar('13t_Treasure_Pirate',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+	</div>
+</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch('/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+		
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = img.alt;
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		tmp = document.getElementById(num).src;
+		console.log(num);
+		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+		document.getElementById(num).dataset.alt_src = tmp;
+
+		if (num == 'sidebar_img')
+		{
+			const rotated_img = document.getElementById('sidebar_h_img');
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal && rotated_img.style.display == 'none')
+			{
+				rotated_img.style.display = "block";
+				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+			}
+			else
+			{
+				rotated_img.style.display = "none";
+				sidebar_img.style.filter = "";
+			}
+		}
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+		
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && sidebar_img.src.includes("_front"))
+		{
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+		
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+		
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL('search', window.location.origin);
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL('card', window.location.origin);
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url;
+			}
+	</script>
+</body>
+</html>
