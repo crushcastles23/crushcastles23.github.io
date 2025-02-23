@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="/sets/BEY-files/icon.png"/>
+	<link rel="stylesheet" href="/resources/header.css">
+	<title>BEY visual preview</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			display: none;
+			transform: rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+		}
+		.close-btn {
+			background: url('/img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('/img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 3%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 20px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+		}
+		.flip-btn {
+			background: url('/img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('/img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.icon-bar {
+			display: grid;
+			grid-template-columns: repeat(10, 3fr 2fr) 3fr;
+			gap: 1px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-top: 2%;
+			padding-bottom: 1%;
+			justify-items: center;
+			align-items: center;
+		}
+		.icon-bar .icon img {
+			width: 90%;
+			max-width: 80px;
+			height: auto;
+			display: block;
+			padding: 5%;
+			margin: auto;
+			text-align: center;
+		}
+		.icon-bar .dot img {
+			width: 50%;
+			max-width: 65px;
+			height: auto;
+			display: block;
+			margin: auto;
+			text-align: center;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="/img/dot.png" />
+	<img class="preload-hidden" src="/sets/BEY-files/logo.png" />
+	<img class="preload-hidden" src="/sets/BEY-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
+			<img class="sg-icon" src="/img/search.png">
+			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+		</div>
+	</div>
+
+	<div class="icon-bar">
+			<div class="icon"><a href="BEY"><img src="/sets/BEY-files/icon.png"></img></a></div>
+
+		</div>
+		<div class="banner">
+		<img class="logo" src="/sets/BEY-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+				<div class="container"><img alt="/sets\BEY-files\img\28_Riftglow Angel.png" id="28_Riftglow Angel" data-flag="@X" onclick="openSidebar('28_Riftglow Angel',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\75_Volta the Innovator.png" id="75_Volta the Innovator" data-flag="@X" onclick="openSidebar('75_Volta the Innovator',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\91_Karada the Silent.png" id="91_Karada the Silent" data-flag="@X" onclick="openSidebar('91_Karada the Silent',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\123_Harness the Infinite.png" id="123_Harness the Infinite" data-flag="@X" onclick="openSidebar('123_Harness the Infinite',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\157_Cryptobotany.png" id="157_Cryptobotany" data-flag="@X" onclick="openSidebar('157_Cryptobotany',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\9_Celestial Alignment.png" id="9_Celestial Alignment" data-flag="@X" onclick="openSidebar('9_Celestial Alignment',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\76_Vremya, the Time-Torn.png" id="76_Vremya, the Time-Torn" data-flag="@X" onclick="openSidebar('76_Vremya, the Time-Torn',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\92_Kosmaras, Apex of Fear.png" id="92_Kosmaras, Apex of Fear" data-flag="@X" onclick="openSidebar('92_Kosmaras, Apex of Fear',false)"></div>
+			<div class="container"><img data-alt_src="/sets\BEY-files\img\118_Deep Transport Pod_back.png" alt="/sets\BEY-files\img\118_Deep Transport Pod_front.png" id="118_Deep Transport Pod" data-flag="@XD" onclick="openSidebar('118_Deep Transport Pod',false)"><button class="flip-btn" onclick="imgFlip('118_Deep Transport Pod')"></button></div>
+			<div class="container"><img alt="/sets\BEY-files\img\154_Bloodflower Expedition.png" id="154_Bloodflower Expedition" data-flag="@X" onclick="openSidebar('154_Bloodflower Expedition',false)"></div>
+			<div class="container"><img data-alt_src="/sets\BEY-files\img\20_Hranicar, Twilight Ranger_back.png" alt="/sets\BEY-files\img\20_Hranicar, Twilight Ranger_front.png" id="20_Hranicar, Twilight Ranger" data-flag="@XD" onclick="openSidebar('20_Hranicar, Twilight Ranger',false)"><button class="flip-btn" onclick="imgFlip('20_Hranicar, Twilight Ranger')"></button></div>
+			<div class="container"><img alt="/sets\BEY-files\img\40_Adrift Alone.png" id="40_Adrift Alone" data-flag="@X" onclick="openSidebar('40_Adrift Alone',false)"></div>
+			<div class="container"><img data-alt_src="/sets\BEY-files\img\77_Apex Hunter_back.png" alt="/sets\BEY-files\img\77_Apex Hunter_front.png" id="77_Apex Hunter" data-flag="@XD" onclick="openSidebar('77_Apex Hunter',false)"><button class="flip-btn" onclick="imgFlip('77_Apex Hunter')"></button></div>
+			<div class="container"><img alt="/sets\BEY-files\img\119_Discreet Control.png" id="119_Discreet Control" data-flag="@X" onclick="openSidebar('119_Discreet Control',false)"></div>
+			<div class="container"><img data-alt_src="/sets\BEY-files\img\158_Digitization_back.png" alt="/sets\BEY-files\img\158_Digitization_front.png" id="158_Digitization" data-flag="@XD" onclick="openSidebar('158_Digitization',false)"><button class="flip-btn" onclick="imgFlip('158_Digitization')"></button></div>
+			<div class="container"><img alt="/sets\BEY-files\img\24_Orbital Defense Network.png" id="24_Orbital Defense Network" data-flag="@X" onclick="openSidebar('24_Orbital Defense Network',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\46_Defy Time.png" id="46_Defy Time" data-flag="@X" onclick="openSidebar('46_Defy Time',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\84_Caveborn Sliver.png" id="84_Caveborn Sliver" data-flag="@X" onclick="openSidebar('84_Caveborn Sliver',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\124_Harness the Star Forge.png" id="124_Harness the Star Forge" data-flag="@X" onclick="openSidebar('124_Harness the Star Forge',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\160_Expanding Ooze.png" id="160_Expanding Ooze" data-flag="@X" onclick="openSidebar('160_Expanding Ooze',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\25_Orbital Warfare.png" id="25_Orbital Warfare" data-flag="@X" onclick="openSidebar('25_Orbital Warfare',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\56_Mindflow Sliver.png" id="56_Mindflow Sliver" data-flag="@X" onclick="openSidebar('56_Mindflow Sliver',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\90_Information Tutor.png" id="90_Information Tutor" data-flag="@X" onclick="openSidebar('90_Information Tutor',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\129_Reality Titan.png" id="129_Reality Titan" data-flag="@X" onclick="openSidebar('129_Reality Titan',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\173_Outland Drone.png" id="173_Outland Drone" data-flag="@X" onclick="openSidebar('173_Outland Drone',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\27_Rapid Data Scanning System.png" id="27_Rapid Data Scanning System" data-flag="@X" onclick="openSidebar('27_Rapid Data Scanning System',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\57_The Mothership.png" id="57_The Mothership" data-flag="@X" onclick="openSidebar('57_The Mothership',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\97_Myach, Motorball Captain.png" id="97_Myach, Motorball Captain" data-flag="@X" onclick="openSidebar('97_Myach, Motorball Captain',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\136_Shattershard Sliver.png" id="136_Shattershard Sliver" data-flag="@X" onclick="openSidebar('136_Shattershard Sliver',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\178_Rubble Runner.png" id="178_Rubble Runner" data-flag="@X" onclick="openSidebar('178_Rubble Runner',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\31_Stone Sliver.png" id="31_Stone Sliver" data-flag="@X" onclick="openSidebar('31_Stone Sliver',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\64_Rift Jumper.png" id="64_Rift Jumper" data-flag="@X" onclick="openSidebar('64_Rift Jumper',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\98_Nebula Demon.png" id="98_Nebula Demon" data-flag="@X" onclick="openSidebar('98_Nebula Demon',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\147_Usik, Krevetka Druid.png" id="147_Usik, Krevetka Druid" data-flag="@X" onclick="openSidebar('147_Usik, Krevetka Druid',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\182_Striding Harvester.png" id="182_Striding Harvester" data-flag="@X" onclick="openSidebar('182_Striding Harvester',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\33_Stranded Pilot.png" id="33_Stranded Pilot" data-flag="@X" onclick="openSidebar('33_Stranded Pilot',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\65_Satellite Dish.png" id="65_Satellite Dish" data-flag="@X" onclick="openSidebar('65_Satellite Dish',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\105_Shadow Fleet Skiff.png" id="105_Shadow Fleet Skiff" data-flag="@X" onclick="openSidebar('105_Shadow Fleet Skiff',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\149_Will of the Universe.png" id="149_Will of the Universe" data-flag="@X" onclick="openSidebar('149_Will of the Universe',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\185_Willow Wood Sliver.png" id="185_Willow Wood Sliver" data-flag="@X" onclick="openSidebar('185_Willow Wood Sliver',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\4_Adrift in Purgatory.png" id="4_Adrift in Purgatory" data-flag="@X" onclick="openSidebar('4_Adrift in Purgatory',false)"></div>
+			<div class="container"><img data-alt_src="/sets\BEY-files\img\67_Search for the Rift_back.png" alt="/sets\BEY-files\img\67_Search for the Rift_front.png" id="67_Search for the Rift" data-flag="@XD" onclick="openSidebar('67_Search for the Rift',false)"><button class="flip-btn" onclick="imgFlip('67_Search for the Rift')"></button></div>
+			<div class="container"><img alt="/sets\BEY-files\img\110_Toxic Deathchaser.png" id="110_Toxic Deathchaser" data-flag="@X" onclick="openSidebar('110_Toxic Deathchaser',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\116_Combat Planning System.png" id="116_Combat Planning System" data-flag="@X" onclick="openSidebar('116_Combat Planning System',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\151_Apestronaut.png" id="151_Apestronaut" data-flag="@X" onclick="openSidebar('151_Apestronaut',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\6_Ash Blossom Sliver.png" id="6_Ash Blossom Sliver" data-flag="@X" onclick="openSidebar('6_Ash Blossom Sliver',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\41_Chart the Stars.png" id="41_Chart the Stars" data-flag="@X" onclick="openSidebar('41_Chart the Stars',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\78_Armed Arms.png" id="78_Armed Arms" data-flag="@X" onclick="openSidebar('78_Armed Arms',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\117_Curet, High Shaman.png" id="117_Curet, High Shaman" data-flag="@X" onclick="openSidebar('117_Curet, High Shaman',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\159_Endless Expedition.png" id="159_Endless Expedition" data-flag="@X" onclick="openSidebar('159_Endless Expedition',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\8_Biorobotics Research.png" id="8_Biorobotics Research" data-flag="@X" onclick="openSidebar('8_Biorobotics Research',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\45_Deep-Space Probe.png" id="45_Deep-Space Probe" data-flag="@X" onclick="openSidebar('45_Deep-Space Probe',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\86_Frozen Space.png" id="86_Frozen Space" data-flag="@X" onclick="openSidebar('86_Frozen Space',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\125_Motorball Match.png" id="125_Motorball Match" data-flag="@X" onclick="openSidebar('125_Motorball Match',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\163_Full Body Replacement Suit.png" id="163_Full Body Replacement Suit" data-flag="@X" onclick="openSidebar('163_Full Body Replacement Suit',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\14_Escape Pod.png" id="14_Escape Pod" data-flag="@X" onclick="openSidebar('14_Escape Pod',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\47_Desert Speeder.png" id="47_Desert Speeder" data-flag="@X" onclick="openSidebar('47_Desert Speeder',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\89_Hell Jumper.png" id="89_Hell Jumper" data-flag="@X" onclick="openSidebar('89_Hell Jumper',false)"></div>
+			<div class="container"><img data-alt_src="/sets\BEY-files\img\132_Scanner Jammer_back.png" alt="/sets\BEY-files\img\132_Scanner Jammer_front.png" id="132_Scanner Jammer" data-flag="@XD" onclick="openSidebar('132_Scanner Jammer',false)"><button class="flip-btn" onclick="imgFlip('132_Scanner Jammer')"></button></div>
+			<div class="container"><img data-alt_src="/sets\BEY-files\img\168_Journey Through Reality_back.png" alt="/sets\BEY-files\img\168_Journey Through Reality_front.png" id="168_Journey Through Reality" data-flag="@XD" onclick="openSidebar('168_Journey Through Reality',false)"><button class="flip-btn" onclick="imgFlip('168_Journey Through Reality')"></button></div>
+			<div class="container"><img alt="/sets\BEY-files\img\15_Event Horizon.png" id="15_Event Horizon" data-flag="@X" onclick="openSidebar('15_Event Horizon',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\54_Leaping Sliver.png" id="54_Leaping Sliver" data-flag="@X" onclick="openSidebar('54_Leaping Sliver',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\93_Leechcraft.png" id="93_Leechcraft" data-flag="@X" onclick="openSidebar('93_Leechcraft',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\140_Sparkwielder Drone.png" id="140_Sparkwielder Drone" data-flag="@X" onclick="openSidebar('140_Sparkwielder Drone',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\169_Juggernaut Armor.png" id="169_Juggernaut Armor" data-flag="@X" onclick="openSidebar('169_Juggernaut Armor',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\17_Gatherer Droid.png" id="17_Gatherer Droid" data-flag="@X" onclick="openSidebar('17_Gatherer Droid',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\60_Reality Diver.png" id="60_Reality Diver" data-flag="@X" onclick="openSidebar('60_Reality Diver',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\99_Perfected Assassin.png" id="99_Perfected Assassin" data-flag="@X" onclick="openSidebar('99_Perfected Assassin',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\141_Star Plunderer.png" id="141_Star Plunderer" data-flag="@X" onclick="openSidebar('141_Star Plunderer',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\171_Motorball Juggernaut.png" id="171_Motorball Juggernaut" data-flag="@X" onclick="openSidebar('171_Motorball Juggernaut',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\21_KRAB-M7 Mobile Combat Unit.png" id="21_KRAB-M7 Mobile Combat Unit" data-flag="@X" onclick="openSidebar('21_KRAB-M7 Mobile Combat Unit',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\62_Renegade Time Agent.png" id="62_Renegade Time Agent" data-flag="@X" onclick="openSidebar('62_Renegade Time Agent',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\106_Sudden Depressurization.png" id="106_Sudden Depressurization" data-flag="@X" onclick="openSidebar('106_Sudden Depressurization',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\144_The Vulture's Wing.png" id="144_The Vultures Wing" data-flag="@X" onclick="openSidebar('144_The Vultures Wing',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\172_Oaken Ship.png" id="172_Oaken Ship" data-flag="@X" onclick="openSidebar('172_Oaken Ship',false)"></div>
+			<div class="container"><img data-alt_src="/sets\BEY-files\img\22_Mechanical Hermit Crab_back.png" alt="/sets\BEY-files\img\22_Mechanical Hermit Crab_front.png" id="22_Mechanical Hermit Crab" data-flag="@XD" onclick="openSidebar('22_Mechanical Hermit Crab',false)"><button class="flip-btn" onclick="imgFlip('22_Mechanical Hermit Crab')"></button></div>
+			<div class="container"><img alt="/sets\BEY-files\img\70_Shadow Fleet Gunner.png" id="70_Shadow Fleet Gunner" data-flag="@X" onclick="openSidebar('70_Shadow Fleet Gunner',false)"></div>
+			<div class="container"><img data-alt_src="/sets\BEY-files\img\107_Suspicious Crewmate_back.png" alt="/sets\BEY-files\img\107_Suspicious Crewmate_front.png" id="107_Suspicious Crewmate" data-flag="@XD" onclick="openSidebar('107_Suspicious Crewmate',false)"><button class="flip-btn" onclick="imgFlip('107_Suspicious Crewmate')"></button></div>
+			<div class="container"><img alt="/sets\BEY-files\img\146_Uncontrolled Discharge.png" id="146_Uncontrolled Discharge" data-flag="@X" onclick="openSidebar('146_Uncontrolled Discharge',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\177_Pugilist Sliver.png" id="177_Pugilist Sliver" data-flag="@X" onclick="openSidebar('177_Pugilist Sliver',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\30_Sparkwelder.png" id="30_Sparkwelder" data-flag="@X" onclick="openSidebar('30_Sparkwelder',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\72_Tale of the Mind's Eye.png" id="72_Tale of the Minds Eye" data-flag="@X" onclick="openSidebar('72_Tale of the Minds Eye',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\109_Thorntail Sliver.png" id="109_Thorntail Sliver" data-flag="@X" onclick="openSidebar('109_Thorntail Sliver',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\148_Whiptail Sliver.png" id="148_Whiptail Sliver" data-flag="@X" onclick="openSidebar('148_Whiptail Sliver',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\183_Take a Sample.png" id="183_Take a Sample" data-flag="@X" onclick="openSidebar('183_Take a Sample',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\5_Advanced Targeting System.png" id="5_Advanced Targeting System" data-flag="@X" onclick="openSidebar('5_Advanced Targeting System',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\74_Viewfinder.png" id="74_Viewfinder" data-flag="@X" onclick="openSidebar('74_Viewfinder',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\112_Vershina, Apex of Night.png" id="112_Vershina, Apex of Night" data-flag="@X" onclick="openSidebar('112_Vershina, Apex of Night',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\114_Alien Invasion.png" id="114_Alien Invasion" data-flag="@X" onclick="openSidebar('114_Alien Invasion',false)"></div>
+			<div class="container"><img data-alt_src="/sets\BEY-files\img\150_All-Terrain Rover_back.png" alt="/sets\BEY-files\img\150_All-Terrain Rover_front.png" id="150_All-Terrain Rover" data-flag="@XD" onclick="openSidebar('150_All-Terrain Rover',false)"><button class="flip-btn" onclick="imgFlip('150_All-Terrain Rover')"></button></div>
+			<div class="container"><img alt="/sets\BEY-files\img\7_Automated Patrol Unit.png" id="7_Automated Patrol Unit" data-flag="@X" onclick="openSidebar('7_Automated Patrol Unit',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\42_Cloud Seeder.png" id="42_Cloud Seeder" data-flag="@X" onclick="openSidebar('42_Cloud Seeder',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\79_Ashheart Sliver.png" id="79_Ashheart Sliver" data-flag="@X" onclick="openSidebar('79_Ashheart Sliver',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\115_Blood Red Tide.png" id="115_Blood Red Tide" data-flag="@X" onclick="openSidebar('115_Blood Red Tide',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\152_Automated Construction.png" id="152_Automated Construction" data-flag="@X" onclick="openSidebar('152_Automated Construction',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\10_Close Combat Modifications.png" id="10_Close Combat Modifications" data-flag="@X" onclick="openSidebar('10_Close Combat Modifications',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\43_Contact the Grid.png" id="43_Contact the Grid" data-flag="@X" onclick="openSidebar('43_Contact the Grid',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\80_Augmented Assassin.png" id="80_Augmented Assassin" data-flag="@X" onclick="openSidebar('80_Augmented Assassin',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\120_Electrical Controller.png" id="120_Electrical Controller" data-flag="@X" onclick="openSidebar('120_Electrical Controller',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\153_Bar-Room Blitz.png" id="153_Bar-Room Blitz" data-flag="@X" onclick="openSidebar('153_Bar-Room Blitz',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\11_Debris Recovery Drone.png" id="11_Debris Recovery Drone" data-flag="@X" onclick="openSidebar('11_Debris Recovery Drone',false)"></div>
+			<div class="container"><img data-alt_src="/sets\BEY-files\img\44_Crystalline Simulacrum_back.png" alt="/sets\BEY-files\img\44_Crystalline Simulacrum_front.png" id="44_Crystalline Simulacrum" data-flag="@XD" onclick="openSidebar('44_Crystalline Simulacrum',false)"><button class="flip-btn" onclick="imgFlip('44_Crystalline Simulacrum')"></button></div>
+			<div class="container"><img data-alt_src="/sets\BEY-files\img\81_Augmented Ranger_back.png" alt="/sets\BEY-files\img\81_Augmented Ranger_front.png" id="81_Augmented Ranger" data-flag="@XD" onclick="openSidebar('81_Augmented Ranger',false)"><button class="flip-btn" onclick="imgFlip('81_Augmented Ranger')"></button></div>
+			<div class="container"><img alt="/sets\BEY-files\img\121_An Eternity Together.png" id="121_An Eternity Together" data-flag="@X" onclick="openSidebar('121_An Eternity Together',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\155_Chirka Xenoflorist.png" id="155_Chirka Xenoflorist" data-flag="@X" onclick="openSidebar('155_Chirka Xenoflorist',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\12_Disrupted Sliver.png" id="12_Disrupted Sliver" data-flag="@X" onclick="openSidebar('12_Disrupted Sliver',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\48_Eject.png" id="48_Eject" data-flag="@X" onclick="openSidebar('48_Eject',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\82_Burst From Beneath.png" id="82_Burst From Beneath" data-flag="@X" onclick="openSidebar('82_Burst From Beneath',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\122_Grand Theft.png" id="122_Grand Theft" data-flag="@X" onclick="openSidebar('122_Grand Theft',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\156_Colossal Mecha.png" id="156_Colossal Mecha" data-flag="@X" onclick="openSidebar('156_Colossal Mecha',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\13_Drone Bay.png" id="13_Drone Bay" data-flag="@X" onclick="openSidebar('13_Drone Bay',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\49_Enhanced Optics.png" id="49_Enhanced Optics" data-flag="@X" onclick="openSidebar('49_Enhanced Optics',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\83_Cannon Arm.png" id="83_Cannon Arm" data-flag="@X" onclick="openSidebar('83_Cannon Arm',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\126_Outland Anarchist.png" id="126_Outland Anarchist" data-flag="@X" onclick="openSidebar('126_Outland Anarchist',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\161_Explore.png" id="161_Explore" data-flag="@X" onclick="openSidebar('161_Explore',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\16_Frozen Expedition.png" id="16_Frozen Expedition" data-flag="@X" onclick="openSidebar('16_Frozen Expedition',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\50_Evasive Maneuver.png" id="50_Evasive Maneuver" data-flag="@X" onclick="openSidebar('50_Evasive Maneuver',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\85_Continous Combat System.png" id="85_Continous Combat System" data-flag="@X" onclick="openSidebar('85_Continous Combat System',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\127_Outland Pod Racer.png" id="127_Outland Pod Racer" data-flag="@X" onclick="openSidebar('127_Outland Pod Racer',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\162_Explore the Unknown.png" id="162_Explore the Unknown" data-flag="@X" onclick="openSidebar('162_Explore the Unknown',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\18_Gem-Wing Drake.png" id="18_Gem-Wing Drake" data-flag="@X" onclick="openSidebar('18_Gem-Wing Drake',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\51_Fall From Reality.png" id="51_Fall From Reality" data-flag="@X" onclick="openSidebar('51_Fall From Reality',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\87_Ghost Agent.png" id="87_Ghost Agent" data-flag="@X" onclick="openSidebar('87_Ghost Agent',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\128_Outland Wing-Raider.png" id="128_Outland Wing-Raider" data-flag="@X" onclick="openSidebar('128_Outland Wing-Raider',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\164_Fusion Druid.png" id="164_Fusion Druid" data-flag="@X" onclick="openSidebar('164_Fusion Druid',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\19_Hard Landing.png" id="19_Hard Landing" data-flag="@X" onclick="openSidebar('19_Hard Landing',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\52_Gliding Manta.png" id="52_Gliding Manta" data-flag="@X" onclick="openSidebar('52_Gliding Manta',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\88_Heavy Armor Suit.png" id="88_Heavy Armor Suit" data-flag="@X" onclick="openSidebar('88_Heavy Armor Suit',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\130_Reconfigure Reality.png" id="130_Reconfigure Reality" data-flag="@X" onclick="openSidebar('130_Reconfigure Reality',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\165_Geothermal Crucible.png" id="165_Geothermal Crucible" data-flag="@X" onclick="openSidebar('165_Geothermal Crucible',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\23_Motorball Speedster.png" id="23_Motorball Speedster" data-flag="@X" onclick="openSidebar('23_Motorball Speedster',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\53_Jump Pack.png" id="53_Jump Pack" data-flag="@X" onclick="openSidebar('53_Jump Pack',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\94_Long Dead Astronaut.png" id="94_Long Dead Astronaut" data-flag="@X" onclick="openSidebar('94_Long Dead Astronaut',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\131_Rewrite Memories.png" id="131_Rewrite Memories" data-flag="@X" onclick="openSidebar('131_Rewrite Memories',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\166_Heavy Mecha.png" id="166_Heavy Mecha" data-flag="@X" onclick="openSidebar('166_Heavy Mecha',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\26_Personnel Protection System.png" id="26_Personnel Protection System" data-flag="@X" onclick="openSidebar('26_Personnel Protection System',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\55_Midnight Runner.png" id="55_Midnight Runner" data-flag="@X" onclick="openSidebar('55_Midnight Runner',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\95_Memory Specter.png" id="95_Memory Specter" data-flag="@X" onclick="openSidebar('95_Memory Specter',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\133_Scrap-Iron Reaper.png" id="133_Scrap-Iron Reaper" data-flag="@X" onclick="openSidebar('133_Scrap-Iron Reaper',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\167_Iron Arm.png" id="167_Iron Arm" data-flag="@X" onclick="openSidebar('167_Iron Arm',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\29_Sky Lancer.png" id="29_Sky Lancer" data-flag="@X" onclick="openSidebar('29_Sky Lancer',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\58_Neutral Buoyancy System.png" id="58_Neutral Buoyancy System" data-flag="@X" onclick="openSidebar('58_Neutral Buoyancy System',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\96_Motorball Assassin.png" id="96_Motorball Assassin" data-flag="@X" onclick="openSidebar('96_Motorball Assassin',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\134_Screaming Cassowary.png" id="134_Screaming Cassowary" data-flag="@X" onclick="openSidebar('134_Screaming Cassowary',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\170_Maintenance Drone.png" id="170_Maintenance Drone" data-flag="@X" onclick="openSidebar('170_Maintenance Drone',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\32_Stranded.png" id="32_Stranded" data-flag="@X" onclick="openSidebar('32_Stranded',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\59_Reality Distortion.png" id="59_Reality Distortion" data-flag="@X" onclick="openSidebar('59_Reality Distortion',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\100_Pirate's Pension.png" id="100_Pirates Pension" data-flag="@X" onclick="openSidebar('100_Pirates Pension',false)"></div>
+			<div class="container"><img data-alt_src="/sets\BEY-files\img\135_Shatter Shot_back.png" alt="/sets\BEY-files\img\135_Shatter Shot_front.png" id="135_Shatter Shot" data-flag="@XD" onclick="openSidebar('135_Shatter Shot',false)"><button class="flip-btn" onclick="imgFlip('135_Shatter Shot')"></button></div>
+			<div class="container"><img alt="/sets\BEY-files\img\174_Outland Ranger.png" id="174_Outland Ranger" data-flag="@X" onclick="openSidebar('174_Outland Ranger',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\34_Take a Cut.png" id="34_Take a Cut" data-flag="@X" onclick="openSidebar('34_Take a Cut',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\61_Relic of Time.png" id="61_Relic of Time" data-flag="@X" onclick="openSidebar('61_Relic of Time',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\101_Ransack the Lab.png" id="101_Ransack the Lab" data-flag="@X" onclick="openSidebar('101_Ransack the Lab',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\137_Solar Hellion.png" id="137_Solar Hellion" data-flag="@X" onclick="openSidebar('137_Solar Hellion',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\175_Pounce.png" id="175_Pounce" data-flag="@X" onclick="openSidebar('175_Pounce',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\35_Unlicensed Physician.png" id="35_Unlicensed Physician" data-flag="@X" onclick="openSidebar('35_Unlicensed Physician',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\63_Research Reality.png" id="63_Research Reality" data-flag="@X" onclick="openSidebar('63_Research Reality',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\102_Replacement Arm.png" id="102_Replacement Arm" data-flag="@X" onclick="openSidebar('102_Replacement Arm',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\138_Sonic Cannon.png" id="138_Sonic Cannon" data-flag="@X" onclick="openSidebar('138_Sonic Cannon',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\176_Prishelet Psyker.png" id="176_Prishelet Psyker" data-flag="@X" onclick="openSidebar('176_Prishelet Psyker',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\36_Warped Knight.png" id="36_Warped Knight" data-flag="@X" onclick="openSidebar('36_Warped Knight',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\66_Satellite Smasher.png" id="66_Satellite Smasher" data-flag="@X" onclick="openSidebar('66_Satellite Smasher',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\103_Shadow Fleet Galleon.png" id="103_Shadow Fleet Galleon" data-flag="@X" onclick="openSidebar('103_Shadow Fleet Galleon',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\139_Soundpunk.png" id="139_Soundpunk" data-flag="@X" onclick="openSidebar('139_Soundpunk',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\179_Slick Sliver.png" id="179_Slick Sliver" data-flag="@X" onclick="openSidebar('179_Slick Sliver',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\37_Wasp Strike Fighter.png" id="37_Wasp Strike Fighter" data-flag="@X" onclick="openSidebar('37_Wasp Strike Fighter',false)"></div>
+			<div class="container"><img data-alt_src="/sets\BEY-files\img\68_Search for the Station_back.png" alt="/sets\BEY-files\img\68_Search for the Station_front.png" id="68_Search for the Station" data-flag="@XD" onclick="openSidebar('68_Search for the Station',false)"><button class="flip-btn" onclick="imgFlip('68_Search for the Station')"></button></div>
+			<div class="container"><img alt="/sets\BEY-files\img\104_Shadow Fleet Harpooner.png" id="104_Shadow Fleet Harpooner" data-flag="@X" onclick="openSidebar('104_Shadow Fleet Harpooner',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\142_Stonespike Sliver.png" id="142_Stonespike Sliver" data-flag="@X" onclick="openSidebar('142_Stonespike Sliver',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\180_Space Mole.png" id="180_Space Mole" data-flag="@X" onclick="openSidebar('180_Space Mole',false)"></div>
+			<div class="container"><img data-alt_src="/sets\BEY-files\img\38_Wayfaring Scout_back.png" alt="/sets\BEY-files\img\38_Wayfaring Scout_front.png" id="38_Wayfaring Scout" data-flag="@XD" onclick="openSidebar('38_Wayfaring Scout',false)"><button class="flip-btn" onclick="imgFlip('38_Wayfaring Scout')"></button></div>
+			<div class="container"><img alt="/sets\BEY-files\img\69_Serpentine Sliver.png" id="69_Serpentine Sliver" data-flag="@X" onclick="openSidebar('69_Serpentine Sliver',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\108_Tear From the Shadows.png" id="108_Tear From the Shadows" data-flag="@X" onclick="openSidebar('108_Tear From the Shadows',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\143_Striding Warrior.png" id="143_Striding Warrior" data-flag="@X" onclick="openSidebar('143_Striding Warrior',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\181_Spark of Life.png" id="181_Spark of Life" data-flag="@X" onclick="openSidebar('181_Spark of Life',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\39_White Rabbit.png" id="39_White Rabbit" data-flag="@X" onclick="openSidebar('39_White Rabbit',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\71_Starglow Jellyfish.png" id="71_Starglow Jellyfish" data-flag="@X" onclick="openSidebar('71_Starglow Jellyfish',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\111_Undead Strike.png" id="111_Undead Strike" data-flag="@X" onclick="openSidebar('111_Undead Strike',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\145_Time Displaced Drone.png" id="145_Time Displaced Drone" data-flag="@X" onclick="openSidebar('145_Time Displaced Drone',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\184_Vast Stillness.png" id="184_Vast Stillness" data-flag="@X" onclick="openSidebar('184_Vast Stillness',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\73_Veteran Pilot.png" id="73_Veteran Pilot" data-flag="@X" onclick="openSidebar('73_Veteran Pilot',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\113_Warp Space.png" id="113_Warp Space" data-flag="@X" onclick="openSidebar('113_Warp Space',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\207_Orion-1, Elite Pilot.png" id="207_Orion-1, Elite Pilot" data-flag="@X" onclick="openSidebar('207_Orion-1, Elite Pilot',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\206_Nost, Reality Bender.png" id="206_Nost, Reality Bender" data-flag="@X" onclick="openSidebar('206_Nost, Reality Bender',false)"></div>
+			<div class="container"><img data-alt_src="/sets\BEY-files\img\186_Agile Artillery_back.png" alt="/sets\BEY-files\img\186_Agile Artillery_front.png" id="186_Agile Artillery" data-flag="@XD" onclick="openSidebar('186_Agile Artillery',false)"><button class="flip-btn" onclick="imgFlip('186_Agile Artillery')"></button></div>
+			<div class="container"><img alt="/sets\BEY-files\img\196_Herox, the Wildblade.png" id="196_Herox, the Wildblade" data-flag="@X" onclick="openSidebar('196_Herox, the Wildblade',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\195_Grib-Ok, the Leader.png" id="195_Grib-Ok, the Leader" data-flag="@X" onclick="openSidebar('195_Grib-Ok, the Leader',false)"></div>
+			<div class="container"><img data-alt_src="/sets\BEY-files\img\208_Plugged In_back.png" alt="/sets\BEY-files\img\208_Plugged In_front.png" id="208_Plugged In" data-flag="@XD" onclick="openSidebar('208_Plugged In',false)"><button class="flip-btn" onclick="imgFlip('208_Plugged In')"></button></div>
+			<div class="container"><img alt="/sets\BEY-files\img\199_Kalrith, Shadow Fleet Admiral.png" id="199_Kalrith, Shadow Fleet Admiral" data-flag="@X" onclick="openSidebar('199_Kalrith, Shadow Fleet Admiral',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\203_Motorball Thrasher.png" id="203_Motorball Thrasher" data-flag="@X" onclick="openSidebar('203_Motorball Thrasher',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\200_Khlam, Junkernaut.png" id="200_Khlam, Junkernaut" data-flag="@X" onclick="openSidebar('200_Khlam, Junkernaut',false)"></div>
+			<div class="container"><img data-alt_src="/sets\BEY-files\img\213_Stellar Spawning Ground_back.png" alt="/sets\BEY-files\img\213_Stellar Spawning Ground_front.png" id="213_Stellar Spawning Ground" data-flag="@XD" onclick="openSidebar('213_Stellar Spawning Ground',false)"><button class="flip-btn" onclick="imgFlip('213_Stellar Spawning Ground')"></button></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img data-alt_src="/sets\BEY-files\img\216_Time Guardian_back.png" alt="/sets\BEY-files\img\216_Time Guardian_front.png" id="216_Time Guardian" data-flag="@XD" onclick="openSidebar('216_Time Guardian',false)"><button class="flip-btn" onclick="imgFlip('216_Time Guardian')"></button></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img data-alt_src="/sets\BEY-files\img\197_Ilgas, Long Shot_back.png" alt="/sets\BEY-files\img\197_Ilgas, Long Shot_front.png" id="197_Ilgas, Long Shot" data-flag="@XD" onclick="openSidebar('197_Ilgas, Long Shot',false)"><button class="flip-btn" onclick="imgFlip('197_Ilgas, Long Shot')"></button></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\209_Prekonat, Transcendent.png" id="209_Prekonat, Transcendent" data-flag="@X" onclick="openSidebar('209_Prekonat, Transcendent',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\212_Sobaka, Grizzled Smuggler.png" id="212_Sobaka, Grizzled Smuggler" data-flag="@X" onclick="openSidebar('212_Sobaka, Grizzled Smuggler',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\215_The Nautilus.png" id="215_The Nautilus" data-flag="@X" onclick="openSidebar('215_The Nautilus',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\194_Glyxl, Prishelet Bioengineer.png" id="194_Glyxl, Prishelet Bioengineer" data-flag="@X" onclick="openSidebar('194_Glyxl, Prishelet Bioengineer',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\219_The Wild.png" id="219_The Wild" data-flag="@X" onclick="openSidebar('219_The Wild',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img data-alt_src="/sets\BEY-files\img\214_Stonh, the Silent_back.png" alt="/sets\BEY-files\img\214_Stonh, the Silent_front.png" id="214_Stonh, the Silent" data-flag="@XD" onclick="openSidebar('214_Stonh, the Silent',false)"><button class="flip-btn" onclick="imgFlip('214_Stonh, the Silent')"></button></div>
+			<div class="container"><img alt="/sets\BEY-files\img\188_Biohacker.png" id="188_Biohacker" data-flag="@X" onclick="openSidebar('188_Biohacker',false)"></div>
+			<div class="container"><img data-alt_src="/sets\BEY-files\img\221_Zveda, Who Seeks Stars_back.png" alt="/sets\BEY-files\img\221_Zveda, Who Seeks Stars_front.png" id="221_Zveda, Who Seeks Stars" data-flag="@XD" onclick="openSidebar('221_Zveda, Who Seeks Stars',false)"><button class="flip-btn" onclick="imgFlip('221_Zveda, Who Seeks Stars')"></button></div>
+			<div class="container"><img alt="/sets\BEY-files\img\192_Desert Speedster.png" id="192_Desert Speedster" data-flag="@X" onclick="openSidebar('192_Desert Speedster',false)"></div>
+			<div class="container"><img data-alt_src="/sets\BEY-files\img\217_Trogat, the Searcher_back.png" alt="/sets\BEY-files\img\217_Trogat, the Searcher_front.png" id="217_Trogat, the Searcher" data-flag="@XD" onclick="openSidebar('217_Trogat, the Searcher',false)"><button class="flip-btn" onclick="imgFlip('217_Trogat, the Searcher')"></button></div>
+			<div class="container"><img alt="/sets\BEY-files\img\189_Blood Valley Butcher.png" id="189_Blood Valley Butcher" data-flag="@X" onclick="openSidebar('189_Blood Valley Butcher',false)"></div>
+			<div class="container"><img data-alt_src="/sets\BEY-files\img\211_Shoot Down_back.png" alt="/sets\BEY-files\img\211_Shoot Down_front.png" id="211_Shoot Down" data-flag="@XD" onclick="openSidebar('211_Shoot Down',false)"><button class="flip-btn" onclick="imgFlip('211_Shoot Down')"></button></div>
+			<div class="container"><img alt="/sets\BEY-files\img\198_Interstellar Drifter.png" id="198_Interstellar Drifter" data-flag="@X" onclick="openSidebar('198_Interstellar Drifter',false)"></div>
+			<div class="container"><img data-alt_src="/sets\BEY-files\img\201_Krevetka Legion Ship_back.png" alt="/sets\BEY-files\img\201_Krevetka Legion Ship_front.png" id="201_Krevetka Legion Ship" data-flag="@XD" onclick="openSidebar('201_Krevetka Legion Ship',false)"><button class="flip-btn" onclick="imgFlip('201_Krevetka Legion Ship')"></button></div>
+			<div class="container"><img alt="/sets\BEY-files\img\210_Salkes, Data Miner.png" id="210_Salkes, Data Miner" data-flag="@X" onclick="openSidebar('210_Salkes, Data Miner',false)"></div>
+			<div class="container"><img data-alt_src="/sets\BEY-files\img\193_Edge of Reality_back.png" alt="/sets\BEY-files\img\193_Edge of Reality_front.png" id="193_Edge of Reality" data-flag="@XD" onclick="openSidebar('193_Edge of Reality',false)"><button class="flip-btn" onclick="imgFlip('193_Edge of Reality')"></button></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img data-alt_src="/sets\BEY-files\img\205_Neyr, Cyber Diver_back.png" alt="/sets\BEY-files\img\205_Neyr, Cyber Diver_front.png" id="205_Neyr, Cyber Diver" data-flag="@XD" onclick="openSidebar('205_Neyr, Cyber Diver',false)"><button class="flip-btn" onclick="imgFlip('205_Neyr, Cyber Diver')"></button></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img data-alt_src="/sets\BEY-files\img\220_Zhelezo, Scrap Warlord_back.png" alt="/sets\BEY-files\img\220_Zhelezo, Scrap Warlord_front.png" id="220_Zhelezo, Scrap Warlord" data-flag="@XD" onclick="openSidebar('220_Zhelezo, Scrap Warlord',false)"><button class="flip-btn" onclick="imgFlip('220_Zhelezo, Scrap Warlord')"></button></div>
+			<div class="container"><img alt="/sets\BEY-files\img\187_Augmentation Station.png" id="187_Augmentation Station" data-flag="@X" onclick="openSidebar('187_Augmentation Station',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\190_Brodit, Doomed to Wander.png" id="190_Brodit, Doomed to Wander" data-flag="@X" onclick="openSidebar('190_Brodit, Doomed to Wander',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\191_Catinas, Star Fighter.png" id="191_Catinas, Star Fighter" data-flag="@X" onclick="openSidebar('191_Catinas, Star Fighter',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\202_Modified Agent.png" id="202_Modified Agent" data-flag="@X" onclick="openSidebar('202_Modified Agent',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\204_Mutagenic Core.png" id="204_Mutagenic Core" data-flag="@X" onclick="openSidebar('204_Mutagenic Core',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\218_Vozitsa, the Tinkerer.png" id="218_Vozitsa, the Tinkerer" data-flag="@X" onclick="openSidebar('218_Vozitsa, the Tinkerer',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img data-alt_src="/sets\BEY-files\img\3_Interplanar Interloper_back.png" alt="/sets\BEY-files\img\3_Interplanar Interloper_front.png" id="3_Interplanar Interloper" data-flag="@XD" onclick="openSidebar('3_Interplanar Interloper',false)"><button class="flip-btn" onclick="imgFlip('3_Interplanar Interloper')"></button></div>
+			<div class="container"><img alt="/sets\BEY-files\img\224_Infinity.png" id="224_Infinity" data-flag="@X" onclick="openSidebar('224_Infinity',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\227_The Prophet.png" id="227_The Prophet" data-flag="@X" onclick="openSidebar('227_The Prophet',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\2_Death of the Hivelord.png" id="2_Death of the Hivelord" data-flag="@X" onclick="openSidebar('2_Death of the Hivelord',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\223_Grand Armillary.png" id="223_Grand Armillary" data-flag="@X" onclick="openSidebar('223_Grand Armillary',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\225_Landing Platform.png" id="225_Landing Platform" data-flag="@X" onclick="openSidebar('225_Landing Platform',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\226_Patchwork Automaton.png" id="226_Patchwork Automaton" data-flag="@X" onclick="openSidebar('226_Patchwork Automaton',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\228_Warp Gate.png" id="228_Warp Gate" data-flag="@X" onclick="openSidebar('228_Warp Gate',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\229_Weapon of Mass Creation.png" id="229_Weapon of Mass Creation" data-flag="@X" onclick="openSidebar('229_Weapon of Mass Creation',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\1_Basic Implant.png" id="1_Basic Implant" data-flag="@X" onclick="openSidebar('1_Basic Implant',false)"></div>
+			<div class="container"><img data-alt_src="/sets\BEY-files\img\222_Autonomous Drone_back.png" alt="/sets\BEY-files\img\222_Autonomous Drone_front.png" id="222_Autonomous Drone" data-flag="@XD" onclick="openSidebar('222_Autonomous Drone',false)"><button class="flip-btn" onclick="imgFlip('222_Autonomous Drone')"></button></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\263_Shallow Bay.png" id="263_Shallow Bay" data-flag="@X" onclick="openSidebar('263_Shallow Bay',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\261_Rotting Village.png" id="261_Rotting Village" data-flag="@X" onclick="openSidebar('261_Rotting Village',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\232_Burning Spires.png" id="232_Burning Spires" data-flag="@X" onclick="openSidebar('232_Burning Spires',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\244_Goliath Bloom.png" id="244_Goliath Bloom" data-flag="@X" onclick="openSidebar('244_Goliath Bloom',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\267_Tangleroot Meadows.png" id="267_Tangleroot Meadows" data-flag="@X" onclick="openSidebar('267_Tangleroot Meadows',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\271_Wandering Floodplain.png" id="271_Wandering Floodplain" data-flag="@X" onclick="openSidebar('271_Wandering Floodplain',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\249_Luminescent Lakes.png" id="249_Luminescent Lakes" data-flag="@X" onclick="openSidebar('249_Luminescent Lakes',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\231_Ashrotten Trees.png" id="231_Ashrotten Trees" data-flag="@X" onclick="openSidebar('231_Ashrotten Trees',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\242_Forest Fortifications.png" id="242_Forest Fortifications" data-flag="@X" onclick="openSidebar('242_Forest Fortifications',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\250_Merchantile Village.png" id="250_Merchantile Village" data-flag="@X" onclick="openSidebar('250_Merchantile Village',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\269_Tropical Bay.png" id="269_Tropical Bay" data-flag="@X" onclick="openSidebar('269_Tropical Bay',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\236_Darkwater Creek.png" id="236_Darkwater Creek" data-flag="@X" onclick="openSidebar('236_Darkwater Creek',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\251_Moonlit Caves.png" id="251_Moonlit Caves" data-flag="@X" onclick="openSidebar('251_Moonlit Caves',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\248_Jagged Peaks.png" id="248_Jagged Peaks" data-flag="@X" onclick="openSidebar('248_Jagged Peaks',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\241_Flowering Fields.png" id="241_Flowering Fields" data-flag="@X" onclick="openSidebar('241_Flowering Fields',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\272_Yawning Caverns.png" id="272_Yawning Caverns" data-flag="@X" onclick="openSidebar('272_Yawning Caverns',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\234_Colony Tree.png" id="234_Colony Tree" data-flag="@X" onclick="openSidebar('234_Colony Tree',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\259_Overgrown Wilds.png" id="259_Overgrown Wilds" data-flag="@X" onclick="openSidebar('259_Overgrown Wilds',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\265_Static Stormfront.png" id="265_Static Stormfront" data-flag="@X" onclick="openSidebar('265_Static Stormfront',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\252_Mountain Gate.png" id="252_Mountain Gate" data-flag="@X" onclick="openSidebar('252_Mountain Gate',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\245_Hallowed Graveyard.png" id="245_Hallowed Graveyard" data-flag="@X" onclick="openSidebar('245_Hallowed Graveyard',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\260_Rotting Cathedral.png" id="260_Rotting Cathedral" data-flag="@X" onclick="openSidebar('260_Rotting Cathedral',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\240_Fertile Riverbanks.png" id="240_Fertile Riverbanks" data-flag="@X" onclick="openSidebar('240_Fertile Riverbanks',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\266_Steamspewer Volcano.png" id="266_Steamspewer Volcano" data-flag="@X" onclick="openSidebar('266_Steamspewer Volcano',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\238_Elevated Crossroads.png" id="238_Elevated Crossroads" data-flag="@X" onclick="openSidebar('238_Elevated Crossroads',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\262_Sandy Fields.png" id="262_Sandy Fields" data-flag="@X" onclick="openSidebar('262_Sandy Fields',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\270_Verdant Jungle.png" id="270_Verdant Jungle" data-flag="@X" onclick="openSidebar('270_Verdant Jungle',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\233_Cascading Stream.png" id="233_Cascading Stream" data-flag="@X" onclick="openSidebar('233_Cascading Stream',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\246_Highwater Falls.png" id="246_Highwater Falls" data-flag="@X" onclick="openSidebar('246_Highwater Falls',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\239_Eroded Canyon.png" id="239_Eroded Canyon" data-flag="@X" onclick="openSidebar('239_Eroded Canyon',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\237_Dyson Sphere.png" id="237_Dyson Sphere" data-flag="@X" onclick="openSidebar('237_Dyson Sphere',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\253_Nexus of Reality.png" id="253_Nexus of Reality" data-flag="@X" onclick="openSidebar('253_Nexus of Reality',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\247_Infinitely Deep Hole.png" id="247_Infinitely Deep Hole" data-flag="@X" onclick="openSidebar('247_Infinitely Deep Hole',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\254_Outland Camp.png" id="254_Outland Camp" data-flag="@X" onclick="openSidebar('254_Outland Camp',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\255_Outland Fortification.png" id="255_Outland Fortification" data-flag="@X" onclick="openSidebar('255_Outland Fortification',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\256_Outland Marsh.png" id="256_Outland Marsh" data-flag="@X" onclick="openSidebar('256_Outland Marsh',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\257_Outland Reef.png" id="257_Outland Reef" data-flag="@X" onclick="openSidebar('257_Outland Reef',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\258_Outland Wilds.png" id="258_Outland Wilds" data-flag="@X" onclick="openSidebar('258_Outland Wilds',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\264_Shimmerrift Caverns.png" id="264_Shimmerrift Caverns" data-flag="@X" onclick="openSidebar('264_Shimmerrift Caverns',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\268_Technology Workshop.png" id="268_Technology Workshop" data-flag="@X" onclick="openSidebar('268_Technology Workshop',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\230_Apex of Reality.png" id="230_Apex of Reality" data-flag="@X" onclick="openSidebar('230_Apex of Reality',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\235_Crash Site.png" id="235_Crash Site" data-flag="@X" onclick="openSidebar('235_Crash Site',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\243_Fractured Skies.png" id="243_Fractured Skies" data-flag="@X" onclick="openSidebar('243_Fractured Skies',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\273_Plains.png" id="273_Plains" data-flag="@X" onclick="openSidebar('273_Plains',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\274_Island.png" id="274_Island" data-flag="@X" onclick="openSidebar('274_Island',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\275_Swamp.png" id="275_Swamp" data-flag="@X" onclick="openSidebar('275_Swamp',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\276_Mountain.png" id="276_Mountain" data-flag="@X" onclick="openSidebar('276_Mountain',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\277_Forest.png" id="277_Forest" data-flag="@X" onclick="openSidebar('277_Forest',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\1t_Innovation Tracker.png" id="1t_Innovation Tracker" data-flag="@X" onclick="openSidebar('1t_Innovation Tracker',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\2t_Sliver.png" id="2t_Sliver" data-flag="@X" onclick="openSidebar('2t_Sliver',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\3t_Arka, High Wizard.png" id="3t_Arka, High Wizard" data-flag="@X" onclick="openSidebar('3t_Arka, High Wizard',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\4t_Goblin Alien.png" id="4t_Goblin Alien" data-flag="@X" onclick="openSidebar('4t_Goblin Alien',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\5t_Grib.png" id="5t_Grib" data-flag="@X" onclick="openSidebar('5t_Grib',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\6t_Pered, Star's Light.png" id="6t_Pered, Stars Light" data-flag="@X" onclick="openSidebar('6t_Pered, Stars Light',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\7t_Scout.png" id="7t_Scout" data-flag="@X" onclick="openSidebar('7t_Scout',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\8t_Drone.png" id="8t_Drone" data-flag="@X" onclick="openSidebar('8t_Drone',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\9t_Treasure.png" id="9t_Treasure" data-flag="@X" onclick="openSidebar('9t_Treasure',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\10t_Forest Island.png" id="10t_Forest Island" data-flag="@X" onclick="openSidebar('10t_Forest Island',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\11t_Forest Plains.png" id="11t_Forest Plains" data-flag="@X" onclick="openSidebar('11t_Forest Plains',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\12t_Island Mountain.png" id="12t_Island Mountain" data-flag="@X" onclick="openSidebar('12t_Island Mountain',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\13t_Island Swamp.png" id="13t_Island Swamp" data-flag="@X" onclick="openSidebar('13t_Island Swamp',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\14t_Mountain Forest.png" id="14t_Mountain Forest" data-flag="@X" onclick="openSidebar('14t_Mountain Forest',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\15t_Mountain Plains.png" id="15t_Mountain Plains" data-flag="@X" onclick="openSidebar('15t_Mountain Plains',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\16t_Plains Island.png" id="16t_Plains Island" data-flag="@X" onclick="openSidebar('16t_Plains Island',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\17t_Plains Swamp.png" id="17t_Plains Swamp" data-flag="@X" onclick="openSidebar('17t_Plains Swamp',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\18t_Swamp Forest.png" id="18t_Swamp Forest" data-flag="@X" onclick="openSidebar('18t_Swamp Forest',false)"></div>
+			<div class="container"><img alt="/sets\BEY-files\img\19t_Swamp Mountain.png" id="19t_Swamp Mountain" data-flag="@X" onclick="openSidebar('19t_Swamp Mountain',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+	</div>
+</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch('/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+		
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = img.alt;
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		tmp = document.getElementById(num).src;
+		console.log(num);
+		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+		document.getElementById(num).dataset.alt_src = tmp;
+
+		if (num == 'sidebar_img')
+		{
+			const rotated_img = document.getElementById('sidebar_h_img');
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal && rotated_img.style.display == 'none')
+			{
+				rotated_img.style.display = "block";
+				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+			}
+			else
+			{
+				rotated_img.style.display = "none";
+				sidebar_img.style.filter = "";
+			}
+		}
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+		
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && sidebar_img.src.includes("_front"))
+		{
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+		
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+		
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL('search', window.location.origin);
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL('card', window.location.origin);
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url;
+			}
+	</script>
+</body>
+</html>
