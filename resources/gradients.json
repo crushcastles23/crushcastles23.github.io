@@ -1,9 +1,9 @@
 {
 	"gradients":[
 	{
-		"name":"Aubergine",
-		"color1":"#61045f",
-		"color2":"#aa076b"
+		"name":"Frost",
+		"color1":"#000428",
+		"color2":"#004e92"
 	},
 	{
 		"name":"Purple White",
@@ -91,9 +91,9 @@
 		"color2":"#e29587"
 	},
 	{
-		"name":"Frost",
-		"color1":"#000428",
-		"color2":"#004e92"
+		"name":"Aubergine",
+		"color1":"#61045f",
+		"color2":"#aa076b"
 	},
 	{
 		"name":"Almost",
