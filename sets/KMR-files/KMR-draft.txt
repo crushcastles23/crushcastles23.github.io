@@ -1,0 +1,3095 @@
+﻿[CustomCards]
+	[
+		{
+			"name": "Aurora Kirin",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Kirin Spirit ",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/6_Aurora Kirin.png"
+			}
+		},
+		{
+			"name": "Honden of Healing Grace",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Legendary Enchantment — Shrine ",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/15_Honden of Healing Grace.png"
+			}
+		},
+		{
+			"name": "Agile Monk",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Monk ",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/4_Agile Monk.png"
+			}
+		},
+		{
+			"name": "Crouching Baku",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Spirit ",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/12_Crouching Baku.png"
+			}
+		},
+		{
+			"name": "Wandering Kitsune",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Fox Nomad ",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/39_Wandering Kitsune.png"
+			}
+		},
+		{
+			"name": "Kitsune Blademaster",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Fox Samurai ",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/21_Kitsune Blademaster.png"
+			}
+		},
+		{
+			"name": "Kitsune Seeker",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Fox Monk ",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/22_Kitsune Seeker.png"
+			}
+		},
+		{
+			"name": "Peaceful Farmer",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human ",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/31_Peaceful Farmer.png"
+			}
+		},
+		{
+			"name": "Skilled Samurai",
+			"rarity": "common",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Creature — Human Samurai ",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/33_Skilled Samurai.png"
+			}
+		},
+		{
+			"name": "Twinblade Samurai",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Samurai ",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/38_Twinblade Samurai.png"
+			}
+		},
+		{
+			"name": "Commune with the Ancestors",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Sorcery — Arcane ",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/10_Commune with the Ancestors.png"
+			}
+		},
+		{
+			"name": "Lantern's Light",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Sorcery — Arcane ",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/24_Lantern's Light.png"
+			}
+		},
+		{
+			"name": "Fracture Reality",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant — Arcane ",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/14_Fracture Reality.png"
+			}
+		},
+		{
+			"name": "Crane Stance",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/11_Crane Stance.png"
+			}
+		},
+		{
+			"name": "Triumph of Ages",
+			"rarity": "common",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Instant — Arcane ",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/37_Triumph of Ages.png"
+			}
+		},
+		{
+			"name": "Back to Back",
+			"rarity": "common",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Instant",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/7_Back to Back.png"
+			}
+		},
+		{
+			"name": "Moment's Rest",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant — Arcane ",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/27_Moment's Rest.png"
+			}
+		},
+		{
+			"name": "One With the Spirit World",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/29_One With the Spirit World.png"
+			}
+		},
+		{
+			"name": "Kami of the Falling Water",
+			"rarity": "common",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Creature — Spirit Elemental ",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/55_Kami of the Falling Water.png"
+			}
+		},
+		{
+			"name": "Whisp-O-Will",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Bird Spirit ",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/78_Whisp-O-Will.png"
+			}
+		},
+		{
+			"name": "Mist-Born Kitsune",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Fox Ninja ",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/60_Mist-Born Kitsune.png"
+			}
+		},
+		{
+			"name": "Soratami Enlightened",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Moonfolk ",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/72_Soratami Enlightened.png"
+			}
+		},
+		{
+			"name": "Oboro Arcanist",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Moonfolk Wizard ",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/61_Oboro Arcanist.png"
+			}
+		},
+		{
+			"name": "River Raider",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Pirate ",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/63_River Raider.png"
+			}
+		},
+		{
+			"name": "Wind-Dancer Shinobi",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Ninja ",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/79_Wind-Dancer Shinobi.png"
+			}
+		},
+		{
+			"name": "Honden of Falling Waters",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Legendary Enchantment — Shrine ",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/51_Honden of Falling Waters.png"
+			}
+		},
+		{
+			"name": "Subterfuge",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Instant",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/74_Subterfuge.png"
+			}
+		},
+		{
+			"name": "Rush of Waves",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Instant — Arcane ",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/65_Rush of Waves.png"
+			}
+		},
+		{
+			"name": "Rushing Veil",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant — Arcane ",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/66_Rushing Veil.png"
+			}
+		},
+		{
+			"name": "Ways of the Wind",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Sorcery — Arcane ",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/77_Ways of the Wind.png"
+			}
+		},
+		{
+			"name": "Illusory Cunning",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Instant — Arcane ",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/53_Illusory Cunning.png"
+			}
+		},
+		{
+			"name": "Hidden in the Depths",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Sorcery — Arcane ",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/49_Hidden in the Depths.png"
+			}
+		},
+		{
+			"name": "Mental Tsunami",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Sorcery — Arcane ",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/59_Mental Tsunami.png"
+			}
+		},
+		{
+			"name": "Consult the Scrolls",
+			"rarity": "common",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/44_Consult the Scrolls.png"
+			}
+		},
+		{
+			"name": "Trapped Between Worlds",
+			"rarity": "common",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/76_Trapped Between Worlds.png"
+			}
+		},
+		{
+			"name": "Absolve Identity",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Instant",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/42_Absolve Identity.png"
+			}
+		},
+		{
+			"name": "Discordant Strider",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Spirit ",
+			"collector_number": "92",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/92_Discordant Strider.png"
+			}
+		},
+		{
+			"name": "Burning Typhoon",
+			"rarity": "common",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Spirit ",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/87_Burning Typhoon.png"
+			}
+		},
+		{
+			"name": "Legion of the Undead",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Zombie Samurai ",
+			"collector_number": "102",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/102_Legion of the Undead.png"
+			}
+		},
+		{
+			"name": "Nezumi Darkblade",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Rat Samurai ",
+			"collector_number": "104",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/104_Nezumi Darkblade.png"
+			}
+		},
+		{
+			"name": "Numai Scavenger",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Rat Rogue ",
+			"collector_number": "106",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/106_Numai Scavenger.png"
+			}
+		},
+		{
+			"name": "Numai Shaman",
+			"rarity": "common",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Creature — Rat Shaman ",
+			"collector_number": "107",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/107_Numai Shaman.png"
+			}
+		},
+		{
+			"name": "Nezumi Slientclaw",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Rat Ninja ",
+			"collector_number": "105",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/105_Nezumi Slientclaw.png"
+			}
+		},
+		{
+			"name": "Soulsnatcher",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Human Ninja ",
+			"collector_number": "114",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/114_Soulsnatcher.png"
+			}
+		},
+		{
+			"name": "Accursed Sailor",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Demon Spirit Pirate ",
+			"collector_number": "80",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/80_Accursed Sailor.png"
+			}
+		},
+		{
+			"name": "Kami of the Dark Skies",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Spirit ",
+			"collector_number": "99",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/99_Kami of the Dark Skies.png"
+			}
+		},
+		{
+			"name": "Dishonorable Spoils",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/93_Dishonorable Spoils.png"
+			}
+		},
+		{
+			"name": "Touch of Takenuma",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery — Arcane ",
+			"collector_number": "115",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/115_Touch of Takenuma.png"
+			}
+		},
+		{
+			"name": "Honden of Murky Waters",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Legendary Enchantment — Shrine ",
+			"collector_number": "98",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/98_Honden of Murky Waters.png"
+			}
+		},
+		{
+			"name": "Okiba Gang Ambush",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Instant",
+			"collector_number": "108",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/108_Okiba Gang Ambush.png"
+			}
+		},
+		{
+			"name": "You Are Already Dead",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "118",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/118_You Are Already Dead.png"
+			}
+		},
+		{
+			"name": "Silent Takedown",
+			"rarity": "common",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Instant",
+			"collector_number": "113",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/113_Silent Takedown.png"
+			}
+		},
+		{
+			"name": "Breach Between Worlds",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Sorcery",
+			"collector_number": "85",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/85_Breach Between Worlds.png"
+			}
+		},
+		{
+			"name": "Cloak of Shadows",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/89_Cloak of Shadows.png"
+			}
+		},
+		{
+			"name": "Sokenzan Scrapper",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Creature — Ogre Warrior ",
+			"collector_number": "150",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/150_Sokenzan Scrapper.png"
+			}
+		},
+		{
+			"name": "Dawnglare Crane",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Bird ",
+			"collector_number": "126",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/126_Dawnglare Crane.png"
+			}
+		},
+		{
+			"name": "Razorteeth Oni",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Demon Spirit ",
+			"collector_number": "145",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/145_Razorteeth Oni.png"
+			}
+		},
+		{
+			"name": "Drunken Samurai",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Samurai ",
+			"collector_number": "128",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/128_Drunken Samurai.png"
+			}
+		},
+		{
+			"name": "Sokenzan Fallen",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Ogre ",
+			"collector_number": "149",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/149_Sokenzan Fallen.png"
+			}
+		},
+		{
+			"name": "Sokenzan Berserker",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Ogre Berserker ",
+			"collector_number": "148",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/148_Sokenzan Berserker.png"
+			}
+		},
+		{
+			"name": "Striding Thief",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Rogue ",
+			"collector_number": "151",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/151_Striding Thief.png"
+			}
+		},
+		{
+			"name": "Yamabushi Acolyte",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Shaman ",
+			"collector_number": "156",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/156_Yamabushi Acolyte.png"
+			}
+		},
+		{
+			"name": "Written in Blood",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Instant",
+			"collector_number": "154",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/154_Written in Blood.png"
+			}
+		},
+		{
+			"name": "Burning Slash",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Instant",
+			"collector_number": "123",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/123_Burning Slash.png"
+			}
+		},
+		{
+			"name": "Heroic Vengeance",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "134",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/134_Heroic Vengeance.png"
+			}
+		},
+		{
+			"name": "Break Loyalty",
+			"rarity": "common",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Sorcery — Arcane ",
+			"collector_number": "121",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/121_Break Loyalty.png"
+			}
+		},
+		{
+			"name": "Fire-Mane Zubera",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Zubera Spirit ",
+			"collector_number": "131",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/131_Fire-Mane Zubera.png"
+			}
+		},
+		{
+			"name": "Demonic Toll",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery — Arcane ",
+			"collector_number": "127",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/127_Demonic Toll.png"
+			}
+		},
+		{
+			"name": "Honden of Wanderer's Pass",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Legendary Enchantment — Shrine ",
+			"collector_number": "137",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/137_Honden of Wanderer's Pass.png"
+			}
+		},
+		{
+			"name": "Channel Lightning",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery — Arcane ",
+			"collector_number": "124",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/124_Channel Lightning.png"
+			}
+		},
+		{
+			"name": "Oni's Hunger",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery — Arcane ",
+			"collector_number": "142",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/142_Oni's Hunger.png"
+			}
+		},
+		{
+			"name": "Burning Rumors",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "122",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/122_Burning Rumors.png"
+			}
+		},
+		{
+			"name": "Ancient Monk",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Human Monk ",
+			"collector_number": "158",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/158_Ancient Monk.png"
+			}
+		},
+		{
+			"name": "Thrashing Kosai",
+			"rarity": "common",
+			"mana_cost": "{5}{G}{G}",
+			"type": "Creature — Spirit ",
+			"collector_number": "189",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/189_Thrashing Kosai.png"
+			}
+		},
+		{
+			"name": "Trueshot Archer",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Human Archer ",
+			"collector_number": "192",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/192_Trueshot Archer.png"
+			}
+		},
+		{
+			"name": "Ursine Monk",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Creature — Human Monk ",
+			"collector_number": "193",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/193_Ursine Monk.png"
+			}
+		},
+		{
+			"name": "Orochi Helmsmasher",
+			"rarity": "common",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Snake Berserker ",
+			"collector_number": "177",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/177_Orochi Helmsmasher.png"
+			}
+		},
+		{
+			"name": "Sakura-Tribe Shaman",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Snake Shaman ",
+			"collector_number": "178",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/178_Sakura-Tribe Shaman.png"
+			}
+		},
+		{
+			"name": "Seshiro's Disciple",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Snake Archer ",
+			"collector_number": "179",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/179_Seshiro's Disciple.png"
+			}
+		},
+		{
+			"name": "Jukai Renegade",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Human Samurai Berserker ",
+			"collector_number": "169",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/169_Jukai Renegade.png"
+			}
+		},
+		{
+			"name": "Lumbering Kami",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Spirit Elemental ",
+			"collector_number": "174",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/174_Lumbering Kami.png"
+			}
+		},
+		{
+			"name": "Lantern Artisan",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Human ",
+			"collector_number": "173",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/173_Lantern Artisan.png"
+			}
+		},
+		{
+			"name": "Honden of Unending Potential",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Legendary Enchantment — Shrine ",
+			"collector_number": "164",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/164_Honden of Unending Potential.png"
+			}
+		},
+		{
+			"name": "Hone Soul",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "165",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/165_Hone Soul.png"
+			}
+		},
+		{
+			"name": "Stand Victorious",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Sorcery",
+			"collector_number": "186",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/186_Stand Victorious.png"
+			}
+		},
+		{
+			"name": "Stone Armor",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "187",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/187_Stone Armor.png"
+			}
+		},
+		{
+			"name": "Shifting Terrain",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Sorcery",
+			"collector_number": "180",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/180_Shifting Terrain.png"
+			}
+		},
+		{
+			"name": "Slash Through",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "185",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/185_Slash Through.png"
+			}
+		},
+		{
+			"name": "Kodama's Embrace",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Sorcery — Arcane ",
+			"collector_number": "172",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/172_Kodama's Embrace.png"
+			}
+		},
+		{
+			"name": "Warrior's Wisdom",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "194",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/194_Warrior's Wisdom.png"
+			}
+		},
+		{
+			"name": "Everglowing Lantern",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact — Lantern ",
+			"collector_number": "231",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/231_Everglowing Lantern.png"
+			}
+		},
+		{
+			"name": "Hardened Blade",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "233",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/233_Hardened Blade.png"
+			}
+		},
+		{
+			"name": "Wandering Wisp",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Creature — Spirit ",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/3_Wandering Wisp.png"
+			}
+		},
+		{
+			"name": "Orochi Burial Monument",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact — Monument ",
+			"collector_number": "238",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/238_Orochi Burial Monument.png"
+			}
+		},
+		{
+			"name": "Stone-Head Kami",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Spirit ",
+			"collector_number": "242",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/242_Stone-Head Kami.png"
+			}
+		},
+		{
+			"name": "Whirlwind Tessen",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "244",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/244_Whirlwind Tessen.png"
+			}
+		},
+		{
+			"name": "Scroll of the Warrior Sage",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "240",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/240_Scroll of the Warrior Sage.png"
+			}
+		},
+		{
+			"name": "Nightingale Blades",
+			"rarity": "common",
+			"mana_cost": "{4}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "237",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/237_Nightingale Blades.png"
+			}
+		},
+		{
+			"name": "Blazing Edge",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "230",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/230_Blazing Edge.png"
+			}
+		},
+		{
+			"name": "Gusoku Armor",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "232",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/232_Gusoku Armor.png"
+			}
+		},
+		{
+			"name": "Shifting Temple",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "252",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/252_Shifting Temple.png"
+			}
+		},
+		{
+			"name": "Tranquil Cove",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "256",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/256_Tranquil Cove.png"
+			}
+		},
+		{
+			"name": "Dismal Backwater",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "247",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/247_Dismal Backwater.png"
+			}
+		},
+		{
+			"name": "Bloodfell Caves",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "245",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/245_Bloodfell Caves.png"
+			}
+		},
+		{
+			"name": "Rugged Highlands",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "250",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/250_Rugged Highlands.png"
+			}
+		},
+		{
+			"name": "Blossoming Sands",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "246",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/246_Blossoming Sands.png"
+			}
+		},
+		{
+			"name": "Scoured Barrens",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "251",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/251_Scoured Barrens.png"
+			}
+		},
+		{
+			"name": "Swiftwater Cliffs",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "254",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/254_Swiftwater Cliffs.png"
+			}
+		},
+		{
+			"name": "Jungle Hollow",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "249",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/249_Jungle Hollow.png"
+			}
+		},
+		{
+			"name": "Wind-Scarred Crag",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "258",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/258_Wind-Scarred Crag.png"
+			}
+		},
+		{
+			"name": "Thornwood Falls",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "255",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/255_Thornwood Falls.png"
+			}
+		},
+		{
+			"name": "Bomei, the Forsaken Blade",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Legendary Creature — Fox Samurai ",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/8_Bomei, the Forsaken Blade.png"
+			}
+		},
+		{
+			"name": "Tobusai, Crashing Monk",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Legendary Creature — Human Monk ",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/35_Tobusai, Crashing Monk.png"
+			}
+		},
+		{
+			"name": "Kitsune Sureblade",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Creature — Fox Samurai ",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/23_Kitsune Sureblade.png"
+			}
+		},
+		{
+			"name": "Imperial Herald",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Human Advisor ",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/17_Imperial Herald.png"
+			}
+		},
+		{
+			"name": "Kabuto Drifter",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Insect Spirit ",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/19_Kabuto Drifter.png"
+			}
+		},
+		{
+			"name": "Warrior Poet",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Samurai ",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/40_Warrior Poet.png"
+			}
+		},
+		{
+			"name": "Slay the Unholy",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Sorcery",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/34_Slay the Unholy.png"
+			}
+		},
+		{
+			"name": "Honden of Transcendent Purity",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{W}",
+			"type": "Legendary Enchantment — Shrine ",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/16_Honden of Transcendent Purity.png"
+			}
+		},
+		{
+			"name": "Close the Gap",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/9_Close the Gap.png"
+			}
+		},
+		{
+			"name": "Oni's Binding",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{W}",
+			"type": "Enchantment",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/30_Oni's Binding.png"
+			}
+		},
+		{
+			"name": "Matsuri, Festival Guide",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Legendary Creature — Human Samurai ",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/26_Matsuri, Festival Guide.png"
+			}
+		},
+		{
+			"name": "Shogun's Cut",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Sorcery",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/32_Shogun's Cut.png"
+			}
+		},
+		{
+			"name": "Heikegani Crab",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Crab Spirit ",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/48_Heikegani Crab.png"
+			}
+		},
+		{
+			"name": "Satotta, Enlightened Soratami",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Legendary Creature — Moonfolk ",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/67_Satotta, Enlightened Soratami.png"
+			}
+		},
+		{
+			"name": "Ritame, Storm of Steel",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Legendary Creature — Fox Ninja ",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/62_Ritame, Storm of Steel.png"
+			}
+		},
+		{
+			"name": "Soratami Soulspeaker",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Moonfolk Archer ",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/73_Soratami Soulspeaker.png"
+			}
+		},
+		{
+			"name": "Gakusha, the Scholar",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Legendary Creature — Human Samurai ",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/47_Gakusha, the Scholar.png"
+			}
+		},
+		{
+			"name": "Higuran Pupil",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Human Ninja ",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/50_Higuran Pupil.png"
+			}
+		},
+		{
+			"name": "Kidnapping",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{U}{U}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/56_Kidnapping.png"
+			}
+		},
+		{
+			"name": "Ancestral Teachings",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{U}{U}",
+			"type": "Sorcery — Arcane ",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/43_Ancestral Teachings.png"
+			}
+		},
+		{
+			"name": "Honden of Nature's Calm",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Legendary Enchantment — Shrine ",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/52_Honden of Nature's Calm.png"
+			}
+		},
+		{
+			"name": "Shushin, the Wise",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Legendary Creature — Spirit ",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/71_Shushin, the Wise.png"
+			}
+		},
+		{
+			"name": "Sukuroru, Night's Wind",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Legendary Creature — Human Ninja ",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/75_Sukuroru, Night's Wind.png"
+			}
+		},
+		{
+			"name": "Shinobi Students",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Ninja ",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/69_Shinobi Students.png"
+			}
+		},
+		{
+			"name": "Dorobo, the Hidden",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Legendary Creature — Rat Rogue ",
+			"collector_number": "94",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/94_Dorobo, the Hidden.png"
+			}
+		},
+		{
+			"name": "Chisai, Nezumi Havoc-Blade",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Legendary Creature — Rat Samurai ",
+			"collector_number": "88",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/88_Chisai, Nezumi Havoc-Blade.png"
+			}
+		},
+		{
+			"name": "Revived Ronin",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Zombie Samurai ",
+			"collector_number": "110",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/110_Revived Ronin.png"
+			}
+		},
+		{
+			"name": "Nezumi Blackfang",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Rat Samurai ",
+			"collector_number": "103",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/103_Nezumi Blackfang.png"
+			}
+		},
+		{
+			"name": "Yama-Kaji the Skullsmasher",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Legendary Creature — Demon Spirit ",
+			"collector_number": "116",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/116_Yama-Kaji the Skullsmasher.png"
+			}
+		},
+		{
+			"name": "Festering-Touch Zubera",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Zubera Spirit ",
+			"collector_number": "95",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/95_Festering-Touch Zubera.png"
+			}
+		},
+		{
+			"name": "Relentless Slaughter",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "109",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/109_Relentless Slaughter.png"
+			}
+		},
+		{
+			"name": "Floral Flourishing",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "96",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/96_Floral Flourishing.png"
+			}
+		},
+		{
+			"name": "Honden of Death's Hold",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{B}",
+			"type": "Legendary Enchantment — Shrine ",
+			"collector_number": "97",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/97_Honden of Death's Hold.png"
+			}
+		},
+		{
+			"name": "Breach the Stronghold",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Sorcery",
+			"collector_number": "86",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/86_Breach the Stronghold.png"
+			}
+		},
+		{
+			"name": "Kemuri, One with the Shadow",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Legendary Creature — Human Ninja ",
+			"collector_number": "101",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/101_Kemuri, One with the Shadow.png"
+			}
+		},
+		{
+			"name": "Ashen Kami",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Spirit ",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/83_Ashen Kami.png"
+			}
+		},
+		{
+			"name": "Hai-Hai, Akki Blazebringer",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Legendary Creature — Goblin ",
+			"collector_number": "133",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/133_Hai-Hai, Akki Blazebringer.png"
+			}
+		},
+		{
+			"name": "Nensho, the Roaring Fire",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Legendary Creature — Demon Spirit ",
+			"collector_number": "141",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/141_Nensho, the Roaring Fire.png"
+			}
+		},
+		{
+			"name": "Raging-Soul Zubera",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Zubera Spirit ",
+			"collector_number": "144",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/144_Raging-Soul Zubera.png"
+			}
+		},
+		{
+			"name": "Bloodcloaked Ogre",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Ogre Warrior ",
+			"collector_number": "120",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/120_Bloodcloaked Ogre.png"
+			}
+		},
+		{
+			"name": "Tengu Steelblade",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Creature — Demon Samurai ",
+			"collector_number": "152",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/152_Tengu Steelblade.png"
+			}
+		},
+		{
+			"name": "Samurai Sparkthrower",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Samurai ",
+			"collector_number": "146",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/146_Samurai Sparkthrower.png"
+			}
+		},
+		{
+			"name": "Oni's Power",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery — Arcane ",
+			"collector_number": "143",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/143_Oni's Power.png"
+			}
+		},
+		{
+			"name": "Fury of Ages",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "132",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/132_Fury of Ages.png"
+			}
+		},
+		{
+			"name": "Unleash Evil",
+			"rarity": "uncommon",
+			"mana_cost": "{X}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "153",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/153_Unleash Evil.png"
+			}
+		},
+		{
+			"name": "Honden of Burning Winds",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Legendary Enchantment — Shrine ",
+			"collector_number": "136",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/136_Honden of Burning Winds.png"
+			}
+		},
+		{
+			"name": "Consumed by Power",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "125",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/125_Consumed by Power.png"
+			}
+		},
+		{
+			"name": "Shichiru of the Seven Blades",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Legendary Creature — Human Samurai ",
+			"collector_number": "147",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/147_Shichiru of the Seven Blades.png"
+			}
+		},
+		{
+			"name": "Noroi, Leader of the Exiled",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Legendary Creature — Snake Warrior ",
+			"collector_number": "176",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/176_Noroi, Leader of the Exiled.png"
+			}
+		},
+		{
+			"name": "Kami of Unbound Wisdom",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Spirit ",
+			"collector_number": "170",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/170_Kami of Unbound Wisdom.png"
+			}
+		},
+		{
+			"name": "Torakka, Orochi Tracker",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Legendary Creature — Snake Scout ",
+			"collector_number": "190",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/190_Torakka, Orochi Tracker.png"
+			}
+		},
+		{
+			"name": "Niwashi, Autumn's Wind",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Legendary Creature — Human ",
+			"collector_number": "175",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/175_Niwashi, Autumn's Wind.png"
+			}
+		},
+		{
+			"name": "Shujin, Elemental Master",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Legendary Creature — Human ",
+			"collector_number": "184",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/184_Shujin, Elemental Master.png"
+			}
+		},
+		{
+			"name": "Itoigawa, the Jade Blade",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Legendary Creature — Human Samurai ",
+			"collector_number": "166",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/166_Itoigawa, the Jade Blade.png"
+			}
+		},
+		{
+			"name": "Jajauma Spirit",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Spirit ",
+			"collector_number": "167",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/167_Jajauma Spirit.png"
+			}
+		},
+		{
+			"name": "Transcendent Monk",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Human Monk ",
+			"collector_number": "191",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/191_Transcendent Monk.png"
+			}
+		},
+		{
+			"name": "Devout Disciple",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Human Monk ",
+			"collector_number": "160",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/160_Devout Disciple.png"
+			}
+		},
+		{
+			"name": "The Earth Below Trembles",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{G}",
+			"type": "Sorcery",
+			"collector_number": "161",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/161_The Earth Below Trembles.png"
+			}
+		},
+		{
+			"name": "Tanuki Festival",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Sorcery",
+			"collector_number": "188",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/188_Tanuki Festival.png"
+			}
+		},
+		{
+			"name": "Honden of Abundant Growth",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Legendary Enchantment — Shrine ",
+			"collector_number": "163",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/163_Honden of Abundant Growth.png"
+			}
+		},
+		{
+			"name": "Temple Bell",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "243",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/243_Temple Bell.png"
+			}
+		},
+		{
+			"name": "Kami of Forgotten Realms",
+			"rarity": "uncommon",
+			"mana_cost": "{4}",
+			"type": "Creature — Spirit ",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/2_Kami of Forgotten Realms.png"
+			}
+		},
+		{
+			"name": "Gate to the Spirit World",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Legendary Land",
+			"collector_number": "248",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/248_Gate to the Spirit World.png"
+			}
+		},
+		{
+			"name": "Mask of the Oni",
+			"rarity": "uncommon",
+			"mana_cost": "{4}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "236",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/236_Mask of the Oni.png"
+			}
+		},
+		{
+			"name": "Spear of the Heavens",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Legendary Artifact — Equipment ",
+			"collector_number": "241",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/241_Spear of the Heavens.png"
+			}
+		},
+		{
+			"name": "Scroll of the Ancestors",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Legendary Artifact — Equipment ",
+			"collector_number": "239",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/239_Scroll of the Ancestors.png"
+			}
+		},
+		{
+			"name": "Ame-no-Soufuku, Dragon Blades",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Legendary Artifact — Equipment ",
+			"collector_number": "229",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/229_Ame-no-Soufuku, Dragon Blades.png"
+			}
+		},
+		{
+			"name": "Hidden Blade",
+			"rarity": "uncommon",
+			"mana_cost": "{1}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "234",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/234_Hidden Blade.png"
+			}
+		},
+		{
+			"name": "The Valley of the End",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Legendary Land",
+			"collector_number": "257",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/257_The Valley of the End.png"
+			}
+		},
+		{
+			"name": "Spirit World",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Legendary Land",
+			"collector_number": "253",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/253_Spirit World.png"
+			}
+		},
+		{
+			"name": "Kegawa, the Exiled",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{U}",
+			"type": "Legendary Creature — Fox Monk ",
+			"collector_number": "208",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/208_Kegawa, the Exiled.png"
+			}
+		},
+		{
+			"name": "Yuriko, Ever Unseen",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{B}",
+			"type": "Legendary Creature — Human Ninja ",
+			"collector_number": "228",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/228_Yuriko, Ever Unseen.png"
+			}
+		},
+		{
+			"name": "Hajime, Reborn Tengu",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Legendary Creature — Demon Spirit ",
+			"collector_number": "203",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/203_Hajime, Reborn Tengu.png"
+			}
+		},
+		{
+			"name": "Kesseki, the Stone Blade",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{G}",
+			"type": "Legendary Creature — Human Samurai Wizard ",
+			"collector_number": "209",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/209_Kesseki, the Stone Blade.png"
+			}
+		},
+		{
+			"name": "Tan-Kai, Bamboo Guardian",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{W}",
+			"type": "Legendary Creature — Spirit ",
+			"collector_number": "225",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/225_Tan-Kai, Bamboo Guardian.png"
+			}
+		},
+		{
+			"name": "Fukumitsu, Lantern Guide",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}{B}",
+			"type": "Legendary Creature — Spirit ",
+			"collector_number": "200",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/200_Fukumitsu, Lantern Guide.png"
+			}
+		},
+		{
+			"name": "Inazuma, the Lightning Blade",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Legendary Creature — Moonfolk Samurai ",
+			"collector_number": "205",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/205_Inazuma, the Lightning Blade.png"
+			}
+		},
+		{
+			"name": "Shiri, Death's Seer",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{G}",
+			"type": "Legendary Creature — Human Shaman ",
+			"collector_number": "222",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/222_Shiri, Death's Seer.png"
+			}
+		},
+		{
+			"name": "Buki, Arms Dealer",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{W}",
+			"type": "Legendary Creature — Human ",
+			"collector_number": "198",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/198_Buki, Arms Dealer.png"
+			}
+		},
+		{
+			"name": "Edamaro, First to See",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}{U}",
+			"type": "Legendary Creature — Spirit ",
+			"collector_number": "199",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/199_Edamaro, First to See.png"
+			}
+		},
+		{
+			"name": "Yoake, Dawn's Breath",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Legendary Creature — Dragon Spirit ",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/41_Yoake, Dawn's Breath.png"
+			}
+		},
+		{
+			"name": "Akai-O, the Red Tail",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Legendary Creature — Fox Samurai ",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/5_Akai-O, the Red Tail.png"
+			}
+		},
+		{
+			"name": "Myojin of Transcendent Purity",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Legendary Creature — Spirit ",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/28_Myojin of Transcendent Purity.png"
+			}
+		},
+		{
+			"name": "Kanshu, Kitsune Binder",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Legendary Creature — Fox Wizard ",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/20_Kanshu, Kitsune Binder.png"
+			}
+		},
+		{
+			"name": "Tori-Sei, the White Wings",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Legendary Creature — Human ",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/36_Tori-Sei, the White Wings.png"
+			}
+		},
+		{
+			"name": "Jizen, the Benevolent",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Legendary Creature — Spirit ",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/18_Jizen, the Benevolent.png"
+			}
+		},
+		{
+			"name": "Master the Blade",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}",
+			"type": "Enchantment",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/25_Master the Blade.png"
+			}
+		},
+		{
+			"name": "Day of the Dark Sun",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Legendary Instant",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/13_Day of the Dark Sun.png"
+			}
+		},
+		{
+			"name": "Kiri, Mist's Breath",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Legendary Creature — Dragon Spirit ",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/57_Kiri, Mist's Breath.png"
+			}
+		},
+		{
+			"name": "Inui-Kappa, the Dry",
+			"rarity": "rare",
+			"mana_cost": "{U}{U}{U}",
+			"type": "Legendary Creature — Goblin Turtle ",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/54_Inui-Kappa, the Dry.png"
+			}
+		},
+		{
+			"name": "Satsuka, the Unseen",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Legendary Creature — Human Ninja ",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/68_Satsuka, the Unseen.png"
+			}
+		},
+		{
+			"name": "Shiryoku the Seer",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Legendary Creature — Moonfolk Wizard ",
+			"collector_number": "70",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/70_Shiryoku the Seer.png"
+			}
+		},
+		{
+			"name": "Kohmen, the Face Stealer",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}",
+			"type": "Legendary Creature — Zubera Spirit ",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/58_Kohmen, the Face Stealer.png"
+			}
+		},
+		{
+			"name": "Forbidden Words",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Legendary Enchantment",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/46_Forbidden Words.png"
+			}
+		},
+		{
+			"name": "An Eternity",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/45_An Eternity.png"
+			}
+		},
+		{
+			"name": "Roar of the Great Wave",
+			"rarity": "rare",
+			"mana_cost": "{U}{U}",
+			"type": "Legendary Instant",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/64_Roar of the Great Wave.png"
+			}
+		},
+		{
+			"name": "Shiryo, Death's Breath",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Legendary Creature — Dragon Spirit ",
+			"collector_number": "112",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/112_Shiryo, Death's Breath.png"
+			}
+		},
+		{
+			"name": "Akuam, Oni's Blade",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Legendary Creature — Human Ninja ",
+			"collector_number": "81",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/81_Akuam, Oni's Blade.png"
+			}
+		},
+		{
+			"name": "Yamia, Heart of Darkness",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Legendary Creature — Spirit ",
+			"collector_number": "117",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/117_Yamia, Heart of Darkness.png"
+			}
+		},
+		{
+			"name": "All-Consuming Oni of Chaos",
+			"rarity": "rare",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Legendary Creature — Demon Spirit ",
+			"collector_number": "82",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/82_All-Consuming Oni of Chaos.png"
+			}
+		},
+		{
+			"name": "Beru, the Flame Veiled",
+			"rarity": "rare",
+			"mana_cost": "{B}{B}",
+			"type": "Legendary Creature — Rat Ninja ",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/84_Beru, the Flame Veiled.png"
+			}
+		},
+		{
+			"name": "Shigan, Soul-Seeker",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Legendary Creature — Zubera Spirit Samurai ",
+			"collector_number": "111",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/111_Shigan, Soul-Seeker.png"
+			}
+		},
+		{
+			"name": "Contract with the Oni",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery — Arcane ",
+			"collector_number": "90",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/90_Contract with the Oni.png"
+			}
+		},
+		{
+			"name": "Crack in the Barrier",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Legendary Sorcery — Arcane ",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/91_Crack in the Barrier.png"
+			}
+		},
+		{
+			"name": "Moyasu, Sun's Breath",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Legendary Creature — Dragon Spirit ",
+			"collector_number": "140",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/140_Moyasu, Sun's Breath.png"
+			}
+		},
+		{
+			"name": "Ennetsu, the Sun Spear",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Legendary Creature — Spirit Samurai ",
+			"collector_number": "129",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/129_Ennetsu, the Sun Spear.png"
+			}
+		},
+		{
+			"name": "Yama-Yama, the Last",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}",
+			"type": "Legendary Creature — Goblin ",
+			"collector_number": "155",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/155_Yama-Yama, the Last.png"
+			}
+		},
+		{
+			"name": "Akima, the Lost Humanity",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Legendary Creature — Human Warrior ",
+			"collector_number": "119",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/119_Akima, the Lost Humanity.png"
+			}
+		},
+		{
+			"name": "Hidetsugu, Oni Fragment",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Legendary Creature — Demon Spirit ",
+			"collector_number": "135",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/135_Hidetsugu, Oni Fragment.png"
+			}
+		},
+		{
+			"name": "Hyperspeed Blast",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}",
+			"type": "Instant",
+			"collector_number": "138",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/138_Hyperspeed Blast.png"
+			}
+		},
+		{
+			"name": "Merchant's Wares",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "139",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/139_Merchant's Wares.png"
+			}
+		},
+		{
+			"name": "Falling Star's Fire",
+			"rarity": "rare",
+			"mana_cost": "{X}{R}{R}{R}",
+			"type": "Legendary Sorcery",
+			"collector_number": "130",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/130_Falling Star's Fire.png"
+			}
+		},
+		{
+			"name": "Shinja, the Devoted",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Legendary Creature — Human Monk ",
+			"collector_number": "181",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/181_Shinja, the Devoted.png"
+			}
+		},
+		{
+			"name": "Shizen, Nature's Breath",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Legendary Creature — Dragon Spirit ",
+			"collector_number": "182",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/182_Shizen, Nature's Breath.png"
+			}
+		},
+		{
+			"name": "Eien, the Eternal",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Legendary Creature — Spirit Monk ",
+			"collector_number": "162",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/162_Eien, the Eternal.png"
+			}
+		},
+		{
+			"name": "Jojo-Ie, the High Branches",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Legendary Creature — Snake Scout ",
+			"collector_number": "168",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/168_Jojo-Ie, the High Branches.png"
+			}
+		},
+		{
+			"name": "Kodama of the Wandering Tree",
+			"rarity": "rare",
+			"mana_cost": "{4}{G}",
+			"type": "Legendary Creature — Spirit ",
+			"collector_number": "171",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/171_Kodama of the Wandering Tree.png"
+			}
+		},
+		{
+			"name": "Shohi, the Consumer",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Legendary Creature — Spirit ",
+			"collector_number": "183",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/183_Shohi, the Consumer.png"
+			}
+		},
+		{
+			"name": "Balance Between Worlds",
+			"rarity": "rare",
+			"mana_cost": "{X}{G}{G}",
+			"type": "Sorcery — Arcane ",
+			"collector_number": "159",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/159_Balance Between Worlds.png"
+			}
+		},
+		{
+			"name": "Achieve Enlightenment",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Legendary Instant",
+			"collector_number": "157",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/157_Achieve Enlightenment.png"
+			}
+		},
+		{
+			"name": "Mizu-Kappa, Mist Cloaked",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{U}",
+			"type": "Legendary Creature — Goblin Turtle ",
+			"collector_number": "212",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/212_Mizu-Kappa, Mist Cloaked.png"
+			}
+		},
+		{
+			"name": "Nin-Kappa, Frozen Master",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{B}",
+			"type": "Legendary Creature — Goblin Turtle Ninja ",
+			"collector_number": "214",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/214_Nin-Kappa, Frozen Master.png"
+			}
+		},
+		{
+			"name": "Ketsueki, the Blood-Cursed",
+			"rarity": "rare",
+			"mana_cost": "{B}{R}",
+			"type": "Legendary Creature — Ogre Samurai ",
+			"collector_number": "210",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/210_Ketsueki, the Blood-Cursed.png"
+			}
+		},
+		{
+			"name": "Hihebi, Dragon's Spirit",
+			"rarity": "rare",
+			"mana_cost": "{R}{G}",
+			"type": "Legendary Creature — Human Monk ",
+			"collector_number": "204",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/204_Hihebi, Dragon's Spirit.png"
+			}
+		},
+		{
+			"name": "Banken, the Guardian",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{W}",
+			"type": "Legendary Creature — Dog Spirit Samurai ",
+			"collector_number": "197",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/197_Banken, the Guardian.png"
+			}
+		},
+		{
+			"name": "Raka, the Six-Blades",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{B}",
+			"type": "Legendary Creature — Spirit Samurai ",
+			"collector_number": "218",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/218_Raka, the Six-Blades.png"
+			}
+		},
+		{
+			"name": "Nomiso-Kappa, Burning Mind",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{R}",
+			"type": "Legendary Creature — Goblin Turtle ",
+			"collector_number": "215",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/215_Nomiso-Kappa, Burning Mind.png"
+			}
+		},
+		{
+			"name": "Sai-Shi, Death's Guardian",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{G}",
+			"type": "Legendary Creature — Human Monk ",
+			"collector_number": "219",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/219_Sai-Shi, Death's Guardian.png"
+			}
+		},
+		{
+			"name": "Tosho, Master Swordsmith",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{W}",
+			"type": "Legendary Creature — Human Artificer ",
+			"collector_number": "226",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/226_Tosho, Master Swordsmith.png"
+			}
+		},
+		{
+			"name": "Inja-Kappa, Wanderer",
+			"rarity": "rare",
+			"mana_cost": "{X}{G}{U}",
+			"type": "Legendary Creature — Goblin Turtle Druid ",
+			"collector_number": "206",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/206_Inja-Kappa, Wanderer.png"
+			}
+		},
+		{
+			"name": "Jinja, Wandering Shrine",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Legendary Enchantment Creature — Spirit Shrine ",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/1_Jinja, Wandering Shrine.png"
+			}
+		},
+		{
+			"name": "Honjo, the Regalia Blade",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Legendary Artifact — Equipment ",
+			"collector_number": "235",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/235_Honjo, the Regalia Blade.png"
+			}
+		},
+		{
+			"name": "Worldshaper's Rest",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Land",
+			"collector_number": "259",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/259_Worldshaper's Rest.png"
+			}
+		},
+		{
+			"name": "Fushin, the Gusting Wind",
+			"rarity": "mythic",
+			"mana_cost": "{2}{W}{U}",
+			"type": "Legendary Creature — Spirit ",
+			"collector_number": "201",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/201_Fushin, the Gusting Wind.png"
+			}
+		},
+		{
+			"name": "Getsu, the Moon's Shadow",
+			"rarity": "mythic",
+			"mana_cost": "{2}{U}{B}",
+			"type": "Legendary Creature — Human Ninja ",
+			"collector_number": "202",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/202_Getsu, the Moon's Shadow.png"
+			}
+		},
+		{
+			"name": "Raishin, the Thundering Storm",
+			"rarity": "mythic",
+			"mana_cost": "{2}{B}{R}",
+			"type": "Legendary Creature — Spirit ",
+			"collector_number": "217",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/217_Raishin, the Thundering Storm.png"
+			}
+		},
+		{
+			"name": "Okina, Enraged Nekon",
+			"rarity": "mythic",
+			"mana_cost": "{X}{R}{G}",
+			"type": "Legendary Creature — Cat Spirit ",
+			"collector_number": "216",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/216_Okina, Enraged Nekon.png"
+			}
+		},
+		{
+			"name": "Saishu, Great General",
+			"rarity": "mythic",
+			"mana_cost": "{2}{G}{W}",
+			"type": "Legendary Creature — Human Samurai Noble ",
+			"collector_number": "220",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/220_Saishu, Great General.png"
+			}
+		},
+		{
+			"name": "Tsukiya, Moon's Breath",
+			"rarity": "mythic",
+			"mana_cost": "{3}{W}{B}",
+			"type": "Legendary Creature — Dragon Spirit ",
+			"collector_number": "227",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/227_Tsukiya, Moon's Breath.png"
+			}
+		},
+		{
+			"name": "Kagayaku, Fog Guide",
+			"rarity": "mythic",
+			"mana_cost": "{2}{U}{R}",
+			"type": "Legendary Creature — Spirit ",
+			"collector_number": "207",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/207_Kagayaku, Fog Guide.png"
+			}
+		},
+		{
+			"name": "Kumo of the Infinite Web",
+			"rarity": "mythic",
+			"mana_cost": "{4}{B}{G}",
+			"type": "Legendary Creature — Spider Spirit ",
+			"collector_number": "211",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/211_Kumo of the Infinite Web.png"
+			}
+		},
+		{
+			"name": "Saru, the Eclipse",
+			"rarity": "mythic",
+			"mana_cost": "{2}{R}{W}",
+			"type": "Legendary Creature — Spirit Ape ",
+			"collector_number": "221",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/221_Saru, the Eclipse.png"
+			}
+		},
+		{
+			"name": "Amenogozen, Born of Rain",
+			"rarity": "mythic",
+			"mana_cost": "{2}{G}{U}",
+			"type": "Legendary Creature — Spirit ",
+			"collector_number": "196",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/196_Amenogozen, Born of Rain.png"
+			}
+		},
+		{
+			"name": "Akada, the Steel Lion",
+			"rarity": "mythic",
+			"mana_cost": "{W}{B}{R}",
+			"type": "Legendary Creature — Human Samurai ",
+			"collector_number": "195",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/195_Akada, the Steel Lion.png"
+			}
+		},
+		{
+			"name": "Sisters of Flesh and Spirit",
+			"rarity": "mythic",
+			"mana_cost": "{1}{W}{U}{B}",
+			"type": "Legendary Creature — Human Spirit ",
+			"collector_number": "223",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/223_Sisters of Flesh and Spirit.png"
+			}
+		},
+		{
+			"name": "Karada, the Reaver",
+			"rarity": "mythic",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Legendary Planeswalker — Karada ",
+			"collector_number": "100",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/100_Karada, the Reaver.png"
+			}
+		},
+		{
+			"name": "Nahiri, the Stoneforged",
+			"rarity": "mythic",
+			"mana_cost": "{3}{R}{W}",
+			"type": "Legendary Planeswalker — Nahiri ",
+			"collector_number": "213",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/213_Nahiri, the Stoneforged.png"
+			}
+		},
+		{
+			"name": "Tamiyo, Grand Archivist",
+			"rarity": "mythic",
+			"mana_cost": "{2}{G}{U}",
+			"type": "Legendary Planeswalker — Tamiyo ",
+			"collector_number": "224",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/224_Tamiyo, Grand Archivist.png"
+			}
+		},
+		{
+			"name": "Plains",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Plains ",
+			"collector_number": "260",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/260_Plains.png"
+			}
+		},
+		{
+			"name": "Island",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Island ",
+			"collector_number": "261",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/261_Island.png"
+			}
+		},
+		{
+			"name": "Swamp",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Swamp ",
+			"collector_number": "262",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/262_Swamp.png"
+			}
+		},
+		{
+			"name": "Mountain",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Mountain ",
+			"collector_number": "263",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/263_Mountain.png"
+			}
+		},
+		{
+			"name": "Forest",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Forest ",
+			"collector_number": "264",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/264_Forest.png"
+			}
+		},
+		{
+			"name": "O-Kagachi Reborn",
+			"rarity": "special",
+			"mana_cost": "{2}{W}{U}{B}{R}{G}",
+			"type": "Legendary Creature — Dragon Spirit ",
+			"collector_number": "0",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/0_O-Kagachi Reborn.png"
+			}
+		},
+		{
+			"name": "Bird",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Bird ",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/4_Bird.png"
+			}
+		},
+		{
+			"name": "Spirit",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Spirit ",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/3_Spirit.png"
+			}
+		},
+		{
+			"name": "Samurai",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Samurai ",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/5_Samurai.png"
+			}
+		},
+		{
+			"name": "Treasure",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Treasure ",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/17_Treasure.png"
+			}
+		},
+		{
+			"name": "Scroll",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Enchantment",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/2_Scroll.png"
+			}
+		},
+		{
+			"name": "Lotus Petal",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/15_Lotus Petal.png"
+			}
+		},
+		{
+			"name": "Zombie",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Zombie ",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/12_Zombie.png"
+			}
+		},
+		{
+			"name": "Bat",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Bat ",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/8_Bat.png"
+			}
+		},
+		{
+			"name": "Fish",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Fish ",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/7_Fish.png"
+			}
+		},
+		{
+			"name": "Masterwork Blade",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Equipment ",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/16_Masterwork Blade.png"
+			}
+		},
+		{
+			"name": "Karada, the Reaver Emblem",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Emblem — Karada ",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/9_Karada, the Reaver Emblem.png"
+			}
+		},
+		{
+			"name": "Weapon",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Equipment ",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/18_Weapon.png"
+			}
+		},
+		{
+			"name": "Heritage Tracker",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Tracker",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/1_Heritage Tracker.png"
+			}
+		},
+		{
+			"name": "Lantern",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Lantern ",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/14_Lantern.png"
+			}
+		},
+		{
+			"name": "Demon Spirit",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Demon Spirit ",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/13_Demon Spirit.png"
+			}
+		},
+		{
+			"name": "Warrior",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Warrior ",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/6_Warrior.png"
+			}
+		},
+		{
+			"name": "Rat Ninja",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Rat Ninja ",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/10_Rat Ninja.png"
+			}
+		},
+		{
+			"name": "Rat Warrior",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Rat Warrior ",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https:///sets/KMR-files/img/11_Rat Warrior.png"
+			}
+		}
+	]
+[RareSlot(1)]
+2 Yoake, Dawn's Breath
+2 Akai-O, the Red Tail
+2 Myojin of Transcendent Purity
+2 Kanshu, Kitsune Binder
+2 Tori-Sei, the White Wings
+2 Jizen, the Benevolent
+2 Master the Blade
+2 Day of the Dark Sun
+2 Kiri, Mist's Breath
+2 Inui-Kappa, the Dry
+2 Satsuka, the Unseen
+2 Shiryoku the Seer
+2 Kohmen, the Face Stealer
+2 Forbidden Words
+2 An Eternity
+2 Roar of the Great Wave
+2 Shiryo, Death's Breath
+2 Akuam, Oni's Blade
+2 Yamia, Heart of Darkness
+2 All-Consuming Oni of Chaos
+2 Beru, the Flame Veiled
+2 Shigan, Soul-Seeker
+2 Contract with the Oni
+2 Crack in the Barrier
+2 Moyasu, Sun's Breath
+2 Ennetsu, the Sun Spear
+2 Yama-Yama, the Last
+2 Akima, the Lost Humanity
+2 Hidetsugu, Oni Fragment
+2 Hyperspeed Blast
+2 Merchant's Wares
+2 Falling Star's Fire
+2 Shinja, the Devoted
+2 Shizen, Nature's Breath
+2 Eien, the Eternal
+2 Jojo-Ie, the High Branches
+2 Kodama of the Wandering Tree
+2 Shohi, the Consumer
+2 Balance Between Worlds
+2 Achieve Enlightenment
+2 Mizu-Kappa, Mist Cloaked
+2 Nin-Kappa, Frozen Master
+2 Ketsueki, the Blood-Cursed
+2 Hihebi, Dragon's Spirit
+2 Banken, the Guardian
+2 Raka, the Six-Blades
+2 Nomiso-Kappa, Burning Mind
+2 Sai-Shi, Death's Guardian
+2 Tosho, Master Swordsmith
+2 Inja-Kappa, Wanderer
+2 Jinja, Wandering Shrine
+2 Honjo, the Regalia Blade
+2 Worldshaper's Rest
+1 Fushin, the Gusting Wind
+1 Getsu, the Moon's Shadow
+1 Raishin, the Thundering Storm
+1 Okina, Enraged Nekon
+1 Saishu, Great General
+1 Tsukiya, Moon's Breath
+1 Kagayaku, Fog Guide
+1 Kumo of the Infinite Web
+1 Saru, the Eclipse
+1 Amenogozen, Born of Rain
+1 Akada, the Steel Lion
+1 Sisters of Flesh and Spirit
+1 Karada, the Reaver
+1 Nahiri, the Stoneforged
+1 Tamiyo, Grand Archivist
+[UncommonSlot(3)]
+9 Bomei, the Forsaken Blade
+9 Tobusai, Crashing Monk
+9 Kitsune Sureblade
+9 Imperial Herald
+9 Kabuto Drifter
+9 Warrior Poet
+9 Slay the Unholy
+9 Honden of Transcendent Purity
+9 Close the Gap
+9 Oni's Binding
+9 Matsuri, Festival Guide
+9 Shogun's Cut
+9 Heikegani Crab
+9 Satotta, Enlightened Soratami
+9 Ritame, Storm of Steel
+9 Soratami Soulspeaker
+9 Gakusha, the Scholar
+9 Higuran Pupil
+9 Kidnapping
+9 Ancestral Teachings
+9 Honden of Nature's Calm
+9 Shushin, the Wise
+9 Sukuroru, Night's Wind
+9 Shinobi Students
+9 Dorobo, the Hidden
+9 Chisai, Nezumi Havoc-Blade
+9 Revived Ronin
+9 Nezumi Blackfang
+9 Yama-Kaji the Skullsmasher
+9 Festering-Touch Zubera
+9 Relentless Slaughter
+9 Floral Flourishing
+9 Honden of Death's Hold
+9 Breach the Stronghold
+9 Kemuri, One with the Shadow
+9 Ashen Kami
+9 Hai-Hai, Akki Blazebringer
+9 Nensho, the Roaring Fire
+9 Raging-Soul Zubera
+9 Bloodcloaked Ogre
+9 Tengu Steelblade
+9 Samurai Sparkthrower
+9 Oni's Power
+9 Fury of Ages
+9 Unleash Evil
+9 Honden of Burning Winds
+9 Consumed by Power
+9 Shichiru of the Seven Blades
+9 Noroi, Leader of the Exiled
+9 Kami of Unbound Wisdom
+9 Torakka, Orochi Tracker
+9 Niwashi, Autumn's Wind
+9 Shujin, Elemental Master
+9 Itoigawa, the Jade Blade
+9 Jajauma Spirit
+9 Transcendent Monk
+9 Devout Disciple
+9 The Earth Below Trembles
+9 Tanuki Festival
+9 Honden of Abundant Growth
+9 Temple Bell
+9 Kami of Forgotten Realms
+9 Gate to the Spirit World
+9 Mask of the Oni
+9 Spear of the Heavens
+9 Scroll of the Ancestors
+9 Ame-no-Soufuku, Dragon Blades
+9 Hidden Blade
+9 The Valley of the End
+9 Spirit World
+9 Kegawa, the Exiled
+9 Yuriko, Ever Unseen
+9 Hajime, Reborn Tengu
+9 Kesseki, the Stone Blade
+9 Tan-Kai, Bamboo Guardian
+9 Fukumitsu, Lantern Guide
+9 Inazuma, the Lightning Blade
+9 Shiri, Death's Seer
+9 Buki, Arms Dealer
+9 Edamaro, First to See
+[CommonSlot(10)]
+30 Aurora Kirin
+30 Honden of Healing Grace
+30 Agile Monk
+30 Crouching Baku
+30 Wandering Kitsune
+30 Kitsune Blademaster
+30 Kitsune Seeker
+30 Peaceful Farmer
+30 Skilled Samurai
+30 Twinblade Samurai
+30 Commune with the Ancestors
+30 Lantern's Light
+30 Fracture Reality
+30 Crane Stance
+30 Triumph of Ages
+30 Back to Back
+30 Moment's Rest
+30 One With the Spirit World
+30 Kami of the Falling Water
+30 Whisp-O-Will
+30 Mist-Born Kitsune
+30 Soratami Enlightened
+30 Oboro Arcanist
+30 River Raider
+30 Wind-Dancer Shinobi
+30 Honden of Falling Waters
+30 Subterfuge
+30 Rush of Waves
+30 Rushing Veil
+30 Ways of the Wind
+30 Illusory Cunning
+30 Hidden in the Depths
+30 Mental Tsunami
+30 Consult the Scrolls
+30 Trapped Between Worlds
+30 Absolve Identity
+30 Discordant Strider
+30 Burning Typhoon
+30 Legion of the Undead
+30 Nezumi Darkblade
+30 Numai Scavenger
+30 Numai Shaman
+30 Nezumi Slientclaw
+30 Soulsnatcher
+30 Accursed Sailor
+30 Kami of the Dark Skies
+30 Dishonorable Spoils
+30 Touch of Takenuma
+30 Honden of Murky Waters
+30 Okiba Gang Ambush
+30 You Are Already Dead
+30 Silent Takedown
+30 Breach Between Worlds
+30 Cloak of Shadows
+30 Sokenzan Scrapper
+30 Dawnglare Crane
+30 Razorteeth Oni
+30 Drunken Samurai
+30 Sokenzan Fallen
+30 Sokenzan Berserker
+30 Striding Thief
+30 Yamabushi Acolyte
+30 Written in Blood
+30 Burning Slash
+30 Heroic Vengeance
+30 Break Loyalty
+30 Fire-Mane Zubera
+30 Demonic Toll
+30 Honden of Wanderer's Pass
+30 Channel Lightning
+30 Oni's Hunger
+30 Burning Rumors
+30 Ancient Monk
+30 Thrashing Kosai
+30 Trueshot Archer
+30 Ursine Monk
+30 Orochi Helmsmasher
+30 Sakura-Tribe Shaman
+30 Seshiro's Disciple
+30 Jukai Renegade
+30 Lumbering Kami
+30 Lantern Artisan
+30 Honden of Unending Potential
+30 Hone Soul
+30 Stand Victorious
+30 Stone Armor
+30 Shifting Terrain
+30 Slash Through
+30 Kodama's Embrace
+30 Warrior's Wisdom
+30 Everglowing Lantern
+30 Hardened Blade
+30 Wandering Wisp
+30 Orochi Burial Monument
+30 Stone-Head Kami
+30 Whirlwind Tessen
+30 Scroll of the Warrior Sage
+30 Nightingale Blades
+30 Blazing Edge
+30 Gusoku Armor
+30 Shifting Temple
+30 Tranquil Cove
+30 Dismal Backwater
+30 Bloodfell Caves
+30 Rugged Highlands
+30 Blossoming Sands
+30 Scoured Barrens
+30 Swiftwater Cliffs
+30 Jungle Hollow
+30 Wind-Scarred Crag
+30 Thornwood Falls

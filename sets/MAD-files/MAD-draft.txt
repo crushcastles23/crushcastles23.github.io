@@ -1,0 +1,3376 @@
+﻿[CustomCards]
+	[
+		{
+			"name": "Bardic Bird",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Bird Bard ",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/3_Bardic Bird.png"
+			}
+		},
+		{
+			"name": "Fleetwing Knight",
+			"rarity": "common",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Creature — Elf Knight ",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/13_Fleetwing Knight.png"
+			}
+		},
+		{
+			"name": "Abaja Leaper",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Human Wrestler ",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/1_Abaja Leaper.png"
+			}
+		},
+		{
+			"name": "Skilled Backbreaker",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Wrestler ",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/31_Skilled Backbreaker.png"
+			}
+		},
+		{
+			"name": "Pelear Boulder Thrower",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Wrestler ",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/23_Pelear Boulder Thrower.png"
+			}
+		},
+		{
+			"name": "Rapid Fireslinger",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Wizard ",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/24_Rapid Fireslinger.png"
+			}
+		},
+		{
+			"name": "Agile Ribbon Dancer",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Human Warrior ",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/2_Agile Ribbon Dancer.png"
+			}
+		},
+		{
+			"name": "Trained Bear",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Bear ",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/37_Trained Bear.png"
+			}
+		},
+		{
+			"name": "Halfling Bard",
+			"rarity": "common",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Creature — Halfling Bard ",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/17_Halfling Bard.png"
+			}
+		},
+		{
+			"name": "Bolstering Bard",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Bard ",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/5_Bolstering Bard.png"
+			}
+		},
+		{
+			"name": "Spark Duelist",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Warrior ",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/32_Spark Duelist.png"
+			}
+		},
+		{
+			"name": "High Striker",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Wrestler ",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/18_High Striker.png"
+			}
+		},
+		{
+			"name": "Dazzling Display",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/10_Dazzling Display.png"
+			}
+		},
+		{
+			"name": "Tag Team Trio",
+			"rarity": "common",
+			"mana_cost": "{4}{W}",
+			"type": "Sorcery",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/34_Tag Team Trio.png"
+			}
+		},
+		{
+			"name": "Tears of a Clown",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/36_Tears of a Clown.png"
+			}
+		},
+		{
+			"name": "Coach's Pep Talk",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/7_Coach's Pep Talk.png"
+			}
+		},
+		{
+			"name": "Bardic Reinforcements",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Sorcery",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/4_Bardic Reinforcements.png"
+			}
+		},
+		{
+			"name": "Ribbon Dance",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Instant",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/26_Ribbon Dance.png"
+			}
+		},
+		{
+			"name": "Show of Strength",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/30_Show of Strength.png"
+			}
+		},
+		{
+			"name": "Big Top Buzzard",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Bird Mutant ",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/38_Big Top Buzzard.png"
+			}
+		},
+		{
+			"name": "Escaped Chimera",
+			"rarity": "common",
+			"mana_cost": "{4}{U}{U}",
+			"type": "Creature — Chimera Mutant ",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/52_Escaped Chimera.png"
+			}
+		},
+		{
+			"name": "Surestrike Merfolk",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Merfolk Mutant Warrior ",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/72_Surestrike Merfolk.png"
+			}
+		},
+		{
+			"name": "Card Shark",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Shark Gambler ",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/42_Card Shark.png"
+			}
+		},
+		{
+			"name": "Card Reader",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Gambler ",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/41_Card Reader.png"
+			}
+		},
+		{
+			"name": "Calculated Diviner",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Advisor ",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/40_Calculated Diviner.png"
+			}
+		},
+		{
+			"name": "House Griffin Fledgling",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Griffin ",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/56_House Griffin Fledgling.png"
+			}
+		},
+		{
+			"name": "Dark Sea Guide",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Merfolk Scout ",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/46_Dark Sea Guide.png"
+			}
+		},
+		{
+			"name": "Eloquent Performance",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Instant",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/49_Eloquent Performance.png"
+			}
+		},
+		{
+			"name": "Essence of Intellect",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Instant",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/53_Essence of Intellect.png"
+			}
+		},
+		{
+			"name": "Siren's Song",
+			"rarity": "common",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Instant",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/71_Siren's Song.png"
+			}
+		},
+		{
+			"name": "Lucky Time",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Instant",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/61_Lucky Time.png"
+			}
+		},
+		{
+			"name": "Practical Arcana",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Instant",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/65_Practical Arcana.png"
+			}
+		},
+		{
+			"name": "Is This Your Card",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Sorcery",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/58_Is This Your Card.png"
+			}
+		},
+		{
+			"name": "Intangible Form",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/57_Intangible Form.png"
+			}
+		},
+		{
+			"name": "Reckless Science",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Sorcery",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/66_Reckless Science.png"
+			}
+		},
+		{
+			"name": "Dazzle",
+			"rarity": "common",
+			"mana_cost": "{U}{U}",
+			"type": "Instant",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/47_Dazzle.png"
+			}
+		},
+		{
+			"name": "Lucky Draw",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Sorcery",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/60_Lucky Draw.png"
+			}
+		},
+		{
+			"name": "Extreme Vertigo",
+			"rarity": "common",
+			"mana_cost": "{U}{U}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/54_Extreme Vertigo.png"
+			}
+		},
+		{
+			"name": "Grotesque Vampire",
+			"rarity": "common",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Vampire Mutant ",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/91_Grotesque Vampire.png"
+			}
+		},
+		{
+			"name": "Absurd Balloonist",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Human Clown ",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/76_Absurd Balloonist.png"
+			}
+		},
+		{
+			"name": "Savage Grappler",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Wrestler ",
+			"collector_number": "101",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/101_Savage Grappler.png"
+			}
+		},
+		{
+			"name": "Steel Wielder Heel",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Human Wrestler ",
+			"collector_number": "105",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/105_Steel Wielder Heel.png"
+			}
+		},
+		{
+			"name": "Speed Striker",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Human Wrestler Rogue ",
+			"collector_number": "104",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/104_Speed Striker.png"
+			}
+		},
+		{
+			"name": "Smiler",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Thrull Clown ",
+			"collector_number": "103",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/103_Smiler.png"
+			}
+		},
+		{
+			"name": "Zombie Clown",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Zombie Clown ",
+			"collector_number": "111",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/111_Zombie Clown.png"
+			}
+		},
+		{
+			"name": "Court Broker",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Dwarf Advisor ",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/84_Court Broker.png"
+			}
+		},
+		{
+			"name": "Compelling Invitation",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Sorcery",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/83_Compelling Invitation.png"
+			}
+		},
+		{
+			"name": "Rotting Thrull",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Thrull ",
+			"collector_number": "100",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/100_Rotting Thrull.png"
+			}
+		},
+		{
+			"name": "Blood Magic Ritual",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Instant",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/79_Blood Magic Ritual.png"
+			}
+		},
+		{
+			"name": "Bloody Hit",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "80",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/80_Bloody Hit.png"
+			}
+		},
+		{
+			"name": "Cranium Strike",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "85",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/85_Cranium Strike.png"
+			}
+		},
+		{
+			"name": "Long-Neck Brawler",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Thrull Wrestler ",
+			"collector_number": "96",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/96_Long-Neck Brawler.png"
+			}
+		},
+		{
+			"name": "Alarm",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/77_Alarm.png"
+			}
+		},
+		{
+			"name": "Cut a Promo",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "86",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/86_Cut a Promo.png"
+			}
+		},
+		{
+			"name": "Otherworldly Advice",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "98",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/98_Otherworldly Advice.png"
+			}
+		},
+		{
+			"name": "Street Justice",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "107",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/107_Street Justice.png"
+			}
+		},
+		{
+			"name": "Thrullify",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "109",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/109_Thrullify.png"
+			}
+		},
+		{
+			"name": "Prize Plunderer",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Gambler ",
+			"collector_number": "138",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/138_Prize Plunderer.png"
+			}
+		},
+		{
+			"name": "Scorchwalkers",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Elemental ",
+			"collector_number": "142",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/142_Scorchwalkers.png"
+			}
+		},
+		{
+			"name": "Club Spade Guards",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Warrior ",
+			"collector_number": "117",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/117_Club Spade Guards.png"
+			}
+		},
+		{
+			"name": "Possibility Drone",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Artifact Creature — Drone ",
+			"collector_number": "136",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/136_Possibility Drone.png"
+			}
+		},
+		{
+			"name": "Devilish Bard",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Devil Bard ",
+			"collector_number": "118",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/118_Devilish Bard.png"
+			}
+		},
+		{
+			"name": "High Roller",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Human Gambler ",
+			"collector_number": "126",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/126_High Roller.png"
+			}
+		},
+		{
+			"name": "Ash-Tail Hawk",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Creature — Bird ",
+			"collector_number": "113",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/113_Ash-Tail Hawk.png"
+			}
+		},
+		{
+			"name": "Spark Kicker",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Bard Warrior ",
+			"collector_number": "143",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/143_Spark Kicker.png"
+			}
+		},
+		{
+			"name": "Tavern Bard",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Human Bard ",
+			"collector_number": "144",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/144_Tavern Bard.png"
+			}
+		},
+		{
+			"name": "Unlikely Pair",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "148",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/148_Unlikely Pair.png"
+			}
+		},
+		{
+			"name": "Card Trick",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "114",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/114_Card Trick.png"
+			}
+		},
+		{
+			"name": "Improvised Combat",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Instant",
+			"collector_number": "128",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/128_Improvised Combat.png"
+			}
+		},
+		{
+			"name": "Toss a Coin",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
+			"collector_number": "147",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/147_Toss a Coin.png"
+			}
+		},
+		{
+			"name": "Ringmaster's Show",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Instant",
+			"collector_number": "140",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/140_Ringmaster's Show.png"
+			}
+		},
+		{
+			"name": "Tavern Games",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Enchantment",
+			"collector_number": "145",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/145_Tavern Games.png"
+			}
+		},
+		{
+			"name": "Fire Fists",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "122",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/122_Fire Fists.png"
+			}
+		},
+		{
+			"name": "Irresponsible Ignition",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "129",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/129_Irresponsible Ignition.png"
+			}
+		},
+		{
+			"name": "Envelop In Fire",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "121",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/121_Envelop In Fire.png"
+			}
+		},
+		{
+			"name": "Raging Temper",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "139",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/139_Raging Temper.png"
+			}
+		},
+		{
+			"name": "Novice Biomancer",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Human Wizard ",
+			"collector_number": "174",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/174_Novice Biomancer.png"
+			}
+		},
+		{
+			"name": "Mantis Warrior",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Insect Mutant Warrior ",
+			"collector_number": "171",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/171_Mantis Warrior.png"
+			}
+		},
+		{
+			"name": "Long Man",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Thrull ",
+			"collector_number": "170",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/170_Long Man.png"
+			}
+		},
+		{
+			"name": "Thrull Hammerslinger",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Thrull ",
+			"collector_number": "185",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/185_Thrull Hammerslinger.png"
+			}
+		},
+		{
+			"name": "Tavern Fool",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Human Bard ",
+			"collector_number": "184",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/184_Tavern Fool.png"
+			}
+		},
+		{
+			"name": "Gem Specialist",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Human Advisor ",
+			"collector_number": "163",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/163_Gem Specialist.png"
+			}
+		},
+		{
+			"name": "Chimeric Warrior",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Chimera Warrior ",
+			"collector_number": "155",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/155_Chimeric Warrior.png"
+			}
+		},
+		{
+			"name": "Heavy Underboss",
+			"rarity": "common",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Human Warrior ",
+			"collector_number": "165",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/165_Heavy Underboss.png"
+			}
+		},
+		{
+			"name": "Chimera Yearling",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Chimera ",
+			"collector_number": "154",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/154_Chimera Yearling.png"
+			}
+		},
+		{
+			"name": "Dragon Wyrmling",
+			"rarity": "common",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Dragon Mutant ",
+			"collector_number": "159",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/159_Dragon Wyrmling.png"
+			}
+		},
+		{
+			"name": "Royal Jester",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Thrull Bard ",
+			"collector_number": "178",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/178_Royal Jester.png"
+			}
+		},
+		{
+			"name": "Charged Archery",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "153",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/153_Charged Archery.png"
+			}
+		},
+		{
+			"name": "Crime Pays",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "158",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/158_Crime Pays.png"
+			}
+		},
+		{
+			"name": "Superhuman Strike",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Sorcery",
+			"collector_number": "183",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/183_Superhuman Strike.png"
+			}
+		},
+		{
+			"name": "Overzealous Celebration",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "175",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/175_Overzealous Celebration.png"
+			}
+		},
+		{
+			"name": "Calming Respite",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Sorcery",
+			"collector_number": "151",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/151_Calming Respite.png"
+			}
+		},
+		{
+			"name": "Aura Quell",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "150",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/150_Aura Quell.png"
+			}
+		},
+		{
+			"name": "Lock Horns",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Sorcery",
+			"collector_number": "169",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/169_Lock Horns.png"
+			}
+		},
+		{
+			"name": "Flourishing Growth",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "162",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/162_Flourishing Growth.png"
+			}
+		},
+		{
+			"name": "Advanced Biotanks",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "235",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/235_Advanced Biotanks.png"
+			}
+		},
+		{
+			"name": "Jack in the Box",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "242",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/242_Jack in the Box.png"
+			}
+		},
+		{
+			"name": "Colossal Puppets",
+			"rarity": "common",
+			"mana_cost": "{5}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "239",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/239_Colossal Puppets.png"
+			}
+		},
+		{
+			"name": "Blind Bet",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact — Treasure ",
+			"collector_number": "236",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/236_Blind Bet.png"
+			}
+		},
+		{
+			"name": "Burning Hammer",
+			"rarity": "common",
+			"mana_cost": "{4}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "237",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/237_Burning Hammer.png"
+			}
+		},
+		{
+			"name": "Fun House",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "252",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/252_Fun House.png"
+			}
+		},
+		{
+			"name": "Ring of Honor",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "261",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/261_Ring of Honor.png"
+			}
+		},
+		{
+			"name": "Gambler's Den",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "253",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/253_Gambler's Den.png"
+			}
+		},
+		{
+			"name": "Illicit Club",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "258",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/258_Illicit Club.png"
+			}
+		},
+		{
+			"name": "Bustling Village",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "247",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/247_Bustling Village.png"
+			}
+		},
+		{
+			"name": "Exotic Aquarium",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "250",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/250_Exotic Aquarium.png"
+			}
+		},
+		{
+			"name": "Size Doesn't Matter",
+			"rarity": "common",
+			"mana_cost": "{W}{B}",
+			"type": "Instant",
+			"collector_number": "215",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/215_Size Doesn't Matter.png"
+			}
+		},
+		{
+			"name": "Chimera Hatchling",
+			"rarity": "common",
+			"mana_cost": "{2}{U}{R}",
+			"type": "Creature — Chimera ",
+			"collector_number": "193",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/193_Chimera Hatchling.png"
+			}
+		},
+		{
+			"name": "Hit Squad",
+			"rarity": "common",
+			"mana_cost": "{2}{B}{G}",
+			"type": "Creature — Human Assassin ",
+			"collector_number": "205",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/205_Hit Squad.png"
+			}
+		},
+		{
+			"name": "Remarkable Performance",
+			"rarity": "common",
+			"mana_cost": "{1}{R}{W}",
+			"type": "Sorcery",
+			"collector_number": "212",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/212_Remarkable Performance.png"
+			}
+		},
+		{
+			"name": "Empowered Growth",
+			"rarity": "common",
+			"mana_cost": "{G}{U}",
+			"type": "Sorcery",
+			"collector_number": "199",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/199_Empowered Growth.png"
+			}
+		},
+		{
+			"name": "Grand Carnival",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "255",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/255_Grand Carnival.png"
+			}
+		},
+		{
+			"name": "Roundhouse Striker",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Wrestler ",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/27_Roundhouse Striker.png"
+			}
+		},
+		{
+			"name": "Shifting Striker",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Wrestler ",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/29_Shifting Striker.png"
+			}
+		},
+		{
+			"name": "Malicious Mime",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Bard ",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/21_Malicious Mime.png"
+			}
+		},
+		{
+			"name": "Generous Gift",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Instant",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/16_Generous Gift.png"
+			}
+		},
+		{
+			"name": "Cock Shot",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/8_Cock Shot.png"
+			}
+		},
+		{
+			"name": "Tag Team Advantage",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Instant",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/33_Tag Team Advantage.png"
+			}
+		},
+		{
+			"name": "Enthralling Distraction",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Instant",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/12_Enthralling Distraction.png"
+			}
+		},
+		{
+			"name": "Funerary Rites",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Sorcery",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/15_Funerary Rites.png"
+			}
+		},
+		{
+			"name": "Faltz, Grand Illusionist",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Legendary Creature — Human Wizard ",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/55_Faltz, Grand Illusionist.png"
+			}
+		},
+		{
+			"name": "Boxtopus",
+			"rarity": "uncommon",
+			"mana_cost": "{6}{U}{U}",
+			"type": "Creature — Mutant Octopus Warrior ",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/39_Boxtopus.png"
+			}
+		},
+		{
+			"name": "L'eau, Water Spirit",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Legendary Creature — Elemental ",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/59_L'eau, Water Spirit.png"
+			}
+		},
+		{
+			"name": "Chimera Colossus",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Chimera Mutant ",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/43_Chimera Colossus.png"
+			}
+		},
+		{
+			"name": "Sandstone Lizard",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Lizard ",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/68_Sandstone Lizard.png"
+			}
+		},
+		{
+			"name": "Enticing Distraction",
+			"rarity": "uncommon",
+			"mana_cost": "{U}{U}",
+			"type": "Instant",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/51_Enticing Distraction.png"
+			}
+		},
+		{
+			"name": "Tavern Gunslinger",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Rogue Gambler ",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/73_Tavern Gunslinger.png"
+			}
+		},
+		{
+			"name": "Mesmerizing Display",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Sorcery",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/63_Mesmerizing Display.png"
+			}
+		},
+		{
+			"name": "Diabolical Spinner",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Human Wrestler ",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/87_Diabolical Spinner.png"
+			}
+		},
+		{
+			"name": "Steelfist Heel",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Human Wrestler ",
+			"collector_number": "106",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/106_Steelfist Heel.png"
+			}
+		},
+		{
+			"name": "Open Palm Master",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Human Wrestler ",
+			"collector_number": "97",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/97_Open Palm Master.png"
+			}
+		},
+		{
+			"name": "Frogkin Kidnapper",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Frog Rogue ",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/89_Frogkin Kidnapper.png"
+			}
+		},
+		{
+			"name": "Eto, the Deranged",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Legendary Creature — Demon ",
+			"collector_number": "88",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/88_Eto, the Deranged.png"
+			}
+		},
+		{
+			"name": "Tait, Hidden in Plain Sight",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Legendary Creature — Rogue ",
+			"collector_number": "108",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/108_Tait, Hidden in Plain Sight.png"
+			}
+		},
+		{
+			"name": "Pumpkin Carver",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Artificer ",
+			"collector_number": "99",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/99_Pumpkin Carver.png"
+			}
+		},
+		{
+			"name": "Abduct",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/75_Abduct.png"
+			}
+		},
+		{
+			"name": "Dice Head",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Elemental ",
+			"collector_number": "120",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/120_Dice Head.png"
+			}
+		},
+		{
+			"name": "Ogon, the Mad Inferno",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Legendary Creature — Devil ",
+			"collector_number": "134",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/134_Ogon, the Mad Inferno.png"
+			}
+		},
+		{
+			"name": "Thrill Ride",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "146",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/146_Thrill Ride.png"
+			}
+		},
+		{
+			"name": "Flamespitter",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Bard ",
+			"collector_number": "123",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/123_Flamespitter.png"
+			}
+		},
+		{
+			"name": "Istan, Uncanny Illusionist",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Legendary Creature — Illusion Warrior ",
+			"collector_number": "130",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/130_Istan, Uncanny Illusionist.png"
+			}
+		},
+		{
+			"name": "Dice Devil",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Devil Gambler ",
+			"collector_number": "119",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/119_Dice Devil.png"
+			}
+		},
+		{
+			"name": "Center Stage",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Instant",
+			"collector_number": "115",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/115_Center Stage.png"
+			}
+		},
+		{
+			"name": "Neon Fire Dancer",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Human Wizard ",
+			"collector_number": "133",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/133_Neon Fire Dancer.png"
+			}
+		},
+		{
+			"name": "Polar Gladiator",
+			"rarity": "uncommon",
+			"mana_cost": "{G}{G}",
+			"type": "Creature — Bear Mutant Warrior ",
+			"collector_number": "176",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/176_Polar Gladiator.png"
+			}
+		},
+		{
+			"name": "Starik, Last of the Old Ways",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Legendary Creature — Human ",
+			"collector_number": "182",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/182_Starik, Last of the Old Ways.png"
+			}
+		},
+		{
+			"name": "Harlequin Thrull",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Thrull ",
+			"collector_number": "164",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/164_Harlequin Thrull.png"
+			}
+		},
+		{
+			"name": "Endless Explorer",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Thrull Scout ",
+			"collector_number": "160",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/160_Endless Explorer.png"
+			}
+		},
+		{
+			"name": "Var-Var the Insurmountable",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{G}",
+			"type": "Legendary Creature — Thrull Berserker ",
+			"collector_number": "186",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/186_Var-Var the Insurmountable.png"
+			}
+		},
+		{
+			"name": "Come One, Come All",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Sorcery",
+			"collector_number": "156",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/156_Come One, Come All.png"
+			}
+		},
+		{
+			"name": "Mismatched Fight",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "172",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/172_Mismatched Fight.png"
+			}
+		},
+		{
+			"name": "Carry Out",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "152",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/152_Carry Out.png"
+			}
+		},
+		{
+			"name": "Chicken Game",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "238",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/238_Chicken Game.png"
+			}
+		},
+		{
+			"name": "Backroom Office",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "244",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/244_Backroom Office.png"
+			}
+		},
+		{
+			"name": "Deathmatch Arena",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "249",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/249_Deathmatch Arena.png"
+			}
+		},
+		{
+			"name": "Title Belt",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "243",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/243_Title Belt.png"
+			}
+		},
+		{
+			"name": "Mana Rift",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "259",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/259_Mana Rift.png"
+			}
+		},
+		{
+			"name": "Winding River",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Plains Island ",
+			"collector_number": "264",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/264_Winding River.png"
+			}
+		},
+		{
+			"name": "Gloomy Creekbed",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Island Swamp ",
+			"collector_number": "254",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/254_Gloomy Creekbed.png"
+			}
+		},
+		{
+			"name": "Sacrificial Chamber",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Swamp Mountain ",
+			"collector_number": "262",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/262_Sacrificial Chamber.png"
+			}
+		},
+		{
+			"name": "Forest Valley",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Mountain Forest ",
+			"collector_number": "251",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/251_Forest Valley.png"
+			}
+		},
+		{
+			"name": "Overgrown Meadow",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Forest Plains ",
+			"collector_number": "260",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/260_Overgrown Meadow.png"
+			}
+		},
+		{
+			"name": "Hallowed Chapel",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Plains Swamp ",
+			"collector_number": "256",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/256_Hallowed Chapel.png"
+			}
+		},
+		{
+			"name": "Cliffside River",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Island Mountain ",
+			"collector_number": "248",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/248_Cliffside River.png"
+			}
+		},
+		{
+			"name": "Blighted Cavern",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Swamp Forest ",
+			"collector_number": "246",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/246_Blighted Cavern.png"
+			}
+		},
+		{
+			"name": "Hillside Village",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Mountain Plains ",
+			"collector_number": "257",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/257_Hillside Village.png"
+			}
+		},
+		{
+			"name": "Spiraling Morass",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Forest Island ",
+			"collector_number": "263",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/263_Spiraling Morass.png"
+			}
+		},
+		{
+			"name": "Wrestler's Charm",
+			"rarity": "uncommon",
+			"mana_cost": "{W/B}",
+			"type": "Instant",
+			"collector_number": "234",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/234_Wrestler's Charm.png"
+			}
+		},
+		{
+			"name": "Gambler's Charm",
+			"rarity": "uncommon",
+			"mana_cost": "{U/R}",
+			"type": "Instant",
+			"collector_number": "229",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/229_Gambler's Charm.png"
+			}
+		},
+		{
+			"name": "Criminal's Charm",
+			"rarity": "uncommon",
+			"mana_cost": "{B/G}",
+			"type": "Instant",
+			"collector_number": "227",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/227_Criminal's Charm.png"
+			}
+		},
+		{
+			"name": "Performer's Charm",
+			"rarity": "uncommon",
+			"mana_cost": "{R/W}",
+			"type": "Instant",
+			"collector_number": "232",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/232_Performer's Charm.png"
+			}
+		},
+		{
+			"name": "Biomancer's Charm",
+			"rarity": "uncommon",
+			"mana_cost": "{G/U}",
+			"type": "Sorcery",
+			"collector_number": "226",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/226_Biomancer's Charm.png"
+			}
+		},
+		{
+			"name": "Suddya, Arbiter of Fairness",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{U}",
+			"type": "Legendary Creature — Angel ",
+			"collector_number": "217",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/217_Suddya, Arbiter of Fairness.png"
+			}
+		},
+		{
+			"name": "Ravina, the Silent Blade",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{B}",
+			"type": "Legendary Creature — Human Assassin ",
+			"collector_number": "211",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/211_Ravina, the Silent Blade.png"
+			}
+		},
+		{
+			"name": "Mannken, the Puppeteer",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}{R}",
+			"type": "Legendary Creature — Human Wizard ",
+			"collector_number": "208",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/208_Mannken, the Puppeteer.png"
+			}
+		},
+		{
+			"name": "Boom-Boom, the Mad Clown",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{G}",
+			"type": "Legendary Creature — Demon Clown ",
+			"collector_number": "190",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/190_Boom-Boom, the Mad Clown.png"
+			}
+		},
+		{
+			"name": "Aleik, Lonesome Bard",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{W}",
+			"type": "Legendary Creature — Elf Bard ",
+			"collector_number": "187",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/187_Aleik, Lonesome Bard.png"
+			}
+		},
+		{
+			"name": "Murph, Flying Boots",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{B}",
+			"type": "Legendary Creature — Human Wrestler ",
+			"collector_number": "210",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/210_Murph, Flying Boots.png"
+			}
+		},
+		{
+			"name": "Alisa, Unstable Prodigy",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Legendary Creature — Human Gambler ",
+			"collector_number": "188",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/188_Alisa, Unstable Prodigy.png"
+			}
+		},
+		{
+			"name": "Grabitel, Master Thief",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{G}",
+			"type": "Legendary Creature — Human Rogue ",
+			"collector_number": "203",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/203_Grabitel, Master Thief.png"
+			}
+		},
+		{
+			"name": "Stilis, Torch Juggler",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{W}",
+			"type": "Legendary Creature — Hyena Bard ",
+			"collector_number": "216",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/216_Stilis, Torch Juggler.png"
+			}
+		},
+		{
+			"name": "Uncheny, Mutant Monstrosity",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}{U}",
+			"type": "Legendary Creature — Insect Mutant ",
+			"collector_number": "221",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/221_Uncheny, Mutant Monstrosity.png"
+			}
+		},
+		{
+			"name": "Combo Striker",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{B}",
+			"type": "Creature — Human Wrestler ",
+			"collector_number": "195",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/195_Combo Striker.png"
+			}
+		},
+		{
+			"name": "The Dvoynya Twins",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{R}",
+			"type": "Legendary Creature — Human Gambler ",
+			"collector_number": "197",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/197_The Dvoynya Twins.png"
+			}
+		},
+		{
+			"name": "Tyanut, Thrull Master",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{G}",
+			"type": "Legendary Creature — Human Wizard ",
+			"collector_number": "219",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/219_Tyanut, Thrull Master.png"
+			}
+		},
+		{
+			"name": "Elegant Dancer",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}{W}",
+			"type": "Creature — Human ",
+			"collector_number": "198",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/198_Elegant Dancer.png"
+			}
+		},
+		{
+			"name": "Giant Owlk",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{U}",
+			"type": "Creature — Bird Elk Mutant ",
+			"collector_number": "201",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/201_Giant Owlk.png"
+			}
+		},
+		{
+			"name": "Melting Strike",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{B}",
+			"type": "Instant",
+			"collector_number": "209",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/209_Melting Strike.png"
+			}
+		},
+		{
+			"name": "Chaotic Magic",
+			"rarity": "uncommon",
+			"mana_cost": "{U}{R}",
+			"type": "Instant",
+			"collector_number": "191",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/191_Chaotic Magic.png"
+			}
+		},
+		{
+			"name": "Thrull Conversion",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{G}",
+			"type": "Sorcery",
+			"collector_number": "218",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/218_Thrull Conversion.png"
+			}
+		},
+		{
+			"name": "Magnificent Performance",
+			"rarity": "uncommon",
+			"mana_cost": "{R}{W}",
+			"type": "Instant",
+			"collector_number": "207",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/207_Magnificent Performance.png"
+			}
+		},
+		{
+			"name": "Unrestricted Growth",
+			"rarity": "uncommon",
+			"mana_cost": "{G}{U}",
+			"type": "Instant",
+			"collector_number": "222",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/222_Unrestricted Growth.png"
+			}
+		},
+		{
+			"name": "Cage Fighter",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Wrestler ",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/6_Cage Fighter.png"
+			}
+		},
+		{
+			"name": "Fox Fantastique",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}",
+			"type": "Legendary Artifact Creature — Fox Wrestler ",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/14_Fox Fantastique.png"
+			}
+		},
+		{
+			"name": "Talon, Rope Runner",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}",
+			"type": "Legendary Creature — Human Wrestler ",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/35_Talon, Rope Runner.png"
+			}
+		},
+		{
+			"name": "Dirizher, Grand Conductor",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}",
+			"type": "Legendary Creature — Human Bard ",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/11_Dirizher, Grand Conductor.png"
+			}
+		},
+		{
+			"name": "Dashing Dancer",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Bard ",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/9_Dashing Dancer.png"
+			}
+		},
+		{
+			"name": "Joyous Festival",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}",
+			"type": "Sorcery",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/19_Joyous Festival.png"
+			}
+		},
+		{
+			"name": "Moonsliver Shaman",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Shaman ",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/22_Moonsliver Shaman.png"
+			}
+		},
+		{
+			"name": "Reign Supreme",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/25_Reign Supreme.png"
+			}
+		},
+		{
+			"name": "Maddening Death Spiral",
+			"rarity": "rare",
+			"mana_cost": "{4}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/20_Maddening Death Spiral.png"
+			}
+		},
+		{
+			"name": "Enigma, the Shadow",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Legendary Creature — Shapeshifter ",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/50_Enigma, the Shadow.png"
+			}
+		},
+		{
+			"name": "Nezhit the Ancient",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Legendary Creature — Zombie Gambler ",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/64_Nezhit the Ancient.png"
+			}
+		},
+		{
+			"name": "Shapka the Sly",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Legendary Creature — Human Gambler Rogue ",
+			"collector_number": "70",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/70_Shapka the Sly.png"
+			}
+		},
+		{
+			"name": "Ryba, Defiant Tidemaster",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Legendary Creature — Merfolk Mutant ",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/67_Ryba, Defiant Tidemaster.png"
+			}
+		},
+		{
+			"name": "Control Fate",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Instant",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/44_Control Fate.png"
+			}
+		},
+		{
+			"name": "Magician's Foresight",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}",
+			"type": "Enchantment",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/62_Magician's Foresight.png"
+			}
+		},
+		{
+			"name": "Semiformed Soldier",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Mutant Soldier ",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/69_Semiformed Soldier.png"
+			}
+		},
+		{
+			"name": "Drift Along the Winds",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Sorcery",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/48_Drift Along the Winds.png"
+			}
+		},
+		{
+			"name": "Warden's Shield",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Instant",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/74_Warden's Shield.png"
+			}
+		},
+		{
+			"name": "Jawbone, the Deadly Maw",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Legendary Creature — Horror Wrestler ",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/93_Jawbone, the Deadly Maw.png"
+			}
+		},
+		{
+			"name": "Lestat, the Bloodmad",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}",
+			"type": "Legendary Creature — Vampire Wrestler ",
+			"collector_number": "94",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/94_Lestat, the Bloodmad.png"
+			}
+		},
+		{
+			"name": "Chain Striker",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Human Wrestler ",
+			"collector_number": "81",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/81_Chain Striker.png"
+			}
+		},
+		{
+			"name": "Blood Hunter",
+			"rarity": "rare",
+			"mana_cost": "{B}{B}",
+			"type": "Creature — Wraith ",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/78_Blood Hunter.png"
+			}
+		},
+		{
+			"name": "Chert the Blood Lord",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Legendary Creature — Demon ",
+			"collector_number": "82",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/82_Chert the Blood Lord.png"
+			}
+		},
+		{
+			"name": "Greedy Tutor",
+			"rarity": "rare",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "90",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/90_Greedy Tutor.png"
+			}
+		},
+		{
+			"name": "Hold Hostage",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "92",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/92_Hold Hostage.png"
+			}
+		},
+		{
+			"name": "Triple Threat Match",
+			"rarity": "rare",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "110",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/110_Triple Threat Match.png"
+			}
+		},
+		{
+			"name": "Limitless Wealth",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Enchantment",
+			"collector_number": "95",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/95_Limitless Wealth.png"
+			}
+		},
+		{
+			"name": "Napier, Court Jester",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Legendary Creature — Human Bard ",
+			"collector_number": "132",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/132_Napier, Court Jester.png"
+			}
+		},
+		{
+			"name": "Koldun the Magnificent",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Creature — Human Wizard ",
+			"collector_number": "131",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/131_Koldun the Magnificent.png"
+			}
+		},
+		{
+			"name": "Wheel of Suffering",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Instant",
+			"collector_number": "149",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/149_Wheel of Suffering.png"
+			}
+		},
+		{
+			"name": "Privesti, Parade Leader",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Legendary Creature — Human Bard ",
+			"collector_number": "137",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/137_Privesti, Parade Leader.png"
+			}
+		},
+		{
+			"name": "Igrok, Gambling Prodigy",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Legendary Creature — Human Gambler ",
+			"collector_number": "127",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/127_Igrok, Gambling Prodigy.png"
+			}
+		},
+		{
+			"name": "Fortune or Fire",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "124",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/124_Fortune or Fire.png"
+			}
+		},
+		{
+			"name": "Gamble",
+			"rarity": "rare",
+			"mana_cost": "{R}",
+			"type": "Sorcery",
+			"collector_number": "125",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/125_Gamble.png"
+			}
+		},
+		{
+			"name": "Chasy the Mad",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Legendary Creature — Human Gambler ",
+			"collector_number": "116",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/116_Chasy the Mad.png"
+			}
+		},
+		{
+			"name": "Podvohk, the Mad Juggler",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Legendary Creature — Human Bard ",
+			"collector_number": "135",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/135_Podvohk, the Mad Juggler.png"
+			}
+		},
+		{
+			"name": "Krov, Bounty Hunter",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Legendary Creature — Elf ",
+			"collector_number": "168",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/168_Krov, Bounty Hunter.png"
+			}
+		},
+		{
+			"name": "Srâne, Flycatcher",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Legendary Creature — Thrull ",
+			"collector_number": "181",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/181_Srâne, Flycatcher.png"
+			}
+		},
+		{
+			"name": "Korol, Last of the Great Kings",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Legendary Creature — Human Noble ",
+			"collector_number": "167",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/167_Korol, Last of the Great Kings.png"
+			}
+		},
+		{
+			"name": "Fleyta, Furious Flautist",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}",
+			"type": "Legendary Creature — Human Bard ",
+			"collector_number": "161",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/161_Fleyta, Furious Flautist.png"
+			}
+		},
+		{
+			"name": "Shayr, Pinwheel Perforator",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Legendary Creature — Thrull ",
+			"collector_number": "179",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/179_Shayr, Pinwheel Perforator.png"
+			}
+		},
+		{
+			"name": "Crime Boss",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Human Rogue ",
+			"collector_number": "157",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/157_Crime Boss.png"
+			}
+		},
+		{
+			"name": "Night's Revival",
+			"rarity": "rare",
+			"mana_cost": "{X}{G}",
+			"type": "Sorcery",
+			"collector_number": "173",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/173_Night's Revival.png"
+			}
+		},
+		{
+			"name": "Spirit Ransom",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "180",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/180_Spirit Ransom.png"
+			}
+		},
+		{
+			"name": "Quell the Beasts",
+			"rarity": "rare",
+			"mana_cost": "{5}{G}",
+			"type": "Sorcery",
+			"collector_number": "177",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/177_Quell the Beasts.png"
+			}
+		},
+		{
+			"name": "The Dagger",
+			"rarity": "rare",
+			"mana_cost": "{1{W}/B}{W/B}",
+			"type": "Legendary Creature — Human Wrestler ",
+			"collector_number": "228",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/228_The Dagger.png"
+			}
+		},
+		{
+			"name": "Karta, Aces High",
+			"rarity": "rare",
+			"mana_cost": "{1{U}/R}{U/R}",
+			"type": "Legendary Creature — Human Gambler ",
+			"collector_number": "230",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/230_Karta, Aces High.png"
+			}
+		},
+		{
+			"name": "Tolpa, the Dark Lord",
+			"rarity": "rare",
+			"mana_cost": "{3}{B/G}{B/G}",
+			"type": "Legendary Creature — Elf Noble ",
+			"collector_number": "233",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/233_Tolpa, the Dark Lord.png"
+			}
+		},
+		{
+			"name": "The Muses Three",
+			"rarity": "rare",
+			"mana_cost": "{4}{R/W}",
+			"type": "Legendary Creature — Avatar ",
+			"collector_number": "231",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/231_The Muses Three.png"
+			}
+		},
+		{
+			"name": "Akula, Biomancer Extrodinaire",
+			"rarity": "rare",
+			"mana_cost": "{2}{G/U}",
+			"type": "Legendary Creature — Merfolk Wizard ",
+			"collector_number": "225",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/225_Akula, Biomancer Extrodinaire.png"
+			}
+		},
+		{
+			"name": "Silenced Strike",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{B}",
+			"type": "Sorcery",
+			"collector_number": "214",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/214_Silenced Strike.png"
+			}
+		},
+		{
+			"name": "The Gamemaster",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{R}",
+			"type": "Legendary Creature — Avatar Gambler ",
+			"collector_number": "200",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/200_The Gamemaster.png"
+			}
+		},
+		{
+			"name": "Horror of the Dark Forest",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{G}",
+			"type": "Legendary Creature — Avatar Horror ",
+			"collector_number": "206",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/206_Horror of the Dark Forest.png"
+			}
+		},
+		{
+			"name": "Glorious Finale",
+			"rarity": "rare",
+			"mana_cost": "{X}{R}{W}",
+			"type": "Sorcery",
+			"collector_number": "202",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/202_Glorious Finale.png"
+			}
+		},
+		{
+			"name": "Ukrotitel, Ringmaster",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{U}",
+			"type": "Legendary Creature — Human ",
+			"collector_number": "220",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/220_Ukrotitel, Ringmaster.png"
+			}
+		},
+		{
+			"name": "The Big Top",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "245",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/245_The Big Top.png"
+			}
+		},
+		{
+			"name": "Gambler's Astrolabe",
+			"rarity": "rare",
+			"mana_cost": "{1}",
+			"type": "Artifact",
+			"collector_number": "240",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/240_Gambler's Astrolabe.png"
+			}
+		},
+		{
+			"name": "Hidden Vault",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "241",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/241_Hidden Vault.png"
+			}
+		},
+		{
+			"name": "Ruff, Glorious Champion",
+			"rarity": "mythic",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Legendary Creature — Dog Wrestler ",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/28_Ruff, Glorious Champion.png"
+			}
+		},
+		{
+			"name": "Counting Cards",
+			"rarity": "mythic",
+			"mana_cost": "{X}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/45_Counting Cards.png"
+			}
+		},
+		{
+			"name": "Shchur, Superior Striker",
+			"rarity": "mythic",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Legendary Creature — Rat Wrestler ",
+			"collector_number": "102",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/102_Shchur, Superior Striker.png"
+			}
+		},
+		{
+			"name": "Risk It All",
+			"rarity": "mythic",
+			"mana_cost": "{X}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "141",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/141_Risk It All.png"
+			}
+		},
+		{
+			"name": "Introducing...",
+			"rarity": "mythic",
+			"mana_cost": "{X}{G}{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "166",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/166_Introducing....png"
+			}
+		},
+		{
+			"name": "Hedyll, the Two Faced",
+			"rarity": "mythic",
+			"mana_cost": "{4}{W}{B}",
+			"type": "Legendary Creature — Human Wrestler ",
+			"collector_number": "204",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/204_Hedyll, the Two Faced.png"
+			}
+		},
+		{
+			"name": "Divine Dice",
+			"rarity": "mythic",
+			"mana_cost": "{U}{R}",
+			"type": "Enchantment",
+			"collector_number": "196",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/196_Divine Dice.png"
+			}
+		},
+		{
+			"name": "Vykup, Kingpin",
+			"rarity": "mythic",
+			"mana_cost": "{1}{B}{G}",
+			"type": "Legendary Creature — Rat Noble Rogue ",
+			"collector_number": "223",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/223_Vykup, Kingpin.png"
+			}
+		},
+		{
+			"name": "Charan, Wildflame Prodigy",
+			"rarity": "mythic",
+			"mana_cost": "{R}{W}",
+			"type": "Legendary Creature — Human Bard ",
+			"collector_number": "192",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/192_Charan, Wildflame Prodigy.png"
+			}
+		},
+		{
+			"name": "Chimera Ultimus",
+			"rarity": "mythic",
+			"mana_cost": "{X}{G}{U}",
+			"type": "Creature — Chimera Mutant ",
+			"collector_number": "194",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/194_Chimera Ultimus.png"
+			}
+		},
+		{
+			"name": "Würfel, Lord of Chance",
+			"rarity": "mythic",
+			"mana_cost": "{2}{U}{R}",
+			"type": "Legendary Planeswalker — Würfel ",
+			"collector_number": "224",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/224_Würfel, Lord of Chance.png"
+			}
+		},
+		{
+			"name": "Agni, Fire Dancer",
+			"rarity": "mythic",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Legendary Planeswalker — Agni ",
+			"collector_number": "112",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/112_Agni, Fire Dancer.png"
+			}
+		},
+		{
+			"name": "Ringen, Interplanar Champion",
+			"rarity": "mythic",
+			"mana_cost": "{2}{W}{B}",
+			"type": "Legendary Planeswalker — Ringen ",
+			"collector_number": "213",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/213_Ringen, Interplanar Champion.png"
+			}
+		},
+		{
+			"name": "Auraro, the Shifting Tide",
+			"rarity": "mythic",
+			"mana_cost": "{X}{G}{U}",
+			"type": "Legendary Planeswalker — Auraro ",
+			"collector_number": "189",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/189_Auraro, the Shifting Tide.png"
+			}
+		},
+		{
+			"name": "Plains",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Plains ",
+			"collector_number": "265",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/265_Plains.png"
+			}
+		},
+		{
+			"name": "Island",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Island ",
+			"collector_number": "266",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/266_Island.png"
+			}
+		},
+		{
+			"name": "Swamp",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Swamp ",
+			"collector_number": "267",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/267_Swamp.png"
+			}
+		},
+		{
+			"name": "Mountain",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Mountain ",
+			"collector_number": "268",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/268_Mountain.png"
+			}
+		},
+		{
+			"name": "Forest",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Forest ",
+			"collector_number": "269",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/269_Forest.png"
+			}
+		},
+		{
+			"name": "Treasure",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Treasure ",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/15_Treasure.png"
+			}
+		},
+		{
+			"name": "Bomb",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/12_Bomb.png"
+			}
+		},
+		{
+			"name": "Thrull",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Thrull ",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/9_Thrull.png"
+			}
+		},
+		{
+			"name": "Wrestler2",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Wrestler ",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/11_Wrestler2.png"
+			}
+		},
+		{
+			"name": "Elephant",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Elephant ",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/3_Elephant.png"
+			}
+		},
+		{
+			"name": "Food",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Food ",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/13_Food.png"
+			}
+		},
+		{
+			"name": "Auraro, the Shifting Tide Emblem",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Emblem — Auraro ",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/8_Auraro, the Shifting Tide Emblem.png"
+			}
+		},
+		{
+			"name": "Shark Elemental",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Shark Elemental ",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/5_Shark Elemental.png"
+			}
+		},
+		{
+			"name": "Wrestler",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Wrestler ",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/10_Wrestler.png"
+			}
+		},
+		{
+			"name": "Plant",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Plant ",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/7_Plant.png"
+			}
+		},
+		{
+			"name": "Lantern",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Lantern ",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/14_Lantern.png"
+			}
+		},
+		{
+			"name": "Faltz's Duplicate",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Token Creature — Illusion Wizard ",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/4_Faltz's Duplicate.png"
+			}
+		},
+		{
+			"name": "Beast Mutant",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Beast Mutant ",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/6_Beast Mutant.png"
+			}
+		},
+		{
+			"name": "Bard",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Bard ",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/2_Bard.png"
+			}
+		},
+		{
+			"name": "Mad World Draft Archetypes",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Reminder",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https:///sets/MAD-files/img/1_Mad World Draft Archetypes.png"
+			}
+		}
+	]
+[RareSlot(1)]
+2 Cage Fighter
+2 Fox Fantastique
+2 Talon, Rope Runner
+2 Dirizher, Grand Conductor
+2 Dashing Dancer
+2 Joyous Festival
+2 Moonsliver Shaman
+2 Reign Supreme
+2 Maddening Death Spiral
+2 Enigma, the Shadow
+2 Nezhit the Ancient
+2 Shapka the Sly
+2 Ryba, Defiant Tidemaster
+2 Control Fate
+2 Magician's Foresight
+2 Semiformed Soldier
+2 Drift Along the Winds
+2 Warden's Shield
+2 Jawbone, the Deadly Maw
+2 Lestat, the Bloodmad
+2 Chain Striker
+2 Blood Hunter
+2 Chert the Blood Lord
+2 Greedy Tutor
+2 Hold Hostage
+2 Triple Threat Match
+2 Limitless Wealth
+2 Napier, Court Jester
+2 Koldun the Magnificent
+2 Wheel of Suffering
+2 Privesti, Parade Leader
+2 Igrok, Gambling Prodigy
+2 Fortune or Fire
+2 Gamble
+2 Chasy the Mad
+2 Podvohk, the Mad Juggler
+2 Krov, Bounty Hunter
+2 Srâne, Flycatcher
+2 Korol, Last of the Great Kings
+2 Fleyta, Furious Flautist
+2 Shayr, Pinwheel Perforator
+2 Crime Boss
+2 Night's Revival
+2 Spirit Ransom
+2 Quell the Beasts
+2 The Dagger
+2 Karta, Aces High
+2 Tolpa, the Dark Lord
+2 The Muses Three
+2 Akula, Biomancer Extrodinaire
+2 Silenced Strike
+2 The Gamemaster
+2 Horror of the Dark Forest
+2 Glorious Finale
+2 Ukrotitel, Ringmaster
+2 The Big Top
+2 Gambler's Astrolabe
+2 Hidden Vault
+1 Ruff, Glorious Champion
+1 Counting Cards
+1 Shchur, Superior Striker
+1 Risk It All
+1 Introducing...
+1 Hedyll, the Two Faced
+1 Divine Dice
+1 Vykup, Kingpin
+1 Charan, Wildflame Prodigy
+1 Chimera Ultimus
+1 Würfel, Lord of Chance
+1 Agni, Fire Dancer
+1 Ringen, Interplanar Champion
+1 Auraro, the Shifting Tide
+[UncommonSlot(3)]
+9 Roundhouse Striker
+9 Shifting Striker
+9 Malicious Mime
+9 Generous Gift
+9 Cock Shot
+9 Tag Team Advantage
+9 Enthralling Distraction
+9 Funerary Rites
+9 Faltz, Grand Illusionist
+9 Boxtopus
+9 L'eau, Water Spirit
+9 Chimera Colossus
+9 Sandstone Lizard
+9 Enticing Distraction
+9 Tavern Gunslinger
+9 Mesmerizing Display
+9 Diabolical Spinner
+9 Steelfist Heel
+9 Open Palm Master
+9 Frogkin Kidnapper
+9 Eto, the Deranged
+9 Tait, Hidden in Plain Sight
+9 Pumpkin Carver
+9 Abduct
+9 Dice Head
+9 Ogon, the Mad Inferno
+9 Thrill Ride
+9 Flamespitter
+9 Istan, Uncanny Illusionist
+9 Dice Devil
+9 Center Stage
+9 Neon Fire Dancer
+9 Polar Gladiator
+9 Starik, Last of the Old Ways
+9 Harlequin Thrull
+9 Endless Explorer
+9 Var-Var the Insurmountable
+9 Come One, Come All
+9 Mismatched Fight
+9 Carry Out
+9 Chicken Game
+9 Backroom Office
+9 Deathmatch Arena
+9 Title Belt
+9 Mana Rift
+9 Winding River
+9 Gloomy Creekbed
+9 Sacrificial Chamber
+9 Forest Valley
+9 Overgrown Meadow
+9 Hallowed Chapel
+9 Cliffside River
+9 Blighted Cavern
+9 Hillside Village
+9 Spiraling Morass
+9 Wrestler's Charm
+9 Gambler's Charm
+9 Criminal's Charm
+9 Performer's Charm
+9 Biomancer's Charm
+9 Suddya, Arbiter of Fairness
+9 Ravina, the Silent Blade
+9 Mannken, the Puppeteer
+9 Boom-Boom, the Mad Clown
+9 Aleik, Lonesome Bard
+9 Murph, Flying Boots
+9 Alisa, Unstable Prodigy
+9 Grabitel, Master Thief
+9 Stilis, Torch Juggler
+9 Uncheny, Mutant Monstrosity
+9 Combo Striker
+9 The Dvoynya Twins
+9 Tyanut, Thrull Master
+9 Elegant Dancer
+9 Giant Owlk
+9 Melting Strike
+9 Chaotic Magic
+9 Thrull Conversion
+9 Magnificent Performance
+9 Unrestricted Growth
+9 Faltz's Duplicate
+[CommonSlot(10)]
+30 Bardic Bird
+30 Fleetwing Knight
+30 Abaja Leaper
+30 Skilled Backbreaker
+30 Pelear Boulder Thrower
+30 Rapid Fireslinger
+30 Agile Ribbon Dancer
+30 Trained Bear
+30 Halfling Bard
+30 Bolstering Bard
+30 Spark Duelist
+30 High Striker
+30 Dazzling Display
+30 Tag Team Trio
+30 Tears of a Clown
+30 Coach's Pep Talk
+30 Bardic Reinforcements
+30 Ribbon Dance
+30 Show of Strength
+30 Big Top Buzzard
+30 Escaped Chimera
+30 Surestrike Merfolk
+30 Card Shark
+30 Card Reader
+30 Calculated Diviner
+30 House Griffin Fledgling
+30 Dark Sea Guide
+30 Eloquent Performance
+30 Essence of Intellect
+30 Siren's Song
+30 Lucky Time
+30 Practical Arcana
+30 Is This Your Card
+30 Intangible Form
+30 Reckless Science
+30 Dazzle
+30 Lucky Draw
+30 Extreme Vertigo
+30 Grotesque Vampire
+30 Absurd Balloonist
+30 Savage Grappler
+30 Steel Wielder Heel
+30 Speed Striker
+30 Smiler
+30 Zombie Clown
+30 Court Broker
+30 Compelling Invitation
+30 Rotting Thrull
+30 Blood Magic Ritual
+30 Bloody Hit
+30 Cranium Strike
+30 Long-Neck Brawler
+30 Alarm
+30 Cut a Promo
+30 Otherworldly Advice
+30 Street Justice
+30 Thrullify
+30 Prize Plunderer
+30 Scorchwalkers
+30 Club Spade Guards
+30 Possibility Drone
+30 Devilish Bard
+30 High Roller
+30 Ash-Tail Hawk
+30 Spark Kicker
+30 Tavern Bard
+30 Unlikely Pair
+30 Card Trick
+30 Improvised Combat
+30 Toss a Coin
+30 Ringmaster's Show
+30 Tavern Games
+30 Fire Fists
+30 Irresponsible Ignition
+30 Envelop In Fire
+30 Raging Temper
+30 Novice Biomancer
+30 Mantis Warrior
+30 Long Man
+30 Thrull Hammerslinger
+30 Tavern Fool
+30 Gem Specialist
+30 Chimeric Warrior
+30 Heavy Underboss
+30 Chimera Yearling
+30 Dragon Wyrmling
+30 Royal Jester
+30 Charged Archery
+30 Crime Pays
+30 Superhuman Strike
+30 Overzealous Celebration
+30 Calming Respite
+30 Aura Quell
+30 Lock Horns
+30 Flourishing Growth
+30 Advanced Biotanks
+30 Jack in the Box
+30 Colossal Puppets
+30 Blind Bet
+30 Burning Hammer
+30 Fun House
+30 Ring of Honor
+30 Gambler's Den
+30 Illicit Club
+30 Bustling Village
+30 Exotic Aquarium
+30 Size Doesn't Matter
+30 Chimera Hatchling
+30 Hit Squad
+30 Remarkable Performance
+30 Empowered Growth
+30 Grand Carnival
+[WildcardSlot(1)]
+10 Bardic Bird
+10 Fleetwing Knight
+10 Abaja Leaper
+10 Skilled Backbreaker
+10 Pelear Boulder Thrower
+10 Rapid Fireslinger
+10 Agile Ribbon Dancer
+10 Trained Bear
+10 Halfling Bard
+10 Bolstering Bard
+10 Spark Duelist
+10 High Striker
+10 Dazzling Display
+10 Tag Team Trio
+10 Tears of a Clown
+10 Coach's Pep Talk
+10 Bardic Reinforcements
+10 Ribbon Dance
+10 Show of Strength
+10 Big Top Buzzard
+10 Escaped Chimera
+10 Surestrike Merfolk
+10 Card Shark
+10 Card Reader
+10 Calculated Diviner
+10 House Griffin Fledgling
+10 Dark Sea Guide
+10 Eloquent Performance
+10 Essence of Intellect
+10 Siren's Song
+10 Lucky Time
+10 Practical Arcana
+10 Is This Your Card
+10 Intangible Form
+10 Reckless Science
+10 Dazzle
+10 Lucky Draw
+10 Extreme Vertigo
+10 Grotesque Vampire
+10 Absurd Balloonist
+10 Savage Grappler
+10 Steel Wielder Heel
+10 Speed Striker
+10 Smiler
+10 Zombie Clown
+10 Court Broker
+10 Compelling Invitation
+10 Rotting Thrull
+10 Blood Magic Ritual
+10 Bloody Hit
+10 Cranium Strike
+10 Long-Neck Brawler
+10 Alarm
+10 Cut a Promo
+10 Otherworldly Advice
+10 Street Justice
+10 Thrullify
+10 Prize Plunderer
+10 Scorchwalkers
+10 Club Spade Guards
+10 Possibility Drone
+10 Devilish Bard
+10 High Roller
+10 Ash-Tail Hawk
+10 Spark Kicker
+10 Tavern Bard
+10 Unlikely Pair
+10 Card Trick
+10 Improvised Combat
+10 Toss a Coin
+10 Ringmaster's Show
+10 Tavern Games
+10 Fire Fists
+10 Irresponsible Ignition
+10 Envelop In Fire
+10 Raging Temper
+10 Novice Biomancer
+10 Mantis Warrior
+10 Long Man
+10 Thrull Hammerslinger
+10 Tavern Fool
+10 Gem Specialist
+10 Chimeric Warrior
+10 Heavy Underboss
+10 Chimera Yearling
+10 Dragon Wyrmling
+10 Royal Jester
+10 Charged Archery
+10 Crime Pays
+10 Superhuman Strike
+10 Overzealous Celebration
+10 Calming Respite
+10 Aura Quell
+10 Lock Horns
+10 Flourishing Growth
+10 Advanced Biotanks
+10 Jack in the Box
+10 Colossal Puppets
+10 Blind Bet
+10 Burning Hammer
+10 Fun House
+10 Ring of Honor
+10 Gambler's Den
+10 Illicit Club
+10 Bustling Village
+10 Exotic Aquarium
+10 Size Doesn't Matter
+10 Chimera Hatchling
+10 Hit Squad
+10 Remarkable Performance
+10 Empowered Growth
+10 Grand Carnival
+10 Roundhouse Striker
+10 Shifting Striker
+10 Malicious Mime
+10 Generous Gift
+10 Cock Shot
+10 Tag Team Advantage
+10 Enthralling Distraction
+10 Funerary Rites
+10 Faltz, Grand Illusionist
+10 Boxtopus
+10 L'eau, Water Spirit
+10 Chimera Colossus
+10 Sandstone Lizard
+10 Enticing Distraction
+10 Tavern Gunslinger
+10 Mesmerizing Display
+10 Diabolical Spinner
+10 Steelfist Heel
+10 Open Palm Master
+10 Frogkin Kidnapper
+10 Eto, the Deranged
+10 Tait, Hidden in Plain Sight
+10 Pumpkin Carver
+10 Abduct
+10 Dice Head
+10 Ogon, the Mad Inferno
+10 Thrill Ride
+10 Flamespitter
+10 Istan, Uncanny Illusionist
+10 Dice Devil
+10 Center Stage
+10 Neon Fire Dancer
+10 Polar Gladiator
+10 Starik, Last of the Old Ways
+10 Harlequin Thrull
+10 Endless Explorer
+10 Var-Var the Insurmountable
+10 Come One, Come All
+10 Mismatched Fight
+10 Carry Out
+10 Chicken Game
+10 Backroom Office
+10 Deathmatch Arena
+10 Title Belt
+10 Mana Rift
+10 Winding River
+10 Gloomy Creekbed
+10 Sacrificial Chamber
+10 Forest Valley
+10 Overgrown Meadow
+10 Hallowed Chapel
+10 Cliffside River
+10 Blighted Cavern
+10 Hillside Village
+10 Spiraling Morass
+10 Wrestler's Charm
+10 Gambler's Charm
+10 Criminal's Charm
+10 Performer's Charm
+10 Biomancer's Charm
+10 Suddya, Arbiter of Fairness
+10 Ravina, the Silent Blade
+10 Mannken, the Puppeteer
+10 Boom-Boom, the Mad Clown
+10 Aleik, Lonesome Bard
+10 Murph, Flying Boots
+10 Alisa, Unstable Prodigy
+10 Grabitel, Master Thief
+10 Stilis, Torch Juggler
+10 Uncheny, Mutant Monstrosity
+10 Combo Striker
+10 The Dvoynya Twins
+10 Tyanut, Thrull Master
+10 Elegant Dancer
+10 Giant Owlk
+10 Melting Strike
+10 Chaotic Magic
+10 Thrull Conversion
+10 Magnificent Performance
+10 Unrestricted Growth
+10 Cage Fighter
+10 Fox Fantastique
+10 Talon, Rope Runner
+10 Dirizher, Grand Conductor
+10 Dashing Dancer
+10 Joyous Festival
+10 Moonsliver Shaman
+10 Reign Supreme
+10 Maddening Death Spiral
+10 Enigma, the Shadow
+10 Nezhit the Ancient
+10 Shapka the Sly
+10 Ryba, Defiant Tidemaster
+10 Control Fate
+10 Magician's Foresight
+10 Semiformed Soldier
+10 Drift Along the Winds
+10 Warden's Shield
+10 Jawbone, the Deadly Maw
+10 Lestat, the Bloodmad
+10 Chain Striker
+10 Blood Hunter
+10 Chert the Blood Lord
+10 Greedy Tutor
+10 Hold Hostage
+10 Triple Threat Match
+10 Limitless Wealth
+10 Napier, Court Jester
+10 Koldun the Magnificent
+10 Wheel of Suffering
+10 Privesti, Parade Leader
+10 Igrok, Gambling Prodigy
+10 Fortune or Fire
+10 Gamble
+10 Chasy the Mad
+10 Podvohk, the Mad Juggler
+10 Krov, Bounty Hunter
+10 Srâne, Flycatcher
+10 Korol, Last of the Great Kings
+10 Fleyta, Furious Flautist
+10 Shayr, Pinwheel Perforator
+10 Crime Boss
+10 Night's Revival
+10 Spirit Ransom
+10 Quell the Beasts
+10 The Dagger
+10 Karta, Aces High
+10 Tolpa, the Dark Lord
+10 The Muses Three
+10 Akula, Biomancer Extrodinaire
+10 Silenced Strike
+10 The Gamemaster
+10 Horror of the Dark Forest
+10 Glorious Finale
+10 Ukrotitel, Ringmaster
+10 The Big Top
+10 Gambler's Astrolabe
+10 Hidden Vault
+10 Ruff, Glorious Champion
+10 Counting Cards
+10 Shchur, Superior Striker
+10 Risk It All
+10 Introducing...
+10 Hedyll, the Two Faced
+10 Divine Dice
+10 Vykup, Kingpin
+10 Charan, Wildflame Prodigy
+10 Chimera Ultimus
+10 Würfel, Lord of Chance
+10 Agni, Fire Dancer
+10 Ringen, Interplanar Champion
+10 Auraro, the Shifting Tide

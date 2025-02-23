@@ -1,0 +1,3819 @@
+﻿[CustomCards]
+	[
+		{
+			"name": "Gideon, Captain of the Watch",
+			"rarity": "mythic",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Legendary Planeswalker — Gideon ",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/29_Gideon, Captain of the Watch.png"
+			}
+		},
+		{
+			"name": "Jace, Master Telepath",
+			"rarity": "mythic",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Legendary Planeswalker — Jace ",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/76_Jace, Master Telepath.png"
+			}
+		},
+		{
+			"name": "Liliana, Queen of Bones",
+			"rarity": "mythic",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Legendary Planeswalker — Liliana ",
+			"collector_number": "125",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/125_Liliana, Queen of Bones.png"
+			}
+		},
+		{
+			"name": "Chandra, the Eternal Flame",
+			"rarity": "mythic",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Legendary Planeswalker — Chandra ",
+			"collector_number": "154",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/154_Chandra, the Eternal Flame.png"
+			}
+		},
+		{
+			"name": "Nissa, Animist Supreme",
+			"rarity": "mythic",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Legendary Planeswalker — Nissa ",
+			"collector_number": "221",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/221_Nissa, Animist Supreme.png"
+			}
+		},
+		{
+			"name": "Elspeth, Grand General",
+			"rarity": "mythic",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Legendary Planeswalker — Elspeth ",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/21_Elspeth, Grand General.png"
+			}
+		},
+		{
+			"name": "Teferi, Temporal Master",
+			"rarity": "mythic",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Legendary Planeswalker — Teferi ",
+			"collector_number": "94",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/94_Teferi, Temporal Master.png"
+			}
+		},
+		{
+			"name": "Ob Nixilis, the Cursed",
+			"rarity": "mythic",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Legendary Planeswalker — Nixilis ",
+			"collector_number": "129",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/129_Ob Nixilis, the Cursed.png"
+			}
+		},
+		{
+			"name": "Koth, Walking Volcano",
+			"rarity": "mythic",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Legendary Planeswalker — Koth ",
+			"collector_number": "172",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/172_Koth, Walking Volcano.png"
+			}
+		},
+		{
+			"name": "Arlinn, Moontouched",
+			"rarity": "mythic",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Legendary Planeswalker — Arlinn ",
+			"collector_number": "196",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https:///sets/CCC-files/img/196_Arlinn, Moontouched_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/196_Arlinn, Moontouched_front.png"
+			}
+		},
+		{
+			"name": "Narset, Traveling Master",
+			"rarity": "mythic",
+			"mana_cost": "{2}{W}{U}",
+			"type": "Legendary Planeswalker — Narset ",
+			"collector_number": "243",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/243_Narset, Traveling Master.png"
+			}
+		},
+		{
+			"name": "Ashiok, Unending Nightmare",
+			"rarity": "mythic",
+			"mana_cost": "{2}{U}{B}",
+			"type": "Legendary Planeswalker — Ashiok ",
+			"collector_number": "244",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/244_Ashiok, Unending Nightmare.png"
+			}
+		},
+		{
+			"name": "Angrath, Planar Marauder",
+			"rarity": "mythic",
+			"mana_cost": "{3}{B}{R}",
+			"type": "Legendary Planeswalker — Angrath ",
+			"collector_number": "250",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/250_Angrath, Planar Marauder.png"
+			}
+		},
+		{
+			"name": "Domri, Wildborn",
+			"rarity": "mythic",
+			"mana_cost": "{1}{R}{G}",
+			"type": "Legendary Planeswalker — Domri ",
+			"collector_number": "255",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/255_Domri, Wildborn.png"
+			}
+		},
+		{
+			"name": "Ajani, Steadfast Guardian",
+			"rarity": "mythic",
+			"mana_cost": "{2}{G}{W}",
+			"type": "Legendary Planeswalker — Ajani ",
+			"collector_number": "260",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/260_Ajani, Steadfast Guardian.png"
+			}
+		},
+		{
+			"name": "Sorin, Totes Not in a Rock",
+			"rarity": "mythic",
+			"mana_cost": "{2}{W}{B}",
+			"type": "Legendary Planeswalker — Sorin ",
+			"collector_number": "267",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/267_Sorin, Totes Not in a Rock.png"
+			}
+		},
+		{
+			"name": "Ral, Uncontrollable Mage",
+			"rarity": "mythic",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Legendary Planeswalker — Ral ",
+			"collector_number": "271",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/271_Ral, Uncontrollable Mage.png"
+			}
+		},
+		{
+			"name": "Garruk, Planar Hunter",
+			"rarity": "mythic",
+			"mana_cost": "{3}{B}{G}",
+			"type": "Legendary Planeswalker — Garruk ",
+			"collector_number": "275",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/275_Garruk, Planar Hunter.png"
+			}
+		},
+		{
+			"name": "Nahiri, the Stoneforged",
+			"rarity": "mythic",
+			"mana_cost": "{3}{R}{W}",
+			"type": "Legendary Planeswalker — Nahiri ",
+			"collector_number": "283",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/283_Nahiri, the Stoneforged.png"
+			}
+		},
+		{
+			"name": "Kiora, the Unending Seas",
+			"rarity": "mythic",
+			"mana_cost": "{2}{G}{U}",
+			"type": "Legendary Planeswalker — Kiora ",
+			"collector_number": "285",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/285_Kiora, the Unending Seas.png"
+			}
+		},
+		{
+			"name": "Dovin, Reborn Artificer",
+			"rarity": "mythic",
+			"mana_cost": "{2}{W}{U}",
+			"type": "Legendary Planeswalker — Dovin ",
+			"collector_number": "239",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/239_Dovin, Reborn Artificer.png"
+			}
+		},
+		{
+			"name": "Tezzeret, Etherium Master",
+			"rarity": "mythic",
+			"mana_cost": "{2}{U}{B}",
+			"type": "Legendary Planeswalker — Tezzeret ",
+			"collector_number": "249",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/249_Tezzeret, Etherium Master.png"
+			}
+		},
+		{
+			"name": "Tibalt, Burning Devil",
+			"rarity": "mythic",
+			"mana_cost": "{B}{R}",
+			"type": "Legendary Planeswalker — Tibalt ",
+			"collector_number": "254",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/254_Tibalt, Burning Devil.png"
+			}
+		},
+		{
+			"name": "Sarkhan, Born of Dragons",
+			"rarity": "mythic",
+			"mana_cost": "{3}{R}{G}",
+			"type": "Legendary Planeswalker — Sarkhan ",
+			"collector_number": "258",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/258_Sarkhan, Born of Dragons.png"
+			}
+		},
+		{
+			"name": "Estrid, Mask Shattered",
+			"rarity": "mythic",
+			"mana_cost": "{2}{G}{W}",
+			"type": "Legendary Planeswalker — Estrid ",
+			"collector_number": "261",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/261_Estrid, Mask Shattered.png"
+			}
+		},
+		{
+			"name": "Kaya, Ethereal Assassin",
+			"rarity": "mythic",
+			"mana_cost": "{2}{W}{B}",
+			"type": "Legendary Planeswalker — Kaya ",
+			"collector_number": "265",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/265_Kaya, Ethereal Assassin.png"
+			}
+		},
+		{
+			"name": "Will and Rowan Kenrith",
+			"rarity": "mythic",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Legendary Planeswalker — Will Rowan ",
+			"collector_number": "273",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/273_Will and Rowan Kenrith.png"
+			}
+		},
+		{
+			"name": "Vraska, Agent of Darkness",
+			"rarity": "mythic",
+			"mana_cost": "{2}{B}{G}",
+			"type": "Legendary Planeswalker — Vraska ",
+			"collector_number": "278",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/278_Vraska, Agent of Darkness.png"
+			}
+		},
+		{
+			"name": "Huatli, Dinosaur Rider",
+			"rarity": "mythic",
+			"mana_cost": "{2}{R}{W}",
+			"type": "Legendary Planeswalker — Huatli ",
+			"collector_number": "282",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/282_Huatli, Dinosaur Rider.png"
+			}
+		},
+		{
+			"name": "Tamiyo, Planar Guide",
+			"rarity": "mythic",
+			"mana_cost": "{2}{G}{U}",
+			"type": "Legendary Planeswalker — Tamiyo ",
+			"collector_number": "287",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/287_Tamiyo, Planar Guide.png"
+			}
+		},
+		{
+			"name": "Teyo, High Abbot",
+			"rarity": "mythic",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Legendary Planeswalker — Teyo ",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/50_Teyo, High Abbot.png"
+			}
+		},
+		{
+			"name": "Mu Yanling, Wind Walker",
+			"rarity": "mythic",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Legendary Planeswalker — Yanling ",
+			"collector_number": "82",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/82_Mu Yanling, Wind Walker.png"
+			}
+		},
+		{
+			"name": "Leshrac, the Nightwalker",
+			"rarity": "mythic",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Legendary Planeswalker — Leshrac ",
+			"collector_number": "124",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/124_Leshrac, the Nightwalker.png"
+			}
+		},
+		{
+			"name": "Jaya, Inferno Incarnate",
+			"rarity": "mythic",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Legendary Planeswalker — Jaya ",
+			"collector_number": "171",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/171_Jaya, Inferno Incarnate.png"
+			}
+		},
+		{
+			"name": "Elves of Endless Worlds",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Tribal Planeswalker — Elf ",
+			"collector_number": "202",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/202_Elves of Endless Worlds.png"
+			}
+		},
+		{
+			"name": "Wanderer",
+			"rarity": "mythic",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Legendary Planeswalker",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/52_Wanderer.png"
+			}
+		},
+		{
+			"name": "Kasmina, Polymorphist Adept",
+			"rarity": "mythic",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Legendary Planeswalker — Kasmina ",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/78_Kasmina, Polymorphist Adept.png"
+			}
+		},
+		{
+			"name": "Davriel Cane, Diabolist",
+			"rarity": "mythic",
+			"mana_cost": "{2}{B}",
+			"type": "Legendary Planeswalker — Davriel ",
+			"collector_number": "112",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/112_Davriel Cane, Diabolist.png"
+			}
+		},
+		{
+			"name": "Daretti, Scraplord",
+			"rarity": "mythic",
+			"mana_cost": "{3}{R}",
+			"type": "Legendary Planeswalker — Daretti ",
+			"collector_number": "156",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/156_Daretti, Scraplord.png"
+			}
+		},
+		{
+			"name": "Vivien, Master Archer",
+			"rarity": "mythic",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Legendary Planeswalker — Vivien ",
+			"collector_number": "234",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/234_Vivien, Master Archer.png"
+			}
+		},
+		{
+			"name": "Karn, Redeemer",
+			"rarity": "mythic",
+			"mana_cost": "{8}",
+			"type": "Legendary Planeswalker — Karn ",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/3_Karn, Redeemer.png"
+			}
+		},
+		{
+			"name": "Ugin, Planar Guardian",
+			"rarity": "mythic",
+			"mana_cost": "{7}",
+			"type": "Legendary Planeswalker — Ugin ",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/6_Ugin, Planar Guardian.png"
+			}
+		},
+		{
+			"name": "Shattering Light",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/47_Shattering Light.png"
+			}
+		},
+		{
+			"name": "Kittenbee",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Cat Insect ",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/36_Kittenbee.png"
+			}
+		},
+		{
+			"name": "Nimble Archer",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Archer Scout ",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/39_Nimble Archer.png"
+			}
+		},
+		{
+			"name": "Ancient Guardian",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/9_Ancient Guardian.png"
+			}
+		},
+		{
+			"name": "Sphere Runner",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Artifact Creature — Cyborg Scout ",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/48_Sphere Runner.png"
+			}
+		},
+		{
+			"name": "Balanced Master",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Monk ",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/10_Balanced Master.png"
+			}
+		},
+		{
+			"name": "D'Avenant Lawbearer",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Monk ",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/16_D'Avenant Lawbearer.png"
+			}
+		},
+		{
+			"name": "Steamborn Construct",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/49_Steamborn Construct.png"
+			}
+		},
+		{
+			"name": "Cyber Ghost",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Artifact Creature — Cyborg Soldier ",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/14_Cyber Ghost.png"
+			}
+		},
+		{
+			"name": "Draconic Knight",
+			"rarity": "common",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Creature — Human Knight ",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/19_Draconic Knight.png"
+			}
+		},
+		{
+			"name": "Righteous Rebuttal",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Instant",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/44_Righteous Rebuttal.png"
+			}
+		},
+		{
+			"name": "Frontline Deployment",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/27_Frontline Deployment.png"
+			}
+		},
+		{
+			"name": "Fleetfooted Hotame",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Hound Warrior ",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/25_Fleetfooted Hotame.png"
+			}
+		},
+		{
+			"name": "Veil of Purity",
+			"rarity": "mythic",
+			"mana_cost": "{2}{W}",
+			"type": "Instant",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/51_Veil of Purity.png"
+			}
+		},
+		{
+			"name": "Divine Charge",
+			"rarity": "common",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/17_Divine Charge.png"
+			}
+		},
+		{
+			"name": "Ancestor's Assistance",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/8_Ancestor's Assistance.png"
+			}
+		},
+		{
+			"name": "Embodiment of Nature",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment — Aura Persona ",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/22_Embodiment of Nature.png"
+			}
+		},
+		{
+			"name": "Lockdown",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/37_Lockdown.png"
+			}
+		},
+		{
+			"name": "Aven Spirit Guide",
+			"rarity": "common",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Creature — Bird Spirit Shaman ",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/58_Aven Spirit Guide.png"
+			}
+		},
+		{
+			"name": "Aven Shadow Mage",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Bird Warlock ",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/57_Aven Shadow Mage.png"
+			}
+		},
+		{
+			"name": "Horse Tamer",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human ",
+			"collector_number": "74",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https:///sets/CCC-files/img/74_Horse Tamer_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/74_Horse Tamer_front.png"
+			}
+		},
+		{
+			"name": "Arcane Researcher",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Human Wizard ",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/56_Arcane Researcher.png"
+			}
+		},
+		{
+			"name": "Frozen Ghost",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Snow Creature — Spirit ",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/72_Frozen Ghost.png"
+			}
+		},
+		{
+			"name": "Clockwork Spy",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Artifact Creature — Spider ",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/61_Clockwork Spy.png"
+			}
+		},
+		{
+			"name": "Windwalkers",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Shapeshifter ",
+			"collector_number": "100",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/100_Windwalkers.png"
+			}
+		},
+		{
+			"name": "Forethought",
+			"rarity": "rare",
+			"mana_cost": "{U}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/69_Forethought.png"
+			}
+		},
+		{
+			"name": "Pilfer the Library",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Sorcery",
+			"collector_number": "86",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/86_Pilfer the Library.png"
+			}
+		},
+		{
+			"name": "Archivist's Bauble",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "302",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/302_Archivist's Bauble.png"
+			}
+		},
+		{
+			"name": "Ancestor's Wings",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/55_Ancestor's Wings.png"
+			}
+		},
+		{
+			"name": "Dazzle",
+			"rarity": "common",
+			"mana_cost": "{U}{U}",
+			"type": "Instant",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/63_Dazzle.png"
+			}
+		},
+		{
+			"name": "Overwhelming Deluge",
+			"rarity": "common",
+			"mana_cost": "{4}{U}",
+			"type": "Instant",
+			"collector_number": "85",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/85_Overwhelming Deluge.png"
+			}
+		},
+		{
+			"name": "Render Nameless",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Sorcery",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/89_Render Nameless.png"
+			}
+		},
+		{
+			"name": "Dump the Goods",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Instant",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/66_Dump the Goods.png"
+			}
+		},
+		{
+			"name": "Hide in the Depths",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/73_Hide in the Depths.png"
+			}
+		},
+		{
+			"name": "Search for Knowledge",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Sorcery",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/91_Search for Knowledge.png"
+			}
+		},
+		{
+			"name": "Basic Insticts",
+			"rarity": "common",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/59_Basic Insticts.png"
+			}
+		},
+		{
+			"name": "Disguised Mindflayer",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Enchantment Creature — Shapeshifter ",
+			"collector_number": "115",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/115_Disguised Mindflayer.png"
+			}
+		},
+		{
+			"name": "Skinwalker",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Demon Horror ",
+			"collector_number": "142",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/142_Skinwalker.png"
+			}
+		},
+		{
+			"name": "Heedless Spawn",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Demon Warrior ",
+			"collector_number": "120",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/120_Heedless Spawn.png"
+			}
+		},
+		{
+			"name": "Consuming Horror",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Beast Horror ",
+			"collector_number": "107",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/107_Consuming Horror.png"
+			}
+		},
+		{
+			"name": "Planar Devastation",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "135",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https:///sets/CCC-files/img/135_Planar Devastation_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/135_Planar Devastation_front.png"
+			}
+		},
+		{
+			"name": "Pactborn Demon",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Creature — Demon Zombie ",
+			"collector_number": "131",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/131_Pactborn Demon.png"
+			}
+		},
+		{
+			"name": "Undead Hotame",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Zombie Hound ",
+			"collector_number": "146",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/146_Undead Hotame.png"
+			}
+		},
+		{
+			"name": "Daring Aetherborn",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Aetherborn Rogue ",
+			"collector_number": "110",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/110_Daring Aetherborn.png"
+			}
+		},
+		{
+			"name": "Emevera Corrupted",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Vampire Scion ",
+			"collector_number": "117",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/117_Emevera Corrupted.png"
+			}
+		},
+		{
+			"name": "Drain Soul",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Sorcery — State ",
+			"collector_number": "299",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/299_Drain Soul.png"
+			}
+		},
+		{
+			"name": "Dark Tithe",
+			"rarity": "common",
+			"mana_cost": "{4}{B}",
+			"type": "Sorcery",
+			"collector_number": "111",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/111_Dark Tithe.png"
+			}
+		},
+		{
+			"name": "By Blood and Venom",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "105",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/105_By Blood and Venom.png"
+			}
+		},
+		{
+			"name": "Curse of Shadows",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Enchantment — Aura Curse ",
+			"collector_number": "109",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/109_Curse of Shadows.png"
+			}
+		},
+		{
+			"name": "Dissolve Into Nothing",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "116",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/116_Dissolve Into Nothing.png"
+			}
+		},
+		{
+			"name": "Spread the Plague",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "143",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/143_Spread the Plague.png"
+			}
+		},
+		{
+			"name": "Siphon Soul",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Sorcery",
+			"collector_number": "140",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/140_Siphon Soul.png"
+			}
+		},
+		{
+			"name": "Parasitic Slasher",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Insect Nightmare ",
+			"collector_number": "132",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/132_Parasitic Slasher.png"
+			}
+		},
+		{
+			"name": "Dragon Shepherd",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Human Shaman ",
+			"collector_number": "158",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/158_Dragon Shepherd.png"
+			}
+		},
+		{
+			"name": "Shocking Shaman",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Shaman ",
+			"collector_number": "186",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/186_Shocking Shaman.png"
+			}
+		},
+		{
+			"name": "Enraged Berserker",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Human Berserker ",
+			"collector_number": "162",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/162_Enraged Berserker.png"
+			}
+		},
+		{
+			"name": "Pervasive Fiend",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Artifact Creature — Demon ",
+			"collector_number": "181",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/181_Pervasive Fiend.png"
+			}
+		},
+		{
+			"name": "Balduvian Beserker",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Human Barbarian Berserker ",
+			"collector_number": "149",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/149_Balduvian Beserker.png"
+			}
+		},
+		{
+			"name": "Goblin Bowmaster",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Goblin Archer ",
+			"collector_number": "168",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/168_Goblin Bowmaster.png"
+			}
+		},
+		{
+			"name": "Rocket Goblin",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Goblin ",
+			"collector_number": "184",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/184_Rocket Goblin.png"
+			}
+		},
+		{
+			"name": "Goblin Explorer",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Goblin Scout ",
+			"collector_number": "169",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/169_Goblin Explorer.png"
+			}
+		},
+		{
+			"name": "Goblin Bomber",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Goblin Warrior ",
+			"collector_number": "167",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/167_Goblin Bomber.png"
+			}
+		},
+		{
+			"name": "Bazaar Trading",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "151",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/151_Bazaar Trading.png"
+			}
+		},
+		{
+			"name": "Rewrite Reality",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Instant",
+			"collector_number": "183",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/183_Rewrite Reality.png"
+			}
+		},
+		{
+			"name": "Endless Power",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
+			"collector_number": "160",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/160_Endless Power.png"
+			}
+		},
+		{
+			"name": "Crashing Destruction",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "155",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/155_Crashing Destruction.png"
+			}
+		},
+		{
+			"name": "Raze the Fields",
+			"rarity": "common",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Sorcery — Trap ",
+			"collector_number": "182",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/182_Raze the Fields.png"
+			}
+		},
+		{
+			"name": "Path of Least Resistance",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Sorcery",
+			"collector_number": "180",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/180_Path of Least Resistance.png"
+			}
+		},
+		{
+			"name": "Vaporizing Lightning",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Instant",
+			"collector_number": "191",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/191_Vaporizing Lightning.png"
+			}
+		},
+		{
+			"name": "Fire Fists",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "165",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/165_Fire Fists.png"
+			}
+		},
+		{
+			"name": "Crystalline Druid",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Elemental Druid ",
+			"collector_number": "199",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/199_Crystalline Druid.png"
+			}
+		},
+		{
+			"name": "Evolaraptor",
+			"rarity": "rare",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Creature — Dinosaur Bird ",
+			"collector_number": "205",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/205_Evolaraptor.png"
+			}
+		},
+		{
+			"name": "Nilini Chimera",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Chimera Mutant ",
+			"collector_number": "220",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/220_Nilini Chimera.png"
+			}
+		},
+		{
+			"name": "Charging Irasaur",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Dinosaur ",
+			"collector_number": "198",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https:///sets/CCC-files/img/198_Charging Irasaur_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/198_Charging Irasaur_front.png"
+			}
+		},
+		{
+			"name": "Sudden Striker",
+			"rarity": "common",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Elf Druid ",
+			"collector_number": "228",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/228_Sudden Striker.png"
+			}
+		},
+		{
+			"name": "Zastkin Snaremaster",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Human Shaman ",
+			"collector_number": "237",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/237_Zastkin Snaremaster.png"
+			}
+		},
+		{
+			"name": "Quiver of Archers",
+			"rarity": "common",
+			"mana_cost": "{G}{G}{G}",
+			"type": "Creature — Elf Scout Archer ",
+			"collector_number": "223",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/223_Quiver of Archers.png"
+			}
+		},
+		{
+			"name": "Mutated Flytrap",
+			"rarity": "common",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Plant Mutant ",
+			"collector_number": "218",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/218_Mutated Flytrap.png"
+			}
+		},
+		{
+			"name": "Tinkering Naturomancer",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Dwarf Druid Artificer ",
+			"collector_number": "229",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/229_Tinkering Naturomancer.png"
+			}
+		},
+		{
+			"name": "Medistrom, the Walking Shrine",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Legendary Enchantment — Shrine ",
+			"collector_number": "215",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/215_Medistrom, the Walking Shrine.png"
+			}
+		},
+		{
+			"name": "Frantic Chase",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "208",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/208_Frantic Chase.png"
+			}
+		},
+		{
+			"name": "Call of Nature",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "197",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/197_Call of Nature.png"
+			}
+		},
+		{
+			"name": "Spectral Guidance",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Instant",
+			"collector_number": "226",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/226_Spectral Guidance.png"
+			}
+		},
+		{
+			"name": "Worship the Old Ways",
+			"rarity": "uncommon",
+			"mana_cost": "{1{C}/G}",
+			"type": "Sorcery",
+			"collector_number": "236",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/236_Worship the Old Ways.png"
+			}
+		},
+		{
+			"name": "Natural Reclamation",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "219",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/219_Natural Reclamation.png"
+			}
+		},
+		{
+			"name": "Death Battle",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "200",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/200_Death Battle.png"
+			}
+		},
+		{
+			"name": "Spectral Wolf",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Enchantment Creature — Wolf Spirit ",
+			"collector_number": "227",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/227_Spectral Wolf.png"
+			}
+		},
+		{
+			"name": "Fractured Gemstone",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "307",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/307_Fractured Gemstone.png"
+			}
+		},
+		{
+			"name": "Cursed Tome",
+			"rarity": "rare",
+			"mana_cost": "{5}",
+			"type": "Artifact",
+			"collector_number": "306",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https:///sets/CCC-files/img/306_Cursed Tome_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/306_Cursed Tome_front.png"
+			}
+		},
+		{
+			"name": "Crumbling Construct",
+			"rarity": "common",
+			"mana_cost": "{4}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "305",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/305_Crumbling Construct.png"
+			}
+		},
+		{
+			"name": "Shimmering Elk",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Elk ",
+			"collector_number": "323",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/323_Shimmering Elk.png"
+			}
+		},
+		{
+			"name": "Ancestor's Bow",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact — Equipment Bow ",
+			"collector_number": "301",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/301_Ancestor's Bow.png"
+			}
+		},
+		{
+			"name": "Melting Glaciers",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Snow Land",
+			"collector_number": "343",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/343_Melting Glaciers.png"
+			}
+		},
+		{
+			"name": "Obhejane Warrior",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Rhino Warrior ",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/41_Obhejane Warrior.png"
+			}
+		},
+		{
+			"name": "Idube Knight",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Creature — Human Knight ",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/32_Idube Knight.png"
+			}
+		},
+		{
+			"name": "Holy Blessings",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Instant",
+			"collector_number": "31",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https:///sets/CCC-files/img/31_Holy Blessings_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/31_Holy Blessings_front.png"
+			}
+		},
+		{
+			"name": "Weapons Expert",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Artifact Creature — Cyborg Warrior ",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/53_Weapons Expert.png"
+			}
+		},
+		{
+			"name": "Elegant Hippogriff",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Creature — Hippogriff ",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/20_Elegant Hippogriff.png"
+			}
+		},
+		{
+			"name": "In the Shadow of Titans",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Enchantment",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/35_In the Shadow of Titans.png"
+			}
+		},
+		{
+			"name": "Furious Charge",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/28_Furious Charge.png"
+			}
+		},
+		{
+			"name": "Reject",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{W}",
+			"type": "Instant",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/43_Reject.png"
+			}
+		},
+		{
+			"name": "Kith",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "54",
+			"layout": "split",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/54_Kith.png"
+			}
+		},
+		{
+			"name": "Seal of Light",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Enchantment",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/45_Seal of Light.png"
+			}
+		},
+		{
+			"name": "Dark Infiltrator",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Creature — Ninja ",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/62_Dark Infiltrator.png"
+			}
+		},
+		{
+			"name": "Murkwater Illusionist",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Creature — Illusion Shapeshifter ",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/83_Murkwater Illusionist.png"
+			}
+		},
+		{
+			"name": "Frost Hunter",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Snow Creature — Giant ",
+			"collector_number": "70",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https:///sets/CCC-files/img/70_Frost Hunter_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/70_Frost Hunter_front.png"
+			}
+		},
+		{
+			"name": "Elk Turtle",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Elk Turtle ",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/67_Elk Turtle.png"
+			}
+		},
+		{
+			"name": "Elusive Construct",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Artifact Creature — Construct Rogue ",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/68_Elusive Construct.png"
+			}
+		},
+		{
+			"name": "Distorted Reality",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Enchantment",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/64_Distorted Reality.png"
+			}
+		},
+		{
+			"name": "Waterspout",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Instant",
+			"collector_number": "99",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/99_Waterspout.png"
+			}
+		},
+		{
+			"name": "Recurring Dreams",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Sorcery",
+			"collector_number": "88",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/88_Recurring Dreams.png"
+			}
+		},
+		{
+			"name": "Research the Unknown",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Sorcery",
+			"collector_number": "90",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/90_Research the Unknown.png"
+			}
+		},
+		{
+			"name": "Done",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "101",
+			"layout": "split",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/101_Done.png"
+			}
+		},
+		{
+			"name": "Desperate Slash",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "113",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/113_Desperate Slash.png"
+			}
+		},
+		{
+			"name": "Undead Assassin",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Zombie Assassin ",
+			"collector_number": "145",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/145_Undead Assassin.png"
+			}
+		},
+		{
+			"name": "Ichor Weird",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Creature — Nightmare Weird ",
+			"collector_number": "121",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/121_Ichor Weird.png"
+			}
+		},
+		{
+			"name": "Regressing Vampire",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Creature — Vampire ",
+			"collector_number": "138",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https:///sets/CCC-files/img/138_Regressing Vampire_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/138_Regressing Vampire_front.png"
+			}
+		},
+		{
+			"name": "Cloaked Assassin",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{B}",
+			"type": "Creature — Shapeshifter Assassin ",
+			"collector_number": "106",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/106_Cloaked Assassin.png"
+			}
+		},
+		{
+			"name": "Limnu Thrasher",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Creature — Demon ",
+			"collector_number": "126",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/126_Limnu Thrasher.png"
+			}
+		},
+		{
+			"name": "Pack of Scavengers",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "130",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/130_Pack of Scavengers.png"
+			}
+		},
+		{
+			"name": "Beleaguered Bounty",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "103",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/103_Beleaguered Bounty.png"
+			}
+		},
+		{
+			"name": "Exhume the Titans",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "118",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/118_Exhume the Titans.png"
+			}
+		},
+		{
+			"name": "Gruesome Bloodying",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{B}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "119",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/119_Gruesome Bloodying.png"
+			}
+		},
+		{
+			"name": "Skin",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "147",
+			"layout": "split",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/147_Skin.png"
+			}
+		},
+		{
+			"name": "Furious Diabolist",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Creature — Human Berserker ",
+			"collector_number": "166",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/166_Furious Diabolist.png"
+			}
+		},
+		{
+			"name": "Enraged Abbot",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Monk ",
+			"collector_number": "161",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/161_Enraged Abbot.png"
+			}
+		},
+		{
+			"name": "Dishonored Ronin",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Creature — Demon Zombie Samurai ",
+			"collector_number": "157",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/157_Dishonored Ronin.png"
+			}
+		},
+		{
+			"name": "Hungry Gremlin",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Gremlin ",
+			"collector_number": "170",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/170_Hungry Gremlin.png"
+			}
+		},
+		{
+			"name": "Ashborn Dragon",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Creature — Dragon ",
+			"collector_number": "148",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https:///sets/CCC-files/img/148_Ashborn Dragon_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/148_Ashborn Dragon_front.png"
+			}
+		},
+		{
+			"name": "Fellhide General",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Minotaur Soldier ",
+			"collector_number": "164",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/164_Fellhide General.png"
+			}
+		},
+		{
+			"name": "Spectral Control",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "188",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/188_Spectral Control.png"
+			}
+		},
+		{
+			"name": "Up",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Sorcery",
+			"collector_number": "98",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/98_Up.png"
+			}
+		},
+		{
+			"name": "Barrage of Missiles",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Sorcery",
+			"collector_number": "150",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/150_Barrage of Missiles.png"
+			}
+		},
+		{
+			"name": "Night of Gambling",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
+			"collector_number": "175",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/175_Night of Gambling.png"
+			}
+		},
+		{
+			"name": "Fast",
+			"rarity": "uncommon",
+			"mana_cost": "{X}{R}",
+			"type": "Sorcery",
+			"collector_number": "193",
+			"layout": "split",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/193_Fast.png"
+			}
+		},
+		{
+			"name": "Mounted Naturomancer",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Creature — Dwarf Knight Druid ",
+			"collector_number": "217",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/217_Mounted Naturomancer.png"
+			}
+		},
+		{
+			"name": "Leafcutter Elemental",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Elemental ",
+			"collector_number": "213",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/213_Leafcutter Elemental.png"
+			}
+		},
+		{
+			"name": "Elvish Channeler",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Elf Druid ",
+			"collector_number": "203",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/203_Elvish Channeler.png"
+			}
+		},
+		{
+			"name": "Antlered Bear",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Bear Mutant ",
+			"collector_number": "195",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/195_Antlered Bear.png"
+			}
+		},
+		{
+			"name": "Desert Caravan",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Illusion ",
+			"collector_number": "201",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https:///sets/CCC-files/img/201_Desert Caravan_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/201_Desert Caravan_front.png"
+			}
+		},
+		{
+			"name": "Skyshroud Hydra",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Hydra ",
+			"collector_number": "225",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/225_Skyshroud Hydra.png"
+			}
+		},
+		{
+			"name": "Life Ritual",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Sorcery",
+			"collector_number": "214",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/214_Life Ritual.png"
+			}
+		},
+		{
+			"name": "Invisibility Cloak",
+			"rarity": "uncommon",
+			"mana_cost": "{G}{G}",
+			"type": "Enchantment",
+			"collector_number": "210",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/210_Invisibility Cloak.png"
+			}
+		},
+		{
+			"name": "Unending Growth",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "231",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/231_Unending Growth.png"
+			}
+		},
+		{
+			"name": "Beg",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Instant",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/11_Beg.png"
+			}
+		},
+		{
+			"name": "Grow",
+			"rarity": "uncommon",
+			"mana_cost": "{G}",
+			"type": "Sorcery",
+			"collector_number": "238",
+			"layout": "split",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/238_Grow.png"
+			}
+		},
+		{
+			"name": "Sword in the Stone",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "324",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https:///sets/CCC-files/img/324_Sword in the Stone_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/324_Sword in the Stone_front.png"
+			}
+		},
+		{
+			"name": "Boy Who Would Be King",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human ",
+			"collector_number": "13",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https:///sets/CCC-files/img/13_Boy Who Would Be King_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/13_Boy Who Would Be King_front.png"
+			}
+		},
+		{
+			"name": "Rocket-Powered Fleetwheel",
+			"rarity": "uncommon",
+			"mana_cost": "{4}",
+			"type": "Artifact — Vehicle ",
+			"collector_number": "322",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/322_Rocket-Powered Fleetwheel.png"
+			}
+		},
+		{
+			"name": "Cosmic Conduit",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Cosmic Artifact",
+			"collector_number": "304",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/304_Cosmic Conduit.png"
+			}
+		},
+		{
+			"name": "Hidden Oasis",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "342",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/342_Hidden Oasis.png"
+			}
+		},
+		{
+			"name": "Frozen Glacier",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Snow Land — Plains Island ",
+			"collector_number": "337",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/337_Frozen Glacier.png"
+			}
+		},
+		{
+			"name": "Ninja Dojo",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Tribal Land — Ninja ",
+			"collector_number": "345",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/345_Ninja Dojo.png"
+			}
+		},
+		{
+			"name": "Burning Desert",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Desert ",
+			"collector_number": "328",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/328_Burning Desert.png"
+			}
+		},
+		{
+			"name": "Cindermoss Woodlands",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "329",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/329_Cindermoss Woodlands.png"
+			}
+		},
+		{
+			"name": "Sylvan Castle",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "352",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/352_Sylvan Castle.png"
+			}
+		},
+		{
+			"name": "Poisoned Expanse",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "347",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/347_Poisoned Expanse.png"
+			}
+		},
+		{
+			"name": "Concealed Laboratory",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "331",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/331_Concealed Laboratory.png"
+			}
+		},
+		{
+			"name": "Blooming Hollow",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "326",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/326_Blooming Hollow.png"
+			}
+		},
+		{
+			"name": "Bronzesun Strongehold",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Mountain Plains ",
+			"collector_number": "327",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/327_Bronzesun Strongehold.png"
+			}
+		},
+		{
+			"name": "Coastal Rainforest",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "330",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/330_Coastal Rainforest.png"
+			}
+		},
+		{
+			"name": "The Great Controller",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{U}",
+			"type": "Legendary Artifact Creature — Construct ",
+			"collector_number": "241",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/241_The Great Controller.png"
+			}
+		},
+		{
+			"name": "Oni Shadow-Blade",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{B}",
+			"type": "Creature — Demon Ninja ",
+			"collector_number": "247",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/247_Oni Shadow-Blade.png"
+			}
+		},
+		{
+			"name": "Blood Champion",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{R}",
+			"type": "Creature — Vampire Knight Noble ",
+			"collector_number": "251",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/251_Blood Champion.png"
+			}
+		},
+		{
+			"name": "Orcish War Party",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{G}",
+			"type": "Creature — Orc Warrior ",
+			"collector_number": "256",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/256_Orcish War Party.png"
+			}
+		},
+		{
+			"name": "Loxodon Lieutenant",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}{W}",
+			"type": "Creature — Elephant Soldier Cleric ",
+			"collector_number": "263",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/263_Loxodon Lieutenant.png"
+			}
+		},
+		{
+			"name": "Vampiric Shieldmage",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}{B}",
+			"type": "Creature — Vampire Wizard ",
+			"collector_number": "268",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/268_Vampiric Shieldmage.png"
+			}
+		},
+		{
+			"name": "Time Scout",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Creature — Human Scout ",
+			"collector_number": "272",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/272_Time Scout.png"
+			}
+		},
+		{
+			"name": "Natang, Rotting Lich",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{G}",
+			"type": "Legendary Creature — Zombie Wizard ",
+			"collector_number": "277",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/277_Natang, Rotting Lich.png"
+			}
+		},
+		{
+			"name": "Aven Avenger",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{W}",
+			"type": "Creature — Bird Warrior ",
+			"collector_number": "280",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/280_Aven Avenger.png"
+			}
+		},
+		{
+			"name": "Mirage Weaver",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{U}",
+			"type": "Creature — Elf Scout ",
+			"collector_number": "286",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/286_Mirage Weaver.png"
+			}
+		},
+		{
+			"name": "Daring Windrider",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Artifact Creature — Human Knight ",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/15_Daring Windrider.png"
+			}
+		},
+		{
+			"name": "Senators of Meletis",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Creature — Human Advisor ",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/46_Senators of Meletis.png"
+			}
+		},
+		{
+			"name": "Magnetic Master",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Artifact Creature — Human Monk ",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/38_Magnetic Master.png"
+			}
+		},
+		{
+			"name": "Idube Lancer",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Creature — Zebra Knight ",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/33_Idube Lancer.png"
+			}
+		},
+		{
+			"name": "Immortalize in Stone",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/34_Immortalize in Stone.png"
+			}
+		},
+		{
+			"name": "Norn's Fury",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/40_Norn's Fury.png"
+			}
+		},
+		{
+			"name": "Improvized Weird",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Creature — Weird Shapeshifter ",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/75_Improvized Weird.png"
+			}
+		},
+		{
+			"name": "Kamisashi, the Ancient",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}",
+			"type": "Legendary Creature — Turtle Monk ",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/77_Kamisashi, the Ancient.png"
+			}
+		},
+		{
+			"name": "Knowledge",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "80",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https:///sets/CCC-files/img/80_Knowledge_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/80_Knowledge_front.png"
+			}
+		},
+		{
+			"name": "Mindspark",
+			"rarity": "rare",
+			"mana_cost": "{4}{U}",
+			"type": "Enchantment — Spark ",
+			"collector_number": "81",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/81_Mindspark.png"
+			}
+		},
+		{
+			"name": "Kidnapping",
+			"rarity": "rare",
+			"mana_cost": "{4}{U}{U}",
+			"type": "Tribal Enchantment — Ninja Aura ",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/79_Kidnapping.png"
+			}
+		},
+		{
+			"name": "Unbridled Insight",
+			"rarity": "rare",
+			"mana_cost": "{4}{U}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "96",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/96_Unbridled Insight.png"
+			}
+		},
+		{
+			"name": "Divert the Floodwaters",
+			"rarity": "rare",
+			"mana_cost": "{U}{U}",
+			"type": "Instant",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/65_Divert the Floodwaters.png"
+			}
+		},
+		{
+			"name": "Rotting Warrior",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Human Warrior ",
+			"collector_number": "139",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/139_Rotting Warrior.png"
+			}
+		},
+		{
+			"name": "Plagueborn Oni",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Demon Ninja ",
+			"collector_number": "134",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/134_Plagueborn Oni.png"
+			}
+		},
+		{
+			"name": "Ragana, Death's Desire",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}",
+			"type": "Legendary Creature — Human Warlock ",
+			"collector_number": "136",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https:///sets/CCC-files/img/136_Ragana, Death's Desire_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/136_Ragana, Death's Desire_front.png"
+			}
+		},
+		{
+			"name": "Tainted Ritual",
+			"rarity": "rare",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Enchantment — Aura Curse Saga ",
+			"collector_number": "144",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/144_Tainted Ritual.png"
+			}
+		},
+		{
+			"name": "Desperate Strike",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "114",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/114_Desperate Strike.png"
+			}
+		},
+		{
+			"name": "Infinite Assassins",
+			"rarity": "rare",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "122",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/122_Infinite Assassins.png"
+			}
+		},
+		{
+			"name": "Contract with the Damned",
+			"rarity": "rare",
+			"mana_cost": "{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "108",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/108_Contract with the Damned.png"
+			}
+		},
+		{
+			"name": "Mad Firebomber",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Artificer ",
+			"collector_number": "173",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/173_Mad Firebomber.png"
+			}
+		},
+		{
+			"name": "Scourge of Cities",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Creature — Dragon ",
+			"collector_number": "185",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https:///sets/CCC-files/img/185_Scourge of Cities_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/185_Scourge of Cities_front.png"
+			}
+		},
+		{
+			"name": "Feathered Dragon",
+			"rarity": "rare",
+			"mana_cost": "{4}{R}{R}",
+			"type": "Creature — Dragon ",
+			"collector_number": "163",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https:///sets/CCC-files/img/163_Feathered Dragon_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/163_Feathered Dragon_front.png"
+			}
+		},
+		{
+			"name": "Telegraphed Attack",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "189",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/189_Telegraphed Attack.png"
+			}
+		},
+		{
+			"name": "Born of the Night Sky",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "153",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/153_Born of the Night Sky.png"
+			}
+		},
+		{
+			"name": "Oncoming Storm",
+			"rarity": "rare",
+			"mana_cost": "{X}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "176",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/176_Oncoming Storm.png"
+			}
+		},
+		{
+			"name": "Overcharge",
+			"rarity": "rare",
+			"mana_cost": "{R}{R}",
+			"type": "Instant",
+			"collector_number": "177",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/177_Overcharge.png"
+			}
+		},
+		{
+			"name": "Worldbearer Elemental",
+			"rarity": "rare",
+			"mana_cost": "{20}{G}{G}{G}",
+			"type": "World Creature — Elemental ",
+			"collector_number": "235",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/235_Worldbearer Elemental.png"
+			}
+		},
+		{
+			"name": "Hammer Brothers",
+			"rarity": "rare",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Creature — Giant Warrior ",
+			"collector_number": "209",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/209_Hammer Brothers.png"
+			}
+		},
+		{
+			"name": "Mitoplasm",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Ooze ",
+			"collector_number": "216",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/216_Mitoplasm.png"
+			}
+		},
+		{
+			"name": "Trials of the Hero",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Legendary Enchantment — Saga ",
+			"collector_number": "230",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https:///sets/CCC-files/img/230_Trials of the Hero_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/230_Trials of the Hero_front.png"
+			}
+		},
+		{
+			"name": "Abounding Overgrowth",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Instant",
+			"collector_number": "194",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/194_Abounding Overgrowth.png"
+			}
+		},
+		{
+			"name": "Exploration of the New World",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Enchantment — Discovery ",
+			"collector_number": "206",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/206_Exploration of the New World.png"
+			}
+		},
+		{
+			"name": "Grand Library",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Artifact — Structure ",
+			"collector_number": "309",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/309_Grand Library.png"
+			}
+		},
+		{
+			"name": "Eldrazi Disruptor",
+			"rarity": "rare",
+			"mana_cost": "{3}{C}",
+			"type": "Creature — Eldrazi ",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/1_Eldrazi Disruptor.png"
+			}
+		},
+		{
+			"name": "Greater Auramancer",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{U}",
+			"type": "Enchantment Creature — Elf Wizard ",
+			"collector_number": "242",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/242_Greater Auramancer.png"
+			}
+		},
+		{
+			"name": "Nyanja of the Jade Fleet",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{B}",
+			"type": "Legendary Creature — Merfolk Pirate ",
+			"collector_number": "246",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/246_Nyanja of the Jade Fleet.png"
+			}
+		},
+		{
+			"name": "Kilat Dragon",
+			"rarity": "rare",
+			"mana_cost": "{B}{R}",
+			"type": "Creature — Zombie Dragon ",
+			"collector_number": "253",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/253_Kilat Dragon.png"
+			}
+		},
+		{
+			"name": "Orcish Warchief",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{G}",
+			"type": "Creature — Orc Warrior ",
+			"collector_number": "257",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/257_Orcish Warchief.png"
+			}
+		},
+		{
+			"name": "Journey of Exploration",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{W}",
+			"type": "Enchantment — Aura Saga ",
+			"collector_number": "262",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/262_Journey of Exploration.png"
+			}
+		},
+		{
+			"name": "Faceless Monk",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Creature — Monk ",
+			"collector_number": "270",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/270_Faceless Monk.png"
+			}
+		},
+		{
+			"name": "Enraged Master",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}{W}",
+			"type": "Creature — Monk Warrior ",
+			"collector_number": "281",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/281_Enraged Master.png"
+			}
+		},
+		{
+			"name": "Wildform",
+			"rarity": "uncommon",
+			"mana_cost": "{G}{U}",
+			"type": "Instant",
+			"collector_number": "288",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/288_Wildform.png"
+			}
+		},
+		{
+			"name": "Nervath, the Floating City",
+			"rarity": "rare",
+			"mana_cost": "{X}{2}",
+			"type": "Legendary Artifact — Vehicle ",
+			"collector_number": "313",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/313_Nervath, the Floating City.png"
+			}
+		},
+		{
+			"name": "Leyline Construct",
+			"rarity": "rare",
+			"mana_cost": "{4}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "311",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/311_Leyline Construct.png"
+			}
+		},
+		{
+			"name": "Dune Shark",
+			"rarity": "mythic",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Creature — Shark Mutant ",
+			"collector_number": "159",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/159_Dune Shark.png"
+			}
+		},
+		{
+			"name": "Time Scar",
+			"rarity": "mythic",
+			"mana_cost": "{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "95",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/95_Time Scar.png"
+			}
+		},
+		{
+			"name": "Divine Journey",
+			"rarity": "mythic",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment — Quest ",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/18_Divine Journey.png"
+			}
+		},
+		{
+			"name": "Sisalik, Death's Hand",
+			"rarity": "mythic",
+			"mana_cost": "{3}{B}",
+			"type": "Legendary Creature — Viashino Warlock ",
+			"collector_number": "141",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/141_Sisalik, Death's Hand.png"
+			}
+		},
+		{
+			"name": "Visauga, the Ever-Growing",
+			"rarity": "mythic",
+			"mana_cost": "",
+			"type": "Legendary Land — Forest ",
+			"collector_number": "355",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/355_Visauga, the Ever-Growing.png"
+			}
+		},
+		{
+			"name": "Traverse Reality",
+			"rarity": "mythic",
+			"mana_cost": "{5}",
+			"type": "Sorcery",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/5_Traverse Reality.png"
+			}
+		},
+		{
+			"name": "Verdant Lands",
+			"rarity": "mythic",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "353",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https:///sets/CCC-files/img/353_Verdant Lands_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/353_Verdant Lands_front.png"
+			}
+		},
+		{
+			"name": "Mox Bismuth",
+			"rarity": "mythic",
+			"mana_cost": "{0}",
+			"type": "Legendary Artifact",
+			"collector_number": "312",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/312_Mox Bismuth.png"
+			}
+		},
+		{
+			"name": "Untouched Lotus",
+			"rarity": "rare",
+			"mana_cost": "{7}",
+			"type": "Legendary Artifact",
+			"collector_number": "325",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/325_Untouched Lotus.png"
+			}
+		},
+		{
+			"name": "Overcharged Pearl",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "317",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/317_Overcharged Pearl.png"
+			}
+		},
+		{
+			"name": "Overcharged Sapphire",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "319",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/319_Overcharged Sapphire.png"
+			}
+		},
+		{
+			"name": "Overcharged Jet",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "315",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/315_Overcharged Jet.png"
+			}
+		},
+		{
+			"name": "Overcharged Ruby",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "318",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/318_Overcharged Ruby.png"
+			}
+		},
+		{
+			"name": "Overcharged Emerald",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "314",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/314_Overcharged Emerald.png"
+			}
+		},
+		{
+			"name": "Overcharged Lotus",
+			"rarity": "common",
+			"mana_cost": "{4}",
+			"type": "Artifact",
+			"collector_number": "316",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/316_Overcharged Lotus.png"
+			}
+		},
+		{
+			"name": "Ebb",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "333",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https:///sets/CCC-files/img/333_Ebb_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/333_Ebb_front.png"
+			}
+		},
+		{
+			"name": "Fractured Ocean",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "336",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https:///sets/CCC-files/img/336_Fractured Ocean_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/336_Fractured Ocean_front.png"
+			}
+		},
+		{
+			"name": "Scorched Landscape",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "351",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https:///sets/CCC-files/img/351_Scorched Landscape_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/351_Scorched Landscape_front.png"
+			}
+		},
+		{
+			"name": "Fractured Hills",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "335",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https:///sets/CCC-files/img/335_Fractured Hills_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/335_Fractured Hills_front.png"
+			}
+		},
+		{
+			"name": "Overgrown Steppe",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "346",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https:///sets/CCC-files/img/346_Overgrown Steppe_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/346_Overgrown Steppe_front.png"
+			}
+		},
+		{
+			"name": "Quiet Marsh",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "348",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https:///sets/CCC-files/img/348_Quiet Marsh_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/348_Quiet Marsh_front.png"
+			}
+		},
+		{
+			"name": "Mountain Waterfall",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "344",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https:///sets/CCC-files/img/344_Mountain Waterfall_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/344_Mountain Waterfall_front.png"
+			}
+		},
+		{
+			"name": "Gloomwidow Grove",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "339",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https:///sets/CCC-files/img/339_Gloomwidow Grove_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/339_Gloomwidow Grove_front.png"
+			}
+		},
+		{
+			"name": "Savage Spires",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "350",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https:///sets/CCC-files/img/350_Savage Spires_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/350_Savage Spires_front.png"
+			}
+		},
+		{
+			"name": "Forest Village",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "334",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https:///sets/CCC-files/img/334_Forest Village_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/334_Forest Village_front.png"
+			}
+		},
+		{
+			"name": "Hallowed Field",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "341",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/341_Hallowed Field.png"
+			}
+		},
+		{
+			"name": "Quiet Waterfall",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "349",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/349_Quiet Waterfall.png"
+			}
+		},
+		{
+			"name": "Gloomy Marsh",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "340",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/340_Gloomy Marsh.png"
+			}
+		},
+		{
+			"name": "Frozen Peaks",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "338",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/338_Frozen Peaks.png"
+			}
+		},
+		{
+			"name": "Verdant Savageland",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "354",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/354_Verdant Savageland.png"
+			}
+		},
+		{
+			"name": "Manaling",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Creature — Shapeshifter Shaman ",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/4_Manaling.png"
+			}
+		},
+		{
+			"name": "Emrakul, the Inevitable End",
+			"rarity": "mythic",
+			"mana_cost": "{14}",
+			"type": "Legendary Creature — Eldrazi ",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/2_Emrakul, the Inevitable End.png"
+			}
+		},
+		{
+			"name": "Earthbound Elemental",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Elemental ",
+			"collector_number": "332",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/332_Earthbound Elemental.png"
+			}
+		},
+		{
+			"name": "Fractured Lotus",
+			"rarity": "rare",
+			"mana_cost": "{H}{H}{H}{H}{H}",
+			"type": "Legendary Artifact",
+			"collector_number": "308",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/308_Fractured Lotus.png"
+			}
+		},
+		{
+			"name": "Gesturum, Flying Fortress",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}{U}",
+			"type": "Legendary Artifact — Vehicle ",
+			"collector_number": "240",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/240_Gesturum, Flying Fortress.png"
+			}
+		},
+		{
+			"name": "Spectral Assassin",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{B}",
+			"type": "Creature — Human Spirit Assassin ",
+			"collector_number": "248",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/248_Spectral Assassin.png"
+			}
+		},
+		{
+			"name": "Call of the Void",
+			"rarity": "uncommon",
+			"mana_cost": "{U}{B}",
+			"type": "Sorcery",
+			"collector_number": "245",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/245_Call of the Void.png"
+			}
+		},
+		{
+			"name": "Goblin Garrison",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{R}",
+			"type": "Enchantment",
+			"collector_number": "252",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/252_Goblin Garrison.png"
+			}
+		},
+		{
+			"name": "Wandering Cartographer",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{G}",
+			"type": "Creature — Human Scout ",
+			"collector_number": "259",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/259_Wandering Cartographer.png"
+			}
+		},
+		{
+			"name": "Spore Spreader",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}{W}",
+			"type": "Creature — Fungus ",
+			"collector_number": "264",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/264_Spore Spreader.png"
+			}
+		},
+		{
+			"name": "Knight of the Aurora",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{B}",
+			"type": "Creature — Skeleton Knight ",
+			"collector_number": "266",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/266_Knight of the Aurora.png"
+			}
+		},
+		{
+			"name": "Dementia Crawler",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{B}{G}",
+			"type": "Creature — Zombie Avatar ",
+			"collector_number": "274",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/274_Dementia Crawler.png"
+			}
+		},
+		{
+			"name": "Kinrui the Endless",
+			"rarity": "mythic",
+			"mana_cost": "{3}{B}{G}",
+			"type": "Legendary Creature — Fungus ",
+			"collector_number": "276",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/276_Kinrui the Endless.png"
+			}
+		},
+		{
+			"name": "Aurelia, Legions' Fury",
+			"rarity": "mythic",
+			"mana_cost": "{2}{R}{W}",
+			"type": "Legendary Creature — Angel ",
+			"collector_number": "279",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/279_Aurelia, Legions' Fury.png"
+			}
+		},
+		{
+			"name": "Bait",
+			"rarity": "uncommon",
+			"mana_cost": "{G}",
+			"type": "Instant",
+			"collector_number": "300",
+			"layout": "split",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/300_Bait.png"
+			}
+		},
+		{
+			"name": "Frostborn Geist",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Snow Creature — Spirit ",
+			"collector_number": "71",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https:///sets/CCC-files/img/71_Frostborn Geist_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/71_Frostborn Geist_front.png"
+			}
+		},
+		{
+			"name": "Accursed Jackal",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Jackal Warrior ",
+			"collector_number": "102",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/102_Accursed Jackal.png"
+			}
+		},
+		{
+			"name": "Trials of the Storm Lord",
+			"rarity": "common",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Enchantment — Aura Trial ",
+			"collector_number": "190",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/190_Trials of the Storm Lord.png"
+			}
+		},
+		{
+			"name": "Elvish Nightwalker",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Elf Druid ",
+			"collector_number": "204",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https:///sets/CCC-files/img/204_Elvish Nightwalker_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/204_Elvish Nightwalker_front.png"
+			}
+		},
+		{
+			"name": "Bird's Nest",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/12_Bird's Nest.png"
+			}
+		},
+		{
+			"name": "Gobakhan Nomad",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Nomad Scout ",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/30_Gobakhan Nomad.png"
+			}
+		},
+		{
+			"name": "Boneclad Sphinx",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Artifact Creature — Sphinx ",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/60_Boneclad Sphinx.png"
+			}
+		},
+		{
+			"name": "Shadow Climber",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Creature — Human Ninja ",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/93_Shadow Climber.png"
+			}
+		},
+		{
+			"name": "Inkmind Affliction",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "123",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/123_Inkmind Affliction.png"
+			}
+		},
+		{
+			"name": "Night of the Living Dead",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Enchantment",
+			"collector_number": "128",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/128_Night of the Living Dead.png"
+			}
+		},
+		{
+			"name": "Blood Harvest",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "152",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/152_Blood Harvest.png"
+			}
+		},
+		{
+			"name": "Magus of the Faithless",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Wizard ",
+			"collector_number": "174",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/174_Magus of the Faithless.png"
+			}
+		},
+		{
+			"name": "Skolto, River Seeker",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Legendary Creature — Merfolk Scout ",
+			"collector_number": "224",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/224_Skolto, River Seeker.png"
+			}
+		},
+		{
+			"name": "Overwhelming Odds",
+			"rarity": "rare",
+			"mana_cost": "{G}{G}",
+			"type": "Instant",
+			"collector_number": "222",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/222_Overwhelming Odds.png"
+			}
+		},
+		{
+			"name": "Sage of Fates",
+			"rarity": "mythic",
+			"mana_cost": "{2}{W}{U}{B}",
+			"type": "Creature — Human Wizard ",
+			"collector_number": "296",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/296_Sage of Fates.png"
+			}
+		},
+		{
+			"name": "Nicol Bolas, the Eternal",
+			"rarity": "mythic",
+			"mana_cost": "{4}{U}{B}{R}",
+			"type": "Legendary Planeswalker — Bolas ",
+			"collector_number": "295",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/295_Nicol Bolas, the Eternal.png"
+			}
+		},
+		{
+			"name": "Mitosis Hydra",
+			"rarity": "mythic",
+			"mana_cost": "{R}{G}{W}",
+			"type": "Creature — Hydra ",
+			"collector_number": "294",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/294_Mitosis Hydra.png"
+			}
+		},
+		{
+			"name": "Sideshow Chimera",
+			"rarity": "mythic",
+			"mana_cost": "{B}{R}{G}",
+			"type": "Creature — Chimera ",
+			"collector_number": "298",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/298_Sideshow Chimera.png"
+			}
+		},
+		{
+			"name": "Sage of Nature",
+			"rarity": "mythic",
+			"mana_cost": "{1}{G}{W}{U}",
+			"type": "Creature — Human Shaman ",
+			"collector_number": "297",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/297_Sage of Nature.png"
+			}
+		},
+		{
+			"name": "Anoub, God of Death",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{W}{B}",
+			"type": "Legendary Creature — Jackal God ",
+			"collector_number": "290",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/290_Anoub, God of Death.png"
+			}
+		},
+		{
+			"name": "Enlightened Monk",
+			"rarity": "mythic",
+			"mana_cost": "{2}{G}{U}{R}",
+			"type": "Creature — Human Monk ",
+			"collector_number": "293",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/293_Enlightened Monk.png"
+			}
+		},
+		{
+			"name": "Abzan Wanderer",
+			"rarity": "mythic",
+			"mana_cost": "{1}{W}{B}{G}",
+			"type": "Creature — Human Knight ",
+			"collector_number": "289",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/289_Abzan Wanderer.png"
+			}
+		},
+		{
+			"name": "Enlightened Master",
+			"rarity": "rare",
+			"mana_cost": "{U}{R}{W}",
+			"type": "Creature — Human Monk ",
+			"collector_number": "292",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/292_Enlightened Master.png"
+			}
+		},
+		{
+			"name": "Consuming Ooze",
+			"rarity": "mythic",
+			"mana_cost": "{B}{G}{U}",
+			"type": "Creature — Ooze Skeleton ",
+			"collector_number": "291",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/291_Consuming Ooze.png"
+			}
+		},
+		{
+			"name": "Bells of Paliano",
+			"rarity": "mythic",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "303",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/303_Bells of Paliano.png"
+			}
+		},
+		{
+			"name": "Field Mouse",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Mouse Scout ",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/24_Field Mouse.png"
+			}
+		},
+		{
+			"name": "Pygmy Wyvern",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Dinosaur Drake ",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/87_Pygmy Wyvern.png"
+			}
+		},
+		{
+			"name": "Phyrexian Mosquito",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Insect ",
+			"collector_number": "133",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/133_Phyrexian Mosquito.png"
+			}
+		},
+		{
+			"name": "Vengeant Steeltooth",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Dragon ",
+			"collector_number": "192",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/192_Vengeant Steeltooth.png"
+			}
+		},
+		{
+			"name": "Vilkas, Wolf Master",
+			"rarity": "mythic",
+			"mana_cost": "{2}{G}",
+			"type": "Legendary Creature — Human Druid ",
+			"collector_number": "233",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/233_Vilkas, Wolf Master.png"
+			}
+		},
+		{
+			"name": "Ring of Power",
+			"rarity": "rare",
+			"mana_cost": "{1}",
+			"type": "Legendary Artifact",
+			"collector_number": "321",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/321_Ring of Power.png"
+			}
+		},
+		{
+			"name": "Heart of the Machine",
+			"rarity": "special",
+			"mana_cost": "{X}",
+			"type": "Conspiracy Artifact Creature — Construct ",
+			"collector_number": "359",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/359_Heart of the Machine.png"
+			}
+		},
+		{
+			"name": "Golden Orrery",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Conspiracy",
+			"collector_number": "358",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/358_Golden Orrery.png"
+			}
+		},
+		{
+			"name": "Cielotta, City of the Sky",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Legendary Conspiracy Land",
+			"collector_number": "360",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/360_Cielotta, City of the Sky.png"
+			}
+		},
+		{
+			"name": "Trump Card",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Conspiracy",
+			"collector_number": "357",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/357_Trump Card.png"
+			}
+		},
+		{
+			"name": "Illusionist's Duplicant",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Conspiracy",
+			"collector_number": "356",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/356_Illusionist's Duplicant.png"
+			}
+		},
+		{
+			"name": "Chimera Hatchling",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{R}",
+			"type": "Creature — Chimera ",
+			"collector_number": "269",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/269_Chimera Hatchling.png"
+			}
+		},
+		{
+			"name": "Orcish Wavecrasher",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Orc Shaman ",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/84_Orcish Wavecrasher.png"
+			}
+		},
+		{
+			"name": "Fragment of Power",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Instant",
+			"collector_number": "207",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/207_Fragment of Power.png"
+			}
+		},
+		{
+			"name": "Phyrexian Carrier",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{H}{H}",
+			"type": "Artifact — Vehicle ",
+			"collector_number": "320",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/320_Phyrexian Carrier.png"
+			}
+		},
+		{
+			"name": "Iron Arm",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "211",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/211_Iron Arm.png"
+			}
+		},
+		{
+			"name": "Unplanned Duet",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Instant",
+			"collector_number": "97",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/97_Unplanned Duet.png"
+			}
+		},
+		{
+			"name": "Ursine Fortitude",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "232",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/232_Ursine Fortitude.png"
+			}
+		},
+		{
+			"name": "Palakol Charger",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Warrior ",
+			"collector_number": "179",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/179_Palakol Charger.png"
+			}
+		},
+		{
+			"name": "Omenkeeper",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Human Shaman ",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/42_Omenkeeper.png"
+			}
+		},
+		{
+			"name": "Sparkspewer",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Crab Elemental ",
+			"collector_number": "187",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/187_Sparkspewer.png"
+			}
+		},
+		{
+			"name": "Kamahl, Savior of Krosa",
+			"rarity": "rare",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Legendary Creature — Human Druid ",
+			"collector_number": "212",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/212_Kamahl, Savior of Krosa.png"
+			}
+		},
+		{
+			"name": "Rat Pack",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Rat ",
+			"collector_number": "137",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/137_Rat Pack.png"
+			}
+		},
+		{
+			"name": "Secrets of the Deep",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Sorcery",
+			"collector_number": "92",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/92_Secrets of the Deep.png"
+			}
+		},
+		{
+			"name": "Feathered Figment",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Bird Illusion ",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/23_Feathered Figment.png"
+			}
+		},
+		{
+			"name": "Horn of Nyx",
+			"rarity": "rare",
+			"mana_cost": "{1}",
+			"type": "Enchantment Artifact — Equipment ",
+			"collector_number": "310",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/310_Horn of Nyx.png"
+			}
+		},
+		{
+			"name": "Fox Fantastique",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}",
+			"type": "Legendary Artifact Creature — Fox Wrestler ",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/26_Fox Fantastique.png"
+			}
+		},
+		{
+			"name": "Blood Offering",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "104",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/104_Blood Offering.png"
+			}
+		},
+		{
+			"name": "Overvolt",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "178",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/178_Overvolt.png"
+			}
+		},
+		{
+			"name": "Lukka's Bond",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Enchantment — Bond ",
+			"collector_number": "127",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/127_Lukka's Bond.png"
+			}
+		},
+		{
+			"name": "Ivorian, Fluidform",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{U}",
+			"type": "Legendary Creature — Shapeshifter Mutant ",
+			"collector_number": "284",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/284_Ivorian, Fluidform.png"
+			}
+		},
+		{
+			"name": "Wild Rift",
+			"rarity": "rare",
+			"mana_cost": "{5}",
+			"type": "Sorcery",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https:///sets/CCC-files/img/7_Wild Rift.png"
+			}
+		}
+	]

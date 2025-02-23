@@ -1,0 +1,2568 @@
+﻿[CustomCards]
+	[
+		{
+			"name": "Inspired Warrior",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Warrior ",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/24_Inspired Warrior.png"
+			}
+		},
+		{
+			"name": "Frost-Shield Crasher",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Orc Warrior ",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/20_Frost-Shield Crasher.png"
+			}
+		},
+		{
+			"name": "Star Thrower",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Wizard ",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/31_Star Thrower.png"
+			}
+		},
+		{
+			"name": "Goliath War Medic",
+			"rarity": "common",
+			"mana_cost": "{5}{W}{W}",
+			"type": "Creature — Giant Warrior ",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/21_Goliath War Medic.png"
+			}
+		},
+		{
+			"name": "Fadir's Hawk",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Bird ",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/17_Fadir's Hawk.png"
+			}
+		},
+		{
+			"name": "Razeck's Lieutenant",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/28_Razeck's Lieutenant.png"
+			}
+		},
+		{
+			"name": "Vallan Smasher",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Warrior ",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/35_Vallan Smasher.png"
+			}
+		},
+		{
+			"name": "Dream-Light Valkyrie",
+			"rarity": "common",
+			"mana_cost": "{3}{C/W}{C/W}",
+			"type": "Creature — Angel Warrior ",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/13_Dream-Light Valkyrie.png"
+			}
+		},
+		{
+			"name": "Crashing War Party",
+			"rarity": "common",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Creature — Human Warrior ",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/11_Crashing War Party.png"
+			}
+		},
+		{
+			"name": "Soothe the Unruly",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/30_Soothe the Unruly.png"
+			}
+		},
+		{
+			"name": "Annihilating Light",
+			"rarity": "common",
+			"mana_cost": "{2}{C/W}{C/W}",
+			"type": "Instant",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/6_Annihilating Light.png"
+			}
+		},
+		{
+			"name": "Call the Valiant",
+			"rarity": "common",
+			"mana_cost": "{1{C}/W}{C/W}",
+			"type": "Instant",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/10_Call the Valiant.png"
+			}
+		},
+		{
+			"name": "Frost Shot",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/19_Frost Shot.png"
+			}
+		},
+		{
+			"name": "Frostland Scout",
+			"rarity": "common",
+			"mana_cost": "{1{C}/U}{C/U}",
+			"type": "Creature — Human Scout ",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/47_Frostland Scout.png"
+			}
+		},
+		{
+			"name": "Illusionary Drake",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Drake Illusion ",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/56_Illusionary Drake.png"
+			}
+		},
+		{
+			"name": "Rasvalar City Guard",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/63_Rasvalar City Guard.png"
+			}
+		},
+		{
+			"name": "Frost Troll",
+			"rarity": "common",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Creature — Troll ",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/46_Frost Troll.png"
+			}
+		},
+		{
+			"name": "Thunderclaw Raven",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Bird ",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/71_Thunderclaw Raven.png"
+			}
+		},
+		{
+			"name": "Shallow-Water Kraken",
+			"rarity": "common",
+			"mana_cost": "{4}{C/U}{C/U}",
+			"type": "Creature — Kraken ",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/66_Shallow-Water Kraken.png"
+			}
+		},
+		{
+			"name": "Frost Hag",
+			"rarity": "common",
+			"mana_cost": "{2}{C/U}{C/U}",
+			"type": "Creature — Warlock ",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/44_Frost Hag.png"
+			}
+		},
+		{
+			"name": "Moon-Light Dreaming",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Sorcery",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/61_Moon-Light Dreaming.png"
+			}
+		},
+		{
+			"name": "Frost Fists",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/43_Frost Fists.png"
+			}
+		},
+		{
+			"name": "Remove Soul",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/65_Remove Soul.png"
+			}
+		},
+		{
+			"name": "Strike Through Space",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/69_Strike Through Space.png"
+			}
+		},
+		{
+			"name": "Discover Untold Knowledge",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Sorcery",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/39_Discover Untold Knowledge.png"
+			}
+		},
+		{
+			"name": "Heavy Seas",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Instant",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/53_Heavy Seas.png"
+			}
+		},
+		{
+			"name": "Bloodsucker Bat",
+			"rarity": "common",
+			"mana_cost": "{B}{B}",
+			"type": "Creature — Bat ",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/77_Bloodsucker Bat.png"
+			}
+		},
+		{
+			"name": "Giant Draugr",
+			"rarity": "common",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Giant Zombie ",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/91_Giant Draugr.png"
+			}
+		},
+		{
+			"name": "Draugr Knight",
+			"rarity": "common",
+			"mana_cost": "{C/B}{C/B}",
+			"type": "Creature — Zombie Knight ",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/83_Draugr Knight.png"
+			}
+		},
+		{
+			"name": "Resvalaran Warrior",
+			"rarity": "common",
+			"mana_cost": "{C/B}",
+			"type": "Creature — Human Mutant Warrior ",
+			"collector_number": "100",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/100_Resvalaran Warrior.png"
+			}
+		},
+		{
+			"name": "Hungry Draugr",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Zombie ",
+			"collector_number": "94",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/94_Hungry Draugr.png"
+			}
+		},
+		{
+			"name": "Striking Raven",
+			"rarity": "common",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Creature — Bird ",
+			"collector_number": "104",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/104_Striking Raven.png"
+			}
+		},
+		{
+			"name": "Blitzing Berserker",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Human Berserker ",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/76_Blitzing Berserker.png"
+			}
+		},
+		{
+			"name": "Echon Knight",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Human Knight ",
+			"collector_number": "86",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/86_Echon Knight.png"
+			}
+		},
+		{
+			"name": "Dwarven War Party",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Dwarf Berserker ",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/84_Dwarven War Party.png"
+			}
+		},
+		{
+			"name": "Enfeeble",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/87_Enfeeble.png"
+			}
+		},
+		{
+			"name": "Severing Blow",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "101",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/101_Severing Blow.png"
+			}
+		},
+		{
+			"name": "Execute the Trespasser",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "88",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/88_Execute the Trespasser.png"
+			}
+		},
+		{
+			"name": "Lich's Revival",
+			"rarity": "common",
+			"mana_cost": "{2}{C/B}{C/B}",
+			"type": "Sorcery",
+			"collector_number": "96",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/96_Lich's Revival.png"
+			}
+		},
+		{
+			"name": "Spire Climber",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Goblin Scout ",
+			"collector_number": "132",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/132_Spire Climber.png"
+			}
+		},
+		{
+			"name": "Goblin Boar Rider",
+			"rarity": "common",
+			"mana_cost": "{3}{C/R}",
+			"type": "Creature — Goblin Warrior ",
+			"collector_number": "119",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/119_Goblin Boar Rider.png"
+			}
+		},
+		{
+			"name": "Hopping Goblin",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Goblin Scout ",
+			"collector_number": "123",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/123_Hopping Goblin.png"
+			}
+		},
+		{
+			"name": "Blood Drenched Berserker",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Berserker Warrior ",
+			"collector_number": "109",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/109_Blood Drenched Berserker.png"
+			}
+		},
+		{
+			"name": "Sparking Raider",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Dwarf Berserker ",
+			"collector_number": "131",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/131_Sparking Raider.png"
+			}
+		},
+		{
+			"name": "Twin-Axe Berserker",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Human Berserker ",
+			"collector_number": "136",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/136_Twin-Axe Berserker.png"
+			}
+		},
+		{
+			"name": "Fear Caster",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Wizard ",
+			"collector_number": "118",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/118_Fear Caster.png"
+			}
+		},
+		{
+			"name": "Molten Gauntlet",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "127",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/127_Molten Gauntlet.png"
+			}
+		},
+		{
+			"name": "Chandra's Fury",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Instant",
+			"collector_number": "113",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/113_Chandra's Fury.png"
+			}
+		},
+		{
+			"name": "Goblin Brigade",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Instant",
+			"collector_number": "120",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/120_Goblin Brigade.png"
+			}
+		},
+		{
+			"name": "Twin Blade Strike",
+			"rarity": "common",
+			"mana_cost": "{R}{R}",
+			"type": "Instant",
+			"collector_number": "135",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/135_Twin Blade Strike.png"
+			}
+		},
+		{
+			"name": "Ignite Flesh",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Instant",
+			"collector_number": "124",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/124_Ignite Flesh.png"
+			}
+		},
+		{
+			"name": "Sucker Punch",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
+			"collector_number": "133",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/133_Sucker Punch.png"
+			}
+		},
+		{
+			"name": "Runed Elk",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Creature — Elk ",
+			"collector_number": "168",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/168_Runed Elk.png"
+			}
+		},
+		{
+			"name": "Alfa Beastmaster",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Elf Shaman ",
+			"collector_number": "141",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/141_Alfa Beastmaster.png"
+			}
+		},
+		{
+			"name": "Alfa Piker",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Elf Warrior ",
+			"collector_number": "142",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/142_Alfa Piker.png"
+			}
+		},
+		{
+			"name": "Hungry Baloth",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Beast ",
+			"collector_number": "165",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/165_Hungry Baloth.png"
+			}
+		},
+		{
+			"name": "Shatter-Stump Ent",
+			"rarity": "common",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Treefolk ",
+			"collector_number": "169",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/169_Shatter-Stump Ent.png"
+			}
+		},
+		{
+			"name": "Awakened Alfa",
+			"rarity": "common",
+			"mana_cost": "{1{C}/G}{C/G}",
+			"type": "Creature — Elf Warrior ",
+			"collector_number": "147",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/147_Awakened Alfa.png"
+			}
+		},
+		{
+			"name": "Alfa Archer",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Elf Archer ",
+			"collector_number": "140",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/140_Alfa Archer.png"
+			}
+		},
+		{
+			"name": "Druid of Last Rites",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Elf Druid ",
+			"collector_number": "155",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/155_Druid of Last Rites.png"
+			}
+		},
+		{
+			"name": "Feverbloom Goliath",
+			"rarity": "common",
+			"mana_cost": "{3}{C/G}",
+			"type": "Creature — Treefolk ",
+			"collector_number": "160",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/160_Feverbloom Goliath.png"
+			}
+		},
+		{
+			"name": "Dreamlike Expedition",
+			"rarity": "common",
+			"mana_cost": "{2}{C/G}{C/G}",
+			"type": "Sorcery",
+			"collector_number": "154",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/154_Dreamlike Expedition.png"
+			}
+		},
+		{
+			"name": "Hunter and Hunted",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Sorcery",
+			"collector_number": "166",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/166_Hunter and Hunted.png"
+			}
+		},
+		{
+			"name": "Domri's Charge",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Instant",
+			"collector_number": "152",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/152_Domri's Charge.png"
+			}
+		},
+		{
+			"name": "Flower Path",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "161",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/161_Flower Path.png"
+			}
+		},
+		{
+			"name": "Swords of the Legion",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "204",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/204_Swords of the Legion.png"
+			}
+		},
+		{
+			"name": "Edge of the World",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "212",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/212_Edge of the World.png"
+			}
+		},
+		{
+			"name": "Coastal Village",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "209",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/209_Coastal Village.png"
+			}
+		},
+		{
+			"name": "Marshlands",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "215",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/215_Marshlands.png"
+			}
+		},
+		{
+			"name": "Volcanic Catacombs",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "220",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/220_Volcanic Catacombs.png"
+			}
+		},
+		{
+			"name": "Burning Forest",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "207",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/207_Burning Forest.png"
+			}
+		},
+		{
+			"name": "Treetop City",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "218",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/218_Treetop City.png"
+			}
+		},
+		{
+			"name": "Dark Caves",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "210",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/210_Dark Caves.png"
+			}
+		},
+		{
+			"name": "Cinder Reef",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "208",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/208_Cinder Reef.png"
+			}
+		},
+		{
+			"name": "Blackened Forest",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "206",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/206_Blackened Forest.png"
+			}
+		},
+		{
+			"name": "War Forge",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "222",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/222_War Forge.png"
+			}
+		},
+		{
+			"name": "Tropical Forest",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "219",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/219_Tropical Forest.png"
+			}
+		},
+		{
+			"name": "Echon Assembly",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Sorcery",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/14_Echon Assembly.png"
+			}
+		},
+		{
+			"name": "Bury Alive",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/9_Bury Alive.png"
+			}
+		},
+		{
+			"name": "Healing Feast",
+			"rarity": "uncommon",
+			"mana_cost": "{C/W}{C/W}",
+			"type": "Sorcery",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/22_Healing Feast.png"
+			}
+		},
+		{
+			"name": "Razeck's Cleric",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Cleric ",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/27_Razeck's Cleric.png"
+			}
+		},
+		{
+			"name": "Echon Vigilant",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Spirit Knight ",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/15_Echon Vigilant.png"
+			}
+		},
+		{
+			"name": "Striking Valkyrie",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Creature — Angel Warrior ",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/33_Striking Valkyrie.png"
+			}
+		},
+		{
+			"name": "Frost Cleric",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Dwarf Cleric ",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/18_Frost Cleric.png"
+			}
+		},
+		{
+			"name": "Light Pierce",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Instant",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/26_Light Pierce.png"
+			}
+		},
+		{
+			"name": "Frostwing Cardinal",
+			"rarity": "uncommon",
+			"mana_cost": "{1{C}/U}",
+			"type": "Creature — Bird ",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/49_Frostwing Cardinal.png"
+			}
+		},
+		{
+			"name": "Frostwing Aven",
+			"rarity": "uncommon",
+			"mana_cost": "{1{C}/U}{C/U}",
+			"type": "Creature — Bird Shaman ",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/48_Frostwing Aven.png"
+			}
+		},
+		{
+			"name": "Illusionary Decoys",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{U}{U}",
+			"type": "Creature — Illusion ",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/55_Illusionary Decoys.png"
+			}
+		},
+		{
+			"name": "Illusionist Mage",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Wizard ",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/57_Illusionist Mage.png"
+			}
+		},
+		{
+			"name": "Storm Giant",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{U}{U}",
+			"type": "Creature — Giant Warrior ",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/68_Storm Giant.png"
+			}
+		},
+		{
+			"name": "Living Lab",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Elemental Wizard ",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/60_Living Lab.png"
+			}
+		},
+		{
+			"name": "Echon Mist Weaver",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Creature — Human Warrior ",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/41_Echon Mist Weaver.png"
+			}
+		},
+		{
+			"name": "Frost Spark Sentinel",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Elemental Weird ",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/45_Frost Spark Sentinel.png"
+			}
+		},
+		{
+			"name": "Berserk Axeman",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Human Berserker ",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/75_Berserk Axeman.png"
+			}
+		},
+		{
+			"name": "Menacing Draugr",
+			"rarity": "uncommon",
+			"mana_cost": "{C/B}{C/B}",
+			"type": "Creature — Zombie Warrior ",
+			"collector_number": "98",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/98_Menacing Draugr.png"
+			}
+		},
+		{
+			"name": "Power of the Night",
+			"rarity": "uncommon",
+			"mana_cost": "{1{C}/B}",
+			"type": "Instant",
+			"collector_number": "99",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/99_Power of the Night.png"
+			}
+		},
+		{
+			"name": "Silent Thief",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Rogue ",
+			"collector_number": "103",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/103_Silent Thief.png"
+			}
+		},
+		{
+			"name": "Draugr Commander",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Zombie Warrior ",
+			"collector_number": "80",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/80_Draugr Commander.png"
+			}
+		},
+		{
+			"name": "Fanatic Cultists",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Shaman ",
+			"collector_number": "90",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/90_Fanatic Cultists.png"
+			}
+		},
+		{
+			"name": "Killing Blow",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "95",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/95_Killing Blow.png"
+			}
+		},
+		{
+			"name": "Shadow Necroid",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Creature — Demon Warlock ",
+			"collector_number": "102",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/102_Shadow Necroid.png"
+			}
+		},
+		{
+			"name": "Orcish Horde",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{C/R}{C/R}",
+			"type": "Creature — Orc Warrior ",
+			"collector_number": "128",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/128_Orcish Horde.png"
+			}
+		},
+		{
+			"name": "Vallan Raiding Party",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Creature — Human Warrior ",
+			"collector_number": "138",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/138_Vallan Raiding Party.png"
+			}
+		},
+		{
+			"name": "Baby Dragon",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Creature — Dragon ",
+			"collector_number": "108",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/108_Baby Dragon.png"
+			}
+		},
+		{
+			"name": "Screaming Lightning",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
+			"collector_number": "130",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/130_Screaming Lightning.png"
+			}
+		},
+		{
+			"name": "Goblin Riot Piker",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Goblin Berserker ",
+			"collector_number": "121",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/121_Goblin Riot Piker.png"
+			}
+		},
+		{
+			"name": "Goblin Warlord",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Goblin Warrior ",
+			"collector_number": "122",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/122_Goblin Warlord.png"
+			}
+		},
+		{
+			"name": "Burn the Dead",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "111",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/111_Burn the Dead.png"
+			}
+		},
+		{
+			"name": "Unbridled Fury",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Instant",
+			"collector_number": "137",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/137_Unbridled Fury.png"
+			}
+		},
+		{
+			"name": "Assault Bear",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Bear Warrior ",
+			"collector_number": "145",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/145_Assault Bear.png"
+			}
+		},
+		{
+			"name": "Echon Druid",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Elf Druid ",
+			"collector_number": "156",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/156_Echon Druid.png"
+			}
+		},
+		{
+			"name": "Corrupted Alfa",
+			"rarity": "uncommon",
+			"mana_cost": "{1{C}/G}{C/G}",
+			"type": "Creature — Elf Treefolk Druid ",
+			"collector_number": "151",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/151_Corrupted Alfa.png"
+			}
+		},
+		{
+			"name": "Bridge the Multiverse",
+			"rarity": "uncommon",
+			"mana_cost": "{G}",
+			"type": "Sorcery",
+			"collector_number": "149",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/149_Bridge the Multiverse.png"
+			}
+		},
+		{
+			"name": "Emerge from the Fog",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{C/G}{C/G}",
+			"type": "Sorcery",
+			"collector_number": "158",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/158_Emerge from the Fog.png"
+			}
+		},
+		{
+			"name": "Old Growth Ent",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Treefolk ",
+			"collector_number": "167",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/167_Old Growth Ent.png"
+			}
+		},
+		{
+			"name": "Awakened Druid",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Elf Druid ",
+			"collector_number": "148",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/148_Awakened Druid.png"
+			}
+		},
+		{
+			"name": "Forest Tender",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Elemental ",
+			"collector_number": "163",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/163_Forest Tender.png"
+			}
+		},
+		{
+			"name": "Rustfire Golem",
+			"rarity": "uncommon",
+			"mana_cost": "{4}",
+			"type": "Artifact Creature — Golem ",
+			"collector_number": "201",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/201_Rustfire Golem.png"
+			}
+		},
+		{
+			"name": "Frost Chaser",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{U}",
+			"type": "Creature — Human Warrior ",
+			"collector_number": "182",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/182_Frost Chaser.png"
+			}
+		},
+		{
+			"name": "Lunging Assassin",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{B}",
+			"type": "Creature — Human Assassin ",
+			"collector_number": "189",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/189_Lunging Assassin.png"
+			}
+		},
+		{
+			"name": "Chain Striker",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{R}",
+			"type": "Creature — Human Warrior ",
+			"collector_number": "175",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/175_Chain Striker.png"
+			}
+		},
+		{
+			"name": "Ursine Warrior",
+			"rarity": "uncommon",
+			"mana_cost": "{R}{G}",
+			"type": "Creature — Human Berserker ",
+			"collector_number": "196",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/196_Ursine Warrior.png"
+			}
+		},
+		{
+			"name": "Great Hunter",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}{W}",
+			"type": "Creature — Elf Warrior Scout ",
+			"collector_number": "184",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/184_Great Hunter.png"
+			}
+		},
+		{
+			"name": "Savage Raiders",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{B}",
+			"type": "Creature — Human Warrior ",
+			"collector_number": "193",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/193_Savage Raiders.png"
+			}
+		},
+		{
+			"name": "Crazed Shaman",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Creature — Human Shaman ",
+			"collector_number": "176",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/176_Crazed Shaman.png"
+			}
+		},
+		{
+			"name": "Bloodletter Shaman",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{G}",
+			"type": "Creature — Human Shaman ",
+			"collector_number": "174",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/174_Bloodletter Shaman.png"
+			}
+		},
+		{
+			"name": "Seasoned Veteran",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{W}",
+			"type": "Creature — Human Warrior ",
+			"collector_number": "194",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/194_Seasoned Veteran.png"
+			}
+		},
+		{
+			"name": "Frost-Wind Scout",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{U}",
+			"type": "Creature — Human Scout ",
+			"collector_number": "183",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/183_Frost-Wind Scout.png"
+			}
+		},
+		{
+			"name": "Life-Drainer Valkyrie",
+			"rarity": "rare",
+			"mana_cost": "{4}{W}{W}",
+			"type": "Creature — Angel Warrior ",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/25_Life-Drainer Valkyrie.png"
+			}
+		},
+		{
+			"name": "Aspect of Nobility",
+			"rarity": "rare",
+			"mana_cost": "{C}{W}",
+			"type": "Creature — Avatar Knight ",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/7_Aspect of Nobility.png"
+			}
+		},
+		{
+			"name": "Bind Evil",
+			"rarity": "rare",
+			"mana_cost": "{W}{W}",
+			"type": "Enchantment",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/8_Bind Evil.png"
+			}
+		},
+		{
+			"name": "Aldrich, Monster Hunter",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}",
+			"type": "Legendary Creature — Human Hero ",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/4_Aldrich, Monster Hunter.png"
+			}
+		},
+		{
+			"name": "Vallan Valkyrie",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Creature — Angel Warrior ",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/36_Vallan Valkyrie.png"
+			}
+		},
+		{
+			"name": "Dramatic Victory",
+			"rarity": "rare",
+			"mana_cost": "{4}{W}{W}",
+			"type": "Instant",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/12_Dramatic Victory.png"
+			}
+		},
+		{
+			"name": "Thunderclap Valkyrie",
+			"rarity": "rare",
+			"mana_cost": "{1{C}/W}{C/W}",
+			"type": "Creature — Angel Warrior ",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/34_Thunderclap Valkyrie.png"
+			}
+		},
+		{
+			"name": "Ancient Valkyrie",
+			"rarity": "rare",
+			"mana_cost": "{3}{C/W}{C/W}",
+			"type": "Creature — Angel Warrior ",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/5_Ancient Valkyrie.png"
+			}
+		},
+		{
+			"name": "Form Shifter",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Illusion Wizard ",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/42_Form Shifter.png"
+			}
+		},
+		{
+			"name": "Frozen Leviathan",
+			"rarity": "rare",
+			"mana_cost": "{4}{U}{U}",
+			"type": "Creature — Leviathan ",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/51_Frozen Leviathan.png"
+			}
+		},
+		{
+			"name": "Sudden Frost",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Instant",
+			"collector_number": "70",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/70_Sudden Frost.png"
+			}
+		},
+		{
+			"name": "Frozen Dragon",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Creature — Dragon ",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/50_Frozen Dragon.png"
+			}
+		},
+		{
+			"name": "Aspect of Knowledge",
+			"rarity": "rare",
+			"mana_cost": "{2}{C}{U}",
+			"type": "Creature — Avatar Wizard ",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/38_Aspect of Knowledge.png"
+			}
+		},
+		{
+			"name": "Spectral Commander",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Human Warrior Wizard ",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/67_Spectral Commander.png"
+			}
+		},
+		{
+			"name": "Reality Rift",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/64_Reality Rift.png"
+			}
+		},
+		{
+			"name": "Gareth, Master of Illusions",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Legendary Creature — Human Hero ",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/52_Gareth, Master of Illusions.png"
+			}
+		},
+		{
+			"name": "Draugr Dragon",
+			"rarity": "rare",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Dragon Zombie ",
+			"collector_number": "81",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/81_Draugr Dragon.png"
+			}
+		},
+		{
+			"name": "Drain Vitality",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/79_Drain Vitality.png"
+			}
+		},
+		{
+			"name": "Fallen Valkyrie",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Creature — Angel Warrior ",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/89_Fallen Valkyrie.png"
+			}
+		},
+		{
+			"name": "Ballador, Lord of the Draugr",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}",
+			"type": "Legendary Creature — Zombie Hero ",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/74_Ballador, Lord of the Draugr.png"
+			}
+		},
+		{
+			"name": "Headhunter Goblin",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Creature — Goblin Warrior ",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/93_Headhunter Goblin.png"
+			}
+		},
+		{
+			"name": "Draugr Explorer",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Zombie Warrior ",
+			"collector_number": "82",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/82_Draugr Explorer.png"
+			}
+		},
+		{
+			"name": "Distorted Encounter",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}",
+			"type": "Sorcery",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/78_Distorted Encounter.png"
+			}
+		},
+		{
+			"name": "Aspect of Nightmare",
+			"rarity": "rare",
+			"mana_cost": "{C}{B}",
+			"type": "Creature — Avatar Nightmare ",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/72_Aspect of Nightmare.png"
+			}
+		},
+		{
+			"name": "Dwarven Devastor",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Dwarf Berserker ",
+			"collector_number": "115",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/115_Dwarven Devastor.png"
+			}
+		},
+		{
+			"name": "Mad Bomber",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Dwarf Warrior ",
+			"collector_number": "126",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/126_Mad Bomber.png"
+			}
+		},
+		{
+			"name": "Warstorm Surge",
+			"rarity": "rare",
+			"mana_cost": "{5}{R}",
+			"type": "Enchantment",
+			"collector_number": "139",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/139_Warstorm Surge.png"
+			}
+		},
+		{
+			"name": "Ancient Hound",
+			"rarity": "rare",
+			"mana_cost": "{2}{C/R}{C/R}",
+			"type": "Creature — Elemental Hound ",
+			"collector_number": "106",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/106_Ancient Hound.png"
+			}
+		},
+		{
+			"name": "Aspect of Fire",
+			"rarity": "rare",
+			"mana_cost": "{1}{C}{R}",
+			"type": "Creature — Avatar Berserker ",
+			"collector_number": "107",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/107_Aspect of Fire.png"
+			}
+		},
+		{
+			"name": "Immersturm Archfiend",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Demon ",
+			"collector_number": "125",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/125_Immersturm Archfiend.png"
+			}
+		},
+		{
+			"name": "Summit the Fortress",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "134",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/134_Summit the Fortress.png"
+			}
+		},
+		{
+			"name": "Rhilik, King of the Goblins",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Legendary Creature — Goblin Hero ",
+			"collector_number": "129",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/129_Rhilik, King of the Goblins.png"
+			}
+		},
+		{
+			"name": "Forest Flourishing",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "162",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/162_Forest Flourishing.png"
+			}
+		},
+		{
+			"name": "Weeping Willow-Ent",
+			"rarity": "rare",
+			"mana_cost": "{G}{G}",
+			"type": "Creature — Treefolk ",
+			"collector_number": "173",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/173_Weeping Willow-Ent.png"
+			}
+		},
+		{
+			"name": "Come Alive",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Enchantment",
+			"collector_number": "150",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/150_Come Alive.png"
+			}
+		},
+		{
+			"name": "Striding Illusionist",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Elf Druid ",
+			"collector_number": "170",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/170_Striding Illusionist.png"
+			}
+		},
+		{
+			"name": "Gaenir, Leader of the Alfa",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Legendary Creature — Elf Hero ",
+			"collector_number": "164",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/164_Gaenir, Leader of the Alfa.png"
+			}
+		},
+		{
+			"name": "Warborn Beast Rider",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Elf Warrior ",
+			"collector_number": "172",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/172_Warborn Beast Rider.png"
+			}
+		},
+		{
+			"name": "Dragonroot Snare",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Instant",
+			"collector_number": "153",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/153_Dragonroot Snare.png"
+			}
+		},
+		{
+			"name": "Aspect of War",
+			"rarity": "rare",
+			"mana_cost": "{3}{C}{G}",
+			"type": "Creature — Avatar Warrior ",
+			"collector_number": "144",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/144_Aspect of War.png"
+			}
+		},
+		{
+			"name": "Spiked Golem",
+			"rarity": "rare",
+			"mana_cost": "{4}",
+			"type": "Artifact Creature — Golem ",
+			"collector_number": "202",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/202_Spiked Golem.png"
+			}
+		},
+		{
+			"name": "Golden Serpent",
+			"rarity": "rare",
+			"mana_cost": "{X}",
+			"type": "Artifact Creature — Serpent ",
+			"collector_number": "199",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/199_Golden Serpent.png"
+			}
+		},
+		{
+			"name": "Thrumming Stone",
+			"rarity": "rare",
+			"mana_cost": "{5}",
+			"type": "Artifact",
+			"collector_number": "205",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/205_Thrumming Stone.png"
+			}
+		},
+		{
+			"name": "Sword and Spear",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "203",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/203_Sword and Spear.png"
+			}
+		},
+		{
+			"name": "Lotus Altar",
+			"rarity": "rare",
+			"mana_cost": "{1}",
+			"type": "Artifact",
+			"collector_number": "200",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/200_Lotus Altar.png"
+			}
+		},
+		{
+			"name": "Svanr, Lord of Blizzards",
+			"rarity": "rare",
+			"mana_cost": "{3}{C/W}{C/U}",
+			"type": "Legendary Creature — God ",
+			"collector_number": "195",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/195_Svanr, Lord of Blizzards.png"
+			}
+		},
+		{
+			"name": "Murtr, Lord of Seas",
+			"rarity": "rare",
+			"mana_cost": "{4}{C/U}{C/B}",
+			"type": "Legendary Creature — God ",
+			"collector_number": "190",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/190_Murtr, Lord of Seas.png"
+			}
+		},
+		{
+			"name": "Dreyri, Lord of Blood",
+			"rarity": "rare",
+			"mana_cost": "{1{C}/B}{C/R}",
+			"type": "Legendary Creature — God ",
+			"collector_number": "178",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/178_Dreyri, Lord of Blood.png"
+			}
+		},
+		{
+			"name": "Vidr, Lord of Land",
+			"rarity": "rare",
+			"mana_cost": "{3}{C/R}{C/G}",
+			"type": "Legendary Creature — God ",
+			"collector_number": "198",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/198_Vidr, Lord of Land.png"
+			}
+		},
+		{
+			"name": "Heill, Lord of Nature",
+			"rarity": "rare",
+			"mana_cost": "{2}{C/G}{C/W}",
+			"type": "Legendary Creature — God ",
+			"collector_number": "186",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/186_Heill, Lord of Nature.png"
+			}
+		},
+		{
+			"name": "Hefnd, Lord of Vengeance",
+			"rarity": "rare",
+			"mana_cost": "{2}{C/W}{C/B}",
+			"type": "Legendary Creature — God ",
+			"collector_number": "185",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/185_Hefnd, Lord of Vengeance.png"
+			}
+		},
+		{
+			"name": "Eyrir, Lord of Winds",
+			"rarity": "rare",
+			"mana_cost": "{2}{C/U}{C/R}",
+			"type": "Legendary Creature — God ",
+			"collector_number": "179",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/179_Eyrir, Lord of Winds.png"
+			}
+		},
+		{
+			"name": "Líflát, Lord of Death",
+			"rarity": "rare",
+			"mana_cost": "{3}{C/B}{C/G}",
+			"type": "Legendary Creature — God ",
+			"collector_number": "188",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/188_Líflát, Lord of Death.png"
+			}
+		},
+		{
+			"name": "Formadr, Lord of Combat",
+			"rarity": "rare",
+			"mana_cost": "{1{C}/R}{C/W}",
+			"type": "Legendary Creature — God ",
+			"collector_number": "181",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/181_Formadr, Lord of Combat.png"
+			}
+		},
+		{
+			"name": "Hregg, Lord of Storms",
+			"rarity": "rare",
+			"mana_cost": "{1{C}/G}{C/U}",
+			"type": "Legendary Creature — God ",
+			"collector_number": "187",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/187_Hregg, Lord of Storms.png"
+			}
+		},
+		{
+			"name": "Stridha's Mead Hall",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Land",
+			"collector_number": "216",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/216_Stridha's Mead Hall.png"
+			}
+		},
+		{
+			"name": "Jokull's Mead Hall",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Land",
+			"collector_number": "214",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/214_Jokull's Mead Hall.png"
+			}
+		},
+		{
+			"name": "Taela's Mead Hall",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Land",
+			"collector_number": "217",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/217_Taela's Mead Hall.png"
+			}
+		},
+		{
+			"name": "Dynja's Mead Hall",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Land",
+			"collector_number": "211",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/211_Dynja's Mead Hall.png"
+			}
+		},
+		{
+			"name": "Vöxtr's Mead Hall",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Land",
+			"collector_number": "221",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/221_Vöxtr's Mead Hall.png"
+			}
+		},
+		{
+			"name": "Echon Warcaster",
+			"rarity": "rare",
+			"mana_cost": "{2}{C/W}",
+			"type": "Creature — Angel Wizard Hero ",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/16_Echon Warcaster.png"
+			}
+		},
+		{
+			"name": "Echon Frostborn",
+			"rarity": "rare",
+			"mana_cost": "{2}{C/U}",
+			"type": "Creature — Human Warrior Hero ",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/40_Echon Frostborn.png"
+			}
+		},
+		{
+			"name": "Echon Draugr",
+			"rarity": "rare",
+			"mana_cost": "{2}{C/B}",
+			"type": "Creature — Zombie Warrior Hero ",
+			"collector_number": "85",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/85_Echon Draugr.png"
+			}
+		},
+		{
+			"name": "Echon Goblin",
+			"rarity": "rare",
+			"mana_cost": "{2}{C/R}",
+			"type": "Creature — Goblin Scout Hero ",
+			"collector_number": "117",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/117_Echon Goblin.png"
+			}
+		},
+		{
+			"name": "Echon Lancer",
+			"rarity": "rare",
+			"mana_cost": "{2}{C/G}",
+			"type": "Creature — Elf Warrior Hero ",
+			"collector_number": "157",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/157_Echon Lancer.png"
+			}
+		},
+		{
+			"name": "Return of the Ranks",
+			"rarity": "rare",
+			"mana_cost": "{3}{C/W}{C/W}",
+			"type": "Instant",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/29_Return of the Ranks.png"
+			}
+		},
+		{
+			"name": "Ice Lock",
+			"rarity": "rare",
+			"mana_cost": "{1{C}/U}{C/U}",
+			"type": "Instant",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/54_Ice Lock.png"
+			}
+		},
+		{
+			"name": "Assassin's Slash",
+			"rarity": "rare",
+			"mana_cost": "{1{C}/B}{B}",
+			"type": "Instant",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/73_Assassin's Slash.png"
+			}
+		},
+		{
+			"name": "Burn in Hellfire",
+			"rarity": "rare",
+			"mana_cost": "{1{C}/R}{C/R}",
+			"type": "Instant",
+			"collector_number": "110",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/110_Burn in Hellfire.png"
+			}
+		},
+		{
+			"name": "Awaken the Earth",
+			"rarity": "rare",
+			"mana_cost": "{X}{C/G}{G}",
+			"type": "Instant",
+			"collector_number": "146",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/146_Awaken the Earth.png"
+			}
+		},
+		{
+			"name": "Dráp, God-Slayer",
+			"rarity": "mythic",
+			"mana_cost": "{6}{C}{C}",
+			"type": "Legendary Creature — God Wolf ",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/1_Dráp, God-Slayer.png"
+			}
+		},
+		{
+			"name": "Dráp's Chosen",
+			"rarity": "mythic",
+			"mana_cost": "{3}{C}{C}",
+			"type": "Legendary Creature — Hero ",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/2_Dráp's Chosen.png"
+			}
+		},
+		{
+			"name": "The Foretold One",
+			"rarity": "mythic",
+			"mana_cost": "{4}",
+			"type": "Legendary Creature — God Hero ",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/3_The Foretold One.png"
+			}
+		},
+		{
+			"name": "Ragnarok",
+			"rarity": "mythic",
+			"mana_cost": "{C/W}{C/U}{C/B}{C/R}{C/G}",
+			"type": "Legendary Creature — God Serpent ",
+			"collector_number": "191",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/191_Ragnarok.png"
+			}
+		},
+		{
+			"name": "Heart of the Immersturm",
+			"rarity": "mythic",
+			"mana_cost": "",
+			"type": "Legendary Land",
+			"collector_number": "213",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/213_Heart of the Immersturm.png"
+			}
+		},
+		{
+			"name": "Stridha, God of War",
+			"rarity": "mythic",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Legendary Creature — God Warrior ",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/32_Stridha, God of War.png"
+			}
+		},
+		{
+			"name": "Jokull, God of Frost",
+			"rarity": "mythic",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Legendary Creature — God Giant ",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/59_Jokull, God of Frost.png"
+			}
+		},
+		{
+			"name": "Taela, God of Trickery",
+			"rarity": "mythic",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Legendary Creature — God Rogue ",
+			"collector_number": "105",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/105_Taela, God of Trickery.png"
+			}
+		},
+		{
+			"name": "Dynja, God of Thunder",
+			"rarity": "mythic",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Legendary Creature — God Warrior ",
+			"collector_number": "116",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/116_Dynja, God of Thunder.png"
+			}
+		},
+		{
+			"name": "Voxtr, God of Growth",
+			"rarity": "mythic",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Legendary Creature — God Druid ",
+			"collector_number": "171",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/171_Voxtr, God of Growth.png"
+			}
+		},
+		{
+			"name": "Fadir, All-Father",
+			"rarity": "mythic",
+			"mana_cost": "{W}{U}{B}{R}{G}",
+			"type": "Legendary Creature — Elder God ",
+			"collector_number": "180",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/180_Fadir, All-Father.png"
+			}
+		},
+		{
+			"name": "Vaporizing Light",
+			"rarity": "mythic",
+			"mana_cost": "{X}{W}{W}{W}",
+			"type": "Instant",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/37_Vaporizing Light.png"
+			}
+		},
+		{
+			"name": "Phantasmaclasm",
+			"rarity": "mythic",
+			"mana_cost": "{X}{U}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/62_Phantasmaclasm.png"
+			}
+		},
+		{
+			"name": "Hateful Trick",
+			"rarity": "mythic",
+			"mana_cost": "{X}{B}{B}{B}",
+			"type": "Instant",
+			"collector_number": "92",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/92_Hateful Trick.png"
+			}
+		},
+		{
+			"name": "Divine Thunder",
+			"rarity": "mythic",
+			"mana_cost": "{X}{R}{R}{R}",
+			"type": "Instant",
+			"collector_number": "114",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/114_Divine Thunder.png"
+			}
+		},
+		{
+			"name": "Extreme Growth",
+			"rarity": "mythic",
+			"mana_cost": "{X}{G}{G}{G}",
+			"type": "Instant",
+			"collector_number": "159",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/159_Extreme Growth.png"
+			}
+		},
+		{
+			"name": "Askr, the First",
+			"rarity": "mythic",
+			"mana_cost": "{3}{C/G}{C/G}",
+			"type": "Legendary Creature — Treefolk ",
+			"collector_number": "143",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/143_Askr, the First.png"
+			}
+		},
+		{
+			"name": "Hildr, Leader of the Valkyries",
+			"rarity": "mythic",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Legendary Creature — Angel Warrior ",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/23_Hildr, Leader of the Valkyries.png"
+			}
+		},
+		{
+			"name": "Liliana, Death's Unraveler",
+			"rarity": "mythic",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Legendary Planeswalker — Liliana ",
+			"collector_number": "97",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/97_Liliana, Death's Unraveler.png"
+			}
+		},
+		{
+			"name": "Jace, the Mind Mage",
+			"rarity": "mythic",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Legendary Planeswalker — Jace ",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/58_Jace, the Mind Mage.png"
+			}
+		},
+		{
+			"name": "Domri, Caller of the Herd",
+			"rarity": "mythic",
+			"mana_cost": "{2}{R}{G}",
+			"type": "Legendary Planeswalker — Domri ",
+			"collector_number": "177",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/177_Domri, Caller of the Herd.png"
+			}
+		},
+		{
+			"name": "Razeck, Great General",
+			"rarity": "mythic",
+			"mana_cost": "{2}{G}{W}",
+			"type": "Legendary Planeswalker — Razeck ",
+			"collector_number": "192",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/192_Razeck, Great General.png"
+			}
+		},
+		{
+			"name": "Chandra, Burning Spirit",
+			"rarity": "mythic",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Legendary Planeswalker — Chandra ",
+			"collector_number": "112",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/112_Chandra, Burning Spirit.png"
+			}
+		},
+		{
+			"name": "Vera, Frost Mage",
+			"rarity": "mythic",
+			"mana_cost": "{2}{W}{U}",
+			"type": "Legendary Planeswalker — Vera ",
+			"collector_number": "197",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/197_Vera, Frost Mage.png"
+			}
+		},
+		{
+			"name": "Wastes",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land",
+			"collector_number": "223",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/223_Wastes.png"
+			}
+		},
+		{
+			"name": "Soldier",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Soldier ",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/3_Soldier.png"
+			}
+		},
+		{
+			"name": "Illusion",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Illusion ",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/5_Illusion.png"
+			}
+		},
+		{
+			"name": "Spirit",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Spirit ",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/4_Spirit.png"
+			}
+		},
+		{
+			"name": "Zombie",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Zombie ",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/6_Zombie.png"
+			}
+		},
+		{
+			"name": "Treasure",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Treasure ",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/12_Treasure.png"
+			}
+		},
+		{
+			"name": "Goblin",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Goblin ",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/7_Goblin.png"
+			}
+		},
+		{
+			"name": "Treefolk",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Treefolk ",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/9_Treefolk.png"
+			}
+		},
+		{
+			"name": "Wolf",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Wolf ",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/10_Wolf.png"
+			}
+		},
+		{
+			"name": "Elf Druid",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Elf Druid ",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/8_Elf Druid.png"
+			}
+		},
+		{
+			"name": "Valla Remastered Archetypes",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Reminder",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/1_Valla Remastered Archetypes.png"
+			}
+		},
+		{
+			"name": "Pyre",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Pyre ",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/11_Pyre.png"
+			}
+		},
+		{
+			"name": "Angel",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Angel ",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https:///sets/VRM-files/img/2_Angel.png"
+			}
+		}
+	]
+[RareSlot(1)]
+2 Life-Drainer Valkyrie
+2 Aspect of Nobility
+2 Bind Evil
+2 Aldrich, Monster Hunter
+2 Vallan Valkyrie
+2 Dramatic Victory
+2 Thunderclap Valkyrie
+2 Ancient Valkyrie
+2 Form Shifter
+2 Frozen Leviathan
+2 Sudden Frost
+2 Frozen Dragon
+2 Aspect of Knowledge
+2 Spectral Commander
+2 Reality Rift
+2 Gareth, Master of Illusions
+2 Draugr Dragon
+2 Drain Vitality
+2 Fallen Valkyrie
+2 Ballador, Lord of the Draugr
+2 Headhunter Goblin
+2 Draugr Explorer
+2 Distorted Encounter
+2 Aspect of Nightmare
+2 Dwarven Devastor
+2 Mad Bomber
+2 Warstorm Surge
+2 Ancient Hound
+2 Aspect of Fire
+2 Immersturm Archfiend
+2 Summit the Fortress
+2 Rhilik, King of the Goblins
+2 Forest Flourishing
+2 Weeping Willow-Ent
+2 Come Alive
+2 Striding Illusionist
+2 Gaenir, Leader of the Alfa
+2 Warborn Beast Rider
+2 Dragonroot Snare
+2 Aspect of War
+2 Spiked Golem
+2 Golden Serpent
+2 Thrumming Stone
+2 Sword and Spear
+2 Lotus Altar
+2 Svanr, Lord of Blizzards
+2 Murtr, Lord of Seas
+2 Dreyri, Lord of Blood
+2 Vidr, Lord of Land
+2 Heill, Lord of Nature
+2 Hefnd, Lord of Vengeance
+2 Eyrir, Lord of Winds
+2 Líflát, Lord of Death
+2 Formadr, Lord of Combat
+2 Hregg, Lord of Storms
+2 Stridha's Mead Hall
+2 Jokull's Mead Hall
+2 Taela's Mead Hall
+2 Dynja's Mead Hall
+2 Vöxtr's Mead Hall
+2 Echon Warcaster
+2 Echon Frostborn
+2 Echon Draugr
+2 Echon Goblin
+2 Echon Lancer
+2 Return of the Ranks
+2 Ice Lock
+2 Assassin's Slash
+2 Burn in Hellfire
+2 Awaken the Earth
+1 Dráp, God-Slayer
+1 Dráp's Chosen
+1 The Foretold One
+1 Ragnarok
+1 Heart of the Immersturm
+1 Stridha, God of War
+1 Jokull, God of Frost
+1 Taela, God of Trickery
+1 Dynja, God of Thunder
+1 Voxtr, God of Growth
+1 Fadir, All-Father
+1 Vaporizing Light
+1 Phantasmaclasm
+1 Hateful Trick
+1 Divine Thunder
+1 Extreme Growth
+1 Askr, the First
+1 Hildr, Leader of the Valkyries
+1 Liliana, Death's Unraveler
+1 Jace, the Mind Mage
+1 Domri, Caller of the Herd
+1 Razeck, Great General
+1 Chandra, Burning Spirit
+1 Vera, Frost Mage
+[UncommonSlot(3)]
+9 Echon Assembly
+9 Bury Alive
+9 Healing Feast
+9 Razeck's Cleric
+9 Echon Vigilant
+9 Striking Valkyrie
+9 Frost Cleric
+9 Light Pierce
+9 Frostwing Cardinal
+9 Frostwing Aven
+9 Illusionary Decoys
+9 Illusionist Mage
+9 Storm Giant
+9 Living Lab
+9 Echon Mist Weaver
+9 Frost Spark Sentinel
+9 Berserk Axeman
+9 Menacing Draugr
+9 Power of the Night
+9 Silent Thief
+9 Draugr Commander
+9 Fanatic Cultists
+9 Killing Blow
+9 Shadow Necroid
+9 Orcish Horde
+9 Vallan Raiding Party
+9 Baby Dragon
+9 Screaming Lightning
+9 Goblin Riot Piker
+9 Goblin Warlord
+9 Burn the Dead
+9 Unbridled Fury
+9 Assault Bear
+9 Echon Druid
+9 Corrupted Alfa
+9 Bridge the Multiverse
+9 Emerge from the Fog
+9 Old Growth Ent
+9 Awakened Druid
+9 Forest Tender
+9 Rustfire Golem
+9 Frost Chaser
+9 Lunging Assassin
+9 Chain Striker
+9 Ursine Warrior
+9 Great Hunter
+9 Savage Raiders
+9 Crazed Shaman
+9 Bloodletter Shaman
+9 Seasoned Veteran
+9 Frost-Wind Scout
+[CommonSlot(10)]
+30 Inspired Warrior
+30 Frost-Shield Crasher
+30 Star Thrower
+30 Goliath War Medic
+30 Fadir's Hawk
+30 Razeck's Lieutenant
+30 Vallan Smasher
+30 Dream-Light Valkyrie
+30 Crashing War Party
+30 Soothe the Unruly
+30 Annihilating Light
+30 Call the Valiant
+30 Frost Shot
+30 Frostland Scout
+30 Illusionary Drake
+30 Rasvalar City Guard
+30 Frost Troll
+30 Thunderclaw Raven
+30 Shallow-Water Kraken
+30 Frost Hag
+30 Moon-Light Dreaming
+30 Frost Fists
+30 Remove Soul
+30 Strike Through Space
+30 Discover Untold Knowledge
+30 Heavy Seas
+30 Bloodsucker Bat
+30 Giant Draugr
+30 Draugr Knight
+30 Resvalaran Warrior
+30 Hungry Draugr
+30 Striking Raven
+30 Blitzing Berserker
+30 Echon Knight
+30 Dwarven War Party
+30 Enfeeble
+30 Severing Blow
+30 Execute the Trespasser
+30 Lich's Revival
+30 Spire Climber
+30 Goblin Boar Rider
+30 Hopping Goblin
+30 Blood Drenched Berserker
+30 Sparking Raider
+30 Twin-Axe Berserker
+30 Fear Caster
+30 Molten Gauntlet
+30 Chandra's Fury
+30 Goblin Brigade
+30 Twin Blade Strike
+30 Ignite Flesh
+30 Sucker Punch
+30 Runed Elk
+30 Alfa Beastmaster
+30 Alfa Piker
+30 Hungry Baloth
+30 Shatter-Stump Ent
+30 Awakened Alfa
+30 Alfa Archer
+30 Druid of Last Rites
+30 Feverbloom Goliath
+30 Dreamlike Expedition
+30 Hunter and Hunted
+30 Domri's Charge
+30 Flower Path
+30 Swords of the Legion
+30 Edge of the World
