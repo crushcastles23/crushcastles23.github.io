@@ -1,0 +1,3100 @@
+﻿[CustomCards]
+	[
+		{
+			"name": "Bardic Bird",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Bird Bard ",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/8_Bardic Bird.png"
+			}
+		},
+		{
+			"name": "Gustblown Archer",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Bird Archer ",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/20_Gustblown Archer.png"
+			}
+		},
+		{
+			"name": "Sky Ranger",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Bird Archer ",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/32_Sky Ranger.png"
+			}
+		},
+		{
+			"name": "Meadows Guide",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Bird Scout ",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/25_Meadows Guide.png"
+			}
+		},
+		{
+			"name": "Deathrattle Wizard",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Bird Wizard ",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/13_Deathrattle Wizard.png"
+			}
+		},
+		{
+			"name": "Zwazo Sharpshooter",
+			"rarity": "common",
+			"mana_cost": "{4}{2/W}",
+			"type": "Creature — Bird Archer ",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/48_Zwazo Sharpshooter.png"
+			}
+		},
+		{
+			"name": "Aven Legionary",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Bird Knight ",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/7_Aven Legionary.png"
+			}
+		},
+		{
+			"name": "Ferocious Fencer",
+			"rarity": "common",
+			"mana_cost": "{2}{2/W}",
+			"type": "Creature — Bird Soldier ",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/17_Ferocious Fencer.png"
+			}
+		},
+		{
+			"name": "Zwazo Infiltrator",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Bird Rogue ",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/47_Zwazo Infiltrator.png"
+			}
+		},
+		{
+			"name": "Zwazo Brawler",
+			"rarity": "common",
+			"mana_cost": "{3}{2/W}{2/W}",
+			"type": "Creature — Bird Soldier ",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/46_Zwazo Brawler.png"
+			}
+		},
+		{
+			"name": "Gift of Feathers",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/19_Gift of Feathers.png"
+			}
+		},
+		{
+			"name": "Spark of Inspiration",
+			"rarity": "common",
+			"mana_cost": "{12/W}",
+			"type": "Instant",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/33_Spark of Inspiration.png"
+			}
+		},
+		{
+			"name": "Zwazo Blade",
+			"rarity": "common",
+			"mana_cost": "{12/W}{2/W}",
+			"type": "Creature — Bird Soldier ",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/45_Zwazo Blade.png"
+			}
+		},
+		{
+			"name": "Magi-Blade Wizard",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Bird Wizard ",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/24_Magi-Blade Wizard.png"
+			}
+		},
+		{
+			"name": "Inspiring Aven",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Bird Bard ",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/22_Inspiring Aven.png"
+			}
+		},
+		{
+			"name": "Moon-Feather Fowl",
+			"rarity": "common",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Creature — Bird Wizard ",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/27_Moon-Feather Fowl.png"
+			}
+		},
+		{
+			"name": "Striking Spear",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/36_Striking Spear.png"
+			}
+		},
+		{
+			"name": "Winds of Change",
+			"rarity": "common",
+			"mana_cost": "{3}{2/W}{2/W}",
+			"type": "Sorcery",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/44_Winds of Change.png"
+			}
+		},
+		{
+			"name": "Fight-Feather Aven",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Bird Warrior ",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/18_Fight-Feather Aven.png"
+			}
+		},
+		{
+			"name": "Experienced Rig-Runner",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Pirate ",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/65_Experienced Rig-Runner.png"
+			}
+		},
+		{
+			"name": "Sky Sail Vanguard",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Human Pirate ",
+			"collector_number": "82",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/82_Sky Sail Vanguard.png"
+			}
+		},
+		{
+			"name": "Kitesail Corsair",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Pirate ",
+			"collector_number": "70",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/70_Kitesail Corsair.png"
+			}
+		},
+		{
+			"name": "Cruising Skyfish",
+			"rarity": "common",
+			"mana_cost": "{2}{2/U}{2/U}",
+			"type": "Creature — Fish ",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/60_Cruising Skyfish.png"
+			}
+		},
+		{
+			"name": "Savvy Shipwright",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Dwarf Pirate Artificer ",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/79_Savvy Shipwright.png"
+			}
+		},
+		{
+			"name": "Cascada Tamer",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Human Pirate Wizard ",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/58_Cascada Tamer.png"
+			}
+		},
+		{
+			"name": "Expert Navigator",
+			"rarity": "common",
+			"mana_cost": "{2/U}{2/U}",
+			"type": "Creature — Dwarf Pirate Scout ",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/66_Expert Navigator.png"
+			}
+		},
+		{
+			"name": "Pathcutter Pirate",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Pirate Scout ",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/74_Pathcutter Pirate.png"
+			}
+		},
+		{
+			"name": "Sky-Sail Skiff",
+			"rarity": "common",
+			"mana_cost": "{12/U}",
+			"type": "Artifact — Vehicle ",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/83_Sky-Sail Skiff.png"
+			}
+		},
+		{
+			"name": "Spell Slash",
+			"rarity": "common",
+			"mana_cost": "{2}{2/U}{U}",
+			"type": "Instant",
+			"collector_number": "85",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/85_Spell Slash.png"
+			}
+		},
+		{
+			"name": "Skyship Harpoonist",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Pirate ",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/84_Skyship Harpoonist.png"
+			}
+		},
+		{
+			"name": "Buckshot Buccaneer",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Pirate ",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/54_Buckshot Buccaneer.png"
+			}
+		},
+		{
+			"name": "Net Snare",
+			"rarity": "common",
+			"mana_cost": "{2/U}{U}",
+			"type": "Sorcery",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/73_Net Snare.png"
+			}
+		},
+		{
+			"name": "Pirate's Plunder",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Sorcery",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/75_Pirate's Plunder.png"
+			}
+		},
+		{
+			"name": "Daring Dive",
+			"rarity": "common",
+			"mana_cost": "{2/U}",
+			"type": "Sorcery",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/61_Daring Dive.png"
+			}
+		},
+		{
+			"name": "Narrow Escape",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/72_Narrow Escape.png"
+			}
+		},
+		{
+			"name": "Stay Sharp",
+			"rarity": "common",
+			"mana_cost": "{12/U}",
+			"type": "Sorcery",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/87_Stay Sharp.png"
+			}
+		},
+		{
+			"name": "Wispwater Blade",
+			"rarity": "common",
+			"mana_cost": "{12/U}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "95",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/95_Wispwater Blade.png"
+			}
+		},
+		{
+			"name": "Dashing Deckhand",
+			"rarity": "common",
+			"mana_cost": "{12/U}{U}",
+			"type": "Creature — Human Pirate ",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/62_Dashing Deckhand.png"
+			}
+		},
+		{
+			"name": "Bloodsoaked Deathwing",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Vampire Mutant ",
+			"collector_number": "112",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/112_Bloodsoaked Deathwing.png"
+			}
+		},
+		{
+			"name": "Bloodmad Hunter",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Vampire Berserker ",
+			"collector_number": "110",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/110_Bloodmad Hunter.png"
+			}
+		},
+		{
+			"name": "Bloodseeker",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Vampire Cleric ",
+			"collector_number": "111",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/111_Bloodseeker.png"
+			}
+		},
+		{
+			"name": "Smoke Form Slasher",
+			"rarity": "common",
+			"mana_cost": "{2}{2/B}",
+			"type": "Creature — Vampire Rogue ",
+			"collector_number": "138",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/138_Smoke Form Slasher.png"
+			}
+		},
+		{
+			"name": "Blood Swarm",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Vampire Warrior ",
+			"collector_number": "107",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/107_Blood Swarm.png"
+			}
+		},
+		{
+			"name": "Dark Bloodlord",
+			"rarity": "common",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Vampire Noble ",
+			"collector_number": "117",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/117_Dark Bloodlord.png"
+			}
+		},
+		{
+			"name": "Bloodhunter Vampire",
+			"rarity": "common",
+			"mana_cost": "{2/B}{2/B}",
+			"type": "Creature — Vampire Warrior ",
+			"collector_number": "108",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/108_Bloodhunter Vampire.png"
+			}
+		},
+		{
+			"name": "Dusk Reaper",
+			"rarity": "common",
+			"mana_cost": "{12/B}",
+			"type": "Creature — Vampire Horror ",
+			"collector_number": "125",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/125_Dusk Reaper.png"
+			}
+		},
+		{
+			"name": "Vampiric Armor",
+			"rarity": "common",
+			"mana_cost": "{2}{2/B}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "140",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/140_Vampiric Armor.png"
+			}
+		},
+		{
+			"name": "Death-Chain Vampire",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Vampire Wizard ",
+			"collector_number": "122",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/122_Death-Chain Vampire.png"
+			}
+		},
+		{
+			"name": "Vampiric Brute",
+			"rarity": "common",
+			"mana_cost": "{3}{2/B}{2/B}",
+			"type": "Creature — Vampire Berserker ",
+			"collector_number": "141",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/141_Vampiric Brute.png"
+			}
+		},
+		{
+			"name": "Sign in Blood",
+			"rarity": "common",
+			"mana_cost": "{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "136",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/136_Sign in Blood.png"
+			}
+		},
+		{
+			"name": "Of Blood and Mind",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "131",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/131_Of Blood and Mind.png"
+			}
+		},
+		{
+			"name": "Blood Ritual",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "105",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/105_Blood Ritual.png"
+			}
+		},
+		{
+			"name": "Bloodsoaked Reinvigoration",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "114",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/114_Bloodsoaked Reinvigoration.png"
+			}
+		},
+		{
+			"name": "Dark Sky Diviner",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Vampire Cleric ",
+			"collector_number": "120",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/120_Dark Sky Diviner.png"
+			}
+		},
+		{
+			"name": "Batty Broodmother",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Vampire ",
+			"collector_number": "98",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/98_Batty Broodmother.png"
+			}
+		},
+		{
+			"name": "Vampiric Shade",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Vampire Shade ",
+			"collector_number": "142",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/142_Vampiric Shade.png"
+			}
+		},
+		{
+			"name": "Feral Blood Knight",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Vampire Knight ",
+			"collector_number": "126",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/126_Feral Blood Knight.png"
+			}
+		},
+		{
+			"name": "Samanas Slasher",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Shaman ",
+			"collector_number": "174",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/174_Samanas Slasher.png"
+			}
+		},
+		{
+			"name": "Canopy Runner Shaman",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Human Shaman ",
+			"collector_number": "151",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/151_Canopy Runner Shaman.png"
+			}
+		},
+		{
+			"name": "Calling Shaman",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Dwarf Shaman ",
+			"collector_number": "150",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/150_Calling Shaman.png"
+			}
+		},
+		{
+			"name": "Silver-Wing Dragon",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Dragon ",
+			"collector_number": "177",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/177_Silver-Wing Dragon.png"
+			}
+		},
+		{
+			"name": "Ruin Rune Dragon",
+			"rarity": "common",
+			"mana_cost": "{5}{R}",
+			"type": "Creature — Dragon ",
+			"collector_number": "173",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/173_Ruin Rune Dragon.png"
+			}
+		},
+		{
+			"name": "Orcish Stormcaller",
+			"rarity": "common",
+			"mana_cost": "{4}{2/R}",
+			"type": "Creature — Orc Shaman ",
+			"collector_number": "169",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/169_Orcish Stormcaller.png"
+			}
+		},
+		{
+			"name": "Boneskull Shaman",
+			"rarity": "common",
+			"mana_cost": "{2}{2/R}",
+			"type": "Creature — Orc Shaman ",
+			"collector_number": "148",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/148_Boneskull Shaman.png"
+			}
+		},
+		{
+			"name": "Dusk Flame Shaman",
+			"rarity": "common",
+			"mana_cost": "{12/R}",
+			"type": "Creature — Human Shaman ",
+			"collector_number": "158",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/158_Dusk Flame Shaman.png"
+			}
+		},
+		{
+			"name": "Staff of the Shaman",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "182",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/182_Staff of the Shaman.png"
+			}
+		},
+		{
+			"name": "Vaporization",
+			"rarity": "common",
+			"mana_cost": "{3}{2/R}{2/R}",
+			"type": "Instant",
+			"collector_number": "189",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/189_Vaporization.png"
+			}
+		},
+		{
+			"name": "Bleeding Edge Shaman",
+			"rarity": "common",
+			"mana_cost": "{2}{2/R}",
+			"type": "Creature — Human Shaman ",
+			"collector_number": "146",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/146_Bleeding Edge Shaman.png"
+			}
+		},
+		{
+			"name": "Shaman's Skull-Axe",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "176",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/176_Shaman's Skull-Axe.png"
+			}
+		},
+		{
+			"name": "Dragonflame Warshaman",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Shaman Warrior ",
+			"collector_number": "155",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/155_Dragonflame Warshaman.png"
+			}
+		},
+		{
+			"name": "Samanas Smasher",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Barbarian Shaman ",
+			"collector_number": "175",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/175_Samanas Smasher.png"
+			}
+		},
+		{
+			"name": "Inferno Shaman",
+			"rarity": "common",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Creature — Human Shaman ",
+			"collector_number": "166",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/166_Inferno Shaman.png"
+			}
+		},
+		{
+			"name": "Emergent Power",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Instant",
+			"collector_number": "160",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/160_Emergent Power.png"
+			}
+		},
+		{
+			"name": "Read the Stones",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "170",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/170_Read the Stones.png"
+			}
+		},
+		{
+			"name": "Muscular Growth",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "168",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/168_Muscular Growth.png"
+			}
+		},
+		{
+			"name": "Superhuman Speed",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "185",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/185_Superhuman Speed.png"
+			}
+		},
+		{
+			"name": "Wandering Myconid",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Fungus Scout ",
+			"collector_number": "234",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/234_Wandering Myconid.png"
+			}
+		},
+		{
+			"name": "Canopy Thallid",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Fungus Warrior ",
+			"collector_number": "195",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/195_Canopy Thallid.png"
+			}
+		},
+		{
+			"name": "Gustblown Fungus",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Fungus ",
+			"collector_number": "208",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/208_Gustblown Fungus.png"
+			}
+		},
+		{
+			"name": "Raccopossum Matriarch",
+			"rarity": "common",
+			"mana_cost": "{12/G}",
+			"type": "Creature — Raccoon Beast ",
+			"collector_number": "220",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/220_Raccopossum Matriarch.png"
+			}
+		},
+		{
+			"name": "Fungal Shield Slammer",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Fungus Warrior ",
+			"collector_number": "204",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/204_Fungal Shield Slammer.png"
+			}
+		},
+		{
+			"name": "Thallid Knight",
+			"rarity": "common",
+			"mana_cost": "{12/G}{2/G}",
+			"type": "Creature — Fungus Knight ",
+			"collector_number": "230",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/230_Thallid Knight.png"
+			}
+		},
+		{
+			"name": "Toxic Archer",
+			"rarity": "common",
+			"mana_cost": "{12/G}",
+			"type": "Creature — Fungus Archer ",
+			"collector_number": "233",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/233_Toxic Archer.png"
+			}
+		},
+		{
+			"name": "Stoneblade Thallid",
+			"rarity": "common",
+			"mana_cost": "{2}{2/G}{2/G}",
+			"type": "Creature — Fungus Warrior ",
+			"collector_number": "228",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/228_Stoneblade Thallid.png"
+			}
+		},
+		{
+			"name": "Overgrown Thallid",
+			"rarity": "common",
+			"mana_cost": "{4}{2/G}{2/G}",
+			"type": "Creature — Fungus ",
+			"collector_number": "218",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/218_Overgrown Thallid.png"
+			}
+		},
+		{
+			"name": "Raging Thallid",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Fungus Berserker ",
+			"collector_number": "221",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/221_Raging Thallid.png"
+			}
+		},
+		{
+			"name": "Oakshield Thallid",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Fungus Warrior ",
+			"collector_number": "217",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/217_Oakshield Thallid.png"
+			}
+		},
+		{
+			"name": "Skyshot Sporeling",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Fungus ",
+			"collector_number": "224",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/224_Skyshot Sporeling.png"
+			}
+		},
+		{
+			"name": "Fungal Sprouting",
+			"rarity": "common",
+			"mana_cost": "{12/G}",
+			"type": "Sorcery",
+			"collector_number": "205",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/205_Fungal Sprouting.png"
+			}
+		},
+		{
+			"name": "Inversion of Reality",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "215",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/215_Inversion of Reality.png"
+			}
+		},
+		{
+			"name": "Adventurous Thallid",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Fungus Warrior ",
+			"collector_number": "192",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/192_Adventurous Thallid.png"
+			}
+		},
+		{
+			"name": "Thallicorn",
+			"rarity": "common",
+			"mana_cost": "{12/G}{2/G}",
+			"type": "Creature — Unicorn Fungus ",
+			"collector_number": "229",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/229_Thallicorn.png"
+			}
+		},
+		{
+			"name": "Screamshroom",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Fungus ",
+			"collector_number": "223",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/223_Screamshroom.png"
+			}
+		},
+		{
+			"name": "Explosive Outbreak",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Sorcery",
+			"collector_number": "201",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/201_Explosive Outbreak.png"
+			}
+		},
+		{
+			"name": "Explosive Blooming",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "200",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/200_Explosive Blooming.png"
+			}
+		},
+		{
+			"name": "Cantrip",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Sorcery",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/2_Cantrip.png"
+			}
+		},
+		{
+			"name": "Ethereal Compass",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact",
+			"collector_number": "240",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/240_Ethereal Compass.png"
+			}
+		},
+		{
+			"name": "Forgeborn Sentinel",
+			"rarity": "common",
+			"mana_cost": "{5}",
+			"type": "Artifact Creature — Golem Soldier ",
+			"collector_number": "241",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/241_Forgeborn Sentinel.png"
+			}
+		},
+		{
+			"name": "Windswept Airship",
+			"rarity": "common",
+			"mana_cost": "{5}",
+			"type": "Artifact — Vehicle ",
+			"collector_number": "246",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/246_Windswept Airship.png"
+			}
+		},
+		{
+			"name": "Riftstone Spear",
+			"rarity": "common",
+			"mana_cost": "{4}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "245",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/245_Riftstone Spear.png"
+			}
+		},
+		{
+			"name": "Riftstone Tear",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "260",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/260_Riftstone Tear.png"
+			}
+		},
+		{
+			"name": "Airon, the Guardian",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Legendary Creature — Bird Warrior ",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/3_Airon, the Guardian.png"
+			}
+		},
+		{
+			"name": "Moon-Feather Druid",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{W}{W}",
+			"type": "Creature — Bird Druid ",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/26_Moon-Feather Druid.png"
+			}
+		},
+		{
+			"name": "Sparkcaster Aven",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Bird Wizard ",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/34_Sparkcaster Aven.png"
+			}
+		},
+		{
+			"name": "Sure-Shot Sargeant",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Bird Soldier ",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/38_Sure-Shot Sargeant.png"
+			}
+		},
+		{
+			"name": "Storm Cloud Rapier",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/35_Storm Cloud Rapier.png"
+			}
+		},
+		{
+			"name": "Sunrise Sentinel",
+			"rarity": "uncommon",
+			"mana_cost": "{12/W}{2/W}",
+			"type": "Creature — Bird Scout ",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/37_Sunrise Sentinel.png"
+			}
+		},
+		{
+			"name": "Aven Gadgeteer",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{2/W}",
+			"type": "Creature — Bird Artificer ",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/6_Aven Gadgeteer.png"
+			}
+		},
+		{
+			"name": "Reject",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{W}",
+			"type": "Instant",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/30_Reject.png"
+			}
+		},
+		{
+			"name": "Feather of the Forebearers",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{2/W}",
+			"type": "Artifact",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/16_Feather of the Forebearers.png"
+			}
+		},
+		{
+			"name": "Lavish Party-Thrower",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{2/W}{2/W}",
+			"type": "Creature — Bird Noble ",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/23_Lavish Party-Thrower.png"
+			}
+		},
+		{
+			"name": "Netted Cage",
+			"rarity": "uncommon",
+			"mana_cost": "{12/W}{2/W}",
+			"type": "Enchantment",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/28_Netted Cage.png"
+			}
+		},
+		{
+			"name": "Dawnbreak Cleric",
+			"rarity": "uncommon",
+			"mana_cost": "{2/W}{2/W}",
+			"type": "Creature — Bird Cleric ",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/12_Dawnbreak Cleric.png"
+			}
+		},
+		{
+			"name": "Zwazo Twinblade",
+			"rarity": "uncommon",
+			"mana_cost": "{2/W}{2/W}",
+			"type": "Creature — Bird Soldier ",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/49_Zwazo Twinblade.png"
+			}
+		},
+		{
+			"name": "Burning Daylight",
+			"rarity": "uncommon",
+			"mana_cost": "{12/W}{2/W}",
+			"type": "Sorcery",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/9_Burning Daylight.png"
+			}
+		},
+		{
+			"name": "Contact Contract",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Sorcery",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/11_Contact Contract.png"
+			}
+		},
+		{
+			"name": "Corsair's Cutter",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Artifact — Vehicle ",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/59_Corsair's Cutter.png"
+			}
+		},
+		{
+			"name": "Port Accountant",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Human Advisor ",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/76_Port Accountant.png"
+			}
+		},
+		{
+			"name": "Brilliant Buccaneer",
+			"rarity": "uncommon",
+			"mana_cost": "{2/U}{2/U}",
+			"type": "Creature — Human Pirate Wizard ",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/53_Brilliant Buccaneer.png"
+			}
+		},
+		{
+			"name": "Frost-Form Sharpshooter",
+			"rarity": "uncommon",
+			"mana_cost": "{2/U}{2/U}",
+			"type": "Creature — Dwarf Pirate Sniper ",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/68_Frost-Form Sharpshooter.png"
+			}
+		},
+		{
+			"name": "Bianca the Buccaneer",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Legendary Creature — Human Pirate ",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/51_Bianca the Buccaneer.png"
+			}
+		},
+		{
+			"name": "Wayward Treasure Hunter",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Pirate Scout ",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/93_Wayward Treasure Hunter.png"
+			}
+		},
+		{
+			"name": "Freebooting Buccaneer",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Pirate Rogue ",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/67_Freebooting Buccaneer.png"
+			}
+		},
+		{
+			"name": "Scout Scoundrel",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Pirate Scout ",
+			"collector_number": "80",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/80_Scout Scoundrel.png"
+			}
+		},
+		{
+			"name": "Sailtop Navigator",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Human Pirate Scout ",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/78_Sailtop Navigator.png"
+			}
+		},
+		{
+			"name": "Waterfall Orb",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{2/U}",
+			"type": "Artifact",
+			"collector_number": "92",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/92_Waterfall Orb.png"
+			}
+		},
+		{
+			"name": "Silver Sword Orc",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{U}",
+			"type": "Creature — Orc Pirate ",
+			"collector_number": "81",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/81_Silver Sword Orc.png"
+			}
+		},
+		{
+			"name": "Wrist Cannon",
+			"rarity": "uncommon",
+			"mana_cost": "{12/U}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "96",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/96_Wrist Cannon.png"
+			}
+		},
+		{
+			"name": "Steelclad Skyship",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{U}",
+			"type": "Artifact — Vehicle ",
+			"collector_number": "88",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/88_Steelclad Skyship.png"
+			}
+		},
+		{
+			"name": "Disdainful Stroke",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/63_Disdainful Stroke.png"
+			}
+		},
+		{
+			"name": "Captain's Watch",
+			"rarity": "uncommon",
+			"mana_cost": "{12/U}",
+			"type": "Sorcery",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/57_Captain's Watch.png"
+			}
+		},
+		{
+			"name": "Agent of the Night",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Vampire Rogue ",
+			"collector_number": "97",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/97_Agent of the Night.png"
+			}
+		},
+		{
+			"name": "Bloodmad Cleric",
+			"rarity": "uncommon",
+			"mana_cost": "{12/B}{2/B}",
+			"type": "Creature — Vampire Cleric ",
+			"collector_number": "109",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/109_Bloodmad Cleric.png"
+			}
+		},
+		{
+			"name": "Death Scythe Vampire",
+			"rarity": "uncommon",
+			"mana_cost": "{2/B}{2/B}",
+			"type": "Creature — Vampire ",
+			"collector_number": "121",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/121_Death Scythe Vampire.png"
+			}
+		},
+		{
+			"name": "Bloodsoaked Graverobbers",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Vampire Rogue ",
+			"collector_number": "113",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/113_Bloodsoaked Graverobbers.png"
+			}
+		},
+		{
+			"name": "Shattersky Vampire",
+			"rarity": "uncommon",
+			"mana_cost": "{12/B}{2/B}",
+			"type": "Creature — Vampire ",
+			"collector_number": "135",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/135_Shattersky Vampire.png"
+			}
+		},
+		{
+			"name": "Grotesque Bloodbender",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{2/B}",
+			"type": "Creature — Vampire Mutant Wizard ",
+			"collector_number": "129",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/129_Grotesque Bloodbender.png"
+			}
+		},
+		{
+			"name": "Crystal Gravestones",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{2/B}",
+			"type": "Artifact",
+			"collector_number": "116",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/116_Crystal Gravestones.png"
+			}
+		},
+		{
+			"name": "Grotesque Night Terror",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Vampire Horror ",
+			"collector_number": "130",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/130_Grotesque Night Terror.png"
+			}
+		},
+		{
+			"name": "Blood Offering",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "104",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/104_Blood Offering.png"
+			}
+		},
+		{
+			"name": "Smoke Form Reaper",
+			"rarity": "uncommon",
+			"mana_cost": "{12/B}",
+			"type": "Creature — Vampire Rogue ",
+			"collector_number": "137",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/137_Smoke Form Reaper.png"
+			}
+		},
+		{
+			"name": "Blood Artist",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Vampire ",
+			"collector_number": "99",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/99_Blood Artist.png"
+			}
+		},
+		{
+			"name": "Gnawing Heart Ritual",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{2/B}",
+			"type": "Sorcery",
+			"collector_number": "128",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/128_Gnawing Heart Ritual.png"
+			}
+		},
+		{
+			"name": "Blood Cult Ritualist",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Vampire Cleric ",
+			"collector_number": "100",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/100_Blood Cult Ritualist.png"
+			}
+		},
+		{
+			"name": "Dissolve into Shadow",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "124",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/124_Dissolve into Shadow.png"
+			}
+		},
+		{
+			"name": "Blood Strike",
+			"rarity": "uncommon",
+			"mana_cost": "{2/B}{2/B}",
+			"type": "Sorcery",
+			"collector_number": "106",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/106_Blood Strike.png"
+			}
+		},
+		{
+			"name": "Muscle-Bound Orc",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{2/R}{2/R}",
+			"type": "Creature — Orc Berserker ",
+			"collector_number": "167",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/167_Muscle-Bound Orc.png"
+			}
+		},
+		{
+			"name": "Sparking Shaman",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Shaman ",
+			"collector_number": "181",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/181_Sparking Shaman.png"
+			}
+		},
+		{
+			"name": "Swift-Step Shaman",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Shaman ",
+			"collector_number": "186",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/186_Swift-Step Shaman.png"
+			}
+		},
+		{
+			"name": "Blood Mountain Broodmates",
+			"rarity": "uncommon",
+			"mana_cost": "{6}{R}",
+			"type": "Creature — Dragon ",
+			"collector_number": "147",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/147_Blood Mountain Broodmates.png"
+			}
+		},
+		{
+			"name": "Glide Wing Dragon",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Dragon ",
+			"collector_number": "165",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/165_Glide Wing Dragon.png"
+			}
+		},
+		{
+			"name": "Warforged Shaman",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Creature — Human Shaman ",
+			"collector_number": "190",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/190_Warforged Shaman.png"
+			}
+		},
+		{
+			"name": "Stormcaller Shaman",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Shaman ",
+			"collector_number": "184",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/184_Stormcaller Shaman.png"
+			}
+		},
+		{
+			"name": "Call of the Storm Lords",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
+			"collector_number": "149",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/149_Call of the Storm Lords.png"
+			}
+		},
+		{
+			"name": "Rite of the Dragon Gate",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{R}",
+			"type": "Sorcery",
+			"collector_number": "172",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/172_Rite of the Dragon Gate.png"
+			}
+		},
+		{
+			"name": "Thunderclap Dragon",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Creature — Dragon ",
+			"collector_number": "187",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/187_Thunderclap Dragon.png"
+			}
+		},
+		{
+			"name": "Forge Flame",
+			"rarity": "uncommon",
+			"mana_cost": "{2/R}{2/R}{2/R}",
+			"type": "Sorcery",
+			"collector_number": "161",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/161_Forge Flame.png"
+			}
+		},
+		{
+			"name": "Axe of Dead-Feather",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{2/R}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "144",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/144_Axe of Dead-Feather.png"
+			}
+		},
+		{
+			"name": "Spark Gate",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{2/R}",
+			"type": "Artifact",
+			"collector_number": "180",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/180_Spark Gate.png"
+			}
+		},
+		{
+			"name": "Draconic Connection",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{2/R}{2/R}",
+			"type": "Sorcery",
+			"collector_number": "152",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/152_Draconic Connection.png"
+			}
+		},
+		{
+			"name": "Staff of the Silverwing",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "183",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/183_Staff of the Silverwing.png"
+			}
+		},
+		{
+			"name": "Thallid Scout",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Fungus Scout ",
+			"collector_number": "231",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/231_Thallid Scout.png"
+			}
+		},
+		{
+			"name": "Wildwood Trasher",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{2/G}{2/G}",
+			"type": "Creature — Fungus Warrior ",
+			"collector_number": "236",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/236_Wildwood Trasher.png"
+			}
+		},
+		{
+			"name": "Wildheart Thallid",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Fungus Warrior ",
+			"collector_number": "235",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/235_Wildheart Thallid.png"
+			}
+		},
+		{
+			"name": "Spore Spreader",
+			"rarity": "uncommon",
+			"mana_cost": "{G}{G}",
+			"type": "Creature — Fungus ",
+			"collector_number": "227",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/227_Spore Spreader.png"
+			}
+		},
+		{
+			"name": "Headchopper Thallid",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{2/G}{2/G}",
+			"type": "Creature — Fungus Warrior ",
+			"collector_number": "209",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/209_Headchopper Thallid.png"
+			}
+		},
+		{
+			"name": "Insurmountable Thallid",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{2/G}{2/G}",
+			"type": "Creature — Fungus ",
+			"collector_number": "214",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/214_Insurmountable Thallid.png"
+			}
+		},
+		{
+			"name": "Civil Wanderer",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Fungus Scout ",
+			"collector_number": "196",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/196_Civil Wanderer.png"
+			}
+		},
+		{
+			"name": "Accelerated Growth",
+			"rarity": "uncommon",
+			"mana_cost": "{2/G}{2/G}",
+			"type": "Sorcery",
+			"collector_number": "191",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/191_Accelerated Growth.png"
+			}
+		},
+		{
+			"name": "Sphere of Growth",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{2/G}",
+			"type": "Artifact",
+			"collector_number": "225",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/225_Sphere of Growth.png"
+			}
+		},
+		{
+			"name": "Megalithic Thallid",
+			"rarity": "uncommon",
+			"mana_cost": "{9}{G}",
+			"type": "Creature — Fungus Giant ",
+			"collector_number": "216",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/216_Megalithic Thallid.png"
+			}
+		},
+		{
+			"name": "Rotting Regrowth",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "222",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/222_Rotting Regrowth.png"
+			}
+		},
+		{
+			"name": "Budding Thallid",
+			"rarity": "uncommon",
+			"mana_cost": "{12/G}",
+			"type": "Creature — Fungus ",
+			"collector_number": "194",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/194_Budding Thallid.png"
+			}
+		},
+		{
+			"name": "Titanic Thallid",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Fungus Giant ",
+			"collector_number": "232",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/232_Titanic Thallid.png"
+			}
+		},
+		{
+			"name": "Fracture Cap Thallid",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Fungus ",
+			"collector_number": "202",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/202_Fracture Cap Thallid.png"
+			}
+		},
+		{
+			"name": "Basilisk Blade",
+			"rarity": "uncommon",
+			"mana_cost": "{12/G}",
+			"type": "Artifact",
+			"collector_number": "193",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/193_Basilisk Blade.png"
+			}
+		},
+		{
+			"name": "Ruined Temple",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Plains ",
+			"collector_number": "261",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/261_Ruined Temple.png"
+			}
+		},
+		{
+			"name": "Elevated Wreckage",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Island ",
+			"collector_number": "252",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/252_Elevated Wreckage.png"
+			}
+		},
+		{
+			"name": "Decrepit Castle",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Swamp ",
+			"collector_number": "250",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/250_Decrepit Castle.png"
+			}
+		},
+		{
+			"name": "Shattered Spires",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Mountain ",
+			"collector_number": "262",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/262_Shattered Spires.png"
+			}
+		},
+		{
+			"name": "Blooming Skyway",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Forest ",
+			"collector_number": "247",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/247_Blooming Skyway.png"
+			}
+		},
+		{
+			"name": "Hallowed Field",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "256",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/256_Hallowed Field.png"
+			}
+		},
+		{
+			"name": "Quiet Waterfall",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "257",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/257_Quiet Waterfall.png"
+			}
+		},
+		{
+			"name": "Gloomy Marsh",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "255",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/255_Gloomy Marsh.png"
+			}
+		},
+		{
+			"name": "Frozen Peaks",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "254",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/254_Frozen Peaks.png"
+			}
+		},
+		{
+			"name": "Verdant Savageland",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "264",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/264_Verdant Savageland.png"
+			}
+		},
+		{
+			"name": "Gustwing Aven",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Bird Soldier ",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/21_Gustwing Aven.png"
+			}
+		},
+		{
+			"name": "Vandè, Merchant King",
+			"rarity": "rare",
+			"mana_cost": "{2}{2/W}{2/W}",
+			"type": "Legendary Creature — Bird Noble ",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/41_Vandè, Merchant King.png"
+			}
+		},
+		{
+			"name": "Wandering Hermit",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Bird Wizard ",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/42_Wandering Hermit.png"
+			}
+		},
+		{
+			"name": "Night Wing Agent",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Bird Wizard Rogue ",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/29_Night Wing Agent.png"
+			}
+		},
+		{
+			"name": "Estrago, the Shattered Ruins",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Land — Plains ",
+			"collector_number": "253",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/253_Estrago, the Shattered Ruins.png"
+			}
+		},
+		{
+			"name": "Sky Dasher Aven",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Bird Warrior ",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/31_Sky Dasher Aven.png"
+			}
+		},
+		{
+			"name": "Warped Warlock",
+			"rarity": "rare",
+			"mana_cost": "{12/W}{2/W}",
+			"type": "Creature — Bird Warlock ",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/43_Warped Warlock.png"
+			}
+		},
+		{
+			"name": "Dissolve Reality",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/14_Dissolve Reality.png"
+			}
+		},
+		{
+			"name": "Elegant Artificer",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Bird Artificer Noble ",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/15_Elegant Artificer.png"
+			}
+		},
+		{
+			"name": "Alchemical Shift",
+			"rarity": "rare",
+			"mana_cost": "{W}",
+			"type": "Instant",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/4_Alchemical Shift.png"
+			}
+		},
+		{
+			"name": "Tugator, Shellback Captain",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}",
+			"type": "Legendary Creature — Turtle Pirate ",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/91_Tugator, Shellback Captain.png"
+			}
+		},
+		{
+			"name": "Wealthy Captain",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Pirate ",
+			"collector_number": "94",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/94_Wealthy Captain.png"
+			}
+		},
+		{
+			"name": "Exceptional Alchemist",
+			"rarity": "rare",
+			"mana_cost": "{12/U}{2/U}{2/U}",
+			"type": "Creature — Human Pirate Wizard ",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/64_Exceptional Alchemist.png"
+			}
+		},
+		{
+			"name": "Relic Thief",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Pirate Rogue ",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/77_Relic Thief.png"
+			}
+		},
+		{
+			"name": "Relèv, Pirates' Respite",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Land — Island ",
+			"collector_number": "258",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/258_Relèv, Pirates' Respite.png"
+			}
+		},
+		{
+			"name": "Massive Turtlebug",
+			"rarity": "rare",
+			"mana_cost": "{12/U}{2/U}{2/U}",
+			"type": "Creature — Insect Turtle ",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/71_Massive Turtlebug.png"
+			}
+		},
+		{
+			"name": "Squall-Surfer",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Artifact — Vehicle ",
+			"collector_number": "86",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/86_Squall-Surfer.png"
+			}
+		},
+		{
+			"name": "Grab the Treasure",
+			"rarity": "rare",
+			"mana_cost": "{2/U}{2/U}",
+			"type": "Sorcery",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/69_Grab the Treasure.png"
+			}
+		},
+		{
+			"name": "Back Blaster",
+			"rarity": "rare",
+			"mana_cost": "{2/U}{2/U}{2/U}",
+			"type": "Sorcery",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/50_Back Blaster.png"
+			}
+		},
+		{
+			"name": "The Greensail",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Legendary Artifact — Vehicle ",
+			"collector_number": "90",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/90_The Greensail.png"
+			}
+		},
+		{
+			"name": "Ucidere, Blood Lord",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Legendary Creature — Vampire ",
+			"collector_number": "139",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/139_Ucidere, Blood Lord.png"
+			}
+		},
+		{
+			"name": "Blood Elemental",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Elemental ",
+			"collector_number": "101",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/101_Blood Elemental.png"
+			}
+		},
+		{
+			"name": "Sânge's Invitation",
+			"rarity": "rare",
+			"mana_cost": "{2}{2/B}{2/B}",
+			"type": "Sorcery",
+			"collector_number": "134",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/134_Sânge's Invitation.png"
+			}
+		},
+		{
+			"name": "Dark Rites",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "119",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/119_Dark Rites.png"
+			}
+		},
+		{
+			"name": "Crescent Moon Ritual",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "115",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/115_Crescent Moon Ritual.png"
+			}
+		},
+		{
+			"name": "Will of the Blood Lord",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "143",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/143_Will of the Blood Lord.png"
+			}
+		},
+		{
+			"name": "Chato, Moonlit Fortress",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Land — Swamp ",
+			"collector_number": "248",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/248_Chato, Moonlit Fortress.png"
+			}
+		},
+		{
+			"name": "Dark Night Lurker",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Vampire Horror ",
+			"collector_number": "118",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/118_Dark Night Lurker.png"
+			}
+		},
+		{
+			"name": "Blood Fire Devil",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Demon Vampire Warrior ",
+			"collector_number": "102",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/102_Blood Fire Devil.png"
+			}
+		},
+		{
+			"name": "Deathknell Devastor",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Vampire Mutant ",
+			"collector_number": "123",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/123_Deathknell Devastor.png"
+			}
+		},
+		{
+			"name": "Dragon Swarm",
+			"rarity": "rare",
+			"mana_cost": "{6}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "154",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/154_Dragon Swarm.png"
+			}
+		},
+		{
+			"name": "Skyship Crasher",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Shaman Rogue ",
+			"collector_number": "178",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/178_Skyship Crasher.png"
+			}
+		},
+		{
+			"name": "Dragonform Shaman",
+			"rarity": "rare",
+			"mana_cost": "{R}",
+			"type": "Creature — Human Shaman ",
+			"collector_number": "156",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/156_Dragonform Shaman.png"
+			}
+		},
+		{
+			"name": "Form of the Storm Dragon",
+			"rarity": "rare",
+			"mana_cost": "{5}{R}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "162",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/162_Form of the Storm Dragon.png"
+			}
+		},
+		{
+			"name": "Frost-Peak Blood Wing",
+			"rarity": "rare",
+			"mana_cost": "{6}{R}",
+			"type": "Creature — Dragon ",
+			"collector_number": "163",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/163_Frost-Peak Blood Wing.png"
+			}
+		},
+		{
+			"name": "Tanwar, the Dragon's Den",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Land — Mountain ",
+			"collector_number": "263",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/263_Tanwar, the Dragon's Den.png"
+			}
+		},
+		{
+			"name": "Dragon Dancer Shaman",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Shaman Bard ",
+			"collector_number": "153",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/153_Dragon Dancer Shaman.png"
+			}
+		},
+		{
+			"name": "Dragonmaw Shaman",
+			"rarity": "rare",
+			"mana_cost": "{2}{2/R}{2/R}",
+			"type": "Creature — Orc Shaman ",
+			"collector_number": "157",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/157_Dragonmaw Shaman.png"
+			}
+		},
+		{
+			"name": "Slag Breath Strike",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}",
+			"type": "Instant",
+			"collector_number": "179",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/179_Slag Breath Strike.png"
+			}
+		},
+		{
+			"name": "Elemental Outburst",
+			"rarity": "rare",
+			"mana_cost": "{2}{2/R}{2/R}",
+			"type": "Sorcery",
+			"collector_number": "159",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/159_Elemental Outburst.png"
+			}
+		},
+		{
+			"name": "Hryb, Thallid Titan",
+			"rarity": "rare",
+			"mana_cost": "{3}{2/G}{2/G}",
+			"type": "Legendary Creature — Fungus ",
+			"collector_number": "211",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/211_Hryb, Thallid Titan.png"
+			}
+		},
+		{
+			"name": "Great Growth Thallid",
+			"rarity": "rare",
+			"mana_cost": "{G}{G}",
+			"type": "Creature — Fungus ",
+			"collector_number": "207",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/207_Great Growth Thallid.png"
+			}
+		},
+		{
+			"name": "Deathcap Thallid",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Creature — Fungus Warrior ",
+			"collector_number": "198",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/198_Deathcap Thallid.png"
+			}
+		},
+		{
+			"name": "Hulking Thallid",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Fungus Berserker ",
+			"collector_number": "213",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/213_Hulking Thallid.png"
+			}
+		},
+		{
+			"name": "Worldspan Thallid",
+			"rarity": "rare",
+			"mana_cost": "{2/G}{2/G}{2/G}",
+			"type": "Creature — Fungus ",
+			"collector_number": "237",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/237_Worldspan Thallid.png"
+			}
+		},
+		{
+			"name": "Spore Dragon",
+			"rarity": "rare",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Creature — Dragon Fungus ",
+			"collector_number": "226",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/226_Spore Dragon.png"
+			}
+		},
+		{
+			"name": "Club Swinger Thallid",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Fungus Warrior ",
+			"collector_number": "197",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/197_Club Swinger Thallid.png"
+			}
+		},
+		{
+			"name": "Djondjon, Eternal Sporegrounds",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Land — Forest ",
+			"collector_number": "251",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/251_Djondjon, Eternal Sporegrounds.png"
+			}
+		},
+		{
+			"name": "Fungal Force",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "203",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/203_Fungal Force.png"
+			}
+		},
+		{
+			"name": "Fungal Undead",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Fungus Skeleton ",
+			"collector_number": "206",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/206_Fungal Undead.png"
+			}
+		},
+		{
+			"name": "Riftstone Altar",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "259",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/259_Riftstone Altar.png"
+			}
+		},
+		{
+			"name": "Rift Coin",
+			"rarity": "rare",
+			"mana_cost": "{1}",
+			"type": "Artifact — Treasure ",
+			"collector_number": "242",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/242_Rift Coin.png"
+			}
+		},
+		{
+			"name": "Riftstone Fragment",
+			"rarity": "rare",
+			"mana_cost": "{4}",
+			"type": "Artifact",
+			"collector_number": "244",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/244_Riftstone Fragment.png"
+			}
+		},
+		{
+			"name": "Blood Contract",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "239",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/239_Blood Contract.png"
+			}
+		},
+		{
+			"name": "Citadel in the Sky",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "249",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/249_Citadel in the Sky.png"
+			}
+		},
+		{
+			"name": "Riftstone Dynamo",
+			"rarity": "rare",
+			"mana_cost": "{X}{4}",
+			"type": "Legendary Artifact",
+			"collector_number": "243",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/243_Riftstone Dynamo.png"
+			}
+		},
+		{
+			"name": "Avatar of None",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Creature — Avatar Warrior ",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/1_Avatar of None.png"
+			}
+		},
+		{
+			"name": "Unleash the Guardians",
+			"rarity": "mythic",
+			"mana_cost": "{2}{2/W}{2/W}",
+			"type": "Instant",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/40_Unleash the Guardians.png"
+			}
+		},
+		{
+			"name": "Breach the Astral Sea",
+			"rarity": "mythic",
+			"mana_cost": "{2}{2/U}{2/U}",
+			"type": "Sorcery",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/52_Breach the Astral Sea.png"
+			}
+		},
+		{
+			"name": "Blood Lake Emergence",
+			"rarity": "mythic",
+			"mana_cost": "{2}{2/B}{2/B}",
+			"type": "Sorcery",
+			"collector_number": "103",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/103_Blood Lake Emergence.png"
+			}
+		},
+		{
+			"name": "Reality Warp",
+			"rarity": "mythic",
+			"mana_cost": "{2}{2/R}{2/R}",
+			"type": "Sorcery",
+			"collector_number": "171",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/171_Reality Warp.png"
+			}
+		},
+		{
+			"name": "Expansive Growth",
+			"rarity": "mythic",
+			"mana_cost": "{2}{2/G}{2/G}",
+			"type": "Sorcery",
+			"collector_number": "199",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/199_Expansive Growth.png"
+			}
+		},
+		{
+			"name": "Amanecer, Dawn-Plumed",
+			"rarity": "mythic",
+			"mana_cost": "{2/W}{2/W}{2/W}",
+			"type": "Legendary Creature — Bird Warrior ",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/5_Amanecer, Dawn-Plumed.png"
+			}
+		},
+		{
+			"name": "Captain Greatbeard",
+			"rarity": "mythic",
+			"mana_cost": "{2/U}{2/U}{2/U}",
+			"type": "Legendary Creature — Human Pirate ",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/56_Captain Greatbeard.png"
+			}
+		},
+		{
+			"name": "Sânge, Lord of Blood",
+			"rarity": "mythic",
+			"mana_cost": "{2/B}{2/B}{2/B}",
+			"type": "Legendary Creature — Demon Vampire ",
+			"collector_number": "133",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/133_Sânge, Lord of Blood.png"
+			}
+		},
+		{
+			"name": "Balaur, the Gold Wing",
+			"rarity": "mythic",
+			"mana_cost": "{2/R}{2/R}{2/R}",
+			"type": "Legendary Creature — Elder Dragon ",
+			"collector_number": "145",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/145_Balaur, the Gold Wing.png"
+			}
+		},
+		{
+			"name": "Hrybok, Progenitor Supreme",
+			"rarity": "mythic",
+			"mana_cost": "{2/G}{2/G}{2/G}",
+			"type": "Legendary Creature — Fungus ",
+			"collector_number": "212",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/212_Hrybok, Progenitor Supreme.png"
+			}
+		},
+		{
+			"name": "Ulama, the Exalted Wind",
+			"rarity": "mythic",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Legendary Creature — Bird Cleric ",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/39_Ulama, the Exalted Wind.png"
+			}
+		},
+		{
+			"name": "Taitai, Fearless Captain",
+			"rarity": "mythic",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Legendary Creature — Human Pirate ",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/89_Taitai, Fearless Captain.png"
+			}
+		},
+		{
+			"name": "Regina, Eternal Broodmother",
+			"rarity": "mythic",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Legendary Creature — Vampire Noble ",
+			"collector_number": "132",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/132_Regina, Eternal Broodmother.png"
+			}
+		},
+		{
+			"name": "Gla'aki, Blood Poet",
+			"rarity": "mythic",
+			"mana_cost": "{1}{R}",
+			"type": "Legendary Creature — Human Shaman ",
+			"collector_number": "164",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/164_Gla'aki, Blood Poet.png"
+			}
+		},
+		{
+			"name": "Hongo, the Ever-Expanding",
+			"rarity": "mythic",
+			"mana_cost": "{4}{G}",
+			"type": "Legendary Creature — Fungus ",
+			"collector_number": "210",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/210_Hongo, the Ever-Expanding.png"
+			}
+		},
+		{
+			"name": "Avatar of All",
+			"rarity": "mythic",
+			"mana_cost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
+			"type": "Legendary Creature — Avatar God ",
+			"collector_number": "238",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/238_Avatar of All.png"
+			}
+		},
+		{
+			"name": "Burung, the Golden Wing",
+			"rarity": "mythic",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Legendary Planeswalker — Burung ",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/10_Burung, the Golden Wing.png"
+			}
+		},
+		{
+			"name": "Cade, Planar Pillager",
+			"rarity": "mythic",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Legendary Planeswalker — Cade ",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/55_Cade, Planar Pillager.png"
+			}
+		},
+		{
+			"name": "Gax'lin, the Eldritch",
+			"rarity": "mythic",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Legendary Planeswalker — Gax’lin ",
+			"collector_number": "127",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/127_Gax'lin, the Eldritch.png"
+			}
+		},
+		{
+			"name": "Trogat, Starstruck",
+			"rarity": "mythic",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Legendary Planeswalker — Trogat ",
+			"collector_number": "188",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/188_Trogat, Starstruck.png"
+			}
+		},
+		{
+			"name": "Pye'Bwa, Eternal Bloom",
+			"rarity": "mythic",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Legendary Planeswalker — Pye’Bwa ",
+			"collector_number": "219",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/219_Pye'Bwa, Eternal Bloom.png"
+			}
+		},
+		{
+			"name": "Plains",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Plains ",
+			"collector_number": "265",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/265_Plains.png"
+			}
+		},
+		{
+			"name": "Island",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Island ",
+			"collector_number": "266",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/266_Island.png"
+			}
+		},
+		{
+			"name": "Swamp",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Swamp ",
+			"collector_number": "267",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/267_Swamp.png"
+			}
+		},
+		{
+			"name": "Mountain",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Mountain ",
+			"collector_number": "268",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/268_Mountain.png"
+			}
+		},
+		{
+			"name": "Forest",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Forest ",
+			"collector_number": "269",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/269_Forest.png"
+			}
+		},
+		{
+			"name": "Bird Soldier",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Bird Soldier ",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/1_Bird Soldier.png"
+			}
+		},
+		{
+			"name": "Pirate",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Pirate ",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/3_Pirate.png"
+			}
+		},
+		{
+			"name": "Vampire",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Vampire ",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/4_Vampire.png"
+			}
+		},
+		{
+			"name": "Shaman",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Shaman ",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/9_Shaman.png"
+			}
+		},
+		{
+			"name": "Saproling",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Saproling ",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/11_Saproling.png"
+			}
+		},
+		{
+			"name": "Dragon",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Dragon ",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/8_Dragon.png"
+			}
+		},
+		{
+			"name": "Treasure_Pirate",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Treasure ",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/13_Treasure_Pirate.png"
+			}
+		},
+		{
+			"name": "Blood Strike (Promo)",
+			"rarity": "special",
+			"mana_cost": "{2/B}{2/B}",
+			"type": "Sorcery",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/1_Blood Strike (Promo).png"
+			}
+		},
+		{
+			"name": "Bird Construct",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact Creature — Bird Construct ",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/12_Bird Construct.png"
+			}
+		},
+		{
+			"name": "Vampire Bat",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Vampire Bat ",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/5_Vampire Bat.png"
+			}
+		},
+		{
+			"name": "Vampire Knight",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Vampire Knight ",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/6_Vampire Knight.png"
+			}
+		},
+		{
+			"name": "Zombie",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Zombie ",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/7_Zombie.png"
+			}
+		},
+		{
+			"name": "Bird Pirate",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Bird Pirate ",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/2_Bird Pirate.png"
+			}
+		},
+		{
+			"name": "Cat Pirate",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Cat Pirate ",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https:///sets/SYZ-files/img/10_Cat Pirate.png"
+			}
+		}
+	]
+[RareSlot(1)]
+2 Gustwing Aven
+2 Vandè, Merchant King
+2 Wandering Hermit
+2 Night Wing Agent
+2 Estrago, the Shattered Ruins
+2 Sky Dasher Aven
+2 Warped Warlock
+2 Dissolve Reality
+2 Elegant Artificer
+2 Alchemical Shift
+2 Tugator, Shellback Captain
+2 Wealthy Captain
+2 Exceptional Alchemist
+2 Relic Thief
+2 Relèv, Pirates' Respite
+2 Massive Turtlebug
+2 Squall-Surfer
+2 Grab the Treasure
+2 Back Blaster
+2 The Greensail
+2 Ucidere, Blood Lord
+2 Blood Elemental
+2 Sânge's Invitation
+2 Dark Rites
+2 Crescent Moon Ritual
+2 Will of the Blood Lord
+2 Chato, Moonlit Fortress
+2 Dark Night Lurker
+2 Blood Fire Devil
+2 Deathknell Devastor
+2 Dragon Swarm
+2 Skyship Crasher
+2 Dragonform Shaman
+2 Form of the Storm Dragon
+2 Frost-Peak Blood Wing
+2 Tanwar, the Dragon's Den
+2 Dragon Dancer Shaman
+2 Dragonmaw Shaman
+2 Slag Breath Strike
+2 Elemental Outburst
+2 Hryb, Thallid Titan
+2 Great Growth Thallid
+2 Deathcap Thallid
+2 Hulking Thallid
+2 Worldspan Thallid
+2 Spore Dragon
+2 Club Swinger Thallid
+2 Djondjon, Eternal Sporegrounds
+2 Fungal Force
+2 Fungal Undead
+2 Riftstone Altar
+2 Rift Coin
+2 Riftstone Fragment
+2 Blood Contract
+2 Citadel in the Sky
+2 Riftstone Dynamo
+2 Avatar of None
+1 Unleash the Guardians
+1 Breach the Astral Sea
+1 Blood Lake Emergence
+1 Reality Warp
+1 Expansive Growth
+1 Amanecer, Dawn-Plumed
+1 Captain Greatbeard
+1 Sânge, Lord of Blood
+1 Balaur, the Gold Wing
+1 Hrybok, Progenitor Supreme
+1 Ulama, the Exalted Wind
+1 Taitai, Fearless Captain
+1 Regina, Eternal Broodmother
+1 Gla'aki, Blood Poet
+1 Hongo, the Ever-Expanding
+1 Avatar of All
+1 Burung, the Golden Wing
+1 Cade, Planar Pillager
+1 Gax'lin, the Eldritch
+1 Trogat, Starstruck
+1 Pye'Bwa, Eternal Bloom
+[UncommonSlot(3)]
+9 Airon, the Guardian
+9 Moon-Feather Druid
+9 Sparkcaster Aven
+9 Sure-Shot Sargeant
+9 Storm Cloud Rapier
+9 Sunrise Sentinel
+9 Aven Gadgeteer
+9 Reject
+9 Feather of the Forebearers
+9 Lavish Party-Thrower
+9 Netted Cage
+9 Dawnbreak Cleric
+9 Zwazo Twinblade
+9 Burning Daylight
+9 Contact Contract
+9 Corsair's Cutter
+9 Port Accountant
+9 Brilliant Buccaneer
+9 Frost-Form Sharpshooter
+9 Bianca the Buccaneer
+9 Wayward Treasure Hunter
+9 Freebooting Buccaneer
+9 Scout Scoundrel
+9 Sailtop Navigator
+9 Waterfall Orb
+9 Silver Sword Orc
+9 Wrist Cannon
+9 Steelclad Skyship
+9 Disdainful Stroke
+9 Captain's Watch
+9 Agent of the Night
+9 Bloodmad Cleric
+9 Death Scythe Vampire
+9 Bloodsoaked Graverobbers
+9 Shattersky Vampire
+9 Grotesque Bloodbender
+9 Crystal Gravestones
+9 Grotesque Night Terror
+9 Blood Offering
+9 Smoke Form Reaper
+9 Blood Artist
+9 Gnawing Heart Ritual
+9 Blood Cult Ritualist
+9 Dissolve into Shadow
+9 Blood Strike
+9 Muscle-Bound Orc
+9 Sparking Shaman
+9 Swift-Step Shaman
+9 Blood Mountain Broodmates
+9 Glide Wing Dragon
+9 Warforged Shaman
+9 Stormcaller Shaman
+9 Call of the Storm Lords
+9 Rite of the Dragon Gate
+9 Thunderclap Dragon
+9 Forge Flame
+9 Axe of Dead-Feather
+9 Spark Gate
+9 Draconic Connection
+9 Staff of the Silverwing
+9 Thallid Scout
+9 Wildwood Trasher
+9 Wildheart Thallid
+9 Spore Spreader
+9 Headchopper Thallid
+9 Insurmountable Thallid
+9 Civil Wanderer
+9 Accelerated Growth
+9 Sphere of Growth
+9 Megalithic Thallid
+9 Rotting Regrowth
+9 Budding Thallid
+9 Titanic Thallid
+9 Fracture Cap Thallid
+9 Basilisk Blade
+9 Ruined Temple
+9 Elevated Wreckage
+9 Decrepit Castle
+9 Shattered Spires
+9 Blooming Skyway
+9 Hallowed Field
+9 Quiet Waterfall
+9 Gloomy Marsh
+9 Frozen Peaks
+9 Verdant Savageland
+[CommonSlot(10)]
+30 Bardic Bird
+30 Gustblown Archer
+30 Sky Ranger
+30 Meadows Guide
+30 Deathrattle Wizard
+30 Zwazo Sharpshooter
+30 Aven Legionary
+30 Ferocious Fencer
+30 Zwazo Infiltrator
+30 Zwazo Brawler
+30 Gift of Feathers
+30 Spark of Inspiration
+30 Zwazo Blade
+30 Magi-Blade Wizard
+30 Inspiring Aven
+30 Moon-Feather Fowl
+30 Striking Spear
+30 Winds of Change
+30 Fight-Feather Aven
+30 Experienced Rig-Runner
+30 Sky Sail Vanguard
+30 Kitesail Corsair
+30 Cruising Skyfish
+30 Savvy Shipwright
+30 Cascada Tamer
+30 Expert Navigator
+30 Pathcutter Pirate
+30 Sky-Sail Skiff
+30 Spell Slash
+30 Skyship Harpoonist
+30 Buckshot Buccaneer
+30 Net Snare
+30 Pirate's Plunder
+30 Daring Dive
+30 Narrow Escape
+30 Stay Sharp
+30 Wispwater Blade
+30 Dashing Deckhand
+30 Bloodsoaked Deathwing
+30 Bloodmad Hunter
+30 Bloodseeker
+30 Smoke Form Slasher
+30 Blood Swarm
+30 Dark Bloodlord
+30 Bloodhunter Vampire
+30 Dusk Reaper
+30 Vampiric Armor
+30 Death-Chain Vampire
+30 Vampiric Brute
+30 Sign in Blood
+30 Of Blood and Mind
+30 Blood Ritual
+30 Bloodsoaked Reinvigoration
+30 Dark Sky Diviner
+30 Batty Broodmother
+30 Vampiric Shade
+30 Feral Blood Knight
+30 Samanas Slasher
+30 Canopy Runner Shaman
+30 Calling Shaman
+30 Silver-Wing Dragon
+30 Ruin Rune Dragon
+30 Orcish Stormcaller
+30 Boneskull Shaman
+30 Dusk Flame Shaman
+30 Staff of the Shaman
+30 Vaporization
+30 Bleeding Edge Shaman
+30 Shaman's Skull-Axe
+30 Dragonflame Warshaman
+30 Samanas Smasher
+30 Inferno Shaman
+30 Emergent Power
+30 Read the Stones
+30 Muscular Growth
+30 Superhuman Speed
+30 Wandering Myconid
+30 Canopy Thallid
+30 Gustblown Fungus
+30 Raccopossum Matriarch
+30 Fungal Shield Slammer
+30 Thallid Knight
+30 Toxic Archer
+30 Stoneblade Thallid
+30 Overgrown Thallid
+30 Raging Thallid
+30 Oakshield Thallid
+30 Skyshot Sporeling
+30 Fungal Sprouting
+30 Inversion of Reality
+30 Adventurous Thallid
+30 Thallicorn
+30 Screamshroom
+30 Explosive Outbreak
+30 Explosive Blooming
+30 Cantrip
+30 Ethereal Compass
+30 Forgeborn Sentinel
+30 Windswept Airship
+30 Riftstone Spear
+30 Riftstone Tear
