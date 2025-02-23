@@ -1,0 +1,3208 @@
+﻿[CustomCards]
+	[
+		{
+			"name": "Poor Orphan",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Human Citizen ",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/65_Poor Orphan.png"
+			}
+		},
+		{
+			"name": "Elegant Debutante",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Noble ",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/44_Elegant Debutante.png"
+			}
+		},
+		{
+			"name": "Elegant Newlyweds",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Noble ",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/45_Elegant Newlyweds.png"
+			}
+		},
+		{
+			"name": "Holy Seer",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Angel Eye ",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/53_Holy Seer.png"
+			}
+		},
+		{
+			"name": "Good-Hearted Cleric",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Cleric Citizen ",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/51_Good-Hearted Cleric.png"
+			}
+		},
+		{
+			"name": "Advisor's Familiar",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Artifact Creature — Bird Robot ",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/36_Advisor's Familiar.png"
+			}
+		},
+		{
+			"name": "Scrap Metal Recycler",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Human Citizen ",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/67_Scrap Metal Recycler.png"
+			}
+		},
+		{
+			"name": "Restless Steelworkers",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Human Citizen ",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/66_Restless Steelworkers.png"
+			}
+		},
+		{
+			"name": "Militant Advisor",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Artifact Creature — Human Advisor ",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/59_Militant Advisor.png"
+			}
+		},
+		{
+			"name": "Crashing Robot",
+			"rarity": "common",
+			"mana_cost": "{4}{W}",
+			"type": "Artifact Creature — Robot Berserker ",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/42_Crashing Robot.png"
+			}
+		},
+		{
+			"name": "Half-Finished Golem",
+			"rarity": "common",
+			"mana_cost": "{4}{W}",
+			"type": "Artifact Creature — Equipment Golem ",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/52_Half-Finished Golem.png"
+			}
+		},
+		{
+			"name": "Midnight Terror",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Sorcery",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/58_Midnight Terror.png"
+			}
+		},
+		{
+			"name": "Executionary Advice",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Instant",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/47_Executionary Advice.png"
+			}
+		},
+		{
+			"name": "Warp Universes",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/71_Warp Universes.png"
+			}
+		},
+		{
+			"name": "Windumaer's Strike",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/72_Windumaer's Strike.png"
+			}
+		},
+		{
+			"name": "Overindulgence",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/63_Overindulgence.png"
+			}
+		},
+		{
+			"name": "Supply Engineer",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Creature — Homunculus Artificer ",
+			"collector_number": "103",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/103_Supply Engineer.png"
+			}
+		},
+		{
+			"name": "Quick Counselor",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Advisor ",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/91_Quick Counselor.png"
+			}
+		},
+		{
+			"name": "Automated Officer",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Artifact Creature — Robot ",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/77_Automated Officer.png"
+			}
+		},
+		{
+			"name": "Eldritch Rifleman",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Homunculus Scout ",
+			"collector_number": "81",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/81_Eldritch Rifleman.png"
+			}
+		},
+		{
+			"name": "Smogwalker",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Scout ",
+			"collector_number": "101",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/101_Smogwalker.png"
+			}
+		},
+		{
+			"name": "Eternities Warped Illithid",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Illithid Vampire ",
+			"collector_number": "85",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/85_Eternities Warped Illithid.png"
+			}
+		},
+		{
+			"name": "Mind Drain Illithid",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Illithid Vampire Wizard ",
+			"collector_number": "90",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/90_Mind Drain Illithid.png"
+			}
+		},
+		{
+			"name": "Reality Searcher",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Human Artificer ",
+			"collector_number": "94",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/94_Reality Searcher.png"
+			}
+		},
+		{
+			"name": "Well-Read Tutor",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Human Advisor ",
+			"collector_number": "111",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/111_Well-Read Tutor.png"
+			}
+		},
+		{
+			"name": "Abhuman Construct",
+			"rarity": "common",
+			"mana_cost": "{4}{U}",
+			"type": "Artifact Creature — Construct Warrior ",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/73_Abhuman Construct.png"
+			}
+		},
+		{
+			"name": "Warp Mind",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Sorcery",
+			"collector_number": "108",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/108_Warp Mind.png"
+			}
+		},
+		{
+			"name": "Artificer's Curiosity",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Sorcery",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/76_Artificer's Curiosity.png"
+			}
+		},
+		{
+			"name": "Escape the Coppers",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/84_Escape the Coppers.png"
+			}
+		},
+		{
+			"name": "Reality Bind",
+			"rarity": "common",
+			"mana_cost": "{U}{U}",
+			"type": "Instant",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/93_Reality Bind.png"
+			}
+		},
+		{
+			"name": "Squad Up",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Sorcery",
+			"collector_number": "102",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/102_Squad Up.png"
+			}
+		},
+		{
+			"name": "Take Flight",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "104",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/104_Take Flight.png"
+			}
+		},
+		{
+			"name": "Faceless Thing",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Horror ",
+			"collector_number": "124",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/124_Faceless Thing.png"
+			}
+		},
+		{
+			"name": "Bog Scarecrow",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Horror Scarecrow ",
+			"collector_number": "116",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/116_Bog Scarecrow.png"
+			}
+		},
+		{
+			"name": "Bogborn Inquisitor",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Inquisitor Scout ",
+			"collector_number": "117",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/117_Bogborn Inquisitor.png"
+			}
+		},
+		{
+			"name": "Plague Burner",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Inquisitor ",
+			"collector_number": "140",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/140_Plague Burner.png"
+			}
+		},
+		{
+			"name": "Night Flayer",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Illithid Vampire ",
+			"collector_number": "138",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/138_Night Flayer.png"
+			}
+		},
+		{
+			"name": "Stern Noble",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Human Noble ",
+			"collector_number": "147",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/147_Stern Noble.png"
+			}
+		},
+		{
+			"name": "Charging Line",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Artifact Creature — Robot Soldier ",
+			"collector_number": "119",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/119_Charging Line.png"
+			}
+		},
+		{
+			"name": "Inhumane Inhuman",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Horror ",
+			"collector_number": "131",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/131_Inhumane Inhuman.png"
+			}
+		},
+		{
+			"name": "Plague-Born Inquisitor",
+			"rarity": "common",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Inquisitor ",
+			"collector_number": "141",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/141_Plague-Born Inquisitor.png"
+			}
+		},
+		{
+			"name": "Artifical Inquisitor",
+			"rarity": "common",
+			"mana_cost": "{4}{B}",
+			"type": "Artifact Creature — Equipment Inquisitor ",
+			"collector_number": "113",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/113_Artifical Inquisitor.png"
+			}
+		},
+		{
+			"name": "Shadow of the Night",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "145",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/145_Shadow of the Night.png"
+			}
+		},
+		{
+			"name": "Heavy Tank",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Artifact — Vehicle ",
+			"collector_number": "129",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/129_Heavy Tank.png"
+			}
+		},
+		{
+			"name": "Mind Tear",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "136",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/136_Mind Tear.png"
+			}
+		},
+		{
+			"name": "Attack of the Dead Men",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Sorcery",
+			"collector_number": "114",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/114_Attack of the Dead Men.png"
+			}
+		},
+		{
+			"name": "Extensive Entrenchment",
+			"rarity": "common",
+			"mana_cost": "{4}{B}",
+			"type": "Sorcery",
+			"collector_number": "123",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/123_Extensive Entrenchment.png"
+			}
+		},
+		{
+			"name": "The Creeping Shadow of Plague",
+			"rarity": "common",
+			"mana_cost": "{5}{B}",
+			"type": "Sorcery",
+			"collector_number": "120",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/120_The Creeping Shadow of Plague.png"
+			}
+		},
+		{
+			"name": "Burning Coal Drake",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Creature — Drake Elemental ",
+			"collector_number": "157",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/157_Burning Coal Drake.png"
+			}
+		},
+		{
+			"name": "Sparking Lightbulb",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Elemental ",
+			"collector_number": "182",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/182_Sparking Lightbulb.png"
+			}
+		},
+		{
+			"name": "Lumberjack Suit",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Artifact Creature — Equipment Minotaur ",
+			"collector_number": "175",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/175_Lumberjack Suit.png"
+			}
+		},
+		{
+			"name": "Blazeback Soldier",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Artifact Creature — Robot Soldier ",
+			"collector_number": "154",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/154_Blazeback Soldier.png"
+			}
+		},
+		{
+			"name": "Heavy Artillery Brigade",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Artifact Creature — Soldier ",
+			"collector_number": "168",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/168_Heavy Artillery Brigade.png"
+			}
+		},
+		{
+			"name": "Excited Aeronaut",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Artificer Pilot ",
+			"collector_number": "164",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/164_Excited Aeronaut.png"
+			}
+		},
+		{
+			"name": "Runaway Guncar",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Artifact — Vehicle ",
+			"collector_number": "180",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/180_Runaway Guncar.png"
+			}
+		},
+		{
+			"name": "Electrified Deathsuit",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Artifact Creature — Equipment Elemental ",
+			"collector_number": "162",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/162_Electrified Deathsuit.png"
+			}
+		},
+		{
+			"name": "Promethean Soldier",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "178",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/178_Promethean Soldier.png"
+			}
+		},
+		{
+			"name": "Armored Personnel Carrier",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Artifact — Vehicle ",
+			"collector_number": "151",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/151_Armored Personnel Carrier.png"
+			}
+		},
+		{
+			"name": "Last-Ditch Explosive",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Instant",
+			"collector_number": "172",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/172_Last-Ditch Explosive.png"
+			}
+		},
+		{
+			"name": "Explosive Thoughts",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "165",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/165_Explosive Thoughts.png"
+			}
+		},
+		{
+			"name": "Burn the Wreckage",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "156",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/156_Burn the Wreckage.png"
+			}
+		},
+		{
+			"name": "Birth of Death",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "153",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/153_Birth of Death.png"
+			}
+		},
+		{
+			"name": "Heavy Mining Operation",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "170",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/170_Heavy Mining Operation.png"
+			}
+		},
+		{
+			"name": "Arc Field",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "150",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/150_Arc Field.png"
+			}
+		},
+		{
+			"name": "Acid Spitter Mutant",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Mutant ",
+			"collector_number": "187",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/187_Acid Spitter Mutant.png"
+			}
+		},
+		{
+			"name": "Lotus Harvester",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Creature — Human Citizen ",
+			"collector_number": "202",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/202_Lotus Harvester.png"
+			}
+		},
+		{
+			"name": "Violent Assembly",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Human Citizen ",
+			"collector_number": "220",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/220_Violent Assembly.png"
+			}
+		},
+		{
+			"name": "Plague Spreader",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Inquisitor ",
+			"collector_number": "211",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/211_Plague Spreader.png"
+			}
+		},
+		{
+			"name": "Enraged Forgemaster",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Human Citizen ",
+			"collector_number": "194",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/194_Enraged Forgemaster.png"
+			}
+		},
+		{
+			"name": "Smogborn Hunter",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Warlock ",
+			"collector_number": "217",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/217_Smogborn Hunter.png"
+			}
+		},
+		{
+			"name": "Omen Cart Rider",
+			"rarity": "common",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Inquisitor ",
+			"collector_number": "210",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/210_Omen Cart Rider.png"
+			}
+		},
+		{
+			"name": "Warp Puncher",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Human Warrior ",
+			"collector_number": "221",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/221_Warp Puncher.png"
+			}
+		},
+		{
+			"name": "Faceless Mutant",
+			"rarity": "common",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Mutant ",
+			"collector_number": "196",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/196_Faceless Mutant.png"
+			}
+		},
+		{
+			"name": "Giga-Shark",
+			"rarity": "common",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Shark Mutant ",
+			"collector_number": "198",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/198_Giga-Shark.png"
+			}
+		},
+		{
+			"name": "Bleakwind Ranger",
+			"rarity": "common",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Inquisitor Ranger ",
+			"collector_number": "188",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/188_Bleakwind Ranger.png"
+			}
+		},
+		{
+			"name": "Steel Skinned Inquisitor",
+			"rarity": "common",
+			"mana_cost": "{6}{G}",
+			"type": "Artifact Creature — Inquisitor Knight ",
+			"collector_number": "218",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/218_Steel Skinned Inquisitor.png"
+			}
+		},
+		{
+			"name": "Don the Masks",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "189",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/189_Don the Masks.png"
+			}
+		},
+		{
+			"name": "Tis Just a Small Prick",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "219",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/219_Tis Just a Small Prick.png"
+			}
+		},
+		{
+			"name": "Emerge From the Depths",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Sorcery",
+			"collector_number": "193",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/193_Emerge From the Depths.png"
+			}
+		},
+		{
+			"name": "Maximize Size",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "204",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/204_Maximize Size.png"
+			}
+		},
+		{
+			"name": "Masked Horrors",
+			"rarity": "common",
+			"mana_cost": "{C}",
+			"type": "Creature — Horror ",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/25_Masked Horrors.png"
+			}
+		},
+		{
+			"name": "Artifical Elite",
+			"rarity": "common",
+			"mana_cost": "{1}{C}",
+			"type": "Creature — Homunculus Scout ",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/4_Artifical Elite.png"
+			}
+		},
+		{
+			"name": "Smokestack Elemental",
+			"rarity": "common",
+			"mana_cost": "{1}{C}",
+			"type": "Creature — Elemental ",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/33_Smokestack Elemental.png"
+			}
+		},
+		{
+			"name": "Coalhound",
+			"rarity": "common",
+			"mana_cost": "{2}{C}",
+			"type": "Creature — Elemental Dog ",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/10_Coalhound.png"
+			}
+		},
+		{
+			"name": "Bleak Shadow",
+			"rarity": "common",
+			"mana_cost": "{2}{C}",
+			"type": "Creature — Horror ",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/6_Bleak Shadow.png"
+			}
+		},
+		{
+			"name": "Seer of Eternities",
+			"rarity": "common",
+			"mana_cost": "{2}{C}",
+			"type": "Creature — Angel Eye ",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/30_Seer of Eternities.png"
+			}
+		},
+		{
+			"name": "Homunculus Grenadier",
+			"rarity": "common",
+			"mana_cost": "{3}{C}",
+			"type": "Creature — Homunculus Scout ",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/22_Homunculus Grenadier.png"
+			}
+		},
+		{
+			"name": "Mutant Trainer",
+			"rarity": "common",
+			"mana_cost": "{3}{C}",
+			"type": "Creature — Homunculus ",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/26_Mutant Trainer.png"
+			}
+		},
+		{
+			"name": "Death-Sycthe Harvester",
+			"rarity": "common",
+			"mana_cost": "{4}{C}",
+			"type": "Creature — Horror ",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/15_Death-Sycthe Harvester.png"
+			}
+		},
+		{
+			"name": "Radiant Ophanim",
+			"rarity": "common",
+			"mana_cost": "{4}{C}",
+			"type": "Creature — Angel Eye ",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/28_Radiant Ophanim.png"
+			}
+		},
+		{
+			"name": "Death Rager Homunculus",
+			"rarity": "common",
+			"mana_cost": "{4}{C}",
+			"type": "Creature — Homunculus ",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/13_Death Rager Homunculus.png"
+			}
+		},
+		{
+			"name": "Eldritch Mutant",
+			"rarity": "common",
+			"mana_cost": "{5}{C}",
+			"type": "Creature — Mutant ",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/17_Eldritch Mutant.png"
+			}
+		},
+		{
+			"name": "Charge Through the Gas",
+			"rarity": "common",
+			"mana_cost": "{1}{C}",
+			"type": "Sorcery",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/9_Charge Through the Gas.png"
+			}
+		},
+		{
+			"name": "Blind the Unholy",
+			"rarity": "common",
+			"mana_cost": "{2}{C}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/7_Blind the Unholy.png"
+			}
+		},
+		{
+			"name": "Eye of Wonder",
+			"rarity": "common",
+			"mana_cost": "{3}{C}",
+			"type": "Sorcery",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/20_Eye of Wonder.png"
+			}
+		},
+		{
+			"name": "Ashen Rebirth",
+			"rarity": "common",
+			"mana_cost": "{4}{C}",
+			"type": "Sorcery",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/5_Ashen Rebirth.png"
+			}
+		},
+		{
+			"name": "Colossal Golem",
+			"rarity": "common",
+			"mana_cost": "{9}",
+			"type": "Artifact Creature — Giant Golem ",
+			"collector_number": "249",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/249_Colossal Golem.png"
+			}
+		},
+		{
+			"name": "Intrepid Machine",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "252",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/252_Intrepid Machine.png"
+			}
+		},
+		{
+			"name": "Forgemaster Golem",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Equipment Golem ",
+			"collector_number": "251",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/251_Forgemaster Golem.png"
+			}
+		},
+		{
+			"name": "Terramorphic Expanse",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "269",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/269_Terramorphic Expanse.png"
+			}
+		},
+		{
+			"name": "Parliament of Owls",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Bird Advisor ",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/64_Parliament of Owls.png"
+			}
+		},
+		{
+			"name": "Wandering Diplomats",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Advisor ",
+			"collector_number": "70",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/70_Wandering Diplomats.png"
+			}
+		},
+		{
+			"name": "Multipurpose Janitorial Robot",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Artifact Creature — Robot ",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/60_Multipurpose Janitorial Robot.png"
+			}
+		},
+		{
+			"name": "Nobles' Ball",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Sorcery",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/61_Nobles' Ball.png"
+			}
+		},
+		{
+			"name": "Delightful Merchant",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Citizen ",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/43_Delightful Merchant.png"
+			}
+		},
+		{
+			"name": "Mass Gathering",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{W}",
+			"type": "Sorcery",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/56_Mass Gathering.png"
+			}
+		},
+		{
+			"name": "All-Knowing",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{W}",
+			"type": "Creature — Angel Eye ",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/37_All-Knowing.png"
+			}
+		},
+		{
+			"name": "Glorious Swords",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Sorcery",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/50_Glorious Swords.png"
+			}
+		},
+		{
+			"name": "Mechanical Savant",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Pilot Artificer ",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/57_Mechanical Savant.png"
+			}
+		},
+		{
+			"name": "Inferno Suit",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Artifact Creature — Equipment Construct ",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/54_Inferno Suit.png"
+			}
+		},
+		{
+			"name": "Bore to Death",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Enchantment",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/40_Bore to Death.png"
+			}
+		},
+		{
+			"name": "Bind the Trespasser",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Sorcery",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/78_Bind the Trespasser.png"
+			}
+		},
+		{
+			"name": "Aethergale Wings",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Artifact Creature — Equipment Bird ",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/75_Aethergale Wings.png"
+			}
+		},
+		{
+			"name": "Disassemble",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/79_Disassemble.png"
+			}
+		},
+		{
+			"name": "Smog Strider Illithid",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Creature — Illithid Vampire ",
+			"collector_number": "99",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/99_Smog Strider Illithid.png"
+			}
+		},
+		{
+			"name": "Reality Shear",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Instant",
+			"collector_number": "95",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/95_Reality Shear.png"
+			}
+		},
+		{
+			"name": "Welded Protection Suit",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Artifact Creature — Equipment Golem ",
+			"collector_number": "110",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/110_Welded Protection Suit.png"
+			}
+		},
+		{
+			"name": "Union Welder",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Human Artificer Citizen ",
+			"collector_number": "107",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/107_Union Welder.png"
+			}
+		},
+		{
+			"name": "Smogform",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Illusion ",
+			"collector_number": "100",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/100_Smogform.png"
+			}
+		},
+		{
+			"name": "Aerial Striker",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Artifact — Vehicle ",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/74_Aerial Striker.png"
+			}
+		},
+		{
+			"name": "Wartorn Homunculus",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Homunculus ",
+			"collector_number": "109",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/109_Wartorn Homunculus.png"
+			}
+		},
+		{
+			"name": "Reject Reality",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Instant",
+			"collector_number": "96",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/96_Reject Reality.png"
+			}
+		},
+		{
+			"name": "Reborn Maiden",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Zombie Noble ",
+			"collector_number": "144",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/144_Reborn Maiden.png"
+			}
+		},
+		{
+			"name": "Backroom Dealings",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Enchantment",
+			"collector_number": "115",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/115_Backroom Dealings.png"
+			}
+		},
+		{
+			"name": "Nightwalker",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Creature — Illithid Vampire ",
+			"collector_number": "139",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/139_Nightwalker.png"
+			}
+		},
+		{
+			"name": "Psyche Charger",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Illithid Vampire ",
+			"collector_number": "142",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/142_Psyche Charger.png"
+			}
+		},
+		{
+			"name": "Arditi Imperious",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "112",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/112_Arditi Imperious.png"
+			}
+		},
+		{
+			"name": "Lady Blackrock Scales",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Legendary Creature — Human Noble Soldier ",
+			"collector_number": "134",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/134_Lady Blackrock Scales.png"
+			}
+		},
+		{
+			"name": "Unhinged Inquisitor",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Creature — Inquisitor ",
+			"collector_number": "149",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/149_Unhinged Inquisitor.png"
+			}
+		},
+		{
+			"name": "Sting of the Night",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "148",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/148_Sting of the Night.png"
+			}
+		},
+		{
+			"name": "Lost Clergy",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Horror Cleric ",
+			"collector_number": "135",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/135_Lost Clergy.png"
+			}
+		},
+		{
+			"name": "Spring Heeled Stalker",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Horror Rogue ",
+			"collector_number": "146",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/146_Spring Heeled Stalker.png"
+			}
+		},
+		{
+			"name": "Dissect",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "121",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/121_Dissect.png"
+			}
+		},
+		{
+			"name": "Lightning Arrest",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "173",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/173_Lightning Arrest.png"
+			}
+		},
+		{
+			"name": "Lively Spark",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Artifact Creature — Equipment Elemental ",
+			"collector_number": "174",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/174_Lively Spark.png"
+			}
+		},
+		{
+			"name": "Iron Horse",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Artifact Creature — Equipment Horse ",
+			"collector_number": "171",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/171_Iron Horse.png"
+			}
+		},
+		{
+			"name": "Stilt Walker",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Artifact Creature — Equipment ",
+			"collector_number": "185",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/185_Stilt Walker.png"
+			}
+		},
+		{
+			"name": "Steel Shotgunner",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Artifact Creature — Robot Soldier ",
+			"collector_number": "184",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/184_Steel Shotgunner.png"
+			}
+		},
+		{
+			"name": "Fearless Trooper",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Artifact Creature — Robot Soldier ",
+			"collector_number": "166",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/166_Fearless Trooper.png"
+			}
+		},
+		{
+			"name": "Barrage and Charge",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "152",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/152_Barrage and Charge.png"
+			}
+		},
+		{
+			"name": "Coal Shoveler",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Artifact Creature — Robot ",
+			"collector_number": "159",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/159_Coal Shoveler.png"
+			}
+		},
+		{
+			"name": "Eldritch Hunter",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{R}",
+			"type": "Creature — Human Artificer ",
+			"collector_number": "161",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/161_Eldritch Hunter.png"
+			}
+		},
+		{
+			"name": "Gas Tainted Soldier",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Elemental Soldier ",
+			"collector_number": "167",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/167_Gas Tainted Soldier.png"
+			}
+		},
+		{
+			"name": "Rage Mage",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Wizard ",
+			"collector_number": "179",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/179_Rage Mage.png"
+			}
+		},
+		{
+			"name": "Proven Pugilist",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Artifact Creature — Human Citizen Cyborg ",
+			"collector_number": "212",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/212_Proven Pugilist.png"
+			}
+		},
+		{
+			"name": "Doting Family",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Human Citizen ",
+			"collector_number": "190",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/190_Doting Family.png"
+			}
+		},
+		{
+			"name": "Sludge Crawler",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Mutant ",
+			"collector_number": "214",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/214_Sludge Crawler.png"
+			}
+		},
+		{
+			"name": "Smashing Scrapper",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Mutant ",
+			"collector_number": "215",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/215_Smashing Scrapper.png"
+			}
+		},
+		{
+			"name": "Nightwatch Inquisitor",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Inquisitor ",
+			"collector_number": "209",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/209_Nightwatch Inquisitor.png"
+			}
+		},
+		{
+			"name": "Inquisitor Matriarch",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Inquisitor ",
+			"collector_number": "200",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/200_Inquisitor Matriarch.png"
+			}
+		},
+		{
+			"name": "Mass Extraction Rig",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{G}{G}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "203",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/203_Mass Extraction Rig.png"
+			}
+		},
+		{
+			"name": "Self-Propelled Heavy Suit",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Artifact Creature — Equipment Golem ",
+			"collector_number": "213",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/213_Self-Propelled Heavy Suit.png"
+			}
+		},
+		{
+			"name": "Mutant Colossus",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Artifact Creature — Mutant Juggernaut ",
+			"collector_number": "205",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/205_Mutant Colossus.png"
+			}
+		},
+		{
+			"name": "Mutated Businessmen",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Human Mutant ",
+			"collector_number": "208",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/208_Mutated Businessmen.png"
+			}
+		},
+		{
+			"name": "Imperial Agent",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Artifact Creature — Human Cyborg Rogue ",
+			"collector_number": "199",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/199_Imperial Agent.png"
+			}
+		},
+		{
+			"name": "Eyes of Infinity",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{C}",
+			"type": "Sorcery",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/21_Eyes of Infinity.png"
+			}
+		},
+		{
+			"name": "Angel of Binding Sight",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{C}",
+			"type": "Creature — Angel Eye ",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/2_Angel of Binding Sight.png"
+			}
+		},
+		{
+			"name": "Cycle of Creation",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{C}",
+			"type": "Sorcery",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/12_Cycle of Creation.png"
+			}
+		},
+		{
+			"name": "Shadow Gatherer",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{C}",
+			"type": "Creature — Homunculus Scout ",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/31_Shadow Gatherer.png"
+			}
+		},
+		{
+			"name": "Exploratory Fighter",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{C}",
+			"type": "Creature — Homunculus Scout ",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/18_Exploratory Fighter.png"
+			}
+		},
+		{
+			"name": "Death Scythe Inquisitor",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{C}",
+			"type": "Creature — Inquisitor Horror ",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/14_Death Scythe Inquisitor.png"
+			}
+		},
+		{
+			"name": "Soul Tear",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{C}",
+			"type": "Sorcery",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/34_Soul Tear.png"
+			}
+		},
+		{
+			"name": "Storm Being",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{C}",
+			"type": "Creature — Elemental ",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/35_Storm Being.png"
+			}
+		},
+		{
+			"name": "Channel Storms",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{C}",
+			"type": "Sorcery",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/8_Channel Storms.png"
+			}
+		},
+		{
+			"name": "Anti-Armor Regulator",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{C}",
+			"type": "Creature — Mutant Soldier ",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/3_Anti-Armor Regulator.png"
+			}
+		},
+		{
+			"name": "Discover Eternity's Heart",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{C}",
+			"type": "Sorcery",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/16_Discover Eternity's Heart.png"
+			}
+		},
+		{
+			"name": "The Upper Parliament",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "271",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/271_The Upper Parliament.png"
+			}
+		},
+		{
+			"name": "Industrialized Crossing",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "265",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/265_Industrialized Crossing.png"
+			}
+		},
+		{
+			"name": "Industrial Plant",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "264",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/264_Industrial Plant.png"
+			}
+		},
+		{
+			"name": "Back Alley Bar",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "255",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/255_Back Alley Bar.png"
+			}
+		},
+		{
+			"name": "City Outskirts",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "257",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/257_City Outskirts.png"
+			}
+		},
+		{
+			"name": "Elegant Restaurant",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "261",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/261_Elegant Restaurant.png"
+			}
+		},
+		{
+			"name": "Filigree Laboratory",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "263",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/263_Filigree Laboratory.png"
+			}
+		},
+		{
+			"name": "Castle in the Woods",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "256",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/256_Castle in the Woods.png"
+			}
+		},
+		{
+			"name": "Molten Forge",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "266",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/266_Molten Forge.png"
+			}
+		},
+		{
+			"name": "Murky Canal",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "267",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/267_Murky Canal.png"
+			}
+		},
+		{
+			"name": "Technologic Reliquary",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "268",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/268_Technologic Reliquary.png"
+			}
+		},
+		{
+			"name": "Eldritch Observatory",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "260",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/260_Eldritch Observatory.png"
+			}
+		},
+		{
+			"name": "Etched Tower",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "262",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/262_Etched Tower.png"
+			}
+		},
+		{
+			"name": "Titanic Junkyard",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "270",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/270_Titanic Junkyard.png"
+			}
+		},
+		{
+			"name": "Eldritch Laboratory",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "259",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/259_Eldritch Laboratory.png"
+			}
+		},
+		{
+			"name": "Orb Warden Angel",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{C}{W}",
+			"type": "Creature — Angel ",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/62_Orb Warden Angel.png"
+			}
+		},
+		{
+			"name": "Radio Operator",
+			"rarity": "uncommon",
+			"mana_cost": "{C}{U}",
+			"type": "Creature — Homunculus Scout ",
+			"collector_number": "92",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/92_Radio Operator.png"
+			}
+		},
+		{
+			"name": "Mindwrath Horror",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{C}{B}",
+			"type": "Creature — Horror ",
+			"collector_number": "137",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/137_Mindwrath Horror.png"
+			}
+		},
+		{
+			"name": "Smoke Hound",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{C}{R}",
+			"type": "Creature — Elemental Dog ",
+			"collector_number": "181",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/181_Smoke Hound.png"
+			}
+		},
+		{
+			"name": "Mutated Berserker",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{C}{G}",
+			"type": "Creature — Mutant Berserker ",
+			"collector_number": "207",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/207_Mutated Berserker.png"
+			}
+		},
+		{
+			"name": "War Council",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}{U}",
+			"type": "Creature — Human Advisor ",
+			"collector_number": "246",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/246_War Council.png"
+			}
+		},
+		{
+			"name": "Supreme Mindlord",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{B}",
+			"type": "Creature — Illithid Vampire ",
+			"collector_number": "244",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/244_Supreme Mindlord.png"
+			}
+		},
+		{
+			"name": "Wreckage Team",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}{R}",
+			"type": "Artifact Creature — Soldier ",
+			"collector_number": "248",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/248_Wreckage Team.png"
+			}
+		},
+		{
+			"name": "Union Miners",
+			"rarity": "uncommon",
+			"mana_cost": "{X}{R}{G}",
+			"type": "Creature — Human Citizen Rebel ",
+			"collector_number": "245",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/245_Union Miners.png"
+			}
+		},
+		{
+			"name": "Solidarity Forever",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}{W}",
+			"type": "Sorcery",
+			"collector_number": "241",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/241_Solidarity Forever.png"
+			}
+		},
+		{
+			"name": "Eloquent Aristocrat",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{B}",
+			"type": "Creature — Human Noble ",
+			"collector_number": "230",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/230_Eloquent Aristocrat.png"
+			}
+		},
+		{
+			"name": "Aeronaut Grenadier",
+			"rarity": "uncommon",
+			"mana_cost": "{U}{R}",
+			"type": "Creature — Human Artificer ",
+			"collector_number": "224",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/224_Aeronaut Grenadier.png"
+			}
+		},
+		{
+			"name": "Feather-Wing Inquisitor",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}{G}",
+			"type": "Creature — Inquisitor ",
+			"collector_number": "232",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/232_Feather-Wing Inquisitor.png"
+			}
+		},
+		{
+			"name": "Mad Maker",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{W}",
+			"type": "Creature — Human Artificer ",
+			"collector_number": "235",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/235_Mad Maker.png"
+			}
+		},
+		{
+			"name": "Distorted Scarecrow",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{U}",
+			"type": "Artifact Creature — Scarecrow Artificer ",
+			"collector_number": "228",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/228_Distorted Scarecrow.png"
+			}
+		},
+		{
+			"name": "Astute Advisor",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Advisor ",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/38_Astute Advisor.png"
+			}
+		},
+		{
+			"name": "Baroness Anastasia Huff",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Legendary Creature — Human Noble ",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/39_Baroness Anastasia Huff.png"
+			}
+		},
+		{
+			"name": "Bronze-Wrench Tinkerer",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Artificer Citizen ",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/41_Bronze-Wrench Tinkerer.png"
+			}
+		},
+		{
+			"name": "Elite Anarchist",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Citizen ",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/46_Elite Anarchist.png"
+			}
+		},
+		{
+			"name": "The Sound of Silence",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Angel Eye ",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/69_The Sound of Silence.png"
+			}
+		},
+		{
+			"name": "Smogspewer Carriage",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Artifact — Vehicle ",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/68_Smogspewer Carriage.png"
+			}
+		},
+		{
+			"name": "Explosive Homing Round",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/48_Explosive Homing Round.png"
+			}
+		},
+		{
+			"name": "Research Assistant",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Advisor ",
+			"collector_number": "97",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/97_Research Assistant.png"
+			}
+		},
+		{
+			"name": "Enthralling Illithid",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Creature — Illithid Vampire ",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/83_Enthralling Illithid.png"
+			}
+		},
+		{
+			"name": "Telepathic Mechanist",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Human Artificer ",
+			"collector_number": "105",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/105_Telepathic Mechanist.png"
+			}
+		},
+		{
+			"name": "Metallurgic Magistrate",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Artifact Creature — Shapeshifter Advisor ",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/89_Metallurgic Magistrate.png"
+			}
+		},
+		{
+			"name": "Homunculus Lantern Bearer",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Homunculus Scout ",
+			"collector_number": "86",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/86_Homunculus Lantern Bearer.png"
+			}
+		},
+		{
+			"name": "Emerge from the Multiverse",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Sorcery",
+			"collector_number": "82",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/82_Emerge from the Multiverse.png"
+			}
+		},
+		{
+			"name": "Self-Alteration",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Instant",
+			"collector_number": "98",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/98_Self-Alteration.png"
+			}
+		},
+		{
+			"name": "Gross Glutton",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Human Noble ",
+			"collector_number": "126",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/126_Gross Glutton.png"
+			}
+		},
+		{
+			"name": "Catacomb Skull Collector",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Illithid Vampire ",
+			"collector_number": "118",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/118_Catacomb Skull Collector.png"
+			}
+		},
+		{
+			"name": "Hardened Artillery Unit",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "127",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/127_Hardened Artillery Unit.png"
+			}
+		},
+		{
+			"name": "Inquisitor Alchemist",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Inquisitor Wizard ",
+			"collector_number": "132",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/132_Inquisitor Alchemist.png"
+			}
+		},
+		{
+			"name": "Heavy Smog",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "128",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/128_Heavy Smog.png"
+			}
+		},
+		{
+			"name": "Reap the Trenches",
+			"rarity": "rare",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "143",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/143_Reap the Trenches.png"
+			}
+		},
+		{
+			"name": "Excessively Ancient Minister",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Noble ",
+			"collector_number": "122",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/122_Excessively Ancient Minister.png"
+			}
+		},
+		{
+			"name": "Coal Golem",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Artifact Creature — Equipment Golem ",
+			"collector_number": "158",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/158_Coal Golem.png"
+			}
+		},
+		{
+			"name": "Spider Guard Suit",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Artifact Creature — Equipment Spider ",
+			"collector_number": "183",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/183_Spider Guard Suit.png"
+			}
+		},
+		{
+			"name": "Mounted Gun",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "176",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/176_Mounted Gun.png"
+			}
+		},
+		{
+			"name": "Heavy Explosive Expert",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Artificer Mercenary ",
+			"collector_number": "169",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/169_Heavy Explosive Expert.png"
+			}
+		},
+		{
+			"name": "Elemental Channeler",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Artificer ",
+			"collector_number": "163",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/163_Elemental Channeler.png"
+			}
+		},
+		{
+			"name": "Collapsing Skies",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "160",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/160_Collapsing Skies.png"
+			}
+		},
+		{
+			"name": "Both Barrels",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
+			"collector_number": "155",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/155_Both Barrels.png"
+			}
+		},
+		{
+			"name": "Ember Miner",
+			"rarity": "rare",
+			"mana_cost": "{5}{G}",
+			"type": "Creature — Human Citizen ",
+			"collector_number": "192",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/192_Ember Miner.png"
+			}
+		},
+		{
+			"name": "Elite Death Corps",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Scout Warrior ",
+			"collector_number": "191",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/191_Elite Death Corps.png"
+			}
+		},
+		{
+			"name": "Smog Born Inquisitor",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Inquisitor Rogue ",
+			"collector_number": "216",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/216_Smog Born Inquisitor.png"
+			}
+		},
+		{
+			"name": "Wildfire Walker",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Artifact Creature — Robot ",
+			"collector_number": "222",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/222_Wildfire Walker.png"
+			}
+		},
+		{
+			"name": "Gibbering Mouther",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Mutant ",
+			"collector_number": "197",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/197_Gibbering Mouther.png"
+			}
+		},
+		{
+			"name": "Inquisitor's Mark",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Sorcery",
+			"collector_number": "201",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/201_Inquisitor's Mark.png"
+			}
+		},
+		{
+			"name": "Windumaer's Ambush",
+			"rarity": "rare",
+			"mana_cost": "{4}{G}{G}{G}",
+			"type": "Instant",
+			"collector_number": "223",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/223_Windumaer's Ambush.png"
+			}
+		},
+		{
+			"name": "The All-Seeing",
+			"rarity": "rare",
+			"mana_cost": "{2}{C}",
+			"type": "Legendary Creature — Angel Eye ",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/1_The All-Seeing.png"
+			}
+		},
+		{
+			"name": "Explosive Lancer",
+			"rarity": "rare",
+			"mana_cost": "{3}{C}",
+			"type": "Creature — Homunculus Knight ",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/19_Explosive Lancer.png"
+			}
+		},
+		{
+			"name": "Horror Beyond Comprehension",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Instant",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/23_Horror Beyond Comprehension.png"
+			}
+		},
+		{
+			"name": "Smog Storm Elemental",
+			"rarity": "rare",
+			"mana_cost": "{1}{C}",
+			"type": "Creature — Elemental ",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/32_Smog Storm Elemental.png"
+			}
+		},
+		{
+			"name": "Mutated Mother Brain",
+			"rarity": "rare",
+			"mana_cost": "{4}{C}",
+			"type": "Creature — Mutant ",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/27_Mutated Mother Brain.png"
+			}
+		},
+		{
+			"name": "Volta Tower",
+			"rarity": "rare",
+			"mana_cost": "{3}{C}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "254",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/254_Volta Tower.png"
+			}
+		},
+		{
+			"name": "Horror of the Past",
+			"rarity": "rare",
+			"mana_cost": "{4}{C}",
+			"type": "Instant",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/24_Horror of the Past.png"
+			}
+		},
+		{
+			"name": "The Shadowless",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Legendary Artifact — Vehicle ",
+			"collector_number": "253",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/253_The Shadowless.png"
+			}
+		},
+		{
+			"name": "Eldritch Conduit Station",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "250",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/250_Eldritch Conduit Station.png"
+			}
+		},
+		{
+			"name": "Corner Market",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "258",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/258_Corner Market.png"
+			}
+		},
+		{
+			"name": "Homuncunaut",
+			"rarity": "rare",
+			"mana_cost": "{2}{C}{U}",
+			"type": "Creature — Homunculus Juggernaut ",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/87_Homuncunaut.png"
+			}
+		},
+		{
+			"name": "Major Georgiana Blast",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{R}",
+			"type": "Legendary Creature — Human Soldier ",
+			"collector_number": "236",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/236_Major Georgiana Blast.png"
+			}
+		},
+		{
+			"name": "People Milling About",
+			"rarity": "rare",
+			"mana_cost": "{G}{W}",
+			"type": "Creature — Citizen ",
+			"collector_number": "237",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/237_People Milling About.png"
+			}
+		},
+		{
+			"name": "Rebuilt Magpie",
+			"rarity": "mythic",
+			"mana_cost": "{W}{U}",
+			"type": "Artifact Creature — Bird Cyborg ",
+			"collector_number": "239",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/239_Rebuilt Magpie.png"
+			}
+		},
+		{
+			"name": "Spellweaver Poet",
+			"rarity": "mythic",
+			"mana_cost": "{1}{U}{B}",
+			"type": "Creature — Illithid Vampire Bard ",
+			"collector_number": "242",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/242_Spellweaver Poet.png"
+			}
+		},
+		{
+			"name": "Doomed Last Stand",
+			"rarity": "mythic",
+			"mana_cost": "{3}{B}{R}",
+			"type": "Sorcery",
+			"collector_number": "229",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/229_Doomed Last Stand.png"
+			}
+		},
+		{
+			"name": "Coal Fire Dragon",
+			"rarity": "mythic",
+			"mana_cost": "{2}{R}{G}",
+			"type": "Artifact Creature — Dragon Cyborg ",
+			"collector_number": "226",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/226_Coal Fire Dragon.png"
+			}
+		},
+		{
+			"name": "Enlightened Couple",
+			"rarity": "mythic",
+			"mana_cost": "{G}{W}",
+			"type": "Creature — Human Citizen ",
+			"collector_number": "231",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/231_Enlightened Couple.png"
+			}
+		},
+		{
+			"name": "The Puppet King",
+			"rarity": "mythic",
+			"mana_cost": "{1}{W}{B}",
+			"type": "Legendary Creature — Human Noble ",
+			"collector_number": "238",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/238_The Puppet King.png"
+			}
+		},
+		{
+			"name": "Steam Wasp",
+			"rarity": "mythic",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Artifact Creature — Cyborg Hero Artificer ",
+			"collector_number": "243",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/243_Steam Wasp.png"
+			}
+		},
+		{
+			"name": "Hortense, the Iron Mask",
+			"rarity": "mythic",
+			"mana_cost": "{X}{1}{B}{G}",
+			"type": "Legendary Creature — Inquisitor ",
+			"collector_number": "234",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/234_Hortense, the Iron Mask.png"
+			}
+		},
+		{
+			"name": "Rooftop Runner",
+			"rarity": "mythic",
+			"mana_cost": "{1}{R}{W}",
+			"type": "Creature — Human Artificer Warrior ",
+			"collector_number": "240",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/240_Rooftop Runner.png"
+			}
+		},
+		{
+			"name": "The Caged Avatar",
+			"rarity": "mythic",
+			"mana_cost": "{2}{G}{U}",
+			"type": "Legendary Creature — Avatar ",
+			"collector_number": "225",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/225_The Caged Avatar.png"
+			}
+		},
+		{
+			"name": "Eyes of Eternity",
+			"rarity": "mythic",
+			"mana_cost": "{1}{C}{W}",
+			"type": "Creature — Angel Eye ",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/49_Eyes of Eternity.png"
+			}
+		},
+		{
+			"name": "Eldritch Reliquary",
+			"rarity": "mythic",
+			"mana_cost": "{1}{C}{U}",
+			"type": "Legendary Artifact",
+			"collector_number": "80",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/80_Eldritch Reliquary.png"
+			}
+		},
+		{
+			"name": "Horror of War",
+			"rarity": "mythic",
+			"mana_cost": "{2}{C}{B}",
+			"type": "Legendary Creature — Avatar Horror ",
+			"collector_number": "130",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/130_Horror of War.png"
+			}
+		},
+		{
+			"name": "Volta Force",
+			"rarity": "mythic",
+			"mana_cost": "{C}{R}",
+			"type": "Creature — Elemental Soldier ",
+			"collector_number": "186",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/186_Volta Force.png"
+			}
+		},
+		{
+			"name": "Mutant Overlord",
+			"rarity": "mythic",
+			"mana_cost": "{2}{C}{G}",
+			"type": "Legendary Creature — Avatar Mutant ",
+			"collector_number": "206",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/206_Mutant Overlord.png"
+			}
+		},
+		{
+			"name": "Local Hero",
+			"rarity": "mythic",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Citizen ",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/55_Local Hero.png"
+			}
+		},
+		{
+			"name": "Unholy Ceremony",
+			"rarity": "mythic",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "106",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/106_Unholy Ceremony.png"
+			}
+		},
+		{
+			"name": "It Who Walks the Night",
+			"rarity": "mythic",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Creature — Inquisitor Assassin ",
+			"collector_number": "133",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/133_It Who Walks the Night.png"
+			}
+		},
+		{
+			"name": "Overwhelming Assault",
+			"rarity": "mythic",
+			"mana_cost": "{X}{R}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "177",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/177_Overwhelming Assault.png"
+			}
+		},
+		{
+			"name": "Exalted Autocrat",
+			"rarity": "mythic",
+			"mana_cost": "{1}{G}",
+			"type": "Artifact Creature — Robot Noble ",
+			"collector_number": "195",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/195_Exalted Autocrat.png"
+			}
+		},
+		{
+			"name": "Contact the Great Beyond",
+			"rarity": "mythic",
+			"mana_cost": "{2}{C}",
+			"type": "Sorcery",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/11_Contact the Great Beyond.png"
+			}
+		},
+		{
+			"name": "The Mad Wizard",
+			"rarity": "mythic",
+			"mana_cost": "{2}{C}{U}",
+			"type": "Legendary Creature — Wizard ",
+			"collector_number": "88",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/88_The Mad Wizard.png"
+			}
+		},
+		{
+			"name": "High Officer Grant",
+			"rarity": "mythic",
+			"mana_cost": "{2}{B}{R}",
+			"type": "Legendary Creature — Human Soldier Noble ",
+			"collector_number": "233",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/233_High Officer Grant.png"
+			}
+		},
+		{
+			"name": "Dack, Eternity Runner",
+			"rarity": "mythic",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Legendary Planeswalker — Dack ",
+			"collector_number": "227",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/227_Dack, Eternity Runner.png"
+			}
+		},
+		{
+			"name": "Windumaer of the People",
+			"rarity": "mythic",
+			"mana_cost": "{1}{G}{W}",
+			"type": "Legendary Planeswalker — Windumaer ",
+			"collector_number": "247",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/247_Windumaer of the People.png"
+			}
+		},
+		{
+			"name": "Gax'lin, Unleashed",
+			"rarity": "mythic",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Legendary Planeswalker — Gax’lin ",
+			"collector_number": "125",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/125_Gax'lin, Unleashed.png"
+			}
+		},
+		{
+			"name": "The Seeker, Planar Drifter",
+			"rarity": "mythic",
+			"mana_cost": "{9}",
+			"type": "Legendary Planeswalker — Seeker ",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/29_The Seeker, Planar Drifter.png"
+			}
+		},
+		{
+			"name": "Plains",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Plains ",
+			"collector_number": "273",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/273_Plains.png"
+			}
+		},
+		{
+			"name": "Island",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Island ",
+			"collector_number": "274",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/274_Island.png"
+			}
+		},
+		{
+			"name": "Swamp",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Swamp ",
+			"collector_number": "275",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/275_Swamp.png"
+			}
+		},
+		{
+			"name": "Mountain",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Mountain ",
+			"collector_number": "276",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/276_Mountain.png"
+			}
+		},
+		{
+			"name": "Forest",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Forest ",
+			"collector_number": "277",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/277_Forest.png"
+			}
+		},
+		{
+			"name": "Wastes",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land",
+			"collector_number": "272",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/272_Wastes.png"
+			}
+		},
+		{
+			"name": "Soldier",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact Creature — Soldier ",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/14_Soldier.png"
+			}
+		},
+		{
+			"name": "Inquisitor",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Inquisitor ",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/8_Inquisitor.png"
+			}
+		},
+		{
+			"name": "Bird",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Bird ",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/4_Bird.png"
+			}
+		},
+		{
+			"name": "Citizen",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact Creature — Citizen ",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/9_Citizen.png"
+			}
+		},
+		{
+			"name": "Elemental",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Elemental ",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/7_Elemental.png"
+			}
+		},
+		{
+			"name": "Golem",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact Creature — Golem ",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/12_Golem.png"
+			}
+		},
+		{
+			"name": "Homunculus",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact Creature — Homunculus ",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/13_Homunculus.png"
+			}
+		},
+		{
+			"name": "Food",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Food ",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/11_Food.png"
+			}
+		},
+		{
+			"name": "Spirit",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Spirit ",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/5_Spirit.png"
+			}
+		},
+		{
+			"name": "Treasure",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Treasure ",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/15_Treasure.png"
+			}
+		},
+		{
+			"name": "Weapon",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Equipment ",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/16_Weapon.png"
+			}
+		},
+		{
+			"name": "Tentacle",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Tentacle ",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/6_Tentacle.png"
+			}
+		},
+		{
+			"name": "Horror",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Horror ",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/1_Horror.png"
+			}
+		},
+		{
+			"name": "Clue",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Clue ",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/10_Clue.png"
+			}
+		},
+		{
+			"name": "Illusion",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Illusion ",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/2_Illusion.png"
+			}
+		},
+		{
+			"name": "Velencium City of Smog Draft Archetypes",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Reminder",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https:///sets/SMG-files/img/3_Velencium City of Smog Draft Archetypes.png"
+			}
+		}
+	]
+[RareSlot(1)]
+2 Astute Advisor
+2 Baroness Anastasia Huff
+2 Bronze-Wrench Tinkerer
+2 Elite Anarchist
+2 The Sound of Silence
+2 Smogspewer Carriage
+2 Explosive Homing Round
+2 Research Assistant
+2 Enthralling Illithid
+2 Telepathic Mechanist
+2 Metallurgic Magistrate
+2 Homunculus Lantern Bearer
+2 Emerge from the Multiverse
+2 Self-Alteration
+2 Gross Glutton
+2 Catacomb Skull Collector
+2 Hardened Artillery Unit
+2 Inquisitor Alchemist
+2 Heavy Smog
+2 Reap the Trenches
+2 Excessively Ancient Minister
+2 Coal Golem
+2 Spider Guard Suit
+2 Mounted Gun
+2 Heavy Explosive Expert
+2 Elemental Channeler
+2 Collapsing Skies
+2 Both Barrels
+2 Ember Miner
+2 Elite Death Corps
+2 Smog Born Inquisitor
+2 Wildfire Walker
+2 Gibbering Mouther
+2 Inquisitor's Mark
+2 Windumaer's Ambush
+2 The All-Seeing
+2 Explosive Lancer
+2 Horror Beyond Comprehension
+2 Smog Storm Elemental
+2 Mutated Mother Brain
+2 Volta Tower
+2 Horror of the Past
+2 The Shadowless
+2 Eldritch Conduit Station
+2 Corner Market
+2 Homuncunaut
+2 Major Georgiana Blast
+2 People Milling About
+1 Rebuilt Magpie
+1 Spellweaver Poet
+1 Doomed Last Stand
+1 Coal Fire Dragon
+1 Enlightened Couple
+1 The Puppet King
+1 Steam Wasp
+1 Hortense, the Iron Mask
+1 Rooftop Runner
+1 The Caged Avatar
+1 Eyes of Eternity
+1 Eldritch Reliquary
+1 Horror of War
+1 Volta Force
+1 Mutant Overlord
+1 Local Hero
+1 Unholy Ceremony
+1 It Who Walks the Night
+1 Overwhelming Assault
+1 Exalted Autocrat
+1 Contact the Great Beyond
+1 The Mad Wizard
+1 High Officer Grant
+1 Dack, Eternity Runner
+1 Windumaer of the People
+1 Gax'lin, Unleashed
+1 The Seeker, Planar Drifter
+[UncommonSlot(3)]
+9 Parliament of Owls
+9 Wandering Diplomats
+9 Multipurpose Janitorial Robot
+9 Nobles' Ball
+9 Delightful Merchant
+9 Mass Gathering
+9 All-Knowing
+9 Glorious Swords
+9 Mechanical Savant
+9 Inferno Suit
+9 Bore to Death
+9 Bind the Trespasser
+9 Aethergale Wings
+9 Disassemble
+9 Smog Strider Illithid
+9 Reality Shear
+9 Welded Protection Suit
+9 Union Welder
+9 Smogform
+9 Aerial Striker
+9 Wartorn Homunculus
+9 Reject Reality
+9 Reborn Maiden
+9 Backroom Dealings
+9 Nightwalker
+9 Psyche Charger
+9 Arditi Imperious
+9 Lady Blackrock Scales
+9 Unhinged Inquisitor
+9 Sting of the Night
+9 Lost Clergy
+9 Spring Heeled Stalker
+9 Dissect
+9 Lightning Arrest
+9 Lively Spark
+9 Iron Horse
+9 Stilt Walker
+9 Steel Shotgunner
+9 Fearless Trooper
+9 Barrage and Charge
+9 Coal Shoveler
+9 Eldritch Hunter
+9 Gas Tainted Soldier
+9 Rage Mage
+9 Proven Pugilist
+9 Doting Family
+9 Sludge Crawler
+9 Smashing Scrapper
+9 Nightwatch Inquisitor
+9 Inquisitor Matriarch
+9 Mass Extraction Rig
+9 Self-Propelled Heavy Suit
+9 Mutant Colossus
+9 Mutated Businessmen
+9 Imperial Agent
+9 Eyes of Infinity
+9 Angel of Binding Sight
+9 Cycle of Creation
+9 Shadow Gatherer
+9 Exploratory Fighter
+9 Death Scythe Inquisitor
+9 Soul Tear
+9 Storm Being
+9 Channel Storms
+9 Anti-Armor Regulator
+9 Discover Eternity's Heart
+9 Orb Warden Angel
+9 Radio Operator
+9 Mindwrath Horror
+9 Smoke Hound
+9 Mutated Berserker
+9 War Council
+9 Supreme Mindlord
+9 Wreckage Team
+9 Union Miners
+9 Solidarity Forever
+9 Eloquent Aristocrat
+9 Aeronaut Grenadier
+9 Feather-Wing Inquisitor
+9 Mad Maker
+9 Distorted Scarecrow
+[CommonSlot(10)]
+30 Poor Orphan
+30 Elegant Debutante
+30 Elegant Newlyweds
+30 Holy Seer
+30 Good-Hearted Cleric
+30 Advisor's Familiar
+30 Scrap Metal Recycler
+30 Restless Steelworkers
+30 Militant Advisor
+30 Crashing Robot
+30 Half-Finished Golem
+30 Midnight Terror
+30 Executionary Advice
+30 Warp Universes
+30 Windumaer's Strike
+30 Overindulgence
+30 Supply Engineer
+30 Quick Counselor
+30 Automated Officer
+30 Eldritch Rifleman
+30 Smogwalker
+30 Eternities Warped Illithid
+30 Mind Drain Illithid
+30 Reality Searcher
+30 Well-Read Tutor
+30 Abhuman Construct
+30 Warp Mind
+30 Artificer's Curiosity
+30 Escape the Coppers
+30 Reality Bind
+30 Squad Up
+30 Take Flight
+30 Faceless Thing
+30 Bog Scarecrow
+30 Bogborn Inquisitor
+30 Plague Burner
+30 Night Flayer
+30 Stern Noble
+30 Charging Line
+30 Inhumane Inhuman
+30 Plague-Born Inquisitor
+30 Artifical Inquisitor
+30 Shadow of the Night
+30 Heavy Tank
+30 Mind Tear
+30 Attack of the Dead Men
+30 Extensive Entrenchment
+30 The Creeping Shadow of Plague
+30 Burning Coal Drake
+30 Sparking Lightbulb
+30 Lumberjack Suit
+30 Blazeback Soldier
+30 Heavy Artillery Brigade
+30 Excited Aeronaut
+30 Runaway Guncar
+30 Electrified Deathsuit
+30 Promethean Soldier
+30 Armored Personnel Carrier
+30 Last-Ditch Explosive
+30 Explosive Thoughts
+30 Burn the Wreckage
+30 Birth of Death
+30 Heavy Mining Operation
+30 Arc Field
+30 Acid Spitter Mutant
+30 Lotus Harvester
+30 Violent Assembly
+30 Plague Spreader
+30 Enraged Forgemaster
+30 Smogborn Hunter
+30 Omen Cart Rider
+30 Warp Puncher
+30 Faceless Mutant
+30 Giga-Shark
+30 Bleakwind Ranger
+30 Steel Skinned Inquisitor
+30 Don the Masks
+30 Tis Just a Small Prick
+30 Emerge From the Depths
+30 Maximize Size
+30 Masked Horrors
+30 Artifical Elite
+30 Smokestack Elemental
+30 Coalhound
+30 Bleak Shadow
+30 Seer of Eternities
+30 Homunculus Grenadier
+30 Mutant Trainer
+30 Death-Sycthe Harvester
+30 Radiant Ophanim
+30 Death Rager Homunculus
+30 Eldritch Mutant
+30 Charge Through the Gas
+30 Blind the Unholy
+30 Eye of Wonder
+30 Ashen Rebirth
+30 Colossal Golem
+30 Intrepid Machine
+30 Forgemaster Golem
+30 Terramorphic Expanse
+[LandSlot(1)]
+10 The Upper Parliament
+10 Industrialized Crossing
+10 Industrial Plant
+10 Back Alley Bar
+10 City Outskirts
+10 Elegant Restaurant
+10 Filigree Laboratory
+10 Castle in the Woods
+10 Molten Forge
+10 Murky Canal
+10 Technologic Reliquary
+10 Eldritch Observatory
+10 Etched Tower
+10 Titanic Junkyard
+10 Eldritch Laboratory
