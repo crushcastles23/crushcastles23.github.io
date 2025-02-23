@@ -3649,3 +3649,78 @@
 30 Merchant's Terminal
 30 Digital City
 30 Timsah Crasher
+[LandSlot(1)]
+10 Abeyance
+10 Swords to Plowshares
+10 Master's Call
+10 Herald of Faith
+10 Cloud Crusader
+10 Kill Shot
+10 Felidar Guardian
+10 Alley Evasion
+10 Stasis Snare
+10 Moment of Heroism
+10 Metallurgeon
+10 Divination
+10 Aviation Pioneer
+10 Vivisection
+10 Octoprophet
+10 Reduce in Stature
+10 Cruel Witness
+10 Phantom Warrior
+10 Shrieking Drake
+10 Spell Crumple
+10 Vizzerdrix
+10 Duress
+10 Zombify
+10 Blood Artist
+10 Slum Reaper
+10 Blighted Bat
+10 Crucify
+10 Twisted Experiment
+10 Vile Entomber
+10 Open the Graves
+10 Dogged Detective
+10 Bloodthirster
+10 Scrap
+10 Goblin Rally
+10 Unexpected Windfall
+10 Prodigal Pyromancer
+10 Fireball
+10 Thrill of Possibility
+10 Lightning Strike
+10 Shock
+10 Hijack
+10 Kurgadon
+10 Jewel-Eye Cobra
+10 Tracker
+10 Colossal Dreadmaw
+10 Saber Ants
+10 Barroom Brawl
+10 Plummet
+10 Eldritch Evolution
+10 Ridgescale Tusker
+10 Prodigious Growth
+10 Skittering Surveyor
+10 Sky Skiff
+10 Solemn Simulacrum
+10 Spy Kit
+10 Meteor Golem
+10 Planar Portal
+10 Smuggler's Copter
+10 Planar Gate
+10 City of Brass
+10 Evolving Wilds
+10 Rupture Spire
+10 Teferi's Puzzle Box
+10 Diamond Knight
+10 Chrome Courier
+10 Soaring Thought-Thief
+10 Blood Cultist
+10 Sunder Shaman
+10 Belligerent Brontodon
+10 Sin Collector
+10 Spellbound Dragon
+10 Acolyte of Affliction
+10 Sky Terror
+10 Progenitor Mimic
