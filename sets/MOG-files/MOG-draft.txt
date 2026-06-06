@@ -2951,6 +2951,7 @@
 	5 Dagaal, Warmaster
 	5 Koth, the Burning Mountain
 	5 Ellira, the Living Darkness
+[special(2)]
 [uncommon(3)]
 	5 Casesuvan Shaman
 	5 Bird Rider
@@ -3032,7 +3033,7 @@
 	5 Ancient Burial Grounds
 	5 Scorched Grasslands
 	5 Flooded Temple
-[common(10)]
+[common(8)]
 	5 War Hawk
 	5 Mutated Griffin
 	5 Salveran Lizard Bird

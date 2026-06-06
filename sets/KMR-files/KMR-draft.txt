@@ -2901,6 +2901,8 @@
 	5 Karada, the Reaver
 	5 Nahiri, the Stoneforged
 	5 Tamiyo, Grand Archivist
+[special(2)]
+	5 O-Kagachi Reborn
 [uncommon(3)]
 	5 Bomei, the Forsaken Blade
 	5 Tobusai, Crashing Monk
@@ -2982,7 +2984,7 @@
 	5 Shiri, Death's Seer
 	5 Buki, Arms Dealer
 	5 Edamaro, First to See
-[common(10)]
+[common(8)]
 	5 Aurora Kirin
 	5 Honden of Healing Grace
 	5 Agile Monk

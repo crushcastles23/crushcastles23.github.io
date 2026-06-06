@@ -2915,6 +2915,7 @@
 	5 Agni, Fire Dancer
 	5 Ringen, Interplanar Champion
 	5 Auraro, the Shifting Tide
+[special(2)]
 [uncommon(3)]
 	5 Roundhouse Striker
 	5 Shifting Striker
@@ -2996,7 +2997,7 @@
 	5 Thrull Conversion
 	5 Magnificent Performance
 	5 Unrestricted Growth
-[common(10)]
+[common(8)]
 	5 Bardic Bird
 	5 Fleetwing Knight
 	5 Abaja Leaper

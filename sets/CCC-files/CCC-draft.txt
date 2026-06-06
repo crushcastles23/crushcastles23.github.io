@@ -3813,5 +3813,6 @@
 	]
 
 [rare(1)]
+[special(2)]
 [uncommon(3)]
-[common(10)]
+[common(8)]

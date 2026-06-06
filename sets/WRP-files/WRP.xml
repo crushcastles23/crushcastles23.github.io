@@ -3,7 +3,7 @@
 	<sets>
 		<set>
 			<name>WRP</name>
-			<longname></longname>
+			<longname>Warp</longname>
 			<settype>Custom</settype>
 			<releasedate>2026-06-06</releasedate>
 		</set>

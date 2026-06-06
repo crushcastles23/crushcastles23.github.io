@@ -3472,6 +3472,82 @@
 	5 The Seeker
 	5 Teferi, Ageless Scholar
 	5 Hugo, Hardened Criminal
+[special(2)]
+	5 Abeyance
+	5 Swords to Plowshares
+	5 Master's Call
+	5 Herald of Faith
+	5 Cloud Crusader
+	5 Kill Shot
+	5 Felidar Guardian
+	5 Alley Evasion
+	5 Stasis Snare
+	5 Moment of Heroism
+	5 Metallurgeon
+	5 Divination
+	5 Aviation Pioneer
+	5 Vivisection
+	5 Octoprophet
+	5 Reduce in Stature
+	5 Cruel Witness
+	5 Phantom Warrior
+	5 Shrieking Drake
+	5 Spell Crumple
+	5 Vizzerdrix
+	5 Duress
+	5 Zombify
+	5 Blood Artist
+	5 Slum Reaper
+	5 Blighted Bat
+	5 Crucify
+	5 Twisted Experiment
+	5 Vile Entomber
+	5 Open the Graves
+	5 Dogged Detective
+	5 Bloodthirster
+	5 Scrap
+	5 Goblin Rally
+	5 Unexpected Windfall
+	5 Prodigal Pyromancer
+	5 Fireball
+	5 Thrill of Possibility
+	5 Lightning Strike
+	5 Shock
+	5 Hijack
+	5 Kurgadon
+	5 Jewel-Eye Cobra
+	5 Tracker
+	5 Colossal Dreadmaw
+	5 Saber Ants
+	5 Barroom Brawl
+	5 Plummet
+	5 Eldritch Evolution
+	5 Ridgescale Tusker
+	5 Prodigious Growth
+	5 Skittering Surveyor
+	5 Sky Skiff
+	5 Solemn Simulacrum
+	5 Spy Kit
+	5 Meteor Golem
+	5 Planar Portal
+	5 Smuggler's Copter
+	5 Planar Gate
+	5 Contested War Zone
+	5 City of Brass
+	5 Evolving Wilds
+	5 Rupture Spire
+	5 Teferi's Puzzle Box
+	5 Diamond Knight
+	5 Chrome Courier
+	5 Soaring Thought-Thief
+	5 Blood Cultist
+	5 Sunder Shaman
+	5 Belligerent Brontodon
+	5 Sin Collector
+	5 Spellbound Dragon
+	5 Acolyte of Affliction
+	5 Sky Terror
+	5 Progenitor Mimic
 [uncommon(3)]
 	5 Hired Hit
 	5 Steelborn Wanderer
@@ -3548,7 +3624,7 @@
 	5 Verlig, Outland Officer
 	5 Intore, Elite Arms Dealer
 	5 Pulse, Portal Jumper
-[common(10)]
+[common(8)]
 	5 Gliding Guardian
 	5 Wasp-8 Strike Wing
 	5 Sword Storm Angel

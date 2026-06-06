@@ -1,6 +1,11 @@
 {
 	"gradients":[
 	{
+		"name":"Sea Blue",
+		"color1":"#2b5876",
+		"color2":"#4e4376"
+	},
+	{
 		"name":"Purple White",
 		"color1":"#ba5370",
 		"color2":"#f4e2d8"
@@ -154,11 +159,6 @@
 		"name":"Peach",
 		"color1":"#ed4264",
 		"color2":"#ffedbc"
-	},
-	{
-		"name":"Sea Blue",
-		"color1":"#2b5876",
-		"color2":"#4e4376"
 	},
 	{
 		"name":"Orange Coral",

@@ -3008,6 +3008,7 @@
 	5 Windumaer of the People
 	5 Gax'lin, Unleashed
 	5 The Seeker, Planar Drifter
+[special(2)]
 [uncommon(3)]
 	5 Parliament of Owls
 	5 Wandering Diplomats
@@ -3105,7 +3106,7 @@
 	5 Feather-Wing Inquisitor
 	5 Mad Maker
 	5 Distorted Scarecrow
-[common(10)]
+[common(8)]
 	5 Poor Orphan
 	5 Elegant Debutante
 	5 Elegant Newlyweds

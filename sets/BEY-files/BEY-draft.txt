@@ -3248,6 +3248,7 @@
 	5 Volta the Innovator
 	5 Herox, the Wildblade
 	5 Interplanar Interloper
+[special(2)]
 [uncommon(3)]
 	5 KRAB-M7 Mobile Combat Unit
 	5 Ash Blossom Sliver
@@ -3336,7 +3337,7 @@
 	5 Catinas, Star Fighter
 	5 Mutagenic Core
 	5 Patchwork Automaton
-[common(10)]
+[common(8)]
 	5 Gem-Wing Drake
 	5 Sky Lancer
 	5 Wasp Strike Fighter

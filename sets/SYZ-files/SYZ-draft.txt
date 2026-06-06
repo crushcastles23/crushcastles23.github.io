@@ -2911,6 +2911,8 @@
 	5 Gax'lin, the Eldritch
 	5 Trogat, Starstruck
 	5 Pye'Bwa, Eternal Bloom
+[special(2)]
+	5 Blood Strike (Promo)
 [uncommon(3)]
 	5 Airon, the Guardian
 	5 Moon-Feather Druid
@@ -2997,7 +2999,7 @@
 	5 Gloomy Marsh
 	5 Frozen Peaks
 	5 Verdant Savageland
-[common(10)]
+[common(8)]
 	5 Bardic Bird
 	5 Gustblown Archer
 	5 Sky Ranger

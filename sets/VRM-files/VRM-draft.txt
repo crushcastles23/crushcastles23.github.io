@@ -2447,6 +2447,7 @@
 	5 Razeck, Great General
 	5 Chandra, Burning Spirit
 	5 Vera, Frost Mage
+[special(2)]
 [uncommon(3)]
 	5 Coastal Village
 	5 Marshlands
@@ -2509,7 +2510,7 @@
 	5 Bloodletter Shaman
 	5 Seasoned Veteran
 	5 Frost-Wind Scout
-[common(10)]
+[common(8)]
 	5 Inspired Warrior
 	5 Frost-Shield Crasher
 	5 Star Thrower
