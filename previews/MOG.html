@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="../sets/MOG-files/icon.png"/>
+	<link rel="stylesheet" href="../resources/header.css">
+	<title>MOG visual preview</title>
+	<script title="root">
+		const rootPath = "..";
+	</script>
+	<style>
+		@font-face {
+			font-family: Beleren;
+			src: url('../resources/beleren.ttf');
+		}
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			opacity: 0;
+			transform: rotateY(0deg) rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+			border-radius: 3.733% / 2.677%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+			border-radius: 3.733% / 2.677%;
+		}
+		.close-btn {
+			background: url('../img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('../img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+			border-radius: 3.733% / 2.677%;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 80px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+			border-radius: 3.733% / 2.677%;
+		}
+		.flip-btn {
+			background: url('../img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('../img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.dropdown {
+			background: rgba(23, 23, 23, 0.8);
+			border-radius: 8px;
+			position: absolute;
+			left: 5%;
+			width: fit-content;
+			max-width: 90%;
+			margin: 20px 0;
+			padding: 5px 0;
+			display: grid;
+			grid-template-columns: 1fr;
+			z-index: 3;
+		}
+		.dropdown .set-bar {
+			font-family: Beleren;
+			font-size: 20px;
+			text-decoration: none;
+			color: #e3e3e3;
+			display: flex;
+			gap: 10px;
+			align-items: center;
+			padding: 0 12px;
+			margin: 5px;
+		}
+		.dropdown .set-bar:hover {
+			background: rgba(163, 163, 163, 0.5);
+			color: #f3f3f3;
+		}
+		.dropdown .set-bar img {
+			width: 32px;
+		}
+		.dropdown .inactive {
+			height: 0px;
+			overflow: hidden;
+			margin: 0px 5px;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		.addenda-container {
+			text-align: center;
+			width: fit-content;
+			max-width: 1200px;
+			padding: 0 5%;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="../img/dot.png" />
+	<img class="preload-hidden" src="../sets/MOG-files/logo.png" />
+	<img class="preload-hidden" src="../sets/BEY-files/icon.png" />
+		<img class="preload-hidden" src="../sets/CCC-files/icon.png" />
+		<img class="preload-hidden" src="../sets/KMR-files/icon.png" />
+		<img class="preload-hidden" src="../sets/MAD-files/icon.png" />
+		<img class="preload-hidden" src="../sets/MOG-files/icon.png" />
+		<img class="preload-hidden" src="../sets/SMG-files/icon.png" />
+		<img class="preload-hidden" src="../sets/SYZ-files/icon.png" />
+		<img class="preload-hidden" src="../sets/TCS-files/icon.png" />
+		<img class="preload-hidden" src="../sets/VRM-files/icon.png" />
+		<img class="preload-hidden" src="../sets/WRP-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a onclick="window.location.href = rootPath + '/'"><img class="sg-logo" id="header-banner"></a>
+			<img class="sg-icon" id="header-search" onclick="goToSearch()">
+			<div style="position: relative; width: 100%;">
+				<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+				<div id="tag-dropdown" style="display: none; position: absolute; top: 100%; left: 0; width: 100%; background: white; border: 1px solid #d5d9d9; z-index: 1000; max-height: 200px; overflow-y: auto; color: black; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></div>
+			</div>
+			<a onclick="window.location.href = rootPath + '/all-sets'"><img id="header-sets" class="sg-icon">Sets</a>
+			<a onclick="window.location.href = rootPath + '/deckbuilder'"><img id="header-deck" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img id="header-random" class="sg-icon">Random</a>
+		</div>
+	</div>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			document.getElementById("header-banner").src = rootPath + "/img/banner.png";
+			document.getElementById("header-search").src = rootPath + "/img/search.png";
+			document.getElementById("header-sets").src = rootPath + "/img/sets.png";
+			document.getElementById("header-deck").src = rootPath + "/img/deck.png";
+			document.getElementById("header-random").src = rootPath + "/img/random.png";
+		});
+
+		function goToSearch() {
+			window.location.href = rootPath + "/search";
+		}
+	</script>
+
+	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+	
+		<a class="set-bar" href="../previews/MOG"><img src="../sets/MOG-files/icon.png">Moag</a>
+	
+		<a class="set-bar inactive" href="../previews/BEY"><img src="../sets/BEY-files/icon.png">Beyond the Event Horizon</a>
+	
+		<a class="set-bar inactive" href="../previews/CCC"><img src="../sets/CCC-files/icon.png">Custom Chaos Cube</a>
+	
+		<a class="set-bar inactive" href="../previews/KMR"><img src="../sets/KMR-files/icon.png">Kamigawa Reborn</a>
+	
+		<a class="set-bar inactive" href="../previews/MAD"><img src="../sets/MAD-files/icon.png">Mad World</a>
+	
+		<a class="set-bar inactive" href="../previews/SMG"><img src="../sets/SMG-files/icon.png">Velencium: City of Smog</a>
+	
+		<a class="set-bar inactive" href="../previews/SYZ"><img src="../sets/SYZ-files/icon.png">Syèlzile: Islands in the Sky</a>
+	
+		<a class="set-bar inactive" href="../previews/TCS"><img src="../sets/TCS-files/icon.png">Twilight City Stories</a>
+	
+		<a class="set-bar inactive" href="../previews/VRM"><img src="../sets/VRM-files/icon.png">Valla Remastered</a>
+	
+		<a class="set-bar inactive" href="../previews/WRP"><img src="../sets/WRP-files/icon.png"></a>
+	
+		</div>
+		<div class="banner">
+		<img class="logo" src="../sets/MOG-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+					<div class="container"><img loading="lazy" alt="sets\MOG-files\img\18_Gideon, Savior of the Damned.png" id="MOG_18_Gideon, Savior of the Damned" data-flag="@X" onclick="openSidebar('MOG_18_Gideon, Savior of the Damned',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\51_Gandusar, Lord of Thought.png" id="MOG_51_Gandusar, Lord of Thought" data-flag="@X" onclick="openSidebar('MOG_51_Gandusar, Lord of Thought',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\96_Ellira, the Living Darkness.png" id="MOG_96_Ellira, the Living Darkness" data-flag="@X" onclick="openSidebar('MOG_96_Ellira, the Living Darkness',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\148_Kaz-Nek, Goblin Warmaster.png" id="MOG_148_Kaz-Nek, Goblin Warmaster" data-flag="@X" onclick="openSidebar('MOG_148_Kaz-Nek, Goblin Warmaster',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\206_Tulusar, Lord of the Hunt.png" id="MOG_206_Tulusar, Lord of the Hunt" data-flag="@X" onclick="openSidebar('MOG_206_Tulusar, Lord of the Hunt',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\22_Jaxusar, Lord of the Wastes.png" id="MOG_22_Jaxusar, Lord of the Wastes" data-flag="@X" onclick="openSidebar('MOG_22_Jaxusar, Lord of the Wastes',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\64_Navar, Merfolk Warlord.png" id="MOG_64_Navar, Merfolk Warlord" data-flag="@X" onclick="openSidebar('MOG_64_Navar, Merfolk Warlord',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\102_Fulgusar, Lord of Death.png" id="MOG_102_Fulgusar, Lord of Death" data-flag="@X" onclick="openSidebar('MOG_102_Fulgusar, Lord of Death',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\149_Koth, the Burning Mountain.png" id="MOG_149_Koth, the Burning Mountain" data-flag="@X" onclick="openSidebar('MOG_149_Koth, the Burning Mountain',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\170_Casesuvan Lizard.png" id="MOG_170_Casesuvan Lizard" data-flag="@X" onclick="openSidebar('MOG_170_Casesuvan Lizard',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\24_Kelapeth Tirel, Hope of Moag.png" id="MOG_24_Kelapeth Tirel, Hope of Moag" data-flag="@X" onclick="openSidebar('MOG_24_Kelapeth Tirel, Hope of Moag',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\47_Deep Sea Merfolk.png" id="MOG_47_Deep Sea Merfolk" data-flag="@X" onclick="openSidebar('MOG_47_Deep Sea Merfolk',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\107_Namot, Dark Herald.png" id="MOG_107_Namot, Dark Herald" data-flag="@X" onclick="openSidebar('MOG_107_Namot, Dark Herald',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\162_Rasusar, Lord of the Arena.png" id="MOG_162_Rasusar, Lord of the Arena" data-flag="@X" onclick="openSidebar('MOG_162_Rasusar, Lord of the Arena',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\175_Consume the Dead.png" id="MOG_175_Consume the Dead" data-flag="@X" onclick="openSidebar('MOG_175_Consume the Dead',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\1_Ancient Monk.png" id="MOG_1_Ancient Monk" data-flag="@X" onclick="openSidebar('MOG_1_Ancient Monk',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\61_Merfolk Tidecaller.png" id="MOG_61_Merfolk Tidecaller" data-flag="@X" onclick="openSidebar('MOG_61_Merfolk Tidecaller',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\87_At All Costs.png" id="MOG_87_At All Costs" data-flag="@X" onclick="openSidebar('MOG_87_At All Costs',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\133_Channel Lightning.png" id="MOG_133_Channel Lightning" data-flag="@X" onclick="openSidebar('MOG_133_Channel Lightning',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\185_Forest's Reclamation.png" id="MOG_185_Forests Reclamation" data-flag="@X" onclick="openSidebar('MOG_185_Forests Reclamation',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\6_Ashen Extinction.png" id="MOG_6_Ashen Extinction" data-flag="@X" onclick="openSidebar('MOG_6_Ashen Extinction',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\63_Mind's Might.png" id="MOG_63_Minds Might" data-flag="@X" onclick="openSidebar('MOG_63_Minds Might',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\90_Consuming Plague.png" id="MOG_90_Consuming Plague" data-flag="@X" onclick="openSidebar('MOG_90_Consuming Plague',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\142_Goblin Lava Bottler.png" id="MOG_142_Goblin Lava Bottler" data-flag="@X" onclick="openSidebar('MOG_142_Goblin Lava Bottler',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\186_From the Shadows.png" id="MOG_186_From the Shadows" data-flag="@X" onclick="openSidebar('MOG_186_From the Shadows',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\7_Banisher Mystic.png" id="MOG_7_Banisher Mystic" data-flag="@X" onclick="openSidebar('MOG_7_Banisher Mystic',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\65_Peer Into the Future.png" id="MOG_65_Peer Into the Future" data-flag="@X" onclick="openSidebar('MOG_65_Peer Into the Future',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\98_Extract the Ancients.png" id="MOG_98_Extract the Ancients" data-flag="@X" onclick="openSidebar('MOG_98_Extract the Ancients',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\150_Koth's Disciple.png" id="MOG_150_Koths Disciple" data-flag="@X" onclick="openSidebar('MOG_150_Koths Disciple',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\191_Overgrown Centipede.png" id="MOG_191_Overgrown Centipede" data-flag="@X" onclick="openSidebar('MOG_191_Overgrown Centipede',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\8_Bear Arms.png" id="MOG_8_Bear Arms" data-flag="@X" onclick="openSidebar('MOG_8_Bear Arms',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\66_Phyrexian Animancer.png" id="MOG_66_Phyrexian Animancer" data-flag="@X" onclick="openSidebar('MOG_66_Phyrexian Animancer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\99_Faceless One.png" id="MOG_99_Faceless One" data-flag="@X" onclick="openSidebar('MOG_99_Faceless One',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\152_Lava River.png" id="MOG_152_Lava River" data-flag="@X" onclick="openSidebar('MOG_152_Lava River',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\192_Phyrexian Hunter.png" id="MOG_192_Phyrexian Hunter" data-flag="@X" onclick="openSidebar('MOG_192_Phyrexian Hunter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\14_Conjure Blades.png" id="MOG_14_Conjure Blades" data-flag="@X" onclick="openSidebar('MOG_14_Conjure Blades',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\68_Radisana Mimic.png" id="MOG_68_Radisana Mimic" data-flag="@X" onclick="openSidebar('MOG_68_Radisana Mimic',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\100_Feral Radisana.png" id="MOG_100_Feral Radisana" data-flag="@X" onclick="openSidebar('MOG_100_Feral Radisana',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\153_Lightning Gateway.png" id="MOG_153_Lightning Gateway" data-flag="@X" onclick="openSidebar('MOG_153_Lightning Gateway',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\193_Rampage.png" id="MOG_193_Rampage" data-flag="@X" onclick="openSidebar('MOG_193_Rampage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\23_Jaxusar's Elite.png" id="MOG_23_Jaxusars Elite" data-flag="@X" onclick="openSidebar('MOG_23_Jaxusars Elite',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\76_Soul Tear.png" id="MOG_76_Soul Tear" data-flag="@X" onclick="openSidebar('MOG_76_Soul Tear',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\108_Phyrexian Arena.png" id="MOG_108_Phyrexian Arena" data-flag="@X" onclick="openSidebar('MOG_108_Phyrexian Arena',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\155_Magmatic Ritual.png" id="MOG_155_Magmatic Ritual" data-flag="@X" onclick="openSidebar('MOG_155_Magmatic Ritual',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\200_Spined Hydra.png" id="MOG_200_Spined Hydra" data-flag="@X" onclick="openSidebar('MOG_200_Spined Hydra',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\26_Lead into Battle.png" id="MOG_26_Lead into Battle" data-flag="@X" onclick="openSidebar('MOG_26_Lead into Battle',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\79_Stormsurge.png" id="MOG_79_Stormsurge" data-flag="@X" onclick="openSidebar('MOG_79_Stormsurge',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\109_Phyrexian Sangumancer.png" id="MOG_109_Phyrexian Sangumancer" data-flag="@X" onclick="openSidebar('MOG_109_Phyrexian Sangumancer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\158_Overwhelming Power.png" id="MOG_158_Overwhelming Power" data-flag="@X" onclick="openSidebar('MOG_158_Overwhelming Power',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\201_Spreading Ooze.png" id="MOG_201_Spreading Ooze" data-flag="@X" onclick="openSidebar('MOG_201_Spreading Ooze',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\27_Life of Luxury.png" id="MOG_27_Life of Luxury" data-flag="@X" onclick="openSidebar('MOG_27_Life of Luxury',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\80_Study the Tomes.png" id="MOG_80_Study the Tomes" data-flag="@X" onclick="openSidebar('MOG_80_Study the Tomes',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\115_Ripping Darkness.png" id="MOG_115_Ripping Darkness" data-flag="@X" onclick="openSidebar('MOG_115_Ripping Darkness',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\159_Phyrexian Warrior.png" id="MOG_159_Phyrexian Warrior" data-flag="@X" onclick="openSidebar('MOG_159_Phyrexian Warrior',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\204_Treefolk Rider.png" id="MOG_204_Treefolk Rider" data-flag="@X" onclick="openSidebar('MOG_204_Treefolk Rider',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\31_Phyrexian Vastumancer.png" id="MOG_31_Phyrexian Vastumancer" data-flag="@X" onclick="openSidebar('MOG_31_Phyrexian Vastumancer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\82_Unbound Knowledge.png" id="MOG_82_Unbound Knowledge" data-flag="@X" onclick="openSidebar('MOG_82_Unbound Knowledge',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\123_Violent Disease.png" id="MOG_123_Violent Disease" data-flag="@X" onclick="openSidebar('MOG_123_Violent Disease',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\161_Radisana Dragon.png" id="MOG_161_Radisana Dragon" data-flag="@X" onclick="openSidebar('MOG_161_Radisana Dragon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\168_Appear From the Brush.png" id="MOG_168_Appear From the Brush" data-flag="@X" onclick="openSidebar('MOG_168_Appear From the Brush',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\35_Smog Eater Radisana.png" id="MOG_35_Smog Eater Radisana" data-flag="@X" onclick="openSidebar('MOG_35_Smog Eater Radisana',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\45_Biting Tether.png" id="MOG_45_Biting Tether" data-flag="@X" onclick="openSidebar('MOG_45_Biting Tether',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\125_Yixlid Jailer.png" id="MOG_125_Yixlid Jailer" data-flag="@X" onclick="openSidebar('MOG_125_Yixlid Jailer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\164_Severing Strike.png" id="MOG_164_Severing Strike" data-flag="@X" onclick="openSidebar('MOG_164_Severing Strike',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\172_Centaurian Chimera.png" id="MOG_172_Centaurian Chimera" data-flag="@X" onclick="openSidebar('MOG_172_Centaurian Chimera',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\4_Arena Paladin.png" id="MOG_4_Arena Paladin" data-flag="@X" onclick="openSidebar('MOG_4_Arena Paladin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\48_Drake Tamer.png" id="MOG_48_Drake Tamer" data-flag="@X" onclick="openSidebar('MOG_48_Drake Tamer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\84_Arena Assassin.png" id="MOG_84_Arena Assassin" data-flag="@X" onclick="openSidebar('MOG_84_Arena Assassin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\131_Burning Strike.png" id="MOG_131_Burning Strike" data-flag="@X" onclick="openSidebar('MOG_131_Burning Strike',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\176_Crashing Strike.png" id="MOG_176_Crashing Strike" data-flag="@X" onclick="openSidebar('MOG_176_Crashing Strike',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\9_Binding Chains.png" id="MOG_9_Binding Chains" data-flag="@X" onclick="openSidebar('MOG_9_Binding Chains',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\50_Focused Shield.png" id="MOG_50_Focused Shield" data-flag="@X" onclick="openSidebar('MOG_50_Focused Shield',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\88_Bog-Born Treefolk.png" id="MOG_88_Bog-Born Treefolk" data-flag="@X" onclick="openSidebar('MOG_88_Bog-Born Treefolk',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\135_Curse of Madness.png" id="MOG_135_Curse of Madness" data-flag="@X" onclick="openSidebar('MOG_135_Curse of Madness',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\182_Flame Runed Treefolk.png" id="MOG_182_Flame Runed Treefolk" data-flag="@X" onclick="openSidebar('MOG_182_Flame Runed Treefolk',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\10_Bird Rider.png" id="MOG_10_Bird Rider" data-flag="@X" onclick="openSidebar('MOG_10_Bird Rider',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\52_Hold Beneath the Waves.png" id="MOG_52_Hold Beneath the Waves" data-flag="@X" onclick="openSidebar('MOG_52_Hold Beneath the Waves',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\95_Eat Flesh.png" id="MOG_95_Eat Flesh" data-flag="@X" onclick="openSidebar('MOG_95_Eat Flesh',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\136_Electrified Warrior.png" id="MOG_136_Electrified Warrior" data-flag="@X" onclick="openSidebar('MOG_136_Electrified Warrior',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\184_Forest's Aid.png" id="MOG_184_Forests Aid" data-flag="@X" onclick="openSidebar('MOG_184_Forests Aid',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\12_Casesuvan Shaman.png" id="MOG_12_Casesuvan Shaman" data-flag="@X" onclick="openSidebar('MOG_12_Casesuvan Shaman',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\55_Icebreaker Chimera.png" id="MOG_55_Icebreaker Chimera" data-flag="@X" onclick="openSidebar('MOG_55_Icebreaker Chimera',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\103_Fulgusar's Scout.png" id="MOG_103_Fulgusars Scout" data-flag="@X" onclick="openSidebar('MOG_103_Fulgusars Scout',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\139_Goblin Armorer.png" id="MOG_139_Goblin Armorer" data-flag="@X" onclick="openSidebar('MOG_139_Goblin Armorer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\187_Hidden Treefolk.png" id="MOG_187_Hidden Treefolk" data-flag="@X" onclick="openSidebar('MOG_187_Hidden Treefolk',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\13_Congealed Cleric.png" id="MOG_13_Congealed Cleric" data-flag="@X" onclick="openSidebar('MOG_13_Congealed Cleric',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\58_Lava Field Crab.png" id="MOG_58_Lava Field Crab" data-flag="@X" onclick="openSidebar('MOG_58_Lava Field Crab',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\104_Infected Wound.png" id="MOG_104_Infected Wound" data-flag="@X" onclick="openSidebar('MOG_104_Infected Wound',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\141_Goblin Infiltrator.png" id="MOG_141_Goblin Infiltrator" data-flag="@X" onclick="openSidebar('MOG_141_Goblin Infiltrator',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\195_Razorclaw Ape.png" id="MOG_195_Razorclaw Ape" data-flag="@X" onclick="openSidebar('MOG_195_Razorclaw Ape',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\21_Incite the Masses.png" id="MOG_21_Incite the Masses" data-flag="@X" onclick="openSidebar('MOG_21_Incite the Masses',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\59_Merfolk Bounty Hunter.png" id="MOG_59_Merfolk Bounty Hunter" data-flag="@X" onclick="openSidebar('MOG_59_Merfolk Bounty Hunter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\105_Living Weapon.png" id="MOG_105_Living Weapon" data-flag="@X" onclick="openSidebar('MOG_105_Living Weapon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\145_Goblin War Shaman.png" id="MOG_145_Goblin War Shaman" data-flag="@X" onclick="openSidebar('MOG_145_Goblin War Shaman',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\199_Slithering Elf.png" id="MOG_199_Slithering Elf" data-flag="@X" onclick="openSidebar('MOG_199_Slithering Elf',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\29_Onwards to Battle.png" id="MOG_29_Onwards to Battle" data-flag="@X" onclick="openSidebar('MOG_29_Onwards to Battle',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\71_Remnants of the Past.png" id="MOG_71_Remnants of the Past" data-flag="@X" onclick="openSidebar('MOG_71_Remnants of the Past',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\110_Probing Eye.png" id="MOG_110_Probing Eye" data-flag="@X" onclick="openSidebar('MOG_110_Probing Eye',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\146_Incite Violence.png" id="MOG_146_Incite Violence" data-flag="@X" onclick="openSidebar('MOG_146_Incite Violence',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\203_Towering Treefolk.png" id="MOG_203_Towering Treefolk" data-flag="@X" onclick="openSidebar('MOG_203_Towering Treefolk',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\32_Radisana Angel.png" id="MOG_32_Radisana Angel" data-flag="@X" onclick="openSidebar('MOG_32_Radisana Angel',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\72_Salveran Cliff Drake.png" id="MOG_72_Salveran Cliff Drake" data-flag="@X" onclick="openSidebar('MOG_72_Salveran Cliff Drake',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\112_Radisana Pegasus.png" id="MOG_112_Radisana Pegasus" data-flag="@X" onclick="openSidebar('MOG_112_Radisana Pegasus',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\147_Kalisuvan Death Mage.png" id="MOG_147_Kalisuvan Death Mage" data-flag="@X" onclick="openSidebar('MOG_147_Kalisuvan Death Mage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\205_Treefolk's Call.png" id="MOG_205_Treefolks Call" data-flag="@X" onclick="openSidebar('MOG_205_Treefolks Call',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\36_Steelshaper's Gift.png" id="MOG_36_Steelshapers Gift" data-flag="@X" onclick="openSidebar('MOG_36_Steelshapers Gift',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\77_Spell Clash.png" id="MOG_77_Spell Clash" data-flag="@X" onclick="openSidebar('MOG_77_Spell Clash',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\118_Sudden Strike.png" id="MOG_118_Sudden Strike" data-flag="@X" onclick="openSidebar('MOG_118_Sudden Strike',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\151_Koth's Rage.png" id="MOG_151_Koths Rage" data-flag="@X" onclick="openSidebar('MOG_151_Koths Rage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\226_Bony Club.png" id="MOG_226_Bony Club" data-flag="@X" onclick="openSidebar('MOG_226_Bony Club',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\38_Strongshell Chimera.png" id="MOG_38_Strongshell Chimera" data-flag="@X" onclick="openSidebar('MOG_38_Strongshell Chimera',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\43_Ancient Scrying.png" id="MOG_43_Ancient Scrying" data-flag="@X" onclick="openSidebar('MOG_43_Ancient Scrying',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\124_Wingmare Chimera.png" id="MOG_124_Wingmare Chimera" data-flag="@X" onclick="openSidebar('MOG_124_Wingmare Chimera',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\166_Stormborn Chimera.png" id="MOG_166_Stormborn Chimera" data-flag="@X" onclick="openSidebar('MOG_166_Stormborn Chimera',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\169_Burning Fang Spider.png" id="MOG_169_Burning Fang Spider" data-flag="@X" onclick="openSidebar('MOG_169_Burning Fang Spider',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\225_Blessed Blade.png" id="MOG_225_Blessed Blade" data-flag="@X" onclick="openSidebar('MOG_225_Blessed Blade',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\44_Arena Shaman.png" id="MOG_44_Arena Shaman" data-flag="@X" onclick="openSidebar('MOG_44_Arena Shaman',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\85_Arena Demon.png" id="MOG_85_Arena Demon" data-flag="@X" onclick="openSidebar('MOG_85_Arena Demon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\231_Lightning Bottle.png" id="MOG_231_Lightning Bottle" data-flag="@X" onclick="openSidebar('MOG_231_Lightning Bottle',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\171_Cave Spider.png" id="MOG_171_Cave Spider" data-flag="@X" onclick="openSidebar('MOG_171_Cave Spider',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\2_Angry Tricephid.png" id="MOG_2_Angry Tricephid" data-flag="@X" onclick="openSidebar('MOG_2_Angry Tricephid',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\46_Contain.png" id="MOG_46_Contain" data-flag="@X" onclick="openSidebar('MOG_46_Contain',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\86_Astral Tear.png" id="MOG_86_Astral Tear" data-flag="@X" onclick="openSidebar('MOG_86_Astral Tear',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\126_Armed Warrior.png" id="MOG_126_Armed Warrior" data-flag="@X" onclick="openSidebar('MOG_126_Armed Warrior',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\173_Connection with Nature.png" id="MOG_173_Connection with Nature" data-flag="@X" onclick="openSidebar('MOG_173_Connection with Nature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\3_Arena Knight.png" id="MOG_3_Arena Knight" data-flag="@X" onclick="openSidebar('MOG_3_Arena Knight',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\49_Drowning Sphere.png" id="MOG_49_Drowning Sphere" data-flag="@X" onclick="openSidebar('MOG_49_Drowning Sphere',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\89_Cadaver Beast.png" id="MOG_89_Cadaver Beast" data-flag="@X" onclick="openSidebar('MOG_89_Cadaver Beast',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\127_Blind Rage.png" id="MOG_127_Blind Rage" data-flag="@X" onclick="openSidebar('MOG_127_Blind Rage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\174_Consume.png" id="MOG_174_Consume" data-flag="@X" onclick="openSidebar('MOG_174_Consume',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\5_Armor Up.png" id="MOG_5_Armor Up" data-flag="@X" onclick="openSidebar('MOG_5_Armor Up',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\53_Hold Still.png" id="MOG_53_Hold Still" data-flag="@X" onclick="openSidebar('MOG_53_Hold Still',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\91_Dark Puppeting.png" id="MOG_91_Dark Puppeting" data-flag="@X" onclick="openSidebar('MOG_91_Dark Puppeting',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\128_Blood Craze.png" id="MOG_128_Blood Craze" data-flag="@X" onclick="openSidebar('MOG_128_Blood Craze',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\177_Death Battle.png" id="MOG_177_Death Battle" data-flag="@X" onclick="openSidebar('MOG_177_Death Battle',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\11_Burning Light.png" id="MOG_11_Burning Light" data-flag="@X" onclick="openSidebar('MOG_11_Burning Light',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\54_Hopping Dodo.png" id="MOG_54_Hopping Dodo" data-flag="@X" onclick="openSidebar('MOG_54_Hopping Dodo',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\92_Dark Scrying.png" id="MOG_92_Dark Scrying" data-flag="@X" onclick="openSidebar('MOG_92_Dark Scrying',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\129_Burn the Land.png" id="MOG_129_Burn the Land" data-flag="@X" onclick="openSidebar('MOG_129_Burn the Land',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\178_Elvish Armorer.png" id="MOG_178_Elvish Armorer" data-flag="@X" onclick="openSidebar('MOG_178_Elvish Armorer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\15_Delvelan Stone Lizard.png" id="MOG_15_Delvelan Stone Lizard" data-flag="@X" onclick="openSidebar('MOG_15_Delvelan Stone Lizard',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\56_Intensive Research.png" id="MOG_56_Intensive Research" data-flag="@X" onclick="openSidebar('MOG_56_Intensive Research',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\93_Desert Scorpion.png" id="MOG_93_Desert Scorpion" data-flag="@X" onclick="openSidebar('MOG_93_Desert Scorpion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\130_Burning Ideas.png" id="MOG_130_Burning Ideas" data-flag="@X" onclick="openSidebar('MOG_130_Burning Ideas',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\179_Elvish Assassin.png" id="MOG_179_Elvish Assassin" data-flag="@X" onclick="openSidebar('MOG_179_Elvish Assassin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\16_From the Heavens.png" id="MOG_16_From the Heavens" data-flag="@X" onclick="openSidebar('MOG_16_From the Heavens',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\57_Invisimancer.png" id="MOG_57_Invisimancer" data-flag="@X" onclick="openSidebar('MOG_57_Invisimancer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\94_Drain Soul.png" id="MOG_94_Drain Soul" data-flag="@X" onclick="openSidebar('MOG_94_Drain Soul',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\132_Burning Wizard.png" id="MOG_132_Burning Wizard" data-flag="@X" onclick="openSidebar('MOG_132_Burning Wizard',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\180_Elvish Wanderer.png" id="MOG_180_Elvish Wanderer" data-flag="@X" onclick="openSidebar('MOG_180_Elvish Wanderer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\17_Frozen Mage.png" id="MOG_17_Frozen Mage" data-flag="@X" onclick="openSidebar('MOG_17_Frozen Mage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\60_Merfolk Razorclaw.png" id="MOG_60_Merfolk Razorclaw" data-flag="@X" onclick="openSidebar('MOG_60_Merfolk Razorclaw',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\97_Executioner.png" id="MOG_97_Executioner" data-flag="@X" onclick="openSidebar('MOG_97_Executioner',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\134_Charge Forth.png" id="MOG_134_Charge Forth" data-flag="@X" onclick="openSidebar('MOG_134_Charge Forth',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\181_Evergrowing Vines.png" id="MOG_181_Evergrowing Vines" data-flag="@X" onclick="openSidebar('MOG_181_Evergrowing Vines',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\19_Glorious Battlecry.png" id="MOG_19_Glorious Battlecry" data-flag="@X" onclick="openSidebar('MOG_19_Glorious Battlecry',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\62_Merfolk Warrior.png" id="MOG_62_Merfolk Warrior" data-flag="@X" onclick="openSidebar('MOG_62_Merfolk Warrior',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\101_Final Charge.png" id="MOG_101_Final Charge" data-flag="@X" onclick="openSidebar('MOG_101_Final Charge',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\137_Electrocute.png" id="MOG_137_Electrocute" data-flag="@X" onclick="openSidebar('MOG_137_Electrocute',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\183_Forest Armor.png" id="MOG_183_Forest Armor" data-flag="@X" onclick="openSidebar('MOG_183_Forest Armor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\20_Harvest the Forest.png" id="MOG_20_Harvest the Forest" data-flag="@X" onclick="openSidebar('MOG_20_Harvest the Forest',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\67_Push Back.png" id="MOG_67_Push Back" data-flag="@X" onclick="openSidebar('MOG_67_Push Back',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\106_Mind Tear.png" id="MOG_106_Mind Tear" data-flag="@X" onclick="openSidebar('MOG_106_Mind Tear',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\138_Enthralling Madness.png" id="MOG_138_Enthralling Madness" data-flag="@X" onclick="openSidebar('MOG_138_Enthralling Madness',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\188_Mighty Treefolk.png" id="MOG_188_Mighty Treefolk" data-flag="@X" onclick="openSidebar('MOG_188_Mighty Treefolk',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\25_Kill Shot.png" id="MOG_25_Kill Shot" data-flag="@X" onclick="openSidebar('MOG_25_Kill Shot',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\69_Read the Unknown.png" id="MOG_69_Read the Unknown" data-flag="@X" onclick="openSidebar('MOG_69_Read the Unknown',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\111_Radisana Horror.png" id="MOG_111_Radisana Horror" data-flag="@X" onclick="openSidebar('MOG_111_Radisana Horror',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\140_Goblin Blademaster.png" id="MOG_140_Goblin Blademaster" data-flag="@X" onclick="openSidebar('MOG_140_Goblin Blademaster',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\189_Moment of Peace.png" id="MOG_189_Moment of Peace" data-flag="@X" onclick="openSidebar('MOG_189_Moment of Peace',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\28_Mutated Griffin.png" id="MOG_28_Mutated Griffin" data-flag="@X" onclick="openSidebar('MOG_28_Mutated Griffin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\70_Refute the Craft.png" id="MOG_70_Refute the Craft" data-flag="@X" onclick="openSidebar('MOG_70_Refute the Craft',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\113_Radisana Pit Fighter.png" id="MOG_113_Radisana Pit Fighter" data-flag="@X" onclick="openSidebar('MOG_113_Radisana Pit Fighter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\143_Goblin Roughrider.png" id="MOG_143_Goblin Roughrider" data-flag="@X" onclick="openSidebar('MOG_143_Goblin Roughrider',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\190_Oakback Treefolk.png" id="MOG_190_Oakback Treefolk" data-flag="@X" onclick="openSidebar('MOG_190_Oakback Treefolk',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\30_Pacifism.png" id="MOG_30_Pacifism" data-flag="@X" onclick="openSidebar('MOG_30_Pacifism',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\73_Scare Away.png" id="MOG_73_Scare Away" data-flag="@X" onclick="openSidebar('MOG_73_Scare Away',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\114_Raise the Dead.png" id="MOG_114_Raise the Dead" data-flag="@X" onclick="openSidebar('MOG_114_Raise the Dead',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\144_Goblin Runner.png" id="MOG_144_Goblin Runner" data-flag="@X" onclick="openSidebar('MOG_144_Goblin Runner',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\194_Rampant Mutation.png" id="MOG_194_Rampant Mutation" data-flag="@X" onclick="openSidebar('MOG_194_Rampant Mutation',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\33_Salveran Lizard Bird.png" id="MOG_33_Salveran Lizard Bird" data-flag="@X" onclick="openSidebar('MOG_33_Salveran Lizard Bird',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\74_Silent Movement.png" id="MOG_74_Silent Movement" data-flag="@X" onclick="openSidebar('MOG_74_Silent Movement',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\116_Scarred Vampire.png" id="MOG_116_Scarred Vampire" data-flag="@X" onclick="openSidebar('MOG_116_Scarred Vampire',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\154_Magma Spray.png" id="MOG_154_Magma Spray" data-flag="@X" onclick="openSidebar('MOG_154_Magma Spray',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\196_Rotting Bear.png" id="MOG_196_Rotting Bear" data-flag="@X" onclick="openSidebar('MOG_196_Rotting Bear',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\34_Shielding Light.png" id="MOG_34_Shielding Light" data-flag="@X" onclick="openSidebar('MOG_34_Shielding Light',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\75_Skyborn Drake.png" id="MOG_75_Skyborn Drake" data-flag="@X" onclick="openSidebar('MOG_75_Skyborn Drake',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\117_Smog Spitter Mutant.png" id="MOG_117_Smog Spitter Mutant" data-flag="@X" onclick="openSidebar('MOG_117_Smog Spitter Mutant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\156_Menacing Warrior.png" id="MOG_156_Menacing Warrior" data-flag="@X" onclick="openSidebar('MOG_156_Menacing Warrior',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\197_Search the Wilds.png" id="MOG_197_Search the Wilds" data-flag="@X" onclick="openSidebar('MOG_197_Search the Wilds',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\37_Stoneborn Knight.png" id="MOG_37_Stoneborn Knight" data-flag="@X" onclick="openSidebar('MOG_37_Stoneborn Knight',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\78_Springing Leviathan.png" id="MOG_78_Springing Leviathan" data-flag="@X" onclick="openSidebar('MOG_78_Springing Leviathan',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\119_Swarm of Bats.png" id="MOG_119_Swarm of Bats" data-flag="@X" onclick="openSidebar('MOG_119_Swarm of Bats',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\157_Overwhelming Odds.png" id="MOG_157_Overwhelming Odds" data-flag="@X" onclick="openSidebar('MOG_157_Overwhelming Odds',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\198_Shattering Strike.png" id="MOG_198_Shattering Strike" data-flag="@X" onclick="openSidebar('MOG_198_Shattering Strike',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\39_Twinblade Fighter.png" id="MOG_39_Twinblade Fighter" data-flag="@X" onclick="openSidebar('MOG_39_Twinblade Fighter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\81_Stumble.png" id="MOG_81_Stumble" data-flag="@X" onclick="openSidebar('MOG_81_Stumble',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\120_Tear Apart.png" id="MOG_120_Tear Apart" data-flag="@X" onclick="openSidebar('MOG_120_Tear Apart',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\160_Pyretic Ritual.png" id="MOG_160_Pyretic Ritual" data-flag="@X" onclick="openSidebar('MOG_160_Pyretic Ritual',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\202_Striking Snake.png" id="MOG_202_Striking Snake" data-flag="@X" onclick="openSidebar('MOG_202_Striking Snake',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\40_Veteran Armsmaster.png" id="MOG_40_Veteran Armsmaster" data-flag="@X" onclick="openSidebar('MOG_40_Veteran Armsmaster',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\83_Wavecrasher Merfolk.png" id="MOG_83_Wavecrasher Merfolk" data-flag="@X" onclick="openSidebar('MOG_83_Wavecrasher Merfolk',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\121_Trapping Darkness.png" id="MOG_121_Trapping Darkness" data-flag="@X" onclick="openSidebar('MOG_121_Trapping Darkness',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\163_Release the Hounds.png" id="MOG_163_Release the Hounds" data-flag="@X" onclick="openSidebar('MOG_163_Release the Hounds',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\207_Vine Hound.png" id="MOG_207_Vine Hound" data-flag="@X" onclick="openSidebar('MOG_207_Vine Hound',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\41_War Hawk.png" id="MOG_41_War Hawk" data-flag="@X" onclick="openSidebar('MOG_41_War Hawk',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MOG_e" data-flag="@E" onclick="openSidebar('MOG_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\122_Vampiric Bat.png" id="MOG_122_Vampiric Bat" data-flag="@X" onclick="openSidebar('MOG_122_Vampiric Bat',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\165_Spider Rider Goblin.png" id="MOG_165_Spider Rider Goblin" data-flag="@X" onclick="openSidebar('MOG_165_Spider Rider Goblin',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MOG_e" data-flag="@E" onclick="openSidebar('MOG_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\42_Wooly Felidar.png" id="MOG_42_Wooly Felidar" data-flag="@X" onclick="openSidebar('MOG_42_Wooly Felidar',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MOG_e" data-flag="@E" onclick="openSidebar('MOG_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MOG_e" data-flag="@E" onclick="openSidebar('MOG_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\167_Trained Sparkmage.png" id="MOG_167_Trained Sparkmage" data-flag="@X" onclick="openSidebar('MOG_167_Trained Sparkmage',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MOG_e" data-flag="@E" onclick="openSidebar('MOG_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MOG_er" data-flag="@E" onclick="openSidebar('MOG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MOG_er" data-flag="@E" onclick="openSidebar('MOG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MOG_er" data-flag="@E" onclick="openSidebar('MOG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MOG_er" data-flag="@E" onclick="openSidebar('MOG_er',false)"></div>
+				<div id="gold" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\218_Wise Old Wizard.png" id="MOG_218_Wise Old Wizard" data-flag="@X" onclick="openSidebar('MOG_218_Wise Old Wizard',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\214_Merfolk Tidehunter.png" id="MOG_214_Merfolk Tidehunter" data-flag="@X" onclick="openSidebar('MOG_214_Merfolk Tidehunter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\208_Buzzing Goblin.png" id="MOG_208_Buzzing Goblin" data-flag="@X" onclick="openSidebar('MOG_208_Buzzing Goblin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\216_Runed Treefolk.png" id="MOG_216_Runed Treefolk" data-flag="@X" onclick="openSidebar('MOG_216_Runed Treefolk',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\209_Casesuvan Beast Tamer.png" id="MOG_209_Casesuvan Beast Tamer" data-flag="@X" onclick="openSidebar('MOG_209_Casesuvan Beast Tamer',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MOG_er" data-flag="@E" onclick="openSidebar('MOG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MOG_er" data-flag="@E" onclick="openSidebar('MOG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MOG_er" data-flag="@E" onclick="openSidebar('MOG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MOG_er" data-flag="@E" onclick="openSidebar('MOG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MOG_er" data-flag="@E" onclick="openSidebar('MOG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\215_Rotting Pegasus.png" id="MOG_215_Rotting Pegasus" data-flag="@X" onclick="openSidebar('MOG_215_Rotting Pegasus',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\213_Lightning Lizard.png" id="MOG_213_Lightning Lizard" data-flag="@X" onclick="openSidebar('MOG_213_Lightning Lizard',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\211_Deathwood Treefolk.png" id="MOG_211_Deathwood Treefolk" data-flag="@X" onclick="openSidebar('MOG_211_Deathwood Treefolk',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\217_Striking Centaur.png" id="MOG_217_Striking Centaur" data-flag="@X" onclick="openSidebar('MOG_217_Striking Centaur',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\212_Hidden Merfolk.png" id="MOG_212_Hidden Merfolk" data-flag="@X" onclick="openSidebar('MOG_212_Hidden Merfolk',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MOG_er" data-flag="@E" onclick="openSidebar('MOG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MOG_er" data-flag="@E" onclick="openSidebar('MOG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MOG_er" data-flag="@E" onclick="openSidebar('MOG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MOG_er" data-flag="@E" onclick="openSidebar('MOG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MOG_er" data-flag="@E" onclick="openSidebar('MOG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\210_Dagaal, Warmaster.png" id="MOG_210_Dagaal, Warmaster" data-flag="@X" onclick="openSidebar('MOG_210_Dagaal, Warmaster',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\219_Yawgusar, High Lord.png" id="MOG_219_Yawgusar, High Lord" data-flag="@X" onclick="openSidebar('MOG_219_Yawgusar, High Lord',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MOG_e" data-flag="@E" onclick="openSidebar('MOG_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MOG_e" data-flag="@E" onclick="openSidebar('MOG_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MOG_e" data-flag="@E" onclick="openSidebar('MOG_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MOG_er" data-flag="@E" onclick="openSidebar('MOG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MOG_er" data-flag="@E" onclick="openSidebar('MOG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MOG_er" data-flag="@E" onclick="openSidebar('MOG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MOG_er" data-flag="@E" onclick="openSidebar('MOG_er',false)"></div>
+				<div id="colorless" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\221_Ancient Blade.png" id="MOG_221_Ancient Blade" data-flag="@X" onclick="openSidebar('MOG_221_Ancient Blade',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\222_Ancient Mechination.png" id="MOG_222_Ancient Mechination" data-flag="@X" onclick="openSidebar('MOG_222_Ancient Mechination',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\229_Land Forge.png" id="MOG_229_Land Forge" data-flag="@X" onclick="openSidebar('MOG_229_Land Forge',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\220_Ancient Artifact.png" id="MOG_220_Ancient Artifact" data-flag="@X" onclick="openSidebar('MOG_220_Ancient Artifact',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\223_Assassin's Bow.png" id="MOG_223_Assassins Bow" data-flag="@X" onclick="openSidebar('MOG_223_Assassins Bow',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\232_Palace Guards.png" id="MOG_232_Palace Guards" data-flag="@X" onclick="openSidebar('MOG_232_Palace Guards',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\233_Phyrexian Golem.png" id="MOG_233_Phyrexian Golem" data-flag="@X" onclick="openSidebar('MOG_233_Phyrexian Golem',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\224_Blade of the Cresent Moon.png" id="MOG_224_Blade of the Cresent Moon" data-flag="@X" onclick="openSidebar('MOG_224_Blade of the Cresent Moon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\227_Curved Sword.png" id="MOG_227_Curved Sword" data-flag="@X" onclick="openSidebar('MOG_227_Curved Sword',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\228_Forgotten Tomes.png" id="MOG_228_Forgotten Tomes" data-flag="@X" onclick="openSidebar('MOG_228_Forgotten Tomes',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\230_Land in a Jar.png" id="MOG_230_Land in a Jar" data-flag="@X" onclick="openSidebar('MOG_230_Land in a Jar',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\234_Walking Armor.png" id="MOG_234_Walking Armor" data-flag="@X" onclick="openSidebar('MOG_234_Walking Armor',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MOG_e" data-flag="@E" onclick="openSidebar('MOG_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MOG_e" data-flag="@E" onclick="openSidebar('MOG_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MOG_e" data-flag="@E" onclick="openSidebar('MOG_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MOG_er" data-flag="@E" onclick="openSidebar('MOG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MOG_er" data-flag="@E" onclick="openSidebar('MOG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MOG_er" data-flag="@E" onclick="openSidebar('MOG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MOG_er" data-flag="@E" onclick="openSidebar('MOG_er',false)"></div>
+				<div id="land" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MOG_e" data-flag="@E" onclick="openSidebar('MOG_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MOG_e" data-flag="@E" onclick="openSidebar('MOG_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MOG_e" data-flag="@E" onclick="openSidebar('MOG_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MOG_e" data-flag="@E" onclick="openSidebar('MOG_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\245_Moagea, Heart of the Forest.png" id="MOG_245_Moagea, Heart of the Forest" data-flag="@X" onclick="openSidebar('MOG_245_Moagea, Heart of the Forest',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MOG_er" data-flag="@E" onclick="openSidebar('MOG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MOG_er" data-flag="@E" onclick="openSidebar('MOG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MOG_er" data-flag="@E" onclick="openSidebar('MOG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MOG_er" data-flag="@E" onclick="openSidebar('MOG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MOG_er" data-flag="@E" onclick="openSidebar('MOG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\236_Barren Floodplains.png" id="MOG_236_Barren Floodplains" data-flag="@X" onclick="openSidebar('MOG_236_Barren Floodplains',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\239_Flooded Cave.png" id="MOG_239_Flooded Cave" data-flag="@X" onclick="openSidebar('MOG_239_Flooded Cave',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\244_Graven Mountains.png" id="MOG_244_Graven Mountains" data-flag="@X" onclick="openSidebar('MOG_244_Graven Mountains',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\237_Burning Forest.png" id="MOG_237_Burning Forest" data-flag="@X" onclick="openSidebar('MOG_237_Burning Forest',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\242_Foggy Steppes.png" id="MOG_242_Foggy Steppes" data-flag="@X" onclick="openSidebar('MOG_242_Foggy Steppes',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MOG_er" data-flag="@E" onclick="openSidebar('MOG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MOG_er" data-flag="@E" onclick="openSidebar('MOG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MOG_er" data-flag="@E" onclick="openSidebar('MOG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MOG_er" data-flag="@E" onclick="openSidebar('MOG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MOG_er" data-flag="@E" onclick="openSidebar('MOG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\247_Rotting Marsh.png" id="MOG_247_Rotting Marsh" data-flag="@X" onclick="openSidebar('MOG_247_Rotting Marsh',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\240_Flooded Hollow.png" id="MOG_240_Flooded Hollow" data-flag="@X" onclick="openSidebar('MOG_240_Flooded Hollow',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\235_Ancient Burial Grounds.png" id="MOG_235_Ancient Burial Grounds" data-flag="@X" onclick="openSidebar('MOG_235_Ancient Burial Grounds',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\249_Scorched Grasslands.png" id="MOG_249_Scorched Grasslands" data-flag="@X" onclick="openSidebar('MOG_249_Scorched Grasslands',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\241_Flooded Temple.png" id="MOG_241_Flooded Temple" data-flag="@X" onclick="openSidebar('MOG_241_Flooded Temple',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MOG_er" data-flag="@E" onclick="openSidebar('MOG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MOG_er" data-flag="@E" onclick="openSidebar('MOG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MOG_er" data-flag="@E" onclick="openSidebar('MOG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MOG_er" data-flag="@E" onclick="openSidebar('MOG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MOG_er" data-flag="@E" onclick="openSidebar('MOG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\243_Grand Coliseum.png" id="MOG_243_Grand Coliseum" data-flag="@X" onclick="openSidebar('MOG_243_Grand Coliseum',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\246_Mutative Bog.png" id="MOG_246_Mutative Bog" data-flag="@X" onclick="openSidebar('MOG_246_Mutative Bog',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\248_Scarred Ground.png" id="MOG_248_Scarred Ground" data-flag="@X" onclick="openSidebar('MOG_248_Scarred Ground',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\238_Exotic Wilderness.png" id="MOG_238_Exotic Wilderness" data-flag="@X" onclick="openSidebar('MOG_238_Exotic Wilderness',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MOG_e" data-flag="@E" onclick="openSidebar('MOG_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MOG_er" data-flag="@E" onclick="openSidebar('MOG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MOG_er" data-flag="@E" onclick="openSidebar('MOG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MOG_er" data-flag="@E" onclick="openSidebar('MOG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MOG_er" data-flag="@E" onclick="openSidebar('MOG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MOG_er" data-flag="@E" onclick="openSidebar('MOG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\252_Plains.2.png" id="MOG_252_Plains.2" data-flag="@X" onclick="openSidebar('MOG_252_Plains.2',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\257_Island.3.png" id="MOG_257_Island.3" data-flag="@X" onclick="openSidebar('MOG_257_Island.3',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\261_Swamp.3.png" id="MOG_261_Swamp.3" data-flag="@X" onclick="openSidebar('MOG_261_Swamp.3',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\265_Mountain.3.png" id="MOG_265_Mountain.3" data-flag="@X" onclick="openSidebar('MOG_265_Mountain.3',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\269_Forest.3.png" id="MOG_269_Forest.3" data-flag="@X" onclick="openSidebar('MOG_269_Forest.3',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\251_Plains.1.png" id="MOG_251_Plains.1" data-flag="@X" onclick="openSidebar('MOG_251_Plains.1',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\255_Island.1.png" id="MOG_255_Island.1" data-flag="@X" onclick="openSidebar('MOG_255_Island.1',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\259_Swamp.1.png" id="MOG_259_Swamp.1" data-flag="@X" onclick="openSidebar('MOG_259_Swamp.1',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\263_Mountain.1.png" id="MOG_263_Mountain.1" data-flag="@X" onclick="openSidebar('MOG_263_Mountain.1',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\267_Forest.1.png" id="MOG_267_Forest.1" data-flag="@X" onclick="openSidebar('MOG_267_Forest.1',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\253_Plains.3.png" id="MOG_253_Plains.3" data-flag="@X" onclick="openSidebar('MOG_253_Plains.3',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\256_Island.2.png" id="MOG_256_Island.2" data-flag="@X" onclick="openSidebar('MOG_256_Island.2',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\260_Swamp.2.png" id="MOG_260_Swamp.2" data-flag="@X" onclick="openSidebar('MOG_260_Swamp.2',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\264_Mountain.2.png" id="MOG_264_Mountain.2" data-flag="@X" onclick="openSidebar('MOG_264_Mountain.2',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\268_Forest.2.png" id="MOG_268_Forest.2" data-flag="@X" onclick="openSidebar('MOG_268_Forest.2',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\250_Plains.png" id="MOG_250_Plains" data-flag="@X" onclick="openSidebar('MOG_250_Plains',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\254_Island.png" id="MOG_254_Island" data-flag="@X" onclick="openSidebar('MOG_254_Island',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\258_Swamp.png" id="MOG_258_Swamp" data-flag="@X" onclick="openSidebar('MOG_258_Swamp',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\262_Mountain.png" id="MOG_262_Mountain" data-flag="@X" onclick="openSidebar('MOG_262_Mountain',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\266_Forest.png" id="MOG_266_Forest" data-flag="@X" onclick="openSidebar('MOG_266_Forest',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MOG_er" data-flag="@E" onclick="openSidebar('MOG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MOG_er" data-flag="@E" onclick="openSidebar('MOG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MOG_er" data-flag="@E" onclick="openSidebar('MOG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MOG_er" data-flag="@E" onclick="openSidebar('MOG_er',false)"></div>
+				<div id="token" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\4t_Elemental.png" id="MOG_4t_Elemental" data-flag="@X" onclick="openSidebar('MOG_4t_Elemental',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\13t_Razor-Edged Blade.png" id="MOG_13t_Razor-Edged Blade" data-flag="@X" onclick="openSidebar('MOG_13t_Razor-Edged Blade',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\14t_Weapon.png" id="MOG_14t_Weapon" data-flag="@X" onclick="openSidebar('MOG_14t_Weapon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\15t_Weapon.1.png" id="MOG_15t_Weapon.1" data-flag="@X" onclick="openSidebar('MOG_15t_Weapon.1',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\16t_Weapon.2.png" id="MOG_16t_Weapon.2" data-flag="@X" onclick="openSidebar('MOG_16t_Weapon.2',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\17t_Emblem.png" id="MOG_17t_Emblem" data-flag="@X" onclick="openSidebar('MOG_17t_Emblem',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\18t_Emblem.1.png" id="MOG_18t_Emblem.1" data-flag="@X" onclick="openSidebar('MOG_18t_Emblem.1',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\19t_Emblem.2.png" id="MOG_19t_Emblem.2" data-flag="@X" onclick="openSidebar('MOG_19t_Emblem.2',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\1t_Spirit.png" id="MOG_1t_Spirit" data-flag="@X" onclick="openSidebar('MOG_1t_Spirit',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\2t_Warrior.png" id="MOG_2t_Warrior" data-flag="@X" onclick="openSidebar('MOG_2t_Warrior',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\3t_Germ.png" id="MOG_3t_Germ" data-flag="@X" onclick="openSidebar('MOG_3t_Germ',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\5t_Goblin.png" id="MOG_5t_Goblin" data-flag="@X" onclick="openSidebar('MOG_5t_Goblin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\6t_Hound.png" id="MOG_6t_Hound" data-flag="@X" onclick="openSidebar('MOG_6t_Hound',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\7t_Insect.png" id="MOG_7t_Insect" data-flag="@X" onclick="openSidebar('MOG_7t_Insect',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\8t_Treefolk.png" id="MOG_8t_Treefolk" data-flag="@X" onclick="openSidebar('MOG_8t_Treefolk',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\9t_Treefolk Sproutling.png" id="MOG_9t_Treefolk Sproutling" data-flag="@X" onclick="openSidebar('MOG_9t_Treefolk Sproutling',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\10t_Treefolk.1.png" id="MOG_10t_Treefolk.1" data-flag="@X" onclick="openSidebar('MOG_10t_Treefolk.1',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\11t_Wolf Mutant.png" id="MOG_11t_Wolf Mutant" data-flag="@X" onclick="openSidebar('MOG_11t_Wolf Mutant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MOG-files\img\12t_Drake Mutant.png" id="MOG_12t_Drake Mutant" data-flag="@X" onclick="openSidebar('MOG_12t_Drake Mutant',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MOG_e" data-flag="@E" onclick="openSidebar('MOG_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MOG_er" data-flag="@E" onclick="openSidebar('MOG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MOG_er" data-flag="@E" onclick="openSidebar('MOG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MOG_er" data-flag="@E" onclick="openSidebar('MOG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MOG_er" data-flag="@E" onclick="openSidebar('MOG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MOG_er" data-flag="@E" onclick="openSidebar('MOG_er',false)"></div>
+	</div>
+	</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch(rootPath + '/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch(rootPath + '/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+				let all_tags = new Set();
+				card_list_arrayified.forEach(card => {
+					if (card.notes) {
+						const tagMatches = card.notes.matchAll(/!tag(?:<\w+>)?\s+([^\s\n\b]+)/g);
+						for (const match of tagMatches) {
+							all_tags.add(match[1]);
+						}
+					}
+				});
+
+				const searchInput = document.getElementById("search");
+				const tagDropdown = document.getElementById("tag-dropdown");
+
+				// Create a mirror element for position calculation
+				const mirror = document.createElement("div");
+				Object.assign(mirror.style, {
+					position: "absolute",
+					visibility: "hidden",
+					whiteSpace: "pre",
+					font: getComputedStyle(searchInput).font,
+					padding: "0", // No padding for pure text measurement
+					border: "none",
+					boxSizing: "content-box"
+				});
+				document.body.appendChild(mirror);
+
+				if (searchInput && tagDropdown) {
+					tagDropdown.style.width = "auto";
+					tagDropdown.style.minWidth = "75px";
+					tagDropdown.style.maxWidth = "300px";
+					tagDropdown.style.maxHeight = "200px";
+					tagDropdown.style.overflowY = "auto";
+
+					const updateDropdown = function() {
+						const value = searchInput.value;
+						const cursorPosition = searchInput.selectionStart;
+						
+						// Find the tag: prefix immediately preceding the cursor
+						const lastTagIndex = value.substring(0, cursorPosition).lastIndexOf("tag:");
+						
+						if (lastTagIndex !== -1) {
+							const queryStart = lastTagIndex + 4;
+							const query = value.substring(queryStart, cursorPosition);
+							
+							if (!query.includes(" ")) {
+								const filteredTags = Array.from(all_tags).filter(tag => tag.toLowerCase().startsWith(query.toLowerCase())).sort();
+								if (filteredTags.length > 0) {
+									tagDropdown.innerHTML = "";
+									filteredTags.forEach(tag => {
+										const div = document.createElement("div");
+										div.innerText = tag;
+										div.style.padding = "5px 10px";
+										div.style.cursor = "pointer";
+										div.style.whiteSpace = "nowrap";
+										div.onmouseover = () => div.style.background = "#f0f0f0";
+										div.onmouseout = () => div.style.background = "white";
+										div.onclick = () => {
+											const newValue = value.substring(0, queryStart) + tag + " " + value.substring(cursorPosition);
+											searchInput.value = newValue;
+											tagDropdown.style.display = "none";
+											searchInput.focus();
+											const newCursorPos = queryStart + tag.length + 1;
+											searchInput.setSelectionRange(newCursorPos, newCursorPos);
+										};
+										tagDropdown.appendChild(div);
+									});
+
+									// Calculate position
+									mirror.textContent = value.substring(0, lastTagIndex + 4);
+									const textWidth = mirror.getBoundingClientRect().width;
+									const inputPaddingLeft = parseFloat(getComputedStyle(searchInput).paddingLeft) || 0;
+									
+									tagDropdown.style.left = Math.min(textWidth + inputPaddingLeft, searchInput.offsetWidth - tagDropdown.offsetWidth) + "px";
+									tagDropdown.style.display = "block";
+									return;
+								}
+							}
+						}
+						tagDropdown.style.display = "none";
+					};
+
+					searchInput.addEventListener("input", updateDropdown);
+					searchInput.addEventListener("click", updateDropdown);
+					searchInput.addEventListener("keyup", updateDropdown);
+
+					document.addEventListener("click", function(e) {
+						if (e.target !== searchInput && e.target !== tagDropdown) {
+							tagDropdown.style.display = "none";
+						}
+					});
+				}
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = rootPath + '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = rootPath + '/' + img.alt;
+				if (img.dataset.alt_src) {
+					img.dataset.alt_src = rootPath + '/' + img.dataset.alt_src;
+				}
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		const img = document.getElementById(num);
+		const seconds = 0.2;
+		const rotated_img = document.getElementById('sidebar_h_img');
+
+        img.style.transition = seconds.toString() + "s";
+        img.style.transform = "rotateY(90deg)";
+
+        if (num == 'sidebar_img')
+		{
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(90deg) rotate(90deg)";
+
+           		if (rotated_img.style.opacity != "0") {
+		            setTimeout(() => {
+		                rotated_img.style.opacity = "0";
+		                img.style.filter = "none";
+		            }, (seconds / 2) * 1000);
+		        }
+		        else {
+		        	setTimeout(() => {
+		                rotated_img.style.opacity = "1";
+		                img.style.filter = "blur(2px) brightness(0.7)";
+		            }, (seconds / 2) * 1000);
+		        }
+            }
+		}
+
+         setTimeout(function() {
+            tmp = document.getElementById(num).src;
+			document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+			document.getElementById(num).dataset.alt_src = tmp;
+
+            img.style.transition = seconds.toString() + "s";
+            img.style.transform = "rotateY(0deg)";
+
+            if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(0deg) rotate(90deg)";
+            }
+        }, seconds * 1000);
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.style.transition = "none";
+		rotated_img.style.transition = "none";
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.opacity = "1";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.opacity = "0";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	function rolldown() {
+		dropdown.style.gridTemplateColumns = "repeat(3, 1fr)";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "auto";
+			set.style.margin = "5px";
+		}
+	}
+
+	function rollup() {
+		dropdown.style.gridTemplateColumns = "1fr";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "0px";
+			set.style.margin = "0px 5px";
+		}
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL(rootPath + '/search', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url.pathname + url.search;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL(rootPath + '/card', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url.pathname + url.search;
+			}
+	</script>
+</body>
+</html>

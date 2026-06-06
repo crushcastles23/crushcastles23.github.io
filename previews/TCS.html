@@ -1,0 +1,998 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="../sets/TCS-files/icon.png"/>
+	<link rel="stylesheet" href="../resources/header.css">
+	<title>TCS visual preview</title>
+	<script title="root">
+		const rootPath = "..";
+	</script>
+	<style>
+		@font-face {
+			font-family: Beleren;
+			src: url('../resources/beleren.ttf');
+		}
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			opacity: 0;
+			transform: rotateY(0deg) rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+			border-radius: 3.733% / 2.677%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+			border-radius: 3.733% / 2.677%;
+		}
+		.close-btn {
+			background: url('../img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('../img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+			border-radius: 3.733% / 2.677%;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 80px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+			border-radius: 3.733% / 2.677%;
+		}
+		.flip-btn {
+			background: url('../img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('../img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.dropdown {
+			background: rgba(23, 23, 23, 0.8);
+			border-radius: 8px;
+			position: absolute;
+			left: 5%;
+			width: fit-content;
+			max-width: 90%;
+			margin: 20px 0;
+			padding: 5px 0;
+			display: grid;
+			grid-template-columns: 1fr;
+			z-index: 3;
+		}
+		.dropdown .set-bar {
+			font-family: Beleren;
+			font-size: 20px;
+			text-decoration: none;
+			color: #e3e3e3;
+			display: flex;
+			gap: 10px;
+			align-items: center;
+			padding: 0 12px;
+			margin: 5px;
+		}
+		.dropdown .set-bar:hover {
+			background: rgba(163, 163, 163, 0.5);
+			color: #f3f3f3;
+		}
+		.dropdown .set-bar img {
+			width: 32px;
+		}
+		.dropdown .inactive {
+			height: 0px;
+			overflow: hidden;
+			margin: 0px 5px;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		.addenda-container {
+			text-align: center;
+			width: fit-content;
+			max-width: 1200px;
+			padding: 0 5%;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="../img/dot.png" />
+	<img class="preload-hidden" src="../sets/TCS-files/logo.png" />
+	<img class="preload-hidden" src="../sets/BEY-files/icon.png" />
+		<img class="preload-hidden" src="../sets/CCC-files/icon.png" />
+		<img class="preload-hidden" src="../sets/KMR-files/icon.png" />
+		<img class="preload-hidden" src="../sets/MAD-files/icon.png" />
+		<img class="preload-hidden" src="../sets/MOG-files/icon.png" />
+		<img class="preload-hidden" src="../sets/SMG-files/icon.png" />
+		<img class="preload-hidden" src="../sets/SYZ-files/icon.png" />
+		<img class="preload-hidden" src="../sets/TCS-files/icon.png" />
+		<img class="preload-hidden" src="../sets/VRM-files/icon.png" />
+		<img class="preload-hidden" src="../sets/WRP-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a onclick="window.location.href = rootPath + '/'"><img class="sg-logo" id="header-banner"></a>
+			<img class="sg-icon" id="header-search" onclick="goToSearch()">
+			<div style="position: relative; width: 100%;">
+				<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+				<div id="tag-dropdown" style="display: none; position: absolute; top: 100%; left: 0; width: 100%; background: white; border: 1px solid #d5d9d9; z-index: 1000; max-height: 200px; overflow-y: auto; color: black; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></div>
+			</div>
+			<a onclick="window.location.href = rootPath + '/all-sets'"><img id="header-sets" class="sg-icon">Sets</a>
+			<a onclick="window.location.href = rootPath + '/deckbuilder'"><img id="header-deck" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img id="header-random" class="sg-icon">Random</a>
+		</div>
+	</div>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			document.getElementById("header-banner").src = rootPath + "/img/banner.png";
+			document.getElementById("header-search").src = rootPath + "/img/search.png";
+			document.getElementById("header-sets").src = rootPath + "/img/sets.png";
+			document.getElementById("header-deck").src = rootPath + "/img/deck.png";
+			document.getElementById("header-random").src = rootPath + "/img/random.png";
+		});
+
+		function goToSearch() {
+			window.location.href = rootPath + "/search";
+		}
+	</script>
+
+	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+	
+		<a class="set-bar" href="../previews/TCS"><img src="../sets/TCS-files/icon.png">Twilight City Stories</a>
+	
+		<a class="set-bar inactive" href="../previews/BEY"><img src="../sets/BEY-files/icon.png">Beyond the Event Horizon</a>
+	
+		<a class="set-bar inactive" href="../previews/CCC"><img src="../sets/CCC-files/icon.png">Custom Chaos Cube</a>
+	
+		<a class="set-bar inactive" href="../previews/KMR"><img src="../sets/KMR-files/icon.png">Kamigawa Reborn</a>
+	
+		<a class="set-bar inactive" href="../previews/MAD"><img src="../sets/MAD-files/icon.png">Mad World</a>
+	
+		<a class="set-bar inactive" href="../previews/MOG"><img src="../sets/MOG-files/icon.png">Moag</a>
+	
+		<a class="set-bar inactive" href="../previews/SMG"><img src="../sets/SMG-files/icon.png">Velencium: City of Smog</a>
+	
+		<a class="set-bar inactive" href="../previews/SYZ"><img src="../sets/SYZ-files/icon.png">Syèlzile: Islands in the Sky</a>
+	
+		<a class="set-bar inactive" href="../previews/VRM"><img src="../sets/VRM-files/icon.png">Valla Remastered</a>
+	
+		<a class="set-bar inactive" href="../previews/WRP"><img src="../sets/WRP-files/icon.png"></a>
+	
+		</div>
+		<div class="banner">
+		<img class="logo" src="../sets/TCS-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+					<div class="container"><img loading="lazy" alt="sets\TCS-files\img\18_Halcyon Space Carrier.png" id="TCS_18_Halcyon Space Carrier" data-flag="@X" onclick="openSidebar('TCS_18_Halcyon Space Carrier',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\62_Reality Eye.png" id="TCS_62_Reality Eye" data-flag="@X" onclick="openSidebar('TCS_62_Reality Eye',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\91_Final Stand.png" id="TCS_91_Final Stand" data-flag="@X" onclick="openSidebar('TCS_91_Final Stand',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\120_Eldritch Devastator.png" id="TCS_120_Eldritch Devastator" data-flag="@X" onclick="openSidebar('TCS_120_Eldritch Devastator',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\163_Outland Ambusher.png" id="TCS_163_Outland Ambusher" data-flag="@X" onclick="openSidebar('TCS_163_Outland Ambusher',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\35_Singeing Seraph.png" id="TCS_35_Singeing Seraph" data-flag="@X" onclick="openSidebar('TCS_35_Singeing Seraph',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\70_Teferi's Temporal Foresight.png" id="TCS_70_Teferis Temporal Foresight" data-flag="@X" onclick="openSidebar('TCS_70_Teferis Temporal Foresight',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\96_Hugo, Hardened Criminal.png" id="TCS_96_Hugo, Hardened Criminal" data-flag="@X" onclick="openSidebar('TCS_96_Hugo, Hardened Criminal',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\142_Taniyn, Dragon of the Outlands.png" id="TCS_142_Taniyn, Dragon of the Outlands" data-flag="@X" onclick="openSidebar('TCS_142_Taniyn, Dragon of the Outlands',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\178_Toxic Salvage Station.png" id="TCS_178_Toxic Salvage Station" data-flag="@X" onclick="openSidebar('TCS_178_Toxic Salvage Station',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\6_Clandestine Financier.png" id="TCS_6_Clandestine Financier" data-flag="@X" onclick="openSidebar('TCS_6_Clandestine Financier',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\43_Digital Combat Platform.png" id="TCS_43_Digital Combat Platform" data-flag="@X" onclick="openSidebar('TCS_43_Digital Combat Platform',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\102_Ratling Gunner.png" id="TCS_102_Ratling Gunner" data-flag="@X" onclick="openSidebar('TCS_102_Ratling Gunner',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\114_Augmented Wasp.png" id="TCS_114_Augmented Wasp" data-flag="@X" onclick="openSidebar('TCS_114_Augmented Wasp',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\153_Camp Among the Desolation.png" id="TCS_153_Camp Among the Desolation" data-flag="@X" onclick="openSidebar('TCS_153_Camp Among the Desolation',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\10_Connected Criminal.png" id="TCS_10_Connected Criminal" data-flag="@X" onclick="openSidebar('TCS_10_Connected Criminal',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\48_Electrode Clairvoyance.png" id="TCS_48_Electrode Clairvoyance" data-flag="@X" onclick="openSidebar('TCS_48_Electrode Clairvoyance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\80_Burst Evolution.png" id="TCS_80_Burst Evolution" data-flag="@X" onclick="openSidebar('TCS_80_Burst Evolution',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\115_Blood-Dipped Sliver.png" id="TCS_115_Blood-Dipped Sliver" data-flag="@X" onclick="openSidebar('TCS_115_Blood-Dipped Sliver',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\154_Cosmosaur.png" id="TCS_154_Cosmosaur" data-flag="@X" onclick="openSidebar('TCS_154_Cosmosaur',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\14_Dune Racer.png" id="TCS_14_Dune Racer" data-flag="@X" onclick="openSidebar('TCS_14_Dune Racer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\52_Integrated Agent.png" id="TCS_52_Integrated Agent" data-flag="@X" onclick="openSidebar('TCS_52_Integrated Agent',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\83_Death's Head Sliver.png" id="TCS_83_Deaths Head Sliver" data-flag="@X" onclick="openSidebar('TCS_83_Deaths Head Sliver',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\116_Bloodsport Battle.png" id="TCS_116_Bloodsport Battle" data-flag="@X" onclick="openSidebar('TCS_116_Bloodsport Battle',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\156_Emergency Airlift.png" id="TCS_156_Emergency Airlift" data-flag="@X" onclick="openSidebar('TCS_156_Emergency Airlift',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\17_Hacktivist.png" id="TCS_17_Hacktivist" data-flag="@X" onclick="openSidebar('TCS_17_Hacktivist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\57_Networked Hacker.png" id="TCS_57_Networked Hacker" data-flag="@X" onclick="openSidebar('TCS_57_Networked Hacker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\85_Digital Combat Club.png" id="TCS_85_Digital Combat Club" data-flag="@X" onclick="openSidebar('TCS_85_Digital Combat Club',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\119_Cyber-Phoenix.png" id="TCS_119_Cyber-Phoenix" data-flag="@X" onclick="openSidebar('TCS_119_Cyber-Phoenix',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\158_Extract Resources.png" id="TCS_158_Extract Resources" data-flag="@X" onclick="openSidebar('TCS_158_Extract Resources',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\23_Network Angel.png" id="TCS_23_Network Angel" data-flag="@X" onclick="openSidebar('TCS_23_Network Angel',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\61_Reach for the Core.png" id="TCS_61_Reach for the Core" data-flag="@X" onclick="openSidebar('TCS_61_Reach for the Core',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\86_Doomed Encounter.png" id="TCS_86_Doomed Encounter" data-flag="@X" onclick="openSidebar('TCS_86_Doomed Encounter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\124_Mengeja, Cyber Spellblade.png" id="TCS_124_Mengeja, Cyber Spellblade" data-flag="@X" onclick="openSidebar('TCS_124_Mengeja, Cyber Spellblade',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\159_Fog Spewer Sliver.png" id="TCS_159_Fog Spewer Sliver" data-flag="@X" onclick="openSidebar('TCS_159_Fog Spewer Sliver',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\24_Orbital Artillery Commander.png" id="TCS_24_Orbital Artillery Commander" data-flag="@X" onclick="openSidebar('TCS_24_Orbital Artillery Commander',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\65_Ripple Reality.png" id="TCS_65_Ripple Reality" data-flag="@X" onclick="openSidebar('TCS_65_Ripple Reality',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\87_Eater of Despair.png" id="TCS_87_Eater of Despair" data-flag="@X" onclick="openSidebar('TCS_87_Eater of Despair',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\139_Stellar Boarding Party.png" id="TCS_139_Stellar Boarding Party" data-flag="@X" onclick="openSidebar('TCS_139_Stellar Boarding Party',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\164_Outland Dustwalkers.png" id="TCS_164_Outland Dustwalkers" data-flag="@X" onclick="openSidebar('TCS_164_Outland Dustwalkers',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\32_Ruin Sliver.png" id="TCS_32_Ruin Sliver" data-flag="@X" onclick="openSidebar('TCS_32_Ruin Sliver',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\67_Steladus.png" id="TCS_67_Steladus" data-flag="@X" onclick="openSidebar('TCS_67_Steladus',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\89_Extermination Expedition.png" id="TCS_89_Extermination Expedition" data-flag="@X" onclick="openSidebar('TCS_89_Extermination Expedition',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\141_Street Slicer.png" id="TCS_141_Street Slicer" data-flag="@X" onclick="openSidebar('TCS_141_Street Slicer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\173_Shimmer Shielder.png" id="TCS_173_Shimmer Shielder" data-flag="@X" onclick="openSidebar('TCS_173_Shimmer Shielder',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\34_Self-Tinkering.png" id="TCS_34_Self-Tinkering" data-flag="@X" onclick="openSidebar('TCS_34_Self-Tinkering',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\68_Stormcloud Sliver.png" id="TCS_68_Stormcloud Sliver" data-flag="@X" onclick="openSidebar('TCS_68_Stormcloud Sliver',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\105_Tech Recovery Specialist.png" id="TCS_105_Tech Recovery Specialist" data-flag="@X" onclick="openSidebar('TCS_105_Tech Recovery Specialist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\146_Underworld Kingpin.png" id="TCS_146_Underworld Kingpin" data-flag="@X" onclick="openSidebar('TCS_146_Underworld Kingpin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\174_Sonic Smasher.png" id="TCS_174_Sonic Smasher" data-flag="@X" onclick="openSidebar('TCS_174_Sonic Smasher',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\3_Angelic Warden.png" id="TCS_3_Angelic Warden" data-flag="@X" onclick="openSidebar('TCS_3_Angelic Warden',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\40_Alrajeia, Retroist.png" id="TCS_40_Alrajeia, Retroist" data-flag="@X" onclick="openSidebar('TCS_40_Alrajeia, Retroist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\109_Vershina, Apex of Twilight.png" id="TCS_109_Vershina, Apex of Twilight" data-flag="@X" onclick="openSidebar('TCS_109_Vershina, Apex of Twilight',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\125_Mobile Arms Deal.png" id="TCS_125_Mobile Arms Deal" data-flag="@X" onclick="openSidebar('TCS_125_Mobile Arms Deal',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\148_Advanced Guard Dog.png" id="TCS_148_Advanced Guard Dog" data-flag="@X" onclick="openSidebar('TCS_148_Advanced Guard Dog',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\5_Chimeric Pilot.png" id="TCS_5_Chimeric Pilot" data-flag="@X" onclick="openSidebar('TCS_5_Chimeric Pilot',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\42_Data Architect.png" id="TCS_42_Data Architect" data-flag="@X" onclick="openSidebar('TCS_42_Data Architect',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\75_Aggressive Archaeologist.png" id="TCS_75_Aggressive Archaeologist" data-flag="@X" onclick="openSidebar('TCS_75_Aggressive Archaeologist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\126_Outland Enforcer.png" id="TCS_126_Outland Enforcer" data-flag="@X" onclick="openSidebar('TCS_126_Outland Enforcer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\152_Buildbot.png" id="TCS_152_Buildbot" data-flag="@X" onclick="openSidebar('TCS_152_Buildbot',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\11_Containment Chamber.png" id="TCS_11_Containment Chamber" data-flag="@X" onclick="openSidebar('TCS_11_Containment Chamber',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\49_Forced Digitization.png" id="TCS_49_Forced Digitization" data-flag="@X" onclick="openSidebar('TCS_49_Forced Digitization',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\77_Assault Mecha.png" id="TCS_77_Assault Mecha" data-flag="@X" onclick="openSidebar('TCS_77_Assault Mecha',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\133_Shvydko, High-Speed Roller.png" id="TCS_133_Shvydko, High-Speed Roller" data-flag="@X" onclick="openSidebar('TCS_133_Shvydko, High-Speed Roller',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\157_Explore the City.png" id="TCS_157_Explore the City" data-flag="@X" onclick="openSidebar('TCS_157_Explore the City',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\13_Destruction Run.png" id="TCS_13_Destruction Run" data-flag="@X" onclick="openSidebar('TCS_13_Destruction Run',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\51_High-Tech Tinkerer.png" id="TCS_51_High-Tech Tinkerer" data-flag="@X" onclick="openSidebar('TCS_51_High-Tech Tinkerer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\79_Bisect.png" id="TCS_79_Bisect" data-flag="@X" onclick="openSidebar('TCS_79_Bisect',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\137_Static Sniper.png" id="TCS_137_Static Sniper" data-flag="@X" onclick="openSidebar('TCS_137_Static Sniper',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\162_Memories of Home.png" id="TCS_162_Memories of Home" data-flag="@X" onclick="openSidebar('TCS_162_Memories of Home',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\15_Emergency Ejection.png" id="TCS_15_Emergency Ejection" data-flag="@X" onclick="openSidebar('TCS_15_Emergency Ejection',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\53_Intelligence Agent.png" id="TCS_53_Intelligence Agent" data-flag="@X" onclick="openSidebar('TCS_53_Intelligence Agent',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\82_Darkstar Pilot.png" id="TCS_82_Darkstar Pilot" data-flag="@X" onclick="openSidebar('TCS_82_Darkstar Pilot',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\138_Static Wave.png" id="TCS_138_Static Wave" data-flag="@X" onclick="openSidebar('TCS_138_Static Wave',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\165_Outland Gargantuan.png" id="TCS_165_Outland Gargantuan" data-flag="@X" onclick="openSidebar('TCS_165_Outland Gargantuan',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\27_Outland Strike Squad.png" id="TCS_27_Outland Strike Squad" data-flag="@X" onclick="openSidebar('TCS_27_Outland Strike Squad',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\69_Tech Support.png" id="TCS_69_Tech Support" data-flag="@X" onclick="openSidebar('TCS_69_Tech Support',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\95_Hired Hit.png" id="TCS_95_Hired Hit" data-flag="@X" onclick="openSidebar('TCS_95_Hired Hit',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\143_Thoughtwave Tuner.png" id="TCS_143_Thoughtwave Tuner" data-flag="@X" onclick="openSidebar('TCS_143_Thoughtwave Tuner',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\171_Shell-Dweller Street Seller.png" id="TCS_171_Shell-Dweller Street Seller" data-flag="@X" onclick="openSidebar('TCS_171_Shell-Dweller Street Seller',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\28_Portal Smasher.png" id="TCS_28_Portal Smasher" data-flag="@X" onclick="openSidebar('TCS_28_Portal Smasher',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\72_Unceasing Propaganda.png" id="TCS_72_Unceasing Propaganda" data-flag="@X" onclick="openSidebar('TCS_72_Unceasing Propaganda',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\97_Intel Theft.png" id="TCS_97_Intel Theft" data-flag="@X" onclick="openSidebar('TCS_97_Intel Theft',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\145_Twin-Sword Striker.png" id="TCS_145_Twin-Sword Striker" data-flag="@X" onclick="openSidebar('TCS_145_Twin-Sword Striker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\181_Urban Navigator.png" id="TCS_181_Urban Navigator" data-flag="@X" onclick="openSidebar('TCS_181_Urban Navigator',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\36_Steelborn Wanderer.png" id="TCS_36_Steelborn Wanderer" data-flag="@X" onclick="openSidebar('TCS_36_Steelborn Wanderer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\73_Universal Connection.png" id="TCS_73_Universal Connection" data-flag="@X" onclick="openSidebar('TCS_73_Universal Connection',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\99_Mind Thief.png" id="TCS_99_Mind Thief" data-flag="@X" onclick="openSidebar('TCS_99_Mind Thief',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\147_Unspeakable Power.png" id="TCS_147_Unspeakable Power" data-flag="@X" onclick="openSidebar('TCS_147_Unspeakable Power',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\182_Wasteland Bard.png" id="TCS_182_Wasteland Bard" data-flag="@X" onclick="openSidebar('TCS_182_Wasteland Bard',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\4_Augmented Peacekeeper.png" id="TCS_4_Augmented Peacekeeper" data-flag="@X" onclick="openSidebar('TCS_4_Augmented Peacekeeper',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\39_Act Like You Belong.png" id="TCS_39_Act Like You Belong" data-flag="@X" onclick="openSidebar('TCS_39_Act Like You Belong',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\108_Transfer Memories.png" id="TCS_108_Transfer Memories" data-flag="@X" onclick="openSidebar('TCS_108_Transfer Memories',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\112_Alien Monolith.png" id="TCS_112_Alien Monolith" data-flag="@X" onclick="openSidebar('TCS_112_Alien Monolith',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\149_Aimless Explorer.png" id="TCS_149_Aimless Explorer" data-flag="@X" onclick="openSidebar('TCS_149_Aimless Explorer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\7_Close Support Mecha.png" id="TCS_7_Close Support Mecha" data-flag="@X" onclick="openSidebar('TCS_7_Close Support Mecha',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\41_Brazen Thieving.png" id="TCS_41_Brazen Thieving" data-flag="@X" onclick="openSidebar('TCS_41_Brazen Thieving',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\76_Artificial Reinforcement.png" id="TCS_76_Artificial Reinforcement" data-flag="@X" onclick="openSidebar('TCS_76_Artificial Reinforcement',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\113_Alley Knight.png" id="TCS_113_Alley Knight" data-flag="@X" onclick="openSidebar('TCS_113_Alley Knight',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\150_Amber Sliver.png" id="TCS_150_Amber Sliver" data-flag="@X" onclick="openSidebar('TCS_150_Amber Sliver',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\8_Combat Training.png" id="TCS_8_Combat Training" data-flag="@X" onclick="openSidebar('TCS_8_Combat Training',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\44_Digital Detective.png" id="TCS_44_Digital Detective" data-flag="@X" onclick="openSidebar('TCS_44_Digital Detective',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\78_Belch Smog.png" id="TCS_78_Belch Smog" data-flag="@X" onclick="openSidebar('TCS_78_Belch Smog',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\117_Cathartic Reunion.png" id="TCS_117_Cathartic Reunion" data-flag="@X" onclick="openSidebar('TCS_117_Cathartic Reunion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\151_Arachnid Architect.png" id="TCS_151_Arachnid Architect" data-flag="@X" onclick="openSidebar('TCS_151_Arachnid Architect',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\9_Concerned Citizen.png" id="TCS_9_Concerned Citizen" data-flag="@X" onclick="openSidebar('TCS_9_Concerned Citizen',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\45_Digital Ghost.png" id="TCS_45_Digital Ghost" data-flag="@X" onclick="openSidebar('TCS_45_Digital Ghost',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\81_Daring Assassin.png" id="TCS_81_Daring Assassin" data-flag="@X" onclick="openSidebar('TCS_81_Daring Assassin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\118_Convenient Timing.png" id="TCS_118_Convenient Timing" data-flag="@X" onclick="openSidebar('TCS_118_Convenient Timing',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\155_Doom Blaster.png" id="TCS_155_Doom Blaster" data-flag="@X" onclick="openSidebar('TCS_155_Doom Blaster',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\12_Daring Chase.png" id="TCS_12_Daring Chase" data-flag="@X" onclick="openSidebar('TCS_12_Daring Chase',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\46_Discrete Decker.png" id="TCS_46_Discrete Decker" data-flag="@X" onclick="openSidebar('TCS_46_Discrete Decker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\84_Destructive Mecha.png" id="TCS_84_Destructive Mecha" data-flag="@X" onclick="openSidebar('TCS_84_Destructive Mecha',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\121_Exotic Slasher.png" id="TCS_121_Exotic Slasher" data-flag="@X" onclick="openSidebar('TCS_121_Exotic Slasher',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\160_Guard For Hire.png" id="TCS_160_Guard For Hire" data-flag="@X" onclick="openSidebar('TCS_160_Guard For Hire',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\16_Gliding Guardian.png" id="TCS_16_Gliding Guardian" data-flag="@X" onclick="openSidebar('TCS_16_Gliding Guardian',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\47_Edge Runner.png" id="TCS_47_Edge Runner" data-flag="@X" onclick="openSidebar('TCS_47_Edge Runner',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\88_Elite Fixer.png" id="TCS_88_Elite Fixer" data-flag="@X" onclick="openSidebar('TCS_88_Elite Fixer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\122_Final Guard.png" id="TCS_122_Final Guard" data-flag="@X" onclick="openSidebar('TCS_122_Final Guard',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\161_Hired Hand.png" id="TCS_161_Hired Hand" data-flag="@X" onclick="openSidebar('TCS_161_Hired Hand',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\19_Hiveguard Sliver.png" id="TCS_19_Hiveguard Sliver" data-flag="@X" onclick="openSidebar('TCS_19_Hiveguard Sliver',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\50_Frost-Glare Assassin.png" id="TCS_50_Frost-Glare Assassin" data-flag="@X" onclick="openSidebar('TCS_50_Frost-Glare Assassin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\90_Fight Beyond the End.png" id="TCS_90_Fight Beyond the End" data-flag="@X" onclick="openSidebar('TCS_90_Fight Beyond the End',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\123_Full Salvo.png" id="TCS_123_Full Salvo" data-flag="@X" onclick="openSidebar('TCS_123_Full Salvo',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\166_Outland Juggernaut.png" id="TCS_166_Outland Juggernaut" data-flag="@X" onclick="openSidebar('TCS_166_Outland Juggernaut',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\20_Horizon Flier.png" id="TCS_20_Horizon Flier" data-flag="@X" onclick="openSidebar('TCS_20_Horizon Flier',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\54_Inventory Finder.png" id="TCS_54_Inventory Finder" data-flag="@X" onclick="openSidebar('TCS_54_Inventory Finder',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\92_Gatling Gunship.png" id="TCS_92_Gatling Gunship" data-flag="@X" onclick="openSidebar('TCS_92_Gatling Gunship',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\127_Outland Lancer.png" id="TCS_127_Outland Lancer" data-flag="@X" onclick="openSidebar('TCS_127_Outland Lancer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\167_Outland Smuggler.png" id="TCS_167_Outland Smuggler" data-flag="@X" onclick="openSidebar('TCS_167_Outland Smuggler',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\21_Impossible Dodging.png" id="TCS_21_Impossible Dodging" data-flag="@X" onclick="openSidebar('TCS_21_Impossible Dodging',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\55_Leap.png" id="TCS_55_Leap" data-flag="@X" onclick="openSidebar('TCS_55_Leap',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\93_Goliath Sliver.png" id="TCS_93_Goliath Sliver" data-flag="@X" onclick="openSidebar('TCS_93_Goliath Sliver',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\128_Outland Speeder Bike.png" id="TCS_128_Outland Speeder Bike" data-flag="@X" onclick="openSidebar('TCS_128_Outland Speeder Bike',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\168_Outland War Scout.png" id="TCS_168_Outland War Scout" data-flag="@X" onclick="openSidebar('TCS_168_Outland War Scout',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\22_K-11 Super Heavy Weapon.png" id="TCS_22_K-11 Super Heavy Weapon" data-flag="@X" onclick="openSidebar('TCS_22_K-11 Super Heavy Weapon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\56_Misconfiguration.png" id="TCS_56_Misconfiguration" data-flag="@X" onclick="openSidebar('TCS_56_Misconfiguration',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\94_Gruff Pilot.png" id="TCS_94_Gruff Pilot" data-flag="@X" onclick="openSidebar('TCS_94_Gruff Pilot',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\129_Outland Survivor.png" id="TCS_129_Outland Survivor" data-flag="@X" onclick="openSidebar('TCS_129_Outland Survivor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\169_Outlands Friendship.png" id="TCS_169_Outlands Friendship" data-flag="@X" onclick="openSidebar('TCS_169_Outlands Friendship',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\25_Outland Scouts.png" id="TCS_25_Outland Scouts" data-flag="@X" onclick="openSidebar('TCS_25_Outland Scouts',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\58_Outland Leaper.png" id="TCS_58_Outland Leaper" data-flag="@X" onclick="openSidebar('TCS_58_Outland Leaper',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\98_Invasive Scrutiny.png" id="TCS_98_Invasive Scrutiny" data-flag="@X" onclick="openSidebar('TCS_98_Invasive Scrutiny',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\130_Pulsefire.png" id="TCS_130_Pulsefire" data-flag="@X" onclick="openSidebar('TCS_130_Pulsefire',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\170_Sand Strider.png" id="TCS_170_Sand Strider" data-flag="@X" onclick="openSidebar('TCS_170_Sand Strider',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\26_Outland Sentinel.png" id="TCS_26_Outland Sentinel" data-flag="@X" onclick="openSidebar('TCS_26_Outland Sentinel',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\59_Portal Jump.png" id="TCS_59_Portal Jump" data-flag="@X" onclick="openSidebar('TCS_59_Portal Jump',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\100_Orbital Salvage Rig.png" id="TCS_100_Orbital Salvage Rig" data-flag="@X" onclick="openSidebar('TCS_100_Orbital Salvage Rig',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\131_Salvage Operation.png" id="TCS_131_Salvage Operation" data-flag="@X" onclick="openSidebar('TCS_131_Salvage Operation',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\172_Shield Charge.png" id="TCS_172_Shield Charge" data-flag="@X" onclick="openSidebar('TCS_172_Shield Charge',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\29_Recovery Efforts.png" id="TCS_29_Recovery Efforts" data-flag="@X" onclick="openSidebar('TCS_29_Recovery Efforts',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\60_Private Investigation.png" id="TCS_60_Private Investigation" data-flag="@X" onclick="openSidebar('TCS_60_Private Investigation',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\101_Outland Hunter.png" id="TCS_101_Outland Hunter" data-flag="@X" onclick="openSidebar('TCS_101_Outland Hunter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\132_Sharp Sliver.png" id="TCS_132_Sharp Sliver" data-flag="@X" onclick="openSidebar('TCS_132_Sharp Sliver',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\175_Thrashing Sliver.png" id="TCS_175_Thrashing Sliver" data-flag="@X" onclick="openSidebar('TCS_175_Thrashing Sliver',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\30_Resolute Defender.png" id="TCS_30_Resolute Defender" data-flag="@X" onclick="openSidebar('TCS_30_Resolute Defender',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\63_Respected Cabbie.png" id="TCS_63_Respected Cabbie" data-flag="@X" onclick="openSidebar('TCS_63_Respected Cabbie',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\103_Smuggler's Sentinel.png" id="TCS_103_Smugglers Sentinel" data-flag="@X" onclick="openSidebar('TCS_103_Smugglers Sentinel',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\134_Spark Throw.png" id="TCS_134_Spark Throw" data-flag="@X" onclick="openSidebar('TCS_134_Spark Throw',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\176_Titanic Sand Wurm.png" id="TCS_176_Titanic Sand Wurm" data-flag="@X" onclick="openSidebar('TCS_176_Titanic Sand Wurm',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\31_Roadblock.png" id="TCS_31_Roadblock" data-flag="@X" onclick="openSidebar('TCS_31_Roadblock',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\64_Riftstrider Sliver.png" id="TCS_64_Riftstrider Sliver" data-flag="@X" onclick="openSidebar('TCS_64_Riftstrider Sliver',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\104_Specimen Collector.png" id="TCS_104_Specimen Collector" data-flag="@X" onclick="openSidebar('TCS_104_Specimen Collector',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\135_Sparkthrower Shieldmate.png" id="TCS_135_Sparkthrower Shieldmate" data-flag="@X" onclick="openSidebar('TCS_135_Sparkthrower Shieldmate',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\177_Tower Climber.png" id="TCS_177_Tower Climber" data-flag="@X" onclick="openSidebar('TCS_177_Tower Climber',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\33_Ruin Strider.png" id="TCS_33_Ruin Strider" data-flag="@X" onclick="openSidebar('TCS_33_Ruin Strider',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\66_Social Engineer.png" id="TCS_66_Social Engineer" data-flag="@X" onclick="openSidebar('TCS_66_Social Engineer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\106_Timsah Crasher.png" id="TCS_106_Timsah Crasher" data-flag="@X" onclick="openSidebar('TCS_106_Timsah Crasher',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\136_Sprinting Speedster.png" id="TCS_136_Sprinting Speedster" data-flag="@X" onclick="openSidebar('TCS_136_Sprinting Speedster',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\179_Traffic Accident.png" id="TCS_179_Traffic Accident" data-flag="@X" onclick="openSidebar('TCS_179_Traffic Accident',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\37_Sword Storm Angel.png" id="TCS_37_Sword Storm Angel" data-flag="@X" onclick="openSidebar('TCS_37_Sword Storm Angel',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\71_Track the Target.png" id="TCS_71_Track the Target" data-flag="@X" onclick="openSidebar('TCS_71_Track the Target',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\107_Track from the Shadows.png" id="TCS_107_Track from the Shadows" data-flag="@X" onclick="openSidebar('TCS_107_Track from the Shadows',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\140_Stranded Mech.png" id="TCS_140_Stranded Mech" data-flag="@X" onclick="openSidebar('TCS_140_Stranded Mech',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\180_Unleash Carnage.png" id="TCS_180_Unleash Carnage" data-flag="@X" onclick="openSidebar('TCS_180_Unleash Carnage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\38_Wasp-8 Strike Wing.png" id="TCS_38_Wasp-8 Strike Wing" data-flag="@X" onclick="openSidebar('TCS_38_Wasp-8 Strike Wing',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\74_Warp Knight.png" id="TCS_74_Warp Knight" data-flag="@X" onclick="openSidebar('TCS_74_Warp Knight',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\110_VIP Treatment.png" id="TCS_110_VIP Treatment" data-flag="@X" onclick="openSidebar('TCS_110_VIP Treatment',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\144_Tunnel Borer Sliver.png" id="TCS_144_Tunnel Borer Sliver" data-flag="@X" onclick="openSidebar('TCS_144_Tunnel Borer Sliver',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\183_Xenosaur Scout.png" id="TCS_183_Xenosaur Scout" data-flag="@X" onclick="openSidebar('TCS_183_Xenosaur Scout',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\1_Abeyance.png" id="TCS_1_Abeyance" data-flag="@X" onclick="openSidebar('TCS_1_Abeyance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\12_Aviation Pioneer.png" id="TCS_12_Aviation Pioneer" data-flag="@X" onclick="openSidebar('TCS_12_Aviation Pioneer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\111_Wanted.png" id="TCS_111_Wanted" data-flag="@X" onclick="openSidebar('TCS_111_Wanted',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\32_Bloodthirster.png" id="TCS_32_Bloodthirster" data-flag="@X" onclick="openSidebar('TCS_32_Bloodthirster',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\42_Barroom Brawl.png" id="TCS_42_Barroom Brawl" data-flag="@X" onclick="openSidebar('TCS_42_Barroom Brawl',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\2_Alley Evasion.png" id="TCS_2_Alley Evasion" data-flag="@X" onclick="openSidebar('TCS_2_Alley Evasion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\13_Cruel Witness.png" id="TCS_13_Cruel Witness" data-flag="@X" onclick="openSidebar('TCS_13_Cruel Witness',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\22_Blighted Bat.png" id="TCS_22_Blighted Bat" data-flag="@X" onclick="openSidebar('TCS_22_Blighted Bat',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\33_Fireball.png" id="TCS_33_Fireball" data-flag="@X" onclick="openSidebar('TCS_33_Fireball',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\43_Colossal Dreadmaw.png" id="TCS_43_Colossal Dreadmaw" data-flag="@X" onclick="openSidebar('TCS_43_Colossal Dreadmaw',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\3_Cloud Crusader.png" id="TCS_3_Cloud Crusader" data-flag="@X" onclick="openSidebar('TCS_3_Cloud Crusader',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\14_Divination.png" id="TCS_14_Divination" data-flag="@X" onclick="openSidebar('TCS_14_Divination',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\23_Blood Artist.png" id="TCS_23_Blood Artist" data-flag="@X" onclick="openSidebar('TCS_23_Blood Artist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\34_Goblin Rally.png" id="TCS_34_Goblin Rally" data-flag="@X" onclick="openSidebar('TCS_34_Goblin Rally',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\44_Eldritch Evolution.png" id="TCS_44_Eldritch Evolution" data-flag="@X" onclick="openSidebar('TCS_44_Eldritch Evolution',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\4_Felidar Guardian.png" id="TCS_4_Felidar Guardian" data-flag="@X" onclick="openSidebar('TCS_4_Felidar Guardian',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\15_Octoprophet.png" id="TCS_15_Octoprophet" data-flag="@X" onclick="openSidebar('TCS_15_Octoprophet',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\24_Crucify.png" id="TCS_24_Crucify" data-flag="@X" onclick="openSidebar('TCS_24_Crucify',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\35_Hijack.png" id="TCS_35_Hijack" data-flag="@X" onclick="openSidebar('TCS_35_Hijack',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\45_Jewel-Eye Cobra.png" id="TCS_45_Jewel-Eye Cobra" data-flag="@X" onclick="openSidebar('TCS_45_Jewel-Eye Cobra',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\5_Herald of Faith.png" id="TCS_5_Herald of Faith" data-flag="@X" onclick="openSidebar('TCS_5_Herald of Faith',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\16_Phantom Warrior.png" id="TCS_16_Phantom Warrior" data-flag="@X" onclick="openSidebar('TCS_16_Phantom Warrior',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\25_Dogged Detective.png" id="TCS_25_Dogged Detective" data-flag="@X" onclick="openSidebar('TCS_25_Dogged Detective',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\36_Lightning Strike.png" id="TCS_36_Lightning Strike" data-flag="@X" onclick="openSidebar('TCS_36_Lightning Strike',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\46_Kurgadon.png" id="TCS_46_Kurgadon" data-flag="@X" onclick="openSidebar('TCS_46_Kurgadon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\6_Kill Shot.png" id="TCS_6_Kill Shot" data-flag="@X" onclick="openSidebar('TCS_6_Kill Shot',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\17_Reduce in Stature.png" id="TCS_17_Reduce in Stature" data-flag="@X" onclick="openSidebar('TCS_17_Reduce in Stature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\26_Duress.png" id="TCS_26_Duress" data-flag="@X" onclick="openSidebar('TCS_26_Duress',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\37_Prodigal Pyromancer.png" id="TCS_37_Prodigal Pyromancer" data-flag="@X" onclick="openSidebar('TCS_37_Prodigal Pyromancer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\47_Plummet.png" id="TCS_47_Plummet" data-flag="@X" onclick="openSidebar('TCS_47_Plummet',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\7_Master's Call.png" id="TCS_7_Masters Call" data-flag="@X" onclick="openSidebar('TCS_7_Masters Call',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\18_Shrieking Drake.png" id="TCS_18_Shrieking Drake" data-flag="@X" onclick="openSidebar('TCS_18_Shrieking Drake',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\27_Open the Graves.png" id="TCS_27_Open the Graves" data-flag="@X" onclick="openSidebar('TCS_27_Open the Graves',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\38_Scrap.png" id="TCS_38_Scrap" data-flag="@X" onclick="openSidebar('TCS_38_Scrap',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\48_Prodigious Growth.png" id="TCS_48_Prodigious Growth" data-flag="@X" onclick="openSidebar('TCS_48_Prodigious Growth',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\8_Metallurgeon.png" id="TCS_8_Metallurgeon" data-flag="@X" onclick="openSidebar('TCS_8_Metallurgeon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\19_Spell Crumple.png" id="TCS_19_Spell Crumple" data-flag="@X" onclick="openSidebar('TCS_19_Spell Crumple',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\28_Slum Reaper.png" id="TCS_28_Slum Reaper" data-flag="@X" onclick="openSidebar('TCS_28_Slum Reaper',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\39_Shock.png" id="TCS_39_Shock" data-flag="@X" onclick="openSidebar('TCS_39_Shock',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\49_Ridgescale Tusker.png" id="TCS_49_Ridgescale Tusker" data-flag="@X" onclick="openSidebar('TCS_49_Ridgescale Tusker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\9_Moment of Heroism.png" id="TCS_9_Moment of Heroism" data-flag="@X" onclick="openSidebar('TCS_9_Moment of Heroism',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\20_Vivisection.png" id="TCS_20_Vivisection" data-flag="@X" onclick="openSidebar('TCS_20_Vivisection',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\29_Twisted Experiment.png" id="TCS_29_Twisted Experiment" data-flag="@X" onclick="openSidebar('TCS_29_Twisted Experiment',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\40_Thrill of Possibility.png" id="TCS_40_Thrill of Possibility" data-flag="@X" onclick="openSidebar('TCS_40_Thrill of Possibility',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\50_Saber Ants.png" id="TCS_50_Saber Ants" data-flag="@X" onclick="openSidebar('TCS_50_Saber Ants',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\10_Stasis Snare.png" id="TCS_10_Stasis Snare" data-flag="@X" onclick="openSidebar('TCS_10_Stasis Snare',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\21_Vizzerdrix.png" id="TCS_21_Vizzerdrix" data-flag="@X" onclick="openSidebar('TCS_21_Vizzerdrix',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\30_Vile Entomber.png" id="TCS_30_Vile Entomber" data-flag="@X" onclick="openSidebar('TCS_30_Vile Entomber',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\41_Unexpected Windfall.png" id="TCS_41_Unexpected Windfall" data-flag="@X" onclick="openSidebar('TCS_41_Unexpected Windfall',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\51_Tracker.png" id="TCS_51_Tracker" data-flag="@X" onclick="openSidebar('TCS_51_Tracker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\11_Swords to Plowshares.png" id="TCS_11_Swords to Plowshares" data-flag="@X" onclick="openSidebar('TCS_11_Swords to Plowshares',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TCS_e" data-flag="@E" onclick="openSidebar('TCS_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\31_Zombify.png" id="TCS_31_Zombify" data-flag="@X" onclick="openSidebar('TCS_31_Zombify',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TCS_e" data-flag="@E" onclick="openSidebar('TCS_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TCS_e" data-flag="@E" onclick="openSidebar('TCS_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TCS_er" data-flag="@E" onclick="openSidebar('TCS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TCS_er" data-flag="@E" onclick="openSidebar('TCS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TCS_er" data-flag="@E" onclick="openSidebar('TCS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TCS_er" data-flag="@E" onclick="openSidebar('TCS_er',false)"></div>
+				<div id="gold" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\202_Teferi, Ageless Scholar.png" id="TCS_202_Teferi, Ageless Scholar" data-flag="@X" onclick="openSidebar('TCS_202_Teferi, Ageless Scholar',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\201_Shakhray, Death's Blade.png" id="TCS_201_Shakhray, Deaths Blade" data-flag="@X" onclick="openSidebar('TCS_201_Shakhray, Deaths Blade',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\197_Pernicieux, Last of His Kind.png" id="TCS_197_Pernicieux, Last of His Kind" data-flag="@X" onclick="openSidebar('TCS_197_Pernicieux, Last of His Kind',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\188_Eldritch Sliver.png" id="TCS_188_Eldritch Sliver" data-flag="@X" onclick="openSidebar('TCS_188_Eldritch Sliver',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\203_The Unyielding Phalanx.png" id="TCS_203_The Unyielding Phalanx" data-flag="@X" onclick="openSidebar('TCS_203_The Unyielding Phalanx',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\187_Eamil, Corporate Hacker.png" id="TCS_187_Eamil, Corporate Hacker" data-flag="@X" onclick="openSidebar('TCS_187_Eamil, Corporate Hacker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\196_Ochi, the Face Stealer.png" id="TCS_196_Ochi, the Face Stealer" data-flag="@X" onclick="openSidebar('TCS_196_Ochi, the Face Stealer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\204_Varus, Skyline Slasher.png" id="TCS_204_Varus, Skyline Slasher" data-flag="@X" onclick="openSidebar('TCS_204_Varus, Skyline Slasher',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\185_Altin, the Golden Idol.png" id="TCS_185_Altin, the Golden Idol" data-flag="@X" onclick="openSidebar('TCS_185_Altin, the Golden Idol',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\186_Dr. Imbwa, Prodigy.png" id="TCS_186_Dr. Imbwa, Prodigy" data-flag="@X" onclick="openSidebar('TCS_186_Dr. Imbwa, Prodigy',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\190_Imo-Ero, Technomage.png" id="TCS_190_Imo-Ero, Technomage" data-flag="@X" onclick="openSidebar('TCS_190_Imo-Ero, Technomage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\200_Selmis, the Shadow Walker.png" id="TCS_200_Selmis, the Shadow Walker" data-flag="@X" onclick="openSidebar('TCS_200_Selmis, the Shadow Walker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\54_Blood Cultist.png" id="TCS_54_Blood Cultist" data-flag="@X" onclick="openSidebar('TCS_54_Blood Cultist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\61_Sunder Shaman.png" id="TCS_61_Sunder Shaman" data-flag="@X" onclick="openSidebar('TCS_61_Sunder Shaman',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\53_Belligerent Brontodon.png" id="TCS_53_Belligerent Brontodon" data-flag="@X" onclick="openSidebar('TCS_53_Belligerent Brontodon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\55_Chrome Courier.png" id="TCS_55_Chrome Courier" data-flag="@X" onclick="openSidebar('TCS_55_Chrome Courier',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\59_Soaring Thought-Thief.png" id="TCS_59_Soaring Thought-Thief" data-flag="@X" onclick="openSidebar('TCS_59_Soaring Thought-Thief',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TCS_e" data-flag="@E" onclick="openSidebar('TCS_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TCS_e" data-flag="@E" onclick="openSidebar('TCS_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TCS_e" data-flag="@E" onclick="openSidebar('TCS_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TCS_er" data-flag="@E" onclick="openSidebar('TCS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TCS_er" data-flag="@E" onclick="openSidebar('TCS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TCS_er" data-flag="@E" onclick="openSidebar('TCS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TCS_er" data-flag="@E" onclick="openSidebar('TCS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TCS_er" data-flag="@E" onclick="openSidebar('TCS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\194_Krylo, Death's Wing.png" id="TCS_194_Krylo, Deaths Wing" data-flag="@X" onclick="openSidebar('TCS_194_Krylo, Deaths Wing',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\199_Saraf, Tuned Disciple.png" id="TCS_199_Saraf, Tuned Disciple" data-flag="@X" onclick="openSidebar('TCS_199_Saraf, Tuned Disciple',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\193_Kethokan, Scrap Goliath.png" id="TCS_193_Kethokan, Scrap Goliath" data-flag="@X" onclick="openSidebar('TCS_193_Kethokan, Scrap Goliath',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\189_Faylaq, First of the Legion.png" id="TCS_189_Faylaq, First of the Legion" data-flag="@X" onclick="openSidebar('TCS_189_Faylaq, First of the Legion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\192_Kehanet, Digital Oracle.png" id="TCS_192_Kehanet, Digital Oracle" data-flag="@X" onclick="openSidebar('TCS_192_Kehanet, Digital Oracle',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\195_Nakbin, Bioengineered Pilot.png" id="TCS_195_Nakbin, Bioengineered Pilot" data-flag="@X" onclick="openSidebar('TCS_195_Nakbin, Bioengineered Pilot',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\184_Allira, Cyber Blade.png" id="TCS_184_Allira, Cyber Blade" data-flag="@X" onclick="openSidebar('TCS_184_Allira, Cyber Blade',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\205_Verlig, Outland Officer.png" id="TCS_205_Verlig, Outland Officer" data-flag="@X" onclick="openSidebar('TCS_205_Verlig, Outland Officer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\191_Intore, Elite Arms Dealer.png" id="TCS_191_Intore, Elite Arms Dealer" data-flag="@X" onclick="openSidebar('TCS_191_Intore, Elite Arms Dealer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\198_Pulse, Portal Jumper.png" id="TCS_198_Pulse, Portal Jumper" data-flag="@X" onclick="openSidebar('TCS_198_Pulse, Portal Jumper',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\57_Sin Collector.png" id="TCS_57_Sin Collector" data-flag="@X" onclick="openSidebar('TCS_57_Sin Collector',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\60_Spellbound Dragon.png" id="TCS_60_Spellbound Dragon" data-flag="@X" onclick="openSidebar('TCS_60_Spellbound Dragon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\52_Acolyte of Affliction.png" id="TCS_52_Acolyte of Affliction" data-flag="@X" onclick="openSidebar('TCS_52_Acolyte of Affliction',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\58_Sky Terror.png" id="TCS_58_Sky Terror" data-flag="@X" onclick="openSidebar('TCS_58_Sky Terror',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\56_Progenitor Mimic.png" id="TCS_56_Progenitor Mimic" data-flag="@X" onclick="openSidebar('TCS_56_Progenitor Mimic',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TCS_er" data-flag="@E" onclick="openSidebar('TCS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TCS_er" data-flag="@E" onclick="openSidebar('TCS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TCS_er" data-flag="@E" onclick="openSidebar('TCS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TCS_er" data-flag="@E" onclick="openSidebar('TCS_er',false)"></div>
+				<div id="colorless" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\2_The Seeker.png" id="TCS_2_The Seeker" data-flag="@X" onclick="openSidebar('TCS_2_The Seeker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\231_Tower of Annihilation.png" id="TCS_231_Tower of Annihilation" data-flag="@X" onclick="openSidebar('TCS_231_Tower of Annihilation',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\1_Apex Sliver.png" id="TCS_1_Apex Sliver" data-flag="@X" onclick="openSidebar('TCS_1_Apex Sliver',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\223_Overloaded Power Conduit.png" id="TCS_223_Overloaded Power Conduit" data-flag="@X" onclick="openSidebar('TCS_223_Overloaded Power Conduit',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\224_Planetary Gateway.png" id="TCS_224_Planetary Gateway" data-flag="@X" onclick="openSidebar('TCS_224_Planetary Gateway',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\207_Abandoned Mainframe.png" id="TCS_207_Abandoned Mainframe" data-flag="@X" onclick="openSidebar('TCS_207_Abandoned Mainframe',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\211_Construction Zone.png" id="TCS_211_Construction Zone" data-flag="@X" onclick="openSidebar('TCS_211_Construction Zone',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\213_Crashed Craft.png" id="TCS_213_Crashed Craft" data-flag="@X" onclick="openSidebar('TCS_213_Crashed Craft',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\214_Dark Market.png" id="TCS_214_Dark Market" data-flag="@X" onclick="openSidebar('TCS_214_Dark Market',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\215_Deserted Marketplace.png" id="TCS_215_Deserted Marketplace" data-flag="@X" onclick="openSidebar('TCS_215_Deserted Marketplace',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\217_Eldritch Outcropping.png" id="TCS_217_Eldritch Outcropping" data-flag="@X" onclick="openSidebar('TCS_217_Eldritch Outcropping',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\218_Evacuation Site.png" id="TCS_218_Evacuation Site" data-flag="@X" onclick="openSidebar('TCS_218_Evacuation Site',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\219_Frosted Outpost.png" id="TCS_219_Frosted Outpost" data-flag="@X" onclick="openSidebar('TCS_219_Frosted Outpost',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\220_Heavy Frost Mech.png" id="TCS_220_Heavy Frost Mech" data-flag="@X" onclick="openSidebar('TCS_220_Heavy Frost Mech',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\221_Luxury Highrise.png" id="TCS_221_Luxury Highrise" data-flag="@X" onclick="openSidebar('TCS_221_Luxury Highrise',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\225_Psi-Striker.png" id="TCS_225_Psi-Striker" data-flag="@X" onclick="openSidebar('TCS_225_Psi-Striker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\228_Scrap Heap.png" id="TCS_228_Scrap Heap" data-flag="@X" onclick="openSidebar('TCS_228_Scrap Heap',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\229_Stellar Scanner.png" id="TCS_229_Stellar Scanner" data-flag="@X" onclick="openSidebar('TCS_229_Stellar Scanner',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\230_Subsurface Bazaar.png" id="TCS_230_Subsurface Bazaar" data-flag="@X" onclick="openSidebar('TCS_230_Subsurface Bazaar',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\206_Abandoned Bar.png" id="TCS_206_Abandoned Bar" data-flag="@X" onclick="openSidebar('TCS_206_Abandoned Bar',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\208_Blood Hold.png" id="TCS_208_Blood Hold" data-flag="@X" onclick="openSidebar('TCS_208_Blood Hold',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\209_Cache Collector.png" id="TCS_209_Cache Collector" data-flag="@X" onclick="openSidebar('TCS_209_Cache Collector',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\210_Cache Smasher.png" id="TCS_210_Cache Smasher" data-flag="@X" onclick="openSidebar('TCS_210_Cache Smasher',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\212_Corporate Headquarters.png" id="TCS_212_Corporate Headquarters" data-flag="@X" onclick="openSidebar('TCS_212_Corporate Headquarters',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\216_Desolation Wanderer.png" id="TCS_216_Desolation Wanderer" data-flag="@X" onclick="openSidebar('TCS_216_Desolation Wanderer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\222_Merchant's Terminal.png" id="TCS_222_Merchants Terminal" data-flag="@X" onclick="openSidebar('TCS_222_Merchants Terminal',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\226_Robotic Retriever.png" id="TCS_226_Robotic Retriever" data-flag="@X" onclick="openSidebar('TCS_226_Robotic Retriever',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\227_Salvager's Scanner.png" id="TCS_227_Salvagers Scanner" data-flag="@X" onclick="openSidebar('TCS_227_Salvagers Scanner',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\232_Undercity Alleyway.png" id="TCS_232_Undercity Alleyway" data-flag="@X" onclick="openSidebar('TCS_232_Undercity Alleyway',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\62_Diamond Knight.png" id="TCS_62_Diamond Knight" data-flag="@X" onclick="openSidebar('TCS_62_Diamond Knight',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\63_Meteor Golem.png" id="TCS_63_Meteor Golem" data-flag="@X" onclick="openSidebar('TCS_63_Meteor Golem',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\64_Planar Gate.png" id="TCS_64_Planar Gate" data-flag="@X" onclick="openSidebar('TCS_64_Planar Gate',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\65_Planar Portal.png" id="TCS_65_Planar Portal" data-flag="@X" onclick="openSidebar('TCS_65_Planar Portal',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\66_Skittering Surveyor.png" id="TCS_66_Skittering Surveyor" data-flag="@X" onclick="openSidebar('TCS_66_Skittering Surveyor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\67_Sky Skiff.png" id="TCS_67_Sky Skiff" data-flag="@X" onclick="openSidebar('TCS_67_Sky Skiff',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\68_Smuggler's Copter.png" id="TCS_68_Smugglers Copter" data-flag="@X" onclick="openSidebar('TCS_68_Smugglers Copter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\69_Solemn Simulacrum.png" id="TCS_69_Solemn Simulacrum" data-flag="@X" onclick="openSidebar('TCS_69_Solemn Simulacrum',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\70_Spy Kit.png" id="TCS_70_Spy Kit" data-flag="@X" onclick="openSidebar('TCS_70_Spy Kit',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\71_Teferi's Puzzle Box.png" id="TCS_71_Teferis Puzzle Box" data-flag="@X" onclick="openSidebar('TCS_71_Teferis Puzzle Box',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TCS_e" data-flag="@E" onclick="openSidebar('TCS_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TCS_er" data-flag="@E" onclick="openSidebar('TCS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TCS_er" data-flag="@E" onclick="openSidebar('TCS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TCS_er" data-flag="@E" onclick="openSidebar('TCS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TCS_er" data-flag="@E" onclick="openSidebar('TCS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TCS_er" data-flag="@E" onclick="openSidebar('TCS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\237_Icecrag Encampment.png" id="TCS_237_Icecrag Encampment" data-flag="@X" onclick="openSidebar('TCS_237_Icecrag Encampment',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\241_Murky Waterfront.png" id="TCS_241_Murky Waterfront" data-flag="@X" onclick="openSidebar('TCS_241_Murky Waterfront',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\243_Sky Spires.png" id="TCS_243_Sky Spires" data-flag="@X" onclick="openSidebar('TCS_243_Sky Spires',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\240_Moonlit Stockyard.png" id="TCS_240_Moonlit Stockyard" data-flag="@X" onclick="openSidebar('TCS_240_Moonlit Stockyard',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\234_Deserted Cantina.png" id="TCS_234_Deserted Cantina" data-flag="@X" onclick="openSidebar('TCS_234_Deserted Cantina',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TCS_er" data-flag="@E" onclick="openSidebar('TCS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TCS_er" data-flag="@E" onclick="openSidebar('TCS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TCS_er" data-flag="@E" onclick="openSidebar('TCS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TCS_er" data-flag="@E" onclick="openSidebar('TCS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TCS_er" data-flag="@E" onclick="openSidebar('TCS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\236_Frostlocked Fortress.png" id="TCS_236_Frostlocked Fortress" data-flag="@X" onclick="openSidebar('TCS_236_Frostlocked Fortress',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\239_Lost Outpost.png" id="TCS_239_Lost Outpost" data-flag="@X" onclick="openSidebar('TCS_239_Lost Outpost',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\244_Undercity Market.png" id="TCS_244_Undercity Market" data-flag="@X" onclick="openSidebar('TCS_244_Undercity Market',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\245_Wasteland Respite.png" id="TCS_245_Wasteland Respite" data-flag="@X" onclick="openSidebar('TCS_245_Wasteland Respite',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\233_Biomedical Lab.png" id="TCS_233_Biomedical Lab" data-flag="@X" onclick="openSidebar('TCS_233_Biomedical Lab',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TCS_er" data-flag="@E" onclick="openSidebar('TCS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TCS_er" data-flag="@E" onclick="openSidebar('TCS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TCS_er" data-flag="@E" onclick="openSidebar('TCS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TCS_er" data-flag="@E" onclick="openSidebar('TCS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TCS_er" data-flag="@E" onclick="openSidebar('TCS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\238_The Last Bastion.png" id="TCS_238_The Last Bastion" data-flag="@X" onclick="openSidebar('TCS_238_The Last Bastion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\242_Salvage Yard.png" id="TCS_242_Salvage Yard" data-flag="@X" onclick="openSidebar('TCS_242_Salvage Yard',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\235_Digital City.png" id="TCS_235_Digital City" data-flag="@X" onclick="openSidebar('TCS_235_Digital City',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\72_City of Brass.png" id="TCS_72_City of Brass" data-flag="@X" onclick="openSidebar('TCS_72_City of Brass',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\73_Contested War Zone.png" id="TCS_73_Contested War Zone" data-flag="@X" onclick="openSidebar('TCS_73_Contested War Zone',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\74_Evolving Wilds.png" id="TCS_74_Evolving Wilds" data-flag="@X" onclick="openSidebar('TCS_74_Evolving Wilds',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\75_Rupture Spire.png" id="TCS_75_Rupture Spire" data-flag="@X" onclick="openSidebar('TCS_75_Rupture Spire',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TCS_e" data-flag="@E" onclick="openSidebar('TCS_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TCS_e" data-flag="@E" onclick="openSidebar('TCS_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TCS_e" data-flag="@E" onclick="openSidebar('TCS_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TCS_er" data-flag="@E" onclick="openSidebar('TCS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TCS_er" data-flag="@E" onclick="openSidebar('TCS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TCS_er" data-flag="@E" onclick="openSidebar('TCS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TCS_er" data-flag="@E" onclick="openSidebar('TCS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TCS_er" data-flag="@E" onclick="openSidebar('TCS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\246_Plains.png" id="TCS_246_Plains" data-flag="@X" onclick="openSidebar('TCS_246_Plains',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\247_Island.png" id="TCS_247_Island" data-flag="@X" onclick="openSidebar('TCS_247_Island',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\248_Swamp.png" id="TCS_248_Swamp" data-flag="@X" onclick="openSidebar('TCS_248_Swamp',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\249_Mountain.png" id="TCS_249_Mountain" data-flag="@X" onclick="openSidebar('TCS_249_Mountain',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\250_Forest.png" id="TCS_250_Forest" data-flag="@X" onclick="openSidebar('TCS_250_Forest',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TCS_er" data-flag="@E" onclick="openSidebar('TCS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TCS_er" data-flag="@E" onclick="openSidebar('TCS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TCS_er" data-flag="@E" onclick="openSidebar('TCS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TCS_er" data-flag="@E" onclick="openSidebar('TCS_er',false)"></div>
+				<div id="token" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\1t_Illusion.png" id="TCS_1t_Illusion" data-flag="@X" onclick="openSidebar('TCS_1t_Illusion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\3t_Ancient Relic.png" id="TCS_3t_Ancient Relic" data-flag="@X" onclick="openSidebar('TCS_3t_Ancient Relic',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\5t_Robot.png" id="TCS_5t_Robot" data-flag="@X" onclick="openSidebar('TCS_5t_Robot',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\6t_Soldier.png" id="TCS_6t_Soldier" data-flag="@X" onclick="openSidebar('TCS_6t_Soldier',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\7t_Treasure.png" id="TCS_7t_Treasure" data-flag="@X" onclick="openSidebar('TCS_7t_Treasure',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\8t_Vehicle.png" id="TCS_8t_Vehicle" data-flag="@X" onclick="openSidebar('TCS_8t_Vehicle',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\9t_Weapon.png" id="TCS_9t_Weapon" data-flag="@X" onclick="openSidebar('TCS_9t_Weapon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\4t_Food.png" id="TCS_4t_Food" data-flag="@X" onclick="openSidebar('TCS_4t_Food',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\2t_Spider Drone.png" id="TCS_2t_Spider Drone" data-flag="@X" onclick="openSidebar('TCS_2t_Spider Drone',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TCS_e" data-flag="@E" onclick="openSidebar('TCS_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TCS_er" data-flag="@E" onclick="openSidebar('TCS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TCS_er" data-flag="@E" onclick="openSidebar('TCS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TCS_er" data-flag="@E" onclick="openSidebar('TCS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TCS_er" data-flag="@E" onclick="openSidebar('TCS_er',false)"></div>
+				<div id="masterpiece" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\1_Destruction Run (FNM Promo).png" id="TCS_1_Destruction Run (FNM Promo)" data-flag="@X" onclick="openSidebar('TCS_1_Destruction Run (FNM Promo)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\2_Weapons Expert (Buy-A-Box Promo).png" id="TCS_2_Weapons Expert (Buy-A-Box Promo)" data-flag="@X" onclick="openSidebar('TCS_2_Weapons Expert (Buy-A-Box Promo)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\3_Forced Digitization (FNM Promo).png" id="TCS_3_Forced Digitization (FNM Promo)" data-flag="@X" onclick="openSidebar('TCS_3_Forced Digitization (FNM Promo)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\4_Burst Evolution (FNM Promo).png" id="TCS_4_Burst Evolution (FNM Promo)" data-flag="@X" onclick="openSidebar('TCS_4_Burst Evolution (FNM Promo)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\5_Sharp Sliver (FNM Promo).png" id="TCS_5_Sharp Sliver (FNM Promo)" data-flag="@X" onclick="openSidebar('TCS_5_Sharp Sliver (FNM Promo)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\TCS-files\img\6_Shell-Dweller Street Seller (FNM Promo).png" id="TCS_6_Shell-Dweller Street Seller (FNM Promo)" data-flag="@X" onclick="openSidebar('TCS_6_Shell-Dweller Street Seller (FNM Promo)',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TCS_e" data-flag="@E" onclick="openSidebar('TCS_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TCS_e" data-flag="@E" onclick="openSidebar('TCS_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TCS_e" data-flag="@E" onclick="openSidebar('TCS_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="TCS_e" data-flag="@E" onclick="openSidebar('TCS_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TCS_er" data-flag="@E" onclick="openSidebar('TCS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TCS_er" data-flag="@E" onclick="openSidebar('TCS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TCS_er" data-flag="@E" onclick="openSidebar('TCS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TCS_er" data-flag="@E" onclick="openSidebar('TCS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="TCS_er" data-flag="@E" onclick="openSidebar('TCS_er',false)"></div>
+	</div>
+	</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch(rootPath + '/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch(rootPath + '/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+				let all_tags = new Set();
+				card_list_arrayified.forEach(card => {
+					if (card.notes) {
+						const tagMatches = card.notes.matchAll(/!tag(?:<\w+>)?\s+([^\s\n\b]+)/g);
+						for (const match of tagMatches) {
+							all_tags.add(match[1]);
+						}
+					}
+				});
+
+				const searchInput = document.getElementById("search");
+				const tagDropdown = document.getElementById("tag-dropdown");
+
+				// Create a mirror element for position calculation
+				const mirror = document.createElement("div");
+				Object.assign(mirror.style, {
+					position: "absolute",
+					visibility: "hidden",
+					whiteSpace: "pre",
+					font: getComputedStyle(searchInput).font,
+					padding: "0", // No padding for pure text measurement
+					border: "none",
+					boxSizing: "content-box"
+				});
+				document.body.appendChild(mirror);
+
+				if (searchInput && tagDropdown) {
+					tagDropdown.style.width = "auto";
+					tagDropdown.style.minWidth = "75px";
+					tagDropdown.style.maxWidth = "300px";
+					tagDropdown.style.maxHeight = "200px";
+					tagDropdown.style.overflowY = "auto";
+
+					const updateDropdown = function() {
+						const value = searchInput.value;
+						const cursorPosition = searchInput.selectionStart;
+						
+						// Find the tag: prefix immediately preceding the cursor
+						const lastTagIndex = value.substring(0, cursorPosition).lastIndexOf("tag:");
+						
+						if (lastTagIndex !== -1) {
+							const queryStart = lastTagIndex + 4;
+							const query = value.substring(queryStart, cursorPosition);
+							
+							if (!query.includes(" ")) {
+								const filteredTags = Array.from(all_tags).filter(tag => tag.toLowerCase().startsWith(query.toLowerCase())).sort();
+								if (filteredTags.length > 0) {
+									tagDropdown.innerHTML = "";
+									filteredTags.forEach(tag => {
+										const div = document.createElement("div");
+										div.innerText = tag;
+										div.style.padding = "5px 10px";
+										div.style.cursor = "pointer";
+										div.style.whiteSpace = "nowrap";
+										div.onmouseover = () => div.style.background = "#f0f0f0";
+										div.onmouseout = () => div.style.background = "white";
+										div.onclick = () => {
+											const newValue = value.substring(0, queryStart) + tag + " " + value.substring(cursorPosition);
+											searchInput.value = newValue;
+											tagDropdown.style.display = "none";
+											searchInput.focus();
+											const newCursorPos = queryStart + tag.length + 1;
+											searchInput.setSelectionRange(newCursorPos, newCursorPos);
+										};
+										tagDropdown.appendChild(div);
+									});
+
+									// Calculate position
+									mirror.textContent = value.substring(0, lastTagIndex + 4);
+									const textWidth = mirror.getBoundingClientRect().width;
+									const inputPaddingLeft = parseFloat(getComputedStyle(searchInput).paddingLeft) || 0;
+									
+									tagDropdown.style.left = Math.min(textWidth + inputPaddingLeft, searchInput.offsetWidth - tagDropdown.offsetWidth) + "px";
+									tagDropdown.style.display = "block";
+									return;
+								}
+							}
+						}
+						tagDropdown.style.display = "none";
+					};
+
+					searchInput.addEventListener("input", updateDropdown);
+					searchInput.addEventListener("click", updateDropdown);
+					searchInput.addEventListener("keyup", updateDropdown);
+
+					document.addEventListener("click", function(e) {
+						if (e.target !== searchInput && e.target !== tagDropdown) {
+							tagDropdown.style.display = "none";
+						}
+					});
+				}
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = rootPath + '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = rootPath + '/' + img.alt;
+				if (img.dataset.alt_src) {
+					img.dataset.alt_src = rootPath + '/' + img.dataset.alt_src;
+				}
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		const img = document.getElementById(num);
+		const seconds = 0.2;
+		const rotated_img = document.getElementById('sidebar_h_img');
+
+        img.style.transition = seconds.toString() + "s";
+        img.style.transform = "rotateY(90deg)";
+
+        if (num == 'sidebar_img')
+		{
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(90deg) rotate(90deg)";
+
+           		if (rotated_img.style.opacity != "0") {
+		            setTimeout(() => {
+		                rotated_img.style.opacity = "0";
+		                img.style.filter = "none";
+		            }, (seconds / 2) * 1000);
+		        }
+		        else {
+		        	setTimeout(() => {
+		                rotated_img.style.opacity = "1";
+		                img.style.filter = "blur(2px) brightness(0.7)";
+		            }, (seconds / 2) * 1000);
+		        }
+            }
+		}
+
+         setTimeout(function() {
+            tmp = document.getElementById(num).src;
+			document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+			document.getElementById(num).dataset.alt_src = tmp;
+
+            img.style.transition = seconds.toString() + "s";
+            img.style.transform = "rotateY(0deg)";
+
+            if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(0deg) rotate(90deg)";
+            }
+        }, seconds * 1000);
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.style.transition = "none";
+		rotated_img.style.transition = "none";
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.opacity = "1";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.opacity = "0";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	function rolldown() {
+		dropdown.style.gridTemplateColumns = "repeat(3, 1fr)";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "auto";
+			set.style.margin = "5px";
+		}
+	}
+
+	function rollup() {
+		dropdown.style.gridTemplateColumns = "1fr";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "0px";
+			set.style.margin = "0px 5px";
+		}
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL(rootPath + '/search', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url.pathname + url.search;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL(rootPath + '/card', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url.pathname + url.search;
+			}
+	</script>
+</body>
+</html>

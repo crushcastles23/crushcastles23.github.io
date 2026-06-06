@@ -1,0 +1,2481 @@
+﻿[
+    {
+        "card_name": "Super Massive Black Hole",
+        "number": 33,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "221"
+    },
+    {
+        "card_name": "ClA.I.re, Ascendant Intellect",
+        "number": 43,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "220"
+    },
+    {
+        "card_name": "Vershina, One With the Universe",
+        "number": 104,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "222"
+    },
+    {
+        "card_name": "Mo'o-Ita, Raging Fire",
+        "number": 123,
+        "shape": "planeswalker",
+        "set": "WRP",
+        "rotated": false,
+        "position": "226"
+    },
+    {
+        "card_name": "Galacta-Genesis",
+        "number": 154,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "218"
+    },
+    {
+        "card_name": "Core Seeker",
+        "number": 7,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "174"
+    },
+    {
+        "card_name": "Contact the Collective",
+        "number": 44,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "215"
+    },
+    {
+        "card_name": "Cyborg Squad",
+        "number": 76,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "187"
+    },
+    {
+        "card_name": "Qanaas, Spider Sniper",
+        "number": 129,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "219"
+    },
+    {
+        "card_name": "Aural Elk",
+        "number": 145,
+        "shape": "saga",
+        "set": "WRP",
+        "rotated": false,
+        "position": "203"
+    },
+    {
+        "card_name": "Holdout Squad",
+        "number": 16,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "172"
+    },
+    {
+        "card_name": "Break the Barrier",
+        "number": 41,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "185"
+    },
+    {
+        "card_name": "Darkstar Devastator",
+        "number": 78,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "190"
+    },
+    {
+        "card_name": "Endless Legions",
+        "number": 117,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "194"
+    },
+    {
+        "card_name": "Cycle of Death",
+        "number": 149,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "209"
+    },
+    {
+        "card_name": "Lieren, Once Human",
+        "number": 18,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "170"
+    },
+    {
+        "card_name": "Chart Anomalies",
+        "number": 42,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "182"
+    },
+    {
+        "card_name": "Deathwatch Squad",
+        "number": 84,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "186"
+    },
+    {
+        "card_name": "Flames of the Legion",
+        "number": 119,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "200"
+    },
+    {
+        "card_name": "Deep Rock Miner",
+        "number": 150,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "204"
+    },
+    {
+        "card_name": "Life Forger",
+        "number": 19,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "173"
+    },
+    {
+        "card_name": "ECHO Squad",
+        "number": 47,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "179"
+    },
+    {
+        "card_name": "Defiant Last Stand",
+        "number": 85,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "192"
+    },
+    {
+        "card_name": "Orbital Bombardment",
+        "number": 125,
+        "shape": "leveler",
+        "set": "WRP",
+        "rotated": false,
+        "position": "201"
+    },
+    {
+        "card_name": "Ragtag Squad",
+        "number": 161,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "205"
+    },
+    {
+        "card_name": "Multitudes of the Legion",
+        "number": 22,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "177"
+    },
+    {
+        "card_name": "Keen-Eyed Scavenger",
+        "number": 56,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "178"
+    },
+    {
+        "card_name": "Electro-Lich",
+        "number": 89,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "188"
+    },
+    {
+        "card_name": "Overcharge",
+        "number": 126,
+        "shape": "leveler",
+        "set": "WRP",
+        "rotated": false,
+        "position": "199"
+    },
+    {
+        "card_name": "Rift Born Avatar",
+        "number": 162,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "202"
+    },
+    {
+        "card_name": "Reality Fold",
+        "number": 29,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "176"
+    },
+    {
+        "card_name": "Knowledge of the Legion",
+        "number": 57,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "184"
+    },
+    {
+        "card_name": "Shadow of the Legion",
+        "number": 100,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "193"
+    },
+    {
+        "card_name": "Quad-Fury Mercenary",
+        "number": 130,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "196"
+    },
+    {
+        "card_name": "Smashing Stowaway",
+        "number": 167,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "206"
+    },
+    {
+        "card_name": "Sentinel of Dying Stars",
+        "number": 30,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "175"
+    },
+    {
+        "card_name": "Reality Splitter",
+        "number": 62,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "180"
+    },
+    {
+        "card_name": "Vision of the End",
+        "number": 106,
+        "shape": "leveler",
+        "set": "WRP",
+        "rotated": false,
+        "position": "191"
+    },
+    {
+        "card_name": "Void-Star Dragon",
+        "number": 140,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "195"
+    },
+    {
+        "card_name": "Strength of the Legion",
+        "number": 173,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "208"
+    },
+    {
+        "card_name": "United Forces General",
+        "number": 35,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "171"
+    },
+    {
+        "card_name": "Superluminal Motion",
+        "number": 67,
+        "shape": "leveler",
+        "set": "WRP",
+        "rotated": false,
+        "position": "183"
+    },
+    {
+        "card_name": "Void Ripper",
+        "number": 107,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "189"
+    },
+    {
+        "card_name": "Whispers of Supernova",
+        "number": 142,
+        "shape": "saga",
+        "set": "WRP",
+        "rotated": false,
+        "position": "198"
+    },
+    {
+        "card_name": "Titanape",
+        "number": 174,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "207"
+    },
+    {
+        "card_name": "Assimilate",
+        "number": 2,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "83"
+    },
+    {
+        "card_name": "Warpath Technomancer",
+        "number": 70,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "181"
+    },
+    {
+        "card_name": "Cyberstalker",
+        "number": 75,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "100"
+    },
+    {
+        "card_name": "Wily Smuggler",
+        "number": 143,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "197"
+    },
+    {
+        "card_name": "Expanding Growth",
+        "number": 152,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "134"
+    },
+    {
+        "card_name": "Astral Beast Master",
+        "number": 3,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "78"
+    },
+    {
+        "card_name": "Absorb Reality",
+        "number": 37,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "95"
+    },
+    {
+        "card_name": "Dark Star Avatar",
+        "number": 77,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "109"
+    },
+    {
+        "card_name": "Asteroid Mining Station",
+        "number": 108,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "116"
+    },
+    {
+        "card_name": "Flourish From the Fallen",
+        "number": 153,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "133"
+    },
+    {
+        "card_name": "Attack of the Clones",
+        "number": 4,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "80"
+    },
+    {
+        "card_name": "Aether Agent",
+        "number": 39,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "90"
+    },
+    {
+        "card_name": "Death of the Legions",
+        "number": 80,
+        "shape": "leveler",
+        "set": "WRP",
+        "rotated": false,
+        "position": "101"
+    },
+    {
+        "card_name": "Bloodied Hell Fighter",
+        "number": 111,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "115"
+    },
+    {
+        "card_name": "Galactic Growth",
+        "number": 155,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "131"
+    },
+    {
+        "card_name": "Celestial Alignment",
+        "number": 5,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "82"
+    },
+    {
+        "card_name": "Astral Wyvern",
+        "number": 40,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "88"
+    },
+    {
+        "card_name": "Death Trooper",
+        "number": 81,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "102"
+    },
+    {
+        "card_name": "Bombardment Corp",
+        "number": 112,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "110"
+    },
+    {
+        "card_name": "Hydra-Bot",
+        "number": 156,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "135"
+    },
+    {
+        "card_name": "Cross-Virtual Soldier",
+        "number": 8,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "73"
+    },
+    {
+        "card_name": "Drone Controller",
+        "number": 46,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "84"
+    },
+    {
+        "card_name": "Dive Bomb",
+        "number": 86,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "106"
+    },
+    {
+        "card_name": "Chaotic Vortex",
+        "number": 113,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "122"
+    },
+    {
+        "card_name": "Lost in a Digital World",
+        "number": 157,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "132"
+    },
+    {
+        "card_name": "Defensive Deployment",
+        "number": 9,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "79"
+    },
+    {
+        "card_name": "Heroic Extraction Squad",
+        "number": 52,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "86"
+    },
+    {
+        "card_name": "Fido Fighter",
+        "number": 91,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "97"
+    },
+    {
+        "card_name": "Death Burst",
+        "number": 115,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "120"
+    },
+    {
+        "card_name": "Orbit Tuner",
+        "number": 158,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "129"
+    },
+    {
+        "card_name": "Desperate Medic",
+        "number": 10,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "74"
+    },
+    {
+        "card_name": "Infiltrate the System",
+        "number": 54,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "96"
+    },
+    {
+        "card_name": "Hit Team",
+        "number": 92,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "105"
+    },
+    {
+        "card_name": "Deathstronaut",
+        "number": 116,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "114"
+    },
+    {
+        "card_name": "Planetary General",
+        "number": 160,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "130"
+    },
+    {
+        "card_name": "Frostfire Squadron",
+        "number": 11,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "71"
+    },
+    {
+        "card_name": "Intelligence Deployment",
+        "number": 55,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "92"
+    },
+    {
+        "card_name": "Ichor Keeper",
+        "number": 93,
+        "shape": "saga",
+        "set": "WRP",
+        "rotated": false,
+        "position": "103"
+    },
+    {
+        "card_name": "Fire Fight",
+        "number": 118,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "118"
+    },
+    {
+        "card_name": "Shattered Space Scout",
+        "number": 166,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "128"
+    },
+    {
+        "card_name": "Heavy Crab Drone",
+        "number": 14,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "75"
+    },
+    {
+        "card_name": "Mechanist Cultist",
+        "number": 59,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "85"
+    },
+    {
+        "card_name": "One Way Trip",
+        "number": 97,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "107"
+    },
+    {
+        "card_name": "Grasp the Void",
+        "number": 120,
+        "shape": "leveler",
+        "set": "WRP",
+        "rotated": false,
+        "position": "121"
+    },
+    {
+        "card_name": "Spirit of the Forests",
+        "number": 168,
+        "shape": "saga",
+        "set": "WRP",
+        "rotated": false,
+        "position": "124"
+    },
+    {
+        "card_name": "Rapid Deployment Unit",
+        "number": 27,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "76"
+    },
+    {
+        "card_name": "Portal Strider",
+        "number": 60,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "91"
+    },
+    {
+        "card_name": "Qatil Assassin",
+        "number": 98,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "99"
+    },
+    {
+        "card_name": "Scrap Gatherer",
+        "number": 133,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "117"
+    },
+    {
+        "card_name": "Star Born Charger",
+        "number": 169,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "123"
+    },
+    {
+        "card_name": "Rapid Reload",
+        "number": 28,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "81"
+    },
+    {
+        "card_name": "Read the Stars",
+        "number": 61,
+        "shape": "leveler",
+        "set": "WRP",
+        "rotated": false,
+        "position": "94"
+    },
+    {
+        "card_name": "Rebirth Through Robotics",
+        "number": 99,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "104"
+    },
+    {
+        "card_name": "Screeching Gale Elemental",
+        "number": 134,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "112"
+    },
+    {
+        "card_name": "Star Smasher",
+        "number": 170,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "126"
+    },
+    {
+        "card_name": "Song of the Stars",
+        "number": 32,
+        "shape": "saga",
+        "set": "WRP",
+        "rotated": false,
+        "position": "77"
+    },
+    {
+        "card_name": "Star-Cloud Summoner",
+        "number": 66,
+        "shape": "saga",
+        "set": "WRP",
+        "rotated": false,
+        "position": "89"
+    },
+    {
+        "card_name": "Solar Smasher",
+        "number": 102,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "108"
+    },
+    {
+        "card_name": "Star-Touched Scout",
+        "number": 135,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "113"
+    },
+    {
+        "card_name": "Warp Path Weaver",
+        "number": 176,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "127"
+    },
+    {
+        "card_name": "Tacti-cube",
+        "number": 34,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "72"
+    },
+    {
+        "card_name": "Tree Hopper",
+        "number": 68,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "87"
+    },
+    {
+        "card_name": "Synthetic Necromancer",
+        "number": 103,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "98"
+    },
+    {
+        "card_name": "Towering Exo-Soldier",
+        "number": 138,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "111"
+    },
+    {
+        "card_name": "Worldrender",
+        "number": 178,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "125"
+    },
+    {
+        "card_name": "Cleric of the Mechanist",
+        "number": 6,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "3"
+    },
+    {
+        "card_name": "Wormhole",
+        "number": 72,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "93"
+    },
+    {
+        "card_name": "Black Hole's Shadow",
+        "number": 73,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "29"
+    },
+    {
+        "card_name": "Void Breath",
+        "number": 139,
+        "shape": "leveler",
+        "set": "WRP",
+        "rotated": false,
+        "position": "119"
+    },
+    {
+        "card_name": "Astral Conduit",
+        "number": 144,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "46"
+    },
+    {
+        "card_name": "Grassland Sliver",
+        "number": 12,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "61"
+    },
+    {
+        "card_name": "Advanced Robotics Expert",
+        "number": 38,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "14"
+    },
+    {
+        "card_name": "Bogborn Sliver",
+        "number": 74,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "65"
+    },
+    {
+        "card_name": "Battle-Born Bombardier",
+        "number": 109,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "36"
+    },
+    {
+        "card_name": "Bio-Forge",
+        "number": 146,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "54"
+    },
+    {
+        "card_name": "Grizzled Veterans",
+        "number": 13,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "2"
+    },
+    {
+        "card_name": "Deal Gone Wrong",
+        "number": 45,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "19"
+    },
+    {
+        "card_name": "Deal with the Machine Gods",
+        "number": 79,
+        "shape": "leveler",
+        "set": "WRP",
+        "rotated": false,
+        "position": "31"
+    },
+    {
+        "card_name": "Blade of the Darkstar",
+        "number": 110,
+        "shape": "saga",
+        "set": "WRP",
+        "rotated": false,
+        "position": "43"
+    },
+    {
+        "card_name": "Birth New Worlds",
+        "number": 147,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "52"
+    },
+    {
+        "card_name": "High Altitude Defense Jet",
+        "number": 15,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "4"
+    },
+    {
+        "card_name": "FAIRIE Squad",
+        "number": 48,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "13"
+    },
+    {
+        "card_name": "Death-Bot",
+        "number": 82,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "22"
+    },
+    {
+        "card_name": "Commando Squad",
+        "number": 114,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "35"
+    },
+    {
+        "card_name": "Celestial Navigator",
+        "number": 148,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "47"
+    },
+    {
+        "card_name": "Hotshot Speeder Pilot",
+        "number": 17,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "0"
+    },
+    {
+        "card_name": "Frigid Freon Flinger",
+        "number": 49,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "16"
+    },
+    {
+        "card_name": "Deathstrike Cyborg",
+        "number": 83,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "26"
+    },
+    {
+        "card_name": "Kill-Team Joker",
+        "number": 121,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "34"
+    },
+    {
+        "card_name": "Deep-Space Wanderer",
+        "number": 151,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "44"
+    },
+    {
+        "card_name": "Light of Creation",
+        "number": 20,
+        "shape": "saga",
+        "set": "WRP",
+        "rotated": false,
+        "position": "10"
+    },
+    {
+        "card_name": "Gather Intel",
+        "number": 50,
+        "shape": "leveler",
+        "set": "WRP",
+        "rotated": false,
+        "position": "17"
+    },
+    {
+        "card_name": "Doom Diver",
+        "number": 87,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "25"
+    },
+    {
+        "card_name": "Meteorite Storm",
+        "number": 122,
+        "shape": "leveler",
+        "set": "WRP",
+        "rotated": false,
+        "position": "40"
+    },
+    {
+        "card_name": "Planetary Aligner",
+        "number": 159,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "51"
+    },
+    {
+        "card_name": "Moon Sliver",
+        "number": 21,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "62"
+    },
+    {
+        "card_name": "Heavy Freeze",
+        "number": 51,
+        "shape": "leveler",
+        "set": "WRP",
+        "rotated": false,
+        "position": "20"
+    },
+    {
+        "card_name": "Doomed Squad",
+        "number": 88,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "24"
+    },
+    {
+        "card_name": "Obsidian Sliver",
+        "number": 124,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "67"
+    },
+    {
+        "card_name": "Rite of Creation",
+        "number": 163,
+        "shape": "saga",
+        "set": "WRP",
+        "rotated": false,
+        "position": "50"
+    },
+    {
+        "card_name": "NOVA Squad",
+        "number": 23,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "5"
+    },
+    {
+        "card_name": "Ice Crystal Sliver",
+        "number": 53,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "64"
+    },
+    {
+        "card_name": "Emergency Repairs",
+        "number": 90,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "30"
+    },
+    {
+        "card_name": "Paradox Crafter",
+        "number": 127,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "37"
+    },
+    {
+        "card_name": "Ruiner Wurm",
+        "number": 164,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "48"
+    },
+    {
+        "card_name": "Palm-Sized Black Hole",
+        "number": 24,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "9"
+    },
+    {
+        "card_name": "Last-Minute Evac",
+        "number": 58,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "18"
+    },
+    {
+        "card_name": "Last Days of a Lonely World",
+        "number": 94,
+        "shape": "saga",
+        "set": "WRP",
+        "rotated": false,
+        "position": "27"
+    },
+    {
+        "card_name": "Paradox Trooper",
+        "number": 128,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "33"
+    },
+    {
+        "card_name": "Scout Sliver",
+        "number": 165,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "70"
+    },
+    {
+        "card_name": "Planetary Watcher",
+        "number": 25,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "1"
+    },
+    {
+        "card_name": "Robizard",
+        "number": 63,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "12"
+    },
+    {
+        "card_name": "Menacing Opportunist",
+        "number": 95,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "23"
+    },
+    {
+        "card_name": "Razorcrest Sliver",
+        "number": 131,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "68"
+    },
+    {
+        "card_name": "Star Strider",
+        "number": 171,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "49"
+    },
+    {
+        "card_name": "Rapid Deployment",
+        "number": 26,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "7"
+    },
+    {
+        "card_name": "Skrytnist Saboteur",
+        "number": 64,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "11"
+    },
+    {
+        "card_name": "Nightmare Sliver",
+        "number": 96,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "66"
+    },
+    {
+        "card_name": "Scour the Rubble",
+        "number": 132,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "41"
+    },
+    {
+        "card_name": "Stellar Smash",
+        "number": 172,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "53"
+    },
+    {
+        "card_name": "Sliver Swarm",
+        "number": 31,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "8"
+    },
+    {
+        "card_name": "Songs of the Frozen Void",
+        "number": 65,
+        "shape": "saga",
+        "set": "WRP",
+        "rotated": false,
+        "position": "21"
+    },
+    {
+        "card_name": "Shatter Identity",
+        "number": 101,
+        "shape": "leveler",
+        "set": "WRP",
+        "rotated": false,
+        "position": "32"
+    },
+    {
+        "card_name": "Supernova Sight",
+        "number": 136,
+        "shape": "leveler",
+        "set": "WRP",
+        "rotated": false,
+        "position": "42"
+    },
+    {
+        "card_name": "Vineweft Sliver",
+        "number": 175,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "69"
+    },
+    {
+        "card_name": "Unwavering Sentinel",
+        "number": 36,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "6"
+    },
+    {
+        "card_name": "Walker of Frozen Worlds",
+        "number": 69,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "15"
+    },
+    {
+        "card_name": "Virtual Unreality",
+        "number": 105,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "28"
+    },
+    {
+        "card_name": "Torchlight Squad",
+        "number": 137,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "38"
+    },
+    {
+        "card_name": "Warp-Touched Warrior",
+        "number": 177,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "45"
+    },
+    {
+        "card_name": "Ash Blossom Sliver",
+        "number": 4,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "234"
+    },
+    {
+        "card_name": "Wavecrash Sliver",
+        "number": 71,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "63"
+    },
+    {
+        "card_name": "Ashheart Sliver",
+        "number": 18,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "248"
+    },
+    {
+        "card_name": "Wasp-9 Star Predator",
+        "number": 141,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "39"
+    },
+    {
+        "card_name": "Amber Sliver",
+        "number": 32,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "262"
+    },
+    {
+        "card_name": "Bonescythe Sliver",
+        "number": 5,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "238"
+    },
+    {
+        "card_name": "Cryptstalker Sliver",
+        "number": 11,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "245"
+    },
+    {
+        "card_name": "Caveborn Sliver",
+        "number": 19,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "250"
+    },
+    {
+        "card_name": "Blood-Dipped Sliver",
+        "number": 25,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "253"
+    },
+    {
+        "card_name": "Hatchery Sliver",
+        "number": 33,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "266"
+    },
+    {
+        "card_name": "Disrupted Sliver",
+        "number": 6,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "233"
+    },
+    {
+        "card_name": "Leaping Sliver",
+        "number": 12,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "240"
+    },
+    {
+        "card_name": "Dregscape Sliver",
+        "number": 20,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "251"
+    },
+    {
+        "card_name": "Bloodform Sliver",
+        "number": 26,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "259"
+    },
+    {
+        "card_name": "Molder Sliver",
+        "number": 34,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "264"
+    },
+    {
+        "card_name": "Hiveguard Sliver",
+        "number": 7,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "232"
+    },
+    {
+        "card_name": "Mindflow Sliver",
+        "number": 13,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "241"
+    },
+    {
+        "card_name": "Goliath Sliver",
+        "number": 21,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "246"
+    },
+    {
+        "card_name": "Capricious Sliver",
+        "number": 27,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "258"
+    },
+    {
+        "card_name": "Pugilist Sliver",
+        "number": 35,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "265"
+    },
+    {
+        "card_name": "Skittering Sliver",
+        "number": 8,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "236"
+    },
+    {
+        "card_name": "Mirror Sliver",
+        "number": 14,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "244"
+    },
+    {
+        "card_name": "Ichorflow Sliver",
+        "number": 22,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "247"
+    },
+    {
+        "card_name": "Lava Vent Sliver",
+        "number": 28,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "256"
+    },
+    {
+        "card_name": "Ravenous Sliver",
+        "number": 36,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "260"
+    },
+    {
+        "card_name": "Stone Sliver",
+        "number": 9,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "235"
+    },
+    {
+        "card_name": "Riftstrider Sliver",
+        "number": 15,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "243"
+    },
+    {
+        "card_name": "Thorntail Sliver",
+        "number": 23,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "249"
+    },
+    {
+        "card_name": "Sharp Sliver",
+        "number": 29,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "255"
+    },
+    {
+        "card_name": "Thrashing Sliver",
+        "number": 37,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "263"
+    },
+    {
+        "card_name": "Sunscorched Sliver",
+        "number": 10,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "237"
+    },
+    {
+        "card_name": "Serpentine Sliver",
+        "number": 16,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "239"
+    },
+    {
+        "card_name": "Undeath Sliver",
+        "number": 24,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "252"
+    },
+    {
+        "card_name": "Shattershard Sliver",
+        "number": 30,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "257"
+    },
+    {
+        "card_name": "Willow Wood Sliver",
+        "number": 38,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "261"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Stormcloud Sliver",
+        "number": 17,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "242"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Tunnel Borer Sliver",
+        "number": 31,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "254"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->gold",
+    {
+        "card_name": "Crashing Automaton",
+        "number": 184,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "150"
+    },
+    {
+        "card_name": "Starlight Sprite",
+        "number": 190,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "151"
+    },
+    {
+        "card_name": "Shadowsteel Necromancer",
+        "number": 189,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "152"
+    },
+    {
+        "card_name": "Unhinged Xenobiologist",
+        "number": 192,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "153"
+    },
+    {
+        "card_name": "Annihilating Light of Creation",
+        "number": 180,
+        "shape": "saga",
+        "set": "WRP",
+        "rotated": false,
+        "position": "217"
+    },
+    {
+        "card_name": "Crescent Sliver",
+        "number": 40,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "160"
+    },
+    {
+        "card_name": "Skulking Sliver",
+        "number": 45,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "161"
+    },
+    {
+        "card_name": "Bloodswamp Sliver",
+        "number": 39,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "162"
+    },
+    {
+        "card_name": "Gilded Cloud Sliver",
+        "number": 41,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "163"
+    },
+    {
+        "card_name": "Celestial Sentinel",
+        "number": 183,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "154"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Shield-Hide Sliver",
+        "number": 44,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "164"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "General Polkovodets",
+        "number": 185,
+        "shape": "planeswalker",
+        "set": "WRP",
+        "rotated": false,
+        "position": "225"
+    },
+    {
+        "card_name": "Nebula Dragon",
+        "number": 188,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "156"
+    },
+    {
+        "card_name": "Acquisition Agent",
+        "number": 179,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "157"
+    },
+    {
+        "card_name": "High Admiral",
+        "number": 187,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "158"
+    },
+    {
+        "card_name": "Stellar Wildshaper",
+        "number": 191,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "159"
+    },
+    {
+        "card_name": "Battlefield Commander",
+        "number": 181,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "155"
+    },
+    {
+        "card_name": "Nebula Sliver",
+        "number": 43,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "166"
+    },
+    {
+        "card_name": "Mortuary Sliver",
+        "number": 42,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "167"
+    },
+    {
+        "card_name": "Swarm of Slivers",
+        "number": 48,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "168"
+    },
+    {
+        "card_name": "Speed Sliver",
+        "number": 47,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "169"
+    },
+    {
+        "card_name": "Underworld Sliver",
+        "number": 49,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "165"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Harea, Dune Walker",
+        "number": 186,
+        "shape": "planeswalker",
+        "set": "WRP",
+        "rotated": false,
+        "position": "224"
+    },
+    {
+        "card_name": "Beyond the Event Horizon",
+        "number": 182,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "214"
+    },
+    {
+        "card_name": "Sliver Queen",
+        "number": 46,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "269"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->colorless",
+    {
+        "card_name": "Singularity Sliver",
+        "number": 1,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "223"
+    },
+    {
+        "card_name": "The Battle Matrix",
+        "number": 193,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "216"
+    },
+    {
+        "card_name": "Eldritch Interface",
+        "number": 195,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "211"
+    },
+    {
+        "card_name": "Final Soldier",
+        "number": 196,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "138"
+    },
+    {
+        "card_name": "Heavy Mech Suit",
+        "number": 197,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "137"
+    },
+    {
+        "card_name": "Memory Deconstructor",
+        "number": 199,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "136"
+    },
+    {
+        "card_name": "Celestial Body",
+        "number": 194,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "56"
+    },
+    {
+        "card_name": "Mass Produced Soldier",
+        "number": 198,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "57"
+    },
+    {
+        "card_name": "Prototype Combat System",
+        "number": 200,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "55"
+    },
+    {
+        "card_name": "Apex Sliver",
+        "number": 1,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "268"
+    },
+    {
+        "card_name": "Prismatic Sliver",
+        "number": 2,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "271"
+    },
+    {
+        "card_name": "Starscape Sliver",
+        "number": 3,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "270"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Architect's Dream World",
+        "number": 201,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "140"
+    },
+    {
+        "card_name": "Shadowed Ringworld",
+        "number": 210,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "141"
+    },
+    {
+        "card_name": "Sulfurous Surface",
+        "number": 212,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "142"
+    },
+    {
+        "card_name": "Treasure Planet",
+        "number": 213,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "143"
+    },
+    {
+        "card_name": "Serene World",
+        "number": 209,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "144"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Rogue's Planet",
+        "number": 207,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "145"
+    },
+    {
+        "card_name": "Tumultuous Gas Giant",
+        "number": 214,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "146"
+    },
+    {
+        "card_name": "Backwater World",
+        "number": 202,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "147"
+    },
+    {
+        "card_name": "Scorched Death World",
+        "number": 208,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "148"
+    },
+    {
+        "card_name": "Uncharted Rimworld",
+        "number": 216,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "149"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Twilight City",
+        "number": 215,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "213"
+    },
+    {
+        "card_name": "Remina, the Hell Maw",
+        "number": 206,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "212"
+    },
+    {
+        "card_name": "Warp-Touched World",
+        "number": 217,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "210"
+    },
+    {
+        "card_name": "Binary Worlds",
+        "number": 203,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "139"
+    },
+    {
+        "card_name": "Commercial Hub World",
+        "number": 204,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "58"
+    },
+    {
+        "card_name": "Planetary Annihilation Station",
+        "number": 205,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "59"
+    },
+    {
+        "card_name": "Shattered Planet",
+        "number": 211,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "60"
+    },
+    {
+        "card_name": "Sliver Hive",
+        "number": 50,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "267"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Plains",
+        "number": 218,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "227"
+    },
+    {
+        "card_name": "Island",
+        "number": 219,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "228"
+    },
+    {
+        "card_name": "Swamp",
+        "number": 220,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "229"
+    },
+    {
+        "card_name": "Mountain",
+        "number": 221,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "230"
+    },
+    {
+        "card_name": "Forest",
+        "number": 222,
+        "shape": "normal",
+        "set": "WRP",
+        "rotated": false,
+        "position": "231"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->token",
+    {
+        "card_name": "Sliver",
+        "number": 1,
+        "shape": "token",
+        "set": "WRP",
+        "rotated": false,
+        "position": "272"
+    },
+    {
+        "card_name": "Warp Archetypes",
+        "number": 2,
+        "shape": "token",
+        "set": "WRP",
+        "rotated": false,
+        "position": "273"
+    },
+    {
+        "card_name": "Dog",
+        "number": 9,
+        "shape": "token",
+        "set": "WRP",
+        "rotated": false,
+        "position": "280"
+    },
+    {
+        "card_name": "Drone",
+        "number": 10,
+        "shape": "token",
+        "set": "WRP",
+        "rotated": false,
+        "position": "278"
+    },
+    {
+        "card_name": "Robot",
+        "number": 11,
+        "shape": "token",
+        "set": "WRP",
+        "rotated": false,
+        "position": "277"
+    },
+    {
+        "card_name": "Treasure",
+        "number": 12,
+        "shape": "token",
+        "set": "WRP",
+        "rotated": false,
+        "position": "275"
+    },
+    {
+        "card_name": "Rabbit",
+        "number": 3,
+        "shape": "token",
+        "set": "WRP",
+        "rotated": false,
+        "position": "282"
+    },
+    {
+        "card_name": "Soldier",
+        "number": 4,
+        "shape": "token",
+        "set": "WRP",
+        "rotated": false,
+        "position": "279"
+    },
+    {
+        "card_name": "Contact the Collective Emblem",
+        "number": 5,
+        "shape": "token",
+        "set": "WRP",
+        "rotated": false,
+        "position": "283"
+    },
+    {
+        "card_name": "Assassin",
+        "number": 6,
+        "shape": "token",
+        "set": "WRP",
+        "rotated": false,
+        "position": "281"
+    },
+    {
+        "card_name": "Avatar Rogue",
+        "number": 7,
+        "shape": "token",
+        "set": "WRP",
+        "rotated": false,
+        "position": "274"
+    },
+    {
+        "card_name": "Zombie",
+        "number": 8,
+        "shape": "token",
+        "set": "WRP",
+        "rotated": false,
+        "position": "276"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    }
+]

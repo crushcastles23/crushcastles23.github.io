@@ -1,0 +1,4921 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cockatrice_carddatabase version='4'>
+	<sets>
+		<set>
+			<name>KMR</name>
+			<longname>Kamigawa Reborn</longname>
+			<settype>Custom</settype>
+			<releasedate>2026-06-06</releasedate>
+		</set>
+	</sets>
+	<cards>
+		<card>
+			<name>Aurora Kirin</name>
+			<text>Flying
+Spiritcraft — Whenever you cast a Spirit or Arcane spell, target creature you control gains flying until end of turn.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/6_Aurora Kirin.png" num="6">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Kirin Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Honden of Healing Grace</name>
+			<text>At the beginning of your precombat main phase, you gain life equal to the number of Shrines you control.
+Sacrifice Honden of Healing Grace: Draw a card or search your library for a Shrine card, reveal it, and put it into your hand. Then shuffle.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/15_Honden of Healing Grace.png" num="15">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Enchantment — Shrine</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Agile Monk</name>
+			<text>As long as your heritage is two or greater, Agile Monk gets +1/+0 and has flying. (Your heritage is equal to the number of legendary permanents you control plus the number of legendary cards in your graveyard.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/4_Agile Monk.png" num="4">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Monk</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Crouching Baku</name>
+			<text>Vigilance, lifelink</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/12_Crouching Baku.png" num="12">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wandering Kitsune</name>
+			<text>Spiritcraft — Whenever you cast a Spirit or Arcane spell, put a +1/+1 counter on Wandering Kitsune.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/39_Wandering Kitsune.png" num="39">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fox Nomad</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kitsune Blademaster</name>
+			<text>First strike
+Bushido 1 (Whenever this creature blocks or becomes blocked, it gets +1/+1 until end of turn.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/21_Kitsune Blademaster.png" num="21">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fox Samurai</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kitsune Seeker</name>
+			<text>Lifelink
+Spiritcraft — Whenever you cast a Spirit or Arcane spell, you gain 2 life.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/22_Kitsune Seeker.png" num="22">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fox Monk</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Peaceful Farmer</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/31_Peaceful Farmer.png" num="31">KMR</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Creature — Human</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Skilled Samurai</name>
+			<text>Bushido 2 (Whenever this creature blocks or becomes blocked, it gets +2/+2 until end of turn.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/33_Skilled Samurai.png" num="33">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Samurai</type>
+				<maintype>Creature</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Twinblade Samurai</name>
+			<text>Twinblade Samurai has double strike as long as it&apos;s equipped.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/38_Twinblade Samurai.png" num="38">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Samurai</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Commune with the Ancestors</name>
+			<text>Create a 1/1 colorless Spirit creature token. You gain 3 life.
+Spiritcraft — Whenever you cast a Spirit or Arcane spell, if Commune with the Ancestors is in your graveyard you may cast it. When you do, exile it.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/10_Commune with the Ancestors.png" num="10">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery — Arcane</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Lantern&apos;s Light</name>
+			<text>If an opponent controls more creatures than you, create a 1/1 colorless Spirit creature token.
+If an opponent controls more lands than you, create a Lantern token. (It&apos;s an artifact with &quot;{T}: Add {C}.&quot;)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/24_Lantern&apos;s Light.png" num="24">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery — Arcane</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Fracture Reality</name>
+			<text>Destroy target artifact or enchantment.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/14_Fracture Reality.png" num="14">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant — Arcane</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Crane Stance</name>
+			<text>Choose one—
+• Target creature gets +2/+2 and gains flying until end of turn.
+• Untap target creature. It gets +2/+2 until end of turn.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/11_Crane Stance.png" num="11">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Triumph of Ages</name>
+			<text>Destroy target creature with power 3 or greater. If your heritage is three or greater, exile it instead. (Your heritage is equal to the number of legendary permanents you control plus the number of legendary cards in your graveyard.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/37_Triumph of Ages.png" num="37">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant — Arcane</type>
+				<maintype>Instant</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Back to Back</name>
+			<text>Two target creatures you control get +1/+1 and gain indestructible until end of turn.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/7_Back to Back.png" num="7">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Moment&apos;s Rest</name>
+			<text>You gain 7 life.
+You gain life equal to your heritage. (Your heritage is equal to the number of legendary permanents you control plus the number of legendary cards in your graveyard.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/27_Moment&apos;s Rest.png" num="27">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant — Arcane</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>One With the Spirit World</name>
+			<text>Enchant creature
+Enchanted creature can&apos;t attack or block.
+Spiritcraft — Whenever you cast a Spirit or Arcane spell, you may pay {3}, if you do, return One With the Spirit World to its owner&apos;s hand.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/29_One With the Spirit World.png" num="29">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Kami of the Falling Water</name>
+			<text>Flying
+Spiritcraft — Whenever you cast a Spirit or Arcane spell, tap or untap target permanent.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/55_Kami of the Falling Water.png" num="55">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Whisp-O-Will</name>
+			<text>Flying
+Whisp-O-Will can block only creatures with flying.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/78_Whisp-O-Will.png" num="78">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mist-Born Kitsune</name>
+			<text>Mist-Born Kitsune can&apos;t be blocked.
+Whenever Mist-Born Kitsune is put into your hand from the battlefield, draw a card.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/60_Mist-Born Kitsune.png" num="60">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fox Ninja</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Soratami Enlightened</name>
+			<text>Your maximum hand size is increased by one.
+{T}, Return another permanent you control to its owner&apos;s hand: Draw a card.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/72_Soratami Enlightened.png" num="72">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Moonfolk</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Oboro Arcanist</name>
+			<text>Spiritcraft — Whenever you cast a Spirit or Arcane spell, you may return target non-Spirit permanent you control to your hand.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/61_Oboro Arcanist.png" num="61">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Moonfolk Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>River Raider</name>
+			<text>When River Raider leaves the battlefield, create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/63_River Raider.png" num="63">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Pirate</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wind-Dancer Shinobi</name>
+			<text>Ninjutsu {1}{U} ({1}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
+Flying</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/79_Wind-Dancer Shinobi.png" num="79">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Ninja</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Honden of Falling Waters</name>
+			<text>At the beginning of your precombat main phase, each opponent mills a number of cards equal to the number of Shrines you control.
+Sacrifice Honden of Falling Waters: Draw a card or search your library for a Shrine card, reveal it, and put it into your hand. Then shuffle.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/51_Honden of Falling Waters.png" num="51">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Enchantment — Shrine</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Subterfuge</name>
+			<text>Choose one —
+• Counter target legendary spell.
+• Return target legendary permanent to its owner&apos;s hand.
+• Target creature can&apos;t be blocked this turn.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/74_Subterfuge.png" num="74">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Rush of Waves</name>
+			<text>Draw three cards.
+Spiritcraft — Then discard a card unless you cast another Spirit or Arcane spell this turn.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/65_Rush of Waves.png" num="65">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant — Arcane</type>
+				<maintype>Instant</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Rushing Veil</name>
+			<text>Counter target instant, sorcery, or Equipment spell.
+Spiritcraft — If you cast another Spirit or Arcane spell this turn, draw a card.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/66_Rushing Veil.png" num="66">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant — Arcane</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ways of the Wind</name>
+			<text>Return target creature to its owner&apos;s hand.
+Spiritcraft — If you cast another Spirit or Arcane spell this turn, put that creature on top of its owner&apos;s library instead.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/77_Ways of the Wind.png" num="77">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery — Arcane</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Illusory Cunning</name>
+			<text>Tap up to two target creatures. Those creatures don&apos;t untap during their controller&apos;s next untap step.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/53_Illusory Cunning.png" num="53">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant — Arcane</type>
+				<maintype>Instant</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Hidden in the Depths</name>
+			<text>Target creature can&apos;t be blocked this turn.
+Spiritcraft — If you cast another Spirit or Arcane spell this turn, draw a card.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/49_Hidden in the Depths.png" num="49">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery — Arcane</type>
+				<maintype>Sorcery</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Mental Tsunami</name>
+			<text>Target player mills five cards.
+Spiritcraft — If you cast another Spirit or Arcane spell this turn, draw a card.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/59_Mental Tsunami.png" num="59">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery — Arcane</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Consult the Scrolls</name>
+			<text>This spell costs {X} less to cast, where X is equal to your heritage. (Your heritage is equal to the number of legendary permanents you control plus the number of legendary cards in your graveyard.)
+Draw two cards.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/44_Consult the Scrolls.png" num="44">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Trapped Between Worlds</name>
+			<text>Enchant creature
+At the beginning of each upkeep, if enchanted creature is untapped, tap it.
+When Trapped Between Worlds is put into a graveyard from the battlefield, return Trapped Between Worlds to its owner&apos;s hand.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/76_Trapped Between Worlds.png" num="76">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Absolve Identity</name>
+			<text>Choose one —
+• Return target creature to its owner&apos;s hand.
+• Exile target creature spell.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/42_Absolve Identity.png" num="42">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Discordant Strider</name>
+			<text>Spiritcraft — Whenever you cast a Spirit or Arcane spell, each opponent loses 1 life. You gain life equal to the life lost this way.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/92_Discordant Strider.png" num="92">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Burning Typhoon</name>
+			<text>Flying
+Whenever a creature enters the battlefield under your control, Burning Typhoon gains deathtouch until end of turn.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/87_Burning Typhoon.png" num="87">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Legion of the Undead</name>
+			<text>A deck can have any number of cards named Legion of the Undead.
+When Legion of the Undead dies, reveal the top four cards of your library. Put all cards named Legion of the Undead revealed this way onto the battlefield tapped and the rest into your graveyard.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/102_Legion of the Undead.png" num="102">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Samurai</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Nezumi Darkblade</name>
+			<text>Deathtouch
+Bushido 1 (Whenever this creature blocks or becomes blocked, it gets +1/+1 until end of turn.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/104_Nezumi Darkblade.png" num="104">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Rat Samurai</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Numai Scavenger</name>
+			<text>Menace
+Whenever a Rat enters the battlefield under your control for the first time during each of your turns, target opponent discards a card.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/106_Numai Scavenger.png" num="106">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Rat Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Numai Shaman</name>
+			<text>Lifelink
+When Numai Shaman enters the battlefield, each opponent loses life equal to the number of Rats you control. You gain life equal to the amount of life lost this way.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/107_Numai Shaman.png" num="107">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Rat Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Nezumi Slientclaw</name>
+			<text>Ninjutsu {1}{B} ({1}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/105_Nezumi Slientclaw.png" num="105">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Rat Ninja</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Soulsnatcher</name>
+			<text>Ninjutsu {3}{B} ({3}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
+Whenever Soulsnatcher deals combat damage to a player, that player may sacrifice a creature, if they don&apos;t, they lose 2 life.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/114_Soulsnatcher.png" num="114">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Ninja</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Accursed Sailor</name>
+			<text>Menace
+Whenever Accursed Sailor is put into your hand from the battlefield, you may discard it. If you do, each opponent loses 3 life.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/80_Accursed Sailor.png" num="80">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon Spirit Pirate</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kami of the Dark Skies</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/99_Kami of the Dark Skies.png" num="99">KMR</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dishonorable Spoils</name>
+			<text>Choose one—
+• Target creature you control gains deathtouch until end of turn.
+• Sacrifice a creature. When you do, destroy target creature.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/93_Dishonorable Spoils.png" num="93">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Touch of Takenuma</name>
+			<text>Target player discards two cards.
+Spiritcraft — If you cast another Spirit or Arcane spell this turn and fewer than two cards were discarded this way, you draw cards equal to the difference.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/115_Touch of Takenuma.png" num="115">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery — Arcane</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Honden of Murky Waters</name>
+			<text>At the beginning of your precombat main phase, each opponent loses life equal to the number of Shrines you control.
+Sacrifice Honden of Murky Waters: Draw a card or search your library for a Shrine card, reveal it, and put it into your hand. Then shuffle.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/98_Honden of Murky Waters.png" num="98">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Enchantment — Shrine</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Okiba Gang Ambush</name>
+			<text>Create a 1/1 black Rat Ninja creature token with deathtouch and a 1/1 black Rat Warrior creature token with menace.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/108_Okiba Gang Ambush.png" num="108">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>You Are Already Dead</name>
+			<text>Destroy target creature that was dealt damage this turn.
+Draw a card.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/118_You Are Already Dead.png" num="118">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Silent Takedown</name>
+			<text>If a Ninja you control dealt combat damage to a player this turn, this spell costs {1}{B} less to cast.
+Destroy target creature.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/113_Silent Takedown.png" num="113">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Breach Between Worlds</name>
+			<text>Return target creature card from your graveyard to your hand. If your heritage is four or greater, put it onto the battlefield instead. (Your heritage is equal to the number of legendary permanents you control plus the number of legendary cards in your graveyard.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/85_Breach Between Worlds.png" num="85">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Cloak of Shadows</name>
+			<text>Enchant creature
+Enchanted creature has menace.
+At the beginning of the end step, if Cloak of Shadows was put into your graveyard this turn and you activated a Ninjutsu ability this turn, return it to the battlefield attached to target creature you control.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/89_Cloak of Shadows.png" num="89">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Sokenzan Scrapper</name>
+			<text>Haste
+Sokenzan Scrapper attacks each combat if able unless your heritage is three or greater. (Your heritage is equal to the number of legendary permanents you control plus the number of legendary cards in your graveyard.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/150_Sokenzan Scrapper.png" num="150">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ogre Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dawnglare Crane</name>
+			<text>Flying, haste</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/126_Dawnglare Crane.png" num="126">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Razorteeth Oni</name>
+			<text>Menace
+Whenever Razorteeth Oni deals combat damage to a player, it deals 2 damage to target creature that player controls.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/145_Razorteeth Oni.png" num="145">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Drunken Samurai</name>
+			<text>Bushido 1 (Whenever this creature blocks or becomes blocked, it gets +1/+1 until end of turn.)
+Drunken Samurai attacks each combat if able.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/128_Drunken Samurai.png" num="128">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Samurai</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sokenzan Fallen</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/149_Sokenzan Fallen.png" num="149">KMR</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Creature — Ogre</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sokenzan Berserker</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/148_Sokenzan Berserker.png" num="148">KMR</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Creature — Ogre Berserker</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Striding Thief</name>
+			<text>Haste
+When Striding Thief enters the battlefield, target creature can&apos;t block this turn.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/151_Striding Thief.png" num="151">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Yamabushi Acolyte</name>
+			<text>Prowess
+Whenever you cast an Equipment or Aura spell, you may discard a card, if you do, draw a card.
+If a creature dealt damage by Yamabushi Acolyte this turn would die, exile it instead.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/156_Yamabushi Acolyte.png" num="156">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Written in Blood</name>
+			<text>As an additional cost to cast this spell, sacrifice a creature.
+Written in Blood deals damage equal to the sacrificed creature&apos;s power to any target.
+Draw a card.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/154_Written in Blood.png" num="154">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Burning Slash</name>
+			<text>Burning Slash deals 5 damage to target creature or planeswalker.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/123_Burning Slash.png" num="123">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Heroic Vengeance</name>
+			<text>Target creature gains first strike and &quot;{R}: This creature gets +1/+0 until end of turn.&quot; until end of turn. If it&apos;s a legendary creature, add {R}{R}{R}.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/134_Heroic Vengeance.png" num="134">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Break Loyalty</name>
+			<text>If a creature you control died this turn, you may cast this spell as though it had flash.
+Gain control of target creature until the beginning of your next end step. Untap that creature. It gains haste until end of turn.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/121_Break Loyalty.png" num="121">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery — Arcane</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Fire-Mane Zubera</name>
+			<text>Whenever another Zubera you control dies, Fire-Mane Zubera gets +X/+0 until end of turn, where X is that creature&apos;s power.
+When Fire-Mane Zubera dies, it deals damage equal to its power to target creature.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/131_Fire-Mane Zubera.png" num="131">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zubera Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Demonic Toll</name>
+			<text>Choose one—
+• Up to three target creatures can&apos;t block this turn.
+• Create a 3/3 black and red Demon Spirit creature token. It gains haste until end of turn. Sacrifice it at end of turn.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/127_Demonic Toll.png" num="127">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery — Arcane</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Honden of Wanderer&apos;s Pass</name>
+			<text>At the beginning of your precombat main phase, add {R} for each Shrine you control.
+Sacrifice Honden of Wanderer&apos;s Pass: Draw a card or search your library for a Shrine card, reveal it, and put it into your hand. Then shuffle.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/137_Honden of Wanderer&apos;s Pass.png" num="137">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Enchantment — Shrine</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Channel Lightning</name>
+			<text>Channel Lightning deals 3 damage to any target.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/124_Channel Lightning.png" num="124">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery — Arcane</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Oni&apos;s Hunger</name>
+			<text>Target creature gets +2/+0 and gains menace until end of turn if that creature is a Demon or Ogre. Then it deals damage equal to its power to target creature. (It does this even if it&apos;s not a Demon or Ogre.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/142_Oni&apos;s Hunger.png" num="142">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery — Arcane</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Burning Rumors</name>
+			<text>Enchant creature
+Enchanted creature attacks each combat if able.
+Whenever enchanted creature deals combat damage to a player, each player discards a card, then draws a card.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/122_Burning Rumors.png" num="122">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Ancient Monk</name>
+			<text>{T}: Add one mana of any color.
+Whenever a legendary permanent enters the battlefield under your control, untap Ancient Monk.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/158_Ancient Monk.png" num="158">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Monk</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>0/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Thrashing Kosai</name>
+			<text>This spell costs {X} less to cast, where X is equal to your heritage (Your heritage is equal to the number of legendary permanents you control plus the number of legendary cards in your graveyard.)
+Trample</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/189_Thrashing Kosai.png" num="189">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>5GG</manacost>
+				<cmc>7</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Trueshot Archer</name>
+			<text>Reach
+Whenever Trueshot Archer blocks a creature with flying, it gets +X/+0 until end of turn, where X is equal to your heritage. (Your heritage is equal to the number of legendary permanents you control plus the number of legendary cards in your graveyard.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/192_Trueshot Archer.png" num="192">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Archer</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ursine Monk</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/193_Ursine Monk.png" num="193">KMR</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Creature — Human Monk</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Orochi Helmsmasher</name>
+			<text>Trample
+Whenever Orochi Helmsmasher deals combat damage to a player, draw a card.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/177_Orochi Helmsmasher.png" num="177">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Snake Berserker</type>
+				<maintype>Creature</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sakura-Tribe Shaman</name>
+			<text>Tap two untapped creatures you control: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle. Activate only up to twice each turn.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/178_Sakura-Tribe Shaman.png" num="178">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Snake Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Seshiro&apos;s Disciple</name>
+			<text>Deathtouch, reach</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/179_Seshiro&apos;s Disciple.png" num="179">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Snake Archer</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Jukai Renegade</name>
+			<text>Bushido 3 (Whenever this creature blocks or becomes blocked, it gets +3/+3 until end of turn.)
+Whenever Jukai Renegade deals combat damage to a player or planeswalker, untap up to two target permanents.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/169_Jukai Renegade.png" num="169">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Samurai Berserker</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lumbering Kami</name>
+			<text>{2}: Reveal the top card of your library. If it&apos;s a land card, Lumbering Kami gets +2/+2 and gains trample until end of turn. You may put it onto the bottom of your library. If Lumbering Kami&apos;s power is 6 or greater, draw a card.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/174_Lumbering Kami.png" num="174">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lantern Artisan</name>
+			<text>Whenever Lantern Artisan deals combat damage to a player, create a Lantern token. (It&apos;s an artifact with &quot;{T}: Add {C}.&quot;)
+{4}, {T}: Create a Lantern token.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/173_Lantern Artisan.png" num="173">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Honden of Unending Potential</name>
+			<text>At the beginning of your precombat main phase, choose a creature. Put a number of +1/+1 counters equal to the number of Shrines you control onto that creature.
+Sacrifice Honden of Unending Potential: Draw a card or search your library for a Shrine card, reveal it, and put it into your hand. Then shuffle.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/164_Honden of Unending Potential.png" num="164">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Enchantment — Shrine</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Hone Soul</name>
+			<text>Untap target creature. That creature gains hexproof until end of turn.
+Draw a card.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/165_Hone Soul.png" num="165">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Stand Victorious</name>
+			<text>Target creature you control gets +X/+0 until end of turn, where X is equal to your heritage. It fights up to one target creature you don&apos;t control. (Your heritage is equal to the number of legendary permanents you control plus the number of legendary cards in your graveyard.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/186_Stand Victorious.png" num="186">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Stone Armor</name>
+			<text>Choose one —
+• Put a +1/+1 counter on target creature.
+• Choose any number of permanents you control, then give each another counter of each kind already there.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/187_Stone Armor.png" num="187">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Shifting Terrain</name>
+			<text>Search your library for up to three basic land cards, reveal them, and put them into your hand. Then shuffle.
+You may put a basic land card from your hand onto the battlefield.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/180_Shifting Terrain.png" num="180">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Slash Through</name>
+			<text>Destroy target artifact or enchantment.
+If your heritage is two or greater, draw a card. (Your heritage is equal to the number of legendary permanents you control plus the number of legendary cards in your graveyard.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/185_Slash Through.png" num="185">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Kodama&apos;s Embrace</name>
+			<text>Draw a card.
+Target creature gets +X/+X until end of turn, where X is equal to the number of cards in your hand.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/172_Kodama&apos;s Embrace.png" num="172">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery — Arcane</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Warrior&apos;s Wisdom</name>
+			<text>Enchant creature
+When Warrior&apos;s Wisdom enters the battlefield, draw a card.
+Enchanted creature has vigilance and &quot;{T}: Add {G}.&quot;</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/194_Warrior&apos;s Wisdom.png" num="194">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Everglowing Lantern</name>
+			<text>{T}: Add {C}.
+{T}: Add one mana of any color. Everglowing Lantern doesn&apos;t untap during your next untap step.
+{2}: Untap Everglowing Lantern.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/231_Everglowing Lantern.png" num="231">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Lantern</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Hardened Blade</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/233_Hardened Blade.png" num="233">KMR</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Wandering Wisp</name>
+			<text>Spiritcraft — When Wandering Wisp enters the battlefield, if you cast another Spirit or Arcane spell this turn, draw a card, then you may put a land card from your hand onto the battlefield.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/3_Wandering Wisp.png" num="3">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Orochi Burial Monument</name>
+			<text>Orochi Burial Monument enters the battlefield tapped.
+{T}: You gain 1 life for each Monument you control.
+A deck can have any number of cards named Orochi Burial Monument.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/238_Orochi Burial Monument.png" num="238">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Monument</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Stone-Head Kami</name>
+			<text>Stone-Head Kami&apos;s power is equal to twice your heritage. (Your heritage is equal to the number of legendary permanents you control plus the number of legendary cards in your graveyard.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/242_Stone-Head Kami.png" num="242">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>*/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Whirlwind Tessen</name>
+			<text>Equipped creature gets +1/+0 and has &quot;Whenever this creature becomes blocked, you may untap it and remove it from combat.&quot;
+Equip {3}
+Equip Samurai {W}</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/244_Whirlwind Tessen.png" num="244">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Scroll of the Warrior Sage</name>
+			<text>Equipped creature gets +0/+1 and has &quot;Whenever this creature deals combat damage to an opponent, draw a card.&quot;
+Equip {3}
+Equip Samurai {U}</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/240_Scroll of the Warrior Sage.png" num="240">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Nightingale Blades</name>
+			<text>Equipped creature gets +1/+0 and has &quot;Whenever this creature deals combat damage to a player, that player discards a card.&quot;
+Equip {3}
+Equip Samurai {B}</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/237_Nightingale Blades.png" num="237">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Blazing Edge</name>
+			<text>Equipped creature gets +1/+0 and has &quot;{2}: This creature gets +1/+0 until end of turn.&quot;
+Equip {3}
+Equip Samurai {R}</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/230_Blazing Edge.png" num="230">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Gusoku Armor</name>
+			<text>Equipped creature gets +0/+1 and has &quot;This creature assigns combat damage equal to its toughness rather than its power.&quot; 
+Equip {3}
+Equip Samurai {G}</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/232_Gusoku Armor.png" num="232">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Shifting Temple</name>
+			<text>{T}, Sacrifice Shifting Temple: Search your library for a land card, reveal it, and put it into your hand. Then shuffle. You may put a basic land card from your hand onto the battlefield tapped.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/252_Shifting Temple.png" num="252">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Tranquil Cove</name>
+			<text>Tranquil Cove enters the battlefield tapped.
+When Tranquil Cove enters the battlefield, you gain 1 life.
+{T}: Add {W} or {U}.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/256_Tranquil Cove.png" num="256">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Dismal Backwater</name>
+			<text>Dismal Backwater enters the battlefield tapped.
+When Dismal Backwater enters the battlefield, you gain 1 life.
+{T}: Add {U} or {B}.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/247_Dismal Backwater.png" num="247">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Bloodfell Caves</name>
+			<text>Bloodfell Caves enters the battlefield tapped.
+When Bloodfell Caves enters the battlefield, you gain 1 life.
+{T}: Add {B} or {R}.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/245_Bloodfell Caves.png" num="245">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Rugged Highlands</name>
+			<text>Rugged Highlands enters the battlefield tapped.
+When Rugged Highlands enters the battlefield, you gain 1 life.
+{T}: Add {R} or {G}.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/250_Rugged Highlands.png" num="250">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Blossoming Sands</name>
+			<text>Blossoming Sands enters the battlefield tapped.
+When Blossoming Sands enters the battlefield, you gain 1 life.
+{T}: Add {G} or {W}.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/246_Blossoming Sands.png" num="246">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Scoured Barrens</name>
+			<text>Scoured Barrens enters the battlefield tapped.
+When Scoured Barrens enters the battlefield, you gain 1 life.
+{T}: Add {W} or {B}.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/251_Scoured Barrens.png" num="251">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Swiftwater Cliffs</name>
+			<text>Swiftwater Cliffs enters the battlefield tapped.
+When Swiftwater Cliffs enters the battlefield, you gain 1 life.
+{T}: Add {U} or {R}.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/254_Swiftwater Cliffs.png" num="254">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Jungle Hollow</name>
+			<text>Jungle Hollow enters the battlefield tapped.
+When Jungle Hollow enters the battlefield, you gain 1 life.
+{T}: Add {B} or {G}.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/249_Jungle Hollow.png" num="249">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Wind-Scarred Crag</name>
+			<text>Wind-Scarred Crag enters the battlefield tapped.
+When Wind-Scarred Crag enters the battlefield, you gain 1 life.
+{T}: Add {R} or {W}.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/258_Wind-Scarred Crag.png" num="258">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Thornwood Falls</name>
+			<text>Thornwood Falls enters the battlefield tapped.
+When Thornwood Falls enters the battlefield, you gain 1 life.
+{T}: Add {G} or {U}.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/255_Thornwood Falls.png" num="255">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Bomei, the Forsaken Blade</name>
+			<text>As long as Bomei, the Forsaken Blade is equipped, it has &quot;Whenever this creature deals lethal combat damage to a creature, exile that creature.&quot;
+Bomei, the Forsaken Blade gets +1/+1 for each card an opponent owns in exile.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/8_Bomei, the Forsaken Blade.png" num="8">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Fox Samurai</type>
+				<maintype>Creature</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tobusai, Crashing Monk</name>
+			<text>First strike
+Whenever Tobusai, Crashing Monk deals combat damage to a creature, untap it and remove it from combat.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/35_Tobusai, Crashing Monk.png" num="35">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Monk</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kitsune Sureblade</name>
+			<text></text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/23_Kitsune Sureblade.png" num="23">KMR</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Creature — Fox Samurai</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Imperial Herald</name>
+			<text>When Imperial Herald dies, you may exile it. If you do, search your library for a legendary card, put it onto the battlefield, then shuffle.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/17_Imperial Herald.png" num="17">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kabuto Drifter</name>
+			<text>Flying
+When Kabuto Drifter enters the battlefield, search your library for a Spirit or creature with flying, reveal it, and put it into your hand. Then shuffle.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/19_Kabuto Drifter.png" num="19">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Insect Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Warrior Poet</name>
+			<text>Whenever Warrior Poet enters the battlefield or attacks, create a Scroll token, it&apos;s a colorless enchantment token with &quot;{1}, Sacrifice this enchantment: Scry 1.&quot;
+Whenever you scry, Warrior Poet gets +1/+1 and first strike until end of turn.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/40_Warrior Poet.png" num="40">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Samurai</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Slay the Unholy</name>
+			<text>Exile target Spirit or tapped creature.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/34_Slay the Unholy.png" num="34">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Honden of Transcendent Purity</name>
+			<text>At the beginning of your precombat main phase, create a 1/1 white Warrior creature token for each Shrine you control. Then if you control three or more Shrines, exile up to one target creature.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/16_Honden of Transcendent Purity.png" num="16">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Enchantment — Shrine</type>
+				<maintype>Enchantment</maintype>
+				<manacost>4W</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Close the Gap</name>
+			<text>Cast this spell only if it&apos;s not your turn.
+Untap all creatures you control. Creatures you control get +2/+2 and gain first strike until end of turn.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/9_Close the Gap.png" num="9">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Oni&apos;s Binding</name>
+			<text>Flash
+When Oni&apos;s Binding enters the battlefield, exile target legendary nonland permanent until Oni&apos;s Binding leaves the battlefield. (That permanent returns under its owner&apos;s control.)
+{W}, Discard Oni&apos;s Binding: Draw a card. Activate this ability only as a sorcery.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/30_Oni&apos;s Binding.png" num="30">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>WW</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Matsuri, Festival Guide</name>
+			<text>Lifelink
+Spiritcraft — Whenever you cast a Spirit or Arcane spell, create a Lantern token. (It&apos;s an artifact with &quot;{T}: Add {C}.&quot;)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/26_Matsuri, Festival Guide.png" num="26">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Samurai</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shogun&apos;s Cut</name>
+			<text>If an opponent controls more creatures than you, create a 1/1 white Samurai creature token with bushido 1. (Whenever that creature blocks or becomes blocked, it gets +1/+1 until end of turn.)
+If an opponent controls more lands than you, Search your library for a basic land card and put it onto the battlefield. Then shuffle.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/32_Shogun&apos;s Cut.png" num="32">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Heikegani Crab</name>
+			<text>Spiritcraft — If you cast another Spirit or Arcane spell this turn, you may cast this spell as though it had flash.
+Bushido 1 (Whenever this creature blocks or becomes blocked, it gets +1/+1 until end of turn.)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/48_Heikegani Crab.png" num="48">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Crab Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Satotta, Enlightened Soratami</name>
+			<text></text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/67_Satotta, Enlightened Soratami.png" num="67">KMR</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Legendary Creature — Moonfolk</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ritame, Storm of Steel</name>
+			<text>Whenever a Ninja you control becomes the target of a spell, you may draw a card, if you do, discard a card.
+Whenever a Ninja enters the battlefield under your control, if it wasn&apos;t cast, you may return target noncreature, nonland card in your graveyard with mana value less than that Ninja&apos;s mana value to your hand.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/62_Ritame, Storm of Steel.png" num="62">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Fox Ninja</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Soratami Soulspeaker</name>
+			<text>Ward {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)
+Spiritcraft — Whenever you cast a Spirit or Arcane spell, draw a card.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/73_Soratami Soulspeaker.png" num="73">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Moonfolk Archer</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gakusha, the Scholar</name>
+			<text></text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/47_Gakusha, the Scholar.png" num="47">KMR</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Samurai</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Higuran Pupil</name>
+			<text>Ninjutsu {1}{U}{U} ({1}{U}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
+Whenever Higuran Pupil deals combat damage to a player, return up to one target nonland permanent to its owner&apos;s hand.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/50_Higuran Pupil.png" num="50">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Ninja</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kidnapping</name>
+			<text>Ninjutsu {3}{U}{U} ({3}{U}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand.)
+Enchant artifact or creature
+You control enchanted permanent.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/56_Kidnapping.png" num="56">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>5UU</manacost>
+				<cmc>7</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Ancestral Teachings</name>
+			<text>Draw a card, then draw a card for each Spirit or Arcane card in your graveyard.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/43_Ancestral Teachings.png" num="43">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery — Arcane</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4UU</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Honden of Nature&apos;s Calm</name>
+			<text>At the beginning of your precombat main phase, scry X, where X is the number of Shrines you control. Then if you control three or more Shrines, you may draw a card.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/52_Honden of Nature&apos;s Calm.png" num="52">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Enchantment — Shrine</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Shushin, the Wise</name>
+			<text>Spiritcraft — Whenever you cast a Spirit or Arcane spell, draw a card. 
+As long as you have seven or more cards in hand, Spirit creatures you control have flying.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/71_Shushin, the Wise.png" num="71">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sukuroru, Night&apos;s Wind</name>
+			<text>Ninjutsu {2}{U} ({2}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
+Whenever Sukuroru, Night&apos;s Wind deals combat damage to a player, you may shuffle any number of cards from your hand into your library, then draw that many cards. If you shuffled all the cards in your hand into your library this way, draw two additional cards.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/75_Sukuroru, Night&apos;s Wind.png" num="75">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Ninja</type>
+				<maintype>Creature</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shinobi Students</name>
+			<text>Ninjutsu {3}{U} ({3}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
+Whenever Shinobi Students deals combat damage to a player, create a 1/1 blue Ninja creature token.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/69_Shinobi Students.png" num="69">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Ninja</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dorobo, the Hidden</name>
+			<text>Whenever Dorobo, the Hidden deals combat damage to a player, create that many Treasure tokens.
+Sacrifice three treasures: Dorobo, the Hidden can&apos;t be blocked this turn.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/94_Dorobo, the Hidden.png" num="94">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Rat Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Chisai, Nezumi Havoc-Blade</name>
+			<text>Menace
+Bushido 2 (Whenever this creature blocks or becomes blocked, it gets +2/+2 until end of turn.)
+When Chisai, Nezumi Havoc-Blade leaves the battlefield, target creature gets -X/-X until end of turn, where X is equal to Chisai, Nezumi Havoc-Blade&apos;s power.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/88_Chisai, Nezumi Havoc-Blade.png" num="88">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Rat Samurai</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Revived Ronin</name>
+			<text>Bushido 1 (Whenever this creature blocks or becomes blocked, it gets +1/+1 until end of turn.)
+When Revived Ronin dies, each opponent discards a card at random.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/110_Revived Ronin.png" num="110">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Samurai</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Nezumi Blackfang</name>
+			<text>Deathtouch
+Bushido 1 (Whenever this creature blocks or becomes blocked, it gets +1/+1 until end of turn.)
+Whenever Nezumi Blackfang attacks and isn&apos;t blocked, defending player discards a card.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/103_Nezumi Blackfang.png" num="103">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Rat Samurai</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>0/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Yama-Kaji the Skullsmasher</name>
+			<text>Deathtouch
+Yama-Kaji the Skullsmasher can&apos;t block.
+Whenever Yama-Kaji the Skullsmasher deals combat damage to a creature, draw a card and create a treasure token.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/116_Yama-Kaji the Skullsmasher.png" num="116">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Demon Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Festering-Touch Zubera</name>
+			<text>When Festering-Touch Zubera dies, each opponent loses 2 life for each Zubera that died this turn.
+{3}{B}: Return Festering-Touch Zubera from your graveyard to your hand.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/95_Festering-Touch Zubera.png" num="95">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zubera Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Relentless Slaughter</name>
+			<text>You may cast this spell from your graveyard if your heritage is three or greater. If you do, exile it if it would be put into the graveyard. (Your heritage is equal to the number of legendary permanents you control plus the number of legendary cards in your graveyard.)
+Destroy target creature or planeswalker.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/109_Relentless Slaughter.png" num="109">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Floral Flourishing</name>
+			<text>Destroy target creature. Its controller creates a colorless artifact token named Lotus Petal with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/96_Floral Flourishing.png" num="96">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Honden of Death&apos;s Hold</name>
+			<text>At the beginning of your precombat main phase, mill a number of cards equal to the number of Shrines you control. When you do, return target creature card from your graveyard to the hand. If you control three or more Shrines, put it onto the battlefield instead.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/97_Honden of Death&apos;s Hold.png" num="97">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Enchantment — Shrine</type>
+				<maintype>Enchantment</maintype>
+				<manacost>4B</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Breach the Stronghold</name>
+			<text>Choose one —
+• Return target legendary creature card from your graveyard to the battlefield.
+• Create two 2/2 black Zombie creature tokens.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/86_Breach the Stronghold.png" num="86">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Kemuri, One with the Shadow</name>
+			<text>Ninjutsu {1}{B} ({1}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
+Whenever Kemuri, One with the Shadow deals combat damage to a player, create a 1/1 colorless Spirit creature token.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/101_Kemuri, One with the Shadow.png" num="101">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Ninja</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ashen Kami</name>
+			<text>When Ashen Kami dies, you may return another Spirit creature card with lesser power from your graveyard to the battlefield.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/83_Ashen Kami.png" num="83">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hai-Hai, Akki Blazebringer</name>
+			<text></text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/133_Hai-Hai, Akki Blazebringer.png" num="133">KMR</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Legendary Creature — Goblin</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Nensho, the Roaring Fire</name>
+			<text></text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/141_Nensho, the Roaring Fire.png" num="141">KMR</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Legendary Creature — Demon Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Raging-Soul Zubera</name>
+			<text>When Raging-Soul Zubera dies, for each Zubera that died this turn, exile the top card of your library. Until the end of your next turn, you may play those cards.
+{3}{R}: Return Raging-Soul Zubera from your graveyard to your hand.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/144_Raging-Soul Zubera.png" num="144">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zubera Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bloodcloaked Ogre</name>
+			<text></text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/120_Bloodcloaked Ogre.png" num="120">KMR</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Creature — Ogre Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>5/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tengu Steelblade</name>
+			<text>Flying
+{1}: Tengu Steelblade gets +1/+0 until end of turn for each Equipment attached to it.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/152_Tengu Steelblade.png" num="152">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon Samurai</type>
+				<maintype>Creature</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Samurai Sparkthrower</name>
+			<text>Prowess
+When Samurai Sparkthrower enters the battlefield, it deals damage equal to its power to any target.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/146_Samurai Sparkthrower.png" num="146">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Samurai</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Oni&apos;s Power</name>
+			<text>Create a 3/3 black and red Demon Spirit creature token. You may attach an Equipment you control to that creature.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/143_Oni&apos;s Power.png" num="143">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery — Arcane</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Fury of Ages</name>
+			<text>You may cast this spell from your graveyard if it targets a legendary creature you control. If you do, exile it if it would be put into the graveyard.
+Target creature gets +3/+0 and gains first strike until end of turn.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/132_Fury of Ages.png" num="132">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Unleash Evil</name>
+			<text>Target creature you control gets +X/+0 and gains double strike until end of turn. Sacrifice it at the beginning of your next end step.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/153_Unleash Evil.png" num="153">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XRR</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Honden of Burning Winds</name>
+			<text>At the beginning of your precombat main phase, you may discard up to X cards, where X is the number of Shrines you control, then draw that many cards. Then if you control three or more Shrines, Honden of Burning Winds deals damage equal to the number of cards discarded this way to up to one target creature or planeswalker.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/136_Honden of Burning Winds.png" num="136">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Enchantment — Shrine</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Consumed by Power</name>
+			<text>Choose one —
+• Discard a card. When you do, draw two cards.
+• Exile the top two cards of your library. Until end of turn, you may play cards exiled this way.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/125_Consumed by Power.png" num="125">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Shichiru of the Seven Blades</name>
+			<text>Bushido 2 (Whenever this creature blocks or becomes blocked, it gets +2/+2 until end of turn.)
+Shichiru of the Seven Blades gets +1/+1 for each equipment attached to it.
+As long as Shichiru of the Seven Blades has seven or more equipment attached to it, it has trample and menace.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/147_Shichiru of the Seven Blades.png" num="147">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Samurai</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Noroi, Leader of the Exiled</name>
+			<text>Whenever a creature enters the battlefield under your control, if you control the creature with the greatest power, draw a card. 
+{3}{G}{G}: Creatures you control get +X/+0 until end of turn, where X is the number of cards in your hand.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/176_Noroi, Leader of the Exiled.png" num="176">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Snake Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kami of Unbound Wisdom</name>
+			<text></text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/170_Kami of Unbound Wisdom.png" num="170">KMR</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Torakka, Orochi Tracker</name>
+			<text></text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/190_Torakka, Orochi Tracker.png" num="190">KMR</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Legendary Creature — Snake Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Niwashi, Autumn&apos;s Wind</name>
+			<text></text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/175_Niwashi, Autumn&apos;s Wind.png" num="175">KMR</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shujin, Elemental Master</name>
+			<text>{T}: Add {W}, {U}, {B}, or {R}.
+{G}: Untap Shujin, Elemental Master. Activate this ability only any time you could cast a sorcery.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/184_Shujin, Elemental Master.png" num="184">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>WUBRG</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Itoigawa, the Jade Blade</name>
+			<text>When Itoigawa, the Jade Blade enters the battlefield or attacks, put up to one land card from your graveyard onto the battlefield tapped.
+{2}, Discard a land card: Put two +1/+1 counters on Itoigawa, the Jade Blade.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/166_Itoigawa, the Jade Blade.png" num="166">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Samurai</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Jajauma Spirit</name>
+			<text>Whenever Jajauma Spirit deals damage to a player, choose any number of permanents, then give each another counter of each kind already there.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/167_Jajauma Spirit.png" num="167">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Transcendent Monk</name>
+			<text></text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/191_Transcendent Monk.png" num="191">KMR</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Creature — Human Monk</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Devout Disciple</name>
+			<text>Defender
+As long as your heritage is four or greater, Devout Disciple can attack as though it didn&apos;t have defender. (Your heritage is equal to the number of legendary permanents you control plus the number of legendary cards in your graveyard.)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/160_Devout Disciple.png" num="160">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Monk</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Earth Below Trembles</name>
+			<text>This spell costs {X} less to cast, where X is your heritage (Your heritage is equal to the number of legendary permanents you control plus the number of legendary cards in your graveyard.)
+Destroy target noncreature permanent.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/161_The Earth Below Trembles.png" num="161">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4G</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Tanuki Festival</name>
+			<text>Look at the top X cards of your library, where X is equal to three plus your heritage. You may put up to one land and up to one legendary permanent with mana value X or less onto the battlefield. Put the rest on the bottom of your library in a random order. (Your heritage is equal to the number of legendary permanents you control plus the number of legendary cards in your graveyard.)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/188_Tanuki Festival.png" num="188">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Honden of Abundant Growth</name>
+			<text>At the beginning of your precombat main phase, for each Shrine you control, search your library for a basic land card, reveal it, and put it into your hand. Then shuffle. Then if you control three or more Shrines, you may put three basic land cards from your hand onto the battlefield tapped.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/163_Honden of Abundant Growth.png" num="163">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Enchantment — Shrine</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Temple Bell</name>
+			<text>{T}: Each player draws a card.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/243_Temple Bell.png" num="243">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Kami of Forgotten Realms</name>
+			<text>Spiritcraft — Whenever you cast a Spirit or Arcane spell, you may pay {1}, if you do, search your library for a basic land card, reveal it, and put it into your hand. Then shuffle.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/2_Kami of Forgotten Realms.png" num="2">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gate to the Spirit World</name>
+			<text>Gate to the Spirit World enters the battlefield tapped.
+As Gate to the Spirit World enters the battlefield, choose a color.
+{T}: Add one mana of one of the colors chosen for this card.
+{T}: Choose an additional color.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/248_Gate to the Spirit World.png" num="248">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Mask of the Oni</name>
+			<text>Equipped creature has menace, gets +2/+2, and is a Demon Spirit in addition to its other types.
+{2}, Sacrifice equipped creature: Mask of the Oni deals damage equal to that creature&apos;s power to any target. Attach Mask of the Oni to another target creature you control.
+As long as Mask of the Oni is not attached to a creature, it has &quot;equip {2}&quot;.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/236_Mask of the Oni.png" num="236">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Spear of the Heavens</name>
+			<text>Equipped creature has first strike.
+Whenever equipped creature deals lethal combat damage to a creature, exile that creature.
+Equip {2}</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/241_Spear of the Heavens.png" num="241">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Scroll of the Ancestors</name>
+			<text>Whenever equipped creature deals combat damage to a player, you may look at the top three cards of your library. Put one of them into your hand and the others on the bottom of your library.
+Equip {2}</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/239_Scroll of the Ancestors.png" num="239">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Ame-no-Soufuku, Dragon Blades</name>
+			<text>Equipped creature has double strike.
+{2}: Equipped creature gets +1/+0 until end of turn.
+Equip {4}</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/229_Ame-no-Soufuku, Dragon Blades.png" num="229">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Hidden Blade</name>
+			<text>Ninjutsu {3} ({3}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand.)
+When Hidden Blade enters the battlefield, you may attach it to target attacking creature.
+Equipped creature gets +2/+0 and has deathtouch.
+Equip Ninja {1}
+Equip {3}</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/234_Hidden Blade.png" num="234">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>The Valley of the End</name>
+			<text>{T}: Add {C}.
+{1}, {T}: Add two mana of any one color. Spend this mana only to cast legendary spells.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/257_The Valley of the End.png" num="257">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Spirit World</name>
+			<text>{T}: Add {C}.
+{1}, {T}: Add two mana of any one color. Spend this mana only to cast Spirit or Arcane spells.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/253_Spirit World.png" num="253">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Kegawa, the Exiled</name>
+			<text>Ward {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)
+Spiritcraft — Whenever you cast a Spirit or Arcane spell, tap up to one target creature. That creature doesn&apos;t untap during its controller&apos;s next untap step.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/208_Kegawa, the Exiled.png" num="208">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Fox Monk</type>
+				<maintype>Creature</maintype>
+				<manacost>1WU</manacost>
+				<cmc>3</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Yuriko, Ever Unseen</name>
+			<text>Ninjutsu {2}{U}{B} ({2}{U}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
+Whenever a Ninja you control deals combat damage to a player, scry 1, then you may draw a card. If you do, discard a card.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/228_Yuriko, Ever Unseen.png" num="228">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Ninja</type>
+				<maintype>Creature</maintype>
+				<manacost>1UB</manacost>
+				<cmc>3</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hajime, Reborn Tengu</name>
+			<text>Flying
+{2}{B}{R}: Return Hajime, Reborn Tengu from your graveyard to your hand. Activate this ability only if an opponent lost life this turn. (Damage causes loss of life.)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/203_Hajime, Reborn Tengu.png" num="203">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Demon Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>1BR</manacost>
+				<cmc>3</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kesseki, the Stone Blade</name>
+			<text></text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/209_Kesseki, the Stone Blade.png" num="209">KMR</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Samurai Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1RG</manacost>
+				<cmc>3</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tan-Kai, Bamboo Guardian</name>
+			<text>Vigilance
+Tan-Kai, Bamboo Guardian can&apos;t be blocked by creatures with power 2 or less.
+Tan-Kai, Bamboo Guardian&apos;s power and toughness are equal to your heritage. (Your heritage is equal to the number of legendary permanents you control plus the number of legendary cards in your graveyard.)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/225_Tan-Kai, Bamboo Guardian.png" num="225">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>1GW</manacost>
+				<cmc>3</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>*/*</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fukumitsu, Lantern Guide</name>
+			<text>Flying
+Lantern tokens and Spirit tokens you control are 1/1 colorless artifact creatures with flying, haste, and &quot;{T}: Add {C}.&quot;.
+{3}: Create a Lantern token. (It&apos;s an artifact with &quot;{T}: Add {C}.&quot;)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/200_Fukumitsu, Lantern Guide.png" num="200">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>3WB</manacost>
+				<cmc>5</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Inazuma, the Lightning Blade</name>
+			<text>Prowess
+Once per turn, you may activate an equip ability of an equipment you control without paying its cost.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/205_Inazuma, the Lightning Blade.png" num="205">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Moonfolk Samurai</type>
+				<maintype>Creature</maintype>
+				<manacost>1UR</manacost>
+				<cmc>3</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shiri, Death&apos;s Seer</name>
+			<text>Menace
+Whenever a nontoken Spirit you control dies, create a token copy of that creature.
+Exile a Spirit you control and a Spirit in your graveyard with the same name: Destroy target creature. Scry X, where X is that creature&apos;s mana value.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/222_Shiri, Death&apos;s Seer.png" num="222">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>2BG</manacost>
+				<cmc>4</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Buki, Arms Dealer</name>
+			<text>Creatures you control get +1/+0 for each Equipment attached to them.
+{3}, {T}: Search your library for an Equipment card and put it onto the battlefield. Then shuffle.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/198_Buki, Arms Dealer.png" num="198">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human</type>
+				<maintype>Creature</maintype>
+				<manacost>1RW</manacost>
+				<cmc>3</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Edamaro, First to See</name>
+			<text>Edamaro, First to See gets +1/+1 for each card in your hand.
+At the beginning of each player&apos;s draw step, that player draws an additional card.
+{2}: Return target permanent you control to its owner&apos;s hand.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/KMR-files/img/199_Edamaro, First to See.png" num="199">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>3GU</manacost>
+				<cmc>5</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Yoake, Dawn&apos;s Breath</name>
+			<text>Flying
+Whenever Yoake, Dawn&apos;s Breath enters the battlefield or attacks, you gain life equal to its power plus its toughness.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/41_Yoake, Dawn&apos;s Breath.png" num="41">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dragon Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Akai-O, the Red Tail</name>
+			<text>Lifelink, vigilance
+Bushido 3 (Whenever this creature blocks or becomes blocked, it gets +3/+3 until end of turn.)
+Whenever Akai-O, the Red Tail blocks, target creature gains protection from attacking creatures until end of turn.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/5_Akai-O, the Red Tail.png" num="5">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Fox Samurai</type>
+				<maintype>Creature</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Myojin of Transcendent Purity</name>
+			<text>Whenever Myojin of Transcendent Purity enters the battlefield or attacks, you may exile target creature an opponent controls. When you do, if two or more creature cards are exiled by this, return one of them to the battlefield under its owner&apos;s control. Create a number of 1/1 white Warrior creature tokens equal to that creature&apos;s mana value.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/28_Myojin of Transcendent Purity.png" num="28">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kanshu, Kitsune Binder</name>
+			<text>Vigilance
+Whenever Kanshu, Kitsune Binder attacks, exile target creature until Kanshu, Kitsune Binder leaves the battlefield.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/20_Kanshu, Kitsune Binder.png" num="20">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Fox Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tori-Sei, the White Wings</name>
+			<text>Flying
+Whenever Tori-Sei, the White Wings attacks, create a number of tapped and attacking 1/1 white Bird creature tokens with flying equal to your heritage. (Your heritage is equal to the number of legendary permanents you control plus the number of legendary cards in your graveyard.)</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/36_Tori-Sei, the White Wings.png" num="36">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human</type>
+				<maintype>Creature</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Jizen, the Benevolent</name>
+			<text>Lifelink
+Tokens you control have lifelink.
+Whenever you gain life for the first time each turn, you may activate one of Jizen, the Benevolent&apos;s abilities without paying its cost.
+{3}: Create a 1/1 colorless Spirit creature token.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/18_Jizen, the Benevolent.png" num="18">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Master the Blade</name>
+			<text>When Master the Blade enters the battlefield, search your library for an Equipment card and put it onto the battlefield. Then shuffle.
+{3}, Sacrifice Master the Blade: Attach target equipment you control to target creature you control.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/25_Master the Blade.png" num="25">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Day of the Dark Sun</name>
+			<text>(You may cast a legendary sorcery only if you control a legendary creature or planeswalker.)
+Destroy all creatures that attacked this turn.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/13_Day of the Dark Sun.png" num="13">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Kiri, Mist&apos;s Breath</name>
+			<text>Flying
+Whenever Kiri, Mist&apos;s Breath enters the enters the battlefield or attacks, scry 3, then draw three cards.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/57_Kiri, Mist&apos;s Breath.png" num="57">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dragon Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>4/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Inui-Kappa, the Dry</name>
+			<text>Flash
+Inui-Kappa, the Dry can&apos;t be blocked except by Goblins and/or Turtles.
+When Inui-Kappa, the Dry enters the battlefield, copy target instant or sorcery spell, then return it to its owner&apos;s hand. You may choose new targets for the copy.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/54_Inui-Kappa, the Dry.png" num="54">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Goblin Turtle</type>
+				<maintype>Creature</maintype>
+				<manacost>UUU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Satsuka, the Unseen</name>
+			<text>Ninjutsu {U}
+Satsuka, the Unseen can&apos;t be blocked.
+If Satsuka, the Unseen would leave the battlefield, if it didn&apos;t die, you may exile it instead. When you do, return Satsuka, the Unseen to the battlefield at the beginning of the next end step.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/68_Satsuka, the Unseen.png" num="68">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Ninja</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shiryoku the Seer</name>
+			<text>Play with the top card of your library revealed.
+You may play the top card of your library if it shares a name with a permanent you control.
+Put two lands you control onto the top of your library: Return target spell to its owner&apos;s hand.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/70_Shiryoku the Seer.png" num="70">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Moonfolk Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kohmen, the Face Stealer</name>
+			<text>{3}: Kohmen, the Face Stealer becomes a copy of target creature except its name is Kohmen, the Face Stealer, it is a legendary Zubera Spirit, and it has this ability.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/58_Kohmen, the Face Stealer.png" num="58">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Zubera Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Forbidden Words</name>
+			<text>Flash
+When Forbidden Words enters the battlefield, exile target spell.
+Players can&apos;t cast spells with the same name as cards exiled with Forbidden Words.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/46_Forbidden Words.png" num="46">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>An Eternity</name>
+			<text>Draw a number of cards equal to your heritage. (Your heritage is equal to the number of legendary permanents you control plus the number of legendary cards in your graveyard.)</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/45_An Eternity.png" num="45">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Roar of the Great Wave</name>
+			<text>(You may cast a legendary instant only if you control a legendary creature or planeswalker.)
+Counter target spell.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/64_Roar of the Great Wave.png" num="64">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>UU</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Shiryo, Death&apos;s Breath</name>
+			<text>Flying
+Whenever Shiryo, Death&apos;s Breath enters the battlefield or attacks, destroy target creature.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/112_Shiryo, Death&apos;s Breath.png" num="112">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dragon Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Akuam, Oni&apos;s Blade</name>
+			<text>Ninjutsu {1}{B}{B} ({1}{B}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
+Whenever Akuam, Oni&apos;s Blade deals combat damage to a player, exile that many cards from the top of that player&apos;s library, then put a creature card exiled by a card named Akuam, Oni&apos;s Blade onto the battlefield under your control.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/81_Akuam, Oni&apos;s Blade.png" num="81">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Ninja</type>
+				<maintype>Creature</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Yamia, Heart of Darkness</name>
+			<text>When Yamia, Heart of Darkness enters the battlefield, non-Spirit creatures get -2/-2 until end of turn. 
+When Yamia, Heart of Darkness dies, return another target Spirit from your graveyard to the battlefield.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/117_Yamia, Heart of Darkness.png" num="117">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>All-Consuming Oni of Chaos</name>
+			<text>Menace
+Whenever a nontoken creature dies, exile it, then create a token copy of it, except it&apos;s a black Zombie in addition to its other types.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/82_All-Consuming Oni of Chaos.png" num="82">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Demon Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>4BB</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Beru, the Flame Veiled</name>
+			<text>Ninjutsu {2}{B}{B} ({2}{B}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
+Menace
+Whenever Beru, the Flame Veiled deals combat damage to a player, that player discards a card.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/84_Beru, the Flame Veiled.png" num="84">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Rat Ninja</type>
+				<maintype>Creature</maintype>
+				<manacost>BB</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shigan, Soul-Seeker</name>
+			<text>{2}, Sacrifice a creature: Return target Spirit card from your graveyard to your hand. If that creature card is a Zubera, you may pay {2}, if you do, return it to the battlefield instead.
+When Shigan, Soul-Seeker dies, for each Zubera that died this turn, destroy target creature.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/111_Shigan, Soul-Seeker.png" num="111">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Zubera Spirit Samurai</type>
+				<maintype>Creature</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Contract with the Oni</name>
+			<text>As an additional cost to cast this spell, sacrifice a creature.
+Search your library for a card, put that card into your hand, then shuffle.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/90_Contract with the Oni.png" num="90">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery — Arcane</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Crack in the Barrier</name>
+			<text>(You may cast a legendary sorcery only if you control a legendary creature or planeswalker.)
+Each player returns all creature cards from their graveyard to the battlefield.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/91_Crack in the Barrier.png" num="91">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Sorcery — Arcane</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Moyasu, Sun&apos;s Breath</name>
+			<text>Flying
+Whenever Moyasu, Sun&apos;s Breath enters the enters the battlefield or attacks, it deals damage equal to its power to target creature or planeswalker.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/140_Moyasu, Sun&apos;s Breath.png" num="140">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dragon Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ennetsu, the Sun Spear</name>
+			<text>First strike
+{2}, Discard a card: Ennetsu, the Sun Spear deals damage equal to its power to target creature.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/129_Ennetsu, the Sun Spear.png" num="129">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Spirit Samurai</type>
+				<maintype>Creature</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Yama-Yama, the Last</name>
+			<text>Whenever Yama-Yama, the Last deals combat damage to a creature, it deals that much damage to that creature&apos;s controller.
+When Yama-Yama, the Last dies, it deals damage equal to its power to target creature.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/155_Yama-Yama, the Last.png" num="155">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Goblin</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Akima, the Lost Humanity</name>
+			<text></text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/119_Akima, the Lost Humanity.png" num="119">KMR</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hidetsugu, Oni Fragment</name>
+			<text>Menace
+Whenever Hidetsugu, Oni Fragment deals combat damage to a player, if it&apos;s not an extra combat step, untap all creatures that attacked this turn. After this main phase, there is an additional combat phase followed by an additional main phase.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/135_Hidetsugu, Oni Fragment.png" num="135">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Demon Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hyperspeed Blast</name>
+			<text>Target creature gets +2/+0 and gets &quot;{R}: This creature gets +1/+0 until end of turn.&quot; until end of turn. Add an amount of {R} equal to its power.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/138_Hyperspeed Blast.png" num="138">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Merchant&apos;s Wares</name>
+			<text>As an additional cost to cast this spell, you may sacrifice a nontoken artifact.
+Search your library for an artifact card, reveal it, and put it into your hand. Then shuffle. If you didn&apos;t sacrifice an artifact to cast this spell, discard a card.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/139_Merchant&apos;s Wares.png" num="139">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Falling Star&apos;s Fire</name>
+			<text>(You may cast a legendary sorcery only if you control a legendary creature or planeswalker.)
+Falling Star&apos;s Fire costs {X} less to cast, where X is equal to your heritage. (Your heritage is equal to the number of legendary permanents you control plus the number of legendary cards in your graveyard.)
+Falling Star&apos;s Fire deals X damage to each permanent and player.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/130_Falling Star&apos;s Fire.png" num="130">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XRRR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Shinja, the Devoted</name>
+			<text></text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/181_Shinja, the Devoted.png" num="181">KMR</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Monk</type>
+				<maintype>Creature</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shizen, Nature&apos;s Breath</name>
+			<text>Flying
+Whenever Shizen, Nature&apos;s Breath enters the enters the battlefield or attacks, search your library for a land card and put it onto the battlefield. Then shuffle.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/182_Shizen, Nature&apos;s Breath.png" num="182">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dragon Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Eien, the Eternal</name>
+			<text></text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/162_Eien, the Eternal.png" num="162">KMR</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Legendary Creature — Spirit Monk</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Jojo-Ie, the High Branches</name>
+			<text>Reach, vigilance
+Creatures you control with reach have vigilance.
+Whenever a creature you control blocks, it gains indestructible until end of turn.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/168_Jojo-Ie, the High Branches.png" num="168">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Snake Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kodama of the Wandering Tree</name>
+			<text>Reach
+Whenever you play a land, search your library for a basic land card and put it onto the battlefield tapped. Then shuffle.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/171_Kodama of the Wandering Tree.png" num="171">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>4G</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shohi, the Consumer</name>
+			<text>Shohi, the Consumer gets +1/+1 for each card an opponent owns in exile.
+Discard a card: Exile up to one target artifact or enchantment. Then exile up to one target card from a graveyard.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/183_Shohi, the Consumer.png" num="183">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Balance Between Worlds</name>
+			<text>Choose one or both —
+• Put a creature card from your hand with power less than or equal to X onto the battlefield tapped.
+• Search your library for a creature card with mana value X or less, reveal it, and put it into your hand. Then shuffle.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/159_Balance Between Worlds.png" num="159">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery — Arcane</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XGG</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Achieve Enlightenment</name>
+			<text>(You may cast a legendary instant only if you control a legendary creature or planeswalker.)
+Your life total becomes equal to your starting life total. Prevent all combat damage that would be dealt to you and creatures you control until the beginning of your next turn.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/157_Achieve Enlightenment.png" num="157">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Mizu-Kappa, Mist Cloaked</name>
+			<text>Ward {3} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {3}.)
+Spiritcraft — {4}: Scry 3, then you may reveal the top card of your library, if it&apos;s a Spirit or Arcane card, you may cast it without paying its mana cost. Activate this ability only if you cast a Spirit or Arcane spell this turn.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/212_Mizu-Kappa, Mist Cloaked.png" num="212">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Goblin Turtle</type>
+				<maintype>Creature</maintype>
+				<manacost>2WU</manacost>
+				<cmc>4</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Nin-Kappa, Frozen Master</name>
+			<text>Ninjutsu {1}{U}{B} ({1}{U}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
+Whenever Nin-Kappa, Frozen Master deals combat damage to a player, tap up to two target creatures. Those creatures don&apos;t untap during their controller&apos;s next untap step.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/214_Nin-Kappa, Frozen Master.png" num="214">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Goblin Turtle Ninja</type>
+				<maintype>Creature</maintype>
+				<manacost>2UB</manacost>
+				<cmc>4</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ketsueki, the Blood-Cursed</name>
+			<text>Menace, haste
+Whenever Ketsueki, the Blood-Cursed attacks, it deals 2 damage to target player or planeswalker.
+Whenever Ketsueki, the Blood-Cursed deals combat damage to a player, if you don&apos;t control a Demon, return it to your hand.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/210_Ketsueki, the Blood-Cursed.png" num="210">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Ogre Samurai</type>
+				<maintype>Creature</maintype>
+				<manacost>BR</manacost>
+				<cmc>2</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hihebi, Dragon&apos;s Spirit</name>
+			<text></text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/204_Hihebi, Dragon&apos;s Spirit.png" num="204">KMR</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Monk</type>
+				<maintype>Creature</maintype>
+				<manacost>RG</manacost>
+				<cmc>2</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Banken, the Guardian</name>
+			<text>Vigilance
+Bushido 2 (Whenever this creature blocks or becomes blocked, it gets +2/+2 until end of turn.)
+{T}: Another target creature gains indestructible and protection from everything until end of turn.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/197_Banken, the Guardian.png" num="197">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dog Spirit Samurai</type>
+				<maintype>Creature</maintype>
+				<manacost>1GW</manacost>
+				<cmc>3</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Raka, the Six-Blades</name>
+			<text>Double strike
+Other Spirits you control get +1/+1.
+Spiritcraft — Whenever you cast a Spirit or Arcane spell, create a 1/1 colorless Spirit creature token.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/218_Raka, the Six-Blades.png" num="218">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Spirit Samurai</type>
+				<maintype>Creature</maintype>
+				<manacost>2WB</manacost>
+				<cmc>4</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Nomiso-Kappa, Burning Mind</name>
+			<text>Prowess
+Whenever you cast your third noncreature spell each turn, Nomiso-Kappa, Burning Mind deals 3 damage to each other creature and you draw three cards.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/215_Nomiso-Kappa, Burning Mind.png" num="215">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Goblin Turtle</type>
+				<maintype>Creature</maintype>
+				<manacost>2UR</manacost>
+				<cmc>4</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sai-Shi, Death&apos;s Guardian</name>
+			<text>Deathtouch, lifelink
+Whenever you gain life for the first time each turn, each opponent loses that much life.
+{4}, Exile a card from your graveyard: Gain life equal to that card&apos;s mana value.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/219_Sai-Shi, Death&apos;s Guardian.png" num="219">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Monk</type>
+				<maintype>Creature</maintype>
+				<manacost>2BG</manacost>
+				<cmc>4</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tosho, Master Swordsmith</name>
+			<text>{R}{W}: Create a colorless Equipment artifact token named Masterwork Blade with equip {2} and &quot;Equipped creature gets +3/+0.&quot;
+{3}: Attach target quipment you control to target creature you control.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/226_Tosho, Master Swordsmith.png" num="226">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>2RW</manacost>
+				<cmc>4</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Inja-Kappa, Wanderer</name>
+			<text>When Inja-Kappa, Wanderer enters the battlefield, search your library for X basic land cards, reveal them, and put them into your hand. Then shuffle.
+You may play an additional land on each of your turns.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/206_Inja-Kappa, Wanderer.png" num="206">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Goblin Turtle Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>XGU</manacost>
+				<cmc>2</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Jinja, Wandering Shrine</name>
+			<text>Jinja, Wandering Shrine&apos;s power and toughness are equal to the number of Shrines you control.
+As long as you control five or more Shrines with different names, the &quot;legend rule&quot; doesn&apos;t apply to shrines you control.
+{2W}{2U}{2B}{2R}{2G}: Search your library for a Shrine card and put it onto the battlefield. Then shuffle. Activate only as a sorcery.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/1_Jinja, Wandering Shrine.png" num="1">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Enchantment Creature — Spirit Shrine</type>
+				<maintype>Creature</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<coloridentity>WUBRG</coloridentity>
+				<pt>*/*</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Honjo, the Regalia Blade</name>
+			<text>Equipped creature gets +2/+0.
+Whenever equipped creature deals combat damage to a player, add {W}{U}{B}{R}{G}. Until end of turn, you don&apos;t lose this mana as steps and phases end.
+Equip legendary creature {1}
+Equip {5}</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/235_Honjo, the Regalia Blade.png" num="235">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<coloridentity>WUBRG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Worldshaper&apos;s Rest</name>
+			<text>Worldshaper&apos;s Rest enters the battlefield tapped.
+{T}: Add {C}.
+{T}, Sacrifice a land: Search your library for a land card and put it onto the battlefield tapped. Then shuffle.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/KMR-files/img/259_Worldshaper&apos;s Rest.png" num="259">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Fushin, the Gusting Wind</name>
+			<text>Whenever Fushin, the Gusting Wind becomes blocked, you may activate one of its abilities without paying its cost.
+{3}{W}: Remove target attacking or blocking creature from combat and untap it.
+{3}{U}: Return target creature to its owner&apos;s hand.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/KMR-files/img/201_Fushin, the Gusting Wind.png" num="201">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>2WU</manacost>
+				<cmc>4</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Getsu, the Moon&apos;s Shadow</name>
+			<text>Ninjutsu {1}{U}{B} ({1}{U}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
+Other Ninjas you control have menace.
+Ninjutsu abilities you control cost {2} less to activate.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/KMR-files/img/202_Getsu, the Moon&apos;s Shadow.png" num="202">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Ninja</type>
+				<maintype>Creature</maintype>
+				<manacost>2UB</manacost>
+				<cmc>4</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Raishin, the Thundering Storm</name>
+			<text>Whenever Raishin, the Thundering Storm becomes blocked, you may activate one of its abilities without paying its cost.
+{3}{B}: Destroy target creature.
+{3}{R}: Raishin, the Thundering Storm deals 3 damage to target player.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/KMR-files/img/217_Raishin, the Thundering Storm.png" num="217">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>2BR</manacost>
+				<cmc>4</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Okina, Enraged Nekon</name>
+			<text>Menace
+Okina, Enraged Nekon enters the battlefield with twice X +1/+1 counters on it.
+Remove two +1/+1 counters from Okina, Enraged Nekon: Okina, Enraged Nekon deals damage equal to its power to target creature.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/KMR-files/img/216_Okina, Enraged Nekon.png" num="216">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Cat Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>XRG</manacost>
+				<cmc>2</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>0/0</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Saishu, Great General</name>
+			<text>Vigilance
+Bushido 4 (Whenever this creature blocks or becomes blocked, it gets +4/+4 until end of turn.)
+As long as Saishu, Great General isn&apos;t attacking or blocking, it has hexproof and indestructible.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/KMR-files/img/220_Saishu, Great General.png" num="220">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Samurai Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>2GW</manacost>
+				<cmc>4</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tsukiya, Moon&apos;s Breath</name>
+			<text>Flying
+During your turn, spells your opponents control cost {2} more to cast.
+Whenever a nontoken creature you control dies, you may search your library for a creature card, reveal it, and put it into your hand. Then shuffle. If you do, discard a card.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/KMR-files/img/227_Tsukiya, Moon&apos;s Breath.png" num="227">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dragon Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>3WB</manacost>
+				<cmc>5</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kagayaku, Fog Guide</name>
+			<text>Prowess
+Whenever you cast an instant or sorcery spell that targets exactly one creature you control, create a token that&apos;s a copy of that creature.
+{5}{U}{R}: Target creature and all creatures you control that share a name with it can&apos;t be blocked this turn. Activate only as a sorcery.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/KMR-files/img/207_Kagayaku, Fog Guide.png" num="207">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>2UR</manacost>
+				<cmc>4</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kumo of the Infinite Web</name>
+			<text>Reach
+Kumo of the Infinite Web can block any number of creatures.
+Whenever Kumo of the Infinite Web blocks, double its power and toughness until end of turn for each creature blocked beyond the first.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/KMR-files/img/211_Kumo of the Infinite Web.png" num="211">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Spider Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>4BG</manacost>
+				<cmc>6</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Saru, the Eclipse</name>
+			<text>Whenever Saru, the Eclipse attacks, for each other attacking nontoken creature you control, create a token that&apos;s a copy of that creature. The token enters the battlefield tapped and attacking.
+As long as you control ten or more attacking creatures, creatures you control get +1/+1.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/KMR-files/img/221_Saru, the Eclipse.png" num="221">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Spirit Ape</type>
+				<maintype>Creature</maintype>
+				<manacost>2RW</manacost>
+				<cmc>4</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Amenogozen, Born of Rain</name>
+			<text>{1}, {T}: Add {G}{U}. 
+Whenever you draw a card, untap Amenogozen, Born of Rain.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/KMR-files/img/196_Amenogozen, Born of Rain.png" num="196">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>2GU</manacost>
+				<cmc>4</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Akada, the Steel Lion</name>
+			<text>{2}{W}: Samurai you control gain bushido 1 until end of turn. (Whenever a creature with Bushido blocks or becomes blocked, it gets +1/+1 until end of turn.)
+{2}{B}{B}: Each opponent loses life equal to the number of Samurai you control.
+{3}{R}: Target Samurai you control fights target non-Samurai creature.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/KMR-files/img/195_Akada, the Steel Lion.png" num="195">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Samurai</type>
+				<maintype>Creature</maintype>
+				<manacost>WBR</manacost>
+				<cmc>3</cmc>
+				<colors>WBR</colors>
+				<coloridentity>WBR</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sisters of Flesh and Spirit</name>
+			<text>Hexproof
+Spiritcraft — Whenever you cast a Spirit or Arcane spell, you may put a permanent from your hand onto the battlefield tapped.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/KMR-files/img/223_Sisters of Flesh and Spirit.png" num="223">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>1WUB</manacost>
+				<cmc>4</cmc>
+				<colors>WUB</colors>
+				<coloridentity>WUB</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Karada, the Reaver</name>
+			<text></text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/KMR-files/img/100_Karada, the Reaver.png" num="100">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Karada</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<loyalty>3</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Nahiri, the Stoneforged</name>
+			<text></text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/KMR-files/img/213_Nahiri, the Stoneforged.png" num="213">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Nahiri</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>3RW</manacost>
+				<cmc>5</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<loyalty>4</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Tamiyo, Grand Archivist</name>
+			<text></text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/KMR-files/img/224_Tamiyo, Grand Archivist.png" num="224">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Tamiyo</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>2GU</manacost>
+				<cmc>4</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<loyalty>3</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Plains</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/260_Plains.png" num="260">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Island</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/261_Island.png" num="261">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Swamp</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/262_Swamp.png" num="262">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Mountain</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/263_Mountain.png" num="263">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Forest</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/264_Forest.png" num="264">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>O-Kagachi Reborn</name>
+			<text>Flying
+Whenever O-Kagachi Reborn deals combat damage to a player, reveal that many cards from the top of your library. Put any number of Legendary permanent cards from among them onto the battlefield and the rest on the bottom of your library in a random order.</text>
+			<set rarity="special" picurl="https://crushcastles23.github.io/sets/KMR-files/img/0_O-Kagachi Reborn.png" num="0">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dragon Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>2WUBRG</manacost>
+				<cmc>7</cmc>
+				<colors>WUBRG</colors>
+				<coloridentity>WUBRG</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bird KMR</name>
+			<text>Flying</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/4t_Bird.png" num="4">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Bird</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Spirit KMR</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/3t_Spirit.png" num="3">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Samurai KMR</name>
+			<text>Bushido 1 (Whenever this creature blocks or becomes blocked, it gets +1/+1 until end of turn.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/5t_Samurai.png" num="5">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Samurai</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Treasure KMR</name>
+			<text>{T}, Sacrifice this artifact: Add one mana of any color.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/17t_Treasure.png" num="17">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact — Treasure</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Scroll KMR</name>
+			<text>{1}, Sacrifice this enchantment: Scry 1.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/2t_Scroll.png" num="2">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Lotus Petal KMR</name>
+			<text>{T}, Sacrifice this artifact: Add one mana of any color.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/15t_Lotus Petal.png" num="15">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Zombie KMR</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/12t_Zombie.png" num="12">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Zombie</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Bat KMR</name>
+			<text>Flying</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/8t_Bat.png" num="8">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Bat</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Fish KMR</name>
+			<text>Flying</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/7t_Fish.png" num="7">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Fish</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Masterwork Blade KMR</name>
+			<text>Equipped creature gets +3/+0.
+Equip {2}</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/16t_Masterwork Blade.png" num="16">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Karada, the Reaver Emblem KMR</name>
+			<text>Whenever a creature you control dies, each other player sacrifices a creature.
+Whenever a creature an opponent controls dies, draw a card.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/9t_Karada, the Reaver Emblem.png" num="9">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Emblem — Karada</type>
+				<maintype>Emblem</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Weapon KMR</name>
+			<text>Equipped creature gets +1/+1.
+Equip {2}</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/18t_Weapon.png" num="18">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Heritage Tracker KMR</name>
+			<text>(Use this to track your heritage in games. Your heritage is equal to the number of legendary nonland permanents you control plus the number of legendary nonland cards in your graveyard.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/1t_Heritage Tracker.png" num="1">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Tracker</type>
+				<maintype>Tracker</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Lantern KMR</name>
+			<text>{T}: Add {C}.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/14t_Lantern.png" num="14">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact — Lantern</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Demon Spirit KMR</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/13t_Demon Spirit.png" num="13">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Demon Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Warrior KMR</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/6t_Warrior.png" num="6">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Rat Ninja KMR</name>
+			<text>Deathtouch</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/10t_Rat Ninja.png" num="10">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Rat Ninja</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Rat Warrior KMR</name>
+			<text>Menace</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/KMR-files/img/11t_Rat Warrior.png" num="11">KMR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Rat Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+	</cards>
+</cockatrice_carddatabase>

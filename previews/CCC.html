@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="../sets/CCC-files/icon.png"/>
+	<link rel="stylesheet" href="../resources/header.css">
+	<title>CCC visual preview</title>
+	<script title="root">
+		const rootPath = "..";
+	</script>
+	<style>
+		@font-face {
+			font-family: Beleren;
+			src: url('../resources/beleren.ttf');
+		}
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			opacity: 0;
+			transform: rotateY(0deg) rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+			border-radius: 3.733% / 2.677%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+			border-radius: 3.733% / 2.677%;
+		}
+		.close-btn {
+			background: url('../img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('../img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+			border-radius: 3.733% / 2.677%;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 80px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+			border-radius: 3.733% / 2.677%;
+		}
+		.flip-btn {
+			background: url('../img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('../img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.dropdown {
+			background: rgba(23, 23, 23, 0.8);
+			border-radius: 8px;
+			position: absolute;
+			left: 5%;
+			width: fit-content;
+			max-width: 90%;
+			margin: 20px 0;
+			padding: 5px 0;
+			display: grid;
+			grid-template-columns: 1fr;
+			z-index: 3;
+		}
+		.dropdown .set-bar {
+			font-family: Beleren;
+			font-size: 20px;
+			text-decoration: none;
+			color: #e3e3e3;
+			display: flex;
+			gap: 10px;
+			align-items: center;
+			padding: 0 12px;
+			margin: 5px;
+		}
+		.dropdown .set-bar:hover {
+			background: rgba(163, 163, 163, 0.5);
+			color: #f3f3f3;
+		}
+		.dropdown .set-bar img {
+			width: 32px;
+		}
+		.dropdown .inactive {
+			height: 0px;
+			overflow: hidden;
+			margin: 0px 5px;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		.addenda-container {
+			text-align: center;
+			width: fit-content;
+			max-width: 1200px;
+			padding: 0 5%;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="../img/dot.png" />
+	<img class="preload-hidden" src="../sets/CCC-files/logo.png" />
+	<img class="preload-hidden" src="../sets/BEY-files/icon.png" />
+		<img class="preload-hidden" src="../sets/CCC-files/icon.png" />
+		<img class="preload-hidden" src="../sets/KMR-files/icon.png" />
+		<img class="preload-hidden" src="../sets/MAD-files/icon.png" />
+		<img class="preload-hidden" src="../sets/MOG-files/icon.png" />
+		<img class="preload-hidden" src="../sets/SMG-files/icon.png" />
+		<img class="preload-hidden" src="../sets/SYZ-files/icon.png" />
+		<img class="preload-hidden" src="../sets/TCS-files/icon.png" />
+		<img class="preload-hidden" src="../sets/VRM-files/icon.png" />
+		<img class="preload-hidden" src="../sets/WRP-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a onclick="window.location.href = rootPath + '/'"><img class="sg-logo" id="header-banner"></a>
+			<img class="sg-icon" id="header-search" onclick="goToSearch()">
+			<div style="position: relative; width: 100%;">
+				<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+				<div id="tag-dropdown" style="display: none; position: absolute; top: 100%; left: 0; width: 100%; background: white; border: 1px solid #d5d9d9; z-index: 1000; max-height: 200px; overflow-y: auto; color: black; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></div>
+			</div>
+			<a onclick="window.location.href = rootPath + '/all-sets'"><img id="header-sets" class="sg-icon">Sets</a>
+			<a onclick="window.location.href = rootPath + '/deckbuilder'"><img id="header-deck" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img id="header-random" class="sg-icon">Random</a>
+		</div>
+	</div>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			document.getElementById("header-banner").src = rootPath + "/img/banner.png";
+			document.getElementById("header-search").src = rootPath + "/img/search.png";
+			document.getElementById("header-sets").src = rootPath + "/img/sets.png";
+			document.getElementById("header-deck").src = rootPath + "/img/deck.png";
+			document.getElementById("header-random").src = rootPath + "/img/random.png";
+		});
+
+		function goToSearch() {
+			window.location.href = rootPath + "/search";
+		}
+	</script>
+
+	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+	
+		<a class="set-bar" href="../previews/CCC"><img src="../sets/CCC-files/icon.png">Custom Chaos Cube</a>
+	
+		<a class="set-bar inactive" href="../previews/BEY"><img src="../sets/BEY-files/icon.png">Beyond the Event Horizon</a>
+	
+		<a class="set-bar inactive" href="../previews/KMR"><img src="../sets/KMR-files/icon.png">Kamigawa Reborn</a>
+	
+		<a class="set-bar inactive" href="../previews/MAD"><img src="../sets/MAD-files/icon.png">Mad World</a>
+	
+		<a class="set-bar inactive" href="../previews/MOG"><img src="../sets/MOG-files/icon.png">Moag</a>
+	
+		<a class="set-bar inactive" href="../previews/SMG"><img src="../sets/SMG-files/icon.png">Velencium: City of Smog</a>
+	
+		<a class="set-bar inactive" href="../previews/SYZ"><img src="../sets/SYZ-files/icon.png">Syèlzile: Islands in the Sky</a>
+	
+		<a class="set-bar inactive" href="../previews/TCS"><img src="../sets/TCS-files/icon.png">Twilight City Stories</a>
+	
+		<a class="set-bar inactive" href="../previews/VRM"><img src="../sets/VRM-files/icon.png">Valla Remastered</a>
+	
+		<a class="set-bar inactive" href="../previews/WRP"><img src="../sets/WRP-files/icon.png"></a>
+	
+		</div>
+		<div class="banner">
+		<img class="logo" src="../sets/CCC-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+					<div class="container"><img loading="lazy" alt="sets\CCC-files\img\8_Ancestor's Assistance.png" id="CCC_8_Ancestors Assistance" data-flag="@X" onclick="openSidebar('CCC_8_Ancestors Assistance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\55_Ancestor's Wings.png" id="CCC_55_Ancestors Wings" data-flag="@X" onclick="openSidebar('CCC_55_Ancestors Wings',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\102_Accursed Jackal.png" id="CCC_102_Accursed Jackal" data-flag="@X" onclick="openSidebar('CCC_102_Accursed Jackal',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\CCC-files\img\148_Ashborn Dragon_back.png" alt="sets\CCC-files\img\148_Ashborn Dragon_front.png" id="CCC_148_Ashborn Dragon" data-flag="@XD" onclick="openSidebar('CCC_148_Ashborn Dragon',false)"><button class="flip-btn" onclick="imgFlip('CCC_148_Ashborn Dragon')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\194_Abounding Overgrowth.png" id="CCC_194_Abounding Overgrowth" data-flag="@X" onclick="openSidebar('CCC_194_Abounding Overgrowth',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\9_Ancient Guardian.png" id="CCC_9_Ancient Guardian" data-flag="@X" onclick="openSidebar('CCC_9_Ancient Guardian',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\56_Arcane Researcher.png" id="CCC_56_Arcane Researcher" data-flag="@X" onclick="openSidebar('CCC_56_Arcane Researcher',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\103_Beleaguered Bounty.png" id="CCC_103_Beleaguered Bounty" data-flag="@X" onclick="openSidebar('CCC_103_Beleaguered Bounty',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\149_Balduvian Beserker.png" id="CCC_149_Balduvian Beserker" data-flag="@X" onclick="openSidebar('CCC_149_Balduvian Beserker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\195_Antlered Bear.png" id="CCC_195_Antlered Bear" data-flag="@X" onclick="openSidebar('CCC_195_Antlered Bear',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\10_Balanced Master.png" id="CCC_10_Balanced Master" data-flag="@X" onclick="openSidebar('CCC_10_Balanced Master',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\57_Aven Shadow Mage.png" id="CCC_57_Aven Shadow Mage" data-flag="@X" onclick="openSidebar('CCC_57_Aven Shadow Mage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\104_Blood Offering.png" id="CCC_104_Blood Offering" data-flag="@X" onclick="openSidebar('CCC_104_Blood Offering',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\150_Barrage of Missiles.png" id="CCC_150_Barrage of Missiles" data-flag="@X" onclick="openSidebar('CCC_150_Barrage of Missiles',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\CCC-files\img\196_Arlinn, Moontouched_back.png" alt="sets\CCC-files\img\196_Arlinn, Moontouched_front.png" id="CCC_196_Arlinn, Moontouched" data-flag="@XD" onclick="openSidebar('CCC_196_Arlinn, Moontouched',false)"><button class="flip-btn" onclick="imgFlip('CCC_196_Arlinn, Moontouched')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\11_Beg.png" id="CCC_11_Beg" data-flag="@X" onclick="openSidebar('CCC_11_Beg',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\58_Aven Spirit Guide.png" id="CCC_58_Aven Spirit Guide" data-flag="@X" onclick="openSidebar('CCC_58_Aven Spirit Guide',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\105_By Blood and Venom.png" id="CCC_105_By Blood and Venom" data-flag="@X" onclick="openSidebar('CCC_105_By Blood and Venom',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\151_Bazaar Trading.png" id="CCC_151_Bazaar Trading" data-flag="@X" onclick="openSidebar('CCC_151_Bazaar Trading',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\197_Call of Nature.png" id="CCC_197_Call of Nature" data-flag="@X" onclick="openSidebar('CCC_197_Call of Nature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\12_Bird's Nest.png" id="CCC_12_Birds Nest" data-flag="@X" onclick="openSidebar('CCC_12_Birds Nest',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\59_Basic Insticts.png" id="CCC_59_Basic Insticts" data-flag="@X" onclick="openSidebar('CCC_59_Basic Insticts',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\106_Cloaked Assassin.png" id="CCC_106_Cloaked Assassin" data-flag="@X" onclick="openSidebar('CCC_106_Cloaked Assassin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\152_Blood Harvest.png" id="CCC_152_Blood Harvest" data-flag="@X" onclick="openSidebar('CCC_152_Blood Harvest',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\CCC-files\img\198_Charging Irasaur_back.png" alt="sets\CCC-files\img\198_Charging Irasaur_front.png" id="CCC_198_Charging Irasaur" data-flag="@XD" onclick="openSidebar('CCC_198_Charging Irasaur',false)"><button class="flip-btn" onclick="imgFlip('CCC_198_Charging Irasaur')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\CCC-files\img\13_Boy Who Would Be King_back.png" alt="sets\CCC-files\img\13_Boy Who Would Be King_front.png" id="CCC_13_Boy Who Would Be King" data-flag="@XD" onclick="openSidebar('CCC_13_Boy Who Would Be King',false)"><button class="flip-btn" onclick="imgFlip('CCC_13_Boy Who Would Be King')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\60_Boneclad Sphinx.png" id="CCC_60_Boneclad Sphinx" data-flag="@X" onclick="openSidebar('CCC_60_Boneclad Sphinx',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\107_Consuming Horror.png" id="CCC_107_Consuming Horror" data-flag="@X" onclick="openSidebar('CCC_107_Consuming Horror',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\153_Born of the Night Sky.png" id="CCC_153_Born of the Night Sky" data-flag="@X" onclick="openSidebar('CCC_153_Born of the Night Sky',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\199_Crystalline Druid.png" id="CCC_199_Crystalline Druid" data-flag="@X" onclick="openSidebar('CCC_199_Crystalline Druid',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\14_Cyber Ghost.png" id="CCC_14_Cyber Ghost" data-flag="@X" onclick="openSidebar('CCC_14_Cyber Ghost',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\61_Clockwork Spy.png" id="CCC_61_Clockwork Spy" data-flag="@X" onclick="openSidebar('CCC_61_Clockwork Spy',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\108_Contract with the Damned.png" id="CCC_108_Contract with the Damned" data-flag="@X" onclick="openSidebar('CCC_108_Contract with the Damned',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\154_Chandra, the Eternal Flame.png" id="CCC_154_Chandra, the Eternal Flame" data-flag="@X" onclick="openSidebar('CCC_154_Chandra, the Eternal Flame',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\200_Death Battle.png" id="CCC_200_Death Battle" data-flag="@X" onclick="openSidebar('CCC_200_Death Battle',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\15_Daring Windrider.png" id="CCC_15_Daring Windrider" data-flag="@X" onclick="openSidebar('CCC_15_Daring Windrider',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\62_Dark Infiltrator.png" id="CCC_62_Dark Infiltrator" data-flag="@X" onclick="openSidebar('CCC_62_Dark Infiltrator',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\109_Curse of Shadows.png" id="CCC_109_Curse of Shadows" data-flag="@X" onclick="openSidebar('CCC_109_Curse of Shadows',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\155_Crashing Destruction.png" id="CCC_155_Crashing Destruction" data-flag="@X" onclick="openSidebar('CCC_155_Crashing Destruction',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\CCC-files\img\201_Desert Caravan_back.png" alt="sets\CCC-files\img\201_Desert Caravan_front.png" id="CCC_201_Desert Caravan" data-flag="@XD" onclick="openSidebar('CCC_201_Desert Caravan',false)"><button class="flip-btn" onclick="imgFlip('CCC_201_Desert Caravan')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\16_D'Avenant Lawbearer.png" id="CCC_16_DAvenant Lawbearer" data-flag="@X" onclick="openSidebar('CCC_16_DAvenant Lawbearer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\63_Dazzle.png" id="CCC_63_Dazzle" data-flag="@X" onclick="openSidebar('CCC_63_Dazzle',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\110_Daring Aetherborn.png" id="CCC_110_Daring Aetherborn" data-flag="@X" onclick="openSidebar('CCC_110_Daring Aetherborn',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\156_Daretti, Scraplord.png" id="CCC_156_Daretti, Scraplord" data-flag="@X" onclick="openSidebar('CCC_156_Daretti, Scraplord',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\202_Elves of Endless Worlds.png" id="CCC_202_Elves of Endless Worlds" data-flag="@X" onclick="openSidebar('CCC_202_Elves of Endless Worlds',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\17_Divine Charge.png" id="CCC_17_Divine Charge" data-flag="@X" onclick="openSidebar('CCC_17_Divine Charge',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\64_Distorted Reality.png" id="CCC_64_Distorted Reality" data-flag="@X" onclick="openSidebar('CCC_64_Distorted Reality',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\111_Dark Tithe.png" id="CCC_111_Dark Tithe" data-flag="@X" onclick="openSidebar('CCC_111_Dark Tithe',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\157_Dishonored Ronin.png" id="CCC_157_Dishonored Ronin" data-flag="@X" onclick="openSidebar('CCC_157_Dishonored Ronin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\203_Elvish Channeler.png" id="CCC_203_Elvish Channeler" data-flag="@X" onclick="openSidebar('CCC_203_Elvish Channeler',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\18_Divine Journey.png" id="CCC_18_Divine Journey" data-flag="@X" onclick="openSidebar('CCC_18_Divine Journey',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\65_Divert the Floodwaters.png" id="CCC_65_Divert the Floodwaters" data-flag="@X" onclick="openSidebar('CCC_65_Divert the Floodwaters',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\112_Davriel Cane, Diabolist.png" id="CCC_112_Davriel Cane, Diabolist" data-flag="@X" onclick="openSidebar('CCC_112_Davriel Cane, Diabolist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\158_Dragon Shepherd.png" id="CCC_158_Dragon Shepherd" data-flag="@X" onclick="openSidebar('CCC_158_Dragon Shepherd',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\CCC-files\img\204_Elvish Nightwalker_back.png" alt="sets\CCC-files\img\204_Elvish Nightwalker_front.png" id="CCC_204_Elvish Nightwalker" data-flag="@XD" onclick="openSidebar('CCC_204_Elvish Nightwalker',false)"><button class="flip-btn" onclick="imgFlip('CCC_204_Elvish Nightwalker')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\19_Draconic Knight.png" id="CCC_19_Draconic Knight" data-flag="@X" onclick="openSidebar('CCC_19_Draconic Knight',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\66_Dump the Goods.png" id="CCC_66_Dump the Goods" data-flag="@X" onclick="openSidebar('CCC_66_Dump the Goods',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\114_Desperate Strike.png" id="CCC_114_Desperate Strike" data-flag="@X" onclick="openSidebar('CCC_114_Desperate Strike',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\159_Dune Shark.png" id="CCC_159_Dune Shark" data-flag="@X" onclick="openSidebar('CCC_159_Dune Shark',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\205_Evolaraptor.png" id="CCC_205_Evolaraptor" data-flag="@X" onclick="openSidebar('CCC_205_Evolaraptor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\20_Elegant Hippogriff.png" id="CCC_20_Elegant Hippogriff" data-flag="@X" onclick="openSidebar('CCC_20_Elegant Hippogriff',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\67_Elk Turtle.png" id="CCC_67_Elk Turtle" data-flag="@X" onclick="openSidebar('CCC_67_Elk Turtle',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\115_Disguised Mindflayer.png" id="CCC_115_Disguised Mindflayer" data-flag="@X" onclick="openSidebar('CCC_115_Disguised Mindflayer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\160_Endless Power.png" id="CCC_160_Endless Power" data-flag="@X" onclick="openSidebar('CCC_160_Endless Power',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\206_Exploration of the New World.png" id="CCC_206_Exploration of the New World" data-flag="@X" onclick="openSidebar('CCC_206_Exploration of the New World',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\21_Elspeth, Grand General.png" id="CCC_21_Elspeth, Grand General" data-flag="@X" onclick="openSidebar('CCC_21_Elspeth, Grand General',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\68_Elusive Construct.png" id="CCC_68_Elusive Construct" data-flag="@X" onclick="openSidebar('CCC_68_Elusive Construct',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\116_Dissolve Into Nothing.png" id="CCC_116_Dissolve Into Nothing" data-flag="@X" onclick="openSidebar('CCC_116_Dissolve Into Nothing',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\161_Enraged Abbot.png" id="CCC_161_Enraged Abbot" data-flag="@X" onclick="openSidebar('CCC_161_Enraged Abbot',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\207_Fragment of Power.png" id="CCC_207_Fragment of Power" data-flag="@X" onclick="openSidebar('CCC_207_Fragment of Power',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\22_Embodiment of Nature.png" id="CCC_22_Embodiment of Nature" data-flag="@X" onclick="openSidebar('CCC_22_Embodiment of Nature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\69_Forethought.png" id="CCC_69_Forethought" data-flag="@X" onclick="openSidebar('CCC_69_Forethought',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\117_Emevera Corrupted.png" id="CCC_117_Emevera Corrupted" data-flag="@X" onclick="openSidebar('CCC_117_Emevera Corrupted',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\162_Enraged Berserker.png" id="CCC_162_Enraged Berserker" data-flag="@X" onclick="openSidebar('CCC_162_Enraged Berserker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\208_Frantic Chase.png" id="CCC_208_Frantic Chase" data-flag="@X" onclick="openSidebar('CCC_208_Frantic Chase',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\23_Feathered Figment.png" id="CCC_23_Feathered Figment" data-flag="@X" onclick="openSidebar('CCC_23_Feathered Figment',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\CCC-files\img\70_Frost Hunter_back.png" alt="sets\CCC-files\img\70_Frost Hunter_front.png" id="CCC_70_Frost Hunter" data-flag="@XD" onclick="openSidebar('CCC_70_Frost Hunter',false)"><button class="flip-btn" onclick="imgFlip('CCC_70_Frost Hunter')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\118_Exhume the Titans.png" id="CCC_118_Exhume the Titans" data-flag="@X" onclick="openSidebar('CCC_118_Exhume the Titans',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\CCC-files\img\163_Feathered Dragon_back.png" alt="sets\CCC-files\img\163_Feathered Dragon_front.png" id="CCC_163_Feathered Dragon" data-flag="@XD" onclick="openSidebar('CCC_163_Feathered Dragon',false)"><button class="flip-btn" onclick="imgFlip('CCC_163_Feathered Dragon')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\209_Hammer Brothers.png" id="CCC_209_Hammer Brothers" data-flag="@X" onclick="openSidebar('CCC_209_Hammer Brothers',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\24_Field Mouse.png" id="CCC_24_Field Mouse" data-flag="@X" onclick="openSidebar('CCC_24_Field Mouse',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\CCC-files\img\71_Frostborn Geist_back.png" alt="sets\CCC-files\img\71_Frostborn Geist_front.png" id="CCC_71_Frostborn Geist" data-flag="@XD" onclick="openSidebar('CCC_71_Frostborn Geist',false)"><button class="flip-btn" onclick="imgFlip('CCC_71_Frostborn Geist')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\119_Gruesome Bloodying.png" id="CCC_119_Gruesome Bloodying" data-flag="@X" onclick="openSidebar('CCC_119_Gruesome Bloodying',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\164_Fellhide General.png" id="CCC_164_Fellhide General" data-flag="@X" onclick="openSidebar('CCC_164_Fellhide General',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\210_Invisibility Cloak.png" id="CCC_210_Invisibility Cloak" data-flag="@X" onclick="openSidebar('CCC_210_Invisibility Cloak',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\25_Fleetfooted Hotame.png" id="CCC_25_Fleetfooted Hotame" data-flag="@X" onclick="openSidebar('CCC_25_Fleetfooted Hotame',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\72_Frozen Ghost.png" id="CCC_72_Frozen Ghost" data-flag="@X" onclick="openSidebar('CCC_72_Frozen Ghost',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\120_Heedless Spawn.png" id="CCC_120_Heedless Spawn" data-flag="@X" onclick="openSidebar('CCC_120_Heedless Spawn',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\165_Fire Fists.png" id="CCC_165_Fire Fists" data-flag="@X" onclick="openSidebar('CCC_165_Fire Fists',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\211_Iron Arm.png" id="CCC_211_Iron Arm" data-flag="@X" onclick="openSidebar('CCC_211_Iron Arm',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\26_Fox Fantastique.png" id="CCC_26_Fox Fantastique" data-flag="@X" onclick="openSidebar('CCC_26_Fox Fantastique',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\73_Hide in the Depths.png" id="CCC_73_Hide in the Depths" data-flag="@X" onclick="openSidebar('CCC_73_Hide in the Depths',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\121_Ichor Weird.png" id="CCC_121_Ichor Weird" data-flag="@X" onclick="openSidebar('CCC_121_Ichor Weird',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\166_Furious Diabolist.png" id="CCC_166_Furious Diabolist" data-flag="@X" onclick="openSidebar('CCC_166_Furious Diabolist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\212_Kamahl, Savior of Krosa.png" id="CCC_212_Kamahl, Savior of Krosa" data-flag="@X" onclick="openSidebar('CCC_212_Kamahl, Savior of Krosa',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\27_Frontline Deployment.png" id="CCC_27_Frontline Deployment" data-flag="@X" onclick="openSidebar('CCC_27_Frontline Deployment',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\CCC-files\img\74_Horse Tamer_back.png" alt="sets\CCC-files\img\74_Horse Tamer_front.png" id="CCC_74_Horse Tamer" data-flag="@XD" onclick="openSidebar('CCC_74_Horse Tamer',false)"><button class="flip-btn" onclick="imgFlip('CCC_74_Horse Tamer')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\122_Infinite Assassins.png" id="CCC_122_Infinite Assassins" data-flag="@X" onclick="openSidebar('CCC_122_Infinite Assassins',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\167_Goblin Bomber.png" id="CCC_167_Goblin Bomber" data-flag="@X" onclick="openSidebar('CCC_167_Goblin Bomber',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\213_Leafcutter Elemental.png" id="CCC_213_Leafcutter Elemental" data-flag="@X" onclick="openSidebar('CCC_213_Leafcutter Elemental',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\28_Furious Charge.png" id="CCC_28_Furious Charge" data-flag="@X" onclick="openSidebar('CCC_28_Furious Charge',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\75_Improvized Weird.png" id="CCC_75_Improvized Weird" data-flag="@X" onclick="openSidebar('CCC_75_Improvized Weird',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\123_Inkmind Affliction.png" id="CCC_123_Inkmind Affliction" data-flag="@X" onclick="openSidebar('CCC_123_Inkmind Affliction',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\168_Goblin Bowmaster.png" id="CCC_168_Goblin Bowmaster" data-flag="@X" onclick="openSidebar('CCC_168_Goblin Bowmaster',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\214_Life Ritual.png" id="CCC_214_Life Ritual" data-flag="@X" onclick="openSidebar('CCC_214_Life Ritual',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\29_Gideon, Captain of the Watch.png" id="CCC_29_Gideon, Captain of the Watch" data-flag="@X" onclick="openSidebar('CCC_29_Gideon, Captain of the Watch',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\76_Jace, Master Telepath.png" id="CCC_76_Jace, Master Telepath" data-flag="@X" onclick="openSidebar('CCC_76_Jace, Master Telepath',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\124_Leshrac, the Nightwalker.png" id="CCC_124_Leshrac, the Nightwalker" data-flag="@X" onclick="openSidebar('CCC_124_Leshrac, the Nightwalker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\169_Goblin Explorer.png" id="CCC_169_Goblin Explorer" data-flag="@X" onclick="openSidebar('CCC_169_Goblin Explorer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\215_Medistrom, the Walking Shrine.png" id="CCC_215_Medistrom, the Walking Shrine" data-flag="@X" onclick="openSidebar('CCC_215_Medistrom, the Walking Shrine',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\30_Gobakhan Nomad.png" id="CCC_30_Gobakhan Nomad" data-flag="@X" onclick="openSidebar('CCC_30_Gobakhan Nomad',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\77_Kamisashi, the Ancient.png" id="CCC_77_Kamisashi, the Ancient" data-flag="@X" onclick="openSidebar('CCC_77_Kamisashi, the Ancient',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\125_Liliana, Queen of Bones.png" id="CCC_125_Liliana, Queen of Bones" data-flag="@X" onclick="openSidebar('CCC_125_Liliana, Queen of Bones',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\170_Hungry Gremlin.png" id="CCC_170_Hungry Gremlin" data-flag="@X" onclick="openSidebar('CCC_170_Hungry Gremlin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\216_Mitoplasm.png" id="CCC_216_Mitoplasm" data-flag="@X" onclick="openSidebar('CCC_216_Mitoplasm',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\CCC-files\img\31_Holy Blessings_back.png" alt="sets\CCC-files\img\31_Holy Blessings_front.png" id="CCC_31_Holy Blessings" data-flag="@XD" onclick="openSidebar('CCC_31_Holy Blessings',false)"><button class="flip-btn" onclick="imgFlip('CCC_31_Holy Blessings')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\78_Kasmina, Polymorphist Adept.png" id="CCC_78_Kasmina, Polymorphist Adept" data-flag="@X" onclick="openSidebar('CCC_78_Kasmina, Polymorphist Adept',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\126_Limnu Thrasher.png" id="CCC_126_Limnu Thrasher" data-flag="@X" onclick="openSidebar('CCC_126_Limnu Thrasher',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\171_Jaya, Inferno Incarnate.png" id="CCC_171_Jaya, Inferno Incarnate" data-flag="@X" onclick="openSidebar('CCC_171_Jaya, Inferno Incarnate',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\217_Mounted Naturomancer.png" id="CCC_217_Mounted Naturomancer" data-flag="@X" onclick="openSidebar('CCC_217_Mounted Naturomancer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\32_Idube Knight.png" id="CCC_32_Idube Knight" data-flag="@X" onclick="openSidebar('CCC_32_Idube Knight',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\79_Kidnapping.png" id="CCC_79_Kidnapping" data-flag="@X" onclick="openSidebar('CCC_79_Kidnapping',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\127_Lukka's Bond.png" id="CCC_127_Lukkas Bond" data-flag="@X" onclick="openSidebar('CCC_127_Lukkas Bond',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\172_Koth, Walking Volcano.png" id="CCC_172_Koth, Walking Volcano" data-flag="@X" onclick="openSidebar('CCC_172_Koth, Walking Volcano',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\218_Mutated Flytrap.png" id="CCC_218_Mutated Flytrap" data-flag="@X" onclick="openSidebar('CCC_218_Mutated Flytrap',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\33_Idube Lancer.png" id="CCC_33_Idube Lancer" data-flag="@X" onclick="openSidebar('CCC_33_Idube Lancer',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\CCC-files\img\80_Knowledge_back.png" alt="sets\CCC-files\img\80_Knowledge_front.png" id="CCC_80_Knowledge" data-flag="@XD" onclick="openSidebar('CCC_80_Knowledge',false)"><button class="flip-btn" onclick="imgFlip('CCC_80_Knowledge')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\128_Night of the Living Dead.png" id="CCC_128_Night of the Living Dead" data-flag="@X" onclick="openSidebar('CCC_128_Night of the Living Dead',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\173_Mad Firebomber.png" id="CCC_173_Mad Firebomber" data-flag="@X" onclick="openSidebar('CCC_173_Mad Firebomber',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\219_Natural Reclamation.png" id="CCC_219_Natural Reclamation" data-flag="@X" onclick="openSidebar('CCC_219_Natural Reclamation',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\34_Immortalize in Stone.png" id="CCC_34_Immortalize in Stone" data-flag="@X" onclick="openSidebar('CCC_34_Immortalize in Stone',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\81_Mindspark.png" id="CCC_81_Mindspark" data-flag="@X" onclick="openSidebar('CCC_81_Mindspark',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\129_Ob Nixilis, the Cursed.png" id="CCC_129_Ob Nixilis, the Cursed" data-flag="@X" onclick="openSidebar('CCC_129_Ob Nixilis, the Cursed',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\174_Magus of the Faithless.png" id="CCC_174_Magus of the Faithless" data-flag="@X" onclick="openSidebar('CCC_174_Magus of the Faithless',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\220_Nilini Chimera.png" id="CCC_220_Nilini Chimera" data-flag="@X" onclick="openSidebar('CCC_220_Nilini Chimera',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\35_In the Shadow of Titans.png" id="CCC_35_In the Shadow of Titans" data-flag="@X" onclick="openSidebar('CCC_35_In the Shadow of Titans',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\82_Mu Yanling, Wind Walker.png" id="CCC_82_Mu Yanling, Wind Walker" data-flag="@X" onclick="openSidebar('CCC_82_Mu Yanling, Wind Walker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\130_Pack of Scavengers.png" id="CCC_130_Pack of Scavengers" data-flag="@X" onclick="openSidebar('CCC_130_Pack of Scavengers',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\175_Night of Gambling.png" id="CCC_175_Night of Gambling" data-flag="@X" onclick="openSidebar('CCC_175_Night of Gambling',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\221_Nissa, Animist Supreme.png" id="CCC_221_Nissa, Animist Supreme" data-flag="@X" onclick="openSidebar('CCC_221_Nissa, Animist Supreme',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\36_Kittenbee.png" id="CCC_36_Kittenbee" data-flag="@X" onclick="openSidebar('CCC_36_Kittenbee',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\83_Murkwater Illusionist.png" id="CCC_83_Murkwater Illusionist" data-flag="@X" onclick="openSidebar('CCC_83_Murkwater Illusionist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\131_Pactborn Demon.png" id="CCC_131_Pactborn Demon" data-flag="@X" onclick="openSidebar('CCC_131_Pactborn Demon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\176_Oncoming Storm.png" id="CCC_176_Oncoming Storm" data-flag="@X" onclick="openSidebar('CCC_176_Oncoming Storm',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\222_Overwhelming Odds.png" id="CCC_222_Overwhelming Odds" data-flag="@X" onclick="openSidebar('CCC_222_Overwhelming Odds',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\37_Lockdown.png" id="CCC_37_Lockdown" data-flag="@X" onclick="openSidebar('CCC_37_Lockdown',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\84_Orcish Wavecrasher.png" id="CCC_84_Orcish Wavecrasher" data-flag="@X" onclick="openSidebar('CCC_84_Orcish Wavecrasher',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\132_Parasitic Slasher.png" id="CCC_132_Parasitic Slasher" data-flag="@X" onclick="openSidebar('CCC_132_Parasitic Slasher',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\177_Overcharge.png" id="CCC_177_Overcharge" data-flag="@X" onclick="openSidebar('CCC_177_Overcharge',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\223_Quiver of Archers.png" id="CCC_223_Quiver of Archers" data-flag="@X" onclick="openSidebar('CCC_223_Quiver of Archers',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\38_Magnetic Master.png" id="CCC_38_Magnetic Master" data-flag="@X" onclick="openSidebar('CCC_38_Magnetic Master',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\85_Overwhelming Deluge.png" id="CCC_85_Overwhelming Deluge" data-flag="@X" onclick="openSidebar('CCC_85_Overwhelming Deluge',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\133_Phyrexian Mosquito.png" id="CCC_133_Phyrexian Mosquito" data-flag="@X" onclick="openSidebar('CCC_133_Phyrexian Mosquito',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\178_Overvolt.png" id="CCC_178_Overvolt" data-flag="@X" onclick="openSidebar('CCC_178_Overvolt',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\224_Skolto, River Seeker.png" id="CCC_224_Skolto, River Seeker" data-flag="@X" onclick="openSidebar('CCC_224_Skolto, River Seeker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\39_Nimble Archer.png" id="CCC_39_Nimble Archer" data-flag="@X" onclick="openSidebar('CCC_39_Nimble Archer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\86_Pilfer the Library.png" id="CCC_86_Pilfer the Library" data-flag="@X" onclick="openSidebar('CCC_86_Pilfer the Library',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\134_Plagueborn Oni.png" id="CCC_134_Plagueborn Oni" data-flag="@X" onclick="openSidebar('CCC_134_Plagueborn Oni',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\179_Palakol Charger.png" id="CCC_179_Palakol Charger" data-flag="@X" onclick="openSidebar('CCC_179_Palakol Charger',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\225_Skyshroud Hydra.png" id="CCC_225_Skyshroud Hydra" data-flag="@X" onclick="openSidebar('CCC_225_Skyshroud Hydra',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\40_Norn's Fury.png" id="CCC_40_Norns Fury" data-flag="@X" onclick="openSidebar('CCC_40_Norns Fury',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\87_Pygmy Wyvern.png" id="CCC_87_Pygmy Wyvern" data-flag="@X" onclick="openSidebar('CCC_87_Pygmy Wyvern',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\CCC-files\img\135_Planar Devastation_back.png" alt="sets\CCC-files\img\135_Planar Devastation_front.png" id="CCC_135_Planar Devastation" data-flag="@XD" onclick="openSidebar('CCC_135_Planar Devastation',false)"><button class="flip-btn" onclick="imgFlip('CCC_135_Planar Devastation')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\180_Path of Least Resistance.png" id="CCC_180_Path of Least Resistance" data-flag="@X" onclick="openSidebar('CCC_180_Path of Least Resistance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\226_Spectral Guidance.png" id="CCC_226_Spectral Guidance" data-flag="@X" onclick="openSidebar('CCC_226_Spectral Guidance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\41_Obhejane Warrior.png" id="CCC_41_Obhejane Warrior" data-flag="@X" onclick="openSidebar('CCC_41_Obhejane Warrior',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\88_Recurring Dreams.png" id="CCC_88_Recurring Dreams" data-flag="@X" onclick="openSidebar('CCC_88_Recurring Dreams',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\CCC-files\img\136_Ragana, Death's Desire_back.png" alt="sets\CCC-files\img\136_Ragana, Death's Desire_front.png" id="CCC_136_Ragana, Deaths Desire" data-flag="@XD" onclick="openSidebar('CCC_136_Ragana, Deaths Desire',false)"><button class="flip-btn" onclick="imgFlip('CCC_136_Ragana, Deaths Desire')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\181_Pervasive Fiend.png" id="CCC_181_Pervasive Fiend" data-flag="@X" onclick="openSidebar('CCC_181_Pervasive Fiend',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\227_Spectral Wolf.png" id="CCC_227_Spectral Wolf" data-flag="@X" onclick="openSidebar('CCC_227_Spectral Wolf',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\42_Omenkeeper.png" id="CCC_42_Omenkeeper" data-flag="@X" onclick="openSidebar('CCC_42_Omenkeeper',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\89_Render Nameless.png" id="CCC_89_Render Nameless" data-flag="@X" onclick="openSidebar('CCC_89_Render Nameless',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\137_Rat Pack.png" id="CCC_137_Rat Pack" data-flag="@X" onclick="openSidebar('CCC_137_Rat Pack',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\182_Raze the Fields.png" id="CCC_182_Raze the Fields" data-flag="@X" onclick="openSidebar('CCC_182_Raze the Fields',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\228_Sudden Striker.png" id="CCC_228_Sudden Striker" data-flag="@X" onclick="openSidebar('CCC_228_Sudden Striker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\43_Reject.png" id="CCC_43_Reject" data-flag="@X" onclick="openSidebar('CCC_43_Reject',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\90_Research the Unknown.png" id="CCC_90_Research the Unknown" data-flag="@X" onclick="openSidebar('CCC_90_Research the Unknown',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\CCC-files\img\138_Regressing Vampire_back.png" alt="sets\CCC-files\img\138_Regressing Vampire_front.png" id="CCC_138_Regressing Vampire" data-flag="@XD" onclick="openSidebar('CCC_138_Regressing Vampire',false)"><button class="flip-btn" onclick="imgFlip('CCC_138_Regressing Vampire')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\183_Rewrite Reality.png" id="CCC_183_Rewrite Reality" data-flag="@X" onclick="openSidebar('CCC_183_Rewrite Reality',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\229_Tinkering Naturomancer.png" id="CCC_229_Tinkering Naturomancer" data-flag="@X" onclick="openSidebar('CCC_229_Tinkering Naturomancer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\44_Righteous Rebuttal.png" id="CCC_44_Righteous Rebuttal" data-flag="@X" onclick="openSidebar('CCC_44_Righteous Rebuttal',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\91_Search for Knowledge.png" id="CCC_91_Search for Knowledge" data-flag="@X" onclick="openSidebar('CCC_91_Search for Knowledge',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\139_Rotting Warrior.png" id="CCC_139_Rotting Warrior" data-flag="@X" onclick="openSidebar('CCC_139_Rotting Warrior',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\184_Rocket Goblin.png" id="CCC_184_Rocket Goblin" data-flag="@X" onclick="openSidebar('CCC_184_Rocket Goblin',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\CCC-files\img\230_Trials of the Hero_back.png" alt="sets\CCC-files\img\230_Trials of the Hero_front.png" id="CCC_230_Trials of the Hero" data-flag="@XD" onclick="openSidebar('CCC_230_Trials of the Hero',false)"><button class="flip-btn" onclick="imgFlip('CCC_230_Trials of the Hero')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\45_Seal of Light.png" id="CCC_45_Seal of Light" data-flag="@X" onclick="openSidebar('CCC_45_Seal of Light',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\92_Secrets of the Deep.png" id="CCC_92_Secrets of the Deep" data-flag="@X" onclick="openSidebar('CCC_92_Secrets of the Deep',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\140_Siphon Soul.png" id="CCC_140_Siphon Soul" data-flag="@X" onclick="openSidebar('CCC_140_Siphon Soul',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\CCC-files\img\185_Scourge of Cities_back.png" alt="sets\CCC-files\img\185_Scourge of Cities_front.png" id="CCC_185_Scourge of Cities" data-flag="@XD" onclick="openSidebar('CCC_185_Scourge of Cities',false)"><button class="flip-btn" onclick="imgFlip('CCC_185_Scourge of Cities')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\231_Unending Growth.png" id="CCC_231_Unending Growth" data-flag="@X" onclick="openSidebar('CCC_231_Unending Growth',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\46_Senators of Meletis.png" id="CCC_46_Senators of Meletis" data-flag="@X" onclick="openSidebar('CCC_46_Senators of Meletis',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\93_Shadow Climber.png" id="CCC_93_Shadow Climber" data-flag="@X" onclick="openSidebar('CCC_93_Shadow Climber',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\141_Sisalik, Death's Hand.png" id="CCC_141_Sisalik, Deaths Hand" data-flag="@X" onclick="openSidebar('CCC_141_Sisalik, Deaths Hand',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\186_Shocking Shaman.png" id="CCC_186_Shocking Shaman" data-flag="@X" onclick="openSidebar('CCC_186_Shocking Shaman',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\232_Ursine Fortitude.png" id="CCC_232_Ursine Fortitude" data-flag="@X" onclick="openSidebar('CCC_232_Ursine Fortitude',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\47_Shattering Light.png" id="CCC_47_Shattering Light" data-flag="@X" onclick="openSidebar('CCC_47_Shattering Light',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\94_Teferi, Temporal Master.png" id="CCC_94_Teferi, Temporal Master" data-flag="@X" onclick="openSidebar('CCC_94_Teferi, Temporal Master',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\142_Skinwalker.png" id="CCC_142_Skinwalker" data-flag="@X" onclick="openSidebar('CCC_142_Skinwalker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\187_Sparkspewer.png" id="CCC_187_Sparkspewer" data-flag="@X" onclick="openSidebar('CCC_187_Sparkspewer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\233_Vilkas, Wolf Master.png" id="CCC_233_Vilkas, Wolf Master" data-flag="@X" onclick="openSidebar('CCC_233_Vilkas, Wolf Master',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\48_Sphere Runner.png" id="CCC_48_Sphere Runner" data-flag="@X" onclick="openSidebar('CCC_48_Sphere Runner',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\95_Time Scar.png" id="CCC_95_Time Scar" data-flag="@X" onclick="openSidebar('CCC_95_Time Scar',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\143_Spread the Plague.png" id="CCC_143_Spread the Plague" data-flag="@X" onclick="openSidebar('CCC_143_Spread the Plague',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\188_Spectral Control.png" id="CCC_188_Spectral Control" data-flag="@X" onclick="openSidebar('CCC_188_Spectral Control',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\234_Vivien, Master Archer.png" id="CCC_234_Vivien, Master Archer" data-flag="@X" onclick="openSidebar('CCC_234_Vivien, Master Archer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\49_Steamborn Construct.png" id="CCC_49_Steamborn Construct" data-flag="@X" onclick="openSidebar('CCC_49_Steamborn Construct',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\96_Unbridled Insight.png" id="CCC_96_Unbridled Insight" data-flag="@X" onclick="openSidebar('CCC_96_Unbridled Insight',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\144_Tainted Ritual.png" id="CCC_144_Tainted Ritual" data-flag="@X" onclick="openSidebar('CCC_144_Tainted Ritual',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\189_Telegraphed Attack.png" id="CCC_189_Telegraphed Attack" data-flag="@X" onclick="openSidebar('CCC_189_Telegraphed Attack',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\235_Worldbearer Elemental.png" id="CCC_235_Worldbearer Elemental" data-flag="@X" onclick="openSidebar('CCC_235_Worldbearer Elemental',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\50_Teyo, High Abbot.png" id="CCC_50_Teyo, High Abbot" data-flag="@X" onclick="openSidebar('CCC_50_Teyo, High Abbot',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\97_Unplanned Duet.png" id="CCC_97_Unplanned Duet" data-flag="@X" onclick="openSidebar('CCC_97_Unplanned Duet',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\145_Undead Assassin.png" id="CCC_145_Undead Assassin" data-flag="@X" onclick="openSidebar('CCC_145_Undead Assassin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\190_Trials of the Storm Lord.png" id="CCC_190_Trials of the Storm Lord" data-flag="@X" onclick="openSidebar('CCC_190_Trials of the Storm Lord',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\236_Worship the Old Ways.png" id="CCC_236_Worship the Old Ways" data-flag="@X" onclick="openSidebar('CCC_236_Worship the Old Ways',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\51_Veil of Purity.png" id="CCC_51_Veil of Purity" data-flag="@X" onclick="openSidebar('CCC_51_Veil of Purity',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\98_Up.png" id="CCC_98_Up" data-flag="@X" onclick="openSidebar('CCC_98_Up',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\146_Undead Hotame.png" id="CCC_146_Undead Hotame" data-flag="@X" onclick="openSidebar('CCC_146_Undead Hotame',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\191_Vaporizing Lightning.png" id="CCC_191_Vaporizing Lightning" data-flag="@X" onclick="openSidebar('CCC_191_Vaporizing Lightning',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\237_Zastkin Snaremaster.png" id="CCC_237_Zastkin Snaremaster" data-flag="@X" onclick="openSidebar('CCC_237_Zastkin Snaremaster',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\52_Wanderer.png" id="CCC_52_Wanderer" data-flag="@X" onclick="openSidebar('CCC_52_Wanderer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\99_Waterspout.png" id="CCC_99_Waterspout" data-flag="@X" onclick="openSidebar('CCC_99_Waterspout',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\147_Skin.png" id="CCC_147_Skin" data-flag="@X" onclick="openSidebar('CCC_147_Skin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\192_Vengeant Steeltooth.png" id="CCC_192_Vengeant Steeltooth" data-flag="@X" onclick="openSidebar('CCC_192_Vengeant Steeltooth',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\238_Grow.png" id="CCC_238_Grow" data-flag="@X" onclick="openSidebar('CCC_238_Grow',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\53_Weapons Expert.png" id="CCC_53_Weapons Expert" data-flag="@X" onclick="openSidebar('CCC_53_Weapons Expert',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\101_Done.png" id="CCC_101_Done" data-flag="@X" onclick="openSidebar('CCC_101_Done',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CCC_e" data-flag="@E" onclick="openSidebar('CCC_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\193_Fast.png" id="CCC_193_Fast" data-flag="@X" onclick="openSidebar('CCC_193_Fast',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CCC_e" data-flag="@E" onclick="openSidebar('CCC_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\54_Kith.png" id="CCC_54_Kith" data-flag="@X" onclick="openSidebar('CCC_54_Kith',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CCC_e" data-flag="@E" onclick="openSidebar('CCC_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CCC_e" data-flag="@E" onclick="openSidebar('CCC_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CCC_e" data-flag="@E" onclick="openSidebar('CCC_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CCC_e" data-flag="@E" onclick="openSidebar('CCC_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CCC_er" data-flag="@E" onclick="openSidebar('CCC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CCC_er" data-flag="@E" onclick="openSidebar('CCC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CCC_er" data-flag="@E" onclick="openSidebar('CCC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CCC_er" data-flag="@E" onclick="openSidebar('CCC_er',false)"></div>
+				<div id="gold" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\239_Dovin, Reborn Artificer.png" id="CCC_239_Dovin, Reborn Artificer" data-flag="@X" onclick="openSidebar('CCC_239_Dovin, Reborn Artificer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\244_Ashiok, Unending Nightmare.png" id="CCC_244_Ashiok, Unending Nightmare" data-flag="@X" onclick="openSidebar('CCC_244_Ashiok, Unending Nightmare',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\250_Angrath, Planar Marauder.png" id="CCC_250_Angrath, Planar Marauder" data-flag="@X" onclick="openSidebar('CCC_250_Angrath, Planar Marauder',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\255_Domri, Wildborn.png" id="CCC_255_Domri, Wildborn" data-flag="@X" onclick="openSidebar('CCC_255_Domri, Wildborn',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\260_Ajani, Steadfast Guardian.png" id="CCC_260_Ajani, Steadfast Guardian" data-flag="@X" onclick="openSidebar('CCC_260_Ajani, Steadfast Guardian',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\240_Gesturum, Flying Fortress.png" id="CCC_240_Gesturum, Flying Fortress" data-flag="@X" onclick="openSidebar('CCC_240_Gesturum, Flying Fortress',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\245_Call of the Void.png" id="CCC_245_Call of the Void" data-flag="@X" onclick="openSidebar('CCC_245_Call of the Void',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\251_Blood Champion.png" id="CCC_251_Blood Champion" data-flag="@X" onclick="openSidebar('CCC_251_Blood Champion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\256_Orcish War Party.png" id="CCC_256_Orcish War Party" data-flag="@X" onclick="openSidebar('CCC_256_Orcish War Party',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\261_Estrid, Mask Shattered.png" id="CCC_261_Estrid, Mask Shattered" data-flag="@X" onclick="openSidebar('CCC_261_Estrid, Mask Shattered',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\241_The Great Controller.png" id="CCC_241_The Great Controller" data-flag="@X" onclick="openSidebar('CCC_241_The Great Controller',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\246_Nyanja of the Jade Fleet.png" id="CCC_246_Nyanja of the Jade Fleet" data-flag="@X" onclick="openSidebar('CCC_246_Nyanja of the Jade Fleet',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\252_Goblin Garrison.png" id="CCC_252_Goblin Garrison" data-flag="@X" onclick="openSidebar('CCC_252_Goblin Garrison',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\257_Orcish Warchief.png" id="CCC_257_Orcish Warchief" data-flag="@X" onclick="openSidebar('CCC_257_Orcish Warchief',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\262_Journey of Exploration.png" id="CCC_262_Journey of Exploration" data-flag="@X" onclick="openSidebar('CCC_262_Journey of Exploration',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\242_Greater Auramancer.png" id="CCC_242_Greater Auramancer" data-flag="@X" onclick="openSidebar('CCC_242_Greater Auramancer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\247_Oni Shadow-Blade.png" id="CCC_247_Oni Shadow-Blade" data-flag="@X" onclick="openSidebar('CCC_247_Oni Shadow-Blade',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\253_Kilat Dragon.png" id="CCC_253_Kilat Dragon" data-flag="@X" onclick="openSidebar('CCC_253_Kilat Dragon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\258_Sarkhan, Born of Dragons.png" id="CCC_258_Sarkhan, Born of Dragons" data-flag="@X" onclick="openSidebar('CCC_258_Sarkhan, Born of Dragons',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\263_Loxodon Lieutenant.png" id="CCC_263_Loxodon Lieutenant" data-flag="@X" onclick="openSidebar('CCC_263_Loxodon Lieutenant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\243_Narset, Traveling Master.png" id="CCC_243_Narset, Traveling Master" data-flag="@X" onclick="openSidebar('CCC_243_Narset, Traveling Master',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\248_Spectral Assassin.png" id="CCC_248_Spectral Assassin" data-flag="@X" onclick="openSidebar('CCC_248_Spectral Assassin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\254_Tibalt, Burning Devil.png" id="CCC_254_Tibalt, Burning Devil" data-flag="@X" onclick="openSidebar('CCC_254_Tibalt, Burning Devil',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\259_Wandering Cartographer.png" id="CCC_259_Wandering Cartographer" data-flag="@X" onclick="openSidebar('CCC_259_Wandering Cartographer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\264_Spore Spreader.png" id="CCC_264_Spore Spreader" data-flag="@X" onclick="openSidebar('CCC_264_Spore Spreader',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CCC_e" data-flag="@E" onclick="openSidebar('CCC_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\249_Tezzeret, Etherium Master.png" id="CCC_249_Tezzeret, Etherium Master" data-flag="@X" onclick="openSidebar('CCC_249_Tezzeret, Etherium Master',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CCC_e" data-flag="@E" onclick="openSidebar('CCC_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CCC_e" data-flag="@E" onclick="openSidebar('CCC_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CCC_e" data-flag="@E" onclick="openSidebar('CCC_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CCC_er" data-flag="@E" onclick="openSidebar('CCC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CCC_er" data-flag="@E" onclick="openSidebar('CCC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CCC_er" data-flag="@E" onclick="openSidebar('CCC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CCC_er" data-flag="@E" onclick="openSidebar('CCC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CCC_er" data-flag="@E" onclick="openSidebar('CCC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\113_Desperate Slash.png" id="CCC_113_Desperate Slash" data-flag="@X" onclick="openSidebar('CCC_113_Desperate Slash',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\269_Chimera Hatchling.png" id="CCC_269_Chimera Hatchling" data-flag="@X" onclick="openSidebar('CCC_269_Chimera Hatchling',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\274_Dementia Crawler.png" id="CCC_274_Dementia Crawler" data-flag="@X" onclick="openSidebar('CCC_274_Dementia Crawler',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\279_Aurelia, Legions' Fury.png" id="CCC_279_Aurelia, Legions Fury" data-flag="@X" onclick="openSidebar('CCC_279_Aurelia, Legions Fury',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\284_Ivorian, Fluidform.png" id="CCC_284_Ivorian, Fluidform" data-flag="@X" onclick="openSidebar('CCC_284_Ivorian, Fluidform',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\265_Kaya, Ethereal Assassin.png" id="CCC_265_Kaya, Ethereal Assassin" data-flag="@X" onclick="openSidebar('CCC_265_Kaya, Ethereal Assassin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\270_Faceless Monk.png" id="CCC_270_Faceless Monk" data-flag="@X" onclick="openSidebar('CCC_270_Faceless Monk',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\275_Garruk, Planar Hunter.png" id="CCC_275_Garruk, Planar Hunter" data-flag="@X" onclick="openSidebar('CCC_275_Garruk, Planar Hunter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\280_Aven Avenger.png" id="CCC_280_Aven Avenger" data-flag="@X" onclick="openSidebar('CCC_280_Aven Avenger',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\285_Kiora, the Unending Seas.png" id="CCC_285_Kiora, the Unending Seas" data-flag="@X" onclick="openSidebar('CCC_285_Kiora, the Unending Seas',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\266_Knight of the Aurora.png" id="CCC_266_Knight of the Aurora" data-flag="@X" onclick="openSidebar('CCC_266_Knight of the Aurora',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\271_Ral, Uncontrollable Mage.png" id="CCC_271_Ral, Uncontrollable Mage" data-flag="@X" onclick="openSidebar('CCC_271_Ral, Uncontrollable Mage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\276_Kinrui the Endless.png" id="CCC_276_Kinrui the Endless" data-flag="@X" onclick="openSidebar('CCC_276_Kinrui the Endless',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\281_Enraged Master.png" id="CCC_281_Enraged Master" data-flag="@X" onclick="openSidebar('CCC_281_Enraged Master',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\286_Mirage Weaver.png" id="CCC_286_Mirage Weaver" data-flag="@X" onclick="openSidebar('CCC_286_Mirage Weaver',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\267_Sorin, Totes Not in a Rock.png" id="CCC_267_Sorin, Totes Not in a Rock" data-flag="@X" onclick="openSidebar('CCC_267_Sorin, Totes Not in a Rock',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\272_Time Scout.png" id="CCC_272_Time Scout" data-flag="@X" onclick="openSidebar('CCC_272_Time Scout',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\277_Natang, Rotting Lich.png" id="CCC_277_Natang, Rotting Lich" data-flag="@X" onclick="openSidebar('CCC_277_Natang, Rotting Lich',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\282_Huatli, Dinosaur Rider.png" id="CCC_282_Huatli, Dinosaur Rider" data-flag="@X" onclick="openSidebar('CCC_282_Huatli, Dinosaur Rider',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\287_Tamiyo, Planar Guide.png" id="CCC_287_Tamiyo, Planar Guide" data-flag="@X" onclick="openSidebar('CCC_287_Tamiyo, Planar Guide',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\268_Vampiric Shieldmage.png" id="CCC_268_Vampiric Shieldmage" data-flag="@X" onclick="openSidebar('CCC_268_Vampiric Shieldmage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\273_Will and Rowan Kenrith.png" id="CCC_273_Will and Rowan Kenrith" data-flag="@X" onclick="openSidebar('CCC_273_Will and Rowan Kenrith',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\278_Vraska, Agent of Darkness.png" id="CCC_278_Vraska, Agent of Darkness" data-flag="@X" onclick="openSidebar('CCC_278_Vraska, Agent of Darkness',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\283_Nahiri, the Stoneforged.png" id="CCC_283_Nahiri, the Stoneforged" data-flag="@X" onclick="openSidebar('CCC_283_Nahiri, the Stoneforged',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\288_Wildform.png" id="CCC_288_Wildform" data-flag="@X" onclick="openSidebar('CCC_288_Wildform',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\299_Drain Soul.png" id="CCC_299_Drain Soul" data-flag="@X" onclick="openSidebar('CCC_299_Drain Soul',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CCC_e" data-flag="@E" onclick="openSidebar('CCC_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CCC_e" data-flag="@E" onclick="openSidebar('CCC_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CCC_e" data-flag="@E" onclick="openSidebar('CCC_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\300_Bait.png" id="CCC_300_Bait" data-flag="@X" onclick="openSidebar('CCC_300_Bait',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CCC_er" data-flag="@E" onclick="openSidebar('CCC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CCC_er" data-flag="@E" onclick="openSidebar('CCC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CCC_er" data-flag="@E" onclick="openSidebar('CCC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CCC_er" data-flag="@E" onclick="openSidebar('CCC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CCC_er" data-flag="@E" onclick="openSidebar('CCC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\296_Sage of Fates.png" id="CCC_296_Sage of Fates" data-flag="@X" onclick="openSidebar('CCC_296_Sage of Fates',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\295_Nicol Bolas, the Eternal.png" id="CCC_295_Nicol Bolas, the Eternal" data-flag="@X" onclick="openSidebar('CCC_295_Nicol Bolas, the Eternal',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\298_Sideshow Chimera.png" id="CCC_298_Sideshow Chimera" data-flag="@X" onclick="openSidebar('CCC_298_Sideshow Chimera',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\294_Mitosis Hydra.png" id="CCC_294_Mitosis Hydra" data-flag="@X" onclick="openSidebar('CCC_294_Mitosis Hydra',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\297_Sage of Nature.png" id="CCC_297_Sage of Nature" data-flag="@X" onclick="openSidebar('CCC_297_Sage of Nature',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CCC_er" data-flag="@E" onclick="openSidebar('CCC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CCC_er" data-flag="@E" onclick="openSidebar('CCC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CCC_er" data-flag="@E" onclick="openSidebar('CCC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CCC_er" data-flag="@E" onclick="openSidebar('CCC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CCC_er" data-flag="@E" onclick="openSidebar('CCC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\290_Anoub, God of Death.png" id="CCC_290_Anoub, God of Death" data-flag="@X" onclick="openSidebar('CCC_290_Anoub, God of Death',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\293_Enlightened Monk.png" id="CCC_293_Enlightened Monk" data-flag="@X" onclick="openSidebar('CCC_293_Enlightened Monk',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\289_Abzan Wanderer.png" id="CCC_289_Abzan Wanderer" data-flag="@X" onclick="openSidebar('CCC_289_Abzan Wanderer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\100_Windwalkers.png" id="CCC_100_Windwalkers" data-flag="@X" onclick="openSidebar('CCC_100_Windwalkers',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\291_Consuming Ooze.png" id="CCC_291_Consuming Ooze" data-flag="@X" onclick="openSidebar('CCC_291_Consuming Ooze',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CCC_e" data-flag="@E" onclick="openSidebar('CCC_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CCC_e" data-flag="@E" onclick="openSidebar('CCC_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CCC_e" data-flag="@E" onclick="openSidebar('CCC_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\292_Enlightened Master.png" id="CCC_292_Enlightened Master" data-flag="@X" onclick="openSidebar('CCC_292_Enlightened Master',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CCC_e" data-flag="@E" onclick="openSidebar('CCC_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CCC_er" data-flag="@E" onclick="openSidebar('CCC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CCC_er" data-flag="@E" onclick="openSidebar('CCC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CCC_er" data-flag="@E" onclick="openSidebar('CCC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CCC_er" data-flag="@E" onclick="openSidebar('CCC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CCC_er" data-flag="@E" onclick="openSidebar('CCC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\5_Traverse Reality.png" id="CCC_5_Traverse Reality" data-flag="@X" onclick="openSidebar('CCC_5_Traverse Reality',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CCC_e" data-flag="@E" onclick="openSidebar('CCC_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CCC_e" data-flag="@E" onclick="openSidebar('CCC_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CCC_e" data-flag="@E" onclick="openSidebar('CCC_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CCC_e" data-flag="@E" onclick="openSidebar('CCC_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CCC_er" data-flag="@E" onclick="openSidebar('CCC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CCC_er" data-flag="@E" onclick="openSidebar('CCC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CCC_er" data-flag="@E" onclick="openSidebar('CCC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CCC_er" data-flag="@E" onclick="openSidebar('CCC_er',false)"></div>
+				<div id="colorless" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\1_Eldrazi Disruptor.png" id="CCC_1_Eldrazi Disruptor" data-flag="@X" onclick="openSidebar('CCC_1_Eldrazi Disruptor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\2_Emrakul, the Inevitable End.png" id="CCC_2_Emrakul, the Inevitable End" data-flag="@X" onclick="openSidebar('CCC_2_Emrakul, the Inevitable End',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\3_Karn, Redeemer.png" id="CCC_3_Karn, Redeemer" data-flag="@X" onclick="openSidebar('CCC_3_Karn, Redeemer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\4_Manaling.png" id="CCC_4_Manaling" data-flag="@X" onclick="openSidebar('CCC_4_Manaling',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\6_Ugin, Planar Guardian.png" id="CCC_6_Ugin, Planar Guardian" data-flag="@X" onclick="openSidebar('CCC_6_Ugin, Planar Guardian',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\7_Wild Rift.png" id="CCC_7_Wild Rift" data-flag="@X" onclick="openSidebar('CCC_7_Wild Rift',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\301_Ancestor's Bow.png" id="CCC_301_Ancestors Bow" data-flag="@X" onclick="openSidebar('CCC_301_Ancestors Bow',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\302_Archivist's Bauble.png" id="CCC_302_Archivists Bauble" data-flag="@X" onclick="openSidebar('CCC_302_Archivists Bauble',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\303_Bells of Paliano.png" id="CCC_303_Bells of Paliano" data-flag="@X" onclick="openSidebar('CCC_303_Bells of Paliano',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\304_Cosmic Conduit.png" id="CCC_304_Cosmic Conduit" data-flag="@X" onclick="openSidebar('CCC_304_Cosmic Conduit',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\305_Crumbling Construct.png" id="CCC_305_Crumbling Construct" data-flag="@X" onclick="openSidebar('CCC_305_Crumbling Construct',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\CCC-files\img\306_Cursed Tome_back.png" alt="sets\CCC-files\img\306_Cursed Tome_front.png" id="CCC_306_Cursed Tome" data-flag="@XD" onclick="openSidebar('CCC_306_Cursed Tome',false)"><button class="flip-btn" onclick="imgFlip('CCC_306_Cursed Tome')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\307_Fractured Gemstone.png" id="CCC_307_Fractured Gemstone" data-flag="@X" onclick="openSidebar('CCC_307_Fractured Gemstone',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\308_Fractured Lotus.png" id="CCC_308_Fractured Lotus" data-flag="@X" onclick="openSidebar('CCC_308_Fractured Lotus',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\309_Grand Library.png" id="CCC_309_Grand Library" data-flag="@X" onclick="openSidebar('CCC_309_Grand Library',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\310_Horn of Nyx.png" id="CCC_310_Horn of Nyx" data-flag="@X" onclick="openSidebar('CCC_310_Horn of Nyx',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\311_Leyline Construct.png" id="CCC_311_Leyline Construct" data-flag="@X" onclick="openSidebar('CCC_311_Leyline Construct',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\312_Mox Bismuth.png" id="CCC_312_Mox Bismuth" data-flag="@X" onclick="openSidebar('CCC_312_Mox Bismuth',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\313_Nervath, the Floating City.png" id="CCC_313_Nervath, the Floating City" data-flag="@X" onclick="openSidebar('CCC_313_Nervath, the Floating City',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\314_Overcharged Emerald.png" id="CCC_314_Overcharged Emerald" data-flag="@X" onclick="openSidebar('CCC_314_Overcharged Emerald',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\315_Overcharged Jet.png" id="CCC_315_Overcharged Jet" data-flag="@X" onclick="openSidebar('CCC_315_Overcharged Jet',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\316_Overcharged Lotus.png" id="CCC_316_Overcharged Lotus" data-flag="@X" onclick="openSidebar('CCC_316_Overcharged Lotus',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\317_Overcharged Pearl.png" id="CCC_317_Overcharged Pearl" data-flag="@X" onclick="openSidebar('CCC_317_Overcharged Pearl',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\318_Overcharged Ruby.png" id="CCC_318_Overcharged Ruby" data-flag="@X" onclick="openSidebar('CCC_318_Overcharged Ruby',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\319_Overcharged Sapphire.png" id="CCC_319_Overcharged Sapphire" data-flag="@X" onclick="openSidebar('CCC_319_Overcharged Sapphire',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\320_Phyrexian Carrier.png" id="CCC_320_Phyrexian Carrier" data-flag="@X" onclick="openSidebar('CCC_320_Phyrexian Carrier',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\321_Ring of Power.png" id="CCC_321_Ring of Power" data-flag="@X" onclick="openSidebar('CCC_321_Ring of Power',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\322_Rocket-Powered Fleetwheel.png" id="CCC_322_Rocket-Powered Fleetwheel" data-flag="@X" onclick="openSidebar('CCC_322_Rocket-Powered Fleetwheel',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\323_Shimmering Elk.png" id="CCC_323_Shimmering Elk" data-flag="@X" onclick="openSidebar('CCC_323_Shimmering Elk',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\CCC-files\img\324_Sword in the Stone_back.png" alt="sets\CCC-files\img\324_Sword in the Stone_front.png" id="CCC_324_Sword in the Stone" data-flag="@XD" onclick="openSidebar('CCC_324_Sword in the Stone',false)"><button class="flip-btn" onclick="imgFlip('CCC_324_Sword in the Stone')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\325_Untouched Lotus.png" id="CCC_325_Untouched Lotus" data-flag="@X" onclick="openSidebar('CCC_325_Untouched Lotus',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\356_Illusionist's Duplicant.png" id="CCC_356_Illusionists Duplicant" data-flag="@X" onclick="openSidebar('CCC_356_Illusionists Duplicant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\357_Trump Card.png" id="CCC_357_Trump Card" data-flag="@X" onclick="openSidebar('CCC_357_Trump Card',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\358_Golden Orrery.png" id="CCC_358_Golden Orrery" data-flag="@X" onclick="openSidebar('CCC_358_Golden Orrery',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\359_Heart of the Machine.png" id="CCC_359_Heart of the Machine" data-flag="@X" onclick="openSidebar('CCC_359_Heart of the Machine',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CCC_er" data-flag="@E" onclick="openSidebar('CCC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CCC_er" data-flag="@E" onclick="openSidebar('CCC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CCC_er" data-flag="@E" onclick="openSidebar('CCC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CCC_er" data-flag="@E" onclick="openSidebar('CCC_er',false)"></div>
+				<div id="land" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CCC_e" data-flag="@E" onclick="openSidebar('CCC_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CCC_e" data-flag="@E" onclick="openSidebar('CCC_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CCC_e" data-flag="@E" onclick="openSidebar('CCC_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CCC_e" data-flag="@E" onclick="openSidebar('CCC_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\355_Visauga, the Ever-Growing.png" id="CCC_355_Visauga, the Ever-Growing" data-flag="@X" onclick="openSidebar('CCC_355_Visauga, the Ever-Growing',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CCC_er" data-flag="@E" onclick="openSidebar('CCC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CCC_er" data-flag="@E" onclick="openSidebar('CCC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CCC_er" data-flag="@E" onclick="openSidebar('CCC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CCC_er" data-flag="@E" onclick="openSidebar('CCC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CCC_er" data-flag="@E" onclick="openSidebar('CCC_er',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\CCC-files\img\333_Ebb_back.png" alt="sets\CCC-files\img\333_Ebb_front.png" id="CCC_333_Ebb" data-flag="@XD" onclick="openSidebar('CCC_333_Ebb',false)"><button class="flip-btn" onclick="imgFlip('CCC_333_Ebb')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\CCC-files\img\336_Fractured Ocean_back.png" alt="sets\CCC-files\img\336_Fractured Ocean_front.png" id="CCC_336_Fractured Ocean" data-flag="@XD" onclick="openSidebar('CCC_336_Fractured Ocean',false)"><button class="flip-btn" onclick="imgFlip('CCC_336_Fractured Ocean')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\328_Burning Desert.png" id="CCC_328_Burning Desert" data-flag="@X" onclick="openSidebar('CCC_328_Burning Desert',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\329_Cindermoss Woodlands.png" id="CCC_329_Cindermoss Woodlands" data-flag="@X" onclick="openSidebar('CCC_329_Cindermoss Woodlands',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\CCC-files\img\346_Overgrown Steppe_back.png" alt="sets\CCC-files\img\346_Overgrown Steppe_front.png" id="CCC_346_Overgrown Steppe" data-flag="@XD" onclick="openSidebar('CCC_346_Overgrown Steppe',false)"><button class="flip-btn" onclick="imgFlip('CCC_346_Overgrown Steppe')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\337_Frozen Glacier.png" id="CCC_337_Frozen Glacier" data-flag="@X" onclick="openSidebar('CCC_337_Frozen Glacier',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\345_Ninja Dojo.png" id="CCC_345_Ninja Dojo" data-flag="@X" onclick="openSidebar('CCC_345_Ninja Dojo',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\CCC-files\img\351_Scorched Landscape_back.png" alt="sets\CCC-files\img\351_Scorched Landscape_front.png" id="CCC_351_Scorched Landscape" data-flag="@XD" onclick="openSidebar('CCC_351_Scorched Landscape',false)"><button class="flip-btn" onclick="imgFlip('CCC_351_Scorched Landscape')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\CCC-files\img\335_Fractured Hills_back.png" alt="sets\CCC-files\img\335_Fractured Hills_front.png" id="CCC_335_Fractured Hills" data-flag="@XD" onclick="openSidebar('CCC_335_Fractured Hills',false)"><button class="flip-btn" onclick="imgFlip('CCC_335_Fractured Hills')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\352_Sylvan Castle.png" id="CCC_352_Sylvan Castle" data-flag="@X" onclick="openSidebar('CCC_352_Sylvan Castle',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CCC_er" data-flag="@E" onclick="openSidebar('CCC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CCC_er" data-flag="@E" onclick="openSidebar('CCC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CCC_er" data-flag="@E" onclick="openSidebar('CCC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CCC_er" data-flag="@E" onclick="openSidebar('CCC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CCC_er" data-flag="@E" onclick="openSidebar('CCC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\347_Poisoned Expanse.png" id="CCC_347_Poisoned Expanse" data-flag="@X" onclick="openSidebar('CCC_347_Poisoned Expanse',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\331_Concealed Laboratory.png" id="CCC_331_Concealed Laboratory" data-flag="@X" onclick="openSidebar('CCC_331_Concealed Laboratory',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\326_Blooming Hollow.png" id="CCC_326_Blooming Hollow" data-flag="@X" onclick="openSidebar('CCC_326_Blooming Hollow',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\327_Bronzesun Strongehold.png" id="CCC_327_Bronzesun Strongehold" data-flag="@X" onclick="openSidebar('CCC_327_Bronzesun Strongehold',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\330_Coastal Rainforest.png" id="CCC_330_Coastal Rainforest" data-flag="@X" onclick="openSidebar('CCC_330_Coastal Rainforest',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\CCC-files\img\348_Quiet Marsh_back.png" alt="sets\CCC-files\img\348_Quiet Marsh_front.png" id="CCC_348_Quiet Marsh" data-flag="@XD" onclick="openSidebar('CCC_348_Quiet Marsh',false)"><button class="flip-btn" onclick="imgFlip('CCC_348_Quiet Marsh')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\CCC-files\img\344_Mountain Waterfall_back.png" alt="sets\CCC-files\img\344_Mountain Waterfall_front.png" id="CCC_344_Mountain Waterfall" data-flag="@XD" onclick="openSidebar('CCC_344_Mountain Waterfall',false)"><button class="flip-btn" onclick="imgFlip('CCC_344_Mountain Waterfall')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\CCC-files\img\339_Gloomwidow Grove_back.png" alt="sets\CCC-files\img\339_Gloomwidow Grove_front.png" id="CCC_339_Gloomwidow Grove" data-flag="@XD" onclick="openSidebar('CCC_339_Gloomwidow Grove',false)"><button class="flip-btn" onclick="imgFlip('CCC_339_Gloomwidow Grove')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\CCC-files\img\350_Savage Spires_back.png" alt="sets\CCC-files\img\350_Savage Spires_front.png" id="CCC_350_Savage Spires" data-flag="@XD" onclick="openSidebar('CCC_350_Savage Spires',false)"><button class="flip-btn" onclick="imgFlip('CCC_350_Savage Spires')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\CCC-files\img\334_Forest Village_back.png" alt="sets\CCC-files\img\334_Forest Village_front.png" id="CCC_334_Forest Village" data-flag="@XD" onclick="openSidebar('CCC_334_Forest Village',false)"><button class="flip-btn" onclick="imgFlip('CCC_334_Forest Village')"></button></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CCC_er" data-flag="@E" onclick="openSidebar('CCC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CCC_er" data-flag="@E" onclick="openSidebar('CCC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CCC_er" data-flag="@E" onclick="openSidebar('CCC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CCC_er" data-flag="@E" onclick="openSidebar('CCC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CCC_er" data-flag="@E" onclick="openSidebar('CCC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\332_Earthbound Elemental.png" id="CCC_332_Earthbound Elemental" data-flag="@X" onclick="openSidebar('CCC_332_Earthbound Elemental',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\338_Frozen Peaks.png" id="CCC_338_Frozen Peaks" data-flag="@X" onclick="openSidebar('CCC_338_Frozen Peaks',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\340_Gloomy Marsh.png" id="CCC_340_Gloomy Marsh" data-flag="@X" onclick="openSidebar('CCC_340_Gloomy Marsh',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\341_Hallowed Field.png" id="CCC_341_Hallowed Field" data-flag="@X" onclick="openSidebar('CCC_341_Hallowed Field',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\342_Hidden Oasis.png" id="CCC_342_Hidden Oasis" data-flag="@X" onclick="openSidebar('CCC_342_Hidden Oasis',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\343_Melting Glaciers.png" id="CCC_343_Melting Glaciers" data-flag="@X" onclick="openSidebar('CCC_343_Melting Glaciers',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\349_Quiet Waterfall.png" id="CCC_349_Quiet Waterfall" data-flag="@X" onclick="openSidebar('CCC_349_Quiet Waterfall',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\CCC-files\img\353_Verdant Lands_back.png" alt="sets\CCC-files\img\353_Verdant Lands_front.png" id="CCC_353_Verdant Lands" data-flag="@XD" onclick="openSidebar('CCC_353_Verdant Lands',false)"><button class="flip-btn" onclick="imgFlip('CCC_353_Verdant Lands')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\354_Verdant Savageland.png" id="CCC_354_Verdant Savageland" data-flag="@X" onclick="openSidebar('CCC_354_Verdant Savageland',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CCC-files\img\360_Cielotta, City of the Sky.png" id="CCC_360_Cielotta, City of the Sky" data-flag="@X" onclick="openSidebar('CCC_360_Cielotta, City of the Sky',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CCC_er" data-flag="@E" onclick="openSidebar('CCC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CCC_er" data-flag="@E" onclick="openSidebar('CCC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CCC_er" data-flag="@E" onclick="openSidebar('CCC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CCC_er" data-flag="@E" onclick="openSidebar('CCC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CCC_er" data-flag="@E" onclick="openSidebar('CCC_er',false)"></div>
+	</div>
+	</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch(rootPath + '/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch(rootPath + '/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+				let all_tags = new Set();
+				card_list_arrayified.forEach(card => {
+					if (card.notes) {
+						const tagMatches = card.notes.matchAll(/!tag(?:<\w+>)?\s+([^\s\n\b]+)/g);
+						for (const match of tagMatches) {
+							all_tags.add(match[1]);
+						}
+					}
+				});
+
+				const searchInput = document.getElementById("search");
+				const tagDropdown = document.getElementById("tag-dropdown");
+
+				// Create a mirror element for position calculation
+				const mirror = document.createElement("div");
+				Object.assign(mirror.style, {
+					position: "absolute",
+					visibility: "hidden",
+					whiteSpace: "pre",
+					font: getComputedStyle(searchInput).font,
+					padding: "0", // No padding for pure text measurement
+					border: "none",
+					boxSizing: "content-box"
+				});
+				document.body.appendChild(mirror);
+
+				if (searchInput && tagDropdown) {
+					tagDropdown.style.width = "auto";
+					tagDropdown.style.minWidth = "75px";
+					tagDropdown.style.maxWidth = "300px";
+					tagDropdown.style.maxHeight = "200px";
+					tagDropdown.style.overflowY = "auto";
+
+					const updateDropdown = function() {
+						const value = searchInput.value;
+						const cursorPosition = searchInput.selectionStart;
+						
+						// Find the tag: prefix immediately preceding the cursor
+						const lastTagIndex = value.substring(0, cursorPosition).lastIndexOf("tag:");
+						
+						if (lastTagIndex !== -1) {
+							const queryStart = lastTagIndex + 4;
+							const query = value.substring(queryStart, cursorPosition);
+							
+							if (!query.includes(" ")) {
+								const filteredTags = Array.from(all_tags).filter(tag => tag.toLowerCase().startsWith(query.toLowerCase())).sort();
+								if (filteredTags.length > 0) {
+									tagDropdown.innerHTML = "";
+									filteredTags.forEach(tag => {
+										const div = document.createElement("div");
+										div.innerText = tag;
+										div.style.padding = "5px 10px";
+										div.style.cursor = "pointer";
+										div.style.whiteSpace = "nowrap";
+										div.onmouseover = () => div.style.background = "#f0f0f0";
+										div.onmouseout = () => div.style.background = "white";
+										div.onclick = () => {
+											const newValue = value.substring(0, queryStart) + tag + " " + value.substring(cursorPosition);
+											searchInput.value = newValue;
+											tagDropdown.style.display = "none";
+											searchInput.focus();
+											const newCursorPos = queryStart + tag.length + 1;
+											searchInput.setSelectionRange(newCursorPos, newCursorPos);
+										};
+										tagDropdown.appendChild(div);
+									});
+
+									// Calculate position
+									mirror.textContent = value.substring(0, lastTagIndex + 4);
+									const textWidth = mirror.getBoundingClientRect().width;
+									const inputPaddingLeft = parseFloat(getComputedStyle(searchInput).paddingLeft) || 0;
+									
+									tagDropdown.style.left = Math.min(textWidth + inputPaddingLeft, searchInput.offsetWidth - tagDropdown.offsetWidth) + "px";
+									tagDropdown.style.display = "block";
+									return;
+								}
+							}
+						}
+						tagDropdown.style.display = "none";
+					};
+
+					searchInput.addEventListener("input", updateDropdown);
+					searchInput.addEventListener("click", updateDropdown);
+					searchInput.addEventListener("keyup", updateDropdown);
+
+					document.addEventListener("click", function(e) {
+						if (e.target !== searchInput && e.target !== tagDropdown) {
+							tagDropdown.style.display = "none";
+						}
+					});
+				}
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = rootPath + '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = rootPath + '/' + img.alt;
+				if (img.dataset.alt_src) {
+					img.dataset.alt_src = rootPath + '/' + img.dataset.alt_src;
+				}
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		const img = document.getElementById(num);
+		const seconds = 0.2;
+		const rotated_img = document.getElementById('sidebar_h_img');
+
+        img.style.transition = seconds.toString() + "s";
+        img.style.transform = "rotateY(90deg)";
+
+        if (num == 'sidebar_img')
+		{
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(90deg) rotate(90deg)";
+
+           		if (rotated_img.style.opacity != "0") {
+		            setTimeout(() => {
+		                rotated_img.style.opacity = "0";
+		                img.style.filter = "none";
+		            }, (seconds / 2) * 1000);
+		        }
+		        else {
+		        	setTimeout(() => {
+		                rotated_img.style.opacity = "1";
+		                img.style.filter = "blur(2px) brightness(0.7)";
+		            }, (seconds / 2) * 1000);
+		        }
+            }
+		}
+
+         setTimeout(function() {
+            tmp = document.getElementById(num).src;
+			document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+			document.getElementById(num).dataset.alt_src = tmp;
+
+            img.style.transition = seconds.toString() + "s";
+            img.style.transform = "rotateY(0deg)";
+
+            if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(0deg) rotate(90deg)";
+            }
+        }, seconds * 1000);
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.style.transition = "none";
+		rotated_img.style.transition = "none";
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.opacity = "1";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.opacity = "0";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	function rolldown() {
+		dropdown.style.gridTemplateColumns = "repeat(3, 1fr)";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "auto";
+			set.style.margin = "5px";
+		}
+	}
+
+	function rollup() {
+		dropdown.style.gridTemplateColumns = "1fr";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "0px";
+			set.style.margin = "0px 5px";
+		}
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL(rootPath + '/search', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url.pathname + url.search;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL(rootPath + '/card', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url.pathname + url.search;
+			}
+	</script>
+</body>
+</html>

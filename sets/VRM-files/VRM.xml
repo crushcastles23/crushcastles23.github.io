@@ -1,0 +1,4143 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cockatrice_carddatabase version='4'>
+	<sets>
+		<set>
+			<name>VRM</name>
+			<longname>Valla Remastered</longname>
+			<settype>Custom</settype>
+			<releasedate>2026-06-06</releasedate>
+		</set>
+	</sets>
+	<cards>
+		<card>
+			<name>Inspired Warrior</name>
+			<text>Raid — When Inspired Warrior enters the battlefield, if you attacked this turn, put a +1/+1 counter on Inspired Warrior.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/24_Inspired Warrior.png" num="24">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Frost-Shield Crasher</name>
+			<text>Icetouch (Whenever this creature deals damage to a creature, tap that creature. That creature doesn&apos;t untap during its controller&apos;s next untap step.)
+Frost-Shield Crasher has defender as long as an opponent controls an untapped creature.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/20_Frost-Shield Crasher.png" num="20">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Orc Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Star Thrower</name>
+			<text>When Star Thrower enters the battlefield, put a +1/+1 counter on another target creature.
+Ripple 4 (When you cast this spell, you may reveal the top four cards of your library. You may cast spells with the same name as this spell from among those cards without paying their mana costs. Put the rest on the bottom of your library.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/31_Star Thrower.png" num="31">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Goliath War Medic</name>
+			<text>Lifelink
+Whenever you gain life, put a +1/+1 counter on Goliath War Medic.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/21_Goliath War Medic.png" num="21">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Giant Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>5WW</manacost>
+				<cmc>7</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fadir&apos;s Hawk</name>
+			<text>Flying</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/17_Fadir&apos;s Hawk.png" num="17">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Razeck&apos;s Lieutenant</name>
+			<text>Raid — When Razeck&apos;s Lieutenant enters the battlefield, if you attacked this turn, create a 1/1 white Soldier creature token.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/28_Razeck&apos;s Lieutenant.png" num="28">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Vallan Smasher</name>
+			<text>When Vallan Smasher enters the battlefield, if {C} was spent to cast it, you may destroy target artifact or enchantment.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/35_Vallan Smasher.png" num="35">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dream-Light Valkyrie</name>
+			<text>Flying
+When Dream-Light Valkyrie enters the battlefield, scry 3, then reveal the top card of your library. You gain life equal to that card&apos;s mana value.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/13_Dream-Light Valkyrie.png" num="13">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Angel Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3C/WC/W</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Crashing War Party</name>
+			<text>You may cast this spell as though it had flash if you pay {C} more to cast it.
+When Crashing War Party enters the battlefield, put a +1/+1 counter on each of up to two other target creatures.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/11_Crashing War Party.png" num="11">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Soothe the Unruly</name>
+			<text>Enchant creature
+When Soothe the Unruly enters the battlefield, you gain 3 life.
+Enchanted creature can&apos;t attack or block.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/30_Soothe the Unruly.png" num="30">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Annihilating Light</name>
+			<text>Exile target attacking or blocking creature.
+If {C}{W} was spent to cast this spell, gain life equal to the exiled creature&apos;s power.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/6_Annihilating Light.png" num="6">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2C/WC/W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Call the Valiant</name>
+			<text>Create two 1/1 white Warrior creature tokens. If {C}{W} was spent to cast [b]this spell[/b], create three 1/1 white Warrior creature tokens instead.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/10_Call the Valiant.png" num="10">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>{/1CW/}C/W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Frost Shot</name>
+			<text>Icetouch (Whenever this spell deals damage to a creature, tap that creature. That creature doesn&apos;t untap during its controller&apos;s next untap step.)
+Frost Shot deals 3 damage to target attacking or blocking creature.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/19_Frost Shot.png" num="19">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Frostland Scout</name>
+			<text>Icetouch (Whenever this creature deals damage to a creature, tap that creature. That creature doesn&apos;t untap during its controller&apos;s next untap step.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/47_Frostland Scout.png" num="47">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>{/1CU/}C/U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Illusionary Drake</name>
+			<text>Flying
+When Illusionary Drake becomes the target of a spell, sacrifice it, then create a 2/2 blue Illusion creature token with &quot;When this creature becomes the target of a spell, sacrifice it.&quot;</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/56_Illusionary Drake.png" num="56">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Drake Illusion</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rasvalar City Guard</name>
+			<text>Icetouch (Whenever this creature deals damage to a creature, tap that creature. That creature doesn&apos;t untap during its controller&apos;s next untap step.)
+As long as Rasvalar City Guard is untapped, it has hexproof.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/63_Rasvalar City Guard.png" num="63">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Frost Troll</name>
+			<text>Flash
+Icetouch (Whenever this creature deals damage to a creature, tap that creature. That creature doesn&apos;t untap during its controller&apos;s next untap step.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/46_Frost Troll.png" num="46">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Troll</type>
+				<maintype>Creature</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Thunderclaw Raven</name>
+			<text>Flying
+When Thunderclaw Raven enters the battlefield, you may draw a card for each {C} spent to cast this spell. If you do, discard a card.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/71_Thunderclaw Raven.png" num="71">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shallow-Water Kraken</name>
+			<text>Prowess
+When Shallow-Water Kraken enters the battlefield, for each {C}{U} spent to cast this spell, tap target creature. That creature doesn&apos;t untap during its controller&apos;s next untap step.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/66_Shallow-Water Kraken.png" num="66">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Kraken</type>
+				<maintype>Creature</maintype>
+				<manacost>4C/UC/U</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Frost Hag</name>
+			<text>Icetouch (Whenever this creature deals damage to a creature, tap that creature. That creature doesn&apos;t untap during its controller&apos;s next untap step.)
+Whenever you cast an instant or sorcery spell, Frost Hag gets +1/+1 until end of turn. Untap it.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/44_Frost Hag.png" num="44">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>2C/UC/U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Moon-Light Dreaming</name>
+			<text>Create a 2/2 blue Illusion creature token with &quot;When this creature becomes the target of a spell, sacrifice it.&quot; Then create another for each card named Moon-Light Dreaming in your graveyard.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/61_Moon-Light Dreaming.png" num="61">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Frost Fists</name>
+			<text>Target creature gains icetouch until end of turn. (Whenever that creature deals damage to a creature this turn, tap that creature. That creature doesn&apos;t untap during its controller&apos;s next untap step.)
+Draw a card.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/43_Frost Fists.png" num="43">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Remove Soul</name>
+			<text>Counter target creature spell.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/65_Remove Soul.png" num="65">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Strike Through Space</name>
+			<text>Target creature can&apos;t be blocked this turn and gains hexproof until end of turn.
+Draw a card.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/69_Strike Through Space.png" num="69">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Discover Untold Knowledge</name>
+			<text>Ripple 4 (When you cast this spell, you may reveal the top four cards of your library. You may cast spells with the same name as this spell from among those cards without paying their mana costs. Put the rest on the bottom of your library.)
+Draw two cards, then discard a card.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/39_Discover Untold Knowledge.png" num="39">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Heavy Seas</name>
+			<text>Counter target creature spell unless its controller pays {3} or {C}.
+Draw a card.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/53_Heavy Seas.png" num="53">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Bloodsucker Bat</name>
+			<text>Flying
+Bloodied — As long as you have less than half your starting life total, Bloodsucker Bat has lifelink.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/77_Bloodsucker Bat.png" num="77">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bat</type>
+				<maintype>Creature</maintype>
+				<manacost>BB</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Giant Draugr</name>
+			<text>Bloodied — As long as you have less than half your starting life total, Giant Draugr has menace.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/91_Giant Draugr.png" num="91">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Giant Zombie</type>
+				<maintype>Creature</maintype>
+				<manacost>4B</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Draugr Knight</name>
+			<text>Draugr Knight can&apos;t block.
+{2}{B}{B}, Pay 3 life: Return Draugr Knight from your graveyard to the battlefield.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/83_Draugr Knight.png" num="83">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>C/BC/B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Resvalaran Warrior</name>
+			<text>Bloodied — As long as you have less than half your starting life total, Resvalaran Warrior has deathtouch.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/100_Resvalaran Warrior.png" num="100">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Mutant Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>C/B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hungry Draugr</name>
+			<text>Menace
+Pay 2 life: Hungry Draugr gets +2/+0 until end of turn. Activate only once each turn.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/94_Hungry Draugr.png" num="94">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Striking Raven</name>
+			<text>Flying
+Blitz {1}{B} (If you cast this spell for its blitz cost, it gains haste and &quot;When this creature dies, draw a card&quot;. Sacrifice it at the beginning of the next end step.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/104_Striking Raven.png" num="104">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird</type>
+				<maintype>Creature</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Blitzing Berserker</name>
+			<text>Blitz {2}{B} (If you cast this spell for its blitz cost, it gains haste and &quot;When this creature dies, draw a card&quot;. Sacrifice it at the beginning of the next end step.)
+When Blitzing Berserker dies, each player loses 3 life.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/76_Blitzing Berserker.png" num="76">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Berserker</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Echon Knight</name>
+			<text>First strike
+Raid — At the beginning of your end step, if you attacked this turn, each opponent loses 2 life.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/86_Echon Knight.png" num="86">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dwarven War Party</name>
+			<text>Menace
+Ripple 4 (When you cast this spell, you may reveal the top four cards of your library. You may cast spells with the same name as this spell from among those cards without paying their mana costs. Put the rest on the bottom of your library.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/84_Dwarven War Party.png" num="84">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dwarf Berserker</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Enfeeble</name>
+			<text>Enchant creature
+Enchanted creature gets -2/-2 and can&apos;t block.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/87_Enfeeble.png" num="87">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Severing Blow</name>
+			<text>Destroy target creature if it&apos;s tapped.
+Bloodied — If you have less than half your starting life total, you may destroy that creature instead.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/101_Severing Blow.png" num="101">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Execute the Trespasser</name>
+			<text>Destroy target creature that was dealt damage this turn.
+Draw a card.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/88_Execute the Trespasser.png" num="88">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Lich&apos;s Revival</name>
+			<text>Return up to two creature cards from your graveyard to your hand. If {C}{C}{B}{B} was spent to cast this spell, you may instead return a creature card from your graveyard to the battlefield tapped.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/96_Lich&apos;s Revival.png" num="96">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2C/BC/B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Spire Climber</name>
+			<text>Blitz {2}{R} (If you cast this spell for its blitz cost, it gains haste and &quot;When this creature dies, draw a card&quot;. Sacrifice it at the beginning of the next end step.)
+Spire Climber has flying as long as it was cast for its blitz cost.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/132_Spire Climber.png" num="132">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Goblin Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Goblin Boar Rider</name>
+			<text>Trample
+Blitz {1}{C}{R} (If you cast this spell for its blitz cost, it gains haste and &quot;When this creature dies, draw a card&quot;. Sacrifice it at the beginning of the next end step.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/119_Goblin Boar Rider.png" num="119">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Goblin Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3C/R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hopping Goblin</name>
+			<text>Haste
+Ripple 4 (When you cast this spell, you may reveal the top four cards of your library. You may cast spells with the same name as this spell from among those cards without paying their mana costs. Put the rest on the bottom of your library.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/123_Hopping Goblin.png" num="123">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Goblin Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Blood Drenched Berserker</name>
+			<text>Bloodied — As long as you have less than half your starting life total, Blood Drenched Berserker has double strike.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/109_Blood Drenched Berserker.png" num="109">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Berserker Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sparking Raider</name>
+			<text>Raid — When Sparking Raider enters the battlefield, if you attacked this turn, it deals damage equal to its power to up to one target creature or planeswalker.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/131_Sparking Raider.png" num="131">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dwarf Berserker</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Twin-Axe Berserker</name>
+			<text>{2}: Exile a card from your hand. When you do, exile the top card of your library. You may play one of those cards this turn.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/136_Twin-Axe Berserker.png" num="136">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Berserker</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fear Caster</name>
+			<text>Haste
+Whenever Fear Caster attacks, target creature can&apos;t block this turn.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/118_Fear Caster.png" num="118">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Molten Gauntlet</name>
+			<text>Enchant creature
+Enchanted creature gets +3/+0 and has menace.
+{R}, Discard Molten Gauntlet: Create a Pyre token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add {C}.&quot;)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/127_Molten Gauntlet.png" num="127">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Chandra&apos;s Fury</name>
+			<text>Chandra&apos;s Fury deals 4 damage to target player and 1 damage to each creature that player controls.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/113_Chandra&apos;s Fury.png" num="113">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Goblin Brigade</name>
+			<text>Create two 1/1 red Goblin creature tokens.
+Bloodied — If you have less than half your starting life total, create three 1/1 red Goblin creature tokens instead.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/120_Goblin Brigade.png" num="120">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Twin Blade Strike</name>
+			<text>Target creature gains double strike until end of turn.
+Bloodied — If you have less than half your starting life total, that creature gets +1/+0 until end of turn.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/135_Twin Blade Strike.png" num="135">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>RR</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ignite Flesh</name>
+			<text>Ignite Flesh deals 4 damage to target creature or planeswalker.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/124_Ignite Flesh.png" num="124">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Sucker Punch</name>
+			<text>Target creature you control gets +2/+0 until end of turn. Then that creature fights target creature you don&apos;t control.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/133_Sucker Punch.png" num="133">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Runed Elk</name>
+			<text>{T}: Add {G} or {C}.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/168_Runed Elk.png" num="168">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elk</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>0/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Alfa Beastmaster</name>
+			<text>When Alfa Beastmaster enters the battlefield, reveal the top five cards of your library. You may put a creature from among them into your hand. Put the rest on the bottom of your library in a random order.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/141_Alfa Beastmaster.png" num="141">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Alfa Piker</name>
+			<text>Reach
+When Alfa Piker enters the battlefield, you may have it fight target creature with flying. (Each deals damage equal to its power to the other.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/142_Alfa Piker.png" num="142">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hungry Baloth</name>
+			<text>Trample</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/165_Hungry Baloth.png" num="165">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Beast</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shatter-Stump Ent</name>
+			<text>Flash
+Shatter-Stump Ent enters the battlefield with a number of +1/+1 counters on it equal to the number of lands you control.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/169_Shatter-Stump Ent.png" num="169">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Treefolk</type>
+				<maintype>Creature</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>0/0</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Awakened Alfa</name>
+			<text>Raid — At the beginning of your end step, if you attacked this turn, untap Awakened Alfa. It gets +2/+2 until the beginning of your next turn.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/147_Awakened Alfa.png" num="147">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>{/1CG/}C/G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Alfa Archer</name>
+			<text>Reach
+Ripple 4 (When you cast this spell, you may reveal the top four cards of your library. You may cast spells with the same name as this spell from among those cards without paying their mana costs. Put the rest on the bottom of your library.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/140_Alfa Archer.png" num="140">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Archer</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Druid of Last Rites</name>
+			<text>Lifelink
+Whenever a creature you control dies, you gain life equal to its power.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/155_Druid of Last Rites.png" num="155">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Feverbloom Goliath</name>
+			<text>Whenever a land enters the battlefield under your control, put a +1/+1 counter on Feverbloom Goliath.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/160_Feverbloom Goliath.png" num="160">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Treefolk</type>
+				<maintype>Creature</maintype>
+				<manacost>3C/G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dreamlike Expedition</name>
+			<text>Create a colorless Land token named Wastes. It has &quot;{T}: Add {C}.&quot;
+If {C}{G} was spent to cast this spell, draw a card.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/154_Dreamlike Expedition.png" num="154">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2C/GC/G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Hunter and Hunted</name>
+			<text>Choose target creature you control. Put a +1/+1 counter on it if {C} was spent to cast this spell. Then that creature fights up to one target creature you don&apos;t control.
+Create a Pyre token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add {C}.&quot;)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/166_Hunter and Hunted.png" num="166">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Domri&apos;s Charge</name>
+			<text>Choose one—
+• Target creature gets +5/+5 until end of turn.
+• Target creature gets +3/+3 and gains trample until end of turn.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/152_Domri&apos;s Charge.png" num="152">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Flower Path</name>
+			<text>Enchant creature or land
+When Flower Path enters the battlefield, draw a card.
+Enchanted permanent has &quot;{T}: Add one mana of any type.&quot;</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/161_Flower Path.png" num="161">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Swords of the Legion</name>
+			<text>Ripple 4 (When you cast this spell, you may reveal the top four cards of your library. You may cast spells with the same name as this spell from among those cards without paying their mana costs. Put the rest on the bottom of your library.)
+Equipped creature gets +2/+0 for each equipment named Swords of the Legion you control.
+Equip {1}</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/204_Swords of the Legion.png" num="204">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Edge of the World</name>
+			<text>Edge of the World enters the battlefield tapped.
+{T}: Add {C}.
+{T}, Sacrifice Edge of the World: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/212_Edge of the World.png" num="212">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Coastal Village</name>
+			<text>{T}: Add {C}.
+{T}: Add {W} or {U}. Coastal Village deals 1 damage to you.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/209_Coastal Village.png" num="209">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Marshlands</name>
+			<text>{T}: Add {C}.
+{T}: Add {U} or {B}. Marshlands deals 1 damage to you.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/215_Marshlands.png" num="215">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Volcanic Catacombs</name>
+			<text>{T}: Add {C}.
+{T}: Add {B} or {R}. Volcanic Catacombs deals 1 damage to you.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/220_Volcanic Catacombs.png" num="220">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Burning Forest</name>
+			<text>{T}: Add {C}.
+{T}: Add {R} or {G}. Burning Forest deals 1 damage to you.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/207_Burning Forest.png" num="207">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Treetop City</name>
+			<text>{T}: Add {C}.
+{T}: Add {G} or {W}. Treetop City deals 1 damage to you.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/218_Treetop City.png" num="218">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Dark Caves</name>
+			<text>{T}: Add {C}.
+{T}: Add {W} or {B}. Dark Caves deals 1 damage to you.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/210_Dark Caves.png" num="210">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Cinder Reef</name>
+			<text>{T}: Add {C}.
+{T}: Add {U} or {R}. Cinder Reef deals 1 damage to you.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/208_Cinder Reef.png" num="208">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Blackened Forest</name>
+			<text>{T}: Add {C}.
+{T}: Add {B} or {G}. Blackened Forest deals 1 damage to you.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/206_Blackened Forest.png" num="206">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>War Forge</name>
+			<text>{T}: Add {C}.
+{T}: Add {R} or {W}. War Forge deals 1 damage to you.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/222_War Forge.png" num="222">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Tropical Forest</name>
+			<text>{T}: Add {C}.
+{T}: Add {G} or {U}. Tropical Forest deals 1 damage to you.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/219_Tropical Forest.png" num="219">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Echon Assembly</name>
+			<text>Ripple 6 (When you cast this spell, you may reveal the top six cards of your library. You may cast spells with the same name as this spell from among those cards without paying their mana costs. Put the rest on the bottom of your library.)
+Create two 1/1 white Warrior creature tokens.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/14_Echon Assembly.png" num="14">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Bury Alive</name>
+			<text>When Bury Alive enters the battlefield, exile target nonland permanent an opponent controls until Bury Alive leaves the battlefield. That player searches their library for a basic land card and puts it onto the battlefield tapped.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/9_Bury Alive.png" num="9">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Healing Feast</name>
+			<text>You gain 6 life.
+If {C}{W} was spent to cast this spell, you gain 12 life instead.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/22_Healing Feast.png" num="22">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>C/WC/W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Razeck&apos;s Cleric</name>
+			<text>Lifelink
+{3}{W}: Creatures you control gain lifelink until end of turn.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/27_Razeck&apos;s Cleric.png" num="27">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Echon Vigilant</name>
+			<text>Flying, vigilance
+Raid — When Echon Vigilant enters the battlefield, if you attacked this turn, create a 1/1 white Spirit creature token with flying.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/15_Echon Vigilant.png" num="15">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Striking Valkyrie</name>
+			<text>Flying, first strike</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/33_Striking Valkyrie.png" num="33">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Angel Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Frost Cleric</name>
+			<text>Lifelink
+Icetouch (Whenever this creature deals damage to a creature, tap that creature. That creature doesn&apos;t untap during its controller&apos;s next untap step.)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/18_Frost Cleric.png" num="18">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dwarf Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Light Pierce</name>
+			<text>Destroy target attacking or blocking creature.
+You gain 5 life.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/26_Light Pierce.png" num="26">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Frostwing Cardinal</name>
+			<text>Flying
+Icetouch (Whenever this creature deals damage to a creature, tap that creature. That creature doesn&apos;t untap during its controller&apos;s next untap step.)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/49_Frostwing Cardinal.png" num="49">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird</type>
+				<maintype>Creature</maintype>
+				<manacost>{/1CU/}</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Frostwing Aven</name>
+			<text>Flying, vigilance
+Icetouch (Whenever this creature deals damage to a creature, tap that creature. That creature doesn&apos;t untap during its controller&apos;s next untap step.)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/48_Frostwing Aven.png" num="48">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>{/1CU/}C/U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Illusionary Decoys</name>
+			<text>When Illusionary Decoys becomes the target of a spell, sacrifice it.
+When Illusionary Decoys dies, create three 2/2 blue Illusion creature tokens with &quot;When this creature becomes the target of a spell, sacrifice it.&quot;</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/55_Illusionary Decoys.png" num="55">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Illusion</type>
+				<maintype>Creature</maintype>
+				<manacost>5UU</manacost>
+				<cmc>7</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Illusionist Mage</name>
+			<text>{3}{U}: Create a 2/2 blue Illusion creature token with &quot;When this creature becomes the target of a spell, sacrifice it.&quot; Activate this ability only once each turn.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/57_Illusionist Mage.png" num="57">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Storm Giant</name>
+			<text>Flash
+This spell costs {1} less to cast for each spell you cast before it this turn.
+Noncreature spells cost {1} less to cast as long as Storm Giant is attacking or blocking.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/68_Storm Giant.png" num="68">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Giant Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>5UU</manacost>
+				<cmc>7</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Living Lab</name>
+			<text>{T}, Mill two cards: Add {C}. Spend this mana only to cast spells and activate abilities with {C} in their cost.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/60_Living Lab.png" num="60">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Echon Mist Weaver</name>
+			<text>Echon Mist Weaver can&apos;t be blocked by creatures with greater power.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/41_Echon Mist Weaver.png" num="41">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Frost Spark Sentinel</name>
+			<text>Ripple 6 (When you cast this spell, you may reveal the top six cards of your library. You may cast spells with the same name as this spell from among those cards without paying their mana costs. Put the rest on the bottom of your library.)
+Whenever you cast a spell except whenever you could cast a sorcery, put a +1/+1 counter on Frost Spark Sentinel.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/45_Frost Spark Sentinel.png" num="45">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental Weird</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Berserk Axeman</name>
+			<text>Berserk Axeman can&apos;t block.
+Bloodied — As long as you have less than half your starting life total, Berserk Axeman has menace.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/75_Berserk Axeman.png" num="75">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Berserker</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Menacing Draugr</name>
+			<text>Menace
+When Menacing Draugr enters the battlefield, each opponent loses 2 life if {C}{B} was spent to cast it.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/98_Menacing Draugr.png" num="98">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>C/BC/B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Power of the Night</name>
+			<text>Choose one, if {C}{B} was spent to cast this spell, you may choose both instead—
+• Target creature gets -3/-3 until end of turn.
+• Target creature gets +3/+3 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/99_Power of the Night.png" num="99">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>{/1CB/}</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Silent Thief</name>
+			<text>Ripple 6 (When you cast this spell, you may reveal the top six cards of your library. You may cast spells with the same name as this spell from among those cards without paying their mana costs. Put the rest on the bottom of your library.)
+Whenever Silent Thief deals combat damage to a player, create a Treasure token.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/103_Silent Thief.png" num="103">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Draugr Commander</name>
+			<text>Zombie creature cards in your graveyard have &quot;{2}{B}: Return this creature from your graveyard to your hand.&quot;
+{1}{B}, Exile a creature card from your graveyard: Create a 2/2 black Zombie creature token.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/80_Draugr Commander.png" num="80">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fanatic Cultists</name>
+			<text>Bloodied — As long as you have less than half your starting life total, Fanatic Cultists gets +1/+1 and has lifelink.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/90_Fanatic Cultists.png" num="90">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Killing Blow</name>
+			<text>Destroy target creature.
+Raid — If you attacked this turn, exile that creature instead.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/95_Killing Blow.png" num="95">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Shadow Necroid</name>
+			<text>Blitz {3}{B} (If you cast this spell for its blitz cost, it gains haste and &quot;When this creature dies, draw a card&quot;. Sacrifice it at the beginning of the next end step.)
+When Shadow Necroid enters the battlefield, return target creature from your graveyard to the battlefield. If Shadow Necroid has haste, that creature gains haste until end of turn. When Shadow Necroid leaves the battlefield, sacrifice that creature.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/102_Shadow Necroid.png" num="102">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Orcish Horde</name>
+			<text>Orcish Horde enters the battlefield with a haste counter on it if {C}{R} was spent to cast it and a menace counter on it if {C}{C}{R}{R} was spent to cast it.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/128_Orcish Horde.png" num="128">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Orc Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2C/RC/R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Vallan Raiding Party</name>
+			<text>Raid — When Vallan Raiding Party enters the battlefield, gain control of target creature you don&apos;t control until end of turn. Untap that creature. It gains haste. If you attacked this turn, instead gain control of that creature until the end of your next turn.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/138_Vallan Raiding Party.png" num="138">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Baby Dragon</name>
+			<text>Flying
+Bloodied — {R}: Baby Dragon gets +1/+0 until end of turn. Activate this ability only if you have less than half your starting life total.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/108_Baby Dragon.png" num="108">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Screaming Lightning</name>
+			<text>Ripple 6 (When you cast this spell, you may reveal the top six cards of your library. You may cast spells with the same name as this spell from among those cards without paying their mana costs. Put the rest on the bottom of your library.)
+Screaming Lightning deals 3 damage to any target.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/130_Screaming Lightning.png" num="130">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Goblin Riot Piker</name>
+			<text>Blitz {2}{R} (If you cast this spell for its blitz cost, it gains haste and &quot;When this creature dies, draw a card&quot;. Sacrifice it at the beginning of the next end step.)
+When Goblin Riot Piker dies, it deals 1 damage to each creature you don&apos;t control.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/121_Goblin Riot Piker.png" num="121">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Goblin Berserker</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Goblin Warlord</name>
+			<text>Goblin creatures you control get +1/+0 and attack each combat if able.
+Whenever Goblin Warlord attacks, create a 1/1 red Goblin creature token that&apos;s tapped and attacking.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/122_Goblin Warlord.png" num="122">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Goblin Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Burn the Dead</name>
+			<text>As an additional cost to cast this spell, sacrifice a land.
+Add three mana in any combination of {C} and {R}.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/111_Burn the Dead.png" num="111">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Unbridled Fury</name>
+			<text>Target creature gets +5/+0 until end of turn. Sacrifice that creature at the beginning of the next end step.
+If {C} was spent to cast this spell, that creature gains trample until end of turn.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/137_Unbridled Fury.png" num="137">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Assault Bear</name>
+			<text>Trample
+Raid — {4}{G}{G}: Put a number of +1/+1 counters onto Assault Bear equal to its power. Activate only once each turn and only if you attacked this turn.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/145_Assault Bear.png" num="145">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bear Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Echon Druid</name>
+			<text>Blitz {2}{G} (If you cast this spell for its blitz cost, it gains haste and &quot;When this creature dies, draw a card&quot;. Sacrifice it at the beginning of the next end step.)
+Reach
+You may cast Echon Druid for its blitz cost as though it had flash.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/156_Echon Druid.png" num="156">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Corrupted Alfa</name>
+			<text>{T}: Add {C}{C} or {G}{G}.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/151_Corrupted Alfa.png" num="151">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Treefolk Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>{/1CG/}C/G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bridge the Multiverse</name>
+			<text></text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/149_Bridge the Multiverse.png" num="149">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Emerge from the Fog</name>
+			<text>Choose one, if {C}{C}{G}{G} was spent to cast this spell, choose both instead—
+• Creatures you control get +4/+4 until end of turn.
+• Creatures you control gain trample until end of turn.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/158_Emerge from the Fog.png" num="158">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2C/GC/G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Old Growth Ent</name>
+			<text>When Old Growth Ent enters the battlefield, you gain life equal to the greatest toughness among creatures you control.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/167_Old Growth Ent.png" num="167">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Treefolk</type>
+				<maintype>Creature</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/7</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Awakened Druid</name>
+			<text>Whenever Awakened Druid attacks, add {C}{G}. Until end of turn, you don&apos;t lose this mana as steps and phases end.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/148_Awakened Druid.png" num="148">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Forest Tender</name>
+			<text>Ripple 6 (When you cast this spell, you may reveal the top six cards of your library. You may cast spells with the same name as this spell from among those cards without paying their mana costs. Put the rest on the bottom of your library.)
+When Forest Tender enters the battlefield, search your library for a basic land card, reveal it, and put it into your hand. Then shuffle.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/163_Forest Tender.png" num="163">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rustfire Golem</name>
+			<text>Trample
+Rustfire Golem enters the battlefield with a +1/+1 counter on it for each {C} spent to cast it.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/201_Rustfire Golem.png" num="201">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Golem</type>
+				<maintype>Creature</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Frost Chaser</name>
+			<text>Flash
+Icetouch (Whenever this creature deals damage to a creature, tap that creature. That creature doesn&apos;t untap during its controller&apos;s next untap step.)
+Whenever Frost Chaser blocks, draw a card.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/182_Frost Chaser.png" num="182">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1WU</manacost>
+				<cmc>3</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lunging Assassin</name>
+			<text>Deathtouch
+When Lunging Assassin enters the battlefield, return up to one target creature to its owner&apos;s hand.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/189_Lunging Assassin.png" num="189">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Assassin</type>
+				<maintype>Creature</maintype>
+				<manacost>1UB</manacost>
+				<cmc>3</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Chain Striker</name>
+			<text>Double strike
+Bloodied — Whenever Chain Striker deals combat damage to a player, it deals that much damage to you unless your life total is less than half your starting life total.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/175_Chain Striker.png" num="175">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>BR</manacost>
+				<cmc>2</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ursine Warrior</name>
+			<text>{T}: Add {R}, {G}, or {C}.
+{C}{C}{C}: Ursine Warrior&apos;s base power and toughness become 5/5 until end of turn.
+Creatures you control enter the battlefield with an additional +1/+1 counter on them if {C} was spent to cast them.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/196_Ursine Warrior.png" num="196">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Berserker</type>
+				<maintype>Creature</maintype>
+				<manacost>RG</manacost>
+				<cmc>2</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Great Hunter</name>
+			<text>Lifelink
+Whenever a creature dealt damage by Great Hunter dies this turn, create a Food token. (It&apos;s an artifact with &quot;{2}, {T}, Sacrifice this artifact: You gain 3 life.&quot;)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/184_Great Hunter.png" num="184">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Warrior Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>3GW</manacost>
+				<cmc>5</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Savage Raiders</name>
+			<text>Whenever Savage Raiders attacks, if you don&apos;t control another creature named Savage Raiders, create a token copy of it that&apos;s tapped and attacking.
+{7}: Creatures you control get +X/+0 until end of turn, where X is the number of creatures you control.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/193_Savage Raiders.png" num="193">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1WB</manacost>
+				<cmc>3</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Crazed Shaman</name>
+			<text>Prowess
+Spells you cast while a creature you control is attacking or blocking cost {2} less to cast.
+When Crazed Shaman dies, return target instant or sorcery card from your graveyard to your hand.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/176_Crazed Shaman.png" num="176">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>1UR</manacost>
+				<cmc>3</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bloodletter Shaman</name>
+			<text>Whenever another creature you control dies, put a +1/+1 counter on Bloodletter Shaman.
+Bloodletter Shaman has trample as long as another creature died this turn.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/174_Bloodletter Shaman.png" num="174">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>1BG</manacost>
+				<cmc>3</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Seasoned Veteran</name>
+			<text>Haste, first strike
+Whenever you attack with each creature you control, draw a card.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/194_Seasoned Veteran.png" num="194">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1RW</manacost>
+				<cmc>3</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Frost-Wind Scout</name>
+			<text>Flash
+Whenever you cast a spell during an opponent&apos;s turn, put a +1/+1 counter on Frost-Wind Scout, then scry 1.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/VRM-files/img/183_Frost-Wind Scout.png" num="183">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>1GU</manacost>
+				<cmc>3</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Life-Drainer Valkyrie</name>
+			<text>Flying, lifelink
+When Life-Drainer Valkyrie enters the battlefield, your gain life equal to half your starting life total.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/25_Life-Drainer Valkyrie.png" num="25">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Angel Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>4WW</manacost>
+				<cmc>6</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Aspect of Nobility</name>
+			<text>Vigilance
+Whenever Aspect of Nobility enters the battlefield or attacks, put a +1/+1 counter on target creature.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/7_Aspect of Nobility.png" num="7">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Avatar Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>CW</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bind Evil</name>
+			<text>When Bind Evil enters the battlefield, exile target creature an opponent controls until Bind Evil leaves the battlefield. (That creature returns under its owner&apos;s control.)
+Sacrifice a planeswalker: Destroy Bind Evil. Any player may activate this ability.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/8_Bind Evil.png" num="8">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>WW</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Aldrich, Monster Hunter</name>
+			<text>Vigilance
+{2}{W}: Create a 1/1 white Warrior creature token.
+{2}{W}{W}: Creatures you control get +1/+1 until end of turn.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/4_Aldrich, Monster Hunter.png" num="4">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Hero</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Vallan Valkyrie</name>
+			<text>Flying
+Raid — At the beginning of your postcombat main phase, if you attacked this turn, untap all creatures that attacked this turn. When you do, gain life equal to the number of creatures you control.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/36_Vallan Valkyrie.png" num="36">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Angel Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dramatic Victory</name>
+			<text>Choose one, if {C}{C} was spent to cast this spell, choose both instead. —
+• Create X 1/1 white Warrior creature tokens, where X is the number of creatures you control.
+• You gain X life, where X is the number of creatures you control.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/12_Dramatic Victory.png" num="12">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>4WW</manacost>
+				<cmc>6</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Thunderclap Valkyrie</name>
+			<text>Flying
+As you cast this spell, you may pay its mana cost any number of times. When you do, copy this spell for each additional time you paid its mana cost.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/34_Thunderclap Valkyrie.png" num="34">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Angel Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>{/1CW/}C/W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ancient Valkyrie</name>
+			<text>Flying, first strike
+Ancient Valkyrie&apos;s power and toughness are equal to the number of creatures you control.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/5_Ancient Valkyrie.png" num="5">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Angel Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3C/WC/W</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>*/*</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Form Shifter</name>
+			<text>Whenever Form Shifter attacks, you may have it become a copy of another target creature except is has this ability.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/42_Form Shifter.png" num="42">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Illusion Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Frozen Leviathan</name>
+			<text>Icetouch (Whenever this creature deals damage to a creature, tap that creature. That creature doesn&apos;t untap during its controller&apos;s next untap step.)
+When Frozen Leviathan enters the battlefield, it deals 1 damage to each creature you don&apos;t control.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/51_Frozen Leviathan.png" num="51">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Leviathan</type>
+				<maintype>Creature</maintype>
+				<manacost>4UU</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sudden Frost</name>
+			<text>Choose one, if {C}{U} was spent to cast this spell, you may choose both instead —
+• Counter target creature spell.
+• Tap target creature, that creature doesn&apos;t untap during its controller&apos;s next untap step.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/70_Sudden Frost.png" num="70">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Frozen Dragon</name>
+			<text>Flying
+Icetouch (Whenever this creature deals damage to a creature, tap that creature. That creature doesn&apos;t untap during its controller&apos;s next untap step.)
+At the beginning of each opponent&apos;s precombat main phase, scry X, where X is the number of tapped creatures they control.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/50_Frozen Dragon.png" num="50">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Aspect of Knowledge</name>
+			<text>Prowess
+Whenever Aspect of Knowledge enters the battlefield or attacks, draw a number of cards equal to its power, then discard two cards.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/38_Aspect of Knowledge.png" num="38">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Avatar Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2CU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Spectral Commander</name>
+			<text>Illusion creatures you control have vigilance and can&apos;t be blocked by creatures with power 2 or greater.
+Whenever one or more creatures you control deal combat damage to an opponent, create a 2/2 blue Illusion creature token with &quot;When this creature becomes the target of a spell, sacrifice it.&quot;</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/67_Spectral Commander.png" num="67">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Reality Rift</name>
+			<text>Each player shuffles all nontoken creatures they control into their library then draws a card for each creature they controlled that left the battlefield this way.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/64_Reality Rift.png" num="64">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Gareth, Master of Illusions</name>
+			<text>Flash
+{1}{U}: Create a 2/2 blue Illusion creature token with &quot;When this creature becomes the target of a spell, sacrifice it.&quot;
+{2}{U}{U}: Illusion creatures you control can&apos;t be sacrificed and gain flying until end of turn.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/52_Gareth, Master of Illusions.png" num="52">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Hero</type>
+				<maintype>Creature</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Draugr Dragon</name>
+			<text>Flying
+{2}: Draugr Dragon gets +2/+0 until end of turn.
+{3}{B}: Return Draugr Dragon from your graveyard to your hand.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/81_Draugr Dragon.png" num="81">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon Zombie</type>
+				<maintype>Creature</maintype>
+				<manacost>4B</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Drain Vitality</name>
+			<text>Choose one—
+• Target creature gets -2/-2 until end of turn.
+• Target player loses 2 life.
+• Target player reveals their hand, then discards a nonland card at random.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/79_Drain Vitality.png" num="79">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Fallen Valkyrie</name>
+			<text>Flying
+Bloodied — As long as you have less than half your starting life total, Fallen Valkyrie has menace and haste.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/89_Fallen Valkyrie.png" num="89">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Angel Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ballador, Lord of the Draugr</name>
+			<text>Menace
+{2}{B}: Create a 2/2 black Zombie creature token.
+{2}{B}{B}: Exile up to three target creature cards from a graveyard. For each creature exiled this way, create a 2/2 black Zombie creature token.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/74_Ballador, Lord of the Draugr.png" num="74">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Zombie Hero</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Headhunter Goblin</name>
+			<text>Blitz {3}{B} (If you cast this spell for its blitz cost, it gains haste and &quot;When this creature dies, draw a card&quot;. Sacrifice it at the beginning of the next end step.)
+Other creatures you control have first strike.
+Whenever a creature dies, put a +1/+1 counter on Headhunter Goblin.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/93_Headhunter Goblin.png" num="93">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Goblin Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Draugr Explorer</name>
+			<text>At the beginning of your upkeep, you lose 1 life.
+Raid — At the beginning of your end step, if you attacked with a creature this turn, create a token that&apos;s a copy of Draugr Explorer.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/82_Draugr Explorer.png" num="82">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Distorted Encounter</name>
+			<text>Search your library for two cards with the same name, reveal them, and put one of those cards into your hand. Then shuffle and put the other card on top.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/78_Distorted Encounter.png" num="78">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Aspect of Nightmare</name>
+			<text>Deathtouch
+Whenever Aspect of Nightmare enters the battlefield or attacks, target opponent reveals their hand. You choose a noncreature, nonland card from it. That player discards that card.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/72_Aspect of Nightmare.png" num="72">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Avatar Nightmare</type>
+				<maintype>Creature</maintype>
+				<manacost>CB</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dwarven Devastor</name>
+			<text>Trample
+Whenever a Dwarf or Berserker enters the battlefield under your control, it deals damage equal to its power to up to one target creature.
+{3}{R}: Creatures you control get +X/+0 until end of turn, where X is Dwarven Devastor&apos;s power. Activate only as a sorcery.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/115_Dwarven Devastor.png" num="115">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dwarf Berserker</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mad Bomber</name>
+			<text>{1}{R}, Put a Bomb counter on Mad Bomber: Mad Bomber deals 1 damage to target creature. Activate only once each turn and only as a sorcery.
+When Mad Bomber dies, it deals X damage to each creature, where X is the number of Bomb counters on Mad Bomber.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/126_Mad Bomber.png" num="126">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dwarf Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Warstorm Surge</name>
+			<text>Whenever a creature enters the battlefield under your control, it deals damage equal to its power to any target.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/139_Warstorm Surge.png" num="139">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>5R</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Ancient Hound</name>
+			<text>Trample, prowess
+{1}{R}: Exile target instant or sorcery card from a graveyard. Until the end of your next turn, you may play that card. You may spend {C} as though it is mana of any color to cast that card.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/106_Ancient Hound.png" num="106">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental Hound</type>
+				<maintype>Creature</maintype>
+				<manacost>2C/RC/R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Aspect of Fire</name>
+			<text>First strike
+Whenever Aspect of Fire enters the battlefield or attacks, it deals damage equal to its power to target player or planeswalker.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/107_Aspect of Fire.png" num="107">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Avatar Berserker</type>
+				<maintype>Creature</maintype>
+				<manacost>1CR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Immersturm Archfiend</name>
+			<text>Flying, defender
+Bloodied — As long as you have less than half your starting life total, Immersturm Archfiend can attack as though it didn&apos;t have defender.
+{1}{R}, Pay 2 life, Discard a card: Draw a card. Activate only as a sorcery and only once each turn.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/125_Immersturm Archfiend.png" num="125">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Summit the Fortress</name>
+			<text>Exile the top three cards of your library. Until the end of your next turn, you may cast spells exiled this way. When you do, Summit the Fortress deals damage to any target equal to twice the number of lands exiled this way.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/134_Summit the Fortress.png" num="134">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Rhilik, King of the Goblins</name>
+			<text>First strike
+{1}{R}: Create a 1/1 red Goblin creature token. It gains haste until end of turn.
+{4}{R}{R}: Rhilik, King of the Goblins deals X damage to any target, where X is the number of Goblins you control. Activate only as a sorcery.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/129_Rhilik, King of the Goblins.png" num="129">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Goblin Hero</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Forest Flourishing</name>
+			<text>Search your library for up to three basic land cards and put them onto the battlefield tapped. Then shuffle.
+You gain life equal to the number of lands you control.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/162_Forest Flourishing.png" num="162">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Weeping Willow-Ent</name>
+			<text>Whenever another creature you control dies, put a +1/+1 counter on Weeping Willow-Ent.
+When Weeping Willow-Ent dies, return target creature with lesser power from your graveyard to the battlefield.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/173_Weeping Willow-Ent.png" num="173">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Treefolk</type>
+				<maintype>Creature</maintype>
+				<manacost>GG</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Come Alive</name>
+			<text>Lands you control are 3/3 green Treefolk creatures. They&apos;re still lands.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/150_Come Alive.png" num="150">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Striding Illusionist</name>
+			<text>Reach
+Illusion creatures you control have reach.
+Raid — When Striding Illusionist enters the battlefield, if you attacked this turn, create a 2/2 blue Illusion creature tokens with &quot;When this creature becomes the target of a spell, sacrifice it.&quot;</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/170_Striding Illusionist.png" num="170">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gaenir, Leader of the Alfa</name>
+			<text>Vigilance
+{3}{G}: Create a 1/1 green Elf Druid creature token. It has &quot;{T}: Add {G}.&quot;
+{4}{G}{G}: Other creatures you control gain &quot;{T}: Add {G}{G} to your mana pool.&quot; until end of turn.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/164_Gaenir, Leader of the Alfa.png" num="164">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elf Hero</type>
+				<maintype>Creature</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Warborn Beast Rider</name>
+			<text>Trample
+Raid — At the beginning of your postcombat main phase, if you attacked this turn and Warborn Beast Rider didn&apos;t enter the battlefield this turn, untap all lands you control.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/172_Warborn Beast Rider.png" num="172">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dragonroot Snare</name>
+			<text>Destroy target nonland permanent. Its controller creates a colorless Land token named Wastes. It has &quot;{T}: Add {C}.&quot;</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/153_Dragonroot Snare.png" num="153">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Aspect of War</name>
+			<text>Trample
+Whenever Aspect of War enters the battlefield or attacks, it fights target creature you don&apos;t control.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/144_Aspect of War.png" num="144">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Avatar Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3CG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Spiked Golem</name>
+			<text>Trample
+When Spiked Golem enters the battlefield, it deals 4 damage to target creature.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/202_Spiked Golem.png" num="202">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Golem</type>
+				<maintype>Creature</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Golden Serpent</name>
+			<text>Golden Serpent enters the battlefield with X +1/+1 counters on it.
+{3}: Put a +1/+1 counter on Golden Serpent.
+{1}, Remove a +1/+1 counter from Golden Serpent: Create a tapped Treasure token.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/199_Golden Serpent.png" num="199">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Serpent</type>
+				<maintype>Creature</maintype>
+				<manacost>X</manacost>
+				<cmc>0</cmc>
+				<pt>0/0</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Thrumming Stone</name>
+			<text>Spells you cast have ripple 4. (When you cast this spell, you may reveal the top four cards of your library. You may cast spells with the same name as this spell from among those cards without paying their mana costs. Put the rest on the bottom of your library.)</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/205_Thrumming Stone.png" num="205">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Sword and Spear</name>
+			<text>Equipped creature gets +1/+2 and has double strike.
+Equip {2}</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/203_Sword and Spear.png" num="203">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Lotus Altar</name>
+			<text>Sacrifice a creature: Put a charge counter on Lotus Altar.
+{T}: Add {C}.
+{T}, Remove three charge counters from Lotus Altar, Sacrifice Lotus Altar: Add three mana of any one color to your mana pool.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/200_Lotus Altar.png" num="200">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Svanr, Lord of Blizzards</name>
+			<text>Flying, icetouch (Whenever this creature deals damage to a creature, tap that creature. That creature doesn&apos;t untap during its controller&apos;s next untap step.)
+When Svanr, Lord of Blizzards enters the battlefield, it deals 1 damage to target creature you don&apos;t control.
+{4}{CW}{CU}: Exile target creature. Return that card to the battlefield under its owner&apos;s control at the beginning of the next end step.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/195_Svanr, Lord of Blizzards.png" num="195">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — God</type>
+				<maintype>Creature</maintype>
+				<manacost>3C/WC/U</manacost>
+				<cmc>5</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Murtr, Lord of Seas</name>
+			<text>Flash, ward {2}
+When Murtr, Lord of Seas enters the battlefield, gain control of target creature for as long as you control Murtr, Lord of Seas.
+At the beginning of your upkeep, draw two cards, then discard a card.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/190_Murtr, Lord of Seas.png" num="190">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — God</type>
+				<maintype>Creature</maintype>
+				<manacost>4C/UC/B</manacost>
+				<cmc>6</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dreyri, Lord of Blood</name>
+			<text>Haste, deathtouch
+When Dreyri, Lord of Blood enters the battlefield, it deals damage equal to its power to each player.
+Bloodied — As long as you have less than half your starting life total, creatures you control have haste and deathtouch.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/178_Dreyri, Lord of Blood.png" num="178">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — God</type>
+				<maintype>Creature</maintype>
+				<manacost>{/1CB/}C/R</manacost>
+				<cmc>4</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Vidr, Lord of Land</name>
+			<text>Haste, trample
+When Viðr, Lord of Land enters the battlefield, create two colorless Land tokens named Wastes. They have &quot;{T}: Add {C}.&quot;
+{C}{C}: Add two mana of any one color.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/198_Vidr, Lord of Land.png" num="198">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — God</type>
+				<maintype>Creature</maintype>
+				<manacost>3C/RC/G</manacost>
+				<cmc>5</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Heill, Lord of Nature</name>
+			<text>Lifelink, vigilance
+Whenever Heill, Lord of Nature enters the battlefield or attacks, create a */* green Wolf creature token with &quot;This creature&apos;s power and toughness are equal to the number of Wolf creatures you control.&quot;
+{4}{CG}{CW}, {T}: You gain life equal to the greatest power among creatures you control.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/186_Heill, Lord of Nature.png" num="186">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — God</type>
+				<maintype>Creature</maintype>
+				<manacost>2C/GC/W</manacost>
+				<cmc>4</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hefnd, Lord of Vengeance</name>
+			<text>Flash, flying
+When Hefnd, Lord of Vengeance enters the battlefield, create a 1/1 white Warrior creature token. Then create another one of those tokens for each creature you controlled that died that turn.
+Creature tokens you control get +1/+0.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/185_Hefnd, Lord of Vengeance.png" num="185">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — God</type>
+				<maintype>Creature</maintype>
+				<manacost>2C/WC/B</manacost>
+				<cmc>4</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Eyrir, Lord of Winds</name>
+			<text>Flying, prowess
+When Eyrir, Lord of Winds enters the battlefield, create two Treasure tokens.
+Whenever you cast your first instant or sorcery spell that targets a creature each turn, copy that spell. You may choose new targets for the copy.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/179_Eyrir, Lord of Winds.png" num="179">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — God</type>
+				<maintype>Creature</maintype>
+				<manacost>2C/UC/R</manacost>
+				<cmc>4</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Líflát, Lord of Death</name>
+			<text>Deathtouch, vigilance
+When Líflát, Lord of Death enters the battlefield, destroy target creature you don&apos;t control.
+Whenever a creature you control dies, mill two cards, then draw a card.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/188_Líflát, Lord of Death.png" num="188">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — God</type>
+				<maintype>Creature</maintype>
+				<manacost>3C/BC/G</manacost>
+				<cmc>5</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>3/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Formadr, Lord of Combat</name>
+			<text>First strike, haste
+When Formaðr, Lord of Combat enters the battlefield, creatures you control get +1/+1 until end of turn.
+When Formaðr, Lord of Combat dies, it deals damage equal to its power to target creature or planeswalker you don&apos;t control.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/181_Formadr, Lord of Combat.png" num="181">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — God</type>
+				<maintype>Creature</maintype>
+				<manacost>{/1CR/}C/W</manacost>
+				<cmc>4</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hregg, Lord of Storms</name>
+			<text>Flash, trample
+When Hregg, Lord of Storms enters the battlefield, return another target creature to its owner&apos;s hand. If you controlled that creature, draw a card.
+{CG}{CU}: The next spell you cast this turn can be cast as though it had flash. That spell can&apos;t be countered.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/187_Hregg, Lord of Storms.png" num="187">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — God</type>
+				<maintype>Creature</maintype>
+				<manacost>{/1CG/}C/U</manacost>
+				<cmc>4</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Stridha&apos;s Mead Hall</name>
+			<text>Stridha&apos;s Mead Hall enters the battlefield tapped.
+{1}, {T}: Add {W}{W}.
+{1}{W}, {T}: Create a 1/1 white Warrior creature token.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/216_Stridha&apos;s Mead Hall.png" num="216">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Jokull&apos;s Mead Hall</name>
+			<text>Jokull&apos;s Mead Hall enters the battlefield tapped.
+{1}, {T}: Add {U}{U}.
+{3}{U}, {T}: Tap target creature. That creature doesn&apos;t untap during its controller&apos;s next untap step.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/214_Jokull&apos;s Mead Hall.png" num="214">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Taela&apos;s Mead Hall</name>
+			<text>Taela&apos;s Mead Hall enters the battlefield tapped.
+{1}, {T}: Add {B}{B}.
+{2}{B}{B}, {T}: Target creature gets -2/-2 until end of turn. Activate only as a sorcery.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/217_Taela&apos;s Mead Hall.png" num="217">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Dynja&apos;s Mead Hall</name>
+			<text>Dynja&apos;s Mead Hall enters the battlefield tapped.
+{1}, {T}: Add {R}{R}.
+{1}{R}{R}, {T}: Dynja&apos;s Mead Hall deals 2 damage to target player or planeswalker.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/211_Dynja&apos;s Mead Hall.png" num="211">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Vöxtr&apos;s Mead Hall</name>
+			<text>Vöxtr&apos;s Mead Hall enters the battlefield tapped.
+{1}, {T}: Add {G}{G}.
+{G}, {T}: Put a +1/+1 counter on target creature. Activate only during your turn and only as a sorcery.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/221_Vöxtr&apos;s Mead Hall.png" num="221">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Echon Warcaster</name>
+			<text>Flying
+{3}{W}: Create a 1/1 white Bird creature token with flying.
+{4}{C}{C}: Tap each creature you don&apos;t control.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/16_Echon Warcaster.png" num="16">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Angel Wizard Hero</type>
+				<maintype>Creature</maintype>
+				<manacost>2C/W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Echon Frostborn</name>
+			<text>Icetouch (Whenever this creature deals damage to a creature, tap that creature. That creature doesn&apos;t untap during its controller&apos;s next untap step.)
+{3}{U}: Tap target creature. That creature doesn&apos;t untap during its controller&apos;s next untap step.
+{2}{C}{C}: Return target creature to its owner&apos;s hand.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/40_Echon Frostborn.png" num="40">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior Hero</type>
+				<maintype>Creature</maintype>
+				<manacost>2C/U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Echon Draugr</name>
+			<text>Deathtouch
+{3}{B}{B}: Target player discards two cards. Activate only as a sorcery.
+{3}{C}{C}: Return target creature from your graveyard to the battlefield.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/85_Echon Draugr.png" num="85">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Warrior Hero</type>
+				<maintype>Creature</maintype>
+				<manacost>2C/B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Echon Goblin</name>
+			<text>Haste
+{R}{R}: Echon Goblin deals damage to target creature equal to the number of creatures you control. Activate only once each turn.
+{2}{C}{C}: Creatures you control get &quot;{T}: This creature deals damage to target creature or player equal to its power.&quot; until end of turn.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/117_Echon Goblin.png" num="117">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Goblin Scout Hero</type>
+				<maintype>Creature</maintype>
+				<manacost>2C/R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Echon Lancer</name>
+			<text>Trample
+{G}: Add {C}. Activate only once each turn.
+{1}{C}{C}: Destroy target artifact, enchantment, or creature with flying. Activate only once each turn.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/157_Echon Lancer.png" num="157">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Warrior Hero</type>
+				<maintype>Creature</maintype>
+				<manacost>2C/G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Return of the Ranks</name>
+			<text>Return to the battlefield all nonland cards in your graveyard that were put there from the battlefield this turn. If {C} was spent to cast this spell, you gain life equal to the number of creatures returned to the battlefield this way.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/29_Return of the Ranks.png" num="29">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3C/WC/W</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ice Lock</name>
+			<text>Counter target spell, activated ability, or triggered ability. (Mana abilities can&apos;t be targeted.)
+If {C} was spent to cast this spell, you may tap target creature. That creature doesn&apos;t untap during its controller&apos;s next untap step.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/54_Ice Lock.png" num="54">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>{/1CU/}C/U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Assassin&apos;s Slash</name>
+			<text>Destroy target creature. If {C} was spent to cast this spell, that creature&apos;s controller loses life equal to that creature&apos;s power.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/73_Assassin&apos;s Slash.png" num="73">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>{/1CB/}B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Burn in Hellfire</name>
+			<text>Burn in Hellfire deals 2 damage to each creature you don&apos;t control. If {C} was spent to cast this spell, Burn in Hellfire also deals 2 damage to each opponent and planeswalker you don&apos;t control.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/110_Burn in Hellfire.png" num="110">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>{/1CR/}C/R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Awaken the Earth</name>
+			<text>Put X +1/+1 counters on target land you control. That land becomes a 0/0 Elemental creature with haste. It&apos;s still a land. If {C} was spent to cast this spell, untap X lands.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/VRM-files/img/146_Awaken the Earth.png" num="146">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>XC/GG</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Dráp, God-Slayer</name>
+			<text>This spell costs {1} less to cast for each God and each Hero on the battlefield.
+When you cast this spell, exile all Gods.
+When Dráp, God-Slayer dies, exile it, then return all other exiled God cards to the battlefield under their owner&apos;s control.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/VRM-files/img/1_Dráp, God-Slayer.png" num="1">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — God Wolf</type>
+				<maintype>Creature</maintype>
+				<manacost>6CC</manacost>
+				<cmc>8</cmc>
+				<pt>7/7</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dráp&apos;s Chosen</name>
+			<text>When you cast Dráp&apos;s Chosen, creatures get -1/-1 for each of their colors until end of turn.
+{2}{C}: Destroy target non-God creature.
+When Dráp&apos;s Chosen dies, search your library for a God or Hero card not named Dráp&apos;s Chosen, reveal it, and put it into your hand. Then shuffle.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/VRM-files/img/2_Dráp&apos;s Chosen.png" num="2">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Hero</type>
+				<maintype>Creature</maintype>
+				<manacost>3CC</manacost>
+				<cmc>5</cmc>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Foretold One</name>
+			<text>The Foretold One is all colors.
+Spend only colored mana to cast this spell.
+Lifelink, prowess, deathtouch, haste, vigilance
+When The Foretold One enters the battlefield or dies, exile up to one target creature with {C} in its cost. ({CW} has {C} in its cost.)</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/VRM-files/img/3_The Foretold One.png" num="3">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — God Hero</type>
+				<maintype>Creature</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+				<coloridentity>WUBRG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ragnarok</name>
+			<text>Flying, ward {2}, menace, first strike, vigilance
+Whenever you reveal a card with ripple from your library, you may cast it. (You still pay its costs.)
+{5}: The next spell you cast this turn has ripple 5. (When you cast that spell, you may reveal the top five cards of your library. You may cast any revealed cards with the same name as that spell without paying their mana costs. Put the rest on the bottom of your library.)</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/VRM-files/img/191_Ragnarok.png" num="191">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — God Serpent</type>
+				<maintype>Creature</maintype>
+				<manacost>C/WC/UC/BC/RC/G</manacost>
+				<cmc>5</cmc>
+				<colors>WUBRG</colors>
+				<coloridentity>WUBRG</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Heart of the Immersturm</name>
+			<text>Heart of the Immersturm enters the battlefield tapped. It doesn&apos;t untap during its controller&apos;s next untap step.
+{T}: Add one mana of any type.
+{5}, {T}: Add one mana of any type for each attacking creature you control. Until end of turn, you don&apos;t lose this mana as steps and phases end.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/VRM-files/img/213_Heart of the Immersturm.png" num="213">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Stridha, God of War</name>
+			<text>When you cast this spell, create two 1/1 white Warrior creature tokens.
+{2}{W}: Exile another target creature. Return that card to the battlefield under its owner&apos;s control at the beginning of the next end step.
+When Stridha, God of War dies, you gain 2 life for each creature you control.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/VRM-files/img/32_Stridha, God of War.png" num="32">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — God Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Jokull, God of Frost</name>
+			<text>When you cast this spell, return target creature to its owner&apos;s hand.
+{1}{U}: Target permanent you control phases out. (Treat it and anything attached to it as though they don&apos;t exist until its controller&apos;s next turn.)
+When Jokull, God of Frost dies, tap all creatures you don&apos;t control.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/VRM-files/img/59_Jokull, God of Frost.png" num="59">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — God Giant</type>
+				<maintype>Creature</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Taela, God of Trickery</name>
+			<text>When you cast this spell, target creature you don&apos;t control gets -4/-4 until end of turn.
+{4}{B}: Target opponent discards two cards. Activate only as a sorcery and only once each turn.
+When Taela, God of Trickery dies, destroy target creature.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/VRM-files/img/105_Taela, God of Trickery.png" num="105">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — God Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dynja, God of Thunder</name>
+			<text>When you cast this spell, draw a card, then discard a card.
+{1}{R}: Dynja, God of Thunder deals 3 damage to any target. Activate only as a sorcery and only once each turn.
+When Dynja, God of Thunder dies, exile the top three cards of your library. Until the end of your next turn, you may play cards exiled this way.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/VRM-files/img/116_Dynja, God of Thunder.png" num="116">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — God Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Voxtr, God of Growth</name>
+			<text>When you cast this spell, search your library for a land card and put it onto the battlefield tapped. Then shuffle.
+{1}{G}: Put a +1/+1 counter on target creature.
+When Vöxtr, God of Growth dies, put three +1/+1 counters on each creature you control.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/VRM-files/img/171_Voxtr, God of Growth.png" num="171">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — God Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fadir, All-Father</name>
+			<text>When you cast this spell, creatures you control gain indestructible until the beginning of your next turn.
+{3}: Target creature you control fights target creature you don&apos;t control.
+When Fadir, All-Father dies, exile all nonland permanents.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/VRM-files/img/180_Fadir, All-Father.png" num="180">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elder God</type>
+				<maintype>Creature</maintype>
+				<manacost>WUBRG</manacost>
+				<cmc>5</cmc>
+				<colors>WUBRG</colors>
+				<coloridentity>WUBRG</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Vaporizing Light</name>
+			<text>Exile up to X target creatures. You gain X life.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/VRM-files/img/37_Vaporizing Light.png" num="37">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>XWWW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Phantasmaclasm</name>
+			<text>Create X 2/2 blue Illusion creature tokens with &quot;When this creature becomes the target of a spell, sacrifice it.&quot;
+Draw X cards, then discard that many cards.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/VRM-files/img/62_Phantasmaclasm.png" num="62">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XUUU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Hateful Trick</name>
+			<text>Each opponent discards X cards and loses X life. You gain life equal to the life lost this way.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/VRM-files/img/92_Hateful Trick.png" num="92">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>XBBB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Divine Thunder</name>
+			<text>Divine Thunder deals X damage to up to X targets. (Each creature, planeswalker, and player may only be targeted once.)</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/VRM-files/img/114_Divine Thunder.png" num="114">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>XRRR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Extreme Growth</name>
+			<text>Put X +1/+1 counters on each of up to X target creatures.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/VRM-files/img/159_Extreme Growth.png" num="159">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>XGGG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Askr, the First</name>
+			<text>Trample
+{2}{C}: Put a +1/+1 counter on each land you control. Activate only as a sorcery and only once each turn.
+{2}{G}: Lands you control become 1/1 green Treefolk creatures until end of turn. (They&apos;re still lands.)</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/VRM-files/img/143_Askr, the First.png" num="143">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Treefolk</type>
+				<maintype>Creature</maintype>
+				<manacost>3C/GC/G</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hildr, Leader of the Valkyries</name>
+			<text>Flying
+Whenever Hildr, Leader of the Valkyries deals combat damage to a player, create a 4/4 white Angel creature token with flying.
+{6}{W}{W}: Angels you control gain lifelink until end of turn.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/VRM-files/img/23_Hildr, Leader of the Valkyries.png" num="23">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Angel Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Liliana, Death&apos;s Unraveler</name>
+			<text>Return up to one target creature card from your graveyard to your hand.
+Return target creature card from your graveyard to the battlefield.
+Exile any number of cards from graveyards. For each nonland card exiled this way, create a 2/2 black Zombie creature token.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/VRM-files/img/97_Liliana, Death&apos;s Unraveler.png" num="97">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Liliana</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<loyalty>4</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Jace, the Mind Mage</name>
+			<text>Until your next turn, whenever a creature an opponent controls attacks, it gets -2/-0 until end of turn.
+Scry 2, then draw a card.
+Each player exiles all cards from his or her library face down, then shuffles all cards from his or her graveyard into their library.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/VRM-files/img/58_Jace, the Mind Mage.png" num="58">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Jace</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<loyalty>3</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Domri, Caller of the Herd</name>
+			<text>Up to one target creature you control gains trample and haste until end of turn.
+Search your library for a creature card with converted mana cost of X or less and put it onto the battlefield. Then shuffle your library.
+You get an emblem with &quot;Creatures you control get +1/+1 and have ‘{T}: This creature fights target creature you don&apos;t control.&apos;&quot;</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/VRM-files/img/177_Domri, Caller of the Herd.png" num="177">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Domri</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>2RG</manacost>
+				<cmc>4</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<loyalty>3</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Razeck, Great General</name>
+			<text>Create a 1/1 white Soldier creature token.
+Creatures you control get +2/+2 and gain trample until end of turn.
+Each player&apos;s life total becomes equal to the number of creatures they control.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/VRM-files/img/192_Razeck, Great General.png" num="192">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Razeck</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>2GW</manacost>
+				<cmc>4</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<loyalty>4</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Chandra, Burning Spirit</name>
+			<text>Exile the top two cards of your library. Until end of turn, you may play cards exiled this way.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/VRM-files/img/112_Chandra, Burning Spirit.png" num="112">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Chandra</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<loyalty>4</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Vera, Frost Mage</name>
+			<text>Tap target creature. It doesn&apos;t untap during its controller&apos;s next untap step.
+Creatures your opponents control don&apos;t untap during their controllers&apos; next untap step.
+Target player gets an emblem with &quot;Creatures you control don&apos;t untap during your untap step.&quot;</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/VRM-files/img/197_Vera, Frost Mage.png" num="197">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Vera</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>2WU</manacost>
+				<cmc>4</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<loyalty>3</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Wastes</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/223_Wastes.png" num="223">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Soldier VRM</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/3t_Soldier.png" num="3">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Illusion VRM</name>
+			<text>When this creature becomes the target of a spell, sacrifice it.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/5t_Illusion.png" num="5">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Illusion</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Spirit VRM</name>
+			<text>Flying</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/4t_Spirit.png" num="4">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Zombie VRM</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/6t_Zombie.png" num="6">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Zombie</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Treasure VRM</name>
+			<text>{T}, Sacrifice this artifact: Add one mana of any color.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/12t_Treasure.png" num="12">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact — Treasure</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Goblin VRM</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/7t_Goblin.png" num="7">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Goblin</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Treefolk VRM</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/9t_Treefolk.png" num="9">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Treefolk</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Wolf VRM</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/10t_Wolf.png" num="10">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Wolf</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Elf Druid VRM</name>
+			<text>{T}: Add {G}.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/8t_Elf Druid.png" num="8">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Elf Druid</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Valla Remastered Archetypes VRM</name>
+			<text>{W}{U} — Icetouch
+{U}{B} — Tempo
+{B}{R} — Bloodied
+{R}{G} — Five Color Colorless
+{G}{W} — Life Gain
+{W}{B} — Tokens
+{U}{R} — Combat Spells
+{B}{G} — Death Triggers
+{R}{W} — Aggro
+{G}{U} — Flash</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/1t_Valla Remastered Archetypes.png" num="1">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Reminder</type>
+				<maintype>Reminder</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WUBRG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Pyre VRM</name>
+			<text>{T}, Sacrifice this artifact: Add {C}.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/11t_Pyre.png" num="11">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact — Pyre</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Angel VRM</name>
+			<text>Flying</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/VRM-files/img/2t_Angel.png" num="2">VRM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Angel</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+	</cards>
+</cockatrice_carddatabase>

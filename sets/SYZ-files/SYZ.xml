@@ -1,0 +1,5027 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cockatrice_carddatabase version='4'>
+	<sets>
+		<set>
+			<name>SYZ</name>
+			<longname>Syèlzile: Islands in the Sky</longname>
+			<settype>Custom</settype>
+			<releasedate>2026-06-06</releasedate>
+		</set>
+	</sets>
+	<cards>
+		<card>
+			<name>Bardic Bird</name>
+			<text>Flying
+When Bardic Bird enters the battlefield, creatures you control get +1/+1 until end of turn.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/8_Bardic Bird.png" num="8">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gustblown Archer</name>
+			<text>Flying
+Gustblown Archer can only block creatures with flying and Vehicles.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/20_Gustblown Archer.png" num="20">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Archer</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sky Ranger</name>
+			<text>Flying
+Whirlwind (Whenever this creature deals combat damage to a player, you may exile it. Then return it to the battlefield under its owner&apos;s control.)
+When Sky Ranger enters the battlefield, scry 1.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/32_Sky Ranger.png" num="32">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Archer</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Meadows Guide</name>
+			<text>Vigilance
+When Meadows Guide enters the battlefield, scour a Plains card. (To scour a Plains card., reveal cards from the top of your library until you reveal a Plains card.. Put that card into your hand and the rest on the bottom of your library in a random order.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/25_Meadows Guide.png" num="25">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Deathrattle Wizard</name>
+			<text>Whirlwind (Whenever this creature deals combat damage to a player, you may exile it. Then return it to the battlefield under its owner&apos;s control.)
+When Deathrattle Wizard leaves the battlefield, you gain life equal to its power.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/13_Deathrattle Wizard.png" num="13">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Zwazo Sharpshooter</name>
+			<text>({2W} can be paid with any two mana or with {W}. This card&apos;s mana value is 5.)
+First strike, reach
+Whirlwind (Whenever this creature deals combat damage to a player, you may exile it. Then return it to the battlefield under its owner&apos;s control.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/48_Zwazo Sharpshooter.png" num="48">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Archer</type>
+				<maintype>Creature</maintype>
+				<manacost>42/W</manacost>
+				<cmc>6</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Aven Legionary</name>
+			<text>Whirlwind (Whenever this creature deals combat damage to a player, you may exile it. Then return it to the battlefield under its owner&apos;s control.)
+When Aven Legionary enters the battlefield, create a 1/1 white Bird Soldier creature token with flying.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/7_Aven Legionary.png" num="7">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ferocious Fencer</name>
+			<text>({2W} can be paid with any two mana or with {W}. This card&apos;s mana value is 4.)
+First strike</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/17_Ferocious Fencer.png" num="17">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>22/W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Zwazo Infiltrator</name>
+			<text>Whirlwind (Whenever this creature deals combat damage to a player, you may exile it. Then return it to the battlefield under its owner&apos;s control.)
+When Zwazo Infiltrator enters the battlefield, put a +1/+1 counter on another target creature you control.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/47_Zwazo Infiltrator.png" num="47">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Zwazo Brawler</name>
+			<text>({2W} can be paid with any two mana or with {W}. This card&apos;s mana value is 7.)
+First strike
+Whenever a Bird enters the battlefield under your control, put a +1/+1 counter on Zwazo Brawler.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/46_Zwazo Brawler.png" num="46">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>32/W2/W</manacost>
+				<cmc>7</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gift of Feathers</name>
+			<text>Whenever a creature enters the battlefield under your control, you may pay {1}. If you do, attach Gift of Feathers to that creature.
+Equipped creature gets +1/-1 and has flying.
+Equip {3}</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/19_Gift of Feathers.png" num="19">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Spark of Inspiration</name>
+			<text>({2W} can be paid with any two mana or with {W}. This card&apos;s mana value is 3.)
+Target creature gets +2/+2 until end of turn.
+Draw a card.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/33_Spark of Inspiration.png" num="33">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1/2/W</manacost>
+				<cmc>12</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Zwazo Blade</name>
+			<text>({2W} can be paid with any two mana or with {W}. This card&apos;s mana value is 5.)
+Whirlwind (Whenever this creature deals combat damage to a player, you may exile it. Then return it to the battlefield under its owner&apos;s control.)
+When Zwazo Blade enters the battlefield, you may attach an equipment you control to it. If you don&apos;t, put a +1/+1 counter on it.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/45_Zwazo Blade.png" num="45">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1/2/W2/W</manacost>
+				<cmc>14</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Magi-Blade Wizard</name>
+			<text>Whirlwind (Whenever this creature deals combat damage to a player, you may exile it. Then return it to the battlefield under its owner&apos;s control.)
+When Magi-Blade Wizard enters the battlefield, create a Weapon token attached to it. (It&apos;s an Equipment artifact with equip {2} and &quot;Equipped creature gets +1/+1.&quot;)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/24_Magi-Blade Wizard.png" num="24">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Inspiring Aven</name>
+			<text>Flying
+{3}{2W}, Sacrifice Inspiring Aven: Creatures you control get +1/+1 until end of turn.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/22_Inspiring Aven.png" num="22">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Moon-Feather Fowl</name>
+			<text>Whirlwind (Whenever this creature deals combat damage to a player, you may exile it. Then return it to the battlefield under its owner&apos;s control.)
+When Moon-Feather Fowl enters the battlefield, you gain 3 life.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/27_Moon-Feather Fowl.png" num="27">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Striking Spear</name>
+			<text>Whenever a Bird creature enters the battlefield under your control, you may attach Striking Spear to it.
+Equipped creature gets +2/+0 and has first strike.
+Equip {3}</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/36_Striking Spear.png" num="36">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Winds of Change</name>
+			<text>({2W} can be paid with any two mana or with {W}. This card&apos;s mana value is 7.)
+This spell costs {1} less to cast for each creature you control that entered the battlefield this turn.
+Exile target creature.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/44_Winds of Change.png" num="44">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>32/W2/W</manacost>
+				<cmc>7</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Fight-Feather Aven</name>
+			<text>Whirlwind (Whenever this creature deals combat damage to a player, you may exile it. Then return it to the battlefield under its owner&apos;s control.)
+When Fight-Feather Aven enters the battlefield, choose flying, first strike, or lifelink. Put a counter of that type on it.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/18_Fight-Feather Aven.png" num="18">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Experienced Rig-Runner</name>
+			<text>Experienced Rig-Runner crews Vehicles as though its power were 2 greater.
+Whenever a Vehicle crewed by Experienced Rig-Runner deals combat damage to a player, draw a card.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/65_Experienced Rig-Runner.png" num="65">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Pirate</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sky Sail Vanguard</name>
+			<text>Notoriety (If you control five or more artifacts and/or Pirates, you become notorious for the rest of the game.)
+As long as you&apos;re notorious, Sky Sail Vanguard has flying and prowess.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/82_Sky Sail Vanguard.png" num="82">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Pirate</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kitesail Corsair</name>
+			<text>Kitesail Corsair has flying as long as it&apos;s attacking.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/70_Kitesail Corsair.png" num="70">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Pirate</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cruising Skyfish</name>
+			<text>({2U} can be paid with any two mana or with {U}. This card&apos;s mana value is 6.)
+Flying, ward {1} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/60_Cruising Skyfish.png" num="60">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fish</type>
+				<maintype>Creature</maintype>
+				<manacost>22/U2/U</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Savvy Shipwright</name>
+			<text>Notoriety (If you control five or more artifacts and/or Pirates, you become notorious for the rest of the game.)
+Whenever a Vehicle enters the battlefield under you control for the first time each turn, put a +1/+1 counter on Savvy Shipwright. If you&apos;re notorious, put a +1/+1 counter on each Vehicle you control.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/79_Savvy Shipwright.png" num="79">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dwarf Pirate Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cascada Tamer</name>
+			<text>When Cascada Tamer enters the battlefield, return target creature an opponent controls with power less than or equal to the number of Pirates you control to its owner&apos;s hand.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/58_Cascada Tamer.png" num="58">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Pirate Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Expert Navigator</name>
+			<text>({2U} can be paid with any two mana or with {U}. This card&apos;s mana value is 4.)
+Notoriety (If you control five or more artifacts and/or Pirates, you become notorious for the rest of the game.)
+As long as you&apos;re notorious, Vehicles crewed by Expert Navigator can&apos;t be blocked.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/66_Expert Navigator.png" num="66">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dwarf Pirate Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>2/U2/U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Pathcutter Pirate</name>
+			<text>Notoriety (If you control five or more artifacts and/or Pirates, you become notorious for the rest of the game.)
+As long as you are notorious, Pathcutter Pirate can&apos;t be blocked.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/74_Pathcutter Pirate.png" num="74">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Pirate Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sky-Sail Skiff</name>
+			<text>({2U} can be paid with any two mana or with {U}. This card&apos;s mana value is 3.)
+Flying
+Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/83_Sky-Sail Skiff.png" num="83">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>1/2/U</manacost>
+				<cmc>12</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Spell Slash</name>
+			<text>({2U} can be paid with any two mana or with {U}. This card&apos;s mana value is 5.)
+Counter target spell.
+Draw a card.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/85_Spell Slash.png" num="85">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>22/UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Skyship Harpoonist</name>
+			<text>Reach
+Skyship Harpoonist can block only creatures with flying.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/84_Skyship Harpoonist.png" num="84">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Pirate</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Buckshot Buccaneer</name>
+			<text>Notoriety (If you control five or more artifacts and/or Pirates, you become notorious for the rest of the game.)
+Vigilance
+Whenever Buckshot Buccaneer crews a Vehicle, if you are notorious, untap it. This ability only triggers once per turn.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/54_Buckshot Buccaneer.png" num="54">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Pirate</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Net Snare</name>
+			<text>({2U} can be paid with any two mana or with {U}. This card&apos;s mana value is 3.)
+This spell has flash as long as you control a Pirate.
+Return target creature to its owner&apos;s hand.
+Draw a card.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/73_Net Snare.png" num="73">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2/UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Pirate&apos;s Plunder</name>
+			<text>Notoriety (If you control five or more artifacts and/or Pirates, you become notorious for the rest of the game.)
+Draw two cards.
+If you are notorious, create two Treasure tokens. (They&apos;re artifacts with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/75_Pirate&apos;s Plunder.png" num="75">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Daring Dive</name>
+			<text>({2U} can be paid with any two mana or with {U}. This card&apos;s mana value is 2.)
+Target creature gains flying until end of turn.
+Draw a card.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/61_Daring Dive.png" num="61">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2/U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Narrow Escape</name>
+			<text>Choose one —
+• Target creature can&apos;t be blocked until end of turn.
+• Target creature gains hexproof until end of turn.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/72_Narrow Escape.png" num="72">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Stay Sharp</name>
+			<text>({2U} can be paid with any two mana or with {U}. This card&apos;s mana value is 3.)
+Scour an Equipment or Vehicle card. (To scour an Equipment or Vehicle card., reveal cards from the top of your library until you reveal an Equipment or Vehicle card.. Put that card into your hand and the rest on the bottom of your library in a random order.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/87_Stay Sharp.png" num="87">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1/2/U</manacost>
+				<cmc>12</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Wispwater Blade</name>
+			<text>({2U} can be paid with any two mana or with {U}. This card&apos;s mana value is 3.)
+Equipped creature has prowess and gets +1/+1.
+Equip {1}</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/95_Wispwater Blade.png" num="95">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1/2/U</manacost>
+				<cmc>12</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Dashing Deckhand</name>
+			<text>Notoriety (If you control five or more artifacts and/or Pirates, you become notorious for the rest of the game.)
+Whenever Dashing Deckhand deals combat damage to a player, create a Treasure token. If you&apos;re notorious, instead create a 2/2 green Cat Pirate creature token or a 1/1 blue Bird Pirate creature token with flying.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/62_Dashing Deckhand.png" num="62">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Pirate</type>
+				<maintype>Creature</maintype>
+				<manacost>1/2/UU</manacost>
+				<cmc>13</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bloodsoaked Deathwing</name>
+			<text>Flying
+{2B}, Sacrifice a creature: Bloodsoaked Deathwing gets +2/+2 until end of turn. Activate only once each turn. ({2B} can be paid with any two mana or with {B}.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/112_Bloodsoaked Deathwing.png" num="112">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire Mutant</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bloodmad Hunter</name>
+			<text>Menace
+Morbid — At the beginning of your end step, if a creature died this turn, put a +1/+1 counter on Bloodmad Hunter.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/110_Bloodmad Hunter.png" num="110">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire Berserker</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bloodseeker</name>
+			<text>Menace
+Bloodseeker can&apos;t block.
+Whenever Bloodseeker attacks, sacrifice it at end of combat.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/111_Bloodseeker.png" num="111">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Smoke Form Slasher</name>
+			<text>({2B} can be paid with any two mana or with {B}. This card&apos;s mana value is 4.)
+Menace
+Whenever Smoke Form Slasher deals combat damage to one or more creatures, each opponent loses 3 life.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/138_Smoke Form Slasher.png" num="138">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>22/B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Blood Swarm</name>
+			<text>When Blood Swarm dies, if it&apos;s not a token, create a token copy of it.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/107_Blood Swarm.png" num="107">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dark Bloodlord</name>
+			<text>Menace
+Morbid — At the beginning of your end step, if a creature died this turn, create a 1/1 black Vampire Bat creature token with flying and lifelink.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/117_Dark Bloodlord.png" num="117">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>4B</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>5/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bloodhunter Vampire</name>
+			<text>({2B} can be paid with any two mana or with {B}. This card&apos;s mana value is 4)
+Lifelink</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/108_Bloodhunter Vampire.png" num="108">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2/B2/B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dusk Reaper</name>
+			<text>({2B} can be paid with any two mana or with {B}. This card&apos;s mana value is 3.)
+Menace
+Morbid — As long as a creature died this turn, Dusk Reaper has deathtouch.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/125_Dusk Reaper.png" num="125">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>1/2/B</manacost>
+				<cmc>12</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Vampiric Armor</name>
+			<text>({2B} can be paid with any two mana or with {B}. This card&apos;s mana value is 4.)
+Equipped creature has lifelink.
+As long as equipped creature is a Vampire, it gets +2/+2.
+Equip—Sacrifice a creature</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/140_Vampiric Armor.png" num="140">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>22/B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Death-Chain Vampire</name>
+			<text>Morbid — When Death-Chain Vampire enters the battlefield, if a creature died this turn, create a 2/2 black Zombie creature token.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/122_Death-Chain Vampire.png" num="122">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Vampiric Brute</name>
+			<text>({2B} can be paid with any two mana or with {B}. This card&apos;s mana value is 7.)
+When Vampiric Brute dies, draw a card. Then if it was attacking, each opponent loses 2 life. You gain life equal to the life lost this way.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/141_Vampiric Brute.png" num="141">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire Berserker</type>
+				<maintype>Creature</maintype>
+				<manacost>32/B2/B</manacost>
+				<cmc>7</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>5/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sign in Blood</name>
+			<text>Target player draws two cards and loses 2 life.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/136_Sign in Blood.png" num="136">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>BB</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Of Blood and Mind</name>
+			<text>Morbid — If a creature died this turn, this spell costs {1} less to cast.
+Target player reveals their hand. You choose a nonland permanent card from it. That player discards that card.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/131_Of Blood and Mind.png" num="131">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Blood Ritual</name>
+			<text>As an additional cost to cast this spell, sacrifice a creature.
+Each opponent loses X life, where X is the sacrificed creature&apos;s power. You gain life equal to the life lost this way.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/105_Blood Ritual.png" num="105">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Bloodsoaked Reinvigoration</name>
+			<text>Target creature gains indestructible and lifelink until end of turn.
+Morbid — If a creature died this turn, draw a card.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/114_Bloodsoaked Reinvigoration.png" num="114">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Dark Sky Diviner</name>
+			<text>When Dark Sky Diviner enters the battlefield or dies, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/120_Dark Sky Diviner.png" num="120">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Batty Broodmother</name>
+			<text>Whenever you gain life, put a +1/+1 counter on Batty Broodmother.
+Morbid — {2}{B}, Exile a creature card from a graveyard: Create a 1/1 black Vampire Bat creature token with flying and lifelink. Activate only if a creature died this turn.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/98_Batty Broodmother.png" num="98">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Vampiric Shade</name>
+			<text>Morbid — As long as a creature died this turn, Vampiric Shade has flying.
+{2B}: Vampiric Shade gets +1/-1 until end of turn. ({2B} can be paid with any two mana or with {B}.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/142_Vampiric Shade.png" num="142">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire Shade</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Feral Blood Knight</name>
+			<text>Morbid — When Feral Blood Knight enters the battlefield, if a creature died this turn, each opponent loses 2 life. You gain life equal to the life lost this way.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/126_Feral Blood Knight.png" num="126">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Samanas Slasher</name>
+			<text>Menace
+When Samanas Slasher dies, you may have it deal 2 damage to target player or planeswalker.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/174_Samanas Slasher.png" num="174">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Canopy Runner Shaman</name>
+			<text>Reach
+When Canopy Runner Shaman dies, if it was blocking or sacrificed, destroy up to one target creature with flying.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/151_Canopy Runner Shaman.png" num="151">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Calling Shaman</name>
+			<text>When Calling Shaman dies, scour a Shaman card. (To scour a Shaman card., reveal cards from the top of your library until you reveal a Shaman card.. Put that card into your hand and the rest on the bottom of your library in a random order.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/150_Calling Shaman.png" num="150">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dwarf Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Silver-Wing Dragon</name>
+			<text>Flying
+Silver-Wing Dragon attacks each combat if able.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/177_Silver-Wing Dragon.png" num="177">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ruin Rune Dragon</name>
+			<text>Instill (As an additional cost to cast this spell, you may sacrifice a creature. This spell costs {X} less to cast, where X is that creature&apos;s power.)
+Menace</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/173_Ruin Rune Dragon.png" num="173">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>5R</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Orcish Stormcaller</name>
+			<text>Menace
+When Orcish Stormcaller dies, scour a card with instill. (To scour a card with instill., reveal cards from the top of your library until you reveal a card with instill.. Put that card into your hand and the rest on the bottom of your library in a random order.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/169_Orcish Stormcaller.png" num="169">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Orc Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>42/R</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Boneskull Shaman</name>
+			<text>({2R} can be paid with any two mana or with {R}. This card&apos;s mana value is 4.)
+When Boneskull Shaman enters the battlefield or dies, exile the top card of your library. Until the end of your next turn, you may play that card.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/148_Boneskull Shaman.png" num="148">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Orc Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>22/R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dusk Flame Shaman</name>
+			<text>({2R} can be paid with any two mana or with {R}. This card&apos;s mana value is 3.)
+Prowess</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/158_Dusk Flame Shaman.png" num="158">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>1/2/R</manacost>
+				<cmc>12</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Staff of the Shaman</name>
+			<text>When Staff of the Shaman enters the battlefield, exile the top card of your library.
+When equipped creature deals combat damage to a player, you may play the exiled card. It gains instill. When you do, exile Staff of the Shaman, then return it to the battlefield under your control. (As an additional cost to cast that spell, you may sacrifice a creature. That spell costs {X} less to cast, where X is that creature&apos;s power.)
+Equip {2}</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/182_Staff of the Shaman.png" num="182">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Vaporization</name>
+			<text>({2R} can be paid with any two mana or with {R}. This card&apos;s mana value is 7.)
+Vaporization deals 5 damage to target creature. If that creature would die this turn, exile it instead.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/189_Vaporization.png" num="189">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>32/R2/R</manacost>
+				<cmc>7</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Bleeding Edge Shaman</name>
+			<text>When Bleeding Edge Shaman enters the battlefield, you may put an equipment from your hand onto the battlefield. If you don&apos;t, draw a card.
+{2}{R}: Double Bleeding Edge Shaman&apos;s power until end of turn. At the beginning of your next end step, sacrifice Bleeding Edge Shaman. Activate only as a sorcery.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/146_Bleeding Edge Shaman.png" num="146">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>22/R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shaman&apos;s Skull-Axe</name>
+			<text>Equipped creature gets +4/+0.
+When equipped creature dies, you may attach Shaman&apos;s Skull-Axe to target Shaman creature you control.
+Equip {4}</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/176_Shaman&apos;s Skull-Axe.png" num="176">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Dragonflame Warshaman</name>
+			<text>Dragonflame Warshaman has first strike as long as you control a Dragon or have cast a card with instill this turn.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/155_Dragonflame Warshaman.png" num="155">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Shaman Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Samanas Smasher</name>
+			<text>When Samanas Smasher dies, you may destroy target artifact.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/175_Samanas Smasher.png" num="175">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Barbarian Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Inferno Shaman</name>
+			<text>Menace
+When Inferno Shaman dies, destroy target nonbasic land an opponent controls. Its controller creates a Wastes token. (It&apos;s a basic land with &quot;{T}: Add {C}.&quot;)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/166_Inferno Shaman.png" num="166">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Emergent Power</name>
+			<text>Instill (As an additional cost to cast this spell, you may sacrifice a creature. This spell costs {X} less to cast, where X is that creature&apos;s power.)
+Exile the top three cards of your library. Until the end of your next turn, you may play cards exiled this way.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/160_Emergent Power.png" num="160">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Read the Stones</name>
+			<text>As an additional cost to cast this spell, discard a card.
+Scour two cards that shares a type with the discarded card. (To scour a card, reveal cards from the top of your library until you reveal a card that shares a type with the discarded card. Put that card into your hand and the rest on the bottom of your library in a random order.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/170_Read the Stones.png" num="170">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Muscular Growth</name>
+			<text>Instill (As an additional cost to cast this spell, you may sacrifice a creature. This spell costs {X} less to cast, where X is that creature&apos;s power.)
+Target creature gets +3/+0 and gains trample until end of turn.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/168_Muscular Growth.png" num="168">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Superhuman Speed</name>
+			<text>Enchant creature
+Enchanted creature has haste.
+When enchanted creature dies, return Superhuman Speed to your hand.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/185_Superhuman Speed.png" num="185">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Wandering Myconid</name>
+			<text>Wandering Myconid enters the battlefield with a spore counter on it.
+{T}: Add {G}.
+Remove a spore counter from Wandering Myconid: Untap Wandering Myconid. Activate only as a sorcery.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/234_Wandering Myconid.png" num="234">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fungus Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Canopy Thallid</name>
+			<text>Reach
+Whenever Canopy Thallid blocks, put a spore counter on it.
+Canopy Thallid gets +0/+1 for each spore counter on it.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/195_Canopy Thallid.png" num="195">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fungus Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gustblown Fungus</name>
+			<text>Reach
+Whenever a land enters the battlefield under your control, put a spore counter on Gustblown Fungus.
+Remove two spore counters from Gustblown Fungus: Create a 1/1 green Saproling creature token. Activate only as a sorcery.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/208_Gustblown Fungus.png" num="208">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fungus</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Raccopossum Matriarch</name>
+			<text>({2G} can be paid with any two mana or with {G}. This card&apos;s mana value is 3.)
+Vigilance
+{4}{2G}: Create a 1/1 green Saproling creature token. Activate only once each turn and only during your turn.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/220_Raccopossum Matriarch.png" num="220">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Raccoon Beast</type>
+				<maintype>Creature</maintype>
+				<manacost>1/2/G</manacost>
+				<cmc>12</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fungal Shield Slammer</name>
+			<text>Defender
+Whenever Fungal Shield Slammer blocks, put a spore counter on it.
+Remove two spore counters from Fungal Shield Slammer: Fungal Shield Slammer can attack as though it didn&apos;t have defender until end of turn.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/204_Fungal Shield Slammer.png" num="204">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fungus Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Thallid Knight</name>
+			<text>({2G} can be paid with any two mana or with {G}. This card&apos;s mana value is 5.)
+Thallid Knight can&apos;t be blocked by creatures with power 2 or less.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/230_Thallid Knight.png" num="230">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fungus Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>1/2/G2/G</manacost>
+				<cmc>14</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Toxic Archer</name>
+			<text>({2G} can be paid with any two mana or with {G}. This card&apos;s mana value is 3.)
+Deathtouch
+When Toxic Archer dies, you may put a spore counter on target creature.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/233_Toxic Archer.png" num="233">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fungus Archer</type>
+				<maintype>Creature</maintype>
+				<manacost>1/2/G</manacost>
+				<cmc>12</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Stoneblade Thallid</name>
+			<text>({2G} can be paid with any two mana or with {G}. This card&apos;s mana value is 6.)
+Trample</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/228_Stoneblade Thallid.png" num="228">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fungus Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>22/G2/G</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Overgrown Thallid</name>
+			<text>({2G} can be paid with any two mana or with {G}. This card&apos;s mana value is 8.)
+Whenever Overgrown Thallid enters the battlefield or deals combat damage to a player, put two spore counters on target creature.
+Overgrown Thallid has trample as long as it has four or more spore counters on it.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/218_Overgrown Thallid.png" num="218">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fungus</type>
+				<maintype>Creature</maintype>
+				<manacost>42/G2/G</manacost>
+				<cmc>8</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Raging Thallid</name>
+			<text>Trample
+Raging Thallid can&apos;t be blocked by more than one creature.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/221_Raging Thallid.png" num="221">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fungus Berserker</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Oakshield Thallid</name>
+			<text>When Oakshield Thallid enters the battlefield, put a spore counter on it.
+Remove a spore counter from Oakshield Thallid: Oakshield Thallid gains indestructible until end of turn.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/217_Oakshield Thallid.png" num="217">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fungus Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Skyshot Sporeling</name>
+			<text>Reach
+Whenever Skyshot Sporeling enters the battlefield or blocks, put a spore counter on it.
+Remove three spore counters from Skyshot Sporeling: Skyshot Sporeling fights target creature with flying.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/224_Skyshot Sporeling.png" num="224">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fungus</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fungal Sprouting</name>
+			<text>({2G} can be paid with any two mana or with {G}. This card&apos;s mana value is 3.)
+For each kind of counter on each permanent you control, give that permanent another counter of that kind.
+Draw a card.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/205_Fungal Sprouting.png" num="205">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1/2/G</manacost>
+				<cmc>12</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Inversion of Reality</name>
+			<text>Scour two land cards. (To scour two land cards, reveal cards from the top of your library until you reveal a land card. Put those cards into your hand and the rest on the bottom of your library in a random order. Then do this again.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/215_Inversion of Reality.png" num="215">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Adventurous Thallid</name>
+			<text>Whenever Adventurous Thallid attacks, put a spore counter on it.
+Whenever Adventurous Thallid attacks, you may remove a spore counter from it. If you do, create a 1/1 green Saproling creature token that&apos;s tapped and attacking.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/192_Adventurous Thallid.png" num="192">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fungus Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Thallicorn</name>
+			<text>({2G} can be paid with any two mana or with {G}. This card&apos;s mana value is 5.)
+Thallicorn enters the battlefield with two spore counters on it.
+Whenever Thallicorn attacks, you may remove a spore counter from it. When you do, scry 1, then put a +1/+1 counter on it.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/229_Thallicorn.png" num="229">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Unicorn Fungus</type>
+				<maintype>Creature</maintype>
+				<manacost>1/2/G2/G</manacost>
+				<cmc>14</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Screamshroom</name>
+			<text>Screamshroom enters the battlefield with a spore counter on it.
+{1}{G}, {T}, Remove a spore counter from Screamshroom: Destroy target artifact or enchantment.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/223_Screamshroom.png" num="223">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fungus</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Explosive Outbreak</name>
+			<text>Double the number of counters on target creature you control. Then that creature fights target creature you don&apos;t control.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/201_Explosive Outbreak.png" num="201">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Explosive Blooming</name>
+			<text>Enchant land
+Explosive Blooming enters the battlefield with two spore counters on it.
+Remove a spore counter from Explosive Blooming: Untap enchanted land.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/200_Explosive Blooming.png" num="200">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Cantrip</name>
+			<text>Choose one—
+• Scour a land card.
+• Scour a nonland card. (To scour a card, reveal cards from the top of your library until you reveal a card of that type. Put that card into your hand and the rest on the bottom of your library in a random order.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/2_Cantrip.png" num="2">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ethereal Compass</name>
+			<text>Ethereal Compass enters the battlefield tapped.
+{T}, Sacrifice Ethereal Compass: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/240_Ethereal Compass.png" num="240">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Forgeborn Sentinel</name>
+			<text>Vigilance, reach
+When Forgeborn Sentinel dies, draw a card.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/241_Forgeborn Sentinel.png" num="241">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Golem Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Windswept Airship</name>
+			<text>Flying
+Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/246_Windswept Airship.png" num="246">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Riftstone Spear</name>
+			<text>Equipped creature gets vigilance and has &quot;{1}, {T}, Unattach Riftstone Spear: This creature deals 3 damage to target creature or planeswalker.&quot; 
+Equip {2}</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/245_Riftstone Spear.png" num="245">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Riftstone Tear</name>
+			<text>{T}, Sacrifice Riftstone Tear: Scour a land card. Then you may put a land card from your hand onto the battlefield tapped. (To scour a land card., reveal cards from the top of your library until you reveal a land card.. Put that card into your hand and the rest on the bottom of your library in a random order.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/260_Riftstone Tear.png" num="260">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Airon, the Guardian</name>
+			<text>First strike
+Whirlwind (Whenever this creature deals combat damage to a player, you may exile it. Then return it to the battlefield under its owner&apos;s control.)
+When Airon, the Guardian enters the battlefield, return up to one target creature with mana value 2 or less from your graveyard to the battlefield.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/3_Airon, the Guardian.png" num="3">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Bird Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Moon-Feather Druid</name>
+			<text>Whirlwind (Whenever this creature deals combat damage to a player, you may exile it. Then return it to the battlefield under its owner&apos;s control.)
+Whenever Moon-Feather Druid enters the battlefield or attacks, put a flying counter on target creature.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/26_Moon-Feather Druid.png" num="26">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>1WWW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sparkcaster Aven</name>
+			<text>Flying
+Whirlwind (Whenever this creature deals combat damage to a player, you may exile it. Then return it to the battlefield under its owner&apos;s control.)
+When Sparkcaster Aven enters the battlefield, it deals 2 damage to target tapped creature an opponent controls.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/34_Sparkcaster Aven.png" num="34">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sure-Shot Sargeant</name>
+			<text>Whirlwind (Whenever this creature deals combat damage to a player, you may exile it. Then return it to the battlefield under its owner&apos;s control.)
+When Sure-Shot Sargeant leaves the battlefield, destroy target creature an opponent controls that dealt damage this turn.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/38_Sure-Shot Sargeant.png" num="38">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Storm Cloud Rapier</name>
+			<text>Whenever a Bird creature enters the battlefield under your control, you may attach Storm Cloud Rapier to it.
+Equipped creature gets +2/+0 and has &quot;When this creature leaves the battlefield, draw a card.&quot;
+Equip {2}</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/35_Storm Cloud Rapier.png" num="35">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Sunrise Sentinel</name>
+			<text>({2W} can be paid with any two mana or with {W}. This card&apos;s mana value is 5.)
+Whirlwind (Whenever this creature deals combat damage to a player, you may exile it. Then return it to the battlefield under its owner&apos;s control.)
+When Sunrise Sentinel enters the battlefield, draw a card.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/37_Sunrise Sentinel.png" num="37">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>1/2/W2/W</manacost>
+				<cmc>14</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Aven Gadgeteer</name>
+			<text>Flying
+Whirlwind (Whenever this creature deals combat damage to a player, you may exile it. Then return it to the battlefield under its owner&apos;s control.)
+When Aven Gadgeteer enters the battlefield, scour an Equipment. (To scour an Equipment., reveal cards from the top of your library until you reveal an Equipment.. Put that card into your hand and the rest on the bottom of your library in a random order.)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/6_Aven Gadgeteer.png" num="6">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>32/W</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Reject</name>
+			<text>Return target spell to its owner&apos;s hand.
+Draw a card.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/30_Reject.png" num="30">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>WW</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Feather of the Forebearers</name>
+			<text>({2W} can be paid with any two mana or with {W}. This card&apos;s mana value is 4.)
+{T}: Add {W}.
+When Feather of the Forebearers enters the battlefield, you gain 4 life.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/16_Feather of the Forebearers.png" num="16">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>22/W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Lavish Party-Thrower</name>
+			<text>Whirlwind (Whenever this creature deals combat damage to a player, you may exile it. Then return it to the battlefield under its owner&apos;s control.)
+When Lavish Party-Thrower enters the battlefield, for each creature you control, create a Food token. (It&apos;s an artifact with &quot;{2}, {T}, Sacrifice this artifact: You gain 3 life.&quot;)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/23_Lavish Party-Thrower.png" num="23">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>42/W2/W</manacost>
+				<cmc>8</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Netted Cage</name>
+			<text>({2W} can be paid with any two mana or with {W}. This card&apos;s mana value is 5.)
+When Netted Cage enters the battlefield, draw a card if three or more {W} was spent to cast it.
+When Netted Cage enters the battlefield, exile target creature an opponent controls until Netted Cage leaves the battlefield. (That creature returns under its owner&apos;s control.)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/28_Netted Cage.png" num="28">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1/2/W2/W</manacost>
+				<cmc>14</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Dawnbreak Cleric</name>
+			<text>Whirlwind (Whenever this creature deals combat damage to a player, you may exile it. Then return it to the battlefield under its owner&apos;s control.)
+Whenever a creature enters the battlefield under your control, you gain 1 life.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/12_Dawnbreak Cleric.png" num="12">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>2/W2/W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Zwazo Twinblade</name>
+			<text>({2W} can be paid with any two mana or with {W}. This card&apos;s mana value is 4.)
+Flying, double strike</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/49_Zwazo Twinblade.png" num="49">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2/W2/W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Burning Daylight</name>
+			<text>Choose one—
+• Exile target tapped creature.
+• Exile target multicolored creature.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/9_Burning Daylight.png" num="9">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1/2/W2/W</manacost>
+				<cmc>14</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Contact Contract</name>
+			<text>Choose one —
+• Scour a creature card. (To scour a card, reveal cards from the top of your library until you reveal a card of that type. Put that card into your hand and the rest on the bottom of your library in a random order.)
+• Scour an enchantment card.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/11_Contact Contract.png" num="11">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Corsair&apos;s Cutter</name>
+			<text>Flying
+Whenever Corsair&apos;s Cutter deals combat damage to a player, draw a card.
+Crew 3</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/59_Corsair&apos;s Cutter.png" num="59">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Port Accountant</name>
+			<text>Whenever Port Accountant deals combat damage to a creature, create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)
+Whenever Port Accountant deals combat damage to a player, create a Clue token. (It&apos;s an artifact with &quot;{2}, Sacrifice this artifact: Draw a card.&quot;)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/76_Port Accountant.png" num="76">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Brilliant Buccaneer</name>
+			<text>({2U} can be paid with any two mana or with {U}. This card&apos;s mana value is 4.)
+Ward—Mill three cards. (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player puts the top three cards of their library into their graveyard.)
+Whenever an opponent mills one or more artifact or creature cards, create a Treasure token.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/53_Brilliant Buccaneer.png" num="53">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Pirate Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2/U2/U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Frost-Form Sharpshooter</name>
+			<text>Notoriety (If you control five or more artifacts and/or Pirates, you become notorious for the rest of the game.)
+Whenever Frost-Form Sharpshooter attacks, tap target creature. If you&apos;re notorious, that creature doesn&apos;t untap during its controller&apos;s next untap step.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/68_Frost-Form Sharpshooter.png" num="68">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dwarf Pirate Sniper</type>
+				<maintype>Creature</maintype>
+				<manacost>2/U2/U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bianca the Buccaneer</name>
+			<text>Whenever a creature you control deals combat damage to a player, create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)
+Sacrifice three artifacts: Draw a card.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/51_Bianca the Buccaneer.png" num="51">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Pirate</type>
+				<maintype>Creature</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wayward Treasure Hunter</name>
+			<text>When Wayward Treasure Hunter enters the battlefield, scour an artifact card. (To scour an artifact card., reveal cards from the top of your library until you reveal an artifact card.. Put that card into your hand and the rest on the bottom of your library in a random order.)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/93_Wayward Treasure Hunter.png" num="93">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Pirate Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Freebooting Buccaneer</name>
+			<text>When Freebooting Buccaneer enters the battlefield, scour a creature or Vehicle card with flying. (To scour a creature or Vehicle card with flying., reveal cards from the top of your library until you reveal a creature or Vehicle card with flying.. Put that card into your hand and the rest on the bottom of your library in a random order.)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/67_Freebooting Buccaneer.png" num="67">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Pirate Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Scout Scoundrel</name>
+			<text>Notoriety (If you control five or more artifacts and/or Pirates, you become notorious for the rest of the game.)
+Whenever you reveal one or more cards from the top of your library, create a Treasure token. If you&apos;re notorious, create two of those tokens instead.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/80_Scout Scoundrel.png" num="80">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Pirate Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sailtop Navigator</name>
+			<text>When Sailtop Navigator enters the battlefield, scour an Island card. (To scour an Island card., reveal cards from the top of your library until you reveal an Island card.. Put that card into your hand and the rest on the bottom of your library in a random order.)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/78_Sailtop Navigator.png" num="78">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Pirate Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Waterfall Orb</name>
+			<text>({2U} can be paid with any two mana or with {U}. This card&apos;s mana value is 4.)
+{T}: Add {U}.
+When Waterfall Orb enters the battlefield, draw two cards, then discard two cards.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/92_Waterfall Orb.png" num="92">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>22/U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Silver Sword Orc</name>
+			<text>Notoriety (If you control five or more artifacts and/or Pirates, you become notorious for the rest of the game.)
+Whenever Silver Sword Orc deals combat damage damage to a player, draw a card. Then discard a card unless you&apos;re notorious.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/81_Silver Sword Orc.png" num="81">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Orc Pirate</type>
+				<maintype>Creature</maintype>
+				<manacost>4U</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wrist Cannon</name>
+			<text>Equipped creature gets +2/+0.
+Whenever equipped creature deals combat damage to a player, you may unattach Wrist Cannon. If you do, draw a card.
+Equip {2U}</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/96_Wrist Cannon.png" num="96">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1/2/U</manacost>
+				<cmc>12</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Steelclad Skyship</name>
+			<text>Flying
+As long as Steelclad Skyship is a creature, it has indestructible.
+Crew 4 (Tap any number of creatures you control with total power 4 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/88_Steelclad Skyship.png" num="88">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>4U</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Disdainful Stroke</name>
+			<text>Counter target spell with mana value 4 or greater.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/63_Disdainful Stroke.png" num="63">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Captain&apos;s Watch</name>
+			<text>Scry 2.
+Scour a nonland card. (To scour a nonland card., reveal cards from the top of your library until you reveal a nonland card.. Put that card into your hand and the rest on the bottom of your library in a random order.)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/57_Captain&apos;s Watch.png" num="57">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1/2/U</manacost>
+				<cmc>12</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Agent of the Night</name>
+			<text>Deathtouch
+Whenever Agent of the Night deals combat damage to a player, you may sacrifice it. If you do, that player discards two cards.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/97_Agent of the Night.png" num="97">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bloodmad Cleric</name>
+			<text>Morbid — At the beginning of each end step, if a creature died this turn, put two +1/+1 counters on target creature you control.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/109_Bloodmad Cleric.png" num="109">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1/2/B2/B</manacost>
+				<cmc>14</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Death Scythe Vampire</name>
+			<text>Deathtouch
+Morbid — Whenever Death Scythe Vampire enters the battlefield or attacks, if a creature died this turn, each opponent mills until they mill a creature card. (They put cards from the top of their library into their graveyard until they put a creature card into their graveyard.)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/121_Death Scythe Vampire.png" num="121">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire</type>
+				<maintype>Creature</maintype>
+				<manacost>2/B2/B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bloodsoaked Graverobbers</name>
+			<text>Morbid — When Bloodsoaked Graverobbers enters the battlefield, if a creature died this turn, exile each opponent&apos;s graveyard.
+Whenever one or more cards leave an opponent&apos;s graveyard, put a +1/+1 counter on Bloodsoaked Graverobbers.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/113_Bloodsoaked Graverobbers.png" num="113">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shattersky Vampire</name>
+			<text>Flying
+Morbid — Shattersky Vampire enters the battlefield with two +1/+1 counters on it if a creature died this turn.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/135_Shattersky Vampire.png" num="135">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire</type>
+				<maintype>Creature</maintype>
+				<manacost>1/2/B2/B</manacost>
+				<cmc>14</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Grotesque Bloodbender</name>
+			<text>Menace
+Morbid — {2B}: Each opponent loses 2 life. You gain life equal to the life lost this way. Activate only once each turn and only if a creature died this turn.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/129_Grotesque Bloodbender.png" num="129">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire Mutant Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>42/B</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>5/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Crystal Gravestones</name>
+			<text>({2B} can be paid with any two mana or with {B}. This card&apos;s mana value is 3.)
+{T}: Add {B}.
+When Crystal Gravestones enters the battlefield, each opponent loses 3 life.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/116_Crystal Gravestones.png" num="116">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>22/B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Grotesque Night Terror</name>
+			<text>Morbid — When Grotesque Night Terror enters the battlefield, if a creature died this turn, destroy target nonartifact creature.
+Grotesque Night Terror can&apos;t block unless you control another Vampire.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/130_Grotesque Night Terror.png" num="130">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Blood Offering</name>
+			<text>As an additional cost to cast this spell, sacrifice a creature.
+Choose one—
+• Draw two cards.
+• Destroy target creature.
+• Target player discards two cards.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/104_Blood Offering.png" num="104">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Smoke Form Reaper</name>
+			<text>Smoke Form Reaper can&apos;t block.
+Morbid — {2B}{2B}: Return Smoke Form Reaper from your graveyard to the battlefield. Activate only if a creature died this turn.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/137_Smoke Form Reaper.png" num="137">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1/2/B</manacost>
+				<cmc>12</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Blood Artist</name>
+			<text>Whenever Blood Artist or another creature dies, target player loses 1 life and you gain 1 life.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/99_Blood Artist.png" num="99">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>0/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gnawing Heart Ritual</name>
+			<text>({2B} can be paid with any two mana or with {B}. This card&apos;s mana value is 4.)
+As an additional cost to cast this spell, sacrifice a creature.
+Put X +1/+1 counters on target creature, where X is the sacrificed creature&apos;s power. You gain life equal to the sacrificed creature&apos;s toughness.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/128_Gnawing Heart Ritual.png" num="128">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>22/B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Blood Cult Ritualist</name>
+			<text>Morbid — When Blood Cult Ritualist enters the battlefield, if a creature died this turn, create a tapped Treasure token.
+{1}, Sacrifice a creature: Return Blood Cult Ritualist from your graveyard to the battlefield, then exile it.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/100_Blood Cult Ritualist.png" num="100">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dissolve into Shadow</name>
+			<text>Target player reveals their hand and discards a nonland card. If a creature card is discarded this way, create a 1/1 black Vampire Bat creature token with flying and lifelink. Otherwise, create a tapped Treasure token.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/124_Dissolve into Shadow.png" num="124">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Blood Strike</name>
+			<text>({2B} can be paid with any two mana or with {B}. This card&apos;s mana value is 4.)
+Destroy target nonblack creature.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/106_Blood Strike.png" num="106">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2/B2/B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Muscle-Bound Orc</name>
+			<text>Trample
+Whenever Muscle-Bound Orc becomes blocked, it gets +2/+2 until end of turn.
+{2}, Discard Muscle-Bound Orc: Scour a Mountain card. (To scour a Mountain card., reveal cards from the top of your library until you reveal a Mountain card.. Put that card into your hand and the rest on the bottom of your library in a random order.)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/167_Muscle-Bound Orc.png" num="167">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Orc Berserker</type>
+				<maintype>Creature</maintype>
+				<manacost>32/R2/R</manacost>
+				<cmc>7</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sparking Shaman</name>
+			<text>{T}: Sparking Shaman deals damage to each opponent equal to its power.
+Whenever a Dragon or Shaman enters the battlefield under your control, Sparking Shaman gets +1/+1 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/181_Sparking Shaman.png" num="181">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Swift-Step Shaman</name>
+			<text>Flash, haste
+When Swift-Step Shaman enters the battlefield or dies, the next creature spell you cast this turn can be cast as though it had flash. When it enters the battlefield, it gains haste until end of turn.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/186_Swift-Step Shaman.png" num="186">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Blood Mountain Broodmates</name>
+			<text>Instill (As an additional cost to cast this spell, you may sacrifice a creature. This spell costs {X} less to cast, where X is that creature&apos;s power.)
+Flying
+When Blood Mountain Broodmates enters the battlefield, if it&apos;s not a token, create a token that&apos;s a copy of it.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/147_Blood Mountain Broodmates.png" num="147">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>6R</manacost>
+				<cmc>7</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Glide Wing Dragon</name>
+			<text>Instill (As an additional cost to cast this spell, you may sacrifice a creature. This spell costs {X} less to cast, where X is that creature&apos;s power.)
+Flying, haste
+When Glide Wing Dragon enters the battlefield, creatures you control gain haste until end of turn.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/165_Glide Wing Dragon.png" num="165">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Warforged Shaman</name>
+			<text>Warforged Shaman&apos;s power is equal to the number of tapped creatures you control.
+When Warforged Shaman dies, if it was attacking or was sacrificed, exile the top card of your library. Until the end of your next turn, you may play that card.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/190_Warforged Shaman.png" num="190">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>*/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Stormcaller Shaman</name>
+			<text>Menace
+When Stormcaller Shaman enters the battlefield or dies, it deals damage equal to its power to target creature or planeswalker an opponent controls.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/184_Stormcaller Shaman.png" num="184">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Call of the Storm Lords</name>
+			<text>Instill (As an additional cost to cast this spell, you may sacrifice a creature. This spell costs {X} less to cast, where X is that creature&apos;s power.)
+Scour a Dragon card. (To scour a Dragon card., reveal cards from the top of your library until you reveal a Dragon card.. Put that card into your hand and the rest on the bottom of your library in a random order.)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/149_Call of the Storm Lords.png" num="149">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Rite of the Dragon Gate</name>
+			<text>Instill (As an additional cost to cast this spell, you may sacrifice a creature. This spell costs {X} less to cast, where X is that creature&apos;s power.)
+Return target creature card from your graveyard to the battlefield. It gains haste until end of turn. When it dies or at the beginning of the next end step, exile it. (You can&apos;t target a creature sacrificed to instill this spell.)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/172_Rite of the Dragon Gate.png" num="172">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Thunderclap Dragon</name>
+			<text>Flying
+Thunderclap Dragon&apos;s power is equal to the number of instant and sorcery cards in your graveyard.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/187_Thunderclap Dragon.png" num="187">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>*/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Forge Flame</name>
+			<text>Instill (As an additional cost to cast this spell, you may sacrifice a creature. This spell costs {X} less to cast, where X is that creature&apos;s power.)
+Add {R}{R}{R}.
+Draw a card.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/161_Forge Flame.png" num="161">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2/R2/R2/R</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Axe of Dead-Feather</name>
+			<text>Equipped creature has menace and gets +3/+1.
+When equipped creature dies, you may attach Shaman&apos;s Skull-Axe to target creature you control.
+Equip {2}</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/144_Axe of Dead-Feather.png" num="144">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>32/R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Spark Gate</name>
+			<text>({2R} can be paid with any two mana or with {R}. This card&apos;s mana value is 4.)
+{T}: Add {R}.
+When Spark Gate enters the battlefield, it deals 2 damage to any target.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/180_Spark Gate.png" num="180">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>22/R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Draconic Connection</name>
+			<text>({2R} can be paid with any two mana or with {R}. This card&apos;s mana value is 7.)
+Instill (As an additional cost to cast this spell, you may sacrifice a creature. This spell costs {X} less to cast, where X is that creature&apos;s power.)
+Create a 4/4 red Dragon creature token with flying.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/152_Draconic Connection.png" num="152">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>32/R2/R</manacost>
+				<cmc>7</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Staff of the Silverwing</name>
+			<text>Instill (As an additional cost to cast this spell, you may sacrifice a creature. This spell costs {X} less to cast, where X is that creature&apos;s power.)
+Equipped creature gets +3/+0 and can&apos;t block.
+When equipped creature dies, you may discard a card. If you do, draw a card.
+Equip {3}</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/183_Staff of the Silverwing.png" num="183">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Thallid Scout</name>
+			<text>Thallid Scout enters the battlefield with a spore counter on it.
+Remove a spore counter from Thallid Scout: Scour a basic land card. (To scour a basic land card., reveal cards from the top of your library until you reveal a basic land card.. Put that card into your hand and the rest on the bottom of your library in a random order.)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/231_Thallid Scout.png" num="231">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fungus Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wildwood Trasher</name>
+			<text>Trample
+At the beginning of your upkeep, put a spore counter on Wildwood Trasher.
+Wildwood Trasher gets +1/+0 for each spore counter on it.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/236_Wildwood Trasher.png" num="236">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fungus Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>22/G2/G</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wildheart Thallid</name>
+			<text>Whenever a creature enters the battlefield under your control, put a spore counter on that creature.
+Remove two spore counters from a creature you control: You gain 2 life.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/235_Wildheart Thallid.png" num="235">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fungus Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Spore Spreader</name>
+			<text>When Spore Spreader enters the battlefield, put a spore counter on each Fungus and Saproling you control.
+Fungus and Saproling creatures you control get +1/+1.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/227_Spore Spreader.png" num="227">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fungus</type>
+				<maintype>Creature</maintype>
+				<manacost>GG</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Headchopper Thallid</name>
+			<text>Headchopper Thallid enters the battlefield with a spore counter on it for each two green mana spent to cast it.
+{2G}{2G}, Remove a spore counter from Headchopper Thallid: Headchopper Thallid deals damage equal to its power to target creature you don&apos;t control.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/209_Headchopper Thallid.png" num="209">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fungus Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>22/G2/G</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Insurmountable Thallid</name>
+			<text>Vigilance
+Whenever Insurmountable Thallid attacks or blocks, put a spore counter on it.
+Remove three spore counters from Insurmountable Thallid: Create three 1/1 green Saproling creature tokens.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/214_Insurmountable Thallid.png" num="214">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fungus</type>
+				<maintype>Creature</maintype>
+				<manacost>22/G2/G</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Civil Wanderer</name>
+			<text>When Civil Wanderer or another Fungus enters the battlefield under your control, put a spore counter on Civil Wanderer.
+Remove three spore counters from Civil Wanderer: Create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/196_Civil Wanderer.png" num="196">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fungus Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Accelerated Growth</name>
+			<text>Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/191_Accelerated Growth.png" num="191">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2/G2/G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Sphere of Growth</name>
+			<text>({2G} can be paid with any two mana or with {G}. This card&apos;s mana value is 4.)
+{T}: Add {G}.
+When Sphere of Growth enters the battlefield, up to one target creature gets +4/+4 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/225_Sphere of Growth.png" num="225">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>22/G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Megalithic Thallid</name>
+			<text>Reach, trample
+This spell costs {1} less to cast for each spore counter on creatures you control.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/216_Megalithic Thallid.png" num="216">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fungus Giant</type>
+				<maintype>Creature</maintype>
+				<manacost>9G</manacost>
+				<cmc>10</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>7/7</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rotting Regrowth</name>
+			<text>Exile target card from a graveyard. Return target card from a graveyard to the top of its owner&apos;s library.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/222_Rotting Regrowth.png" num="222">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Budding Thallid</name>
+			<text>({2G} can be paid with any two mana or with {G}. This card&apos;s mana value is 3.)
+Budding Thallid enters the battlefield with a spore counter on it.
+Remove a spore counter from Budding Thallid: Budding Thallid gains flying until end of turn.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/194_Budding Thallid.png" num="194">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fungus</type>
+				<maintype>Creature</maintype>
+				<manacost>1/2/G</manacost>
+				<cmc>12</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Titanic Thallid</name>
+			<text>Trample
+Whenever Titanic Thallid deals combat damage to a player, put that many spore counters on it.
+Remove four spore counters from Titanic Thallid: Double Titanic Thallid&apos;s power until end of turn.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/232_Titanic Thallid.png" num="232">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fungus Giant</type>
+				<maintype>Creature</maintype>
+				<manacost>4G</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fracture Cap Thallid</name>
+			<text>Whenever Fracture Cap Thallid enters the battlefield or attacks, put two spore counters on it.
+When Fracture Cap Thallid dies, create a 1/1 green Saproling creature token for each spore counter on it.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/202_Fracture Cap Thallid.png" num="202">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fungus</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Basilisk Blade</name>
+			<text>Equipped creature has deathtouch.
+As long as equipped creature is green, it gets +1/+1.
+Equip {1}</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/193_Basilisk Blade.png" num="193">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1/2/G</manacost>
+				<cmc>12</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Ruined Temple</name>
+			<text>({T}: Add {W}.)
+Ruined Temple enters the battlefield tapped.
+{T}, Sacrifice Ruined Temple: Add {C}{C}.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/261_Ruined Temple.png" num="261">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Elevated Wreckage</name>
+			<text>({T}: Add {U}.)
+Elevated Wreckage enters the battlefield tapped.
+{T}, Sacrifice Elevated Wreckage: Add {C}{C}.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/252_Elevated Wreckage.png" num="252">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Decrepit Castle</name>
+			<text>({T}: Add {B}.)
+Decrepit Castle enters the battlefield tapped.
+{T}, Sacrifice Decrepit Castle: Add {C}{C}.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/250_Decrepit Castle.png" num="250">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Shattered Spires</name>
+			<text>({T}: Add {R}.)
+Shattered Spires enters the battlefield tapped.
+{T}, Sacrifice Shattered Spires: Add {C}{C}.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/262_Shattered Spires.png" num="262">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Blooming Skyway</name>
+			<text>({T}: Add {G}.)
+Blooming Skyway enters the battlefield tapped.
+{T}, Sacrifice Blooming Skyway: Add {C}{C}.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/247_Blooming Skyway.png" num="247">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Hallowed Field</name>
+			<text>{T}: Add {C}.
+{T}, Sacrifice Hallowed Field: Search your library for a Plains card, put it onto the battlefield tapped, and shuffle.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/256_Hallowed Field.png" num="256">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Quiet Waterfall</name>
+			<text>{T}: Add {C}.
+{T}, Sacrifice Quiet Waterfall: Search your library for a Island card, put it onto the battlefield tapped, and shuffle.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/257_Quiet Waterfall.png" num="257">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Gloomy Marsh</name>
+			<text>{T}: Add {C}.
+{T}, Sacrifice Gloomy Marsh: Search your library for a Swamp card, put it onto the battlefield tapped, and shuffle.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/255_Gloomy Marsh.png" num="255">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Frozen Peaks</name>
+			<text>{T}: Add {C}.
+{T}, Sacrifice Frozen Peaks: Search your library for a Mountain card, put it onto the battlefield tapped, and shuffle.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/254_Frozen Peaks.png" num="254">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Verdant Savageland</name>
+			<text>{T}: Add {C}.
+{T}, Sacrifice Verdant Savageland: Search your library for a Forest card, put it onto the battlefield tapped, and shuffle.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/264_Verdant Savageland.png" num="264">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Gustwing Aven</name>
+			<text>Flash, flying
+Whirlwind (Whenever this creature deals combat damage to a player, you may exile it. Then return it to the battlefield under its owner&apos;s control.)
+When Gustwing Aven enters the battlefield, it deals 3 damage to up to one target attacking or blocking creature.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/21_Gustwing Aven.png" num="21">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Vandè, Merchant King</name>
+			<text>Whenever a creature attacks you, create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)
+Sacrifice three Treasures: Remove target attacking or blocking creature from combat.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/41_Vandè, Merchant King.png" num="41">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Bird Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>22/W2/W</manacost>
+				<cmc>6</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wandering Hermit</name>
+			<text>First strike
+Whirlwind (Whenever this creature deals combat damage to a player, you may exile it. Then return it to the battlefield under its owner&apos;s control.)
+When Wandering Hermit leaves the battlefield, draw a card.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/42_Wandering Hermit.png" num="42">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Night Wing Agent</name>
+			<text>Whirlwind (Whenever this creature deals combat damage to a player, you may exile it. Then return it to the battlefield under its owner&apos;s control.)
+When Night Wing Agent enters the battlefield, create a 2/1 red and white Fox creature token. Then you gain life equal to the number of tokens you control.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/29_Night Wing Agent.png" num="29">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Wizard Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Estrago, the Shattered Ruins</name>
+			<text>({T}: Add {W}.)
+Estrago, the Shattered Ruins enters the battlefield tapped unless you control a Bird.
+{3}{W}, {T}, Sacrifice Estrago, the Shattered Ruins: Return target nonland permanent card from your graveyard to your hand.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/253_Estrago, the Shattered Ruins.png" num="253">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land — Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Sky Dasher Aven</name>
+			<text>Whirlwind (Whenever this creature deals combat damage to a player, you may exile it. Then return it to the battlefield under its owner&apos;s control.)
+Flying
+When Sky Dasher Aven enters the battlefield, put a stun counter on target creature you don&apos;t control. (If a permanent with a stun counter would become untapped, remove one from it instead.)</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/31_Sky Dasher Aven.png" num="31">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Warped Warlock</name>
+			<text>When Warped Warlock dies, put it onto the bottom of your library, then scour a creature card. (To scour a creature card., reveal cards from the top of your library until you reveal a creature card.. Put that card into your hand and the rest on the bottom of your library in a random order.)</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/43_Warped Warlock.png" num="43">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>1/2/W2/W</manacost>
+				<cmc>14</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dissolve Reality</name>
+			<text>Choose one or more—
+• Exile target multicolored permanent.
+• Exile target artifact.
+• Exile target enchantment.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/14_Dissolve Reality.png" num="14">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Elegant Artificer</name>
+			<text>Whirlwind (Whenever this creature deals combat damage to a player, you may exile it. Then return it to the battlefield under its owner&apos;s control.)
+When Elegant Artificer enters the battlefield, create a 1/1 white Bird Construct artifact creature token with flying.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/15_Elegant Artificer.png" num="15">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Artificer Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Alchemical Shift</name>
+			<text>Exile target nonland permanent you don&apos;t own. Its controller creates a number of Treasure tokens equal to that creature&apos;s mana value.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/4_Alchemical Shift.png" num="4">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Tugator, Shellback Captain</name>
+			<text>Notoriety (If you control five or more artifacts and/or Pirates, you become notorious for the rest of the game.)
+As long as you&apos;re notorious, creatures you control with toughness greater than their power have vigilance and can&apos;t be blocked.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/91_Tugator, Shellback Captain.png" num="91">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Turtle Pirate</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wealthy Captain</name>
+			<text>Notoriety (If you control five or more artifacts and/or Pirates, you become notorious for the rest of the game.)
+Whenever a player casts their second spell each turn, create a Treasure token, then if you&apos;re notorious, put a +1/+1 counter on Wealthy Captain. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/94_Wealthy Captain.png" num="94">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Pirate</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Exceptional Alchemist</name>
+			<text>Notoriety (If you control five or more artifacts and/or Pirates, you become notorious for the rest of the game.)
+You may look at the top card of your library any time.
+You may play cards from the top of your library as long as they are artifact or Pirate cards or you&apos;re notorious.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/64_Exceptional Alchemist.png" num="64">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Pirate Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1/2/U2/U2/U</manacost>
+				<cmc>16</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Relic Thief</name>
+			<text>Notoriety (If you control five or more artifacts and/or Pirates, you become notorious for the rest of the game.)
+Whenever Relic Thief deals combat damage to a player, gain control of target noncreature permanent until end of turn. If you&apos;re notorious, gain control of that permanent instead.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/77_Relic Thief.png" num="77">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Pirate Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Relèv, Pirates&apos; Respite</name>
+			<text>({T}: Add {U}.)
+Relèv, Pirates&apos; Respite enters the battlefield tapped unless you control a Pirate.
+{6}{U}, {T}, Sacrifice Relèv, Pirates&apos; Respite: Each player discards their hand, then draws cards equal to the greatest number of cards a player discarded this way.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/258_Relèv, Pirates&apos; Respite.png" num="258">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land — Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Massive Turtlebug</name>
+			<text>Flying, ward {1}
+When Massive Turtlebug enters the battlefield, gain control of target tapped creature for as long as you control Massive Turtlebug.
+{2}{2U}, Reveal Massive Turtlebug from your hand: Tap target creature. That creature doesn&apos;t untap during its controller&apos;s next untap step. Activate only as a sorcery.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/71_Massive Turtlebug.png" num="71">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Insect Turtle</type>
+				<maintype>Creature</maintype>
+				<manacost>1/2/U2/U2/U</manacost>
+				<cmc>16</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Squall-Surfer</name>
+			<text>Notoriety (If you control five or more artifacts and/or Pirates, you become notorious for the rest of the game.)
+Flying
+As long as you are notorious, Squall-Surfer is an artifact creature.
+Crew 3</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/86_Squall-Surfer.png" num="86">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Grab the Treasure</name>
+			<text>Draw two cards, then discard a card. If four or more blue mana was spent to cast this spell, draw three cards instead.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/69_Grab the Treasure.png" num="69">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2/U2/U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Back Blaster</name>
+			<text>Return each creature you don&apos;t control with mana value less than or equal to the amount of blue mana spent to cast this spell to their owner&apos;s hand.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/50_Back Blaster.png" num="50">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2/U2/U2/U</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>The Greensail</name>
+			<text>Flying
+Whenever The Greensail attacks, create a 1/1 blue Pirate creature token with &quot;This creature crews Vehicles as though its power were 2 greater.&quot;
+Crew 3</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/90_The Greensail.png" num="90">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Ucidere, Blood Lord</name>
+			<text>Lifelink
+Morbid — When Ucidere, Blood Lord enters the battlefield, if a creature died this turn, Ucidere deals damage equal to its power to target creature.
+Whenever a creature dealt damage this turn by Ucidere dies, return that card to the battlefield tapped under your control.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/139_Ucidere, Blood Lord.png" num="139">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Vampire</type>
+				<maintype>Creature</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Blood Elemental</name>
+			<text>When Blood Elemental enters the battlefield or deals combat damage to a player, scour a Vampire card. (To scour a Vampire card., reveal cards from the top of your library until you reveal a Vampire card.. Put that card into your hand and the rest on the bottom of your library in a random order.)
+Morbid — {2B}, Pay X life: You may put a Vampire card from your hand with mana value X onto the battlefield. Activate only once each turn and only if a creature died this turn..</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/101_Blood Elemental.png" num="101">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sânge&apos;s Invitation</name>
+			<text>Return target creature card from your graveyard to your hand.
+Morbid — If a creature died this turn, return that creature to the battlefield tapped instead.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/134_Sânge&apos;s Invitation.png" num="134">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>22/B2/B</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Dark Rites</name>
+			<text>As an additional cost to cast this spell, sacrifice a creature.
+Add an amount of {B} equal to the sacrificed creature&apos;s power. Until end of turn, you don&apos;t lose this mana as steps and phases end. When you lose that unspent mana, you lose that much life.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/119_Dark Rites.png" num="119">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Crescent Moon Ritual</name>
+			<text>Scour a Demon card. Until end of turn, you may cast a spell that shares a name with that card by paying life equal to its mana value instead of its cost. (To scour a Demon card., reveal cards from the top of your library until you reveal a Demon card.. Put that card into your hand and the rest on the bottom of your library in a random order.)</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/115_Crescent Moon Ritual.png" num="115">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Will of the Blood Lord</name>
+			<text>As an additional cost to cast this spell, exile up to three cards from your graveyard.
+Until end of turn, you may cast cards exiled by this spell by paying life equal to their mana value rather than paying its mana cost.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/143_Will of the Blood Lord.png" num="143">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Chato, Moonlit Fortress</name>
+			<text>({T}: Add {B}.)
+Chato, Moonlit Fortress enters the battlefield tapped unless you control a Vampire.
+{5}{B}, {T}, Sacrifice Chato, Moonlit Fortress: Destroy target creature.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/248_Chato, Moonlit Fortress.png" num="248">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land — Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Dark Night Lurker</name>
+			<text>Deathtouch
+Morbid — As long as a creature died this turn, Dark Night Lurker has flying.
+Whenever Dark Night Lurker deals combat damage to a player, destroy target creature an opponent controls.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/118_Dark Night Lurker.png" num="118">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Blood Fire Devil</name>
+			<text>When Blood Fire Devil enters the battlefield, if you cast it, destroy target creature you don&apos;t control.
+Morbid — As long as a creature died this turn, Blood Fire Devil has deathtouch and menace.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/102_Blood Fire Devil.png" num="102">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon Vampire Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Deathknell Devastor</name>
+			<text>First strike
+Morbid — As long as a creature died this turn, Deathknell Devastor has flying.
+Morbid — {3}{B}: Exile target player&apos;s graveyard. That player loses 1 life for each creature card exiled this way. Activate only if a creature died this turn.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/123_Deathknell Devastor.png" num="123">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire Mutant</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dragon Swarm</name>
+			<text>Instill (As an additional cost to cast this spell, you may sacrifice a creature. This spell costs {X} less to cast, where X is that creature&apos;s power.)
+Create three 4/4 red Dragon creature tokens with flying.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/154_Dragon Swarm.png" num="154">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>6RR</manacost>
+				<cmc>8</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Skyship Crasher</name>
+			<text>Haste
+As long as Skyship Crasher entered the battlefield this turn, it has flying.
+When Skyship Crasher dies, you may destroy target Vehicle.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/178_Skyship Crasher.png" num="178">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Shaman Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dragonform Shaman</name>
+			<text>{R}{R}{R}: If Dragonform Shaman has no +1/+1 counters on it, put three +1/+1 counters on it. Activate only as a sorcery.
+{R}{R}: Dragonform Shaman gains flying and becomes a Dragon. Activate only if Dragonform Shaman has three or more +1/+1 counters on it.
+{R}: Dragonform Shaman gets +1/+0 until end of turn. Activate only if Dragonform Shaman is a Dragon.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/156_Dragonform Shaman.png" num="156">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Form of the Storm Dragon</name>
+			<text>Instill (As an additional cost to cast this spell, you may sacrifice a creature. This spell costs {X} less to cast, where X is that creature&apos;s power.)
+Enchant creature
+Enchanted creature gets +5/+0, has flying, and is a Dragon in addition to its other types.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/162_Form of the Storm Dragon.png" num="162">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>5R</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Frost-Peak Blood Wing</name>
+			<text>Instill (As an additional cost to cast this spell, you may sacrifice a creature. This spell costs {X} less to cast, where X is that creature&apos;s power.)
+Flying
+Whenever one or more creatures you control attack or die, exile the top card of your library. Until the end of your next turn, you may play that card.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/163_Frost-Peak Blood Wing.png" num="163">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>6R</manacost>
+				<cmc>7</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tanwar, the Dragon&apos;s Den</name>
+			<text>({T}: Add {R}.)
+Tanwar, the Dragon&apos;s Den enters the battlefield tapped unless you control a Shaman creature.
+{5}{R}{R}, {T}, Sacrifice Tanwar, the Dragon&apos;s Den: You may cast target Dragon card or card with instill from your graveyard without paying its mana cost.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/263_Tanwar, the Dragon&apos;s Den.png" num="263">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land — Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Dragon Dancer Shaman</name>
+			<text>Prowess
+Whenever Dragon Dancer Shaman attacks, other creatures you control get +X/+0 until end of turn, where X is Dragon Dancer Shaman&apos;s power.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/153_Dragon Dancer Shaman.png" num="153">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Shaman Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dragonmaw Shaman</name>
+			<text>({2R} can be paid with any two mana or with {R}. This card&apos;s mana value is 6.)
+When Dragonmaw Shaman enters the battlefield or dies, create a Pyre token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add {C}.&quot;)
+Whenever you sacrifice a creature, Dragonmaw Shaman deals 2 damage to any target. This ability triggers only once each turn.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/157_Dragonmaw Shaman.png" num="157">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Orc Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>22/R2/R</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Slag Breath Strike</name>
+			<text>Instill (As an additional cost to cast this spell, you may sacrifice a creature. This spell costs {X} less to cast, where X is that creature&apos;s power.)
+Choose any number —
+• Slag Breath Strike deals 3 damage to target creature.
+• Slag Breath Strike deals 3 damage to target Vehicle.
+• Slag Breath Strike deals 3 damage to target player.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/179_Slag Breath Strike.png" num="179">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Elemental Outburst</name>
+			<text>The next instant or sorcery spell you cast this turn has instill, when you cast that spell, copy it. You may choose new targets for the copy. (As an additional cost to cast a spell with instill, you may sacrifice a creature. That spell costs {X} less to cast, where X is that creature&apos;s power.)</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/159_Elemental Outburst.png" num="159">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>22/R2/R</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Hryb, Thallid Titan</name>
+			<text>At the beginning of your upkeep, put two spore counters on Hryb, Thallid Titan.
+As long as Hryb, Thallid Titan has ten or more spore counters on it, it gets +10/+0.
+Remove two spore counters from Hryb, Thallid Titan: Put a spore counter on target creature you control.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/211_Hryb, Thallid Titan.png" num="211">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Fungus</type>
+				<maintype>Creature</maintype>
+				<manacost>32/G2/G</manacost>
+				<cmc>7</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>0/10</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Great Growth Thallid</name>
+			<text>When Great Growth Thallid enters the battlefield and at the beginning of each upkeep, put a spore counter on Great Growth Thallid.
+Great Growth Thallid&apos;s power and toughness are equal to the number of spore counters on it.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/207_Great Growth Thallid.png" num="207">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fungus</type>
+				<maintype>Creature</maintype>
+				<manacost>GG</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>*/*</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Deathcap Thallid</name>
+			<text>When Deathcap Thallid enters the battlefield or deals combat damage to a player, put a Spore counter on Deathcap Thallid.
+Remove a spore counter from Deathcap Thallid: Deathcap Thallid fights target creature you don&apos;t control. Activate only as a sorcery.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/198_Deathcap Thallid.png" num="198">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fungus Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hulking Thallid</name>
+			<text>Trample
+Whenever Hulking Thallid deals combat damage to a player, put that many spore counters on it.
+Remove four spore counters from Hulking Thallid: Destroy target noncreature, nonbasic permanent.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/213_Hulking Thallid.png" num="213">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fungus Berserker</type>
+				<maintype>Creature</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Worldspan Thallid</name>
+			<text>Worldspan Thallid enters the battlefield with a number of spore counters on it equal to the amount of green mana spent to cast it.
+Creatures you control get +1/+1 for each spore counter on them.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/237_Worldspan Thallid.png" num="237">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fungus</type>
+				<maintype>Creature</maintype>
+				<manacost>2/G2/G2/G</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>0/0</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Spore Dragon</name>
+			<text>Trample
+Spore Dragon must be blocked if able and can&apos;t be blocked by more than one creature.
+Whenever a creature an opponent controls dies, you may put a spore counter on up to one target creature.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/226_Spore Dragon.png" num="226">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon Fungus</type>
+				<maintype>Creature</maintype>
+				<manacost>4GG</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Club Swinger Thallid</name>
+			<text>Club Swinger Thallid can&apos;t be blocked by creatures with lesser power.
+Whenever a creature dies, put a spore counter on Club Swinger Thallid.
+Club Swinger Thallid gets +1/+1 for each spore counter on it.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/197_Club Swinger Thallid.png" num="197">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fungus Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Djondjon, Eternal Sporegrounds</name>
+			<text>({T}: Add {G}.)
+Djondjon, Eternal Sporegrounds enters the battlefield tapped unless you control a Fungus creature.
+Whenever a creature enters the battlefield or dies, put a spore counter on Djondjon, Eternal Sporegrounds.
+{3}{G}, {T}: Move any number of spore counters from Djondjon, Eternal Sporegrounds onto target creature.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/251_Djondjon, Eternal Sporegrounds.png" num="251">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land — Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Fungal Force</name>
+			<text>For each creature you control, create a 1/1 green Saproling creature token. Then create another one of those tokens for each spore counter on creatures you control.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/203_Fungal Force.png" num="203">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Fungal Undead</name>
+			<text>Fungal Undead enters the battlefield with two spore counters on it.
+If Fungal Undead would die, you may remove a spore counter from it instead.
+{4}{G}, Exile Fungal Undead from your graveyard: Double the number of counters on target permanent.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/206_Fungal Undead.png" num="206">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fungus Skeleton</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Riftstone Altar</name>
+			<text>{T}: Add {C}.
+{T}: Add one mana of any color. Spend this mana only to cast monocolor spells.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/259_Riftstone Altar.png" num="259">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Rift Coin</name>
+			<text>Rift Coin enters the battlefield tapped.
+{T}, Sacrifice Rift Coin: Add one mana of any color.
+{T}, Sacrifice Rift Coin: Add {C}{C}.
+When you sacrifice Rift Coin, draw a card.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/242_Rift Coin.png" num="242">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Treasure</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Riftstone Fragment</name>
+			<text>Riftstone Fragment enters the battlefield tapped.
+{T}: Add {C}{C}.
+{5}, {T}, Sacrifice Riftstone Fragment: Destroy target nonbasic permanent.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/244_Riftstone Fragment.png" num="244">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Blood Contract</name>
+			<text>Pay X life, {T}: Search your library for a card with mana value X, reveal it, and put it into your hand. Then shuffle. The opponent to your right gains control of Blood Contract.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/239_Blood Contract.png" num="239">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Citadel in the Sky</name>
+			<text>{T}: Add {C}.
+{1}, {T}: Add one mana of any color.
+{2}, {T}: Create a 2/2 colorless artifact Vehicle token with flying and crew 1.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/249_Citadel in the Sky.png" num="249">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Riftstone Dynamo</name>
+			<text>Riftstone Dynamo enters the battlefield with X charge counters on it.
+{3}, {T}: Put a charge counter on Riftstone Dynamo, then scour a colorless nonland card with mana value less than or equal to the number of charge counters on Riftstone Dynamo. (To scour a card, reveal cards from the top of your library until you reveal a card with those characteristcs. Put that card into your hand and the rest on the bottom of your library in a random order.)</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/243_Riftstone Dynamo.png" num="243">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>X4</manacost>
+				<cmc>4</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Avatar of None</name>
+			<text>Protection from all colors (This creature can&apos;t be blocked, targeted, dealt damage, enchanted, or equipped by anything that&apos;s white, blue, black, red, or green. Colorless is not a color.)</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/1_Avatar of None.png" num="1">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Avatar Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Unleash the Guardians</name>
+			<text>Exile all attacking and blocking creatures. For each creature exiled this way, its controller creates a 3/3 colorless Golem artifact creature token.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/40_Unleash the Guardians.png" num="40">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>22/W2/W</manacost>
+				<cmc>6</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Breach the Astral Sea</name>
+			<text>You may reveal an artifact or colorless card you own from outside the game and put it into your hand. Exile Breach the Astral Sea.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/52_Breach the Astral Sea.png" num="52">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>22/U2/U</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Blood Lake Emergence</name>
+			<text>Search your library for a card, reveal it, and put it into your hand. Then shuffle your library. If that card is a creature and six or more {B} was spent to cast this spell, put that creature onto the battlefield tapped.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/103_Blood Lake Emergence.png" num="103">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>22/B2/B</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Reality Warp</name>
+			<text>Exile target permanent. Its controller reveals cards from the top of their library until they reveal a card that shares a type with the exiled permanent. They put that card onto the battlefield and the rest on the bottom of their library in a random order.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/171_Reality Warp.png" num="171">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>22/R2/R</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Expansive Growth</name>
+			<text>Sacrifice a creature. When you do, scour a creature card. If you would put a card into your hand this way, you may put that card onto the battlefield tapped instead. (To scour a creature card., reveal cards from the top of your library until you reveal a creature card.. Put that card into your hand and the rest on the bottom of your library in a random order.)</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/199_Expansive Growth.png" num="199">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>22/G2/G</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Amanecer, Dawn-Plumed</name>
+			<text>Flying
+When Amanecer, Dawn-Plumed enters the battlefield, create a 1/1 white Bird Soldier creature token with flying for each {W} spent to cast it beyond the third.
+Whenever another creature enters the battlefield under your control, you gain life equal to that creature&apos;s power.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/5_Amanecer, Dawn-Plumed.png" num="5">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Bird Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2/W2/W2/W</manacost>
+				<cmc>6</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Captain Greatbeard</name>
+			<text>When Captain Greatbeard enters the battlefield, create a Treasure for each {U} spent to cast it beyond the third.
+Whenever you cast an artifact or Pirate spell, create a 1/1 blue Illusion Tentacle creature token with &quot;When this dies, draw a card.&quot;</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/56_Captain Greatbeard.png" num="56">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Pirate</type>
+				<maintype>Creature</maintype>
+				<manacost>2/U2/U2/U</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sânge, Lord of Blood</name>
+			<text>Flying, lifelink
+When Sânge, Lord of Blood enters the battlefield, Sânge deals 2 damage to each opponent for each {B} spent to cast it beyond the third.
+Morbid — At the beginning of your end step, if a creature died this turn, Sânge deals 2 damage to each opponent.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/133_Sânge, Lord of Blood.png" num="133">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Demon Vampire</type>
+				<maintype>Creature</maintype>
+				<manacost>2/B2/B2/B</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Balaur, the Gold Wing</name>
+			<text>Flying
+When Balaur, the Gold Wing enters the battlefield, for each {R} spent to cast it beyond the third, choose up to one target creature. Balaur deals 3 damage to each creature chosen this way.
+Whenever you sacrifice a creature you control as a cost to cast a spell, copy that spell. You may choose new targets for the copy. (A copy of a permanent spell becomes a token.)</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/145_Balaur, the Gold Wing.png" num="145">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elder Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>2/R2/R2/R</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hrybok, Progenitor Supreme</name>
+			<text>Hrybok, Progenitor Supreme enters the battlefield with two spore counters on it for each {G} spent to cast it beyond the third.
+Remove two spore counters from creatures you control: Target creature gains menace and trample until end of turn. Activate only as a sorcery.
+{1}, Remove a spore counter from Hrybok: Create a 1/1 green Saproling creature token. Activate only as a sorcery.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/212_Hrybok, Progenitor Supreme.png" num="212">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Fungus</type>
+				<maintype>Creature</maintype>
+				<manacost>2/G2/G2/G</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ulama, the Exalted Wind</name>
+			<text>Flying
+Whirlwind (Whenever this creature deals combat damage to a player, you may exile it. Then return it to the battlefield under its owner&apos;s control.)
+When Ulama, the Exalted Wind enters the battlefield, exile up to one target creature. Its controller scours a land card. (To scour a land card., that player reveals cards from the top of their library until they reveal a land card.. They put that card into their hand and the rest on the bottom of their library in a random order.)</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/39_Ulama, the Exalted Wind.png" num="39">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Bird Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Taitai, Fearless Captain</name>
+			<text>Notoriety (If you control five or more artifacts and/or Pirates, you become notorious for the rest of the game.)
+When Taitai enters the battlefield, you may put a Vehicle card from your hand onto the battlefield.
+Whenever Taitai, Fearless Captain crews a vehicle, that Vehicle gains flying and prowess until end of turn. Then if you&apos;re notorious, untap Taitai.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/89_Taitai, Fearless Captain.png" num="89">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Pirate</type>
+				<maintype>Creature</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Regina, Eternal Broodmother</name>
+			<text>Flying, lifelink
+Morbid—As long as a creature died this turn, you may cast Regina, Eternal Broodmother from your graveyard by discarding a card in addition to its other costs.
+{2B}{2B}, Sacrifice another creature: Put a +1/+1 counter on Regina. Each opponent loses 2 life.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/132_Regina, Eternal Broodmother.png" num="132">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Vampire Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gla&apos;aki, Blood Poet</name>
+			<text>Gla&apos;aki, Blood Poet attacks each combat if able.
+Whenever you sacrifice a creature, that creature deals damage equal to its power to target creature or planeswalker an opponent controls.
+At the beginning of each end step, if Gla&apos;aki, Blood Poet died this turn, return it from the graveyard to the battlefield tapped.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/164_Gla&apos;aki, Blood Poet.png" num="164">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hongo, the Ever-Expanding</name>
+			<text>Ward {2}
+Hongo, the Ever-Expanding isn&apos;t legendary if it&apos;s a token.
+At the beginning of each combat, put a spore counter on each Fungus you control.
+Remove four spore counters from Hongo: Create a token that&apos;s a copy of Hongo.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/210_Hongo, the Ever-Expanding.png" num="210">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Fungus</type>
+				<maintype>Creature</maintype>
+				<manacost>4G</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Avatar of All</name>
+			<text>Flying
+When you cast Avatar of All, scour a card with {2W}, {2U}, {2B}, {2R}, or {2G} in its mana cost.
+You can pay {2} instead of {W}, {U}, {B}, {R}, {G}, or {C} in the mana costs of spells you cast.
+{1}: Add {C}{C}. Spend only colored mana to activate this ability.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/238_Avatar of All.png" num="238">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Avatar God</type>
+				<maintype>Creature</maintype>
+				<manacost>2/W2/U2/B2/R2/G</manacost>
+				<cmc>10</cmc>
+				<colors>WUBRG</colors>
+				<coloridentity>WUBRG</coloridentity>
+				<pt>7/7</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Burung, the Golden Wing</name>
+			<text></text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/10_Burung, the Golden Wing.png" num="10">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Burung</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<loyalty>4</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Cade, Planar Pillager</name>
+			<text></text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/55_Cade, Planar Pillager.png" num="55">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Cade</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<loyalty>3</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Gax&apos;lin, the Eldritch</name>
+			<text></text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/127_Gax&apos;lin, the Eldritch.png" num="127">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Gax&apos;lin</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<loyalty>3</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Trogat, Starstruck</name>
+			<text></text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/188_Trogat, Starstruck.png" num="188">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Trogat</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<loyalty>3</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Pye&apos;Bwa, Eternal Bloom</name>
+			<text></text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/219_Pye&apos;Bwa, Eternal Bloom.png" num="219">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Pye&apos;Bwa</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<loyalty>4</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Plains</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/265_Plains.png" num="265">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Island</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/266_Island.png" num="266">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Swamp</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/267_Swamp.png" num="267">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Mountain</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/268_Mountain.png" num="268">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Forest</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/269_Forest.png" num="269">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Bird Soldier SYZ</name>
+			<text>Flying</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/1t_Bird Soldier.png" num="1">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Bird Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Pirate SYZ</name>
+			<text>This creature crews Vehicles as though its power were 2 greater.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/3t_Pirate.png" num="3">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Pirate</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Vampire SYZ</name>
+			<text>Lifelink</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/4t_Vampire.png" num="4">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Vampire</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Shaman SYZ</name>
+			<text>This creature can&apos;t block.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/9t_Shaman.png" num="9">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Saproling SYZ</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/11t_Saproling.png" num="11">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Saproling</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Dragon SYZ</name>
+			<text>Flying</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/8t_Dragon.png" num="8">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Treasure_Pirate SYZ</name>
+			<text>{T}, Sacrifice this artifact: Add one mana of any color.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/13t_Treasure_Pirate.png" num="13">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact — Treasure</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Blood Strike (Promo)</name>
+			<text>Destroy target nonblack creature.</text>
+			<set rarity="special" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/1_Blood Strike (Promo).png" num="1">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2/B2/B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Bird Construct SYZ</name>
+			<text>Flying</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/12t_Bird Construct.png" num="12">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact Creature — Bird Construct</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Vampire Bat SYZ</name>
+			<text>Flying, lifelink</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/5t_Vampire Bat.png" num="5">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Vampire Bat</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Vampire Knight SYZ</name>
+			<text>Lifelink</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/6t_Vampire Knight.png" num="6">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Vampire Knight</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Zombie SYZ</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/7t_Zombie.png" num="7">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Zombie</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Bird Pirate SYZ</name>
+			<text>Flying</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/2t_Bird Pirate.png" num="2">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Bird Pirate</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Cat Pirate SYZ</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/SYZ-files/img/10t_Cat Pirate.png" num="10">SYZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Cat Pirate</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+	</cards>
+</cockatrice_carddatabase>

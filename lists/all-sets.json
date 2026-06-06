@@ -1,0 +1,54 @@
+﻿{
+    "sets": [
+        {
+            "set_code": "BEY",
+            "set_name": "Beyond the Event Horizon",
+            "formats": "Beyond the Event Horizon Block"
+        },
+        {
+            "set_code": "CCC",
+            "set_name": "Custom Chaos Cube",
+            "formats": ""
+        },
+        {
+            "set_code": "KMR",
+            "set_name": "Kamigawa Reborn",
+            "formats": ""
+        },
+        {
+            "set_code": "MAD",
+            "set_name": "Mad World",
+            "formats": ""
+        },
+        {
+            "set_code": "MOG",
+            "set_name": "Moag",
+            "formats": ""
+        },
+        {
+            "set_code": "SMG",
+            "set_name": "Velencium: City of Smog",
+            "formats": ""
+        },
+        {
+            "set_code": "SYZ",
+            "set_name": "Sy\u00e8lzile: Islands in the Sky",
+            "formats": ""
+        },
+        {
+            "set_code": "TCS",
+            "set_name": "Twilight City Stories",
+            "formats": "Beyond the Event Horizon Block"
+        },
+        {
+            "set_code": "VRM",
+            "set_name": "Valla Remastered",
+            "formats": ""
+        },
+        {
+            "set_code": "WRP",
+            "set_name": "",
+            "formats": "Beyond the Event Horizon Block"
+        }
+    ]
+}

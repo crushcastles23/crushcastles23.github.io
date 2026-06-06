@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="../sets/MAD-files/icon.png"/>
+	<link rel="stylesheet" href="../resources/header.css">
+	<title>MAD visual preview</title>
+	<script title="root">
+		const rootPath = "..";
+	</script>
+	<style>
+		@font-face {
+			font-family: Beleren;
+			src: url('../resources/beleren.ttf');
+		}
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			opacity: 0;
+			transform: rotateY(0deg) rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+			border-radius: 3.733% / 2.677%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+			border-radius: 3.733% / 2.677%;
+		}
+		.close-btn {
+			background: url('../img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('../img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+			border-radius: 3.733% / 2.677%;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 80px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+			border-radius: 3.733% / 2.677%;
+		}
+		.flip-btn {
+			background: url('../img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('../img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.dropdown {
+			background: rgba(23, 23, 23, 0.8);
+			border-radius: 8px;
+			position: absolute;
+			left: 5%;
+			width: fit-content;
+			max-width: 90%;
+			margin: 20px 0;
+			padding: 5px 0;
+			display: grid;
+			grid-template-columns: 1fr;
+			z-index: 3;
+		}
+		.dropdown .set-bar {
+			font-family: Beleren;
+			font-size: 20px;
+			text-decoration: none;
+			color: #e3e3e3;
+			display: flex;
+			gap: 10px;
+			align-items: center;
+			padding: 0 12px;
+			margin: 5px;
+		}
+		.dropdown .set-bar:hover {
+			background: rgba(163, 163, 163, 0.5);
+			color: #f3f3f3;
+		}
+		.dropdown .set-bar img {
+			width: 32px;
+		}
+		.dropdown .inactive {
+			height: 0px;
+			overflow: hidden;
+			margin: 0px 5px;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		.addenda-container {
+			text-align: center;
+			width: fit-content;
+			max-width: 1200px;
+			padding: 0 5%;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="../img/dot.png" />
+	<img class="preload-hidden" src="../sets/MAD-files/logo.png" />
+	<img class="preload-hidden" src="../sets/BEY-files/icon.png" />
+		<img class="preload-hidden" src="../sets/CCC-files/icon.png" />
+		<img class="preload-hidden" src="../sets/KMR-files/icon.png" />
+		<img class="preload-hidden" src="../sets/MAD-files/icon.png" />
+		<img class="preload-hidden" src="../sets/MOG-files/icon.png" />
+		<img class="preload-hidden" src="../sets/SMG-files/icon.png" />
+		<img class="preload-hidden" src="../sets/SYZ-files/icon.png" />
+		<img class="preload-hidden" src="../sets/TCS-files/icon.png" />
+		<img class="preload-hidden" src="../sets/VRM-files/icon.png" />
+		<img class="preload-hidden" src="../sets/WRP-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a onclick="window.location.href = rootPath + '/'"><img class="sg-logo" id="header-banner"></a>
+			<img class="sg-icon" id="header-search" onclick="goToSearch()">
+			<div style="position: relative; width: 100%;">
+				<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+				<div id="tag-dropdown" style="display: none; position: absolute; top: 100%; left: 0; width: 100%; background: white; border: 1px solid #d5d9d9; z-index: 1000; max-height: 200px; overflow-y: auto; color: black; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></div>
+			</div>
+			<a onclick="window.location.href = rootPath + '/all-sets'"><img id="header-sets" class="sg-icon">Sets</a>
+			<a onclick="window.location.href = rootPath + '/deckbuilder'"><img id="header-deck" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img id="header-random" class="sg-icon">Random</a>
+		</div>
+	</div>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			document.getElementById("header-banner").src = rootPath + "/img/banner.png";
+			document.getElementById("header-search").src = rootPath + "/img/search.png";
+			document.getElementById("header-sets").src = rootPath + "/img/sets.png";
+			document.getElementById("header-deck").src = rootPath + "/img/deck.png";
+			document.getElementById("header-random").src = rootPath + "/img/random.png";
+		});
+
+		function goToSearch() {
+			window.location.href = rootPath + "/search";
+		}
+	</script>
+
+	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+	
+		<a class="set-bar" href="../previews/MAD"><img src="../sets/MAD-files/icon.png">Mad World</a>
+	
+		<a class="set-bar inactive" href="../previews/BEY"><img src="../sets/BEY-files/icon.png">Beyond the Event Horizon</a>
+	
+		<a class="set-bar inactive" href="../previews/CCC"><img src="../sets/CCC-files/icon.png">Custom Chaos Cube</a>
+	
+		<a class="set-bar inactive" href="../previews/KMR"><img src="../sets/KMR-files/icon.png">Kamigawa Reborn</a>
+	
+		<a class="set-bar inactive" href="../previews/MOG"><img src="../sets/MOG-files/icon.png">Moag</a>
+	
+		<a class="set-bar inactive" href="../previews/SMG"><img src="../sets/SMG-files/icon.png">Velencium: City of Smog</a>
+	
+		<a class="set-bar inactive" href="../previews/SYZ"><img src="../sets/SYZ-files/icon.png">Syèlzile: Islands in the Sky</a>
+	
+		<a class="set-bar inactive" href="../previews/TCS"><img src="../sets/TCS-files/icon.png">Twilight City Stories</a>
+	
+		<a class="set-bar inactive" href="../previews/VRM"><img src="../sets/VRM-files/icon.png">Valla Remastered</a>
+	
+		<a class="set-bar inactive" href="../previews/WRP"><img src="../sets/WRP-files/icon.png"></a>
+	
+		</div>
+		<div class="banner">
+		<img class="logo" src="../sets/MAD-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+					<div class="container"><img loading="lazy" alt="sets\MAD-files\img\28_Ruff, Glorious Champion.png" id="MAD_28_Ruff, Glorious Champion" data-flag="@X" onclick="openSidebar('MAD_28_Ruff, Glorious Champion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\45_Counting Cards.png" id="MAD_45_Counting Cards" data-flag="@X" onclick="openSidebar('MAD_45_Counting Cards',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\102_Shchur, Superior Striker.png" id="MAD_102_Shchur, Superior Striker" data-flag="@X" onclick="openSidebar('MAD_102_Shchur, Superior Striker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\112_Agni, Fire Dancer.png" id="MAD_112_Agni, Fire Dancer" data-flag="@X" onclick="openSidebar('MAD_112_Agni, Fire Dancer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\166_Introducing....png" id="MAD_166_Introducing..." data-flag="@X" onclick="openSidebar('MAD_166_Introducing...',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\6_Cage Fighter.png" id="MAD_6_Cage Fighter" data-flag="@X" onclick="openSidebar('MAD_6_Cage Fighter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\44_Control Fate.png" id="MAD_44_Control Fate" data-flag="@X" onclick="openSidebar('MAD_44_Control Fate',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\78_Blood Hunter.png" id="MAD_78_Blood Hunter" data-flag="@X" onclick="openSidebar('MAD_78_Blood Hunter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\141_Risk It All.png" id="MAD_141_Risk It All" data-flag="@X" onclick="openSidebar('MAD_141_Risk It All',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\157_Crime Boss.png" id="MAD_157_Crime Boss" data-flag="@X" onclick="openSidebar('MAD_157_Crime Boss',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\9_Dashing Dancer.png" id="MAD_9_Dashing Dancer" data-flag="@X" onclick="openSidebar('MAD_9_Dashing Dancer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\48_Drift Along the Winds.png" id="MAD_48_Drift Along the Winds" data-flag="@X" onclick="openSidebar('MAD_48_Drift Along the Winds',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\81_Chain Striker.png" id="MAD_81_Chain Striker" data-flag="@X" onclick="openSidebar('MAD_81_Chain Striker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\116_Chasy the Mad.png" id="MAD_116_Chasy the Mad" data-flag="@X" onclick="openSidebar('MAD_116_Chasy the Mad',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\161_Fleyta, Furious Flautist.png" id="MAD_161_Fleyta, Furious Flautist" data-flag="@X" onclick="openSidebar('MAD_161_Fleyta, Furious Flautist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\11_Dirizher, Grand Conductor.png" id="MAD_11_Dirizher, Grand Conductor" data-flag="@X" onclick="openSidebar('MAD_11_Dirizher, Grand Conductor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\50_Enigma, the Shadow.png" id="MAD_50_Enigma, the Shadow" data-flag="@X" onclick="openSidebar('MAD_50_Enigma, the Shadow',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\82_Chert the Blood Lord.png" id="MAD_82_Chert the Blood Lord" data-flag="@X" onclick="openSidebar('MAD_82_Chert the Blood Lord',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\124_Fortune or Fire.png" id="MAD_124_Fortune or Fire" data-flag="@X" onclick="openSidebar('MAD_124_Fortune or Fire',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\167_Korol, Last of the Great Kings.png" id="MAD_167_Korol, Last of the Great Kings" data-flag="@X" onclick="openSidebar('MAD_167_Korol, Last of the Great Kings',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\14_Fox Fantastique.png" id="MAD_14_Fox Fantastique" data-flag="@X" onclick="openSidebar('MAD_14_Fox Fantastique',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\62_Magician's Foresight.png" id="MAD_62_Magicians Foresight" data-flag="@X" onclick="openSidebar('MAD_62_Magicians Foresight',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\90_Greedy Tutor.png" id="MAD_90_Greedy Tutor" data-flag="@X" onclick="openSidebar('MAD_90_Greedy Tutor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\125_Gamble.png" id="MAD_125_Gamble" data-flag="@X" onclick="openSidebar('MAD_125_Gamble',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\168_Krov, Bounty Hunter.png" id="MAD_168_Krov, Bounty Hunter" data-flag="@X" onclick="openSidebar('MAD_168_Krov, Bounty Hunter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\19_Joyous Festival.png" id="MAD_19_Joyous Festival" data-flag="@X" onclick="openSidebar('MAD_19_Joyous Festival',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\64_Nezhit the Ancient.png" id="MAD_64_Nezhit the Ancient" data-flag="@X" onclick="openSidebar('MAD_64_Nezhit the Ancient',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\92_Hold Hostage.png" id="MAD_92_Hold Hostage" data-flag="@X" onclick="openSidebar('MAD_92_Hold Hostage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\127_Igrok, Gambling Prodigy.png" id="MAD_127_Igrok, Gambling Prodigy" data-flag="@X" onclick="openSidebar('MAD_127_Igrok, Gambling Prodigy',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\173_Night's Revival.png" id="MAD_173_Nights Revival" data-flag="@X" onclick="openSidebar('MAD_173_Nights Revival',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\20_Maddening Death Spiral.png" id="MAD_20_Maddening Death Spiral" data-flag="@X" onclick="openSidebar('MAD_20_Maddening Death Spiral',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\67_Ryba, Defiant Tidemaster.png" id="MAD_67_Ryba, Defiant Tidemaster" data-flag="@X" onclick="openSidebar('MAD_67_Ryba, Defiant Tidemaster',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\93_Jawbone, the Deadly Maw.png" id="MAD_93_Jawbone, the Deadly Maw" data-flag="@X" onclick="openSidebar('MAD_93_Jawbone, the Deadly Maw',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\131_Koldun the Magnificent.png" id="MAD_131_Koldun the Magnificent" data-flag="@X" onclick="openSidebar('MAD_131_Koldun the Magnificent',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\177_Quell the Beasts.png" id="MAD_177_Quell the Beasts" data-flag="@X" onclick="openSidebar('MAD_177_Quell the Beasts',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\22_Moonsliver Shaman.png" id="MAD_22_Moonsliver Shaman" data-flag="@X" onclick="openSidebar('MAD_22_Moonsliver Shaman',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\69_Semiformed Soldier.png" id="MAD_69_Semiformed Soldier" data-flag="@X" onclick="openSidebar('MAD_69_Semiformed Soldier',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\94_Lestat, the Bloodmad.png" id="MAD_94_Lestat, the Bloodmad" data-flag="@X" onclick="openSidebar('MAD_94_Lestat, the Bloodmad',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\132_Napier, Court Jester.png" id="MAD_132_Napier, Court Jester" data-flag="@X" onclick="openSidebar('MAD_132_Napier, Court Jester',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\179_Shayr, Pinwheel Perforator.png" id="MAD_179_Shayr, Pinwheel Perforator" data-flag="@X" onclick="openSidebar('MAD_179_Shayr, Pinwheel Perforator',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\25_Reign Supreme.png" id="MAD_25_Reign Supreme" data-flag="@X" onclick="openSidebar('MAD_25_Reign Supreme',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\70_Shapka the Sly.png" id="MAD_70_Shapka the Sly" data-flag="@X" onclick="openSidebar('MAD_70_Shapka the Sly',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\95_Limitless Wealth.png" id="MAD_95_Limitless Wealth" data-flag="@X" onclick="openSidebar('MAD_95_Limitless Wealth',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\135_Podvohk, the Mad Juggler.png" id="MAD_135_Podvohk, the Mad Juggler" data-flag="@X" onclick="openSidebar('MAD_135_Podvohk, the Mad Juggler',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\180_Spirit Ransom.png" id="MAD_180_Spirit Ransom" data-flag="@X" onclick="openSidebar('MAD_180_Spirit Ransom',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\35_Talon, Rope Runner.png" id="MAD_35_Talon, Rope Runner" data-flag="@X" onclick="openSidebar('MAD_35_Talon, Rope Runner',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\74_Warden's Shield.png" id="MAD_74_Wardens Shield" data-flag="@X" onclick="openSidebar('MAD_74_Wardens Shield',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\110_Triple Threat Match.png" id="MAD_110_Triple Threat Match" data-flag="@X" onclick="openSidebar('MAD_110_Triple Threat Match',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\137_Privesti, Parade Leader.png" id="MAD_137_Privesti, Parade Leader" data-flag="@X" onclick="openSidebar('MAD_137_Privesti, Parade Leader',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\181_Srâne, Flycatcher.png" id="MAD_181_Srâne, Flycatcher" data-flag="@X" onclick="openSidebar('MAD_181_Srâne, Flycatcher',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\8_Cock Shot.png" id="MAD_8_Cock Shot" data-flag="@X" onclick="openSidebar('MAD_8_Cock Shot',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\39_Boxtopus.png" id="MAD_39_Boxtopus" data-flag="@X" onclick="openSidebar('MAD_39_Boxtopus',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\75_Abduct.png" id="MAD_75_Abduct" data-flag="@X" onclick="openSidebar('MAD_75_Abduct',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\149_Wheel of Suffering.png" id="MAD_149_Wheel of Suffering" data-flag="@X" onclick="openSidebar('MAD_149_Wheel of Suffering',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\152_Carry Out.png" id="MAD_152_Carry Out" data-flag="@X" onclick="openSidebar('MAD_152_Carry Out',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\12_Enthralling Distraction.png" id="MAD_12_Enthralling Distraction" data-flag="@X" onclick="openSidebar('MAD_12_Enthralling Distraction',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\43_Chimera Colossus.png" id="MAD_43_Chimera Colossus" data-flag="@X" onclick="openSidebar('MAD_43_Chimera Colossus',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\87_Diabolical Spinner.png" id="MAD_87_Diabolical Spinner" data-flag="@X" onclick="openSidebar('MAD_87_Diabolical Spinner',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\115_Center Stage.png" id="MAD_115_Center Stage" data-flag="@X" onclick="openSidebar('MAD_115_Center Stage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\156_Come One, Come All.png" id="MAD_156_Come One, Come All" data-flag="@X" onclick="openSidebar('MAD_156_Come One, Come All',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\15_Funerary Rites.png" id="MAD_15_Funerary Rites" data-flag="@X" onclick="openSidebar('MAD_15_Funerary Rites',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\51_Enticing Distraction.png" id="MAD_51_Enticing Distraction" data-flag="@X" onclick="openSidebar('MAD_51_Enticing Distraction',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\88_Eto, the Deranged.png" id="MAD_88_Eto, the Deranged" data-flag="@X" onclick="openSidebar('MAD_88_Eto, the Deranged',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\119_Dice Devil.png" id="MAD_119_Dice Devil" data-flag="@X" onclick="openSidebar('MAD_119_Dice Devil',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\160_Endless Explorer.png" id="MAD_160_Endless Explorer" data-flag="@X" onclick="openSidebar('MAD_160_Endless Explorer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\16_Generous Gift.png" id="MAD_16_Generous Gift" data-flag="@X" onclick="openSidebar('MAD_16_Generous Gift',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\55_Faltz, Grand Illusionist.png" id="MAD_55_Faltz, Grand Illusionist" data-flag="@X" onclick="openSidebar('MAD_55_Faltz, Grand Illusionist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\89_Frogkin Kidnapper.png" id="MAD_89_Frogkin Kidnapper" data-flag="@X" onclick="openSidebar('MAD_89_Frogkin Kidnapper',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\120_Dice Head.png" id="MAD_120_Dice Head" data-flag="@X" onclick="openSidebar('MAD_120_Dice Head',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\164_Harlequin Thrull.png" id="MAD_164_Harlequin Thrull" data-flag="@X" onclick="openSidebar('MAD_164_Harlequin Thrull',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\21_Malicious Mime.png" id="MAD_21_Malicious Mime" data-flag="@X" onclick="openSidebar('MAD_21_Malicious Mime',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\59_L'eau, Water Spirit.png" id="MAD_59_Leau, Water Spirit" data-flag="@X" onclick="openSidebar('MAD_59_Leau, Water Spirit',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\97_Open Palm Master.png" id="MAD_97_Open Palm Master" data-flag="@X" onclick="openSidebar('MAD_97_Open Palm Master',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\123_Flamespitter.png" id="MAD_123_Flamespitter" data-flag="@X" onclick="openSidebar('MAD_123_Flamespitter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\172_Mismatched Fight.png" id="MAD_172_Mismatched Fight" data-flag="@X" onclick="openSidebar('MAD_172_Mismatched Fight',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\27_Roundhouse Striker.png" id="MAD_27_Roundhouse Striker" data-flag="@X" onclick="openSidebar('MAD_27_Roundhouse Striker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\63_Mesmerizing Display.png" id="MAD_63_Mesmerizing Display" data-flag="@X" onclick="openSidebar('MAD_63_Mesmerizing Display',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\99_Pumpkin Carver.png" id="MAD_99_Pumpkin Carver" data-flag="@X" onclick="openSidebar('MAD_99_Pumpkin Carver',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\130_Istan, Uncanny Illusionist.png" id="MAD_130_Istan, Uncanny Illusionist" data-flag="@X" onclick="openSidebar('MAD_130_Istan, Uncanny Illusionist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\176_Polar Gladiator.png" id="MAD_176_Polar Gladiator" data-flag="@X" onclick="openSidebar('MAD_176_Polar Gladiator',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\29_Shifting Striker.png" id="MAD_29_Shifting Striker" data-flag="@X" onclick="openSidebar('MAD_29_Shifting Striker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\68_Sandstone Lizard.png" id="MAD_68_Sandstone Lizard" data-flag="@X" onclick="openSidebar('MAD_68_Sandstone Lizard',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\106_Steelfist Heel.png" id="MAD_106_Steelfist Heel" data-flag="@X" onclick="openSidebar('MAD_106_Steelfist Heel',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\133_Neon Fire Dancer.png" id="MAD_133_Neon Fire Dancer" data-flag="@X" onclick="openSidebar('MAD_133_Neon Fire Dancer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\182_Starik, Last of the Old Ways.png" id="MAD_182_Starik, Last of the Old Ways" data-flag="@X" onclick="openSidebar('MAD_182_Starik, Last of the Old Ways',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\33_Tag Team Advantage.png" id="MAD_33_Tag Team Advantage" data-flag="@X" onclick="openSidebar('MAD_33_Tag Team Advantage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\73_Tavern Gunslinger.png" id="MAD_73_Tavern Gunslinger" data-flag="@X" onclick="openSidebar('MAD_73_Tavern Gunslinger',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\108_Tait, Hidden in Plain Sight.png" id="MAD_108_Tait, Hidden in Plain Sight" data-flag="@X" onclick="openSidebar('MAD_108_Tait, Hidden in Plain Sight',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\134_Ogon, the Mad Inferno.png" id="MAD_134_Ogon, the Mad Inferno" data-flag="@X" onclick="openSidebar('MAD_134_Ogon, the Mad Inferno',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\186_Var-Var the Insurmountable.png" id="MAD_186_Var-Var the Insurmountable" data-flag="@X" onclick="openSidebar('MAD_186_Var-Var the Insurmountable',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\1_Abaja Leaper.png" id="MAD_1_Abaja Leaper" data-flag="@X" onclick="openSidebar('MAD_1_Abaja Leaper',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\38_Big Top Buzzard.png" id="MAD_38_Big Top Buzzard" data-flag="@X" onclick="openSidebar('MAD_38_Big Top Buzzard',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\76_Absurd Balloonist.png" id="MAD_76_Absurd Balloonist" data-flag="@X" onclick="openSidebar('MAD_76_Absurd Balloonist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\146_Thrill Ride.png" id="MAD_146_Thrill Ride" data-flag="@X" onclick="openSidebar('MAD_146_Thrill Ride',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\150_Aura Quell.png" id="MAD_150_Aura Quell" data-flag="@X" onclick="openSidebar('MAD_150_Aura Quell',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\2_Agile Ribbon Dancer.png" id="MAD_2_Agile Ribbon Dancer" data-flag="@X" onclick="openSidebar('MAD_2_Agile Ribbon Dancer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\40_Calculated Diviner.png" id="MAD_40_Calculated Diviner" data-flag="@X" onclick="openSidebar('MAD_40_Calculated Diviner',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\77_Alarm.png" id="MAD_77_Alarm" data-flag="@X" onclick="openSidebar('MAD_77_Alarm',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\113_Ash-Tail Hawk.png" id="MAD_113_Ash-Tail Hawk" data-flag="@X" onclick="openSidebar('MAD_113_Ash-Tail Hawk',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\151_Calming Respite.png" id="MAD_151_Calming Respite" data-flag="@X" onclick="openSidebar('MAD_151_Calming Respite',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\3_Bardic Bird.png" id="MAD_3_Bardic Bird" data-flag="@X" onclick="openSidebar('MAD_3_Bardic Bird',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\41_Card Reader.png" id="MAD_41_Card Reader" data-flag="@X" onclick="openSidebar('MAD_41_Card Reader',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\79_Blood Magic Ritual.png" id="MAD_79_Blood Magic Ritual" data-flag="@X" onclick="openSidebar('MAD_79_Blood Magic Ritual',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\114_Card Trick.png" id="MAD_114_Card Trick" data-flag="@X" onclick="openSidebar('MAD_114_Card Trick',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\153_Charged Archery.png" id="MAD_153_Charged Archery" data-flag="@X" onclick="openSidebar('MAD_153_Charged Archery',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\4_Bardic Reinforcements.png" id="MAD_4_Bardic Reinforcements" data-flag="@X" onclick="openSidebar('MAD_4_Bardic Reinforcements',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\42_Card Shark.png" id="MAD_42_Card Shark" data-flag="@X" onclick="openSidebar('MAD_42_Card Shark',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\80_Bloody Hit.png" id="MAD_80_Bloody Hit" data-flag="@X" onclick="openSidebar('MAD_80_Bloody Hit',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\117_Club Spade Guards.png" id="MAD_117_Club Spade Guards" data-flag="@X" onclick="openSidebar('MAD_117_Club Spade Guards',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\154_Chimera Yearling.png" id="MAD_154_Chimera Yearling" data-flag="@X" onclick="openSidebar('MAD_154_Chimera Yearling',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\5_Bolstering Bard.png" id="MAD_5_Bolstering Bard" data-flag="@X" onclick="openSidebar('MAD_5_Bolstering Bard',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\46_Dark Sea Guide.png" id="MAD_46_Dark Sea Guide" data-flag="@X" onclick="openSidebar('MAD_46_Dark Sea Guide',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\83_Compelling Invitation.png" id="MAD_83_Compelling Invitation" data-flag="@X" onclick="openSidebar('MAD_83_Compelling Invitation',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\118_Devilish Bard.png" id="MAD_118_Devilish Bard" data-flag="@X" onclick="openSidebar('MAD_118_Devilish Bard',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\155_Chimeric Warrior.png" id="MAD_155_Chimeric Warrior" data-flag="@X" onclick="openSidebar('MAD_155_Chimeric Warrior',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\7_Coach's Pep Talk.png" id="MAD_7_Coachs Pep Talk" data-flag="@X" onclick="openSidebar('MAD_7_Coachs Pep Talk',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\47_Dazzle.png" id="MAD_47_Dazzle" data-flag="@X" onclick="openSidebar('MAD_47_Dazzle',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\84_Court Broker.png" id="MAD_84_Court Broker" data-flag="@X" onclick="openSidebar('MAD_84_Court Broker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\121_Envelop In Fire.png" id="MAD_121_Envelop In Fire" data-flag="@X" onclick="openSidebar('MAD_121_Envelop In Fire',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\158_Crime Pays.png" id="MAD_158_Crime Pays" data-flag="@X" onclick="openSidebar('MAD_158_Crime Pays',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\10_Dazzling Display.png" id="MAD_10_Dazzling Display" data-flag="@X" onclick="openSidebar('MAD_10_Dazzling Display',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\49_Eloquent Performance.png" id="MAD_49_Eloquent Performance" data-flag="@X" onclick="openSidebar('MAD_49_Eloquent Performance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\85_Cranium Strike.png" id="MAD_85_Cranium Strike" data-flag="@X" onclick="openSidebar('MAD_85_Cranium Strike',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\122_Fire Fists.png" id="MAD_122_Fire Fists" data-flag="@X" onclick="openSidebar('MAD_122_Fire Fists',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\159_Dragon Wyrmling.png" id="MAD_159_Dragon Wyrmling" data-flag="@X" onclick="openSidebar('MAD_159_Dragon Wyrmling',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\13_Fleetwing Knight.png" id="MAD_13_Fleetwing Knight" data-flag="@X" onclick="openSidebar('MAD_13_Fleetwing Knight',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\52_Escaped Chimera.png" id="MAD_52_Escaped Chimera" data-flag="@X" onclick="openSidebar('MAD_52_Escaped Chimera',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\86_Cut a Promo.png" id="MAD_86_Cut a Promo" data-flag="@X" onclick="openSidebar('MAD_86_Cut a Promo',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\126_High Roller.png" id="MAD_126_High Roller" data-flag="@X" onclick="openSidebar('MAD_126_High Roller',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\162_Flourishing Growth.png" id="MAD_162_Flourishing Growth" data-flag="@X" onclick="openSidebar('MAD_162_Flourishing Growth',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\17_Halfling Bard.png" id="MAD_17_Halfling Bard" data-flag="@X" onclick="openSidebar('MAD_17_Halfling Bard',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\53_Essence of Intellect.png" id="MAD_53_Essence of Intellect" data-flag="@X" onclick="openSidebar('MAD_53_Essence of Intellect',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\91_Grotesque Vampire.png" id="MAD_91_Grotesque Vampire" data-flag="@X" onclick="openSidebar('MAD_91_Grotesque Vampire',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\128_Improvised Combat.png" id="MAD_128_Improvised Combat" data-flag="@X" onclick="openSidebar('MAD_128_Improvised Combat',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\163_Gem Specialist.png" id="MAD_163_Gem Specialist" data-flag="@X" onclick="openSidebar('MAD_163_Gem Specialist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\18_High Striker.png" id="MAD_18_High Striker" data-flag="@X" onclick="openSidebar('MAD_18_High Striker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\54_Extreme Vertigo.png" id="MAD_54_Extreme Vertigo" data-flag="@X" onclick="openSidebar('MAD_54_Extreme Vertigo',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\96_Long-Neck Brawler.png" id="MAD_96_Long-Neck Brawler" data-flag="@X" onclick="openSidebar('MAD_96_Long-Neck Brawler',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\129_Irresponsible Ignition.png" id="MAD_129_Irresponsible Ignition" data-flag="@X" onclick="openSidebar('MAD_129_Irresponsible Ignition',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\165_Heavy Underboss.png" id="MAD_165_Heavy Underboss" data-flag="@X" onclick="openSidebar('MAD_165_Heavy Underboss',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\23_Pelear Boulder Thrower.png" id="MAD_23_Pelear Boulder Thrower" data-flag="@X" onclick="openSidebar('MAD_23_Pelear Boulder Thrower',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\56_House Griffin Fledgling.png" id="MAD_56_House Griffin Fledgling" data-flag="@X" onclick="openSidebar('MAD_56_House Griffin Fledgling',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\98_Otherworldly Advice.png" id="MAD_98_Otherworldly Advice" data-flag="@X" onclick="openSidebar('MAD_98_Otherworldly Advice',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\136_Possibility Drone.png" id="MAD_136_Possibility Drone" data-flag="@X" onclick="openSidebar('MAD_136_Possibility Drone',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\169_Lock Horns.png" id="MAD_169_Lock Horns" data-flag="@X" onclick="openSidebar('MAD_169_Lock Horns',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\24_Rapid Fireslinger.png" id="MAD_24_Rapid Fireslinger" data-flag="@X" onclick="openSidebar('MAD_24_Rapid Fireslinger',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\57_Intangible Form.png" id="MAD_57_Intangible Form" data-flag="@X" onclick="openSidebar('MAD_57_Intangible Form',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\100_Rotting Thrull.png" id="MAD_100_Rotting Thrull" data-flag="@X" onclick="openSidebar('MAD_100_Rotting Thrull',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\138_Prize Plunderer.png" id="MAD_138_Prize Plunderer" data-flag="@X" onclick="openSidebar('MAD_138_Prize Plunderer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\170_Long Man.png" id="MAD_170_Long Man" data-flag="@X" onclick="openSidebar('MAD_170_Long Man',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\26_Ribbon Dance.png" id="MAD_26_Ribbon Dance" data-flag="@X" onclick="openSidebar('MAD_26_Ribbon Dance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\58_Is This Your Card.png" id="MAD_58_Is This Your Card" data-flag="@X" onclick="openSidebar('MAD_58_Is This Your Card',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\101_Savage Grappler.png" id="MAD_101_Savage Grappler" data-flag="@X" onclick="openSidebar('MAD_101_Savage Grappler',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\139_Raging Temper.png" id="MAD_139_Raging Temper" data-flag="@X" onclick="openSidebar('MAD_139_Raging Temper',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\171_Mantis Warrior.png" id="MAD_171_Mantis Warrior" data-flag="@X" onclick="openSidebar('MAD_171_Mantis Warrior',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\30_Show of Strength.png" id="MAD_30_Show of Strength" data-flag="@X" onclick="openSidebar('MAD_30_Show of Strength',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\60_Lucky Draw.png" id="MAD_60_Lucky Draw" data-flag="@X" onclick="openSidebar('MAD_60_Lucky Draw',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\103_Smiler.png" id="MAD_103_Smiler" data-flag="@X" onclick="openSidebar('MAD_103_Smiler',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\140_Ringmaster's Show.png" id="MAD_140_Ringmasters Show" data-flag="@X" onclick="openSidebar('MAD_140_Ringmasters Show',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\174_Novice Biomancer.png" id="MAD_174_Novice Biomancer" data-flag="@X" onclick="openSidebar('MAD_174_Novice Biomancer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\31_Skilled Backbreaker.png" id="MAD_31_Skilled Backbreaker" data-flag="@X" onclick="openSidebar('MAD_31_Skilled Backbreaker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\61_Lucky Time.png" id="MAD_61_Lucky Time" data-flag="@X" onclick="openSidebar('MAD_61_Lucky Time',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\104_Speed Striker.png" id="MAD_104_Speed Striker" data-flag="@X" onclick="openSidebar('MAD_104_Speed Striker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\142_Scorchwalkers.png" id="MAD_142_Scorchwalkers" data-flag="@X" onclick="openSidebar('MAD_142_Scorchwalkers',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\175_Overzealous Celebration.png" id="MAD_175_Overzealous Celebration" data-flag="@X" onclick="openSidebar('MAD_175_Overzealous Celebration',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\32_Spark Duelist.png" id="MAD_32_Spark Duelist" data-flag="@X" onclick="openSidebar('MAD_32_Spark Duelist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\65_Practical Arcana.png" id="MAD_65_Practical Arcana" data-flag="@X" onclick="openSidebar('MAD_65_Practical Arcana',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\105_Steel Wielder Heel.png" id="MAD_105_Steel Wielder Heel" data-flag="@X" onclick="openSidebar('MAD_105_Steel Wielder Heel',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\143_Spark Kicker.png" id="MAD_143_Spark Kicker" data-flag="@X" onclick="openSidebar('MAD_143_Spark Kicker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\178_Royal Jester.png" id="MAD_178_Royal Jester" data-flag="@X" onclick="openSidebar('MAD_178_Royal Jester',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\34_Tag Team Trio.png" id="MAD_34_Tag Team Trio" data-flag="@X" onclick="openSidebar('MAD_34_Tag Team Trio',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\66_Reckless Science.png" id="MAD_66_Reckless Science" data-flag="@X" onclick="openSidebar('MAD_66_Reckless Science',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\107_Street Justice.png" id="MAD_107_Street Justice" data-flag="@X" onclick="openSidebar('MAD_107_Street Justice',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\144_Tavern Bard.png" id="MAD_144_Tavern Bard" data-flag="@X" onclick="openSidebar('MAD_144_Tavern Bard',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\183_Superhuman Strike.png" id="MAD_183_Superhuman Strike" data-flag="@X" onclick="openSidebar('MAD_183_Superhuman Strike',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\36_Tears of a Clown.png" id="MAD_36_Tears of a Clown" data-flag="@X" onclick="openSidebar('MAD_36_Tears of a Clown',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\71_Siren's Song.png" id="MAD_71_Sirens Song" data-flag="@X" onclick="openSidebar('MAD_71_Sirens Song',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\109_Thrullify.png" id="MAD_109_Thrullify" data-flag="@X" onclick="openSidebar('MAD_109_Thrullify',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\145_Tavern Games.png" id="MAD_145_Tavern Games" data-flag="@X" onclick="openSidebar('MAD_145_Tavern Games',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\184_Tavern Fool.png" id="MAD_184_Tavern Fool" data-flag="@X" onclick="openSidebar('MAD_184_Tavern Fool',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\37_Trained Bear.png" id="MAD_37_Trained Bear" data-flag="@X" onclick="openSidebar('MAD_37_Trained Bear',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\72_Surestrike Merfolk.png" id="MAD_72_Surestrike Merfolk" data-flag="@X" onclick="openSidebar('MAD_72_Surestrike Merfolk',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\111_Zombie Clown.png" id="MAD_111_Zombie Clown" data-flag="@X" onclick="openSidebar('MAD_111_Zombie Clown',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\147_Toss a Coin.png" id="MAD_147_Toss a Coin" data-flag="@X" onclick="openSidebar('MAD_147_Toss a Coin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\185_Thrull Hammerslinger.png" id="MAD_185_Thrull Hammerslinger" data-flag="@X" onclick="openSidebar('MAD_185_Thrull Hammerslinger',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MAD_e" data-flag="@E" onclick="openSidebar('MAD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MAD_e" data-flag="@E" onclick="openSidebar('MAD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MAD_e" data-flag="@E" onclick="openSidebar('MAD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\148_Unlikely Pair.png" id="MAD_148_Unlikely Pair" data-flag="@X" onclick="openSidebar('MAD_148_Unlikely Pair',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MAD_e" data-flag="@E" onclick="openSidebar('MAD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MAD_er" data-flag="@E" onclick="openSidebar('MAD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MAD_er" data-flag="@E" onclick="openSidebar('MAD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MAD_er" data-flag="@E" onclick="openSidebar('MAD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MAD_er" data-flag="@E" onclick="openSidebar('MAD_er',false)"></div>
+				<div id="gold" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\217_Suddya, Arbiter of Fairness.png" id="MAD_217_Suddya, Arbiter of Fairness" data-flag="@X" onclick="openSidebar('MAD_217_Suddya, Arbiter of Fairness',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\211_Ravina, the Silent Blade.png" id="MAD_211_Ravina, the Silent Blade" data-flag="@X" onclick="openSidebar('MAD_211_Ravina, the Silent Blade',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\208_Mannken, the Puppeteer.png" id="MAD_208_Mannken, the Puppeteer" data-flag="@X" onclick="openSidebar('MAD_208_Mannken, the Puppeteer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\190_Boom-Boom, the Mad Clown.png" id="MAD_190_Boom-Boom, the Mad Clown" data-flag="@X" onclick="openSidebar('MAD_190_Boom-Boom, the Mad Clown',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\187_Aleik, Lonesome Bard.png" id="MAD_187_Aleik, Lonesome Bard" data-flag="@X" onclick="openSidebar('MAD_187_Aleik, Lonesome Bard',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MAD_er" data-flag="@E" onclick="openSidebar('MAD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MAD_er" data-flag="@E" onclick="openSidebar('MAD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MAD_er" data-flag="@E" onclick="openSidebar('MAD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MAD_er" data-flag="@E" onclick="openSidebar('MAD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MAD_er" data-flag="@E" onclick="openSidebar('MAD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\204_Hedyll, the Two Faced.png" id="MAD_204_Hedyll, the Two Faced" data-flag="@X" onclick="openSidebar('MAD_204_Hedyll, the Two Faced',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\196_Divine Dice.png" id="MAD_196_Divine Dice" data-flag="@X" onclick="openSidebar('MAD_196_Divine Dice',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\223_Vykup, Kingpin.png" id="MAD_223_Vykup, Kingpin" data-flag="@X" onclick="openSidebar('MAD_223_Vykup, Kingpin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\192_Charan, Wildflame Prodigy.png" id="MAD_192_Charan, Wildflame Prodigy" data-flag="@X" onclick="openSidebar('MAD_192_Charan, Wildflame Prodigy',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\189_Auraro, the Shifting Tide.png" id="MAD_189_Auraro, the Shifting Tide" data-flag="@X" onclick="openSidebar('MAD_189_Auraro, the Shifting Tide',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\213_Ringen, Interplanar Champion.png" id="MAD_213_Ringen, Interplanar Champion" data-flag="@X" onclick="openSidebar('MAD_213_Ringen, Interplanar Champion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\224_Würfel, Lord of Chance.png" id="MAD_224_Würfel, Lord of Chance" data-flag="@X" onclick="openSidebar('MAD_224_Würfel, Lord of Chance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\206_Horror of the Dark Forest.png" id="MAD_206_Horror of the Dark Forest" data-flag="@X" onclick="openSidebar('MAD_206_Horror of the Dark Forest',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\202_Glorious Finale.png" id="MAD_202_Glorious Finale" data-flag="@X" onclick="openSidebar('MAD_202_Glorious Finale',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\194_Chimera Ultimus.png" id="MAD_194_Chimera Ultimus" data-flag="@X" onclick="openSidebar('MAD_194_Chimera Ultimus',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\214_Silenced Strike.png" id="MAD_214_Silenced Strike" data-flag="@X" onclick="openSidebar('MAD_214_Silenced Strike',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\200_The Gamemaster.png" id="MAD_200_The Gamemaster" data-flag="@X" onclick="openSidebar('MAD_200_The Gamemaster',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\233_Tolpa, the Dark Lord.png" id="MAD_233_Tolpa, the Dark Lord" data-flag="@X" onclick="openSidebar('MAD_233_Tolpa, the Dark Lord',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\231_The Muses Three.png" id="MAD_231_The Muses Three" data-flag="@X" onclick="openSidebar('MAD_231_The Muses Three',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\220_Ukrotitel, Ringmaster.png" id="MAD_220_Ukrotitel, Ringmaster" data-flag="@X" onclick="openSidebar('MAD_220_Ukrotitel, Ringmaster',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\228_The Dagger.png" id="MAD_228_The Dagger" data-flag="@X" onclick="openSidebar('MAD_228_The Dagger',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\230_Karta, Aces High.png" id="MAD_230_Karta, Aces High" data-flag="@X" onclick="openSidebar('MAD_230_Karta, Aces High',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\203_Grabitel, Master Thief.png" id="MAD_203_Grabitel, Master Thief" data-flag="@X" onclick="openSidebar('MAD_203_Grabitel, Master Thief',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\198_Elegant Dancer.png" id="MAD_198_Elegant Dancer" data-flag="@X" onclick="openSidebar('MAD_198_Elegant Dancer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\225_Akula, Biomancer Extrodinaire.png" id="MAD_225_Akula, Biomancer Extrodinaire" data-flag="@X" onclick="openSidebar('MAD_225_Akula, Biomancer Extrodinaire',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\195_Combo Striker.png" id="MAD_195_Combo Striker" data-flag="@X" onclick="openSidebar('MAD_195_Combo Striker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\188_Alisa, Unstable Prodigy.png" id="MAD_188_Alisa, Unstable Prodigy" data-flag="@X" onclick="openSidebar('MAD_188_Alisa, Unstable Prodigy',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\218_Thrull Conversion.png" id="MAD_218_Thrull Conversion" data-flag="@X" onclick="openSidebar('MAD_218_Thrull Conversion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\207_Magnificent Performance.png" id="MAD_207_Magnificent Performance" data-flag="@X" onclick="openSidebar('MAD_207_Magnificent Performance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\201_Giant Owlk.png" id="MAD_201_Giant Owlk" data-flag="@X" onclick="openSidebar('MAD_201_Giant Owlk',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\209_Melting Strike.png" id="MAD_209_Melting Strike" data-flag="@X" onclick="openSidebar('MAD_209_Melting Strike',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\191_Chaotic Magic.png" id="MAD_191_Chaotic Magic" data-flag="@X" onclick="openSidebar('MAD_191_Chaotic Magic',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\219_Tyanut, Thrull Master.png" id="MAD_219_Tyanut, Thrull Master" data-flag="@X" onclick="openSidebar('MAD_219_Tyanut, Thrull Master',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\216_Stilis, Torch Juggler.png" id="MAD_216_Stilis, Torch Juggler" data-flag="@X" onclick="openSidebar('MAD_216_Stilis, Torch Juggler',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\221_Uncheny, Mutant Monstrosity.png" id="MAD_221_Uncheny, Mutant Monstrosity" data-flag="@X" onclick="openSidebar('MAD_221_Uncheny, Mutant Monstrosity',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\210_Murph, Flying Boots.png" id="MAD_210_Murph, Flying Boots" data-flag="@X" onclick="openSidebar('MAD_210_Murph, Flying Boots',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\197_The Dvoynya Twins.png" id="MAD_197_The Dvoynya Twins" data-flag="@X" onclick="openSidebar('MAD_197_The Dvoynya Twins',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\227_Criminal's Charm.png" id="MAD_227_Criminals Charm" data-flag="@X" onclick="openSidebar('MAD_227_Criminals Charm',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\232_Performer's Charm.png" id="MAD_232_Performers Charm" data-flag="@X" onclick="openSidebar('MAD_232_Performers Charm',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\222_Unrestricted Growth.png" id="MAD_222_Unrestricted Growth" data-flag="@X" onclick="openSidebar('MAD_222_Unrestricted Growth',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\234_Wrestler's Charm.png" id="MAD_234_Wrestlers Charm" data-flag="@X" onclick="openSidebar('MAD_234_Wrestlers Charm',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\229_Gambler's Charm.png" id="MAD_229_Gamblers Charm" data-flag="@X" onclick="openSidebar('MAD_229_Gamblers Charm',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\205_Hit Squad.png" id="MAD_205_Hit Squad" data-flag="@X" onclick="openSidebar('MAD_205_Hit Squad',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\212_Remarkable Performance.png" id="MAD_212_Remarkable Performance" data-flag="@X" onclick="openSidebar('MAD_212_Remarkable Performance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\226_Biomancer's Charm.png" id="MAD_226_Biomancers Charm" data-flag="@X" onclick="openSidebar('MAD_226_Biomancers Charm',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\215_Size Doesn't Matter.png" id="MAD_215_Size Doesnt Matter" data-flag="@X" onclick="openSidebar('MAD_215_Size Doesnt Matter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\193_Chimera Hatchling.png" id="MAD_193_Chimera Hatchling" data-flag="@X" onclick="openSidebar('MAD_193_Chimera Hatchling',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MAD_e" data-flag="@E" onclick="openSidebar('MAD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MAD_e" data-flag="@E" onclick="openSidebar('MAD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\199_Empowered Growth.png" id="MAD_199_Empowered Growth" data-flag="@X" onclick="openSidebar('MAD_199_Empowered Growth',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MAD_er" data-flag="@E" onclick="openSidebar('MAD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MAD_er" data-flag="@E" onclick="openSidebar('MAD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MAD_er" data-flag="@E" onclick="openSidebar('MAD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MAD_er" data-flag="@E" onclick="openSidebar('MAD_er',false)"></div>
+				<div id="colorless" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\240_Gambler's Astrolabe.png" id="MAD_240_Gamblers Astrolabe" data-flag="@X" onclick="openSidebar('MAD_240_Gamblers Astrolabe',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\241_Hidden Vault.png" id="MAD_241_Hidden Vault" data-flag="@X" onclick="openSidebar('MAD_241_Hidden Vault',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\238_Chicken Game.png" id="MAD_238_Chicken Game" data-flag="@X" onclick="openSidebar('MAD_238_Chicken Game',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\243_Title Belt.png" id="MAD_243_Title Belt" data-flag="@X" onclick="openSidebar('MAD_243_Title Belt',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\235_Advanced Biotanks.png" id="MAD_235_Advanced Biotanks" data-flag="@X" onclick="openSidebar('MAD_235_Advanced Biotanks',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\236_Blind Bet.png" id="MAD_236_Blind Bet" data-flag="@X" onclick="openSidebar('MAD_236_Blind Bet',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\237_Burning Hammer.png" id="MAD_237_Burning Hammer" data-flag="@X" onclick="openSidebar('MAD_237_Burning Hammer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\239_Colossal Puppets.png" id="MAD_239_Colossal Puppets" data-flag="@X" onclick="openSidebar('MAD_239_Colossal Puppets',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\242_Jack in the Box.png" id="MAD_242_Jack in the Box" data-flag="@X" onclick="openSidebar('MAD_242_Jack in the Box',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MAD_e" data-flag="@E" onclick="openSidebar('MAD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MAD_er" data-flag="@E" onclick="openSidebar('MAD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MAD_er" data-flag="@E" onclick="openSidebar('MAD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MAD_er" data-flag="@E" onclick="openSidebar('MAD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MAD_er" data-flag="@E" onclick="openSidebar('MAD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MAD_er" data-flag="@E" onclick="openSidebar('MAD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\264_Winding River.png" id="MAD_264_Winding River" data-flag="@X" onclick="openSidebar('MAD_264_Winding River',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\254_Gloomy Creekbed.png" id="MAD_254_Gloomy Creekbed" data-flag="@X" onclick="openSidebar('MAD_254_Gloomy Creekbed',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\262_Sacrificial Chamber.png" id="MAD_262_Sacrificial Chamber" data-flag="@X" onclick="openSidebar('MAD_262_Sacrificial Chamber',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\251_Forest Valley.png" id="MAD_251_Forest Valley" data-flag="@X" onclick="openSidebar('MAD_251_Forest Valley',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\260_Overgrown Meadow.png" id="MAD_260_Overgrown Meadow" data-flag="@X" onclick="openSidebar('MAD_260_Overgrown Meadow',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MAD_er" data-flag="@E" onclick="openSidebar('MAD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MAD_er" data-flag="@E" onclick="openSidebar('MAD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MAD_er" data-flag="@E" onclick="openSidebar('MAD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MAD_er" data-flag="@E" onclick="openSidebar('MAD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MAD_er" data-flag="@E" onclick="openSidebar('MAD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\256_Hallowed Chapel.png" id="MAD_256_Hallowed Chapel" data-flag="@X" onclick="openSidebar('MAD_256_Hallowed Chapel',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\248_Cliffside River.png" id="MAD_248_Cliffside River" data-flag="@X" onclick="openSidebar('MAD_248_Cliffside River',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\246_Blighted Cavern.png" id="MAD_246_Blighted Cavern" data-flag="@X" onclick="openSidebar('MAD_246_Blighted Cavern',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\257_Hillside Village.png" id="MAD_257_Hillside Village" data-flag="@X" onclick="openSidebar('MAD_257_Hillside Village',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\263_Spiraling Morass.png" id="MAD_263_Spiraling Morass" data-flag="@X" onclick="openSidebar('MAD_263_Spiraling Morass',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\261_Ring of Honor.png" id="MAD_261_Ring of Honor" data-flag="@X" onclick="openSidebar('MAD_261_Ring of Honor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\253_Gambler's Den.png" id="MAD_253_Gamblers Den" data-flag="@X" onclick="openSidebar('MAD_253_Gamblers Den',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\258_Illicit Club.png" id="MAD_258_Illicit Club" data-flag="@X" onclick="openSidebar('MAD_258_Illicit Club',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\247_Bustling Village.png" id="MAD_247_Bustling Village" data-flag="@X" onclick="openSidebar('MAD_247_Bustling Village',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\250_Exotic Aquarium.png" id="MAD_250_Exotic Aquarium" data-flag="@X" onclick="openSidebar('MAD_250_Exotic Aquarium',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MAD_er" data-flag="@E" onclick="openSidebar('MAD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MAD_er" data-flag="@E" onclick="openSidebar('MAD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MAD_er" data-flag="@E" onclick="openSidebar('MAD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MAD_er" data-flag="@E" onclick="openSidebar('MAD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MAD_er" data-flag="@E" onclick="openSidebar('MAD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\245_The Big Top.png" id="MAD_245_The Big Top" data-flag="@X" onclick="openSidebar('MAD_245_The Big Top',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\244_Backroom Office.png" id="MAD_244_Backroom Office" data-flag="@X" onclick="openSidebar('MAD_244_Backroom Office',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\249_Deathmatch Arena.png" id="MAD_249_Deathmatch Arena" data-flag="@X" onclick="openSidebar('MAD_249_Deathmatch Arena',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\259_Mana Rift.png" id="MAD_259_Mana Rift" data-flag="@X" onclick="openSidebar('MAD_259_Mana Rift',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\252_Fun House.png" id="MAD_252_Fun House" data-flag="@X" onclick="openSidebar('MAD_252_Fun House',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\255_Grand Carnival.png" id="MAD_255_Grand Carnival" data-flag="@X" onclick="openSidebar('MAD_255_Grand Carnival',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MAD_e" data-flag="@E" onclick="openSidebar('MAD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MAD_e" data-flag="@E" onclick="openSidebar('MAD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MAD_e" data-flag="@E" onclick="openSidebar('MAD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MAD_e" data-flag="@E" onclick="openSidebar('MAD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MAD_er" data-flag="@E" onclick="openSidebar('MAD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MAD_er" data-flag="@E" onclick="openSidebar('MAD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MAD_er" data-flag="@E" onclick="openSidebar('MAD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MAD_er" data-flag="@E" onclick="openSidebar('MAD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MAD_er" data-flag="@E" onclick="openSidebar('MAD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\265_Plains.png" id="MAD_265_Plains" data-flag="@X" onclick="openSidebar('MAD_265_Plains',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\266_Island.png" id="MAD_266_Island" data-flag="@X" onclick="openSidebar('MAD_266_Island',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\267_Swamp.png" id="MAD_267_Swamp" data-flag="@X" onclick="openSidebar('MAD_267_Swamp',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\268_Mountain.png" id="MAD_268_Mountain" data-flag="@X" onclick="openSidebar('MAD_268_Mountain',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\269_Forest.png" id="MAD_269_Forest" data-flag="@X" onclick="openSidebar('MAD_269_Forest',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MAD_er" data-flag="@E" onclick="openSidebar('MAD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MAD_er" data-flag="@E" onclick="openSidebar('MAD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MAD_er" data-flag="@E" onclick="openSidebar('MAD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MAD_er" data-flag="@E" onclick="openSidebar('MAD_er',false)"></div>
+				<div id="token" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\1t_Mad World Draft Archetypes.png" id="MAD_1t_Mad World Draft Archetypes" data-flag="@X" onclick="openSidebar('MAD_1t_Mad World Draft Archetypes',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\12t_Bomb.png" id="MAD_12t_Bomb" data-flag="@X" onclick="openSidebar('MAD_12t_Bomb',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\13t_Food.png" id="MAD_13t_Food" data-flag="@X" onclick="openSidebar('MAD_13t_Food',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\14t_Lantern.png" id="MAD_14t_Lantern" data-flag="@X" onclick="openSidebar('MAD_14t_Lantern',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\15t_Treasure.png" id="MAD_15t_Treasure" data-flag="@X" onclick="openSidebar('MAD_15t_Treasure',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\4t_Faltz's Duplicate.png" id="MAD_4t_Faltzs Duplicate" data-flag="@X" onclick="openSidebar('MAD_4t_Faltzs Duplicate',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\2t_Bard.png" id="MAD_2t_Bard" data-flag="@X" onclick="openSidebar('MAD_2t_Bard',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\3t_Elephant.png" id="MAD_3t_Elephant" data-flag="@X" onclick="openSidebar('MAD_3t_Elephant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\5t_Shark Elemental.png" id="MAD_5t_Shark Elemental" data-flag="@X" onclick="openSidebar('MAD_5t_Shark Elemental',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\6t_Beast Mutant.png" id="MAD_6t_Beast Mutant" data-flag="@X" onclick="openSidebar('MAD_6t_Beast Mutant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\7t_Plant.png" id="MAD_7t_Plant" data-flag="@X" onclick="openSidebar('MAD_7t_Plant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\8t_Auraro, the Shifting Tide Emblem.png" id="MAD_8t_Auraro, the Shifting Tide Emblem" data-flag="@X" onclick="openSidebar('MAD_8t_Auraro, the Shifting Tide Emblem',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\9t_Thrull.png" id="MAD_9t_Thrull" data-flag="@X" onclick="openSidebar('MAD_9t_Thrull',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\10t_Wrestler.png" id="MAD_10t_Wrestler" data-flag="@X" onclick="openSidebar('MAD_10t_Wrestler',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MAD-files\img\11t_Wrestler2.png" id="MAD_11t_Wrestler2" data-flag="@X" onclick="openSidebar('MAD_11t_Wrestler2',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MAD_er" data-flag="@E" onclick="openSidebar('MAD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MAD_er" data-flag="@E" onclick="openSidebar('MAD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MAD_er" data-flag="@E" onclick="openSidebar('MAD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MAD_er" data-flag="@E" onclick="openSidebar('MAD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MAD_er" data-flag="@E" onclick="openSidebar('MAD_er',false)"></div>
+	</div>
+	</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch(rootPath + '/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch(rootPath + '/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+				let all_tags = new Set();
+				card_list_arrayified.forEach(card => {
+					if (card.notes) {
+						const tagMatches = card.notes.matchAll(/!tag(?:<\w+>)?\s+([^\s\n\b]+)/g);
+						for (const match of tagMatches) {
+							all_tags.add(match[1]);
+						}
+					}
+				});
+
+				const searchInput = document.getElementById("search");
+				const tagDropdown = document.getElementById("tag-dropdown");
+
+				// Create a mirror element for position calculation
+				const mirror = document.createElement("div");
+				Object.assign(mirror.style, {
+					position: "absolute",
+					visibility: "hidden",
+					whiteSpace: "pre",
+					font: getComputedStyle(searchInput).font,
+					padding: "0", // No padding for pure text measurement
+					border: "none",
+					boxSizing: "content-box"
+				});
+				document.body.appendChild(mirror);
+
+				if (searchInput && tagDropdown) {
+					tagDropdown.style.width = "auto";
+					tagDropdown.style.minWidth = "75px";
+					tagDropdown.style.maxWidth = "300px";
+					tagDropdown.style.maxHeight = "200px";
+					tagDropdown.style.overflowY = "auto";
+
+					const updateDropdown = function() {
+						const value = searchInput.value;
+						const cursorPosition = searchInput.selectionStart;
+						
+						// Find the tag: prefix immediately preceding the cursor
+						const lastTagIndex = value.substring(0, cursorPosition).lastIndexOf("tag:");
+						
+						if (lastTagIndex !== -1) {
+							const queryStart = lastTagIndex + 4;
+							const query = value.substring(queryStart, cursorPosition);
+							
+							if (!query.includes(" ")) {
+								const filteredTags = Array.from(all_tags).filter(tag => tag.toLowerCase().startsWith(query.toLowerCase())).sort();
+								if (filteredTags.length > 0) {
+									tagDropdown.innerHTML = "";
+									filteredTags.forEach(tag => {
+										const div = document.createElement("div");
+										div.innerText = tag;
+										div.style.padding = "5px 10px";
+										div.style.cursor = "pointer";
+										div.style.whiteSpace = "nowrap";
+										div.onmouseover = () => div.style.background = "#f0f0f0";
+										div.onmouseout = () => div.style.background = "white";
+										div.onclick = () => {
+											const newValue = value.substring(0, queryStart) + tag + " " + value.substring(cursorPosition);
+											searchInput.value = newValue;
+											tagDropdown.style.display = "none";
+											searchInput.focus();
+											const newCursorPos = queryStart + tag.length + 1;
+											searchInput.setSelectionRange(newCursorPos, newCursorPos);
+										};
+										tagDropdown.appendChild(div);
+									});
+
+									// Calculate position
+									mirror.textContent = value.substring(0, lastTagIndex + 4);
+									const textWidth = mirror.getBoundingClientRect().width;
+									const inputPaddingLeft = parseFloat(getComputedStyle(searchInput).paddingLeft) || 0;
+									
+									tagDropdown.style.left = Math.min(textWidth + inputPaddingLeft, searchInput.offsetWidth - tagDropdown.offsetWidth) + "px";
+									tagDropdown.style.display = "block";
+									return;
+								}
+							}
+						}
+						tagDropdown.style.display = "none";
+					};
+
+					searchInput.addEventListener("input", updateDropdown);
+					searchInput.addEventListener("click", updateDropdown);
+					searchInput.addEventListener("keyup", updateDropdown);
+
+					document.addEventListener("click", function(e) {
+						if (e.target !== searchInput && e.target !== tagDropdown) {
+							tagDropdown.style.display = "none";
+						}
+					});
+				}
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = rootPath + '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = rootPath + '/' + img.alt;
+				if (img.dataset.alt_src) {
+					img.dataset.alt_src = rootPath + '/' + img.dataset.alt_src;
+				}
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		const img = document.getElementById(num);
+		const seconds = 0.2;
+		const rotated_img = document.getElementById('sidebar_h_img');
+
+        img.style.transition = seconds.toString() + "s";
+        img.style.transform = "rotateY(90deg)";
+
+        if (num == 'sidebar_img')
+		{
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(90deg) rotate(90deg)";
+
+           		if (rotated_img.style.opacity != "0") {
+		            setTimeout(() => {
+		                rotated_img.style.opacity = "0";
+		                img.style.filter = "none";
+		            }, (seconds / 2) * 1000);
+		        }
+		        else {
+		        	setTimeout(() => {
+		                rotated_img.style.opacity = "1";
+		                img.style.filter = "blur(2px) brightness(0.7)";
+		            }, (seconds / 2) * 1000);
+		        }
+            }
+		}
+
+         setTimeout(function() {
+            tmp = document.getElementById(num).src;
+			document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+			document.getElementById(num).dataset.alt_src = tmp;
+
+            img.style.transition = seconds.toString() + "s";
+            img.style.transform = "rotateY(0deg)";
+
+            if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(0deg) rotate(90deg)";
+            }
+        }, seconds * 1000);
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.style.transition = "none";
+		rotated_img.style.transition = "none";
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.opacity = "1";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.opacity = "0";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	function rolldown() {
+		dropdown.style.gridTemplateColumns = "repeat(3, 1fr)";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "auto";
+			set.style.margin = "5px";
+		}
+	}
+
+	function rollup() {
+		dropdown.style.gridTemplateColumns = "1fr";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "0px";
+			set.style.margin = "0px 5px";
+		}
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL(rootPath + '/search', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url.pathname + url.search;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL(rootPath + '/card', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url.pathname + url.search;
+			}
+	</script>
+</body>
+</html>

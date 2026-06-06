@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="../sets/WRP-files/icon.png"/>
+	<link rel="stylesheet" href="../resources/header.css">
+	<title>WRP visual preview</title>
+	<script title="root">
+		const rootPath = "..";
+	</script>
+	<style>
+		@font-face {
+			font-family: Beleren;
+			src: url('../resources/beleren.ttf');
+		}
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			opacity: 0;
+			transform: rotateY(0deg) rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+			border-radius: 3.733% / 2.677%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+			border-radius: 3.733% / 2.677%;
+		}
+		.close-btn {
+			background: url('../img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('../img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+			border-radius: 3.733% / 2.677%;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 80px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+			border-radius: 3.733% / 2.677%;
+		}
+		.flip-btn {
+			background: url('../img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('../img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.dropdown {
+			background: rgba(23, 23, 23, 0.8);
+			border-radius: 8px;
+			position: absolute;
+			left: 5%;
+			width: fit-content;
+			max-width: 90%;
+			margin: 20px 0;
+			padding: 5px 0;
+			display: grid;
+			grid-template-columns: 1fr;
+			z-index: 3;
+		}
+		.dropdown .set-bar {
+			font-family: Beleren;
+			font-size: 20px;
+			text-decoration: none;
+			color: #e3e3e3;
+			display: flex;
+			gap: 10px;
+			align-items: center;
+			padding: 0 12px;
+			margin: 5px;
+		}
+		.dropdown .set-bar:hover {
+			background: rgba(163, 163, 163, 0.5);
+			color: #f3f3f3;
+		}
+		.dropdown .set-bar img {
+			width: 32px;
+		}
+		.dropdown .inactive {
+			height: 0px;
+			overflow: hidden;
+			margin: 0px 5px;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		.addenda-container {
+			text-align: center;
+			width: fit-content;
+			max-width: 1200px;
+			padding: 0 5%;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="../img/dot.png" />
+	<img class="preload-hidden" src="../sets/WRP-files/logo.png" />
+	<img class="preload-hidden" src="../sets/BEY-files/icon.png" />
+		<img class="preload-hidden" src="../sets/CCC-files/icon.png" />
+		<img class="preload-hidden" src="../sets/KMR-files/icon.png" />
+		<img class="preload-hidden" src="../sets/MAD-files/icon.png" />
+		<img class="preload-hidden" src="../sets/MOG-files/icon.png" />
+		<img class="preload-hidden" src="../sets/SMG-files/icon.png" />
+		<img class="preload-hidden" src="../sets/SYZ-files/icon.png" />
+		<img class="preload-hidden" src="../sets/TCS-files/icon.png" />
+		<img class="preload-hidden" src="../sets/VRM-files/icon.png" />
+		<img class="preload-hidden" src="../sets/WRP-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a onclick="window.location.href = rootPath + '/'"><img class="sg-logo" id="header-banner"></a>
+			<img class="sg-icon" id="header-search" onclick="goToSearch()">
+			<div style="position: relative; width: 100%;">
+				<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+				<div id="tag-dropdown" style="display: none; position: absolute; top: 100%; left: 0; width: 100%; background: white; border: 1px solid #d5d9d9; z-index: 1000; max-height: 200px; overflow-y: auto; color: black; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></div>
+			</div>
+			<a onclick="window.location.href = rootPath + '/all-sets'"><img id="header-sets" class="sg-icon">Sets</a>
+			<a onclick="window.location.href = rootPath + '/deckbuilder'"><img id="header-deck" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img id="header-random" class="sg-icon">Random</a>
+		</div>
+	</div>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			document.getElementById("header-banner").src = rootPath + "/img/banner.png";
+			document.getElementById("header-search").src = rootPath + "/img/search.png";
+			document.getElementById("header-sets").src = rootPath + "/img/sets.png";
+			document.getElementById("header-deck").src = rootPath + "/img/deck.png";
+			document.getElementById("header-random").src = rootPath + "/img/random.png";
+		});
+
+		function goToSearch() {
+			window.location.href = rootPath + "/search";
+		}
+	</script>
+
+	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+	
+		<a class="set-bar" href="../previews/WRP"><img src="../sets/WRP-files/icon.png"></a>
+	
+		<a class="set-bar inactive" href="../previews/BEY"><img src="../sets/BEY-files/icon.png">Beyond the Event Horizon</a>
+	
+		<a class="set-bar inactive" href="../previews/CCC"><img src="../sets/CCC-files/icon.png">Custom Chaos Cube</a>
+	
+		<a class="set-bar inactive" href="../previews/KMR"><img src="../sets/KMR-files/icon.png">Kamigawa Reborn</a>
+	
+		<a class="set-bar inactive" href="../previews/MAD"><img src="../sets/MAD-files/icon.png">Mad World</a>
+	
+		<a class="set-bar inactive" href="../previews/MOG"><img src="../sets/MOG-files/icon.png">Moag</a>
+	
+		<a class="set-bar inactive" href="../previews/SMG"><img src="../sets/SMG-files/icon.png">Velencium: City of Smog</a>
+	
+		<a class="set-bar inactive" href="../previews/SYZ"><img src="../sets/SYZ-files/icon.png">Syèlzile: Islands in the Sky</a>
+	
+		<a class="set-bar inactive" href="../previews/TCS"><img src="../sets/TCS-files/icon.png">Twilight City Stories</a>
+	
+		<a class="set-bar inactive" href="../previews/VRM"><img src="../sets/VRM-files/icon.png">Valla Remastered</a>
+	
+		</div>
+		<div class="banner">
+		<img class="logo" src="../sets/WRP-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+					<div class="container"><img loading="lazy" alt="sets\WRP-files\img\221.png" id="WRP_221" data-flag="@X" onclick="openSidebar('WRP_221',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\220.png" id="WRP_220" data-flag="@X" onclick="openSidebar('WRP_220',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\222.png" id="WRP_222" data-flag="@X" onclick="openSidebar('WRP_222',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\226.png" id="WRP_226" data-flag="@X" onclick="openSidebar('WRP_226',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\218.png" id="WRP_218" data-flag="@X" onclick="openSidebar('WRP_218',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\174.png" id="WRP_174" data-flag="@X" onclick="openSidebar('WRP_174',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\215.png" id="WRP_215" data-flag="@X" onclick="openSidebar('WRP_215',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\187.png" id="WRP_187" data-flag="@X" onclick="openSidebar('WRP_187',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\219.png" id="WRP_219" data-flag="@X" onclick="openSidebar('WRP_219',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\203.png" id="WRP_203" data-flag="@X" onclick="openSidebar('WRP_203',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\172.png" id="WRP_172" data-flag="@X" onclick="openSidebar('WRP_172',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\185.png" id="WRP_185" data-flag="@X" onclick="openSidebar('WRP_185',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\190.png" id="WRP_190" data-flag="@X" onclick="openSidebar('WRP_190',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\194.png" id="WRP_194" data-flag="@X" onclick="openSidebar('WRP_194',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\209.png" id="WRP_209" data-flag="@X" onclick="openSidebar('WRP_209',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\170.png" id="WRP_170" data-flag="@X" onclick="openSidebar('WRP_170',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\182.png" id="WRP_182" data-flag="@X" onclick="openSidebar('WRP_182',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\186.png" id="WRP_186" data-flag="@X" onclick="openSidebar('WRP_186',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\200.png" id="WRP_200" data-flag="@X" onclick="openSidebar('WRP_200',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\204.png" id="WRP_204" data-flag="@X" onclick="openSidebar('WRP_204',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\173.png" id="WRP_173" data-flag="@X" onclick="openSidebar('WRP_173',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\179.png" id="WRP_179" data-flag="@X" onclick="openSidebar('WRP_179',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\192.png" id="WRP_192" data-flag="@X" onclick="openSidebar('WRP_192',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\201.png" id="WRP_201" data-flag="@X" onclick="openSidebar('WRP_201',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\205.png" id="WRP_205" data-flag="@X" onclick="openSidebar('WRP_205',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\177.png" id="WRP_177" data-flag="@X" onclick="openSidebar('WRP_177',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\178.png" id="WRP_178" data-flag="@X" onclick="openSidebar('WRP_178',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\188.png" id="WRP_188" data-flag="@X" onclick="openSidebar('WRP_188',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\199.png" id="WRP_199" data-flag="@X" onclick="openSidebar('WRP_199',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\202.png" id="WRP_202" data-flag="@X" onclick="openSidebar('WRP_202',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\176.png" id="WRP_176" data-flag="@X" onclick="openSidebar('WRP_176',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\184.png" id="WRP_184" data-flag="@X" onclick="openSidebar('WRP_184',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\193.png" id="WRP_193" data-flag="@X" onclick="openSidebar('WRP_193',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\196.png" id="WRP_196" data-flag="@X" onclick="openSidebar('WRP_196',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\206.png" id="WRP_206" data-flag="@X" onclick="openSidebar('WRP_206',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\175.png" id="WRP_175" data-flag="@X" onclick="openSidebar('WRP_175',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\180.png" id="WRP_180" data-flag="@X" onclick="openSidebar('WRP_180',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\191.png" id="WRP_191" data-flag="@X" onclick="openSidebar('WRP_191',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\195.png" id="WRP_195" data-flag="@X" onclick="openSidebar('WRP_195',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\208.png" id="WRP_208" data-flag="@X" onclick="openSidebar('WRP_208',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\171.png" id="WRP_171" data-flag="@X" onclick="openSidebar('WRP_171',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\183.png" id="WRP_183" data-flag="@X" onclick="openSidebar('WRP_183',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\189.png" id="WRP_189" data-flag="@X" onclick="openSidebar('WRP_189',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\198.png" id="WRP_198" data-flag="@X" onclick="openSidebar('WRP_198',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\207.png" id="WRP_207" data-flag="@X" onclick="openSidebar('WRP_207',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\83.png" id="WRP_83" data-flag="@X" onclick="openSidebar('WRP_83',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\181.png" id="WRP_181" data-flag="@X" onclick="openSidebar('WRP_181',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\100.png" id="WRP_100" data-flag="@X" onclick="openSidebar('WRP_100',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\197.png" id="WRP_197" data-flag="@X" onclick="openSidebar('WRP_197',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\134.png" id="WRP_134" data-flag="@X" onclick="openSidebar('WRP_134',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\78.png" id="WRP_78" data-flag="@X" onclick="openSidebar('WRP_78',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\95.png" id="WRP_95" data-flag="@X" onclick="openSidebar('WRP_95',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\109.png" id="WRP_109" data-flag="@X" onclick="openSidebar('WRP_109',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\116.png" id="WRP_116" data-flag="@X" onclick="openSidebar('WRP_116',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\133.png" id="WRP_133" data-flag="@X" onclick="openSidebar('WRP_133',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\80.png" id="WRP_80" data-flag="@X" onclick="openSidebar('WRP_80',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\90.png" id="WRP_90" data-flag="@X" onclick="openSidebar('WRP_90',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\101.png" id="WRP_101" data-flag="@X" onclick="openSidebar('WRP_101',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\115.png" id="WRP_115" data-flag="@X" onclick="openSidebar('WRP_115',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\131.png" id="WRP_131" data-flag="@X" onclick="openSidebar('WRP_131',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\82.png" id="WRP_82" data-flag="@X" onclick="openSidebar('WRP_82',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\88.png" id="WRP_88" data-flag="@X" onclick="openSidebar('WRP_88',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\102.png" id="WRP_102" data-flag="@X" onclick="openSidebar('WRP_102',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\110.png" id="WRP_110" data-flag="@X" onclick="openSidebar('WRP_110',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\135.png" id="WRP_135" data-flag="@X" onclick="openSidebar('WRP_135',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\73.png" id="WRP_73" data-flag="@X" onclick="openSidebar('WRP_73',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\84.png" id="WRP_84" data-flag="@X" onclick="openSidebar('WRP_84',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\106.png" id="WRP_106" data-flag="@X" onclick="openSidebar('WRP_106',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\122.png" id="WRP_122" data-flag="@X" onclick="openSidebar('WRP_122',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\132.png" id="WRP_132" data-flag="@X" onclick="openSidebar('WRP_132',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\79.png" id="WRP_79" data-flag="@X" onclick="openSidebar('WRP_79',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\86.png" id="WRP_86" data-flag="@X" onclick="openSidebar('WRP_86',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\97.png" id="WRP_97" data-flag="@X" onclick="openSidebar('WRP_97',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\120.png" id="WRP_120" data-flag="@X" onclick="openSidebar('WRP_120',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\129.png" id="WRP_129" data-flag="@X" onclick="openSidebar('WRP_129',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\74.png" id="WRP_74" data-flag="@X" onclick="openSidebar('WRP_74',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\96.png" id="WRP_96" data-flag="@X" onclick="openSidebar('WRP_96',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\105.png" id="WRP_105" data-flag="@X" onclick="openSidebar('WRP_105',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\114.png" id="WRP_114" data-flag="@X" onclick="openSidebar('WRP_114',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\130.png" id="WRP_130" data-flag="@X" onclick="openSidebar('WRP_130',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\71.png" id="WRP_71" data-flag="@X" onclick="openSidebar('WRP_71',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\92.png" id="WRP_92" data-flag="@X" onclick="openSidebar('WRP_92',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\103.png" id="WRP_103" data-flag="@X" onclick="openSidebar('WRP_103',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\118.png" id="WRP_118" data-flag="@X" onclick="openSidebar('WRP_118',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\128.png" id="WRP_128" data-flag="@X" onclick="openSidebar('WRP_128',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\75.png" id="WRP_75" data-flag="@X" onclick="openSidebar('WRP_75',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\85.png" id="WRP_85" data-flag="@X" onclick="openSidebar('WRP_85',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\107.png" id="WRP_107" data-flag="@X" onclick="openSidebar('WRP_107',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\121.png" id="WRP_121" data-flag="@X" onclick="openSidebar('WRP_121',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\124.png" id="WRP_124" data-flag="@X" onclick="openSidebar('WRP_124',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\76.png" id="WRP_76" data-flag="@X" onclick="openSidebar('WRP_76',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\91.png" id="WRP_91" data-flag="@X" onclick="openSidebar('WRP_91',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\99.png" id="WRP_99" data-flag="@X" onclick="openSidebar('WRP_99',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\117.png" id="WRP_117" data-flag="@X" onclick="openSidebar('WRP_117',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\123.png" id="WRP_123" data-flag="@X" onclick="openSidebar('WRP_123',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\81.png" id="WRP_81" data-flag="@X" onclick="openSidebar('WRP_81',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\94.png" id="WRP_94" data-flag="@X" onclick="openSidebar('WRP_94',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\104.png" id="WRP_104" data-flag="@X" onclick="openSidebar('WRP_104',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\112.png" id="WRP_112" data-flag="@X" onclick="openSidebar('WRP_112',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\126.png" id="WRP_126" data-flag="@X" onclick="openSidebar('WRP_126',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\77.png" id="WRP_77" data-flag="@X" onclick="openSidebar('WRP_77',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\89.png" id="WRP_89" data-flag="@X" onclick="openSidebar('WRP_89',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\108.png" id="WRP_108" data-flag="@X" onclick="openSidebar('WRP_108',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\113.png" id="WRP_113" data-flag="@X" onclick="openSidebar('WRP_113',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\127.png" id="WRP_127" data-flag="@X" onclick="openSidebar('WRP_127',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\72.png" id="WRP_72" data-flag="@X" onclick="openSidebar('WRP_72',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\87.png" id="WRP_87" data-flag="@X" onclick="openSidebar('WRP_87',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\98.png" id="WRP_98" data-flag="@X" onclick="openSidebar('WRP_98',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\111.png" id="WRP_111" data-flag="@X" onclick="openSidebar('WRP_111',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\125.png" id="WRP_125" data-flag="@X" onclick="openSidebar('WRP_125',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\3.png" id="WRP_3" data-flag="@X" onclick="openSidebar('WRP_3',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\93.png" id="WRP_93" data-flag="@X" onclick="openSidebar('WRP_93',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\29.png" id="WRP_29" data-flag="@X" onclick="openSidebar('WRP_29',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\119.png" id="WRP_119" data-flag="@X" onclick="openSidebar('WRP_119',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\46.png" id="WRP_46" data-flag="@X" onclick="openSidebar('WRP_46',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\61.png" id="WRP_61" data-flag="@X" onclick="openSidebar('WRP_61',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\14.png" id="WRP_14" data-flag="@X" onclick="openSidebar('WRP_14',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\65.png" id="WRP_65" data-flag="@X" onclick="openSidebar('WRP_65',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\36.png" id="WRP_36" data-flag="@X" onclick="openSidebar('WRP_36',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\54.png" id="WRP_54" data-flag="@X" onclick="openSidebar('WRP_54',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\2.png" id="WRP_2" data-flag="@X" onclick="openSidebar('WRP_2',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\19.png" id="WRP_19" data-flag="@X" onclick="openSidebar('WRP_19',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\31.png" id="WRP_31" data-flag="@X" onclick="openSidebar('WRP_31',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\43.png" id="WRP_43" data-flag="@X" onclick="openSidebar('WRP_43',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\52.png" id="WRP_52" data-flag="@X" onclick="openSidebar('WRP_52',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\4.png" id="WRP_4" data-flag="@X" onclick="openSidebar('WRP_4',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\13.png" id="WRP_13" data-flag="@X" onclick="openSidebar('WRP_13',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\22.png" id="WRP_22" data-flag="@X" onclick="openSidebar('WRP_22',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\35.png" id="WRP_35" data-flag="@X" onclick="openSidebar('WRP_35',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\47.png" id="WRP_47" data-flag="@X" onclick="openSidebar('WRP_47',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\0.png" id="WRP_0" data-flag="@X" onclick="openSidebar('WRP_0',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\16.png" id="WRP_16" data-flag="@X" onclick="openSidebar('WRP_16',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\26.png" id="WRP_26" data-flag="@X" onclick="openSidebar('WRP_26',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\34.png" id="WRP_34" data-flag="@X" onclick="openSidebar('WRP_34',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\44.png" id="WRP_44" data-flag="@X" onclick="openSidebar('WRP_44',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\10.png" id="WRP_10" data-flag="@X" onclick="openSidebar('WRP_10',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\17.png" id="WRP_17" data-flag="@X" onclick="openSidebar('WRP_17',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\25.png" id="WRP_25" data-flag="@X" onclick="openSidebar('WRP_25',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\40.png" id="WRP_40" data-flag="@X" onclick="openSidebar('WRP_40',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\51.png" id="WRP_51" data-flag="@X" onclick="openSidebar('WRP_51',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\62.png" id="WRP_62" data-flag="@X" onclick="openSidebar('WRP_62',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\20.png" id="WRP_20" data-flag="@X" onclick="openSidebar('WRP_20',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\24.png" id="WRP_24" data-flag="@X" onclick="openSidebar('WRP_24',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\67.png" id="WRP_67" data-flag="@X" onclick="openSidebar('WRP_67',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\50.png" id="WRP_50" data-flag="@X" onclick="openSidebar('WRP_50',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\5.png" id="WRP_5" data-flag="@X" onclick="openSidebar('WRP_5',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\64.png" id="WRP_64" data-flag="@X" onclick="openSidebar('WRP_64',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\30.png" id="WRP_30" data-flag="@X" onclick="openSidebar('WRP_30',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\37.png" id="WRP_37" data-flag="@X" onclick="openSidebar('WRP_37',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\48.png" id="WRP_48" data-flag="@X" onclick="openSidebar('WRP_48',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\9.png" id="WRP_9" data-flag="@X" onclick="openSidebar('WRP_9',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\18.png" id="WRP_18" data-flag="@X" onclick="openSidebar('WRP_18',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\27.png" id="WRP_27" data-flag="@X" onclick="openSidebar('WRP_27',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\33.png" id="WRP_33" data-flag="@X" onclick="openSidebar('WRP_33',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\70.png" id="WRP_70" data-flag="@X" onclick="openSidebar('WRP_70',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\1.png" id="WRP_1" data-flag="@X" onclick="openSidebar('WRP_1',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\12.png" id="WRP_12" data-flag="@X" onclick="openSidebar('WRP_12',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\23.png" id="WRP_23" data-flag="@X" onclick="openSidebar('WRP_23',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\68.png" id="WRP_68" data-flag="@X" onclick="openSidebar('WRP_68',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\49.png" id="WRP_49" data-flag="@X" onclick="openSidebar('WRP_49',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\7.png" id="WRP_7" data-flag="@X" onclick="openSidebar('WRP_7',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\11.png" id="WRP_11" data-flag="@X" onclick="openSidebar('WRP_11',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\66.png" id="WRP_66" data-flag="@X" onclick="openSidebar('WRP_66',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\41.png" id="WRP_41" data-flag="@X" onclick="openSidebar('WRP_41',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\53.png" id="WRP_53" data-flag="@X" onclick="openSidebar('WRP_53',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\8.png" id="WRP_8" data-flag="@X" onclick="openSidebar('WRP_8',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\21.png" id="WRP_21" data-flag="@X" onclick="openSidebar('WRP_21',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\32.png" id="WRP_32" data-flag="@X" onclick="openSidebar('WRP_32',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\42.png" id="WRP_42" data-flag="@X" onclick="openSidebar('WRP_42',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\69.png" id="WRP_69" data-flag="@X" onclick="openSidebar('WRP_69',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\6.png" id="WRP_6" data-flag="@X" onclick="openSidebar('WRP_6',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\15.png" id="WRP_15" data-flag="@X" onclick="openSidebar('WRP_15',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\28.png" id="WRP_28" data-flag="@X" onclick="openSidebar('WRP_28',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\38.png" id="WRP_38" data-flag="@X" onclick="openSidebar('WRP_38',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\45.png" id="WRP_45" data-flag="@X" onclick="openSidebar('WRP_45',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\234.png" id="WRP_234" data-flag="@X" onclick="openSidebar('WRP_234',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\63.png" id="WRP_63" data-flag="@X" onclick="openSidebar('WRP_63',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\248.png" id="WRP_248" data-flag="@X" onclick="openSidebar('WRP_248',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\39.png" id="WRP_39" data-flag="@X" onclick="openSidebar('WRP_39',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\262.png" id="WRP_262" data-flag="@X" onclick="openSidebar('WRP_262',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\238.png" id="WRP_238" data-flag="@X" onclick="openSidebar('WRP_238',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\245.png" id="WRP_245" data-flag="@X" onclick="openSidebar('WRP_245',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\250.png" id="WRP_250" data-flag="@X" onclick="openSidebar('WRP_250',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\253.png" id="WRP_253" data-flag="@X" onclick="openSidebar('WRP_253',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\266.png" id="WRP_266" data-flag="@X" onclick="openSidebar('WRP_266',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\233.png" id="WRP_233" data-flag="@X" onclick="openSidebar('WRP_233',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\240.png" id="WRP_240" data-flag="@X" onclick="openSidebar('WRP_240',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\251.png" id="WRP_251" data-flag="@X" onclick="openSidebar('WRP_251',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\259.png" id="WRP_259" data-flag="@X" onclick="openSidebar('WRP_259',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\264.png" id="WRP_264" data-flag="@X" onclick="openSidebar('WRP_264',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\232.png" id="WRP_232" data-flag="@X" onclick="openSidebar('WRP_232',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\241.png" id="WRP_241" data-flag="@X" onclick="openSidebar('WRP_241',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\246.png" id="WRP_246" data-flag="@X" onclick="openSidebar('WRP_246',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\258.png" id="WRP_258" data-flag="@X" onclick="openSidebar('WRP_258',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\265.png" id="WRP_265" data-flag="@X" onclick="openSidebar('WRP_265',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\236.png" id="WRP_236" data-flag="@X" onclick="openSidebar('WRP_236',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\244.png" id="WRP_244" data-flag="@X" onclick="openSidebar('WRP_244',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\247.png" id="WRP_247" data-flag="@X" onclick="openSidebar('WRP_247',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\256.png" id="WRP_256" data-flag="@X" onclick="openSidebar('WRP_256',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\260.png" id="WRP_260" data-flag="@X" onclick="openSidebar('WRP_260',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\235.png" id="WRP_235" data-flag="@X" onclick="openSidebar('WRP_235',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\243.png" id="WRP_243" data-flag="@X" onclick="openSidebar('WRP_243',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\249.png" id="WRP_249" data-flag="@X" onclick="openSidebar('WRP_249',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\255.png" id="WRP_255" data-flag="@X" onclick="openSidebar('WRP_255',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\263.png" id="WRP_263" data-flag="@X" onclick="openSidebar('WRP_263',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\237.png" id="WRP_237" data-flag="@X" onclick="openSidebar('WRP_237',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\239.png" id="WRP_239" data-flag="@X" onclick="openSidebar('WRP_239',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\252.png" id="WRP_252" data-flag="@X" onclick="openSidebar('WRP_252',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\257.png" id="WRP_257" data-flag="@X" onclick="openSidebar('WRP_257',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\261.png" id="WRP_261" data-flag="@X" onclick="openSidebar('WRP_261',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WRP_e" data-flag="@E" onclick="openSidebar('WRP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\242.png" id="WRP_242" data-flag="@X" onclick="openSidebar('WRP_242',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WRP_e" data-flag="@E" onclick="openSidebar('WRP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\254.png" id="WRP_254" data-flag="@X" onclick="openSidebar('WRP_254',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WRP_e" data-flag="@E" onclick="openSidebar('WRP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WRP_er" data-flag="@E" onclick="openSidebar('WRP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WRP_er" data-flag="@E" onclick="openSidebar('WRP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WRP_er" data-flag="@E" onclick="openSidebar('WRP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WRP_er" data-flag="@E" onclick="openSidebar('WRP_er',false)"></div>
+				<div id="gold" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\150.png" id="WRP_150" data-flag="@X" onclick="openSidebar('WRP_150',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\151.png" id="WRP_151" data-flag="@X" onclick="openSidebar('WRP_151',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\152.png" id="WRP_152" data-flag="@X" onclick="openSidebar('WRP_152',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\153.png" id="WRP_153" data-flag="@X" onclick="openSidebar('WRP_153',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\217.png" id="WRP_217" data-flag="@X" onclick="openSidebar('WRP_217',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\160.png" id="WRP_160" data-flag="@X" onclick="openSidebar('WRP_160',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\161.png" id="WRP_161" data-flag="@X" onclick="openSidebar('WRP_161',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\162.png" id="WRP_162" data-flag="@X" onclick="openSidebar('WRP_162',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\163.png" id="WRP_163" data-flag="@X" onclick="openSidebar('WRP_163',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\154.png" id="WRP_154" data-flag="@X" onclick="openSidebar('WRP_154',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WRP_e" data-flag="@E" onclick="openSidebar('WRP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WRP_e" data-flag="@E" onclick="openSidebar('WRP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WRP_e" data-flag="@E" onclick="openSidebar('WRP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WRP_e" data-flag="@E" onclick="openSidebar('WRP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\164.png" id="WRP_164" data-flag="@X" onclick="openSidebar('WRP_164',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WRP_er" data-flag="@E" onclick="openSidebar('WRP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WRP_er" data-flag="@E" onclick="openSidebar('WRP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WRP_er" data-flag="@E" onclick="openSidebar('WRP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WRP_er" data-flag="@E" onclick="openSidebar('WRP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WRP_er" data-flag="@E" onclick="openSidebar('WRP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\225.png" id="WRP_225" data-flag="@X" onclick="openSidebar('WRP_225',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\156.png" id="WRP_156" data-flag="@X" onclick="openSidebar('WRP_156',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\157.png" id="WRP_157" data-flag="@X" onclick="openSidebar('WRP_157',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\158.png" id="WRP_158" data-flag="@X" onclick="openSidebar('WRP_158',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\159.png" id="WRP_159" data-flag="@X" onclick="openSidebar('WRP_159',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\155.png" id="WRP_155" data-flag="@X" onclick="openSidebar('WRP_155',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\166.png" id="WRP_166" data-flag="@X" onclick="openSidebar('WRP_166',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\167.png" id="WRP_167" data-flag="@X" onclick="openSidebar('WRP_167',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\168.png" id="WRP_168" data-flag="@X" onclick="openSidebar('WRP_168',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\169.png" id="WRP_169" data-flag="@X" onclick="openSidebar('WRP_169',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\165.png" id="WRP_165" data-flag="@X" onclick="openSidebar('WRP_165',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WRP_e" data-flag="@E" onclick="openSidebar('WRP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WRP_e" data-flag="@E" onclick="openSidebar('WRP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WRP_e" data-flag="@E" onclick="openSidebar('WRP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WRP_e" data-flag="@E" onclick="openSidebar('WRP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WRP_er" data-flag="@E" onclick="openSidebar('WRP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WRP_er" data-flag="@E" onclick="openSidebar('WRP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WRP_er" data-flag="@E" onclick="openSidebar('WRP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WRP_er" data-flag="@E" onclick="openSidebar('WRP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WRP_er" data-flag="@E" onclick="openSidebar('WRP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\224.png" id="WRP_224" data-flag="@X" onclick="openSidebar('WRP_224',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\214.png" id="WRP_214" data-flag="@X" onclick="openSidebar('WRP_214',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\269.png" id="WRP_269" data-flag="@X" onclick="openSidebar('WRP_269',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WRP_e" data-flag="@E" onclick="openSidebar('WRP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WRP_e" data-flag="@E" onclick="openSidebar('WRP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WRP_er" data-flag="@E" onclick="openSidebar('WRP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WRP_er" data-flag="@E" onclick="openSidebar('WRP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WRP_er" data-flag="@E" onclick="openSidebar('WRP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WRP_er" data-flag="@E" onclick="openSidebar('WRP_er',false)"></div>
+				<div id="colorless" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\223.png" id="WRP_223" data-flag="@X" onclick="openSidebar('WRP_223',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\216.png" id="WRP_216" data-flag="@X" onclick="openSidebar('WRP_216',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\211.png" id="WRP_211" data-flag="@X" onclick="openSidebar('WRP_211',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\138.png" id="WRP_138" data-flag="@X" onclick="openSidebar('WRP_138',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\137.png" id="WRP_137" data-flag="@X" onclick="openSidebar('WRP_137',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\136.png" id="WRP_136" data-flag="@X" onclick="openSidebar('WRP_136',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\56.png" id="WRP_56" data-flag="@X" onclick="openSidebar('WRP_56',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\57.png" id="WRP_57" data-flag="@X" onclick="openSidebar('WRP_57',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\55.png" id="WRP_55" data-flag="@X" onclick="openSidebar('WRP_55',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\268.png" id="WRP_268" data-flag="@X" onclick="openSidebar('WRP_268',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\271.png" id="WRP_271" data-flag="@X" onclick="openSidebar('WRP_271',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\270.png" id="WRP_270" data-flag="@X" onclick="openSidebar('WRP_270',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WRP_e" data-flag="@E" onclick="openSidebar('WRP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WRP_e" data-flag="@E" onclick="openSidebar('WRP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WRP_e" data-flag="@E" onclick="openSidebar('WRP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WRP_er" data-flag="@E" onclick="openSidebar('WRP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WRP_er" data-flag="@E" onclick="openSidebar('WRP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WRP_er" data-flag="@E" onclick="openSidebar('WRP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WRP_er" data-flag="@E" onclick="openSidebar('WRP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WRP_er" data-flag="@E" onclick="openSidebar('WRP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\140.png" id="WRP_140" data-flag="@X" onclick="openSidebar('WRP_140',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\141.png" id="WRP_141" data-flag="@X" onclick="openSidebar('WRP_141',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\142.png" id="WRP_142" data-flag="@X" onclick="openSidebar('WRP_142',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\143.png" id="WRP_143" data-flag="@X" onclick="openSidebar('WRP_143',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\144.png" id="WRP_144" data-flag="@X" onclick="openSidebar('WRP_144',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WRP_er" data-flag="@E" onclick="openSidebar('WRP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WRP_er" data-flag="@E" onclick="openSidebar('WRP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WRP_er" data-flag="@E" onclick="openSidebar('WRP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WRP_er" data-flag="@E" onclick="openSidebar('WRP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WRP_er" data-flag="@E" onclick="openSidebar('WRP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\145.png" id="WRP_145" data-flag="@X" onclick="openSidebar('WRP_145',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\146.png" id="WRP_146" data-flag="@X" onclick="openSidebar('WRP_146',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\147.png" id="WRP_147" data-flag="@X" onclick="openSidebar('WRP_147',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\148.png" id="WRP_148" data-flag="@X" onclick="openSidebar('WRP_148',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\149.png" id="WRP_149" data-flag="@X" onclick="openSidebar('WRP_149',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WRP_er" data-flag="@E" onclick="openSidebar('WRP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WRP_er" data-flag="@E" onclick="openSidebar('WRP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WRP_er" data-flag="@E" onclick="openSidebar('WRP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WRP_er" data-flag="@E" onclick="openSidebar('WRP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WRP_er" data-flag="@E" onclick="openSidebar('WRP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\213.png" id="WRP_213" data-flag="@X" onclick="openSidebar('WRP_213',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\212.png" id="WRP_212" data-flag="@X" onclick="openSidebar('WRP_212',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\210.png" id="WRP_210" data-flag="@X" onclick="openSidebar('WRP_210',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\139.png" id="WRP_139" data-flag="@X" onclick="openSidebar('WRP_139',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\58.png" id="WRP_58" data-flag="@X" onclick="openSidebar('WRP_58',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\59.png" id="WRP_59" data-flag="@X" onclick="openSidebar('WRP_59',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\60.png" id="WRP_60" data-flag="@X" onclick="openSidebar('WRP_60',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\267.png" id="WRP_267" data-flag="@X" onclick="openSidebar('WRP_267',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WRP_e" data-flag="@E" onclick="openSidebar('WRP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WRP_e" data-flag="@E" onclick="openSidebar('WRP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WRP_er" data-flag="@E" onclick="openSidebar('WRP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WRP_er" data-flag="@E" onclick="openSidebar('WRP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WRP_er" data-flag="@E" onclick="openSidebar('WRP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WRP_er" data-flag="@E" onclick="openSidebar('WRP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WRP_er" data-flag="@E" onclick="openSidebar('WRP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\227.png" id="WRP_227" data-flag="@X" onclick="openSidebar('WRP_227',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\228.png" id="WRP_228" data-flag="@X" onclick="openSidebar('WRP_228',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\229.png" id="WRP_229" data-flag="@X" onclick="openSidebar('WRP_229',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\230.png" id="WRP_230" data-flag="@X" onclick="openSidebar('WRP_230',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\231.png" id="WRP_231" data-flag="@X" onclick="openSidebar('WRP_231',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WRP_er" data-flag="@E" onclick="openSidebar('WRP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WRP_er" data-flag="@E" onclick="openSidebar('WRP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WRP_er" data-flag="@E" onclick="openSidebar('WRP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WRP_er" data-flag="@E" onclick="openSidebar('WRP_er',false)"></div>
+				<div id="token" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\272.png" id="WRP_272" data-flag="@X" onclick="openSidebar('WRP_272',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\273.png" id="WRP_273" data-flag="@X" onclick="openSidebar('WRP_273',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\280.png" id="WRP_280" data-flag="@X" onclick="openSidebar('WRP_280',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\278.png" id="WRP_278" data-flag="@X" onclick="openSidebar('WRP_278',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\277.png" id="WRP_277" data-flag="@X" onclick="openSidebar('WRP_277',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\275.png" id="WRP_275" data-flag="@X" onclick="openSidebar('WRP_275',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\282.png" id="WRP_282" data-flag="@X" onclick="openSidebar('WRP_282',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\279.png" id="WRP_279" data-flag="@X" onclick="openSidebar('WRP_279',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\283.png" id="WRP_283" data-flag="@X" onclick="openSidebar('WRP_283',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\281.png" id="WRP_281" data-flag="@X" onclick="openSidebar('WRP_281',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\274.png" id="WRP_274" data-flag="@X" onclick="openSidebar('WRP_274',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WRP-files\img\276.png" id="WRP_276" data-flag="@X" onclick="openSidebar('WRP_276',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WRP_e" data-flag="@E" onclick="openSidebar('WRP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WRP_e" data-flag="@E" onclick="openSidebar('WRP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WRP_e" data-flag="@E" onclick="openSidebar('WRP_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WRP_er" data-flag="@E" onclick="openSidebar('WRP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WRP_er" data-flag="@E" onclick="openSidebar('WRP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WRP_er" data-flag="@E" onclick="openSidebar('WRP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WRP_er" data-flag="@E" onclick="openSidebar('WRP_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WRP_er" data-flag="@E" onclick="openSidebar('WRP_er',false)"></div>
+	</div>
+	</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch(rootPath + '/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch(rootPath + '/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+				let all_tags = new Set();
+				card_list_arrayified.forEach(card => {
+					if (card.notes) {
+						const tagMatches = card.notes.matchAll(/!tag(?:<\w+>)?\s+([^\s\n\b]+)/g);
+						for (const match of tagMatches) {
+							all_tags.add(match[1]);
+						}
+					}
+				});
+
+				const searchInput = document.getElementById("search");
+				const tagDropdown = document.getElementById("tag-dropdown");
+
+				// Create a mirror element for position calculation
+				const mirror = document.createElement("div");
+				Object.assign(mirror.style, {
+					position: "absolute",
+					visibility: "hidden",
+					whiteSpace: "pre",
+					font: getComputedStyle(searchInput).font,
+					padding: "0", // No padding for pure text measurement
+					border: "none",
+					boxSizing: "content-box"
+				});
+				document.body.appendChild(mirror);
+
+				if (searchInput && tagDropdown) {
+					tagDropdown.style.width = "auto";
+					tagDropdown.style.minWidth = "75px";
+					tagDropdown.style.maxWidth = "300px";
+					tagDropdown.style.maxHeight = "200px";
+					tagDropdown.style.overflowY = "auto";
+
+					const updateDropdown = function() {
+						const value = searchInput.value;
+						const cursorPosition = searchInput.selectionStart;
+						
+						// Find the tag: prefix immediately preceding the cursor
+						const lastTagIndex = value.substring(0, cursorPosition).lastIndexOf("tag:");
+						
+						if (lastTagIndex !== -1) {
+							const queryStart = lastTagIndex + 4;
+							const query = value.substring(queryStart, cursorPosition);
+							
+							if (!query.includes(" ")) {
+								const filteredTags = Array.from(all_tags).filter(tag => tag.toLowerCase().startsWith(query.toLowerCase())).sort();
+								if (filteredTags.length > 0) {
+									tagDropdown.innerHTML = "";
+									filteredTags.forEach(tag => {
+										const div = document.createElement("div");
+										div.innerText = tag;
+										div.style.padding = "5px 10px";
+										div.style.cursor = "pointer";
+										div.style.whiteSpace = "nowrap";
+										div.onmouseover = () => div.style.background = "#f0f0f0";
+										div.onmouseout = () => div.style.background = "white";
+										div.onclick = () => {
+											const newValue = value.substring(0, queryStart) + tag + " " + value.substring(cursorPosition);
+											searchInput.value = newValue;
+											tagDropdown.style.display = "none";
+											searchInput.focus();
+											const newCursorPos = queryStart + tag.length + 1;
+											searchInput.setSelectionRange(newCursorPos, newCursorPos);
+										};
+										tagDropdown.appendChild(div);
+									});
+
+									// Calculate position
+									mirror.textContent = value.substring(0, lastTagIndex + 4);
+									const textWidth = mirror.getBoundingClientRect().width;
+									const inputPaddingLeft = parseFloat(getComputedStyle(searchInput).paddingLeft) || 0;
+									
+									tagDropdown.style.left = Math.min(textWidth + inputPaddingLeft, searchInput.offsetWidth - tagDropdown.offsetWidth) + "px";
+									tagDropdown.style.display = "block";
+									return;
+								}
+							}
+						}
+						tagDropdown.style.display = "none";
+					};
+
+					searchInput.addEventListener("input", updateDropdown);
+					searchInput.addEventListener("click", updateDropdown);
+					searchInput.addEventListener("keyup", updateDropdown);
+
+					document.addEventListener("click", function(e) {
+						if (e.target !== searchInput && e.target !== tagDropdown) {
+							tagDropdown.style.display = "none";
+						}
+					});
+				}
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = rootPath + '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = rootPath + '/' + img.alt;
+				if (img.dataset.alt_src) {
+					img.dataset.alt_src = rootPath + '/' + img.dataset.alt_src;
+				}
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		const img = document.getElementById(num);
+		const seconds = 0.2;
+		const rotated_img = document.getElementById('sidebar_h_img');
+
+        img.style.transition = seconds.toString() + "s";
+        img.style.transform = "rotateY(90deg)";
+
+        if (num == 'sidebar_img')
+		{
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(90deg) rotate(90deg)";
+
+           		if (rotated_img.style.opacity != "0") {
+		            setTimeout(() => {
+		                rotated_img.style.opacity = "0";
+		                img.style.filter = "none";
+		            }, (seconds / 2) * 1000);
+		        }
+		        else {
+		        	setTimeout(() => {
+		                rotated_img.style.opacity = "1";
+		                img.style.filter = "blur(2px) brightness(0.7)";
+		            }, (seconds / 2) * 1000);
+		        }
+            }
+		}
+
+         setTimeout(function() {
+            tmp = document.getElementById(num).src;
+			document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+			document.getElementById(num).dataset.alt_src = tmp;
+
+            img.style.transition = seconds.toString() + "s";
+            img.style.transform = "rotateY(0deg)";
+
+            if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(0deg) rotate(90deg)";
+            }
+        }, seconds * 1000);
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.style.transition = "none";
+		rotated_img.style.transition = "none";
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.opacity = "1";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.opacity = "0";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	function rolldown() {
+		dropdown.style.gridTemplateColumns = "repeat(3, 1fr)";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "auto";
+			set.style.margin = "5px";
+		}
+	}
+
+	function rollup() {
+		dropdown.style.gridTemplateColumns = "1fr";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "0px";
+			set.style.margin = "0px 5px";
+		}
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL(rootPath + '/search', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url.pathname + url.search;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL(rootPath + '/card', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url.pathname + url.search;
+			}
+	</script>
+</body>
+</html>

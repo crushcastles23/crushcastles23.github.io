@@ -1,0 +1,5008 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cockatrice_carddatabase version='4'>
+	<sets>
+		<set>
+			<name>WRP</name>
+			<longname></longname>
+			<settype>Custom</settype>
+			<releasedate>2026-06-06</releasedate>
+		</set>
+	</sets>
+	<cards>
+		<card>
+			<name>Hotshot Speeder Pilot</name>
+			<text>Squad {2} (As an additional cost to cast this spell, you may pay {2} any number of times. When this creature enters, create that many tokens that are copies of it.)
+Flying
+This creature crews Vehicles as though its power were 2 greater.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/0.png" num="17">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Pilot</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Planetary Watcher</name>
+			<text>Vigilance, flying
+This creature blocks each combat if able.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/1.png" num="25">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Drone Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Grizzled Veterans</name>
+			<text>Squad {3} (As an additional cost to cast this spell, you may pay {3} any number of times. When this creature enters, create that many tokens that are copies of it.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/2.png" num="13">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cleric of the Mechanist</name>
+			<text>Lifelink
+When this creature enters, create a 1/1 colorless Robot artifact creature token with a lifelink counter on it.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/3.png" num="6">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Artificer Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>High Altitude Defense Jet</name>
+			<text>Squad {2} (As an additional cost to cast this spell, you may pay {2} any number of times. When this creature enters, create that many tokens that are copies of it.)
+Flying
+Crew 1</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/4.png" num="15">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>NOVA Squad</name>
+			<text>Squad {3} (As an additional cost to cast this spell, you may pay {3} any number of times. When this creature enters, create that many tokens that are copies of it.)
+When this creature enters, create a Weapon token. (It&apos;s an artifact with equip {2} and &quot;Equipped creature gets +1/+1.&quot;)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/5.png" num="23">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Robot Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Unwavering Sentinel</name>
+			<text>Vigilance
+{6}: Exotic creatures you control get +1/+1 and gain vigilance until end of turn. Activate only as a sorcery. (Cards with multiple permanent types are exotic.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/6.png" num="36">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Avatar</type>
+				<maintype>Creature</maintype>
+				<manacost>4W</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rapid Deployment</name>
+			<text>Choose two. You may choose the same mode more than once.
+• Create a 1/1 white Soldier creature token.
+• Create a token that&apos;s a copy of a token you control.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/7.png" num="26">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Sliver Swarm</name>
+			<text>Create two 1/1 colorless Sliver creature tokens.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/8.png" num="31">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Palm-Sized Black Hole</name>
+			<text>This spell costs {2} less to cast if it targets a non-exotic permanent. (Cards with multiple permanent types are exotic.)
+Exile target nonland permanent.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/9.png" num="24">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4W</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Light of Creation</name>
+			<text>Warp {W} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)
+Light of Creation&apos;s power and toughness are each equal to the number of creatures you control.
+Create a 1/1 white Human creature token.
+You gain life equal to twice the number of creatures you control.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/10.png" num="20">WRP</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Saga Avatar</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>*/*</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Skrytnist Saboteur</name>
+			<text>Ward {1} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)
+This creature can&apos;t be blocked.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/11.png" num="64">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Merfolk Alien Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Robizard</name>
+			<text>Prowess
+Whenever another exotic permanent you control enters, put a +1/+1 counter on this creature. (Cards with multiple permanent types are exotic.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/12.png" num="63">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Robot Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>FAIRIE Squad</name>
+			<text>Squad {1}{U} (As an additional cost to cast this spell, you may pay {1}{U} any number of times. When this creature enters, create that many tokens that are copies of it.)
+Flying</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/13.png" num="48">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Cyborg Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Advanced Robotics Expert</name>
+			<text>When this creature enters, create a 1/1 colorless Robot artifact creature token with a prowess counter on it.
+Paradox — Whenever you cast a spell from anywhere other than your hand, draw a card, then discard a card.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/14.png" num="38">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Walker of Frozen Worlds</name>
+			<text>Vigilance
+Whenever this creature deals damage to a player, surveil 1.
+Paradox — At the beginning of your end step, if you cast a spell from anywhere other than your hand this turn, draw a card.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/15.png" num="69">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Cyborg Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Frigid Freon Flinger</name>
+			<text>Whenever this creature or another exotic permanent you control enters, tap up to one target creature and put a stun counter on it. (Cards with multiple permanent types are exotic.)
+{7}: Exile this creature, then return it to the battlefield. Activate only as a sorcery.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/16.png" num="49">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Robot Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>4U</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gather Intel</name>
+			<text>Charge (Pay {2} as a sorcery to exile this face down from your hand with a charge counter or put a charge counter on it in exile. You may cast it from exile.)
+[Charge 0-1] Surveil 1, then draw a card. (To surveil 1, look at the top card of your library. You may put it into your graveyard.)
+[Charge 2+] Surveil 2, then draw two cards.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/17.png" num="50">WRP</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Last-Minute Evac</name>
+			<text>Choose one —
+• Target creature can&apos;t be blocked this turn.
+• Return target creature you control to its owner&apos;s hand.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/18.png" num="58">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Deal Gone Wrong</name>
+			<text>Choose target spell. When you do, its controller chooses one —
+• Counter that spell.
+• You draw two cards.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/19.png" num="45">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Heavy Freeze</name>
+			<text>Charge (Pay {2} as a sorcery to exile this face down from your hand with a charge counter or put a charge counter on it in exile. You may cast it from exile.)
+[Charge 0-1] Tap target creature and put two stun counters on it.
+[Charge 2+] Tap up to two target creatures and put two stun counters on them.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/20.png" num="51">WRP</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Songs of the Frozen Void</name>
+			<text>Warp {1}{U} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)
+Tap target creature an opponent controls and put two stun counters on it. For as long as this creature remains on the battlefield, that creature loses all abilities.
+Return all tapped creatures to their owners&apos; hands.
+​</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/21.png" num="65">WRP</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Saga Avatar</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Death-Bot</name>
+			<text>Squad {3} (As an additional cost to cast this spell, you may pay {3} any number of times. When this creature enters, create that many tokens that are copies of it.)
+Deathtouch</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/22.png" num="82">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Robot Assassin</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Menacing Opportunist</name>
+			<text>Menace
+When this creature dies, create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this token: Add one mana of any color.&quot;)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/23.png" num="95">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Pirate</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Doomed Squad</name>
+			<text>Squad {3} (As an additional cost to cast this spell, you may pay {3} any number of times. When this creature enters, create that many tokens that are copies of it.)
+When this creature dies, create a 1/1 colorless Sliver creature token.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/24.png" num="88">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Doom Diver</name>
+			<text>Squad {3} (As an additional cost to cast this spell, you may pay {3} any number of times. When this creature enters, create that many tokens that are copies of it.)
+Menace</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/25.png" num="87">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Deathstrike Cyborg</name>
+			<text>Deathtouch
+When this creature dies, exile it. If you do, add {B}{B}{B}. Until end of turn, you don&apos;t lose this mana as steps and phases end.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/26.png" num="83">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Cyborg Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Last Days of a Lonely World</name>
+			<text>Warp {1}{B} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)
+Haste
+Each player sacrifices a creature.
+Creatures you control gain menace and deathtouch until end of turn.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/27.png" num="94">WRP</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Saga Avatar</type>
+				<maintype>Creature</maintype>
+				<manacost>4B</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Virtual Unreality</name>
+			<text>Destroy target creature. Its controller creates a tapped 2/2 black Zombie creature token.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/28.png" num="105">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Black Hole&apos;s Shadow</name>
+			<text>Create a 1/1 black Avatar Rogue creature token with &quot;Whenever this creature deals combat damage to a player, exile the top card of that player&apos;s library. You may play that card for as long as it remains exiled, and mana of any type can be spent to cast that spell.&quot;
+Paradox — If you cast a spell from anywhere other than your hand this turn, create two of those tokens instead.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/29.png" num="73">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Emergency Repairs</name>
+			<text>Choose one or both—
+• Return target creature from your graveyard to your hand.
+• Return target Vehicle from your graveyard to your hand.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/30.png" num="90">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Deal with the Machine Gods</name>
+			<text>Charge (Pay {2} as a sorcery to exile this face down from your hand with a charge counter or put a charge counter on it in exile. You may cast it from exile.)
+[Charge 0-1] Draw two cards. You lose 2 life.
+[Charge 2+] Draw three cards. You lose 3 life.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/31.png" num="79">WRP</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Shatter Identity</name>
+			<text>Charge (Pay {2} as a sorcery to exile this face down from your hand with a charge counter or put a charge counter on it in exile. You may cast it from exile.)
+[Charge 0] Target opponent reveals their hand, then discards a nonland card.
+[Charge 1+] Target opponent reveals their hand. You choose a nonland card from it. That player discards that card.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/32.png" num="101">WRP</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Paradox Trooper</name>
+			<text>Menace
+Paradox — Whenever you cast a spell from anywhere other than your hand, put a +1/+1 counter on this creature.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/33.png" num="128">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kill-Team Joker</name>
+			<text>Squad {2} (As an additional cost to cast this spell, you may pay {2} any number of times. When this creature enters, create that many tokens that are copies of it.)
+Haste
+When this creature enters, other creatures you control named Kill-Team Joker get +1/+1 until end of turn.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/34.png" num="121">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Commando Squad</name>
+			<text>Squad {2}{R} (As an additional cost to cast this spell, you may pay {2}{R} any number of times. When this creature enters, create that many tokens that are copies of it.)
+When this creature enters or dies, it deals damage equal to its power to target creature you don&apos;t control.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/35.png" num="114">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Alien Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Battle-Born Bombardier</name>
+			<text>Whenever this creature attacks, you may sacrifice an artifact or creature. If you do, put a +1/+1 counter on this creature, then this creature deals damage equal to its power to up to one non-player target.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/36.png" num="109">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Pirate</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Paradox Crafter</name>
+			<text>Whenever this creature deals combat damage to a player, exile the top card of your library. Until end of turn, you may play that card.
+Paradox — This creature has first strike as long as you&apos;ve cast a spell from anywhere other than your hand this turn.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/37.png" num="127">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Avatar</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Torchlight Squad</name>
+			<text>Squad {1}{R} (As an additional cost to cast this spell, you may pay {1}{R} any number of times. When this creature enters, create that many tokens that are copies of it.)
+When this creature dies, exile the top two cards of your library. Until the end of your next turn, you may play cards exiled this way.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/38.png" num="137">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Robot Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>5/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wasp-9 Star Predator</name>
+			<text>Flying
+You may cast this card from your graveyard by discarding a card in addition to paying its other costs.
+Crew 2</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/39.png" num="141">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Meteorite Storm</name>
+			<text>Charge (Pay {2} as a sorcery to exile this face down from your hand with a charge counter or put a charge counter on it in exile. You may cast it from exile.)
+[Charge 0-1] Meteorite Storm deals damage to target creature equal to the number of creatures you control.
+[Charge 2+] Meteorite Storm deals damage to target creature equal to the total power of creatures you control.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/40.png" num="122">WRP</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Scour the Rubble</name>
+			<text>Add two mana of any one color and two mana of any other color. Spend this mana only to cast a creature spell or cast a spell from exile.
+{2}, Exile this card from your graveyard: Create a Treasure token.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/41.png" num="132">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Supernova Sight</name>
+			<text>Charge (Pay {2} as a sorcery to exile this face down from your hand with a charge counter or put a charge counter on it in exile. You may cast it from exile.)
+[Charge 0-2] Exile the top two cards of your library. Until the end of your next turn, you may play cards exiled this way.
+[Charge 3+] Exile the top five cards of your library. Until the end of your next turn, you may play cards exiled this way.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/42.png" num="136">WRP</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Blade of the Darkstar</name>
+			<text>Warp {R} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)
+First strike
+This creature deals 2 damage to target opponent.
+You may discard all the cards in your hand. If you do, draw that many cards.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/43.png" num="110">WRP</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Saga Avatar</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Deep-Space Wanderer</name>
+			<text>When this creature enters, reveal cards from the top of your library until you reveal a land card, then mill that many cards. You may return a land card milled this way to your hand. (To mill a card, put the top card of your library into your graveyard.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/44.png" num="151">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Warp-Touched Warrior</name>
+			<text>Whenever this creature attacks, add one mana of any type. Until end of turn, you don&apos;t lose this mana as steps and phases end. (The types of mana are {W}, {U}, {B}, {R}, {G}, and {C}.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/45.png" num="177">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Avatar Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Astral Conduit</name>
+			<text>Whenever an exotic permanent you control enters, put a +1/+1 counter on this creature. (Cards with multiple permanent types are exotic.)
+As long as this creature has three or more +1/+1 counters on it, it&apos;s an enchantment creature and has trample.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/46.png" num="144">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Celestial Navigator</name>
+			<text>When this creature enters, scour a basic land card. (To scour a basic land card, reveal cards from the top of your library until you reveal a basic land card. Then put that card into your hand and the rest on the bottom of your library in a random order.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/47.png" num="148">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Avatar Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ruiner Wurm</name>
+			<text>When this creature enters, destroy target artifact or enchantment you don&apos;t control. Its controller scours a basic land card. (To scour a basic land card, that player reveals cards from the top of their library until they reveal a basic land card. They put that card into their hand and the rest on the bottom of their library in a random order.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/48.png" num="164">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Wurm</type>
+				<maintype>Creature</maintype>
+				<manacost>4G</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Star Strider</name>
+			<text>Trample
+Whenever another exotic permanent you control enters, draw a card. This ability triggers only once each turn. (Cards with multiple permanent types are exotic.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/49.png" num="171">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Beast Avatar</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rite of Creation</name>
+			<text>Warp {1}{G} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)
+Trample
+Mill three cards, then you may return a land card from your graveyard to the battlefield tapped.
+Add two mana of any one color. Until end of turn, you don&apos;t lose this mana as steps and phases end.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/50.png" num="163">WRP</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Saga Avatar</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Planetary Aligner</name>
+			<text>Vigilance, reach
+Whenever one or more exotic creatures you control attack, untap target creature. (Cards with multiple permanent types are exotic.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/51.png" num="159">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Avatar</type>
+				<maintype>Creature</maintype>
+				<manacost>5G</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Birth New Worlds</name>
+			<text>Scour two basic land cards. Then you may put a land card from your hand onto the battlefield tapped. (To scour two basic land cards, reveal cards from the top of your library until you reveal two basic land cards}}. Then put those cards into your hand and the rest on the bottom of your library in a random order.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/52.png" num="147">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Stellar Smash</name>
+			<text>Choose one —
+• Target creature you control fights target creature you don&apos;t control.
+• Destroy target artifact.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/53.png" num="172">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Bio-Forge</name>
+			<text>Enchant land
+When this enchantment enters, create a 1/1 colorless Sliver creature token.
+Enchanted land has &quot;{T}: Add two mana of different colors.&quot;</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/54.png" num="146">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Prototype Combat System</name>
+			<text>When this Equipment enters, create a 1/1 colorless Robot artifact creature. Then attach this Equipment to it.
+Equipped creature has vigilance and menace.
+Whenever equipped creature deals combat damage to a player, put a +1/+1 counter on it.
+Equip {2}</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/55.png" num="200">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Celestial Body</name>
+			<text>{T}: Add one mana of any color.
+{1}, Discard this card: Create a Treasure token. Activate only as a sorcery. (It&apos;s an artifact with &quot;{T}, Sacrifice this token: Add one mana of any color.&quot;)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/56.png" num="194">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Mass Produced Soldier</name>
+			<text>Squad {2} (As an additional cost to cast this spell, you may pay {2} any number of times. When this creature enters, create that many tokens that are copies of it.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/57.png" num="198">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Robot Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Commercial Hub World</name>
+			<text>This land enters tapped. As it enters, choose a color.
+{T}: Add one mana of the chosen color.
+{2}: Return this land to your hand. Activate only as a sorcery.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/58.png" num="204">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Planet</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Planetary Annihilation Station</name>
+			<text>{T}: Add {C}.
+{7}, {T}, Sacrifice this land: Destroy target permanent.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/59.png" num="205">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Land — Planet</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Shattered Planet</name>
+			<text>{T}, Sacrifice this land: Search your library for a basic land card or Planet card, put it onto the battlefield tapped, then shuffle.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/60.png" num="211">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Planet</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Grassland Sliver</name>
+			<text>{1}, Discard this card: Scour a Plains card. (To scour a Plains card, reveal cards from the top of your library until you reveal a Plains card. Then put that card into your hand and the rest on the bottom of your library in a random order.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/61.png" num="12">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Moon Sliver</name>
+			<text>Sliver creatures you control have &quot;If a creature dealt damage by this creature this turn would die, exile it instead.&quot;</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/62.png" num="21">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wavecrash Sliver</name>
+			<text>{1}, Discard this card: Scour an Island card. (To scour an Island card, reveal cards from the top of your library until you reveal an Island card. Then put that card into your hand and the rest on the bottom of your library in a random order.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/63.png" num="71">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ice Crystal Sliver</name>
+			<text>Slivers you control have &quot;When this creature enters, tap target creature you don&apos;t control.&quot;</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/64.png" num="53">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bogborn Sliver</name>
+			<text>{1}, Discard this card: Scour a Swamp card. (To scour a Swamp card, reveal cards from the top of your library until you reveal a Swamp card. Then put that card into your hand and the rest on the bottom of your library in a random order.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/65.png" num="74">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Nightmare Sliver</name>
+			<text>Slivers you control have &quot;Whenever this creature attacks, defending player loses 1 life and you gain 1 life.&quot;</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/66.png" num="96">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Obsidian Sliver</name>
+			<text>{1}, Discard this card: Scour a Mountain card. (To scour a Mountain card, reveal cards from the top of your library until you reveal a Mountain card. Then put that card into your hand and the rest on the bottom of your library in a random order.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/67.png" num="124">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Razorcrest Sliver</name>
+			<text>Slivers you control get +1/+1 and have haste as long as they entered this turn.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/68.png" num="131">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Vineweft Sliver</name>
+			<text>{1}, Discard this card: Scour a Forest card. (To scour a Forest card, reveal cards from the top of your library until you reveal a Forest card. Then put that card into your hand and the rest on the bottom of your library in a random order.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/69.png" num="175">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Scout Sliver</name>
+			<text>Sliver creatures you control have &quot;When this creature enters, search your library for a basic land card, reveal it, and put it into your hand. Then shuffle.&quot;</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/70.png" num="165">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Frostfire Squadron</name>
+			<text>Squad {2}{W} (As an additional cost to cast this spell, you may pay {2}{W} any number of times. When this creature enters, create that many tokens that are copies of it.)
+Vigilance</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/71.png" num="11">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Robot Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tacti-cube</name>
+			<text>Squad {3} (As an additional cost to cast this spell, you may pay {3} any number of times. When this creature enters, create that many tokens that are copies of it.)
+When this creature dies, create a 1/1 colorless Drone artifact creature token.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/72.png" num="34">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Drone Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cross-Virtual Soldier</name>
+			<text>Squad {4} (As an additional cost to cast this spell, you may pay {4} any number of times. When this creature enters, create that many tokens that are copies of it.)
+When this creature enters, create a 1/1 colorless Dog artifact creature token.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/73.png" num="8">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Desperate Medic</name>
+			<text>Whenever a token you control enters, you gain 1 life. 
+Whenever a token you control enters, if it doesn&apos;t share a name with another token you control, draw a card. This ability triggers only once each turn.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/74.png" num="10">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier Doctor</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Heavy Crab Drone</name>
+			<text>Squad {4} (As an additional cost to cast this spell, you may pay {4} any number of times. When this creature enters, create that many tokens that are copies of it.)
+When this creature enters, destroy up to one target tapped creature.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/75.png" num="14">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Drone</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rapid Deployment Unit</name>
+			<text>Squad {1} (As an additional cost to cast this spell, you may pay {1} any number of times. When this creature enters, create that many tokens that are copies of it.)
+Flash</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/76.png" num="27">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Song of the Stars</name>
+			<text>Warp {W}{W} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)
+Flying
+For each player, exile up to one target non-Saga, nonland permanent that player controls until this creature leaves the battlefield.
+You gain 1 life for each card target player owns in exile.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/77.png" num="32">WRP</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Saga Whale</type>
+				<maintype>Creature</maintype>
+				<manacost>4W</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Astral Beast Master</name>
+			<text>When this creature enters, create a 3/3 green Beast enchantment creature token.
+Whenever another exotic permanent you control enters, you gain life equal to its power. (Cards with multiple permanent types are exotic.)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/78.png" num="3">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Avatar</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Defensive Deployment</name>
+			<text>Create a 1/1 colorless Drone artifact creature token. Then Defensive Deployment deals damage equal to the number of artifacts you control plus 1 to up to one target attacking creature.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/79.png" num="9">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Attack of the Clones</name>
+			<text>Choose any number of tokens you control with different names. For each of them, create a token that&apos;s a copy of that permanent.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/80.png" num="4">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Rapid Reload</name>
+			<text>Exile target creature you control, then return that card to the battlefield under your control. If that creature has squad, you may pay its squad cost, if you do, create a token copy of it.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/81.png" num="28">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Celestial Alignment</name>
+			<text>Choose one —
+• Each player draws two cards.
+• Celestial Alignment deals damage to target tapped creature equal to the number of exotic permanents you control. (Cards with multiple permanent types are exotic.)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/82.png" num="5">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Assimilate</name>
+			<text>Destroy target nonland permanent. Its controller creates a 1/1 colorless Sliver creature token.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/83.png" num="2">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Drone Controller</name>
+			<text>Whenever this creature enters or deals combat damage to a player, you may activate one of its abilities without paying its cost.
+Tap two untapped Drone creatures you control: Target opponent mills four cards.
+{3}: Create a 1/1 colorless Drone artifact creature token.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/84.png" num="46">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Drone</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mechanist Cultist</name>
+			<text>When this creature enters, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)
+{3}, Exile an artifact you control or an artifact card from your graveyard: Draw a card. Activate only once each turn.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/85.png" num="59">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Robot Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Heroic Extraction Squad</name>
+			<text>Flash
+Squad {2} (As an additional cost to cast this spell, you may pay {2} any number of times. When this creature enters, create that many tokens that are copies of it.)
+When this creature enters, you may have it and up to one other creature you control phase out. (Treat them and anything attached to them as though they don&apos;t exist until your next turn.)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/86.png" num="52">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tree Hopper</name>
+			<text>Flying
+Whenever this creature deals combat damage to a player or noncreature permanent, put a +1/+1 counter on it.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/87.png" num="68">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Drone Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Astral Wyvern</name>
+			<text>Flying
+Whenever this creature enters or deals combat damage to a player, for each card you own in exile, you may add or remove a counter of each kind already there.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/88.png" num="40">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Avatar Drake</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Star-Cloud Summoner</name>
+			<text>Warp {U} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)
+Flying
+Double the number of each kind of counter on up to one target non-Saga permanent you control and up to one target card you own in exile.
+Draw a card. Then, exile this creature. You may cast it from exile on a later turn.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/89.png" num="66">WRP</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Saga Drake</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Aether Agent</name>
+			<text>When this creature enters, draw a card.
+{4}{U}{U}, Exile this card from your graveyard: Draw a card.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/90.png" num="39">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Avatar</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Portal Strider</name>
+			<text>Vigilance, ward {1} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)
+Whenever another exotic permanent you control enters, surveil 1, then put a +1/+1 counter on this creature. (Cards with multiple permanent types are exotic.)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/91.png" num="60">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Robot Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Intelligence Deployment</name>
+			<text>Create a 1/1 colorless Drone artifact creature token. Draw a card for each artifact you control, then discard that many cards minus two.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/92.png" num="55">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Wormhole</name>
+			<text>This spell costs {2} less to cast if you control an unblocked attacking creature.
+Return target nonland permanent an opponent controls to its owner&apos;s hand.
+Draw a card.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/93.png" num="72">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Read the Stars</name>
+			<text>Charge (Pay {2} as a sorcery to exile this face down from your hand with a charge counter or put a charge counter on it in exile. You may cast it from exile.)
+[Charge 0+] Draw X cards, where X is 1 plus the number of charge counters on this spell as you cast it.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/94.png" num="61">WRP</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Absorb Reality</name>
+			<text>Counter target spell unless its controller pays {X}, where X is 1 plus the number of exotic permanents you control. (Cards with multiple permanent types are exotic.)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/95.png" num="37">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Infiltrate the System</name>
+			<text>Counter target activated or triggered ability. If an ability you control is countered this way, create two Treasure tokens. (They&apos;re artifacts with &quot;{T}, Sacrifice this token: Add one mana of any color.&quot;)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/96.png" num="54">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Fido Fighter</name>
+			<text>Menace
+When this creature enters, create a 1/1 colorless Dog artifact creature token.
+Whenever a token you control enters, if it doesn&apos;t share a name with another token you control, put a deathtouch counter and a lifelink counter on that permanent.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/97.png" num="91">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Cyborg Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Synthetic Necromancer</name>
+			<text>Menace
+When this creature enters, you may exile target creature card from your graveyard. Create a token that&apos;s a copy of that creature card except it&apos;s a Zombie Robot artifact in addition to its other types.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/98.png" num="103">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Robot Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>4B</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Qatil Assassin</name>
+			<text>Deathtouch
+This creature can&apos;t block.
+Whenever this creature deals combat damage to a player, that player discards a card.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/99.png" num="98">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Alien Assassin</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cyberstalker</name>
+			<text>Flash
+When this creature enters, target creature gains deathtouch and menace until end of turn.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/100.png" num="75">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Robot Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Death of the Legions</name>
+			<text>Charge (Pay {2} as a sorcery to exile this face down from your hand with a charge counter or put a charge counter on it in exile. You may cast it from exile.)
+[Charge 0-2] Each opponent sacrifices a creature.
+[Charge 3+] Each opponent chooses a creature they control and sacrifices the rest.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/101.png" num="80">WRP</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Death Trooper</name>
+			<text>Squad {2}{B} (As an additional cost to cast this spell, you may pay {2}{B} any number of times. When this creature enters, create that many tokens that are copies of it.)
+When this creature enters, each player sacrifices a creature.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/102.png" num="81">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warlock Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ichor Keeper</name>
+			<text>Warp {B} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)
+Deathtouch
+Surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)
+Surveil 2, then return up to one creature card from your graveyard to the battlefield tapped.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/103.png" num="93">WRP</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Saga Avatar</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rebirth Through Robotics</name>
+			<text>Mill three cards. When you do, you may exile target creature card from your graveyard. Create a token that&apos;s a copy of that creature card except it&apos;s a Zombie Robot artifact in addition to its other types.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/104.png" num="99">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Hit Team</name>
+			<text>Create a 1/1 black Assassin creature token with deathtouch. Destroy target creature if it&apos;s mana value is less than or equal to 1 plus the number of differently named tokens you control.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/105.png" num="92">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Dive Bomb</name>
+			<text>Target creature gains flying and deathtouch until end of turn. When that creature deals combat damage to a player this turn, each opponent loses 3 life.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/106.png" num="86">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>One Way Trip</name>
+			<text>Return target creature card from a graveyard to the battlefield. That creature gains haste. Exile it at the beginning of the next end step.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/107.png" num="97">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Solar Smasher</name>
+			<text>Menace
+Landfall — Whenever a land you control enters, you draw a card and you lose 1 life.
+Whenever this creature deals combat damage to a player, surveil 2, then you may return a land card from your graveyard to your hand.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/108.png" num="102">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Avatar</type>
+				<maintype>Creature</maintype>
+				<manacost>4BB</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dark Star Avatar</name>
+			<text>Menace
+When this creature enters, you may sacrifice a nonland permanent. If you do, destroy target creature an opponent controls.
+{1}{B}, Discard this card: Target creature gets -1/-1 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/109.png" num="77">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Avatar</type>
+				<maintype>Creature</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bombardment Corp</name>
+			<text>Squad {2} (As an additional cost to cast this spell, you may pay {2} any number of times. When this creature enters, create that many tokens that are copies of it.)
+Flying
+When this artifact enters, it deals 1 damage to any target.
+Crew 1</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/110.png" num="112">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Towering Exo-Soldier</name>
+			<text>Trample
+When this creature enters, it fights up to one target creature you don&apos;t control. (Each deals damage equal to its power to the other.)
+Creatures with squad you control have trample. (Tokens created by squad abilities also have squad.)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/111.png" num="138">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Berserker</type>
+				<maintype>Creature</maintype>
+				<manacost>4RR</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Screeching Gale Elemental</name>
+			<text>Defender, haste
+{T}: Add {C}{C}. Spend this mana only to cast cards you own in exile or activate abilities of those cards.
+Paradox — As long as you&apos;ve cast a spell from anywhere but your hand this turn, this creature can attack as though it didn&apos;t have defender.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/112.png" num="134">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Star-Touched Scout</name>
+			<text>Menace
+When this creature enters, exile cards from the top of your library until you exile a nonland card.
+Whenever this creature deals combat damage to a player, you may cast a card exiled with it without paying its mana cost. If you do, exile this creature. Return it to the battlefield under its owner&apos;s control at the beginning of the next end step.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/113.png" num="135">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Deathstronaut</name>
+			<text>Haste
+Whenever a creature you control dies, this creature deals 1 damage to each opponent.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/114.png" num="116">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Skeleton Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bloodied Hell Fighter</name>
+			<text>Haste
+Whenever this creature attacks, put a -1/-1 counter on it at end of combat.
+When this creature dies, it deals damage equal to its power to target player.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/115.png" num="111">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Asteroid Mining Station</name>
+			<text>Menace
+Sacrifice a land: Add one mana of any color. This Vehicle becomes an artifact creature until end of turn. Activate only as a sorcery.
+Crew 3</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/116.png" num="108">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Scrap Gatherer</name>
+			<text>Whenever this creature enters or deals combat damage to a player or noncreature permanent, create a tapped Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this token: Add one mana of any color.&quot;)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/117.png" num="133">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Beast</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fire Fight</name>
+			<text>Fire Fight deals damage to target creature equal to the number of nontoken creatures you control.
+Fire Fight deals damage to target creature equal to the number of token creatures you control.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/118.png" num="118">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Void Breath</name>
+			<text>Charge (Pay {2} as a sorcery to exile this face down from your hand with a charge counter or put a charge counter on it in exile. You may cast it from exile.)
+[Charge 0+] Void Breath deals X damage to any target, where X is 2 plus the number of charge counters on this spell as you cast it.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/119.png" num="139">WRP</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Death Burst</name>
+			<text>Target creature you control deals damage equal to its power to target creature you don&apos;t control. When a creature targeted this way dies this turn, Death Burst deals 2 damage to target opponent.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/120.png" num="115">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Grasp the Void</name>
+			<text>Charge (Pay {2} as a sorcery to exile this face down from your hand with a charge counter or put a charge counter on it in exile. You may cast it from exile.)
+[Charge X+] Add X+1 mana of any one color. Spend this mana only to cast a creature spell or to cast a spell from exile.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/121.png" num="120">WRP</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Chaotic Vortex</name>
+			<text>The owner of target nonenchantment permanent shuffles it into their library, then reveals the top card of their library. If it&apos;s a permanent card, they put it onto the battlefield. Otherwise, they draw a card.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/122.png" num="113">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Star Born Charger</name>
+			<text>Vigilance
+Whenever another exotic creature you control enters, this creature gets +1/+1 until end of turn. If that creature is an enchantment, put a +1/+1 counter on this creature instead. (Cards with multiple permanent types are exotic.)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/123.png" num="169">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Avatar</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Spirit of the Forests</name>
+			<text>Warp {G}{G} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)
+Create a 3/3 green Beast enchantment creature token.
+Creatures you control gain trample and vigilance until end of turn. Put a +1/+1 counter on each exotic creature you control. (Cards with multiple permanent types are exotic.)
+​</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/124.png" num="168">WRP</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Saga Beast</type>
+				<maintype>Creature</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Worldrender</name>
+			<text>This spell costs {1} less for each exotic permanent you control. (Cards with multiple permanent types are exotic.)
+Trample
+{2}{G}, Discard this card: Search your library for a basic or exotic land card, put it onto the battlefield tapped, then shuffle.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/125.png" num="178">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Avatar</type>
+				<maintype>Creature</maintype>
+				<manacost>6GG</manacost>
+				<cmc>8</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Star Smasher</name>
+			<text>Trample
+Whenever another exotic creature you control enters, put a +1/+1 counter on this creature and that creature. (Cards with multiple permanent types are exotic.)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/126.png" num="170">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Avatar</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Warp Path Weaver</name>
+			<text>Trample
+When this creature enters, mill five cards, then you may put a land card from your graveyard onto the battlefield tapped. If you don&apos;t, put a +1/+1 counter on this creature.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/127.png" num="176">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Avatar</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shattered Space Scout</name>
+			<text>Vigilance
+When this creature dies, choose a basic land type. Create a token basic land of that type.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/128.png" num="166">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Orbit Tuner</name>
+			<text>{T}: Add {G}.
+{1}: Add one mana of any type. Activate only once each turn. (The types of mana are {W}, {U}, {B}, {R}, {G}, and {C}.)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/129.png" num="158">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Avatar</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Planetary General</name>
+			<text>Vigilance
+When this creature enters, scour a basic land card. (To scour a basic land card, reveal cards from the top of your library until you reveal a basic land card. Then put that card into your hand and the rest on the bottom of your library in a random order.)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/130.png" num="160">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Alien Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Galactic Growth</name>
+			<text>Creatures you control get +3/+3 until end of turn. Exotic creatures you control gain trample until end of turn. (Cards with multiple permanent types are exotic.)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/131.png" num="155">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Lost in a Digital World</name>
+			<text>Choose one or both—
+• Scour a nonland exotic card.
+• Scour an exotic land card. (To scour an exotic card, reveal cards from the top of your library until you reveal an exotic card. Then put that card into your hand and the rest on the bottom of your library in a random order. Cards with multiple permanent types are exotic.)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/132.png" num="157">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Flourish From the Fallen</name>
+			<text>Mill five cards, then return up to two basic land cards from your graveyard to the battlefield tapped.
+Exile four cards named Flourish From the Fallen from your graveyard: Untap all lands you control.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/133.png" num="153">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Expanding Growth</name>
+			<text>Search your library for a land card and put it onto the battlefield. Each opponent may search their library for a land card and put it onto the battlefield. Then each player who searched a library this way shuffles.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/134.png" num="152">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Hydra-Bot</name>
+			<text>Trample
+This creature enters with X +1/+1 counters on it.
+Whenever another exotic permanent you control enters, this creature fights up to one target creature you don&apos;t control. (Cards with multiple permanent types are exotic.)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/135.png" num="156">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Hydra Robot</type>
+				<maintype>Creature</maintype>
+				<manacost>XGG</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>0/0</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Memory Deconstructor</name>
+			<text>When this artifact enters, choose a nonland card name. Search target opponent&apos;s graveyard, hand, and library for any number of cards with that name and exile them. Then that player shuffles.
+{2}, Sacrifice this artifact: Each player draws a card.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/136.png" num="199">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Heavy Mech Suit</name>
+			<text>When this artifact enters, attach it to up to one target creature you control.
+Equipped creature has base power and toughness 5/5 and has menace.
+Equip {3}</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/137.png" num="197">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Final Soldier</name>
+			<text>Indestructible
+Whenever another creature you control dies, put a +1/+1 counter on this creature.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/138.png" num="196">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Robot</type>
+				<maintype>Creature</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Binary Worlds</name>
+			<text>This land enters tapped with a stun counter on it.
+When this land enters, if it&apos;s not a token, create a token copy of it.
+{T}, Tap an untapped land you control: Add two mana of any one type. (The types of mana are {W}, {U}, {B}, {R}, {G}, and {C}.)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/139.png" num="203">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Planet</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Architect&apos;s Dream World</name>
+			<text>This land enters tapped.
+{T}: Add {W} or {U}.
+{1}{W}{U}, {T}, Sacrifice this land: Search your library for an artifact card, reveal it, and put it into your hand. Then shuffle.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/140.png" num="201">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Planet</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Shadowed Ringworld</name>
+			<text>This land enters tapped.
+{T}: Add {U} or {B}.
+{1}{U}{B}, {T}, Sacrifice this land: Target creature you control can&apos;t be blocked this turn and gains &quot;Whenever this creature deals combat damage to a player, draw a card.&quot; until end of turn.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/141.png" num="210">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Planet</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Sulfurous Surface</name>
+			<text>This land enters tapped.
+{T}: Add {B} or {R}.
+{1}{B}{R}, {T}, Sacrifice this land: Return to the battlefield target creature card in your graveyard that was put there from the battlefield this turn.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/142.png" num="212">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Planet</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Treasure Planet</name>
+			<text>This land enters tapped.
+{T}: Add {R} or {G}.
+{1}{R}{G}, {T}, Sacrifice this land: Create three tapped Treasure tokens. (They&apos;re artifacts with &quot;{T}, Sacrifice this token: Add one mana of any color.&quot;)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/143.png" num="213">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Planet</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Serene World</name>
+			<text>This land enters tapped.
+{T}: Add {G} or {W}.
+{1}{G}{W}, {T}, Sacrifice this land: You gain life equal to the number of creatures and/or enchantments you control. (Enchantment creatures only count once.)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/144.png" num="209">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Planet</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Rogue&apos;s Planet</name>
+			<text>This land enters tapped.
+{T}: Add {W} or {B}.
+{1}{W}{B}, {T}, Sacrifice this land: Choose two creature types. Create a 1/1 white creature token with first strike of the first chosen type. Create a 1/1 black creature token with deathtouch of the second chosen type.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/145.png" num="207">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Planet</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Tumultuous Gas Giant</name>
+			<text>This land enters tapped.
+{T}: Add {U} or {R}.
+{1}{U}{R}, {T}, Sacrifice this land: Exile the top two cards of your library. Until the end of your next turn, you may play cards exiled this way.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/146.png" num="214">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Planet</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Backwater World</name>
+			<text>This land enters tapped.
+{T}: Add {B} or {G}.
+{1}{B}{G}, {T}, Sacrifice this land: Reveal cards from the top of your library until you reveal a land card, then mill that many cards. When you do, you may return up to two target land cards not named Backwater World from your graveyard to the battlefield tapped.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/147.png" num="202">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Planet</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Scorched Death World</name>
+			<text>This land enters tapped.
+{T}: Add {R} or {W}.
+{1}{R}{W}, {T}, Sacrifice this land: Put a +1/+1 counter on each creature you control. Those creatures gain haste until end of turn.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/148.png" num="208">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Planet</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Uncharted Rimworld</name>
+			<text>This land enters tapped.
+{T}: Add {G} or {U}.
+{1}{G}{U}, {T}, Sacrifice this land: Look at the top X cards of your library, where X is the number of exotic permanents you control. Put up to two of those cards into your hand and the rest on the bottom of your library in a random order. (Cards with multiple permanent types are exotic.)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/149.png" num="216">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Planet</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Crashing Automaton</name>
+			<text>Crashing Automaton&apos;s power and toughness are each equal to the number of artifacts you control.
+When this creature dies, destroy up to one target non-exotic creature. (Cards with multiple permanent types are exotic.)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/150.png" num="184">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Robot</type>
+				<maintype>Creature</maintype>
+				<manacost>1WU</manacost>
+				<cmc>3</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>*/*</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Starlight Sprite</name>
+			<text>Flying, menace
+Whenever one or more creatures you control deal combat damage to a player or noncreature permanent, draw a card.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/151.png" num="190">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Faerie Avatar</type>
+				<maintype>Creature</maintype>
+				<manacost>1UB</manacost>
+				<cmc>3</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shadowsteel Necromancer</name>
+			<text>Menace
+Whenever a creature you control dies, each opponent loses 1 life. 
+Whenever one or more attacking nontoken creatures you control die, create a 2/2 black Zombie artifact creature token.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/152.png" num="189">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Robot Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>1BR</manacost>
+				<cmc>3</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Unhinged Xenobiologist</name>
+			<text>When this creature enters, choose a creature type.
+{T}: Add {R} or {G}.
+{T}: Add one mana of any type. Spend this mana only to cast spells of the chosen creature type or to activate abilities of permanents of the chosen type.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/153.png" num="192">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Alien</type>
+				<maintype>Creature</maintype>
+				<manacost>RG</manacost>
+				<cmc>2</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Celestial Sentinel</name>
+			<text>Vigilance
+Whenever an exotic permanent you control enters, put a +1/+1 counter on target exotic creature. (Cards with multiple permanent types are exotic.)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/154.png" num="183">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Avatar</type>
+				<maintype>Creature</maintype>
+				<manacost>1GW</manacost>
+				<cmc>3</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Battlefield Commander</name>
+			<text>This creature gets +1/+1 for each differently named token you control.
+{4}: Choose one, then create an artifact creature token with those characteristics. Activate only once each turn.
+• 1/1 white Bird with flying.
+• 2/2 black Zombie.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/155.png" num="181">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1WB</manacost>
+				<cmc>3</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Nebula Dragon</name>
+			<text>Flying
+Spells you cast from anywhere other than your hand cost {1} less to cast.
+Paradox — Whenever you cast a spell from anywhere other than your hand, put a +1/+1 counter on this creature.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/156.png" num="188">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Avatar Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>UR</manacost>
+				<cmc>2</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Acquisition Agent</name>
+			<text>When this creature enters, mill five cards. (Put the top five cards of your library into your graveyard.)
+Whenever this creature deals combat damage to a player, return target land card from your graveyard to the battlefield tapped.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/157.png" num="179">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Human Cyborg</type>
+				<maintype>Creature</maintype>
+				<manacost>BG</manacost>
+				<cmc>2</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>High Admiral</name>
+			<text>The first time you would create one or more tokens each turn, create twice that many of those tokens instead.
+{1}{R}: Creatures you control gain haste until end of turn.
+{1}{W}: Creatures you control gain vigilance until end of turn.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/158.png" num="187">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>RW</manacost>
+				<cmc>2</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Stellar Wildshaper</name>
+			<text>Stellar Wildshaper&apos;s power and toughness are each equal to the number of exotic permanent you control. (Cards with multiple permanent types are exotic.)
+{2}{G}{U}: Target land you control becomes a 3/3 green and blue Elemental creature. It&apos;s still a land.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/WRP-files/img/159.png" num="191">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Artifact Creature — Avatar</type>
+				<maintype>Creature</maintype>
+				<manacost>GU</manacost>
+				<cmc>2</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>*/*</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Crescent Sliver</name>
+			<text>Slivers you control have ward {1}. (Whenever a Sliver you control becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)</text>
+			<set rarity="special" picurl="https://crushcastles23.github.io/sets/WRP-files/img/160.png" num="40">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>WU</manacost>
+				<cmc>2</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Skulking Sliver</name>
+			<text>Sliver creatures you control have skulk. (They can&apos;t be blocked by creatures with greater power.)</text>
+			<set rarity="special" picurl="https://crushcastles23.github.io/sets/WRP-files/img/161.png" num="45">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>UB</manacost>
+				<cmc>2</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bloodswamp Sliver</name>
+			<text>Sliver creatures you control have &quot;Whenever a creature dies, put a +1/+1 counter on this creature. This ability triggers only once each turn.&quot;</text>
+			<set rarity="special" picurl="https://crushcastles23.github.io/sets/WRP-files/img/162.png" num="39">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>1BR</manacost>
+				<cmc>3</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gilded Cloud Sliver</name>
+			<text>Sliver creatures you control have &quot;At the beginning of your precombat main phase, add one mana of any of this creature&apos;s colors. Spend this mana only to cast Sliver spells.&quot;</text>
+			<set rarity="special" picurl="https://crushcastles23.github.io/sets/WRP-files/img/163.png" num="41">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>RG</manacost>
+				<cmc>2</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shield-Hide Sliver</name>
+			<text>Other Sliver creatures you control have &quot;This creature enters with two additional +1/+1 counters on it.&quot;</text>
+			<set rarity="special" picurl="https://crushcastles23.github.io/sets/WRP-files/img/164.png" num="44">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>2GW</manacost>
+				<cmc>4</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Underworld Sliver</name>
+			<text>Slivers you control have &quot;Whenever you cast a spell, you may pay {1}. If you do or if it is a Sliver spell, each opponent loses 1 life and you gain 1 life.&quot;</text>
+			<set rarity="special" picurl="https://crushcastles23.github.io/sets/WRP-files/img/165.png" num="49">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>1WB</manacost>
+				<cmc>3</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Nebula Sliver</name>
+			<text>Slivers you control have &quot;When this creature enters, draw a card, then discard a card. When you discard a nonland card this way, this creature deals damage equal to its power to target creature you don&apos;t control.&quot;</text>
+			<set rarity="special" picurl="https://crushcastles23.github.io/sets/WRP-files/img/166.png" num="43">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>1UR</manacost>
+				<cmc>3</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mortuary Sliver</name>
+			<text>Slivers you control have &quot;When this creature enters, mill two cards.&quot; and &quot;When this creature dies, you may put a land card from your graveyard onto the battlefield tapped.&quot;</text>
+			<set rarity="special" picurl="https://crushcastles23.github.io/sets/WRP-files/img/167.png" num="42">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>BG</manacost>
+				<cmc>2</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Swarm of Slivers</name>
+			<text>Slivers you control have &quot;When this creature enters, if it&apos;s not a token, create a 1/1 colorless Sliver creature token.&quot;</text>
+			<set rarity="special" picurl="https://crushcastles23.github.io/sets/WRP-files/img/168.png" num="48">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>RW</manacost>
+				<cmc>2</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Speed Sliver</name>
+			<text>You may cast Sliver spells as though they had flash.</text>
+			<set rarity="special" picurl="https://crushcastles23.github.io/sets/WRP-files/img/169.png" num="47">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>GU</manacost>
+				<cmc>2</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lieren, Once Human</name>
+			<text>First strike
+Lieren&apos;s power and toughness are each equal to the number of artifacts you control.
+Whenever this creature enters or deals combat damage to a player or noncreature permanent, create a 1/1 colorless Drone artifact creature token.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/WRP-files/img/170.png" num="18">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact Creature — Robot Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>*/*</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>United Forces General</name>
+			<text>This creature gets +1/+1 for each differently named token you control.
+When this creature enters, create a 1/1 white Ally creature token.
+Whenever this creature attacks, choose a creature type, then create a 1/1 colorless creature token of that type.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/WRP-files/img/171.png" num="35">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier Ally</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Holdout Squad</name>
+			<text>Squad {3} (As an additional cost to cast this spell, you may pay {3} any number of times. When this creature enters, create that many tokens that are copies of it.)
+When this creature enters, put a +1/+1 counter on each other creature you control.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/WRP-files/img/172.png" num="16">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Life Forger</name>
+			<text>Whenever a nontoken exotic permanent you control enters, create a 1/1 white Rabbit enchantment creature token. (Cards with multiple permanent types are exotic.)
+{6}: Creatures you control get +1/+1 until end of turn. Exotic creatures you control gain vigilance until end of turn.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/WRP-files/img/173.png" num="19">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Avatar</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Core Seeker</name>
+			<text>First strike
+Whenever an exotic creature you control enters, you gain life equal to its power. (Cards with multiple permanent types are exotic.)</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/WRP-files/img/174.png" num="7">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Robot Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sentinel of Dying Stars</name>
+			<text>Vigilance
+Whenever a land you control becomes the target of a spell or ability, create a token that&apos;s a copy of that land.
+Whenever you play an exotic land or cast an exotic spell, draw a card. This ability only triggers once each turn. (Cards with multiple permanent types are exotic.)</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/WRP-files/img/175.png" num="30">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Cyborg Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Reality Fold</name>
+			<text>Choose one or both—
+• Exile target nonbasic permanent.
+• Exile target permanent you control. Return that card to the battlefield under its owner&apos;s control at the beginning of the next end step.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/WRP-files/img/176.png" num="29">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Multitudes of the Legion</name>
+			<text>Create X 1/1 colorless Sliver creature tokens. You gain life equal to the number of Slivers you control plus one.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/WRP-files/img/177.png" num="22">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Kindred Sorcery — Sliver</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XWW</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Keen-Eyed Scavenger</name>
+			<text>Prowess
+Whenever this creature attacks, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
+{5}, Discard a card: Return target artifact card from your graveyard to the battlefield. Activate only as a sorcery.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/WRP-files/img/178.png" num="56">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Human Cyborg Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>ECHO Squad</name>
+			<text>Squad {1}{U} (As an additional cost to cast this spell, you may pay {1}{U} any number of times. When this creature enters, create that many tokens that are copies of it.)
+Vigilance
+When this creature enters, draw a card.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/WRP-files/img/179.png" num="47">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Robot Soldier Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Reality Splitter</name>
+			<text>Vigilance
+Paradox — Whenever you cast a spell from anywhere other than your hand, you may pay {3}, when you do, copy that spell. You may choose new modes and targets for that spell. (A copy of a permanent spell becomes a token.)</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/WRP-files/img/180.png" num="62">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Avatar</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Warpath Technomancer</name>
+			<text>Prowess
+Whenever this creature attacks, create a tapped and attacking 1/1 colorless Robot creature token with a prowess counter on it.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/WRP-files/img/181.png" num="70">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Cyborg Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Chart Anomalies</name>
+			<text>Choose one —
+• Draw two cards.
+• Exile two target permanents you control, then return those cards to the battlefield under your control.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/WRP-files/img/182.png" num="42">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Superluminal Motion</name>
+			<text>Charge (Pay {2} as a sorcery to exile this face down from your hand with a charge counter or put a charge counter on it in exile. You may cast it from exile.)
+[Charge 0-1] Target creature phases out. (Treat it and anything attached to it as though they don&apos;t exist until its controller&apos;s next turn.)
+[Charge 2+] Creatures you control phase out.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/WRP-files/img/183.png" num="67">WRP</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Knowledge of the Legion</name>
+			<text>Draw a card for each Sliver you control plus one.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/WRP-files/img/184.png" num="57">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Kindred Sorcery — Sliver</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Break the Barrier</name>
+			<text>This spell costs {1}{U} less to cast if it targets an instant spell or a spell with flash.
+Counter target spell.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/WRP-files/img/185.png" num="41">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Deathwatch Squad</name>
+			<text>Squad {1}{B} (As an additional cost to cast this spell, you may pay {1}{B} any number of times. When this creature enters, create that many tokens that are copies of it.)
+Deathtouch
+Whenever one or more creatures you control deal combat damage to a player, you draw a card and lose 1 life.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/WRP-files/img/186.png" num="84">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cyborg Squad</name>
+			<text>Squad {1}{B} (As an additional cost to cast this spell, you may pay {1}{B} any number of times. When this creature enters, create that many tokens that are copies of it.)
+Deathtouch
+Whenever this creature deals combat damage to a player, that player discards a card.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/WRP-files/img/187.png" num="76">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Cyborg Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Electro-Lich</name>
+			<text>Menace
+As long as you control another artifact not named Electro-Lich, this creature has indestructible.
+Whenever another creature dies, put a +1/+1 counter on this creature.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/WRP-files/img/188.png" num="89">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Zombie Hacker</type>
+				<maintype>Creature</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Void Ripper</name>
+			<text>Menace
+Whenever this creature enters or attacks, mill three cards, then you may choose a permanent card milled this way. If you choose a land card this way, put it onto the battlefield tapped, otherwise put it into your hand.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/WRP-files/img/189.png" num="107">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Avatar</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Darkstar Devastator</name>
+			<text>Menace, lifelink
+When this creature enters, exile target creature. You lose life equal to its power.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/WRP-files/img/190.png" num="78">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Avatar</type>
+				<maintype>Creature</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Vision of the End</name>
+			<text>Charge (Pay {2} as a sorcery to exile this face down from your hand with a charge counter or put a charge counter on it in exile. You may cast it from exile.)
+[Charge 0-1] Destroy target creature.
+[Charge 2-3] Destroy all creatures.
+[Charge 4+] Destroy all creatures you don&apos;t control.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/WRP-files/img/191.png" num="106">WRP</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>BB</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Defiant Last Stand</name>
+			<text>Until end of turn, whenever a creature you control dies, you gain 1 life, creatures you control get +1/+1 until end of turn.
+Until end of turn, whenever a creature an opponent controls dies, you may pay 1 life, if you do, draw a card.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/WRP-files/img/192.png" num="85">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Shadow of the Legion</name>
+			<text>Creatures your opponents control get -X/-X until end of turn, where X is the number of Slivers you control plus one.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/WRP-files/img/193.png" num="100">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Kindred Sorcery — Sliver</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Endless Legions</name>
+			<text>Squad {2}{R}
+Menace
+Whenever this creature deals combat damage to a player, create a token copy of it. Then it deals damage to up to one target creature equal to the greatest number of creatures you control that share a name.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/WRP-files/img/194.png" num="117">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Cyborg Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Void-Star Dragon</name>
+			<text>Flying
+When this creature enters, exile the top two cards of your library. You may play cards exiled this way.
+Paradox — Whenever you cast a spell from anywhere other than your hand, this creature deals 2 damage to each opponent.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/WRP-files/img/195.png" num="140">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Dragon Avatar</type>
+				<maintype>Creature</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Quad-Fury Mercenary</name>
+			<text>Double strike
+If this creature would deal combat damage to a permanent, it deals twice that much damage instead.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/WRP-files/img/196.png" num="130">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Alien Cat Mercenary</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wily Smuggler</name>
+			<text>Menace
+Whenever this creature deals combat damage to a player, add that much mana of any one color. Until end of turn, you don&apos;t lose this mana as steps and phases end.
+Whenever you discard a card, put a +1/+1 counter on this creature.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/WRP-files/img/197.png" num="143">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Alien Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Whispers of Supernova</name>
+			<text>Warp {1}{R}{R} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)
+Haste
+Put a +1/+1 counter on this creature. It deals damage to target creature equal to its power.
+This creature deals damage to target opponent equal to its power.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/WRP-files/img/198.png" num="142">WRP</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Saga Avatar</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Overcharge</name>
+			<text>Charge (Pay {2} as a sorcery to exile this face down from your hand with a charge counter or put a charge counter on it in exile. You may cast it from exile.)
+[Charge 0-2] Copy target instant or sorcery spell. You may choose new targets for the copy.
+[Charge 3+] Copy target instant or sorcery spell twice. You may choose new targets for the copies.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/WRP-files/img/199.png" num="126">WRP</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>RR</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Flames of the Legion</name>
+			<text>This spell deals X damage to any target, where X is the number of Slivers you control plus 1.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/WRP-files/img/200.png" num="119">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Kindred Sorcery — Sliver</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Orbital Bombardment</name>
+			<text>Charge (Pay {2} as a sorcery to exile this face down from your hand with a charge counter or put a charge counter on it in exile. You may cast it from exile.)
+[Charge 0-2] Destroy target nonbasic land.
+[Charge 3+] Destroy all nonbasic lands.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/WRP-files/img/201.png" num="125">WRP</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Rift Born Avatar</name>
+			<text>Trample
+Whenever another exotic permanent you control enters or leaves the battlefield, this creature gets +1/+1 until end of turn. (Cards with multiple permanent types are exotic.)</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/WRP-files/img/202.png" num="162">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Avatar</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Aural Elk</name>
+			<text>Warp {1}{G} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)
+Trample
+This creature gets +1/+1 for each lore counter on it beyond the first.
+This creature fights up to one target creature.
+Distribute four +1/+1 counters among creatures you control.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/WRP-files/img/203.png" num="145">WRP</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Elk Saga</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Deep Rock Miner</name>
+			<text>Trample
+Whenever this creature attacks, mill three cards.
+Whenever a player plays a land, that player draws a card.
+You may play land cards from your graveyard.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/WRP-files/img/204.png" num="150">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dwarf Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ragtag Squad</name>
+			<text>Squad {2}{G} (As an additional cost to cast this spell, you may pay {2}{G} any number of times. When this creature enters, create that many tokens that are copies of it.)
+Trample
+When this creature enters, search your library for a basic land card, put it onto the battlefield tapped, then shuffle.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/WRP-files/img/205.png" num="161">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Alien Soldier Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Smashing Stowaway</name>
+			<text>Reach, trample
+Whenever this creature attacks, destroy target artifact. If an artifact you control is destroyed this way, put a +1/+1 counter on this creature.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/WRP-files/img/206.png" num="167">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Cyborg Rebel Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Titanape</name>
+			<text>Trample
+When this creature enters, it fights target creature you don&apos;t control.
+Whenever a creature dealt damage by this creature this turn dies, put two +1/+1 counters on this creature.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/WRP-files/img/207.png" num="174">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Alien Ape</type>
+				<maintype>Creature</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Strength of the Legion</name>
+			<text>Slivers you control gain trample until end of turn. Creatures you control get +1/+1 until end of turn for each Sliver spell and Sliver permanent you control.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/WRP-files/img/208.png" num="173">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Kindred Sorcery — Sliver</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4GG</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Cycle of Death</name>
+			<text>Sacrifice a creature. If you do, mill a number of cards equal to its power. Then you may return a permanent card with mana value less than the sacrificed creature&apos;s toughness from your graveyard to the battlefield.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/WRP-files/img/209.png" num="149">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Warp-Touched World</name>
+			<text>You may have this land enter tapped as a copy of any land on the battlefield except it&apos;s also an enchantment and a Planet in addition to its other types.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/WRP-files/img/210.png" num="217">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Land — Planet</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Eldritch Interface</name>
+			<text>{T}: Untap another target permanent.
+{1}, {T}: Add one mane of any color.
+{2}, {T}: Create a 1/1 colorless Sliver creature token.
+{3}, {T}: Draw a card, then discard a card.
+Sacrifice a creature: Untap this artifact.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/WRP-files/img/211.png" num="195">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Remina, the Hell Maw</name>
+			<text>Defender
+Remina, the Hell Maw enters tapped.
+{T}: Add {C}.
+When this creature dies, destroy up to one target creature that dealt it damage this turn.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/WRP-files/img/212.png" num="206">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land Creature — Elemental Planet</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Twilight City</name>
+			<text>This land enters tapped.
+{T}: Add {C}.
+{T}: Add one mana of any color. Spend this mana only to cast an artifact spell or activate an ability of an artifact source.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/WRP-files/img/213.png" num="215">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Land — Planet</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Beyond the Event Horizon</name>
+			<text>Shroud (This permanent can&apos;t be the target of spells or abilities.)
+When this enchantment enters, exile all other nonland permanents.
+{3}: Until end of turn, you may play a card exiled by this enchantment and may spend mana as though it were mana of any type to cast spells this way. Any player may activate this ability during their turn.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/WRP-files/img/214.png" num="182">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>WUBRG</manacost>
+				<cmc>5</cmc>
+				<colors>WUBRG</colors>
+				<coloridentity>WUBRG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Contact the Collective</name>
+			<text>Each player discards their hand. Each opponent draws 7 cards. You draw cards equal to the total number of cards discarded this way.
+You get an emblem with &quot;You have no maximum hand size.&quot;</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/WRP-files/img/215.png" num="44">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3UUU</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>The Battle Matrix</name>
+			<text>When this artifact enters, exile target creature.
+Whenever you attack, create a token that&apos;s a copy of the exiled creature card, except its not legendary and has base power and toughness 1/1. The token enters tapped and attacking.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/WRP-files/img/216.png" num="193">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Enchantment Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Annihilating Light of Creation</name>
+			<text>Warp {3}{G}{W} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)
+If you cast Annihilating Light of Creation, exile all other creatures.
+Each player&apos;s life total becomes equal to their starting life total.
+Create a number of 1/1 colorless Spirit creature tokens equal to this creature&apos;s power.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/WRP-files/img/217.png" num="180">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Enchantment Creature — Avatar</type>
+				<maintype>Creature</maintype>
+				<manacost>6GW</manacost>
+				<cmc>8</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>7/7</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Galacta-Genesis</name>
+			<text>Search your library for any number of Planet cards and/or basic land cards and put them onto the battlefield tapped. Then shuffle.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/WRP-files/img/218.png" num="154">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3GGG</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Qanaas, Spider Sniper</name>
+			<text>First strike, reach
+Whenever you cast a noncreature spell, Qanaas, Spider Sniper deals 1 damage to each opponent.
+{2}{R}, Discard a card: Draw two cards. Activate only as a sorcery and only once each turn.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/WRP-files/img/219.png" num="129">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact Creature — Robot Sniper</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>ClA.I.re, Ascendant Intellect</name>
+			<text>ClA.I.re&apos;s power is equal to the number of exotic creatures you control. (Cards with multiple permanent types are exotic.)
+{4}{U}: For each unique combination of permanent types among permanents you control, draw a card. (Artifact creature, artifact land, enchantment creature, etc.)</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/WRP-files/img/220.png" num="43">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>*/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Super Massive Black Hole</name>
+			<text>Exile all nonland permanents. Each player exiles their hand and graveyard, then draws seven cards.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/WRP-files/img/221.png" num="33">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4WWW</manacost>
+				<cmc>7</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Vershina, One With the Universe</name>
+			<text>Vershina&apos;s toughness is equal to the number of exotic creatures you control. (Cards with multiple permanent types are exotic.)
+{4}{B}: Destroy target creature with power less than or equal to the number of unique combination of permanent types among permanents you control. (Enchantment land, land creature, planeswalker creature, etc.)</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/WRP-files/img/222.png" num="104">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Enchantment Creature — Avatar</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/*</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Singularity Sliver</name>
+			<text>Non-exotic creatures you control are Sliver Horrors and lose all other creature types. (Cards with multiple permanent types are exotic.)
+{W}{U}{B}{R}{G}: Choose target creature you control. Slivers you control gain all abilities of that creature until end of turn.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/WRP-files/img/223.png" num="1">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Sliver Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>7</manacost>
+				<cmc>7</cmc>
+				<coloridentity>WUBRG</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Harea, Dune Walker</name>
+			<text>Whenever one or more land cards are put into a graveyard from anywhere, put a loyalty counter on this planeswalker.
+[+1]: You may sacrifice a creature or land. If you do, draw a card.
+[-1]: This planeswalker deals damage to any target equal to the number of land cards in your graveyard. You may put a land card from your graveyard onto the battlefield tapped. 
+[-6]: Sacrifice a land. Create five tapped tokens that are a copy of that land.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/WRP-files/img/224.png" num="186">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Harea</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>BRG</manacost>
+				<cmc>3</cmc>
+				<colors>BRG</colors>
+				<coloridentity>BRG</coloridentity>
+				<loyalty>2</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>General Polkovodets</name>
+			<text>[+2]: Creatures you control get +1/+1 and gain vigilance until end of turn..
+[+1]: Sacrifice a creature, if you do, draw two cards.
+[-X]: Amass Soldiers X twice. (To amass Soldiers X, put X +1/+1 counters on an Army you control. It&apos;s also a Soldier. If you don&apos;t control an Army, create a 0/0 black Soldier Army creature token first. Then do it again.)</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/WRP-files/img/225.png" num="185">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Polkovodets</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>1WB</manacost>
+				<cmc>3</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<loyalty>2</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Mo&apos;o-Ita, Raging Fire</name>
+			<text>Whenever Mo&apos;o-Ita or another planeswalker you control deals damage to a player, put that many loyalty counters on that planeswalker.
+[+2]: Up to one target creature gets +1/+1 and gains haste until end of turn.
+[0]: Until end of turn, Mo&apos;o-Ita becomes a legendary X/X Dragon Berserker creature with haste and menace, where X is the number of loyalty counters on him.
+[-1]: Mo&apos;o-Ita deals 1 damage to any target.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/WRP-files/img/226.png" num="123">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Mo&apos;o-Ita</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<loyalty>2</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Plains</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/227.png" num="218">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Island</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/228.png" num="219">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Swamp</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/229.png" num="220">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Mountain</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/230.png" num="221">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Forest</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/231.png" num="222">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Hiveguard Sliver</name>
+			<text>Slivers you control have vigilance.
+{1}, Discard this creature: Scour a Sliver card. (To scour a Sliver card, reveal cards from the top of your library until you reveal a Sliver card. Then put that card into your hand and the rest on the bottom of your library in a random order.)</text>
+			<set rarity="special" picurl="https://crushcastles23.github.io/sets/WRP-files/img/232.png" num="7">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Disrupted Sliver</name>
+			<text>Slivers creatures you control have &quot;This creature can block an additional creature each combat.&quot;</text>
+			<set rarity="special" picurl="https://crushcastles23.github.io/sets/WRP-files/img/233.png" num="6">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ash Blossom Sliver</name>
+			<text>Slivers you control have &quot;When this creature enters, exile target creature an opponent controls until this creature leaves the battlefield. (That creature returns under its owner&apos;s control.)&quot;</text>
+			<set rarity="special" picurl="https://crushcastles23.github.io/sets/WRP-files/img/234.png" num="4">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>4W</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Stone Sliver</name>
+			<text>Sliver creatures you control have vigilance and get +0/+3.</text>
+			<set rarity="special" picurl="https://crushcastles23.github.io/sets/WRP-files/img/235.png" num="9">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Skittering Sliver</name>
+			<text>Sliver creatures you control have nimble. (They can&apos;t be blocked by creatures with power 3 or greater.)</text>
+			<set rarity="special" picurl="https://crushcastles23.github.io/sets/WRP-files/img/236.png" num="8">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sunscorched Sliver</name>
+			<text>Slivers you control have &quot;Whenever this creature attacks, tap target creature an opponent controls.&quot;</text>
+			<set rarity="special" picurl="https://crushcastles23.github.io/sets/WRP-files/img/237.png" num="10">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bonescythe Sliver</name>
+			<text>Sliver creatures you control have double strike.</text>
+			<set rarity="special" picurl="https://crushcastles23.github.io/sets/WRP-files/img/238.png" num="5">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Serpentine Sliver</name>
+			<text>Sliver creatures you control have &quot;{3}: This creature can&apos;t be blocked this turn.&quot;</text>
+			<set rarity="special" picurl="https://crushcastles23.github.io/sets/WRP-files/img/239.png" num="16">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Leaping Sliver</name>
+			<text>Slivers you control have flying as long as they&apos;re attacking.</text>
+			<set rarity="special" picurl="https://crushcastles23.github.io/sets/WRP-files/img/240.png" num="12">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mindflow Sliver</name>
+			<text>Slivers you control have &quot;Whenever this creature deals combat damage to a player, draw a card, then mill a card.&quot;</text>
+			<set rarity="special" picurl="https://crushcastles23.github.io/sets/WRP-files/img/241.png" num="13">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Stormcloud Sliver</name>
+			<text>Slivers you control have &quot;Whenever this creature deals combat damage to a player, draw a card.&quot;</text>
+			<set rarity="special" picurl="https://crushcastles23.github.io/sets/WRP-files/img/242.png" num="17">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Riftstrider Sliver</name>
+			<text>Slivers you control have prowess.
+{1}, Discard this creature: Scour a Sliver card. (To scour a Sliver card, reveal cards from the top of your library until you reveal a Sliver card. Then put that card into your hand and the rest on the bottom of your library in a random order.)</text>
+			<set rarity="special" picurl="https://crushcastles23.github.io/sets/WRP-files/img/243.png" num="15">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mirror Sliver</name>
+			<text>Other Slivers you control have &quot;When this creature enters, if it&apos;s not a token, create a token copy of it.&quot;</text>
+			<set rarity="special" picurl="https://crushcastles23.github.io/sets/WRP-files/img/244.png" num="14">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cryptstalker Sliver</name>
+			<text>Slivers you control have &quot;Whenever this creature enters or deals combat damage to a player, each opponent mills cards equal to its power.&quot;</text>
+			<set rarity="special" picurl="https://crushcastles23.github.io/sets/WRP-files/img/245.png" num="11">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Goliath Sliver</name>
+			<text>Slivers you control have menace.
+{1}, Discard this creature: Scour a Sliver card. (To scour a Sliver card, reveal cards from the top of your library until you reveal a Sliver card. Then put that card into your hand and the rest on the bottom of your library in a random order.)</text>
+			<set rarity="special" picurl="https://crushcastles23.github.io/sets/WRP-files/img/246.png" num="21">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>5B</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ichorflow Sliver</name>
+			<text>Sliver creatures you control have toxic 1. (Players dealt combat damage by those creatures also get a poison counter.)</text>
+			<set rarity="special" picurl="https://crushcastles23.github.io/sets/WRP-files/img/247.png" num="22">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ashheart Sliver</name>
+			<text>Slivers you control have deathtouch.</text>
+			<set rarity="special" picurl="https://crushcastles23.github.io/sets/WRP-files/img/248.png" num="18">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Thorntail Sliver</name>
+			<text>Slivers you control have &quot;When this creature enters, each opponent loses life equal to the number of Slivers you control.&quot;</text>
+			<set rarity="special" picurl="https://crushcastles23.github.io/sets/WRP-files/img/249.png" num="23">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Caveborn Sliver</name>
+			<text>Slivers you control gain menace and have &quot;Whenever this creature attacks, each opponent loses 1 life.&quot;</text>
+			<set rarity="special" picurl="https://crushcastles23.github.io/sets/WRP-files/img/250.png" num="19">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dregscape Sliver</name>
+			<text>Each Sliver creature card in your graveyard has unearth {2}.
+Unearth {2} ({2}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the end step or if it would leave the battlefield. Unearth only as a sorcery.)</text>
+			<set rarity="special" picurl="https://crushcastles23.github.io/sets/WRP-files/img/251.png" num="20">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Undeath Sliver</name>
+			<text>Slivers you control have persist. (When a creature with persist dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner&apos;s control with a -1/-1 counter on it.)</text>
+			<set rarity="special" picurl="https://crushcastles23.github.io/sets/WRP-files/img/252.png" num="24">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Blood-Dipped Sliver</name>
+			<text>Slivers you control have &quot;Whenever this creature deals damage to a creature or planeswalker, it deals that much damage to that permanent&apos;s controller.&quot;</text>
+			<set rarity="special" picurl="https://crushcastles23.github.io/sets/WRP-files/img/253.png" num="25">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tunnel Borer Sliver</name>
+			<text>Slivers you control have first strike.
+{1}, Discard this creature: Scour a Sliver card. (To scour a Sliver card, reveal cards from the top of your library until you reveal a Sliver card. Then put that card into your hand and the rest on the bottom of your library in a random order.)</text>
+			<set rarity="special" picurl="https://crushcastles23.github.io/sets/WRP-files/img/254.png" num="31">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sharp Sliver</name>
+			<text>Other Slivers you control get +1/+1.</text>
+			<set rarity="special" picurl="https://crushcastles23.github.io/sets/WRP-files/img/255.png" num="29">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lava Vent Sliver</name>
+			<text>Slivers you control have &quot;When this enters, it deals 1 damage to target opponent.&quot;</text>
+			<set rarity="special" picurl="https://crushcastles23.github.io/sets/WRP-files/img/256.png" num="28">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shattershard Sliver</name>
+			<text>Slivers you control have &quot;When this creature dies, it deals damage equal to its power to each player.&quot;</text>
+			<set rarity="special" picurl="https://crushcastles23.github.io/sets/WRP-files/img/257.png" num="30">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Capricious Sliver</name>
+			<text>Sliver creatures you control have &quot;Whenever this creature deals combat damage to a player, exile the top card of your library. You may play that card this turn.&quot;</text>
+			<set rarity="special" picurl="https://crushcastles23.github.io/sets/WRP-files/img/258.png" num="27">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bloodform Sliver</name>
+			<text>Slivers you control have &quot;Whenever a creature dealt damage by this creature this turn dies, put a +1/+1 counter on this creature.&quot;</text>
+			<set rarity="special" picurl="https://crushcastles23.github.io/sets/WRP-files/img/259.png" num="26">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ravenous Sliver</name>
+			<text>Ravenous (This creature enters with X +1/+1 counters on it. If X is 5 or more, draw a card when it enters.)
+Sliver spells you cast cost {X} more to cast and have ravenous.</text>
+			<set rarity="special" picurl="https://crushcastles23.github.io/sets/WRP-files/img/260.png" num="36">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>X2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Willow Wood Sliver</name>
+			<text>Slivers you control have all activated abilities of lands you control.</text>
+			<set rarity="special" picurl="https://crushcastles23.github.io/sets/WRP-files/img/261.png" num="38">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Amber Sliver</name>
+			<text>Slivers you control have &quot;{T}: Add one mana of any color. Spend this mana only to cast Sliver spells and activate the abilities of Slivers.&quot;</text>
+			<set rarity="special" picurl="https://crushcastles23.github.io/sets/WRP-files/img/262.png" num="32">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver Mutant</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Thrashing Sliver</name>
+			<text>Slivers you control have trample.
+{1}, Discard this creature: Scour a Sliver card. (To scour a Sliver card, reveal cards from the top of your library until you reveal a Sliver card. Then put that card into your hand and the rest on the bottom of your library in a random order.)</text>
+			<set rarity="special" picurl="https://crushcastles23.github.io/sets/WRP-files/img/263.png" num="37">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>4G</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Molder Sliver</name>
+			<text>Sliver creatures you control get +1/+1 for each Sliver card in your graveyard.</text>
+			<set rarity="special" picurl="https://crushcastles23.github.io/sets/WRP-files/img/264.png" num="34">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Pugilist Sliver</name>
+			<text>Slivers you control have &quot;When this creature enters, it fights target non-Sliver creature.&quot;</text>
+			<set rarity="special" picurl="https://crushcastles23.github.io/sets/WRP-files/img/265.png" num="35">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>4G</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hatchery Sliver</name>
+			<text>Replicate {1}{G} (When you cast this spell, copy it for each time you paid its replicate cost.)
+Each Sliver spell you cast has replicate. The replicate cost is equal to its mana cost. (A copy of a permanent spell becomes a token.)</text>
+			<set rarity="special" picurl="https://crushcastles23.github.io/sets/WRP-files/img/266.png" num="33">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sliver Hive</name>
+			<text>{T}: Add {C}.
+{T}: Add one mana of any color. Spend this mana only to cast a Sliver spell.
+{5}, {T}: Create a 1/1 colorless Sliver creature token. Activate only if you control a Sliver.</text>
+			<set rarity="special" picurl="https://crushcastles23.github.io/sets/WRP-files/img/267.png" num="50">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Apex Sliver</name>
+			<text>Sliver creatures you control get +X/+X where X is their base power.
+Slivers you control have &quot;Discard a Sliver card: Scour a Sliver card. Activate only once each turn and only as a sorcery.&quot; (To scour a Sliver card, reveal cards from the top of your library until you reveal a Sliver card. Then put that card into your hand and the rest on the bottom of your library in a random order.)</text>
+			<set rarity="special" picurl="https://crushcastles23.github.io/sets/WRP-files/img/268.png" num="1">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sliver Queen</name>
+			<text>{2}: Create a 1/1 colorless Sliver creature token.</text>
+			<set rarity="special" picurl="https://crushcastles23.github.io/sets/WRP-files/img/269.png" num="46">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>WUBRG</manacost>
+				<cmc>5</cmc>
+				<colors>WUBRG</colors>
+				<coloridentity>WUBRG</coloridentity>
+				<pt>7/7</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Starscape Sliver</name>
+			<text>{3}, Discard this card: Scour a Sliver card. (To scour a Sliver card, reveal cards from the top of your library until you reveal a Sliver card. Then put that card into your hand and the rest on the bottom of your library in a random order.)
+Sliver cards in your hand have &quot;{3}, Discard this card: Scour a Sliver card.&quot;</text>
+			<set rarity="special" picurl="https://crushcastles23.github.io/sets/WRP-files/img/270.png" num="3">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Prismatic Sliver</name>
+			<text>For each color among Slivers you control, all Slivers you control are that color.
+Other Slivers you control have hexproof from each of their colors.</text>
+			<set rarity="special" picurl="https://crushcastles23.github.io/sets/WRP-files/img/271.png" num="2">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sliver WRP</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/272.png" num="1">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Sliver</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Warp Archetypes WRP</name>
+			<text>{W}{U} ARTIFACTS 
+{U}{B} EVASIVE-VOLTRON 
+{B}{R} DEATH AGGRO 
+{R}{G} SLIVERS 
+{G}{W} ENCHANTMENTS 
+{W}{B} TOKENS 
+{U}{R} PARADOX 
+{B}{G} RAMP 
+{R}{W} SQUAD AGGRO 
+{G}{U} EXOTIC 
+{W}{U}{B}{R}{G} SLIVERS</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/273.png" num="2">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Reminder — Archetypes</type>
+				<maintype>Reminder</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WUBRG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Avatar Rogue WRP</name>
+			<text>Whenever this creature deals combat damage to a player, exile the top card of that player&apos;s library. You may play that card for as long as it remains exiled, and mana of any type can be spent to cast that spell.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/274.png" num="7">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Avatar Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Treasure WRP</name>
+			<text>{T}, Sacrifice this artifact: Add one mana of any color.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/275.png" num="12">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact — Treasure</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Zombie WRP</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/276.png" num="8">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact Creature — Zombie</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Robot WRP</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/277.png" num="11">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact Creature — Robot</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Drone WRP</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/278.png" num="10">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact Creature — Drone</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Soldier WRP</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/279.png" num="4">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Dog WRP</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/280.png" num="9">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact Creature — Dog</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Assassin WRP</name>
+			<text>Deathtouch</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/281.png" num="6">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Assassin</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Rabbit WRP</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/282.png" num="3">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Enchantment Creature — Rabbit</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Contact the Collective Emblem WRP</name>
+			<text>You have no maximum hand size.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/WRP-files/img/283.png" num="5">WRP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Emblem</type>
+				<maintype>Emblem</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+	</cards>
+</cockatrice_carddatabase>

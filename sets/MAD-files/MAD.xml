@@ -1,0 +1,4959 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cockatrice_carddatabase version='4'>
+	<sets>
+		<set>
+			<name>MAD</name>
+			<longname>Mad World</longname>
+			<settype>Custom</settype>
+			<releasedate>2026-06-06</releasedate>
+		</set>
+	</sets>
+	<cards>
+		<card>
+			<name>Bardic Bird</name>
+			<text>Flying
+When Bardic Bird enters the battlefield, creatures you control get +1/+1 until end of turn.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/3_Bardic Bird.png" num="3">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fleetwing Knight</name>
+			<text>Flying
+{2}: Fleetwing Knight gains lifelink until end of turn.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/13_Fleetwing Knight.png" num="13">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Abaja Leaper</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/1_Abaja Leaper.png" num="1">MAD</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Creature — Human Wrestler</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Skilled Backbreaker</name>
+			<text>Vigilance
+(Once per turn, while this creature is attacking, you may activate one of its signature abilities.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/31_Skilled Backbreaker.png" num="31">MAD</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Creature — Human Wrestler</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Pelear Boulder Thrower</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/23_Pelear Boulder Thrower.png" num="23">MAD</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Creature — Human Wrestler</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rapid Fireslinger</name>
+			<text>Spectacle {1}{W} (You may cast this spell for its spectacle cost if an opponent lost life this turn.)
+First strike</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/24_Rapid Fireslinger.png" num="24">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Agile Ribbon Dancer</name>
+			<text>Flash
+Spectacle {2}{W} (You may cast this spell for its spectacle cost if an opponent lost life this turn.)
+Vigilance</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/2_Agile Ribbon Dancer.png" num="2">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Trained Bear</name>
+			<text>Spectacle {W} (You may cast this spell for its spectacle cost if an opponent lost life this turn.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/37_Trained Bear.png" num="37">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bear</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Halfling Bard</name>
+			<text>Flash
+When Halfling Bard enters the battlefield, target creature gets +2/+2 until end of turn.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/17_Halfling Bard.png" num="17">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Halfling Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bolstering Bard</name>
+			<text>When Bolstering Bard enters the battlefield, put a +1/+1 counter on target creature.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/5_Bolstering Bard.png" num="5">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Spark Duelist</name>
+			<text>First strike
+Whenever Spark Duelist blocks, attacking player loses 1 life and you gain 1 life.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/32_Spark Duelist.png" num="32">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>High Striker</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/18_High Striker.png" num="18">MAD</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Creature — Human Wrestler</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dazzling Display</name>
+			<text>Spectacle {W} (You may cast this spell for its spectacle cost if an opponent lost life this turn.)
+Exile target creature you control, then return it to the battlefield under its owner&apos;s control.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/10_Dazzling Display.png" num="10">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Tag Team Trio</name>
+			<text>Create three 1/1 white and black Wrestler creature tokens. Distribute a +1/+1 counter, a vigilance counter, and a first strike counter among them.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/34_Tag Team Trio.png" num="34">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4W</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Tears of a Clown</name>
+			<text>Spectacle {W} (You may cast this spell for its spectacle cost if an opponent lost life this turn.)
+Destroy target artifact or enchantment.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/36_Tears of a Clown.png" num="36">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Coach&apos;s Pep Talk</name>
+			<text>Target creature gets +3/+0 and gains first strike until end of turn.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/7_Coach&apos;s Pep Talk.png" num="7">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Bardic Reinforcements</name>
+			<text>Create two 1/1 white Bard creature tokens with lifelink.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/4_Bardic Reinforcements.png" num="4">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ribbon Dance</name>
+			<text>Spectacle {W} (You may cast this spell for its spectacle cost if an opponent lost life this turn.)
+Ribbon Dance deals 5 damage to target attacking or blocking creature.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/26_Ribbon Dance.png" num="26">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Show of Strength</name>
+			<text>Spectacle {2}{W} (You may cast this spell for its spectacle cost if an opponent lost life this turn.)
+Enchant creature
+When Show of Strength enters the battlefield, untap enchanted creature.
+Enchanted creature gets +2/+2 and has lifelink.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/30_Show of Strength.png" num="30">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Big Top Buzzard</name>
+			<text>Flying
+Big Top Buzzard enters the battlefield with your choice of a ward {2} counter or a +1/+1 counter on it.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/38_Big Top Buzzard.png" num="38">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Mutant</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Escaped Chimera</name>
+			<text>Flying
+When Escaped Chimera enters the battlefield, put a flying counter on target creature you control.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/52_Escaped Chimera.png" num="52">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Chimera Mutant</type>
+				<maintype>Creature</maintype>
+				<manacost>4UU</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Surestrike Merfolk</name>
+			<text>Surestrike Merfolk can&apos;t be blocked.
+As Surestrike Merfolk enters the battlefield, choose +1/+1 or prowess. Put a counter of that type on it.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/72_Surestrike Merfolk.png" num="72">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Merfolk Mutant Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Card Shark</name>
+			<text>Whenever Card Shark deals combat damage to a player, draw a card.
+{2}: Flip a coin. Activate only once each turn.
+[b]Heads |[/b] Card Shark can&apos;t be blocked this turn.
+[b]Tails | [/b]Card Shark gets +1/+1 until end of turn.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/42_Card Shark.png" num="42">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Shark Gambler</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Card Reader</name>
+			<text>{U}, {T}: Roll a d6.
+[b]1-2 |[/b] Scry 1.
+[b]3-4 |[/b] Scry 2.
+[b]5+ |[/b] Scry 2, then draw a card.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/41_Card Reader.png" num="41">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Gambler</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Calculated Diviner</name>
+			<text>Whenever you play a game of chance or cast a noncreature spell, scry 1. (You play a game of chance whenever you flip any number of coins, roll any number of dice, or choose something at random.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/40_Calculated Diviner.png" num="40">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>House Griffin Fledgling</name>
+			<text>When House Griffin Fledgling enters the battlefield, choose one—
+• Put a +1/+1 counter and a flying counter on House Griffin Fledgling.
+• Draw a card.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/56_House Griffin Fledgling.png" num="56">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Griffin</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dark Sea Guide</name>
+			<text>Dark Sea Guide enters the battlefield with a prowess counter on it.
+Remove a counter from a creature you control: That creature can&apos;t be blocked this turn. Activate only as a sorcery and only once each turn.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/46_Dark Sea Guide.png" num="46">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Merfolk Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Eloquent Performance</name>
+			<text>Counter target noncreature spell.
+Put a prowess counter and a +1/+1 counter on up to one target creature you control.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/49_Eloquent Performance.png" num="49">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Essence of Intellect</name>
+			<text>Choose one or both —
+• Put a +1/+1 counter and a prowess counter on target creature.
+• Draw two cards, then discard a card.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/53_Essence of Intellect.png" num="53">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Siren&apos;s Song</name>
+			<text>Counter target creature spell.
+Draw a card.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/71_Siren&apos;s Song.png" num="71">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Lucky Time</name>
+			<text>Return target creature to its owner&apos;s hand.
+Flip a coin.
+[b]Heads |[/b] Draw a card.
+[b]Tails[/b] | Draw a card, then discard a card.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/61_Lucky Time.png" num="61">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Practical Arcana</name>
+			<text>This spell costs {1} less to cast for each type of counter on creatures you control.
+Tap target creature. That creature doesn&apos;t untap during its controller&apos;s next untap step.
+Draw a card.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/65_Practical Arcana.png" num="65">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Is This Your Card</name>
+			<text>Name a card. When you do, reveal the top card of your library, then draw a card. If the named card was revealed, draw two cards instead.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/58_Is This Your Card.png" num="58">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Intangible Form</name>
+			<text>Choose one—
+• Target creature phases out. (Treat it and anything attached to it as though they don&apos;t exist until its controller&apos;s next turn.)
+• Target creature can&apos;t be blocked this turn.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/57_Intangible Form.png" num="57">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Reckless Science</name>
+			<text>Choose target creature. When you do, choose two different modes at random. Put a counter of each type chosen this way on that creature —
+• Flying
+• Prowess
+• Ward {2}
+• +1/+1</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/66_Reckless Science.png" num="66">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Dazzle</name>
+			<text>Counter target spell unless its controller pays two mana of any one color. If you spent more than two mana to cast this spell, counter that spell instead.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/47_Dazzle.png" num="47">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>UU</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Lucky Draw</name>
+			<text>Roll a d6.
+[b]1-5 [/b]| Draw two cards.
+[b]6+ [/b]| Draw three cards.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/60_Lucky Draw.png" num="60">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Extreme Vertigo</name>
+			<text>Enchant creature
+When Extreme Vertigo enters the battlefield, if enchanted creature doesn&apos;t have flying, tap it.
+Enchanted creature doesn&apos;t untap during its controller&apos;s untap step.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/54_Extreme Vertigo.png" num="54">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>UU</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Grotesque Vampire</name>
+			<text>Ransom another nontoken creature you control: Grotesque Vampire gains flying and lifelink until end of turn. Activate only as a sorcery. (To ransom a card, exile it. Its owner may pay {3} at any time to return it to their hand.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/91_Grotesque Vampire.png" num="91">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire Mutant</type>
+				<maintype>Creature</maintype>
+				<manacost>4B</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Absurd Balloonist</name>
+			<text>Flying</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/76_Absurd Balloonist.png" num="76">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Clown</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Savage Grappler</name>
+			<text>Negative cost to cast creature</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/101_Savage Grappler.png" num="101">MAD</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Creature — Human Wrestler</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Steel Wielder Heel</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/105_Steel Wielder Heel.png" num="105">MAD</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Creature — Human Wrestler</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Speed Striker</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/104_Speed Striker.png" num="104">MAD</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Creature — Human Wrestler Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Smiler</name>
+			<text>Deathtouch</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/103_Smiler.png" num="103">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Thrull Clown</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Zombie Clown</name>
+			<text>Menace</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/111_Zombie Clown.png" num="111">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Clown</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Court Broker</name>
+			<text>Whenever you ransom a card, create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/84_Court Broker.png" num="84">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dwarf Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Compelling Invitation</name>
+			<text>Return target creature from an opponent&apos;s graveyard to the battlefield under your control. It gains haste until end of turn. Exile it at the beginning of your next upkeep.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/83_Compelling Invitation.png" num="83">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Rotting Thrull</name>
+			<text>Whenever a card leaves exile, put a +1/+1 counter on Rotting Thrull.
+Sacrifice Rotting Thrull: Ransom target creature with lesser power. (To ransom a card, exile it. Its owner may pay {3} at any time to return it to their hand.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/100_Rotting Thrull.png" num="100">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Thrull</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Blood Magic Ritual</name>
+			<text>Mill three cards. Target creature gets -X/-X until end of turn, where X is the number of cards in your graveyard. (To mill three cards, put the top three cards of your library into your graveyard.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/79_Blood Magic Ritual.png" num="79">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Bloody Hit</name>
+			<text>As an additional cost to cast this spell, ransom a nontoken creature you control. (To ransom a card, exile it. Its owner may pay {3} at any time to return it to their hand.)
+Destroy target creature.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/80_Bloody Hit.png" num="80">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Cranium Strike</name>
+			<text>Target opponent reveals their hand. You may exile a nonland card from it. If you don&apos;t, that player loses 2 life.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/85_Cranium Strike.png" num="85">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Long-Neck Brawler</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/96_Long-Neck Brawler.png" num="96">MAD</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Creature — Thrull Wrestler</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Alarm</name>
+			<text>Target opponent discards two cards. If fewer than two cards were discarded this way, you draw cards equal to the difference.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/77_Alarm.png" num="77">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Cut a Promo</name>
+			<text>Choose one or both—
+• Target creature gets +1/+1 until end of turn.
+• Target creature gets -1/-1 until end of turn.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/86_Cut a Promo.png" num="86">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Otherworldly Advice</name>
+			<text>Enchant creature
+Enchanted creature gets +2/+0.
+When enchanted creature dies, ransom it. (To ransom a card, exile it. Its owner may pay {3} at any time to return it to their hand.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/98_Otherworldly Advice.png" num="98">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Street Justice</name>
+			<text>Destroy target creature. Its controller creates a 0/1 black and green Thrull creature token.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/107_Street Justice.png" num="107">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Thrullify</name>
+			<text>Enchant creature
+Enchanted creature loses all abilities, gets -2/-2, and is a Thrull in addition to its other types.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/109_Thrullify.png" num="109">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Prize Plunderer</name>
+			<text>Menace
+Whenever you play a game of chance, create a Treasure token. (You play a game of chance whenever you flip any number of coins, roll any number of dice, or choose something at random. Treasure tokens are artifacts with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/138_Prize Plunderer.png" num="138">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Gambler</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Scorchwalkers</name>
+			<text>Spectacle {R} (You may cast this spell for its spectacle cost if an opponent lost life this turn.)
+Haste</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/142_Scorchwalkers.png" num="142">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Club Spade Guards</name>
+			<text>Whenever you play a game of chance, target creature can&apos;t block this turn. (You play a game of chance whenever you flip any number of coins, roll any number of dice, or choose something at random.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/117_Club Spade Guards.png" num="117">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Possibility Drone</name>
+			<text>Possibility Drone attacks each combat if able.
+Whenever Possibility Drone attacks, roll a d6.
+[b]1-5 |[/b] Possibility Drone gets +2/+0 until end of turn.
+[b]6+ |[/b] Possibility Drone gets +3/+0 and gains first strike until end of turn.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/136_Possibility Drone.png" num="136">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Drone</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Devilish Bard</name>
+			<text>Spectacle {1}{R} (You may cast this spell for its spectacle cost if an opponent lost life this turn.)
+Flying
+{1}{R}: Devilish Bard gets +1/+0 until end of turn.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/118_Devilish Bard.png" num="118">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Devil Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>High Roller</name>
+			<text>When High Roller enters the battlefield, roll a d6.
+[b]1-3 [/b]| Create a Treasure token.
+[b]4-5 | [/b]Create two Treasure tokens.
+[b]6+ [/b]| Create three Treasure tokens. (They&apos;re artifacts with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/126_High Roller.png" num="126">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Gambler</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ash-Tail Hawk</name>
+			<text>Spectacle {3}{R} (You may cast this spell for its spectacle cost if an opponent lost life this turn.)
+Flying
+When Ash-Tail Hawk enters the battlefield, you may pay {X}. When you do, Ash-Tail Hawk deals X damage to target creature or planeswalker.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/113_Ash-Tail Hawk.png" num="113">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird</type>
+				<maintype>Creature</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Spark Kicker</name>
+			<text>Spectacle {1}{R} (You may cast this spell for its spectacle cost if an opponent lost life this turn.)
+Whenever Spark Kicker attacks, target creature an opponent controls can&apos;t block this turn.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/143_Spark Kicker.png" num="143">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Bard Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tavern Bard</name>
+			<text>Spectacle {1}{R}{R} (You may cast this spell for its spectacle cost if an opponent lost life this turn.)
+When Tavern Bard enters the battlefield, it deals 1 damage to each opponent. Put that many +1/+1 counters on Tavern Bard.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/144_Tavern Bard.png" num="144">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Unlikely Pair</name>
+			<text>Choose two target creatures. Each of those creatures gets +X/+0 until end of turn, where X is equal to the other creature&apos;s power.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/148_Unlikely Pair.png" num="148">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Card Trick</name>
+			<text>As an additional cost to cast this spell, discard a card.
+Flip a coin.
+[b]Heads |[/b] Scry 1, then draw two cards.
+[b]Tails |[/b] Draw two cards.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/114_Card Trick.png" num="114">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Improvised Combat</name>
+			<text>Put a +1/+1 counter on target creature you control. It fights target creature you don&apos;t control.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/128_Improvised Combat.png" num="128">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Toss a Coin</name>
+			<text>Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. Then flip a coin.
+[b]Heads |[/b] Create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)
+[b]Tails |[/b] That creature&apos;s owner creates a Treasure token.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/147_Toss a Coin.png" num="147">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ringmaster&apos;s Show</name>
+			<text>Spectacle {1}{R} (You may cast this spell for its spectacle cost if an opponent lost life this turn.)
+Exile the top three cards of your library. Until the end of your next turn, you may play cards exiled this way.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/140_Ringmaster&apos;s Show.png" num="140">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Tavern Games</name>
+			<text>Whenever you play a game of chance, you may discard a card. If you do, draw a card. (You play a game of chance whenever you flip any number of coins, roll any number of dice, or choose something at random.)
+{5}: Flip a coin.
+[b]Heads |[/b] Target creature you control deals damage equal to its power to target creature.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/145_Tavern Games.png" num="145">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Fire Fists</name>
+			<text>Enchant creature
+When Fire Fists enters the battlefield, add {R}{R}{R}.
+{R}: Enchanted creature gets +1/+0 until end of turn.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/122_Fire Fists.png" num="122">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Irresponsible Ignition</name>
+			<text>Spectacle {R} (You may cast this spell for its spectacle cost if an opponent lost life this turn.)
+Irresponsible Ignition deals 4 damage to target creature or planewalker.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/129_Irresponsible Ignition.png" num="129">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Envelop In Fire</name>
+			<text>Spectacle {R} (You may cast this spell for its spectacle cost if an opponent lost life this turn.)
+Envelop In Fire deals 2 damage to target creature. If you control that creature, put two +1/+1 counters on it. (It must survive the damage to get the counters.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/121_Envelop In Fire.png" num="121">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Raging Temper</name>
+			<text>Enchant creature
+Whenever enchanted creature attacks, flip a coin.
+[b]Heads |[/b] Enchanted creature gets +2/+0 until end of turn.
+[b]Tails |[/b] Enchanted creature gains first strike until end of turn.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/139_Raging Temper.png" num="139">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Novice Biomancer</name>
+			<text>{T}: Add {G}. When this mana is spent to cast a creature spell, that creature enters the battlefield with an additional +1/+1 counter on it.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/174_Novice Biomancer.png" num="174">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mantis Warrior</name>
+			<text>When Mantis Warrior enters the battlefield, choose trample or vigilance. Put a counter of that type on it.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/171_Mantis Warrior.png" num="171">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Insect Mutant Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Long Man</name>
+			<text>Reach</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/170_Long Man.png" num="170">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Thrull</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Thrull Hammerslinger</name>
+			<text>Trample
+When Thrull Hammerslinger dies, you may pay {3}. When you do, ransom it. (To ransom a card, exile it. Its owner may pay {3} at any time to return it to their hand.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/185_Thrull Hammerslinger.png" num="185">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Thrull</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tavern Fool</name>
+			<text>When Tavern Fool enters the battlefield, draw a card.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/184_Tavern Fool.png" num="184">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gem Specialist</name>
+			<text>Vigilance
+{T}, Ransom a nonland permanent you own: Create a Treasure token. Activate only during your turn. (To ransom a card, exile it. Its owner may pay {3} at any time to return it to their hand.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/163_Gem Specialist.png" num="163">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Chimeric Warrior</name>
+			<text>When Chimeric Warrior enters the battlefield, choose deathtouch or trample. Put a counter of that type on it.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/155_Chimeric Warrior.png" num="155">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Chimera Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Heavy Underboss</name>
+			<text>Trample
+When Heavy Underboss enters the battlefield, ransom a card from your graveyard. (To ransom a card, exile it. Its owner may pay {3} at any time to return it to their hand.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/165_Heavy Underboss.png" num="165">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Chimera Yearling</name>
+			<text>When Chimera Yearling enters the battlefield, choose reach or vigilance. Put a counter of that type on it.
+Remove a counter from Chimera Yearling: It gets +2/+2 until end of turn. Activate only as a sorcery and only once each turn.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/154_Chimera Yearling.png" num="154">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Chimera</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dragon Wyrmling</name>
+			<text>When Dragon Wyrmling enters the battlefield, choose reach or trample. Put a counter of that type on it.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/159_Dragon Wyrmling.png" num="159">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon Mutant</type>
+				<maintype>Creature</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Royal Jester</name>
+			<text>Whenever Royal Jester deals combat damage to a player, create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/178_Royal Jester.png" num="178">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Thrull Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Charged Archery</name>
+			<text>Untap target creature. Put a reach counter on it.
+Draw a card.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/153_Charged Archery.png" num="153">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Crime Pays</name>
+			<text>As an additional cost to cast this spell, you may ransom a card from your hand. (To ransom a card, exile it. Its owner may pay {3} at any time to return it to their hand.)
+Target creature gets +3/+3 until end of turn. Draw a card if you ransomed a card as you cast this spell.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/158_Crime Pays.png" num="158">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Superhuman Strike</name>
+			<text>Superhuman Strike costs {1} less to cast for each type of counter on creatures you control that it targets.
+Target creature you control gets +2/+2 until end of turn. It fights target creature you don&apos;t control.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/183_Superhuman Strike.png" num="183">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Overzealous Celebration</name>
+			<text>You gain 2 life for each creature you control.
+Tap any number of creatures you control. Put your choice of a trample counter or a +1/+1 counter on each creature tapped this way.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/175_Overzealous Celebration.png" num="175">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Calming Respite</name>
+			<text>Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. You gain life equal to the number of basic lands you control.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/151_Calming Respite.png" num="151">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Aura Quell</name>
+			<text>Destroy target enchantment.
+Draw a card.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/150_Aura Quell.png" num="150">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Lock Horns</name>
+			<text>This spell costs {2} less to cast if it targets a Wrestler or a Goat you control.
+Target creature you control fights target creature you don&apos;t control.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/169_Lock Horns.png" num="169">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Flourishing Growth</name>
+			<text>Enchant nonenchantment permanent
+When Flourishing Growth enters the battlefield, if it&apos;s enchanting a creature, put a vigilance counter on that creature.
+Enchanted permanent has &quot;{T}: Add {G}{G}.&quot;</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/162_Flourishing Growth.png" num="162">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Advanced Biotanks</name>
+			<text>{2}, {T}: Choose a creature you control at random. Put a +1/+1 counter on it. Activate only as a sorcery.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/235_Advanced Biotanks.png" num="235">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Jack in the Box</name>
+			<text>Jack in the Box enters the battlefield tapped.
+{T}: Roll a d6.
+[b]1-2 [/b]| Add {C}.
+[b]3-4 [/b]| Add one mana of any color.
+[b]5 [/b]| Create a Treasure token.
+[b]6+ [/b]| Create a Treasure token. You may sacrifice Jack in the Box. When you do, draw a card.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/242_Jack in the Box.png" num="242">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Colossal Puppets</name>
+			<text>Trample
+Colossal Puppets doesn&apos;t untap during your untap step.
+{4}: Untap Colossal Puppets.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/239_Colossal Puppets.png" num="239">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+				<pt>7/7</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Blind Bet</name>
+			<text>{T}, Sacrifice Blind Bet: Add one mana of any color.
+{1}, {T}, Sacrifice Blind Bet: Draw a card.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/236_Blind Bet.png" num="236">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Treasure</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Burning Hammer</name>
+			<text>Equipped creature gets +3/+0 and has trample.
+If a creature dealt damage by equipped creature this turn would die, exile it instead.
+Equip {3}</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/237_Burning Hammer.png" num="237">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Fun House</name>
+			<text>As Fun House enters the battlefield, you may pay {1}. If you do, choose one. Otherwise, choose one at random. —
+• Fun House becomes a Plains.
+• Fun House becomes an Island.
+• Fun House becomes a Swamp.
+• Fun House becomes a Mountain.
+• Fun House becomes a Forest.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/252_Fun House.png" num="252">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Ring of Honor</name>
+			<text>Ring of Honor enters the battlefield tapped.
+When Ring of Honor enters the battlefield, you may pay {3}. When you do, draw a card.
+{T}: Add {W} or {B}.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/261_Ring of Honor.png" num="261">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Gambler&apos;s Den</name>
+			<text>Gambler&apos;s Den enters the battlefield tapped.
+When Gambler&apos;s Den enters the battlefield, you may pay {3}. When you do, draw a card.
+{T}: Add {U} or {R}.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/253_Gambler&apos;s Den.png" num="253">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Illicit Club</name>
+			<text>Illicit Club enters the battlefield tapped.
+When Illicit Club enters the battlefield, you may pay {3}. When you do, draw a card.
+{T}: Add {B} or {G}.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/258_Illicit Club.png" num="258">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Bustling Village</name>
+			<text>Bustling Village enters the battlefield tapped.
+When Bustling Village enters the battlefield, you may pay {3}. When you do, draw a card.
+{T}: Add {R} or {W}.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/247_Bustling Village.png" num="247">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Exotic Aquarium</name>
+			<text>Exotic Aquarium enters the battlefield tapped.
+When Exotic Aquarium enters the battlefield, you may pay {3}. When you do, draw a card.
+{T}: Add {G} or {U}.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/250_Exotic Aquarium.png" num="250">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Size Doesn&apos;t Matter</name>
+			<text>Target creature gets +X/+X until end of turn, where X is the greatest power among creatures. Whenever that creature activates an ability for the first time this turn, if it isn&apos;t a mana ability, copy that ability. You may choose new targets for the copy.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/215_Size Doesn&apos;t Matter.png" num="215">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>WB</manacost>
+				<cmc>2</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Chimera Hatchling</name>
+			<text>Whenever you cast an instant or sorcery spell, choose one of the following attributes at random that hasn&apos;t been chosen yet. Chimera Hatchling has the chosen attribute —
+• Fast — Chimera Hatchling has first strike.
+• Strong — Chimera Hatchling gets +3/+0.
+• Elusive — Chimera Hatchling has hexproof.
+• Winged — Chimera Hatchling has flying.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/193_Chimera Hatchling.png" num="193">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Chimera</type>
+				<maintype>Creature</maintype>
+				<manacost>2UR</manacost>
+				<cmc>4</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hit Squad</name>
+			<text>Deathtouch
+When Hit Squad enters the battlefield, ransom the top card of your library. (To ransom a card, exile it. Its owner may pay {3} at any time to return it to their hand.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/205_Hit Squad.png" num="205">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Assassin</type>
+				<maintype>Creature</maintype>
+				<manacost>2BG</manacost>
+				<cmc>4</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Remarkable Performance</name>
+			<text>Spectacle {R}{W} (You may cast this spell for its spectacle cost if an opponent lost life this turn.)
+Remarkable Performance deals 3 damage to any target.
+As long as Remarkable Performance was cast for its spectacle cost, it has lifelink.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/212_Remarkable Performance.png" num="212">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1RW</manacost>
+				<cmc>3</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Empowered Growth</name>
+			<text>Choose three from among +1/+1, flying, prowess, trample, and ward {2}, then put a counter of each type chosen on target creature you control. (You only target one creature this way.)</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/199_Empowered Growth.png" num="199">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>GU</manacost>
+				<cmc>2</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Grand Carnival</name>
+			<text>{T}: Add {C}.
+{T}: Add one mana of any color. Grand Carnival doesn&apos;t untap during your next untap step.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/255_Grand Carnival.png" num="255">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Roundhouse Striker</name>
+			<text></text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/27_Roundhouse Striker.png" num="27">MAD</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Creature — Human Wrestler</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shifting Striker</name>
+			<text></text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/29_Shifting Striker.png" num="29">MAD</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Creature — Human Wrestler</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Malicious Mime</name>
+			<text>Spectacle {1}{W} (You may cast this spell for its spectacle cost if an opponent lost life this turn.)
+Whenever Malicious Mime becomes blocked, it deals 1 damage to defending player.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/21_Malicious Mime.png" num="21">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Generous Gift</name>
+			<text>Destroy target permanent. Its controller creates a 3/3 green Elephant creature token.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/16_Generous Gift.png" num="16">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Cock Shot</name>
+			<text>Target creature gets +1/+0 and gains first strike until end of turn. If that creature has a signature ability, you may activate one of its signature abilities an additional time this turn.
+Draw a card.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/8_Cock Shot.png" num="8">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Tag Team Advantage</name>
+			<text>Create two 1/1 white and black Wrestler creature tokens.
+Creatures you control gain indestructible until end of turn. Untap them.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/33_Tag Team Advantage.png" num="33">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Enthralling Distraction</name>
+			<text>Tap all creatures.
+Draw a card.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/12_Enthralling Distraction.png" num="12">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Funerary Rites</name>
+			<text>Exile target card from an opponent&apos;s graveyard. That player loses 1 life, then they may pay {2}. When they do, that player may copy this spell and may choose a new target for that copy.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/15_Funerary Rites.png" num="15">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Faltz, Grand Illusionist</name>
+			<text>{2}{U}: Flip a coin.
+[b]Heads |[/b] Create a 3/3 blue Illusion Wizard creature token named Faltz&apos;s Duplicate.
+[b]Tails |[/b] Draw a card.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/55_Faltz, Grand Illusionist.png" num="55">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Boxtopus</name>
+			<text>Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+When Boxtopus enters the battlefield, put a prowess counter on each other creature you control. (If a creature has multiple instances of prowess, each triggers separately.)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/39_Boxtopus.png" num="39">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Mutant Octopus Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>6UU</manacost>
+				<cmc>8</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>8/8</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>L&apos;eau, Water Spirit</name>
+			<text>Whenever L&apos;eau, Water Spirit attacks, choose +1/+1, flying, or ward {2} and put a counter of that type on it.
+Whenever L&apos;eau, Water Spirit deals combat damage to a player, scry 2.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/59_L&apos;eau, Water Spirit.png" num="59">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Chimera Colossus</name>
+			<text>Whenever a Chimera or Mutant creature enters the battlefield under your control, choose one from among +1/+1, flying, prowess, or ward {2} and put a counter of that type on that creature.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/43_Chimera Colossus.png" num="43">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Chimera Mutant</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sandstone Lizard</name>
+			<text>Flash
+When Sandstone Lizard enters the battlefield choose prowess or ward {2} and put a counter of that type on it.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/68_Sandstone Lizard.png" num="68">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Lizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Enticing Distraction</name>
+			<text>Choose target spell, then flip a coin.
+[b]Heads |[/b] Counter that spell.
+[b]Tails |[/b] Counter that spell unless its controller pays {2}.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/51_Enticing Distraction.png" num="51">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>UU</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Tavern Gunslinger</name>
+			<text>When Tavern Gunslinger enters the battlefield, search your library for a Gambler card, reveal it, and put it into your hand. Then choose a card at random from your hand and shuffle that card into your library.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/73_Tavern Gunslinger.png" num="73">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue Gambler</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mesmerizing Display</name>
+			<text>Choose target creature an opponent controls, then flip a coin.
+[b]Heads |[/b] Its owner puts it on the top of their library.
+[b]Tails |[/b] Its owner puts it on the bottom of their library.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/63_Mesmerizing Display.png" num="63">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Diabolical Spinner</name>
+			<text></text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/87_Diabolical Spinner.png" num="87">MAD</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Creature — Human Wrestler</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Steelfist Heel</name>
+			<text>Pay Life for effect</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/106_Steelfist Heel.png" num="106">MAD</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Creature — Human Wrestler</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Open Palm Master</name>
+			<text></text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/97_Open Palm Master.png" num="97">MAD</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Creature — Human Wrestler</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Frogkin Kidnapper</name>
+			<text>When Frogkin Kidnapper enters the battlefield, target opponent reveals their hand. Choose a nonland card from it. Ransom that card. (To ransom a card, exile it. Its owner may pay {3} at any time to return it to their hand.)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/89_Frogkin Kidnapper.png" num="89">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Frog Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Eto, the Deranged</name>
+			<text>Menace
+Pay 3 life: Ransom target creature with power 1 or less. (To ransom a card, exile it. Its owner may pay {3} at any time to return it to their hand.)
+Sacrifice a creature: Target creature gets -X/-0 until end of turn, where X is equal to the power of the sacrificed creature.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/88_Eto, the Deranged.png" num="88">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tait, Hidden in Plain Sight</name>
+			<text>Ransom an unblocked attacker you control: Put Tait, Hidden in Plain Sight from your hand onto the battlefield tapped and attacking. (To ransom a card, exile it. Its owner may pay {3} at any time to return it to their hand.)
+Whenever Tait, Hidden in Plain Sight deals combat damage to a player, ransom a creature that player controls.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/108_Tait, Hidden in Plain Sight.png" num="108">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Pumpkin Carver</name>
+			<text>{2}: Create a 0/1 green Plant creature token. Activate only as a sorcery.
+{2}, Sacrifice a creature: Create a Lantern token. Activate only once each turn. (It&apos;s an artifact with &quot;{T}: Add {C}.&quot;)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/99_Pumpkin Carver.png" num="99">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Abduct</name>
+			<text>Ransom target creature. (To ransom a card, exile it. Its owner may pay {3} at any time to return it to their hand.)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/75_Abduct.png" num="75">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Dice Head</name>
+			<text>Whenever you play a game of chance, put a +1/+1 counter on Dice Head. (You play a game of chance whenever you flip any number of coins, roll any number of dice, or choose something at random.)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/120_Dice Head.png" num="120">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ogon, the Mad Inferno</name>
+			<text>Spectacle—{R}, Pay 2 life (You may cast this spell for its spectacle cost if an opponent lost life this turn.)
+Spells you cast for their spectacle cost have flash.
+{3}, {T}, Sacrifice another creature: Ogon, the Mad Inferno deals 1 damage to each opponent.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/134_Ogon, the Mad Inferno.png" num="134">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Devil</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Thrill Ride</name>
+			<text>Spectacle {R} (You may cast this spell for its spectacle cost if an opponent lost life this turn.)
+Target creature gets +2/+2 and gains prowess until end of turn.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/146_Thrill Ride.png" num="146">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Flamespitter</name>
+			<text>Spectacle {1}{R} (You may cast this spell for its spectacle cost if an opponent lost life this turn.)
+{T}: Flamespitter deals 1 damage to any target.
+Whenever you cast a spell for its spectacle cost, untap Flamespitter.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/123_Flamespitter.png" num="123">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>0/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Istan, Uncanny Illusionist</name>
+			<text>{2}: Flip a coin.
+[b]Heads |[/b] Istan, Uncanny Illusionist becomes a 5/5 Giant Warrior creature until end of turn.
+[b]Tails |[/b] Istan, Uncanny Illusionist becomes a 2/2 Human Warrior creature with first strike until end of turn.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/130_Istan, Uncanny Illusionist.png" num="130">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Illusion Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dice Devil</name>
+			<text>Whenever Dice Devil attacks, roll a d6.
+[b]1-5 |[/b] You may sacrifice another creature. When you do, gain control of target creature until the end of your next turn. Tap it. It&apos;s attacking its owner.
+[b]6+ |[/b] Gain control of target creature until the end of your next turn. Untap that creature.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/119_Dice Devil.png" num="119">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Devil Gambler</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Center Stage</name>
+			<text>Spectacle {X}{R} (You may cast this spell for its spectacle cost if an opponent lost life this turn.)
+Creatures you control get +2/+0 until end of turn. If Center Stage&apos;s spectacle cost was paid, creatures you control get +X/+0 until end of turn instead.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/115_Center Stage.png" num="115">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Neon Fire Dancer</name>
+			<text>Spectacle {1}{R} (You may cast this spell for its spectacle cost if an opponent lost life this turn.)
+Prowess
+Neon Fire Dancer enters the battlefield with a +1/+1 counter on it for each instant or sorcery spell cast before it this turn.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/133_Neon Fire Dancer.png" num="133">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Polar Gladiator</name>
+			<text>As Polar Gladiator enters the battlefield, choose +1/+1 or trample. Put a counter of that type on it.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/176_Polar Gladiator.png" num="176">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bear Mutant Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>GG</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Starik, Last of the Old Ways</name>
+			<text>Trample
+Creatures you control with two or more instances of trample have &quot;You may have this creature assign its combat damage as though it weren&apos;t blocked.&quot;
+{3}{G}: Put a trample counter on target creature.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/182_Starik, Last of the Old Ways.png" num="182">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>5/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Harlequin Thrull</name>
+			<text>When Harlequin Thrull enters the battlefield, choose trample, vigilance, or ward {2}. Put a counter of that type on it.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/164_Harlequin Thrull.png" num="164">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Thrull</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Endless Explorer</name>
+			<text>When Endless Explorer enters the battlefield, search your library for a basic land card, reveal it, and put it into your hand. Then shuffle.
+When Endless Explorer dies, you may put a basic land card from your hand onto the battlefield.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/160_Endless Explorer.png" num="160">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Thrull Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Var-Var the Insurmountable</name>
+			<text>Trample
+{2}, Ransom a creature you control: Var-Var the Insurmountable gets +X/+0 until end of turn, where X is that creature&apos;s power. Activate only once each turn. (To ransom a card, exile it. Its owner may pay {3} at any time to return it to their hand.)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/186_Var-Var the Insurmountable.png" num="186">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Thrull Berserker</type>
+				<maintype>Creature</maintype>
+				<manacost>4G</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Come One, Come All</name>
+			<text>Look at the top seven cards of your library. You may reveal any number of creature cards from among them and put the revealed cards into your hand. Put the rest on the bottom of your library in any order.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/156_Come One, Come All.png" num="156">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Mismatched Fight</name>
+			<text>This spell costs {1} less to cast for each different type of counter on creatures you control.
+Put each of a menace, trample, vigilance, and +1/+1 counter on target creature you control. It fights target creature you don&apos;t control.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/172_Mismatched Fight.png" num="172">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4GG</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Carry Out</name>
+			<text>Ransom target card from your graveyard. (To ransom a card, exile it. Its owner may pay {3} at any time to return it to their hand.)
+Draw a card.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/152_Carry Out.png" num="152">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Chicken Game</name>
+			<text>When Chicken Game enters the battlefield, draw a card.
+{T}: Flip a coin.
+[b]Heads |[/b] Create a treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)
+[b]Tails | [/b]You lose 2 life. Untap Chicken Game.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/238_Chicken Game.png" num="238">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Backroom Office</name>
+			<text>{T}: Add {C}.
+{T}, Sacrifice Backroom Office: You may play a ransomed card you own from exile. (You still pay its costs.)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/244_Backroom Office.png" num="244">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Deathmatch Arena</name>
+			<text>{T}: Add {C}.
+{T}: Add two mana of any one color. Spend this mana only to cast Wrestler spells or to activate the abilities of Wrestlers.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/249_Deathmatch Arena.png" num="249">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Title Belt</name>
+			<text>Equipped creature gets +2/+2 and is legendary. Whenever you activate an ability of that creature for the first time each turn, copy that ability. You may choose new targets for that copy.
+Equip {5}
+Equip Wrestler {2}</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/243_Title Belt.png" num="243">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Mana Rift</name>
+			<text>{T}: Add {C}. Put a charge counter on Mana Rift.
+{T}, Remove a charge counter from Mana Rift: Add one mana of any color.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/259_Mana Rift.png" num="259">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Winding River</name>
+			<text>({T}: Add {W} or {U}.)
+As Winding River enters the battlefield, you may return a land you control to its owner&apos;s hand. If you don&apos;t, Winding River enters the battlefield tapped.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/264_Winding River.png" num="264">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Plains Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Gloomy Creekbed</name>
+			<text>({T}: Add {U} or {B}.)
+As Gloomy Creekbed enters the battlefield, you may return a land you control to its owner&apos;s hand. If you don&apos;t, Gloomy Creekbed enters the battlefield tapped.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/254_Gloomy Creekbed.png" num="254">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Island Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Sacrificial Chamber</name>
+			<text>({T}: Add {B} or {R}.)
+As Sacrificial Chamber enters the battlefield, you may return a land you control to its owner&apos;s hand. If you don&apos;t, Sacrificial Chamber enters the battlefield tapped.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/262_Sacrificial Chamber.png" num="262">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Swamp Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Forest Valley</name>
+			<text>({T}: Add {R} or {G}.)
+As Forest Valley enters the battlefield, you may return a land you control to its owner&apos;s hand. If you don&apos;t, Forest Valley enters the battlefield tapped.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/251_Forest Valley.png" num="251">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Mountain Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Overgrown Meadow</name>
+			<text>({T}: Add {G} or {W}.)
+As Overgrown Meadow enters the battlefield, you may return a land you control to its owner&apos;s hand. If you don&apos;t, Overgrown Meadow enters the battlefield tapped.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/260_Overgrown Meadow.png" num="260">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Forest Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Hallowed Chapel</name>
+			<text>({T}: Add {W} or {B}.)
+As Hallowed Chapel enters the battlefield, you may return a land you control to its owner&apos;s hand. If you don&apos;t, Hallowed Chapel enters the battlefield tapped.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/256_Hallowed Chapel.png" num="256">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Plains Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Cliffside River</name>
+			<text>({T}: Add {U} or {R}.)
+As Cliffside River enters the battlefield, you may return a land you control to its owner&apos;s hand. If you don&apos;t, Cliffside River enters the battlefield tapped.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/248_Cliffside River.png" num="248">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Island Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Blighted Cavern</name>
+			<text>({T}: Add {B} or {G}.)
+As Blighted Cavern enters the battlefield, you may return a land you control to its owner&apos;s hand. If you don&apos;t, Blighted Cavern enters the battlefield tapped.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/246_Blighted Cavern.png" num="246">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Swamp Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Hillside Village</name>
+			<text>({T}: Add {R} or {W}.)
+As Hillside Village enters the battlefield, you may return a land you control to its owner&apos;s hand. If you don&apos;t, Hillside Village enters the battlefield tapped.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/257_Hillside Village.png" num="257">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Mountain Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Spiraling Morass</name>
+			<text>({T}: Add {G} or {U}.)
+As Spiraling Morass enters the battlefield, you may return a land you control to its owner&apos;s hand. If you don&apos;t, Spiraling Morass enters the battlefield tapped.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/263_Spiraling Morass.png" num="263">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Forest Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Wrestler&apos;s Charm</name>
+			<text>Choose one—
+• Put a lifelink counter on target creature.
+• Create a 1/1 white and black Wrestler creature token.
+• The next ability of target creature you activate this turn costs {3} less to activate.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/234_Wrestler&apos;s Charm.png" num="234">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>W/B</manacost>
+				<cmc>1</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Gambler&apos;s Charm</name>
+			<text>Choose one—
+• Put a prowess counter on target creature.
+• Draw two cards, then discard a card.
+• The next time you play a game of chance this turn, you may replay that game of chance. (You play a game of chance whenever you flip any number of coins, roll any number of dice, or choose something at random.)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/229_Gambler&apos;s Charm.png" num="229">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U/R</manacost>
+				<cmc>1</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Criminal&apos;s Charm</name>
+			<text>Choose one—
+• Put a deathtouch counter on target creature.
+• You gain life equal to the number of creatures you control plus the number of creature cards in your graveyard.
+• Ransom a creature card in your graveyard. (To ransom a card, exile it. Its owner may pay {3} at any time to return it to their hand.)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/227_Criminal&apos;s Charm.png" num="227">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>B/G</manacost>
+				<cmc>1</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Performer&apos;s Charm</name>
+			<text>Choose one—
+• Put a first strike counter on target creature.
+• Destroy target artifact.
+• Target creature gains &quot;Whenever this creature is dealt damage, it deals that much damage to each opponent.&quot; until end of turn.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/232_Performer&apos;s Charm.png" num="232">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>R/W</manacost>
+				<cmc>1</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Biomancer&apos;s Charm</name>
+			<text>Choose one—
+• Put a ward {2} counter on target creature. (Whenever that permanent becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)
+• Target creature has base power and toughness 2/2 until end of turn.
+• Move any number of counters from target creature onto another target creature.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/226_Biomancer&apos;s Charm.png" num="226">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>G/U</manacost>
+				<cmc>1</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Suddya, Arbiter of Fairness</name>
+			<text>Flying, lifelink
+If an opponent would gain life, each player gains that much life instead.
+If an opponent would draw a card except for the first card they draw each turn, each player draws a card instead.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/217_Suddya, Arbiter of Fairness.png" num="217">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Angel</type>
+				<maintype>Creature</maintype>
+				<manacost>1WU</manacost>
+				<cmc>3</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ravina, the Silent Blade</name>
+			<text>Ravina, the Silent Blade can&apos;t be blocked by creatures with greater power.
+Whenever one or more creatures you control deal combat damage to a player, draw that many cards, then discard that many minus one card.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/211_Ravina, the Silent Blade.png" num="211">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Assassin</type>
+				<maintype>Creature</maintype>
+				<manacost>1UB</manacost>
+				<cmc>3</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mannken, the Puppeteer</name>
+			<text>When Mannken, the Puppeteer attacks, gain control of target creature defending player controls until end of turn. If you do, it&apos;s tapped and attacking its owner.
+Creatures you control, but don&apos;t own get +2/+2 and have haste.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/208_Mannken, the Puppeteer.png" num="208">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>3BR</manacost>
+				<cmc>5</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Boom-Boom, the Mad Clown</name>
+			<text>Trample
+{3}: Target player creates a colorless Bomb artifact token with &quot;At the beginning of your upkeep, you may pay {3}, if you do, target opponent gains control of this permanent. Otherwise sacrifice it and it deals 3 damage to you.&quot;</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/190_Boom-Boom, the Mad Clown.png" num="190">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Demon Clown</type>
+				<maintype>Creature</maintype>
+				<manacost>2RG</manacost>
+				<cmc>4</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Aleik, Lonesome Bard</name>
+			<text>Whenever another creature enters the battlefield under your control, put a +1/+1 counter on Aleik, Lonesome Bard.
+As long as you control ten or more creatures, creatures you control have lifelink and trample.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/187_Aleik, Lonesome Bard.png" num="187">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elf Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>1GW</manacost>
+				<cmc>3</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Murph, Flying Boots</name>
+			<text>Represents the Draft Archetype.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/210_Murph, Flying Boots.png" num="210">MAD</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Wrestler</type>
+				<maintype>Creature</maintype>
+				<manacost>1WB</manacost>
+				<cmc>3</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Alisa, Unstable Prodigy</name>
+			<text>Prowess
+Whenever Alisa, Unstable Prodigy deals combat damage to a player, discard your hand, then roll a d6. Draw that many cards.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/188_Alisa, Unstable Prodigy.png" num="188">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Gambler</type>
+				<maintype>Creature</maintype>
+				<manacost>1UR</manacost>
+				<cmc>3</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Grabitel, Master Thief</name>
+			<text>Whenever Grabitel, Master Thief deals combat damage to a player, create that many Treasure tokens. (They&apos;re artifacts with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)
+Whenever you cast a spell with a mana cost that contains {X}, double the value of X.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/203_Grabitel, Master Thief.png" num="203">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>2BG</manacost>
+				<cmc>4</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Stilis, Torch Juggler</name>
+			<text>Spectacle {1}{R}{W} (You may cast this spell for its spectacle cost if an opponent lost life this turn.)
+When Stilis, Torch Juggler enters the battlefield or attacks, gain life equal to the total amount of life lost by your opponents this turn.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/216_Stilis, Torch Juggler.png" num="216">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Hyena Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>2RW</manacost>
+				<cmc>4</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Uncheny, Mutant Monstrosity</name>
+			<text>When Uncheny, Mutant Monstrosity enters the battlefield, choose three from among flying, prowess, trample, vigilance, and ward {2}. Put a counter of each type chosen this way on Uncheny.
+{5}, Remove a counter from Uncheny, Mutant Monstrosity: Double its power until end of turn. Draw a card.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/221_Uncheny, Mutant Monstrosity.png" num="221">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Insect Mutant</type>
+				<maintype>Creature</maintype>
+				<manacost>2GU</manacost>
+				<cmc>4</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Combo Striker</name>
+			<text></text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/195_Combo Striker.png" num="195">MAD</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Creature — Human Wrestler</type>
+				<maintype>Creature</maintype>
+				<manacost>WB</manacost>
+				<cmc>2</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Dvoynya Twins</name>
+			<text>Whenever you play a game of chance, you may cast target instant or sorcery card from your graveyard this turn. Exile it as it resolves. (You play a game of chance whenever you flip any number of coins, roll any number of dice, or choose something at random.)
+{4}: Roll a d6. When you do, The Dvoynya Twins deals that much damage to any target. Activate only as a sorcery.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/197_The Dvoynya Twins.png" num="197">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Gambler</type>
+				<maintype>Creature</maintype>
+				<manacost>2UR</manacost>
+				<cmc>4</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tyanut, Thrull Master</name>
+			<text>Sacrifice another creature: Ransom target nonland permanent. Activate only as a sorcery and only once each turn. (To ransom a card, exile it. Its owner may pay {3} at any time to return it to their hand.)
+Put a ransomed card you own in exile into your graveyard: Create a 0/1 black and green Thrull token.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/219_Tyanut, Thrull Master.png" num="219">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1BG</manacost>
+				<cmc>3</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Elegant Dancer</name>
+			<text>Spectacle {2}{R}{W} (You may cast this spell for its spectacle cost if an opponent lost life this turn.)
+First strike, vigilance
+When Elegant Dancer enters the battlefield, untap another target creature you control.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/198_Elegant Dancer.png" num="198">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human</type>
+				<maintype>Creature</maintype>
+				<manacost>3RW</manacost>
+				<cmc>5</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Giant Owlk</name>
+			<text>Giant Owlk enters the battlefield with a flying counter, a prowess counter, a trample counter, and a vigilance counter on it.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/201_Giant Owlk.png" num="201">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Elk Mutant</type>
+				<maintype>Creature</maintype>
+				<manacost>1GU</manacost>
+				<cmc>3</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Melting Strike</name>
+			<text>Target creature gains deathtouch until end of turn.
+Until end of turn, if a card or token would be put into a graveyard from anywhere, exile it instead.
+Draw a card.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/209_Melting Strike.png" num="209">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>WB</manacost>
+				<cmc>2</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Chaotic Magic</name>
+			<text>Choose target spell, then flip a coin.
+[b]Heads |[/b] Copy that spell. You may choose new targets for the copy.
+[b]Tails |[/b] Counter that spell.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/191_Chaotic Magic.png" num="191">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>UR</manacost>
+				<cmc>2</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Thrull Conversion</name>
+			<text>Ransom target creature. Create a token copy of that creature, except it&apos;s a Thrull with base power 0 and base toughness 1. (To ransom a card, exile it. Its owner may pay {3} at any time to return it to their hand.)</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/218_Thrull Conversion.png" num="218">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1BG</manacost>
+				<cmc>3</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Magnificent Performance</name>
+			<text>Spectacle {1}{R}{W} (You may cast this spell for its spectacle cost if an opponent lost life this turn.)
+Discard your hand. When you do, draw two cards. If Magnificent Performance was cast for its spectacle cost, draw three cards instead.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/207_Magnificent Performance.png" num="207">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>RW</manacost>
+				<cmc>2</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Unrestricted Growth</name>
+			<text>Double target creature&apos;s power and toughness until end of turn. Until end of turn, whenever that creature deals damage to a permanent or player, draw a card.</text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/222_Unrestricted Growth.png" num="222">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>GU</manacost>
+				<cmc>2</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Cage Fighter</name>
+			<text></text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/6_Cage Fighter.png" num="6">MAD</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Creature — Human Wrestler</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fox Fantastique</name>
+			<text></text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/14_Fox Fantastique.png" num="14">MAD</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Legendary Artifact Creature — Fox Wrestler</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Talon, Rope Runner</name>
+			<text></text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/35_Talon, Rope Runner.png" num="35">MAD</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Wrestler</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dirizher, Grand Conductor</name>
+			<text>Vigilance
+{2}, Tap an untapped creature you control: Untap another target creature you control.
+Creatures blocking Dirizher, Grand Conductor deal damage to their controller instead of Dirizher, Grand Conductor.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/11_Dirizher, Grand Conductor.png" num="11">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dashing Dancer</name>
+			<text>Spectacle {1}{W} (You may cast this spell for its spectacle cost if an opponent lost life this turn.)
+Lifelink
+Whenever you gain life for the first time each turn, return target creature card with mana value less than the amount of life gained this way from your graveyard to the battlefield.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/9_Dashing Dancer.png" num="9">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Joyous Festival</name>
+			<text>Each player gains life equal to the number of creatures they control.
+Each player with less than the greatest number of cards in hand draws cards equal to the difference.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/19_Joyous Festival.png" num="19">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Moonsliver Shaman</name>
+			<text>Flash
+Flying
+When Moonsliver Shaman enters the battlefield, until end of turn, if a creature would enter the battlefield and it wasn&apos;t cast, exile it instead.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/22_Moonsliver Shaman.png" num="22">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Reign Supreme</name>
+			<text>Target creature you control loses indestructible until end of turn. It fights target creature you don&apos;t control. When it does, if the creature you control survived, repeat this process. If you&apos;ve repeated this process five times this turn, you win the game.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/25_Reign Supreme.png" num="25">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Maddening Death Spiral</name>
+			<text>Spectacle {2}{W}{W} (You may cast this spell for its spectacle cost if an opponent lost life this turn.)
+Destroy all creatures. If this spell&apos;s spectacle cost was paid, destroy all untapped creatures instead.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/20_Maddening Death Spiral.png" num="20">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4WW</manacost>
+				<cmc>6</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Enigma, the Shadow</name>
+			<text>Enigma, the Shadow can&apos;t be blocked as long as it has three or more counters on it.
+When Enigma, the Shadow enters the battlefield or attacks, choose +1/+1, prowess, or ward {2} and put a counter of that type on it.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/50_Enigma, the Shadow.png" num="50">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Shapeshifter</type>
+				<maintype>Creature</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Nezhit the Ancient</name>
+			<text>Whenever you play a game of chance, draw a card, then put a card from your hand on the bottom of your library. (You play a game of chance whenever you flip any number of coins, roll any number of dice, or choose something at random.)
+{1}{U}: Choose target nonland permanent an opponent controls at random. Return that permanent to its owner&apos;s hand.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/64_Nezhit the Ancient.png" num="64">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Zombie Gambler</type>
+				<maintype>Creature</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shapka the Sly</name>
+			<text>Whenever you play a game of chance for the first time each turn, draw a card. (You play a game of chance whenever you flip any number of coins, roll any number of dice, or choose something at random.)
+{3}: Flip a coin.
+[b]Heads | [/b]Create a Treasure token.
+[b]Tails | [/b]Target creature you control can&apos;t be blocked by creatures with greater power this turn.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/70_Shapka the Sly.png" num="70">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Gambler Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ryba, Defiant Tidemaster</name>
+			<text>When Ryba, Defiant Tidemaster enters the battlefield, put a +1/+1 counter on it.
+Whenever a creature you control has a counter placed on it, put a counter of that type onto each other creature you control. This ability triggers only once each turn.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/67_Ryba, Defiant Tidemaster.png" num="67">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Merfolk Mutant</type>
+				<maintype>Creature</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Control Fate</name>
+			<text>Choose one—
+• Counter target spell.
+• Draw two cards.
+• Whenever target spell or ability causes a player to play a game of chance this turn, you choose the result. (A player plays a game of chance whenever they flip a coin, roll a die, or choose something at random.)</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/44_Control Fate.png" num="44">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Magician&apos;s Foresight</name>
+			<text>At the beginning of your upkeep, name a card, then reveal the top card of your library. If that card shares a name with the named card, you may cast it without paying its mana cost.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/62_Magician&apos;s Foresight.png" num="62">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Semiformed Soldier</name>
+			<text>Whenever another creature enters the battlefield under your control, choose +1/+1, prowess, or ward {2} at random and put a counter of that type on that creature and on Semiformed Soldier.
+Remove three counters from Semiformed Soldier: Draw a card.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/69_Semiformed Soldier.png" num="69">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Mutant Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Drift Along the Winds</name>
+			<text>Put a flying counter on each creature you control.
+Draw a card.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/48_Drift Along the Winds.png" num="48">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Warden&apos;s Shield</name>
+			<text>Exile target noncreature spell. You may cast that card without paying its mana cost for as long as it remains exiled.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/74_Warden&apos;s Shield.png" num="74">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Jawbone, the Deadly Maw</name>
+			<text></text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/93_Jawbone, the Deadly Maw.png" num="93">MAD</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Legendary Creature — Horror Wrestler</type>
+				<maintype>Creature</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lestat, the Bloodmad</name>
+			<text></text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/94_Lestat, the Bloodmad.png" num="94">MAD</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Legendary Creature — Vampire Wrestler</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Chain Striker</name>
+			<text></text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/81_Chain Striker.png" num="81">MAD</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Creature — Human Wrestler</type>
+				<maintype>Creature</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Blood Hunter</name>
+			<text>Whenever Blood Hunter deals combat damage to a creature, ransom that creature. (To ransom a card, exile it. Its owner may pay {3} at any time to return it to their hand.)
+Whenever an opponent returns a ransomed card to their hand, return Blood Hunter from your graveyard to the battlefield tapped.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/78_Blood Hunter.png" num="78">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Wraith</type>
+				<maintype>Creature</maintype>
+				<manacost>BB</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Chert the Blood Lord</name>
+			<text>Flying, lifelink
+Pay 3 life: Ransom the top card of target player&apos;s library. (To ransom a card, exile it. Its owner may pay {3} at any time to return it to their hand.)</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/82_Chert the Blood Lord.png" num="82">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Greedy Tutor</name>
+			<text>Search your library for a card and ransom it. Then shuffle. (To ransom a card, exile it. Its owner may pay {3} at any time to return it to their hand.)</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/90_Greedy Tutor.png" num="90">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Hold Hostage</name>
+			<text>Ransom all creatures. (To ransom a card, exile it. Its owner may pay {3} at any time to return it to their hand.)</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/92_Hold Hostage.png" num="92">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Triple Threat Match</name>
+			<text>Three target creatures fight. (Each of those creatures deals damage equal to its power to each of the other creatures.)</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/110_Triple Threat Match.png" num="110">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4BB</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Limitless Wealth</name>
+			<text>Whenever a creature dies or is ransomed, create a Treasure token. 
+{3}: Ransom target creature. Activate only as a sorcery. (To ransom a card, exile it. Its owner may pay {3} at any time to return it to their hand.)</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/95_Limitless Wealth.png" num="95">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Napier, Court Jester</name>
+			<text>Whenever you play a game of chance, exile the top card of each player&apos;s library. Until the end of your next turn, you may play those cards. (You play a game of chance whenever you flip any number of coins, roll any number of dice, or choose something at random.)
+{3}: Flip a coin.
+[b]Heads | [/b]You may cast a card exiled with Napier, Court Jester without paying its mana cost.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/132_Napier, Court Jester.png" num="132">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Koldun the Magnificent</name>
+			<text>Spectacle {1}{R} (You may cast this spell for its spectacle cost if an opponent lost life this turn.)
+Each nonland card you own that isn&apos;t on the battlefield has spectacle. Its spectacle cost is equal to its mana cost reduced by {2}.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/131_Koldun the Magnificent.png" num="131">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wheel of Suffering</name>
+			<text>Roll a d6.
+[b]1-2 | [/b]Wheel of Suffering deals 4 damage to any target.
+[b]3-4 | [/b]Discard any number of cards. Then draw that many cards plus two.
+[b]5+ | [/b]Wheel of Suffering deals 6 damage to each creature and planeswalker.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/149_Wheel of Suffering.png" num="149">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Privesti, Parade Leader</name>
+			<text>Spectacle {R}{R} (You may cast this spell for its spectacle cost if an opponent lost life this turn.)
+Whenever Privesti, Parade Leader attacks, if it&apos;s not an extra combat phase, sacrifice it. When you do, untap all creatures you control and after this phase, there is an additional combat phase.
+You may cast Privesti, Parade Leader for its spectacle cost from your graveyard.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/137_Privesti, Parade Leader.png" num="137">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Igrok, Gambling Prodigy</name>
+			<text>Whenever you play a game of chance, mill a card. When you do, Igrok, Gambling Prodigy deals damage equal to that card&apos;s mana value to any target. (You play a game of chance whenever you flip any number of coins, roll any number of dice, or choose something at random.)
+{3}: Choose a card at random in your graveyard. You may put it on top of your library.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/127_Igrok, Gambling Prodigy.png" num="127">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Gambler</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fortune or Fire</name>
+			<text>Roll two d6. Draw a number of cards equal to one result. Then discard a number cards equal to the other.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/124_Fortune or Fire.png" num="124">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Gamble</name>
+			<text>Search your library for a card, put that card into your hand, discard a card at random, then shuffle.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/125_Gamble.png" num="125">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Chasy the Mad</name>
+			<text>Whenever you attack, choose up to one target creature you don&apos;t own, then flip a coin.
+[b]Heads |[/b] Gain control of that creature until end of turn. If you do, it&apos;s tapped and attacking its owner.
+[b]Tails |[/b] Creatures you control gain first strike until end of turn.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/116_Chasy the Mad.png" num="116">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Gambler</type>
+				<maintype>Creature</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Podvohk, the Mad Juggler</name>
+			<text>Spectacle {1}{R}{R} (You may cast this spell for its spectacle cost if an opponent lost life this turn.)
+At the beginning of your upkeep, flip a coin.
+[b]Heads |[/b] Podvohk, the Mad Juggler deals 2 damage to each opponent.
+[b]Tails |[/b] Podvohk deals 2 damage to you.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/135_Podvohk, the Mad Juggler.png" num="135">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>5/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Krov, Bounty Hunter</name>
+			<text>Whenever a creature dies, ransom it, then create a Treasure token. (To ransom a card, exile it. Its owner may pay {3} at any time to return it to their hand.)
+{T}, Put three ransomed cards you own in exile into your graveyard: For each noncreature token you control, create a token that&apos;s a copy of that permanent.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/168_Krov, Bounty Hunter.png" num="168">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elf</type>
+				<maintype>Creature</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Srâne, Flycatcher</name>
+			<text>Reach
+Whenever a creature you don&apos;t control with flying attacks, put your choice of a +1/+1 or reach counter on target creature.
+{2}, Untap a tapped creature you control: Ransom target card from your graveyard. (To ransom a card, exile it. Its owner may pay {3} at any time to return it to their hand.)</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/181_Srâne, Flycatcher.png" num="181">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Thrull</type>
+				<maintype>Creature</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>0/8</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Korol, Last of the Great Kings</name>
+			<text>Whenever a nontoken creature enters the battlefield, create a Treasure token.
+At the beginning of your end step, you may sacrifice all Treasures you control. When you do, you gain that much life.
+Sacrifice two Treasures: Create a 0/1 black and green Thrull creature token.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/167_Korol, Last of the Great Kings.png" num="167">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fleyta, Furious Flautist</name>
+			<text>When Fleyta, Furious Flautist enters the battlefield or attacks, put your choice of a +1/+1, deathtouch, lifelink, reach, trample, vigilance, ward {2} counter on target creature.
+{9}{G}{G}: Creatures you control get +5/+5 until end of turn. This ability costs {1} less to activate for each different type of counter on creatures you control.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/161_Fleyta, Furious Flautist.png" num="161">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shayr, Pinwheel Perforator</name>
+			<text>If a creature entering the battlefield causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.
+Sacrifice a creature: The next creature you control that enters the battlefield this turn has &quot;When this creature enters the battlefield, choose +1/+1, hexproof, trample, vigilance, ward {2} and put a counter of that type on this creature.&quot;</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/179_Shayr, Pinwheel Perforator.png" num="179">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Thrull</type>
+				<maintype>Creature</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Crime Boss</name>
+			<text>Whenever Crime Boss enters the battlefield or attacks, create a 0/1 black and green Thrull token.
+Thrulls you control get +2/+0.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/157_Crime Boss.png" num="157">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Night&apos;s Revival</name>
+			<text>Mill X cards. When you do, return up to one target creature with mana value X or less from your graveyard to the battlefield.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/173_Night&apos;s Revival.png" num="173">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XG</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Spirit Ransom</name>
+			<text>Choose one —
+• You may cast target ransomed card from exile this turn.
+• Ransom two target cards from your graveyard. (To ransom a card, exile it. Its owner may pay {3} at any time to return it to their hand.)</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/180_Spirit Ransom.png" num="180">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Quell the Beasts</name>
+			<text>Create three 2/2 green Beast Mutant creature tokens. Distribute one of each of a reach counter, a trample counter, a vigilance counter, and a +1/+1 counter among them.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/177_Quell the Beasts.png" num="177">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>5G</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>The Dagger</name>
+			<text></text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/228_The Dagger.png" num="228">MAD</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Wrestler</type>
+				<maintype>Creature</maintype>
+				<manacost>{/1WB/}W/B</manacost>
+				<cmc>4</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Karta, Aces High</name>
+			<text>Whenever you play a game of chance, scry 1. (You play a game of chance whenever you flip any number of coins, roll any number of dice, or choose something at random.)
+{1{U}R}, {T}: Flip a coin.
+[b]Heads | [/b]Create a treasure token.
+[b]Tails |[/b] Draw a card, then discard a card.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/230_Karta, Aces High.png" num="230">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Gambler</type>
+				<maintype>Creature</maintype>
+				<manacost>{/1UR/}U/R</manacost>
+				<cmc>4</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tolpa, the Dark Lord</name>
+			<text>Whenever Tolpa, the Dark Lord deals combat damage to a player, you may cast a ransomed card you own from exile without paying its mana cost.
+{BG}{BG}: Ransom a creature card from a graveyard. When you do, create a 0/1 black and green Thrull creature token. (To ransom a card, exile it. Its owner may pay {3} at any time to return it to their hand.)</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/233_Tolpa, the Dark Lord.png" num="233">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elf Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>3B/GB/G</manacost>
+				<cmc>5</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>2/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Muses Three</name>
+			<text>Spectacle {RW}{RW}{RW} (You may cast this spell for its spectacle cost if an opponent lost life this turn.)
+Flying
+Whenever The Muses Three attacks, target creature gains flying until end of turn.
+Whenever an opponent loses life, put a +1/+1 counter on The Muses Three.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/231_The Muses Three.png" num="231">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Avatar</type>
+				<maintype>Creature</maintype>
+				<manacost>4R/W</manacost>
+				<cmc>5</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Akula, Biomancer Extrodinaire</name>
+			<text>Creatures you control get +1/+1 for each different type of counter on them.
+{2}{G}: Choose trample, vigilance, or lifelink. Put a counter of that type on target creature.
+{2}{U}: Choose flying, hexproof, or prowess. Put a counter of that type on target creature.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/225_Akula, Biomancer Extrodinaire.png" num="225">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Merfolk Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2G/U</manacost>
+				<cmc>3</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Silenced Strike</name>
+			<text>Target opponent reveals their hand. You choose a nonland card from it. That player discards that card. Players can&apos;t cast spells with the same name as that card until the end of your next turn.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/214_Silenced Strike.png" num="214">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1WB</manacost>
+				<cmc>3</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>The Gamemaster</name>
+			<text>Whenever you play a game of chance, put a +1/+1 counter on The Gamemaster. (You play a game of chance whenever you flip any number of coins, roll any number of dice, or choose something at random.)
+Discard a card: Roll a d6. Until end of turn, you may cast a nonland card from your graveyard with lesser mana value than that roll without paying its mana cost.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/200_The Gamemaster.png" num="200">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Avatar Gambler</type>
+				<maintype>Creature</maintype>
+				<manacost>2UR</manacost>
+				<cmc>4</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Horror of the Dark Forest</name>
+			<text>Whenever Horror of the Dark Forest blocks a creature, ransom that creature. (To ransom a card, exile it. Its owner may pay {3} at any time to return it to their hand.)
+Once per turn, you may cast a ransomed creature card from exile and spend mana as though it were mana of any type to cast it.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/206_Horror of the Dark Forest.png" num="206">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Avatar Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>3BG</manacost>
+				<cmc>5</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Glorious Finale</name>
+			<text>Spectacle {2}{R}{W} (You may cast this spell for its spectacle cost if an opponent lost life this turn.)
+Glorious Finale deals X damage to any target. If you cast this spell for its spectacle cost, X is equal to the amount of damage dealt by sources you control this turn.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/202_Glorious Finale.png" num="202">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XRW</manacost>
+				<cmc>2</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ukrotitel, Ringmaster</name>
+			<text>Creatures you control with two or more counters on them have &quot;Whenever this creature deals combat damage to a player, create a Treasure token.&quot;
+Whenever a creature you control attacks, choose +1/+1, lifelink, prowess, trample, vigilance, or ward {2} and put a counter of that type on that creature.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/220_Ukrotitel, Ringmaster.png" num="220">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human</type>
+				<maintype>Creature</maintype>
+				<manacost>2GU</manacost>
+				<cmc>4</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Big Top</name>
+			<text>Whenever you attack, untap The Big Top.
+{T}: Add {C}.
+{T}: Add one mana of any color. Spend this mana only to activate abilities.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/245_The Big Top.png" num="245">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Gambler&apos;s Astrolabe</name>
+			<text>When Gambler&apos;s Astrolabe&apos;s enters the battlefield, roll a d6. It gains an ability based on the result.
+[b]1-2 |[/b] {T}, Sacrifice Gambler&apos;s Astrolabe: Add one mana of any color.
+[b]3-5 |[/b] {T}: Draw a card, then put Gambler&apos;s Astrolabe on the bottom of your library.
+[b]6+ |[/b] {T}: Draw a card, then choose a card at random from your hand and put it on the bottom of your library.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/240_Gambler&apos;s Astrolabe.png" num="240">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Hidden Vault</name>
+			<text>Once per turn, if you were to draw a card, you may ransom it instead. Then draw a card. (To ransom a card, exile it. Its owner may pay {3} at any time to return it to their hand.)
+{7}, {T}, Exile Hidden Vault: Return all ransomed cards you own to your hand.</text>
+			<set rarity="rare" picurl="https://crushcastles23.github.io/sets/MAD-files/img/241_Hidden Vault.png" num="241">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Ruff, Glorious Champion</name>
+			<text>Lifelink, vigilance</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/MAD-files/img/28_Ruff, Glorious Champion.png" num="28">MAD</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dog Wrestler</type>
+				<maintype>Creature</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Counting Cards</name>
+			<text>Choose X. You may choose the same mode more than once.—
+• Draw a card. 
+• Return target nonland permanent to its owner&apos;s hand.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/MAD-files/img/45_Counting Cards.png" num="45">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XUU</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Shchur, Superior Striker</name>
+			<text></text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/MAD-files/img/102_Shchur, Superior Striker.png" num="102">MAD</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Legendary Creature — Rat Wrestler</type>
+				<maintype>Creature</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Risk It All</name>
+			<text>Reveal the top X cards of your library. For each card revealed this way, flip a coin.
+[b]Heads |[/b] Exile that card. You may play that card without paying its mana cost for as long as it remains exiled.
+[b]Tails |[/b] Exile that card. You may play that card until end of turn.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/MAD-files/img/141_Risk It All.png" num="141">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XRR</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Introducing...</name>
+			<text>Ransom the top X cards of your library. If X is 5 or more, until end of turn, you may cast ransomed creature cards you own in exile without paying their mana costs. (To ransom a card, exile it. Its owner may pay {3} at any time to return it to their hand.)</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/MAD-files/img/166_Introducing....png" num="166">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XGGG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Hedyll, the Two Faced</name>
+			<text></text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/MAD-files/img/204_Hedyll, the Two Faced.png" num="204">MAD</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Wrestler</type>
+				<maintype>Creature</maintype>
+				<manacost>4WB</manacost>
+				<cmc>6</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Divine Dice</name>
+			<text>If you were to play a game of chance, instead, play two of those games of chance and ignore one. (You play a game of chance whenever you flip any number of coins, roll any number of dice, or choose something at random.)</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/MAD-files/img/196_Divine Dice.png" num="196">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>UR</manacost>
+				<cmc>2</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Vykup, Kingpin</name>
+			<text>Whenever Vykup, Kingpin attacks, ransom target creature. (To ransom a card, exile it. Its owner may pay {3} at any time to return it to their hand.)
+At the beginning of your upkeep, create a Treasure token for each ransomed card in exile.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/MAD-files/img/223_Vykup, Kingpin.png" num="223">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Rat Noble Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1BG</manacost>
+				<cmc>3</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Charan, Wildflame Prodigy</name>
+			<text>Spectacle {3}{R}{W} (You may cast this spell for its spectacle cost if an opponent lost life this turn.)
+Spells and permanents you control have lifelink.
+When Charan, Wildflame Prodigy enters the battlefield, if it was cast for its spectacle cost, destroy all other creatures.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/MAD-files/img/192_Charan, Wildflame Prodigy.png" num="192">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>RW</manacost>
+				<cmc>2</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Chimera Ultimus</name>
+			<text>Chimera Ultimus enters the battlefield with X +1/+1 counters on it.
+As Chimera Ultimus enters the battlefield, choose up to X of deathtouch, flying, haste, prowess, reach, trample, and vigilance, put a counter of each type chosen this way onto Chimera Ultimus.</text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/MAD-files/img/194_Chimera Ultimus.png" num="194">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Chimera Mutant</type>
+				<maintype>Creature</maintype>
+				<manacost>XGU</manacost>
+				<cmc>2</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>0/0</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Würfel, Lord of Chance</name>
+			<text></text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/MAD-files/img/224_Würfel, Lord of Chance.png" num="224">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Würfel</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>2UR</manacost>
+				<cmc>4</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<loyalty>2</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Agni, Fire Dancer</name>
+			<text></text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/MAD-files/img/112_Agni, Fire Dancer.png" num="112">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Agni</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<loyalty>3</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Ringen, Interplanar Champion</name>
+			<text></text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/MAD-files/img/213_Ringen, Interplanar Champion.png" num="213">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Ringen</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>2WB</manacost>
+				<cmc>4</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<loyalty>3</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Auraro, the Shifting Tide</name>
+			<text></text>
+			<set rarity="mythic" picurl="https://crushcastles23.github.io/sets/MAD-files/img/189_Auraro, the Shifting Tide.png" num="189">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Auraro</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>XGU</manacost>
+				<cmc>2</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<loyalty>X</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Plains</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/265_Plains.png" num="265">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Island</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/266_Island.png" num="266">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Swamp</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/267_Swamp.png" num="267">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Mountain</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/268_Mountain.png" num="268">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Forest</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/269_Forest.png" num="269">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Treasure MAD</name>
+			<text>{T}, Sacrifice this artifact: Add one mana of any color.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/15t_Treasure.png" num="15">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact — Treasure</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Bomb MAD</name>
+			<text>At the beginning of your upkeep, you may pay {3}, if you do, target opponent gains control of this permanent. Otherwise sacrifice it and it deals 3 damage to you.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/12t_Bomb.png" num="12">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Thrull MAD</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/9t_Thrull.png" num="9">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Thrull</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>0/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Wrestler2 MAD</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/11t_Wrestler2.png" num="11">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Wrestler</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Elephant MAD</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/3t_Elephant.png" num="3">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Elephant</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Food MAD</name>
+			<text>{2}, {T}, Sacrifice this artifact: You gain 3 life.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/13t_Food.png" num="13">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact — Food</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Auraro, the Shifting Tide Emblem MAD</name>
+			<text>You may cast Auraro cards from your graveyard.
+Whenever a creature you control deals combat damage to a player, draw a card.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/8t_Auraro, the Shifting Tide Emblem.png" num="8">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Emblem — Auraro</type>
+				<maintype>Emblem</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Shark Elemental MAD</name>
+			<text>Whenever this creature deals combat damage to a player, put a loyalty counter on target planeswalker you control.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/5t_Shark Elemental.png" num="5">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Shark Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Wrestler MAD</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/10t_Wrestler.png" num="10">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Wrestler</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Plant MAD</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/7t_Plant.png" num="7">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Plant</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>0/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Lantern MAD</name>
+			<text>{T}: Add {C}.</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/14t_Lantern.png" num="14">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact — Lantern</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Faltz&apos;s Duplicate MAD</name>
+			<text></text>
+			<set rarity="uncommon" picurl="https://crushcastles23.github.io/sets/MAD-files/img/4t_Faltz&apos;s Duplicate.png" num="4">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Illusion Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Beast Mutant MAD</name>
+			<text></text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/6t_Beast Mutant.png" num="6">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Beast Mutant</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Bard MAD</name>
+			<text>Lifelink</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/2t_Bard.png" num="2">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Bard</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Mad World Draft Archetypes MAD</name>
+			<text>{W}{U} — Flying Control
+{U}{B} — Evasive
+{B}{R} — Theft Aggro
+{R}{G} — Ramp
+{G}{W} — Go Wide Tokens
+{W}{B} — Wrestler Midrange
+{U}{R} — Games of Chance
+{B}{G} — Ransom Ramp
+{R}{W} — Spectacle
+{G}{U} — Keyword Counters</text>
+			<set rarity="common" picurl="https://crushcastles23.github.io/sets/MAD-files/img/1t_Mad World Draft Archetypes.png" num="1">MAD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Reminder</type>
+				<maintype>Reminder</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WUBRG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+	</cards>
+</cockatrice_carddatabase>

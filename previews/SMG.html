@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="../sets/SMG-files/icon.png"/>
+	<link rel="stylesheet" href="../resources/header.css">
+	<title>SMG visual preview</title>
+	<script title="root">
+		const rootPath = "..";
+	</script>
+	<style>
+		@font-face {
+			font-family: Beleren;
+			src: url('../resources/beleren.ttf');
+		}
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			opacity: 0;
+			transform: rotateY(0deg) rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+			border-radius: 3.733% / 2.677%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+			border-radius: 3.733% / 2.677%;
+		}
+		.close-btn {
+			background: url('../img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('../img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+			border-radius: 3.733% / 2.677%;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 80px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+			border-radius: 3.733% / 2.677%;
+		}
+		.flip-btn {
+			background: url('../img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('../img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.dropdown {
+			background: rgba(23, 23, 23, 0.8);
+			border-radius: 8px;
+			position: absolute;
+			left: 5%;
+			width: fit-content;
+			max-width: 90%;
+			margin: 20px 0;
+			padding: 5px 0;
+			display: grid;
+			grid-template-columns: 1fr;
+			z-index: 3;
+		}
+		.dropdown .set-bar {
+			font-family: Beleren;
+			font-size: 20px;
+			text-decoration: none;
+			color: #e3e3e3;
+			display: flex;
+			gap: 10px;
+			align-items: center;
+			padding: 0 12px;
+			margin: 5px;
+		}
+		.dropdown .set-bar:hover {
+			background: rgba(163, 163, 163, 0.5);
+			color: #f3f3f3;
+		}
+		.dropdown .set-bar img {
+			width: 32px;
+		}
+		.dropdown .inactive {
+			height: 0px;
+			overflow: hidden;
+			margin: 0px 5px;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		.addenda-container {
+			text-align: center;
+			width: fit-content;
+			max-width: 1200px;
+			padding: 0 5%;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="../img/dot.png" />
+	<img class="preload-hidden" src="../sets/SMG-files/logo.png" />
+	<img class="preload-hidden" src="../sets/BEY-files/icon.png" />
+		<img class="preload-hidden" src="../sets/CCC-files/icon.png" />
+		<img class="preload-hidden" src="../sets/KMR-files/icon.png" />
+		<img class="preload-hidden" src="../sets/MAD-files/icon.png" />
+		<img class="preload-hidden" src="../sets/MOG-files/icon.png" />
+		<img class="preload-hidden" src="../sets/SMG-files/icon.png" />
+		<img class="preload-hidden" src="../sets/SYZ-files/icon.png" />
+		<img class="preload-hidden" src="../sets/TCS-files/icon.png" />
+		<img class="preload-hidden" src="../sets/VRM-files/icon.png" />
+		<img class="preload-hidden" src="../sets/WRP-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a onclick="window.location.href = rootPath + '/'"><img class="sg-logo" id="header-banner"></a>
+			<img class="sg-icon" id="header-search" onclick="goToSearch()">
+			<div style="position: relative; width: 100%;">
+				<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+				<div id="tag-dropdown" style="display: none; position: absolute; top: 100%; left: 0; width: 100%; background: white; border: 1px solid #d5d9d9; z-index: 1000; max-height: 200px; overflow-y: auto; color: black; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></div>
+			</div>
+			<a onclick="window.location.href = rootPath + '/all-sets'"><img id="header-sets" class="sg-icon">Sets</a>
+			<a onclick="window.location.href = rootPath + '/deckbuilder'"><img id="header-deck" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img id="header-random" class="sg-icon">Random</a>
+		</div>
+	</div>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			document.getElementById("header-banner").src = rootPath + "/img/banner.png";
+			document.getElementById("header-search").src = rootPath + "/img/search.png";
+			document.getElementById("header-sets").src = rootPath + "/img/sets.png";
+			document.getElementById("header-deck").src = rootPath + "/img/deck.png";
+			document.getElementById("header-random").src = rootPath + "/img/random.png";
+		});
+
+		function goToSearch() {
+			window.location.href = rootPath + "/search";
+		}
+	</script>
+
+	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+	
+		<a class="set-bar" href="../previews/SMG"><img src="../sets/SMG-files/icon.png">Velencium: City of Smog</a>
+	
+		<a class="set-bar inactive" href="../previews/BEY"><img src="../sets/BEY-files/icon.png">Beyond the Event Horizon</a>
+	
+		<a class="set-bar inactive" href="../previews/CCC"><img src="../sets/CCC-files/icon.png">Custom Chaos Cube</a>
+	
+		<a class="set-bar inactive" href="../previews/KMR"><img src="../sets/KMR-files/icon.png">Kamigawa Reborn</a>
+	
+		<a class="set-bar inactive" href="../previews/MAD"><img src="../sets/MAD-files/icon.png">Mad World</a>
+	
+		<a class="set-bar inactive" href="../previews/MOG"><img src="../sets/MOG-files/icon.png">Moag</a>
+	
+		<a class="set-bar inactive" href="../previews/SYZ"><img src="../sets/SYZ-files/icon.png">Syèlzile: Islands in the Sky</a>
+	
+		<a class="set-bar inactive" href="../previews/TCS"><img src="../sets/TCS-files/icon.png">Twilight City Stories</a>
+	
+		<a class="set-bar inactive" href="../previews/VRM"><img src="../sets/VRM-files/icon.png">Valla Remastered</a>
+	
+		<a class="set-bar inactive" href="../previews/WRP"><img src="../sets/WRP-files/icon.png"></a>
+	
+		</div>
+		<div class="banner">
+		<img class="logo" src="../sets/SMG-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+					<div class="container"><img loading="lazy" alt="sets\SMG-files\img\49_Eyes of Eternity.png" id="SMG_49_Eyes of Eternity" data-flag="@X" onclick="openSidebar('SMG_49_Eyes of Eternity',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\80_Eldritch Reliquary.png" id="SMG_80_Eldritch Reliquary" data-flag="@X" onclick="openSidebar('SMG_80_Eldritch Reliquary',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\125_Gax'lin, Unleashed.png" id="SMG_125_Gaxlin, Unleashed" data-flag="@X" onclick="openSidebar('SMG_125_Gaxlin, Unleashed',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\177_Overwhelming Assault.png" id="SMG_177_Overwhelming Assault" data-flag="@X" onclick="openSidebar('SMG_177_Overwhelming Assault',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\195_Exalted Autocrat.png" id="SMG_195_Exalted Autocrat" data-flag="@X" onclick="openSidebar('SMG_195_Exalted Autocrat',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\55_Local Hero.png" id="SMG_55_Local Hero" data-flag="@X" onclick="openSidebar('SMG_55_Local Hero',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\88_The Mad Wizard.png" id="SMG_88_The Mad Wizard" data-flag="@X" onclick="openSidebar('SMG_88_The Mad Wizard',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\130_Horror of War.png" id="SMG_130_Horror of War" data-flag="@X" onclick="openSidebar('SMG_130_Horror of War',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\186_Volta Force.png" id="SMG_186_Volta Force" data-flag="@X" onclick="openSidebar('SMG_186_Volta Force',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\206_Mutant Overlord.png" id="SMG_206_Mutant Overlord" data-flag="@X" onclick="openSidebar('SMG_206_Mutant Overlord',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\38_Astute Advisor.png" id="SMG_38_Astute Advisor" data-flag="@X" onclick="openSidebar('SMG_38_Astute Advisor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\106_Unholy Ceremony.png" id="SMG_106_Unholy Ceremony" data-flag="@X" onclick="openSidebar('SMG_106_Unholy Ceremony',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\133_It Who Walks the Night.png" id="SMG_133_It Who Walks the Night" data-flag="@X" onclick="openSidebar('SMG_133_It Who Walks the Night',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\155_Both Barrels.png" id="SMG_155_Both Barrels" data-flag="@X" onclick="openSidebar('SMG_155_Both Barrels',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\191_Elite Death Corps.png" id="SMG_191_Elite Death Corps" data-flag="@X" onclick="openSidebar('SMG_191_Elite Death Corps',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\39_Baroness Anastasia Huff.png" id="SMG_39_Baroness Anastasia Huff" data-flag="@X" onclick="openSidebar('SMG_39_Baroness Anastasia Huff',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\82_Emerge from the Multiverse.png" id="SMG_82_Emerge from the Multiverse" data-flag="@X" onclick="openSidebar('SMG_82_Emerge from the Multiverse',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\118_Catacomb Skull Collector.png" id="SMG_118_Catacomb Skull Collector" data-flag="@X" onclick="openSidebar('SMG_118_Catacomb Skull Collector',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\158_Coal Golem.png" id="SMG_158_Coal Golem" data-flag="@X" onclick="openSidebar('SMG_158_Coal Golem',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\192_Ember Miner.png" id="SMG_192_Ember Miner" data-flag="@X" onclick="openSidebar('SMG_192_Ember Miner',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\41_Bronze-Wrench Tinkerer.png" id="SMG_41_Bronze-Wrench Tinkerer" data-flag="@X" onclick="openSidebar('SMG_41_Bronze-Wrench Tinkerer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\83_Enthralling Illithid.png" id="SMG_83_Enthralling Illithid" data-flag="@X" onclick="openSidebar('SMG_83_Enthralling Illithid',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\122_Excessively Ancient Minister.png" id="SMG_122_Excessively Ancient Minister" data-flag="@X" onclick="openSidebar('SMG_122_Excessively Ancient Minister',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\160_Collapsing Skies.png" id="SMG_160_Collapsing Skies" data-flag="@X" onclick="openSidebar('SMG_160_Collapsing Skies',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\197_Gibbering Mouther.png" id="SMG_197_Gibbering Mouther" data-flag="@X" onclick="openSidebar('SMG_197_Gibbering Mouther',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\46_Elite Anarchist.png" id="SMG_46_Elite Anarchist" data-flag="@X" onclick="openSidebar('SMG_46_Elite Anarchist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\86_Homunculus Lantern Bearer.png" id="SMG_86_Homunculus Lantern Bearer" data-flag="@X" onclick="openSidebar('SMG_86_Homunculus Lantern Bearer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\126_Gross Glutton.png" id="SMG_126_Gross Glutton" data-flag="@X" onclick="openSidebar('SMG_126_Gross Glutton',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\163_Elemental Channeler.png" id="SMG_163_Elemental Channeler" data-flag="@X" onclick="openSidebar('SMG_163_Elemental Channeler',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\201_Inquisitor's Mark.png" id="SMG_201_Inquisitors Mark" data-flag="@X" onclick="openSidebar('SMG_201_Inquisitors Mark',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\48_Explosive Homing Round.png" id="SMG_48_Explosive Homing Round" data-flag="@X" onclick="openSidebar('SMG_48_Explosive Homing Round',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\87_Homuncunaut.png" id="SMG_87_Homuncunaut" data-flag="@X" onclick="openSidebar('SMG_87_Homuncunaut',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\127_Hardened Artillery Unit.png" id="SMG_127_Hardened Artillery Unit" data-flag="@X" onclick="openSidebar('SMG_127_Hardened Artillery Unit',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\169_Heavy Explosive Expert.png" id="SMG_169_Heavy Explosive Expert" data-flag="@X" onclick="openSidebar('SMG_169_Heavy Explosive Expert',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\216_Smog Born Inquisitor.png" id="SMG_216_Smog Born Inquisitor" data-flag="@X" onclick="openSidebar('SMG_216_Smog Born Inquisitor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\68_Smogspewer Carriage.png" id="SMG_68_Smogspewer Carriage" data-flag="@X" onclick="openSidebar('SMG_68_Smogspewer Carriage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\89_Metallurgic Magistrate.png" id="SMG_89_Metallurgic Magistrate" data-flag="@X" onclick="openSidebar('SMG_89_Metallurgic Magistrate',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\128_Heavy Smog.png" id="SMG_128_Heavy Smog" data-flag="@X" onclick="openSidebar('SMG_128_Heavy Smog',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\176_Mounted Gun.png" id="SMG_176_Mounted Gun" data-flag="@X" onclick="openSidebar('SMG_176_Mounted Gun',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\222_Wildfire Walker.png" id="SMG_222_Wildfire Walker" data-flag="@X" onclick="openSidebar('SMG_222_Wildfire Walker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\69_The Sound of Silence.png" id="SMG_69_The Sound of Silence" data-flag="@X" onclick="openSidebar('SMG_69_The Sound of Silence',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\97_Research Assistant.png" id="SMG_97_Research Assistant" data-flag="@X" onclick="openSidebar('SMG_97_Research Assistant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\132_Inquisitor Alchemist.png" id="SMG_132_Inquisitor Alchemist" data-flag="@X" onclick="openSidebar('SMG_132_Inquisitor Alchemist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\183_Spider Guard Suit.png" id="SMG_183_Spider Guard Suit" data-flag="@X" onclick="openSidebar('SMG_183_Spider Guard Suit',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\223_Windumaer's Ambush.png" id="SMG_223_Windumaers Ambush" data-flag="@X" onclick="openSidebar('SMG_223_Windumaers Ambush',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\37_All-Knowing.png" id="SMG_37_All-Knowing" data-flag="@X" onclick="openSidebar('SMG_37_All-Knowing',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\98_Self-Alteration.png" id="SMG_98_Self-Alteration" data-flag="@X" onclick="openSidebar('SMG_98_Self-Alteration',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\143_Reap the Trenches.png" id="SMG_143_Reap the Trenches" data-flag="@X" onclick="openSidebar('SMG_143_Reap the Trenches',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\152_Barrage and Charge.png" id="SMG_152_Barrage and Charge" data-flag="@X" onclick="openSidebar('SMG_152_Barrage and Charge',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\190_Doting Family.png" id="SMG_190_Doting Family" data-flag="@X" onclick="openSidebar('SMG_190_Doting Family',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\40_Bore to Death.png" id="SMG_40_Bore to Death" data-flag="@X" onclick="openSidebar('SMG_40_Bore to Death',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\105_Telepathic Mechanist.png" id="SMG_105_Telepathic Mechanist" data-flag="@X" onclick="openSidebar('SMG_105_Telepathic Mechanist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\112_Arditi Imperious.png" id="SMG_112_Arditi Imperious" data-flag="@X" onclick="openSidebar('SMG_112_Arditi Imperious',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\159_Coal Shoveler.png" id="SMG_159_Coal Shoveler" data-flag="@X" onclick="openSidebar('SMG_159_Coal Shoveler',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\199_Imperial Agent.png" id="SMG_199_Imperial Agent" data-flag="@X" onclick="openSidebar('SMG_199_Imperial Agent',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\43_Delightful Merchant.png" id="SMG_43_Delightful Merchant" data-flag="@X" onclick="openSidebar('SMG_43_Delightful Merchant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\74_Aerial Striker.png" id="SMG_74_Aerial Striker" data-flag="@X" onclick="openSidebar('SMG_74_Aerial Striker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\115_Backroom Dealings.png" id="SMG_115_Backroom Dealings" data-flag="@X" onclick="openSidebar('SMG_115_Backroom Dealings',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\161_Eldritch Hunter.png" id="SMG_161_Eldritch Hunter" data-flag="@X" onclick="openSidebar('SMG_161_Eldritch Hunter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\200_Inquisitor Matriarch.png" id="SMG_200_Inquisitor Matriarch" data-flag="@X" onclick="openSidebar('SMG_200_Inquisitor Matriarch',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\50_Glorious Swords.png" id="SMG_50_Glorious Swords" data-flag="@X" onclick="openSidebar('SMG_50_Glorious Swords',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\75_Aethergale Wings.png" id="SMG_75_Aethergale Wings" data-flag="@X" onclick="openSidebar('SMG_75_Aethergale Wings',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\121_Dissect.png" id="SMG_121_Dissect" data-flag="@X" onclick="openSidebar('SMG_121_Dissect',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\166_Fearless Trooper.png" id="SMG_166_Fearless Trooper" data-flag="@X" onclick="openSidebar('SMG_166_Fearless Trooper',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\203_Mass Extraction Rig.png" id="SMG_203_Mass Extraction Rig" data-flag="@X" onclick="openSidebar('SMG_203_Mass Extraction Rig',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\54_Inferno Suit.png" id="SMG_54_Inferno Suit" data-flag="@X" onclick="openSidebar('SMG_54_Inferno Suit',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\78_Bind the Trespasser.png" id="SMG_78_Bind the Trespasser" data-flag="@X" onclick="openSidebar('SMG_78_Bind the Trespasser',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\134_Lady Blackrock Scales.png" id="SMG_134_Lady Blackrock Scales" data-flag="@X" onclick="openSidebar('SMG_134_Lady Blackrock Scales',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\167_Gas Tainted Soldier.png" id="SMG_167_Gas Tainted Soldier" data-flag="@X" onclick="openSidebar('SMG_167_Gas Tainted Soldier',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\205_Mutant Colossus.png" id="SMG_205_Mutant Colossus" data-flag="@X" onclick="openSidebar('SMG_205_Mutant Colossus',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\56_Mass Gathering.png" id="SMG_56_Mass Gathering" data-flag="@X" onclick="openSidebar('SMG_56_Mass Gathering',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\79_Disassemble.png" id="SMG_79_Disassemble" data-flag="@X" onclick="openSidebar('SMG_79_Disassemble',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\135_Lost Clergy.png" id="SMG_135_Lost Clergy" data-flag="@X" onclick="openSidebar('SMG_135_Lost Clergy',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\171_Iron Horse.png" id="SMG_171_Iron Horse" data-flag="@X" onclick="openSidebar('SMG_171_Iron Horse',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\207_Mutated Berserker.png" id="SMG_207_Mutated Berserker" data-flag="@X" onclick="openSidebar('SMG_207_Mutated Berserker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\57_Mechanical Savant.png" id="SMG_57_Mechanical Savant" data-flag="@X" onclick="openSidebar('SMG_57_Mechanical Savant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\92_Radio Operator.png" id="SMG_92_Radio Operator" data-flag="@X" onclick="openSidebar('SMG_92_Radio Operator',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\137_Mindwrath Horror.png" id="SMG_137_Mindwrath Horror" data-flag="@X" onclick="openSidebar('SMG_137_Mindwrath Horror',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\173_Lightning Arrest.png" id="SMG_173_Lightning Arrest" data-flag="@X" onclick="openSidebar('SMG_173_Lightning Arrest',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\208_Mutated Businessmen.png" id="SMG_208_Mutated Businessmen" data-flag="@X" onclick="openSidebar('SMG_208_Mutated Businessmen',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\60_Multipurpose Janitorial Robot.png" id="SMG_60_Multipurpose Janitorial Robot" data-flag="@X" onclick="openSidebar('SMG_60_Multipurpose Janitorial Robot',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\95_Reality Shear.png" id="SMG_95_Reality Shear" data-flag="@X" onclick="openSidebar('SMG_95_Reality Shear',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\139_Nightwalker.png" id="SMG_139_Nightwalker" data-flag="@X" onclick="openSidebar('SMG_139_Nightwalker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\174_Lively Spark.png" id="SMG_174_Lively Spark" data-flag="@X" onclick="openSidebar('SMG_174_Lively Spark',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\209_Nightwatch Inquisitor.png" id="SMG_209_Nightwatch Inquisitor" data-flag="@X" onclick="openSidebar('SMG_209_Nightwatch Inquisitor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\61_Nobles' Ball.png" id="SMG_61_Nobles Ball" data-flag="@X" onclick="openSidebar('SMG_61_Nobles Ball',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\96_Reject Reality.png" id="SMG_96_Reject Reality" data-flag="@X" onclick="openSidebar('SMG_96_Reject Reality',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\142_Psyche Charger.png" id="SMG_142_Psyche Charger" data-flag="@X" onclick="openSidebar('SMG_142_Psyche Charger',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\179_Rage Mage.png" id="SMG_179_Rage Mage" data-flag="@X" onclick="openSidebar('SMG_179_Rage Mage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\212_Proven Pugilist.png" id="SMG_212_Proven Pugilist" data-flag="@X" onclick="openSidebar('SMG_212_Proven Pugilist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\62_Orb Warden Angel.png" id="SMG_62_Orb Warden Angel" data-flag="@X" onclick="openSidebar('SMG_62_Orb Warden Angel',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\99_Smog Strider Illithid.png" id="SMG_99_Smog Strider Illithid" data-flag="@X" onclick="openSidebar('SMG_99_Smog Strider Illithid',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\144_Reborn Maiden.png" id="SMG_144_Reborn Maiden" data-flag="@X" onclick="openSidebar('SMG_144_Reborn Maiden',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\181_Smoke Hound.png" id="SMG_181_Smoke Hound" data-flag="@X" onclick="openSidebar('SMG_181_Smoke Hound',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\213_Self-Propelled Heavy Suit.png" id="SMG_213_Self-Propelled Heavy Suit" data-flag="@X" onclick="openSidebar('SMG_213_Self-Propelled Heavy Suit',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\64_Parliament of Owls.png" id="SMG_64_Parliament of Owls" data-flag="@X" onclick="openSidebar('SMG_64_Parliament of Owls',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\100_Smogform.png" id="SMG_100_Smogform" data-flag="@X" onclick="openSidebar('SMG_100_Smogform',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\146_Spring Heeled Stalker.png" id="SMG_146_Spring Heeled Stalker" data-flag="@X" onclick="openSidebar('SMG_146_Spring Heeled Stalker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\184_Steel Shotgunner.png" id="SMG_184_Steel Shotgunner" data-flag="@X" onclick="openSidebar('SMG_184_Steel Shotgunner',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\214_Sludge Crawler.png" id="SMG_214_Sludge Crawler" data-flag="@X" onclick="openSidebar('SMG_214_Sludge Crawler',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\70_Wandering Diplomats.png" id="SMG_70_Wandering Diplomats" data-flag="@X" onclick="openSidebar('SMG_70_Wandering Diplomats',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\107_Union Welder.png" id="SMG_107_Union Welder" data-flag="@X" onclick="openSidebar('SMG_107_Union Welder',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\148_Sting of the Night.png" id="SMG_148_Sting of the Night" data-flag="@X" onclick="openSidebar('SMG_148_Sting of the Night',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\185_Stilt Walker.png" id="SMG_185_Stilt Walker" data-flag="@X" onclick="openSidebar('SMG_185_Stilt Walker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\215_Smashing Scrapper.png" id="SMG_215_Smashing Scrapper" data-flag="@X" onclick="openSidebar('SMG_215_Smashing Scrapper',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\36_Advisor's Familiar.png" id="SMG_36_Advisors Familiar" data-flag="@X" onclick="openSidebar('SMG_36_Advisors Familiar',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\109_Wartorn Homunculus.png" id="SMG_109_Wartorn Homunculus" data-flag="@X" onclick="openSidebar('SMG_109_Wartorn Homunculus',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\149_Unhinged Inquisitor.png" id="SMG_149_Unhinged Inquisitor" data-flag="@X" onclick="openSidebar('SMG_149_Unhinged Inquisitor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\150_Arc Field.png" id="SMG_150_Arc Field" data-flag="@X" onclick="openSidebar('SMG_150_Arc Field',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\187_Acid Spitter Mutant.png" id="SMG_187_Acid Spitter Mutant" data-flag="@X" onclick="openSidebar('SMG_187_Acid Spitter Mutant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\42_Crashing Robot.png" id="SMG_42_Crashing Robot" data-flag="@X" onclick="openSidebar('SMG_42_Crashing Robot',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\110_Welded Protection Suit.png" id="SMG_110_Welded Protection Suit" data-flag="@X" onclick="openSidebar('SMG_110_Welded Protection Suit',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\113_Artifical Inquisitor.png" id="SMG_113_Artifical Inquisitor" data-flag="@X" onclick="openSidebar('SMG_113_Artifical Inquisitor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\151_Armored Personnel Carrier.png" id="SMG_151_Armored Personnel Carrier" data-flag="@X" onclick="openSidebar('SMG_151_Armored Personnel Carrier',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\188_Bleakwind Ranger.png" id="SMG_188_Bleakwind Ranger" data-flag="@X" onclick="openSidebar('SMG_188_Bleakwind Ranger',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\44_Elegant Debutante.png" id="SMG_44_Elegant Debutante" data-flag="@X" onclick="openSidebar('SMG_44_Elegant Debutante',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\73_Abhuman Construct.png" id="SMG_73_Abhuman Construct" data-flag="@X" onclick="openSidebar('SMG_73_Abhuman Construct',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\114_Attack of the Dead Men.png" id="SMG_114_Attack of the Dead Men" data-flag="@X" onclick="openSidebar('SMG_114_Attack of the Dead Men',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\153_Birth of Death.png" id="SMG_153_Birth of Death" data-flag="@X" onclick="openSidebar('SMG_153_Birth of Death',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\189_Don the Masks.png" id="SMG_189_Don the Masks" data-flag="@X" onclick="openSidebar('SMG_189_Don the Masks',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\45_Elegant Newlyweds.png" id="SMG_45_Elegant Newlyweds" data-flag="@X" onclick="openSidebar('SMG_45_Elegant Newlyweds',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\76_Artificer's Curiosity.png" id="SMG_76_Artificers Curiosity" data-flag="@X" onclick="openSidebar('SMG_76_Artificers Curiosity',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\116_Bog Scarecrow.png" id="SMG_116_Bog Scarecrow" data-flag="@X" onclick="openSidebar('SMG_116_Bog Scarecrow',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\154_Blazeback Soldier.png" id="SMG_154_Blazeback Soldier" data-flag="@X" onclick="openSidebar('SMG_154_Blazeback Soldier',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\193_Emerge From the Depths.png" id="SMG_193_Emerge From the Depths" data-flag="@X" onclick="openSidebar('SMG_193_Emerge From the Depths',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\47_Executionary Advice.png" id="SMG_47_Executionary Advice" data-flag="@X" onclick="openSidebar('SMG_47_Executionary Advice',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\77_Automated Officer.png" id="SMG_77_Automated Officer" data-flag="@X" onclick="openSidebar('SMG_77_Automated Officer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\117_Bogborn Inquisitor.png" id="SMG_117_Bogborn Inquisitor" data-flag="@X" onclick="openSidebar('SMG_117_Bogborn Inquisitor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\156_Burn the Wreckage.png" id="SMG_156_Burn the Wreckage" data-flag="@X" onclick="openSidebar('SMG_156_Burn the Wreckage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\194_Enraged Forgemaster.png" id="SMG_194_Enraged Forgemaster" data-flag="@X" onclick="openSidebar('SMG_194_Enraged Forgemaster',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\51_Good-Hearted Cleric.png" id="SMG_51_Good-Hearted Cleric" data-flag="@X" onclick="openSidebar('SMG_51_Good-Hearted Cleric',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\81_Eldritch Rifleman.png" id="SMG_81_Eldritch Rifleman" data-flag="@X" onclick="openSidebar('SMG_81_Eldritch Rifleman',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\119_Charging Line.png" id="SMG_119_Charging Line" data-flag="@X" onclick="openSidebar('SMG_119_Charging Line',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\157_Burning Coal Drake.png" id="SMG_157_Burning Coal Drake" data-flag="@X" onclick="openSidebar('SMG_157_Burning Coal Drake',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\196_Faceless Mutant.png" id="SMG_196_Faceless Mutant" data-flag="@X" onclick="openSidebar('SMG_196_Faceless Mutant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\52_Half-Finished Golem.png" id="SMG_52_Half-Finished Golem" data-flag="@X" onclick="openSidebar('SMG_52_Half-Finished Golem',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\84_Escape the Coppers.png" id="SMG_84_Escape the Coppers" data-flag="@X" onclick="openSidebar('SMG_84_Escape the Coppers',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\120_The Creeping Shadow of Plague.png" id="SMG_120_The Creeping Shadow of Plague" data-flag="@X" onclick="openSidebar('SMG_120_The Creeping Shadow of Plague',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\162_Electrified Deathsuit.png" id="SMG_162_Electrified Deathsuit" data-flag="@X" onclick="openSidebar('SMG_162_Electrified Deathsuit',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\198_Giga-Shark.png" id="SMG_198_Giga-Shark" data-flag="@X" onclick="openSidebar('SMG_198_Giga-Shark',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\53_Holy Seer.png" id="SMG_53_Holy Seer" data-flag="@X" onclick="openSidebar('SMG_53_Holy Seer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\85_Eternities Warped Illithid.png" id="SMG_85_Eternities Warped Illithid" data-flag="@X" onclick="openSidebar('SMG_85_Eternities Warped Illithid',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\123_Extensive Entrenchment.png" id="SMG_123_Extensive Entrenchment" data-flag="@X" onclick="openSidebar('SMG_123_Extensive Entrenchment',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\164_Excited Aeronaut.png" id="SMG_164_Excited Aeronaut" data-flag="@X" onclick="openSidebar('SMG_164_Excited Aeronaut',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\202_Lotus Harvester.png" id="SMG_202_Lotus Harvester" data-flag="@X" onclick="openSidebar('SMG_202_Lotus Harvester',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\58_Midnight Terror.png" id="SMG_58_Midnight Terror" data-flag="@X" onclick="openSidebar('SMG_58_Midnight Terror',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\90_Mind Drain Illithid.png" id="SMG_90_Mind Drain Illithid" data-flag="@X" onclick="openSidebar('SMG_90_Mind Drain Illithid',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\124_Faceless Thing.png" id="SMG_124_Faceless Thing" data-flag="@X" onclick="openSidebar('SMG_124_Faceless Thing',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\165_Explosive Thoughts.png" id="SMG_165_Explosive Thoughts" data-flag="@X" onclick="openSidebar('SMG_165_Explosive Thoughts',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\204_Maximize Size.png" id="SMG_204_Maximize Size" data-flag="@X" onclick="openSidebar('SMG_204_Maximize Size',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\59_Militant Advisor.png" id="SMG_59_Militant Advisor" data-flag="@X" onclick="openSidebar('SMG_59_Militant Advisor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\91_Quick Counselor.png" id="SMG_91_Quick Counselor" data-flag="@X" onclick="openSidebar('SMG_91_Quick Counselor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\129_Heavy Tank.png" id="SMG_129_Heavy Tank" data-flag="@X" onclick="openSidebar('SMG_129_Heavy Tank',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\168_Heavy Artillery Brigade.png" id="SMG_168_Heavy Artillery Brigade" data-flag="@X" onclick="openSidebar('SMG_168_Heavy Artillery Brigade',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\210_Omen Cart Rider.png" id="SMG_210_Omen Cart Rider" data-flag="@X" onclick="openSidebar('SMG_210_Omen Cart Rider',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\63_Overindulgence.png" id="SMG_63_Overindulgence" data-flag="@X" onclick="openSidebar('SMG_63_Overindulgence',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\93_Reality Bind.png" id="SMG_93_Reality Bind" data-flag="@X" onclick="openSidebar('SMG_93_Reality Bind',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\131_Inhumane Inhuman.png" id="SMG_131_Inhumane Inhuman" data-flag="@X" onclick="openSidebar('SMG_131_Inhumane Inhuman',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\170_Heavy Mining Operation.png" id="SMG_170_Heavy Mining Operation" data-flag="@X" onclick="openSidebar('SMG_170_Heavy Mining Operation',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\211_Plague Spreader.png" id="SMG_211_Plague Spreader" data-flag="@X" onclick="openSidebar('SMG_211_Plague Spreader',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\65_Poor Orphan.png" id="SMG_65_Poor Orphan" data-flag="@X" onclick="openSidebar('SMG_65_Poor Orphan',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\94_Reality Searcher.png" id="SMG_94_Reality Searcher" data-flag="@X" onclick="openSidebar('SMG_94_Reality Searcher',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\136_Mind Tear.png" id="SMG_136_Mind Tear" data-flag="@X" onclick="openSidebar('SMG_136_Mind Tear',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\172_Last-Ditch Explosive.png" id="SMG_172_Last-Ditch Explosive" data-flag="@X" onclick="openSidebar('SMG_172_Last-Ditch Explosive',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\217_Smogborn Hunter.png" id="SMG_217_Smogborn Hunter" data-flag="@X" onclick="openSidebar('SMG_217_Smogborn Hunter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\66_Restless Steelworkers.png" id="SMG_66_Restless Steelworkers" data-flag="@X" onclick="openSidebar('SMG_66_Restless Steelworkers',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\101_Smogwalker.png" id="SMG_101_Smogwalker" data-flag="@X" onclick="openSidebar('SMG_101_Smogwalker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\138_Night Flayer.png" id="SMG_138_Night Flayer" data-flag="@X" onclick="openSidebar('SMG_138_Night Flayer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\175_Lumberjack Suit.png" id="SMG_175_Lumberjack Suit" data-flag="@X" onclick="openSidebar('SMG_175_Lumberjack Suit',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\218_Steel Skinned Inquisitor.png" id="SMG_218_Steel Skinned Inquisitor" data-flag="@X" onclick="openSidebar('SMG_218_Steel Skinned Inquisitor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\67_Scrap Metal Recycler.png" id="SMG_67_Scrap Metal Recycler" data-flag="@X" onclick="openSidebar('SMG_67_Scrap Metal Recycler',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\102_Squad Up.png" id="SMG_102_Squad Up" data-flag="@X" onclick="openSidebar('SMG_102_Squad Up',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\140_Plague Burner.png" id="SMG_140_Plague Burner" data-flag="@X" onclick="openSidebar('SMG_140_Plague Burner',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\178_Promethean Soldier.png" id="SMG_178_Promethean Soldier" data-flag="@X" onclick="openSidebar('SMG_178_Promethean Soldier',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\219_Tis Just a Small Prick.png" id="SMG_219_Tis Just a Small Prick" data-flag="@X" onclick="openSidebar('SMG_219_Tis Just a Small Prick',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\71_Warp Universes.png" id="SMG_71_Warp Universes" data-flag="@X" onclick="openSidebar('SMG_71_Warp Universes',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\103_Supply Engineer.png" id="SMG_103_Supply Engineer" data-flag="@X" onclick="openSidebar('SMG_103_Supply Engineer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\141_Plague-Born Inquisitor.png" id="SMG_141_Plague-Born Inquisitor" data-flag="@X" onclick="openSidebar('SMG_141_Plague-Born Inquisitor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\180_Runaway Guncar.png" id="SMG_180_Runaway Guncar" data-flag="@X" onclick="openSidebar('SMG_180_Runaway Guncar',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\220_Violent Assembly.png" id="SMG_220_Violent Assembly" data-flag="@X" onclick="openSidebar('SMG_220_Violent Assembly',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\72_Windumaer's Strike.png" id="SMG_72_Windumaers Strike" data-flag="@X" onclick="openSidebar('SMG_72_Windumaers Strike',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\104_Take Flight.png" id="SMG_104_Take Flight" data-flag="@X" onclick="openSidebar('SMG_104_Take Flight',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\145_Shadow of the Night.png" id="SMG_145_Shadow of the Night" data-flag="@X" onclick="openSidebar('SMG_145_Shadow of the Night',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\182_Sparking Lightbulb.png" id="SMG_182_Sparking Lightbulb" data-flag="@X" onclick="openSidebar('SMG_182_Sparking Lightbulb',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\221_Warp Puncher.png" id="SMG_221_Warp Puncher" data-flag="@X" onclick="openSidebar('SMG_221_Warp Puncher',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SMG_e" data-flag="@E" onclick="openSidebar('SMG_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\108_Warp Mind.png" id="SMG_108_Warp Mind" data-flag="@X" onclick="openSidebar('SMG_108_Warp Mind',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\147_Stern Noble.png" id="SMG_147_Stern Noble" data-flag="@X" onclick="openSidebar('SMG_147_Stern Noble',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SMG_e" data-flag="@E" onclick="openSidebar('SMG_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SMG_e" data-flag="@E" onclick="openSidebar('SMG_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SMG_e" data-flag="@E" onclick="openSidebar('SMG_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\111_Well-Read Tutor.png" id="SMG_111_Well-Read Tutor" data-flag="@X" onclick="openSidebar('SMG_111_Well-Read Tutor',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SMG_e" data-flag="@E" onclick="openSidebar('SMG_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SMG_e" data-flag="@E" onclick="openSidebar('SMG_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SMG_e" data-flag="@E" onclick="openSidebar('SMG_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SMG_er" data-flag="@E" onclick="openSidebar('SMG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SMG_er" data-flag="@E" onclick="openSidebar('SMG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SMG_er" data-flag="@E" onclick="openSidebar('SMG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SMG_er" data-flag="@E" onclick="openSidebar('SMG_er',false)"></div>
+				<div id="gold" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\239_Rebuilt Magpie.png" id="SMG_239_Rebuilt Magpie" data-flag="@X" onclick="openSidebar('SMG_239_Rebuilt Magpie',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\242_Spellweaver Poet.png" id="SMG_242_Spellweaver Poet" data-flag="@X" onclick="openSidebar('SMG_242_Spellweaver Poet',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\229_Doomed Last Stand.png" id="SMG_229_Doomed Last Stand" data-flag="@X" onclick="openSidebar('SMG_229_Doomed Last Stand',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\226_Coal Fire Dragon.png" id="SMG_226_Coal Fire Dragon" data-flag="@X" onclick="openSidebar('SMG_226_Coal Fire Dragon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\231_Enlightened Couple.png" id="SMG_231_Enlightened Couple" data-flag="@X" onclick="openSidebar('SMG_231_Enlightened Couple',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\246_War Council.png" id="SMG_246_War Council" data-flag="@X" onclick="openSidebar('SMG_246_War Council',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\244_Supreme Mindlord.png" id="SMG_244_Supreme Mindlord" data-flag="@X" onclick="openSidebar('SMG_244_Supreme Mindlord',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\233_High Officer Grant.png" id="SMG_233_High Officer Grant" data-flag="@X" onclick="openSidebar('SMG_233_High Officer Grant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\245_Union Miners.png" id="SMG_245_Union Miners" data-flag="@X" onclick="openSidebar('SMG_245_Union Miners',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\247_Windumaer of the People.png" id="SMG_247_Windumaer of the People" data-flag="@X" onclick="openSidebar('SMG_247_Windumaer of the People',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SMG_e" data-flag="@E" onclick="openSidebar('SMG_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SMG_e" data-flag="@E" onclick="openSidebar('SMG_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\236_Major Georgiana Blast.png" id="SMG_236_Major Georgiana Blast" data-flag="@X" onclick="openSidebar('SMG_236_Major Georgiana Blast',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SMG_e" data-flag="@E" onclick="openSidebar('SMG_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\237_People Milling About.png" id="SMG_237_People Milling About" data-flag="@X" onclick="openSidebar('SMG_237_People Milling About',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SMG_e" data-flag="@E" onclick="openSidebar('SMG_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SMG_e" data-flag="@E" onclick="openSidebar('SMG_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\248_Wreckage Team.png" id="SMG_248_Wreckage Team" data-flag="@X" onclick="openSidebar('SMG_248_Wreckage Team',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SMG_e" data-flag="@E" onclick="openSidebar('SMG_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\241_Solidarity Forever.png" id="SMG_241_Solidarity Forever" data-flag="@X" onclick="openSidebar('SMG_241_Solidarity Forever',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SMG_er" data-flag="@E" onclick="openSidebar('SMG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SMG_er" data-flag="@E" onclick="openSidebar('SMG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SMG_er" data-flag="@E" onclick="openSidebar('SMG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SMG_er" data-flag="@E" onclick="openSidebar('SMG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SMG_er" data-flag="@E" onclick="openSidebar('SMG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\238_The Puppet King.png" id="SMG_238_The Puppet King" data-flag="@X" onclick="openSidebar('SMG_238_The Puppet King',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\227_Dack, Eternity Runner.png" id="SMG_227_Dack, Eternity Runner" data-flag="@X" onclick="openSidebar('SMG_227_Dack, Eternity Runner',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\234_Hortense, the Iron Mask.png" id="SMG_234_Hortense, the Iron Mask" data-flag="@X" onclick="openSidebar('SMG_234_Hortense, the Iron Mask',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\240_Rooftop Runner.png" id="SMG_240_Rooftop Runner" data-flag="@X" onclick="openSidebar('SMG_240_Rooftop Runner',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\225_The Caged Avatar.png" id="SMG_225_The Caged Avatar" data-flag="@X" onclick="openSidebar('SMG_225_The Caged Avatar',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\230_Eloquent Aristocrat.png" id="SMG_230_Eloquent Aristocrat" data-flag="@X" onclick="openSidebar('SMG_230_Eloquent Aristocrat',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\243_Steam Wasp.png" id="SMG_243_Steam Wasp" data-flag="@X" onclick="openSidebar('SMG_243_Steam Wasp',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\232_Feather-Wing Inquisitor.png" id="SMG_232_Feather-Wing Inquisitor" data-flag="@X" onclick="openSidebar('SMG_232_Feather-Wing Inquisitor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\235_Mad Maker.png" id="SMG_235_Mad Maker" data-flag="@X" onclick="openSidebar('SMG_235_Mad Maker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\228_Distorted Scarecrow.png" id="SMG_228_Distorted Scarecrow" data-flag="@X" onclick="openSidebar('SMG_228_Distorted Scarecrow',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SMG_e" data-flag="@E" onclick="openSidebar('SMG_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\224_Aeronaut Grenadier.png" id="SMG_224_Aeronaut Grenadier" data-flag="@X" onclick="openSidebar('SMG_224_Aeronaut Grenadier',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SMG_e" data-flag="@E" onclick="openSidebar('SMG_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SMG_e" data-flag="@E" onclick="openSidebar('SMG_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SMG_e" data-flag="@E" onclick="openSidebar('SMG_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SMG_er" data-flag="@E" onclick="openSidebar('SMG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SMG_er" data-flag="@E" onclick="openSidebar('SMG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SMG_er" data-flag="@E" onclick="openSidebar('SMG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SMG_er" data-flag="@E" onclick="openSidebar('SMG_er',false)"></div>
+				<div id="colorless" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\11_Contact the Great Beyond.png" id="SMG_11_Contact the Great Beyond" data-flag="@X" onclick="openSidebar('SMG_11_Contact the Great Beyond',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\29_The Seeker, Planar Drifter.png" id="SMG_29_The Seeker, Planar Drifter" data-flag="@X" onclick="openSidebar('SMG_29_The Seeker, Planar Drifter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\1_The All-Seeing.png" id="SMG_1_The All-Seeing" data-flag="@X" onclick="openSidebar('SMG_1_The All-Seeing',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\19_Explosive Lancer.png" id="SMG_19_Explosive Lancer" data-flag="@X" onclick="openSidebar('SMG_19_Explosive Lancer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\23_Horror Beyond Comprehension.png" id="SMG_23_Horror Beyond Comprehension" data-flag="@X" onclick="openSidebar('SMG_23_Horror Beyond Comprehension',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\24_Horror of the Past.png" id="SMG_24_Horror of the Past" data-flag="@X" onclick="openSidebar('SMG_24_Horror of the Past',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\27_Mutated Mother Brain.png" id="SMG_27_Mutated Mother Brain" data-flag="@X" onclick="openSidebar('SMG_27_Mutated Mother Brain',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\32_Smog Storm Elemental.png" id="SMG_32_Smog Storm Elemental" data-flag="@X" onclick="openSidebar('SMG_32_Smog Storm Elemental',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\250_Eldritch Conduit Station.png" id="SMG_250_Eldritch Conduit Station" data-flag="@X" onclick="openSidebar('SMG_250_Eldritch Conduit Station',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\253_The Shadowless.png" id="SMG_253_The Shadowless" data-flag="@X" onclick="openSidebar('SMG_253_The Shadowless',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\254_Volta Tower.png" id="SMG_254_Volta Tower" data-flag="@X" onclick="openSidebar('SMG_254_Volta Tower',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\2_Angel of Binding Sight.png" id="SMG_2_Angel of Binding Sight" data-flag="@X" onclick="openSidebar('SMG_2_Angel of Binding Sight',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\3_Anti-Armor Regulator.png" id="SMG_3_Anti-Armor Regulator" data-flag="@X" onclick="openSidebar('SMG_3_Anti-Armor Regulator',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\8_Channel Storms.png" id="SMG_8_Channel Storms" data-flag="@X" onclick="openSidebar('SMG_8_Channel Storms',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\12_Cycle of Creation.png" id="SMG_12_Cycle of Creation" data-flag="@X" onclick="openSidebar('SMG_12_Cycle of Creation',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\14_Death Scythe Inquisitor.png" id="SMG_14_Death Scythe Inquisitor" data-flag="@X" onclick="openSidebar('SMG_14_Death Scythe Inquisitor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\16_Discover Eternity's Heart.png" id="SMG_16_Discover Eternitys Heart" data-flag="@X" onclick="openSidebar('SMG_16_Discover Eternitys Heart',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\18_Exploratory Fighter.png" id="SMG_18_Exploratory Fighter" data-flag="@X" onclick="openSidebar('SMG_18_Exploratory Fighter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\21_Eyes of Infinity.png" id="SMG_21_Eyes of Infinity" data-flag="@X" onclick="openSidebar('SMG_21_Eyes of Infinity',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\31_Shadow Gatherer.png" id="SMG_31_Shadow Gatherer" data-flag="@X" onclick="openSidebar('SMG_31_Shadow Gatherer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\34_Soul Tear.png" id="SMG_34_Soul Tear" data-flag="@X" onclick="openSidebar('SMG_34_Soul Tear',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\35_Storm Being.png" id="SMG_35_Storm Being" data-flag="@X" onclick="openSidebar('SMG_35_Storm Being',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\4_Artifical Elite.png" id="SMG_4_Artifical Elite" data-flag="@X" onclick="openSidebar('SMG_4_Artifical Elite',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\5_Ashen Rebirth.png" id="SMG_5_Ashen Rebirth" data-flag="@X" onclick="openSidebar('SMG_5_Ashen Rebirth',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\6_Bleak Shadow.png" id="SMG_6_Bleak Shadow" data-flag="@X" onclick="openSidebar('SMG_6_Bleak Shadow',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\7_Blind the Unholy.png" id="SMG_7_Blind the Unholy" data-flag="@X" onclick="openSidebar('SMG_7_Blind the Unholy',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\9_Charge Through the Gas.png" id="SMG_9_Charge Through the Gas" data-flag="@X" onclick="openSidebar('SMG_9_Charge Through the Gas',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\10_Coalhound.png" id="SMG_10_Coalhound" data-flag="@X" onclick="openSidebar('SMG_10_Coalhound',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\13_Death Rager Homunculus.png" id="SMG_13_Death Rager Homunculus" data-flag="@X" onclick="openSidebar('SMG_13_Death Rager Homunculus',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\15_Death-Sycthe Harvester.png" id="SMG_15_Death-Sycthe Harvester" data-flag="@X" onclick="openSidebar('SMG_15_Death-Sycthe Harvester',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\17_Eldritch Mutant.png" id="SMG_17_Eldritch Mutant" data-flag="@X" onclick="openSidebar('SMG_17_Eldritch Mutant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\20_Eye of Wonder.png" id="SMG_20_Eye of Wonder" data-flag="@X" onclick="openSidebar('SMG_20_Eye of Wonder',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\22_Homunculus Grenadier.png" id="SMG_22_Homunculus Grenadier" data-flag="@X" onclick="openSidebar('SMG_22_Homunculus Grenadier',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\25_Masked Horrors.png" id="SMG_25_Masked Horrors" data-flag="@X" onclick="openSidebar('SMG_25_Masked Horrors',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\26_Mutant Trainer.png" id="SMG_26_Mutant Trainer" data-flag="@X" onclick="openSidebar('SMG_26_Mutant Trainer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\28_Radiant Ophanim.png" id="SMG_28_Radiant Ophanim" data-flag="@X" onclick="openSidebar('SMG_28_Radiant Ophanim',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\30_Seer of Eternities.png" id="SMG_30_Seer of Eternities" data-flag="@X" onclick="openSidebar('SMG_30_Seer of Eternities',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\33_Smokestack Elemental.png" id="SMG_33_Smokestack Elemental" data-flag="@X" onclick="openSidebar('SMG_33_Smokestack Elemental',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\249_Colossal Golem.png" id="SMG_249_Colossal Golem" data-flag="@X" onclick="openSidebar('SMG_249_Colossal Golem',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\251_Forgemaster Golem.png" id="SMG_251_Forgemaster Golem" data-flag="@X" onclick="openSidebar('SMG_251_Forgemaster Golem',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\252_Intrepid Machine.png" id="SMG_252_Intrepid Machine" data-flag="@X" onclick="openSidebar('SMG_252_Intrepid Machine',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SMG_e" data-flag="@E" onclick="openSidebar('SMG_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SMG_e" data-flag="@E" onclick="openSidebar('SMG_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SMG_e" data-flag="@E" onclick="openSidebar('SMG_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SMG_e" data-flag="@E" onclick="openSidebar('SMG_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SMG_er" data-flag="@E" onclick="openSidebar('SMG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SMG_er" data-flag="@E" onclick="openSidebar('SMG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SMG_er" data-flag="@E" onclick="openSidebar('SMG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SMG_er" data-flag="@E" onclick="openSidebar('SMG_er',false)"></div>
+				<div id="land" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\268_Technologic Reliquary.png" id="SMG_268_Technologic Reliquary" data-flag="@X" onclick="openSidebar('SMG_268_Technologic Reliquary',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\260_Eldritch Observatory.png" id="SMG_260_Eldritch Observatory" data-flag="@X" onclick="openSidebar('SMG_260_Eldritch Observatory',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\262_Etched Tower.png" id="SMG_262_Etched Tower" data-flag="@X" onclick="openSidebar('SMG_262_Etched Tower',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\270_Titanic Junkyard.png" id="SMG_270_Titanic Junkyard" data-flag="@X" onclick="openSidebar('SMG_270_Titanic Junkyard',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\259_Eldritch Laboratory.png" id="SMG_259_Eldritch Laboratory" data-flag="@X" onclick="openSidebar('SMG_259_Eldritch Laboratory',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SMG_er" data-flag="@E" onclick="openSidebar('SMG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SMG_er" data-flag="@E" onclick="openSidebar('SMG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SMG_er" data-flag="@E" onclick="openSidebar('SMG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SMG_er" data-flag="@E" onclick="openSidebar('SMG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SMG_er" data-flag="@E" onclick="openSidebar('SMG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\271_The Upper Parliament.png" id="SMG_271_The Upper Parliament" data-flag="@X" onclick="openSidebar('SMG_271_The Upper Parliament',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\265_Industrialized Crossing.png" id="SMG_265_Industrialized Crossing" data-flag="@X" onclick="openSidebar('SMG_265_Industrialized Crossing',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\264_Industrial Plant.png" id="SMG_264_Industrial Plant" data-flag="@X" onclick="openSidebar('SMG_264_Industrial Plant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\255_Back Alley Bar.png" id="SMG_255_Back Alley Bar" data-flag="@X" onclick="openSidebar('SMG_255_Back Alley Bar',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\257_City Outskirts.png" id="SMG_257_City Outskirts" data-flag="@X" onclick="openSidebar('SMG_257_City Outskirts',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SMG_er" data-flag="@E" onclick="openSidebar('SMG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SMG_er" data-flag="@E" onclick="openSidebar('SMG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SMG_er" data-flag="@E" onclick="openSidebar('SMG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SMG_er" data-flag="@E" onclick="openSidebar('SMG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SMG_er" data-flag="@E" onclick="openSidebar('SMG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\261_Elegant Restaurant.png" id="SMG_261_Elegant Restaurant" data-flag="@X" onclick="openSidebar('SMG_261_Elegant Restaurant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\263_Filigree Laboratory.png" id="SMG_263_Filigree Laboratory" data-flag="@X" onclick="openSidebar('SMG_263_Filigree Laboratory',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\256_Castle in the Woods.png" id="SMG_256_Castle in the Woods" data-flag="@X" onclick="openSidebar('SMG_256_Castle in the Woods',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\266_Molten Forge.png" id="SMG_266_Molten Forge" data-flag="@X" onclick="openSidebar('SMG_266_Molten Forge',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\267_Murky Canal.png" id="SMG_267_Murky Canal" data-flag="@X" onclick="openSidebar('SMG_267_Murky Canal',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SMG_er" data-flag="@E" onclick="openSidebar('SMG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SMG_er" data-flag="@E" onclick="openSidebar('SMG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SMG_er" data-flag="@E" onclick="openSidebar('SMG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SMG_er" data-flag="@E" onclick="openSidebar('SMG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SMG_er" data-flag="@E" onclick="openSidebar('SMG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\258_Corner Market.png" id="SMG_258_Corner Market" data-flag="@X" onclick="openSidebar('SMG_258_Corner Market',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\269_Terramorphic Expanse.png" id="SMG_269_Terramorphic Expanse" data-flag="@X" onclick="openSidebar('SMG_269_Terramorphic Expanse',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SMG_e" data-flag="@E" onclick="openSidebar('SMG_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SMG_e" data-flag="@E" onclick="openSidebar('SMG_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SMG_e" data-flag="@E" onclick="openSidebar('SMG_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SMG_er" data-flag="@E" onclick="openSidebar('SMG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SMG_er" data-flag="@E" onclick="openSidebar('SMG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SMG_er" data-flag="@E" onclick="openSidebar('SMG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SMG_er" data-flag="@E" onclick="openSidebar('SMG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SMG_er" data-flag="@E" onclick="openSidebar('SMG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\273_Plains.png" id="SMG_273_Plains" data-flag="@X" onclick="openSidebar('SMG_273_Plains',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\274_Island.png" id="SMG_274_Island" data-flag="@X" onclick="openSidebar('SMG_274_Island',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\275_Swamp.png" id="SMG_275_Swamp" data-flag="@X" onclick="openSidebar('SMG_275_Swamp',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\276_Mountain.png" id="SMG_276_Mountain" data-flag="@X" onclick="openSidebar('SMG_276_Mountain',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\277_Forest.png" id="SMG_277_Forest" data-flag="@X" onclick="openSidebar('SMG_277_Forest',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\272_Wastes.png" id="SMG_272_Wastes" data-flag="@X" onclick="openSidebar('SMG_272_Wastes',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SMG_e" data-flag="@E" onclick="openSidebar('SMG_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SMG_e" data-flag="@E" onclick="openSidebar('SMG_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SMG_e" data-flag="@E" onclick="openSidebar('SMG_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SMG_e" data-flag="@E" onclick="openSidebar('SMG_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SMG_er" data-flag="@E" onclick="openSidebar('SMG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SMG_er" data-flag="@E" onclick="openSidebar('SMG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SMG_er" data-flag="@E" onclick="openSidebar('SMG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SMG_er" data-flag="@E" onclick="openSidebar('SMG_er',false)"></div>
+				<div id="token" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\1t_Horror.png" id="SMG_1t_Horror" data-flag="@X" onclick="openSidebar('SMG_1t_Horror',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\2t_Illusion.png" id="SMG_2t_Illusion" data-flag="@X" onclick="openSidebar('SMG_2t_Illusion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\3t_Velencium City of Smog Draft Archetypes.png" id="SMG_3t_Velencium City of Smog Draft Archetypes" data-flag="@X" onclick="openSidebar('SMG_3t_Velencium City of Smog Draft Archetypes',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\9t_Citizen.png" id="SMG_9t_Citizen" data-flag="@X" onclick="openSidebar('SMG_9t_Citizen',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\10t_Clue.png" id="SMG_10t_Clue" data-flag="@X" onclick="openSidebar('SMG_10t_Clue',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\11t_Food.png" id="SMG_11t_Food" data-flag="@X" onclick="openSidebar('SMG_11t_Food',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\12t_Golem.png" id="SMG_12t_Golem" data-flag="@X" onclick="openSidebar('SMG_12t_Golem',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\13t_Homunculus.png" id="SMG_13t_Homunculus" data-flag="@X" onclick="openSidebar('SMG_13t_Homunculus',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\14t_Soldier.png" id="SMG_14t_Soldier" data-flag="@X" onclick="openSidebar('SMG_14t_Soldier',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\15t_Treasure.png" id="SMG_15t_Treasure" data-flag="@X" onclick="openSidebar('SMG_15t_Treasure',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\16t_Weapon.png" id="SMG_16t_Weapon" data-flag="@X" onclick="openSidebar('SMG_16t_Weapon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\4t_Bird.png" id="SMG_4t_Bird" data-flag="@X" onclick="openSidebar('SMG_4t_Bird',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\5t_Spirit.png" id="SMG_5t_Spirit" data-flag="@X" onclick="openSidebar('SMG_5t_Spirit',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\6t_Tentacle.png" id="SMG_6t_Tentacle" data-flag="@X" onclick="openSidebar('SMG_6t_Tentacle',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\7t_Elemental.png" id="SMG_7t_Elemental" data-flag="@X" onclick="openSidebar('SMG_7t_Elemental',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SMG-files\img\8t_Inquisitor.png" id="SMG_8t_Inquisitor" data-flag="@X" onclick="openSidebar('SMG_8t_Inquisitor',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SMG_e" data-flag="@E" onclick="openSidebar('SMG_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SMG_e" data-flag="@E" onclick="openSidebar('SMG_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SMG_e" data-flag="@E" onclick="openSidebar('SMG_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SMG_e" data-flag="@E" onclick="openSidebar('SMG_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SMG_er" data-flag="@E" onclick="openSidebar('SMG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SMG_er" data-flag="@E" onclick="openSidebar('SMG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SMG_er" data-flag="@E" onclick="openSidebar('SMG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SMG_er" data-flag="@E" onclick="openSidebar('SMG_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SMG_er" data-flag="@E" onclick="openSidebar('SMG_er',false)"></div>
+	</div>
+	</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch(rootPath + '/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch(rootPath + '/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+				let all_tags = new Set();
+				card_list_arrayified.forEach(card => {
+					if (card.notes) {
+						const tagMatches = card.notes.matchAll(/!tag(?:<\w+>)?\s+([^\s\n\b]+)/g);
+						for (const match of tagMatches) {
+							all_tags.add(match[1]);
+						}
+					}
+				});
+
+				const searchInput = document.getElementById("search");
+				const tagDropdown = document.getElementById("tag-dropdown");
+
+				// Create a mirror element for position calculation
+				const mirror = document.createElement("div");
+				Object.assign(mirror.style, {
+					position: "absolute",
+					visibility: "hidden",
+					whiteSpace: "pre",
+					font: getComputedStyle(searchInput).font,
+					padding: "0", // No padding for pure text measurement
+					border: "none",
+					boxSizing: "content-box"
+				});
+				document.body.appendChild(mirror);
+
+				if (searchInput && tagDropdown) {
+					tagDropdown.style.width = "auto";
+					tagDropdown.style.minWidth = "75px";
+					tagDropdown.style.maxWidth = "300px";
+					tagDropdown.style.maxHeight = "200px";
+					tagDropdown.style.overflowY = "auto";
+
+					const updateDropdown = function() {
+						const value = searchInput.value;
+						const cursorPosition = searchInput.selectionStart;
+						
+						// Find the tag: prefix immediately preceding the cursor
+						const lastTagIndex = value.substring(0, cursorPosition).lastIndexOf("tag:");
+						
+						if (lastTagIndex !== -1) {
+							const queryStart = lastTagIndex + 4;
+							const query = value.substring(queryStart, cursorPosition);
+							
+							if (!query.includes(" ")) {
+								const filteredTags = Array.from(all_tags).filter(tag => tag.toLowerCase().startsWith(query.toLowerCase())).sort();
+								if (filteredTags.length > 0) {
+									tagDropdown.innerHTML = "";
+									filteredTags.forEach(tag => {
+										const div = document.createElement("div");
+										div.innerText = tag;
+										div.style.padding = "5px 10px";
+										div.style.cursor = "pointer";
+										div.style.whiteSpace = "nowrap";
+										div.onmouseover = () => div.style.background = "#f0f0f0";
+										div.onmouseout = () => div.style.background = "white";
+										div.onclick = () => {
+											const newValue = value.substring(0, queryStart) + tag + " " + value.substring(cursorPosition);
+											searchInput.value = newValue;
+											tagDropdown.style.display = "none";
+											searchInput.focus();
+											const newCursorPos = queryStart + tag.length + 1;
+											searchInput.setSelectionRange(newCursorPos, newCursorPos);
+										};
+										tagDropdown.appendChild(div);
+									});
+
+									// Calculate position
+									mirror.textContent = value.substring(0, lastTagIndex + 4);
+									const textWidth = mirror.getBoundingClientRect().width;
+									const inputPaddingLeft = parseFloat(getComputedStyle(searchInput).paddingLeft) || 0;
+									
+									tagDropdown.style.left = Math.min(textWidth + inputPaddingLeft, searchInput.offsetWidth - tagDropdown.offsetWidth) + "px";
+									tagDropdown.style.display = "block";
+									return;
+								}
+							}
+						}
+						tagDropdown.style.display = "none";
+					};
+
+					searchInput.addEventListener("input", updateDropdown);
+					searchInput.addEventListener("click", updateDropdown);
+					searchInput.addEventListener("keyup", updateDropdown);
+
+					document.addEventListener("click", function(e) {
+						if (e.target !== searchInput && e.target !== tagDropdown) {
+							tagDropdown.style.display = "none";
+						}
+					});
+				}
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = rootPath + '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = rootPath + '/' + img.alt;
+				if (img.dataset.alt_src) {
+					img.dataset.alt_src = rootPath + '/' + img.dataset.alt_src;
+				}
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		const img = document.getElementById(num);
+		const seconds = 0.2;
+		const rotated_img = document.getElementById('sidebar_h_img');
+
+        img.style.transition = seconds.toString() + "s";
+        img.style.transform = "rotateY(90deg)";
+
+        if (num == 'sidebar_img')
+		{
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(90deg) rotate(90deg)";
+
+           		if (rotated_img.style.opacity != "0") {
+		            setTimeout(() => {
+		                rotated_img.style.opacity = "0";
+		                img.style.filter = "none";
+		            }, (seconds / 2) * 1000);
+		        }
+		        else {
+		        	setTimeout(() => {
+		                rotated_img.style.opacity = "1";
+		                img.style.filter = "blur(2px) brightness(0.7)";
+		            }, (seconds / 2) * 1000);
+		        }
+            }
+		}
+
+         setTimeout(function() {
+            tmp = document.getElementById(num).src;
+			document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+			document.getElementById(num).dataset.alt_src = tmp;
+
+            img.style.transition = seconds.toString() + "s";
+            img.style.transform = "rotateY(0deg)";
+
+            if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(0deg) rotate(90deg)";
+            }
+        }, seconds * 1000);
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.style.transition = "none";
+		rotated_img.style.transition = "none";
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.opacity = "1";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.opacity = "0";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	function rolldown() {
+		dropdown.style.gridTemplateColumns = "repeat(3, 1fr)";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "auto";
+			set.style.margin = "5px";
+		}
+	}
+
+	function rollup() {
+		dropdown.style.gridTemplateColumns = "1fr";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "0px";
+			set.style.margin = "0px 5px";
+		}
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL(rootPath + '/search', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url.pathname + url.search;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL(rootPath + '/card', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url.pathname + url.search;
+			}
+	</script>
+</body>
+</html>
