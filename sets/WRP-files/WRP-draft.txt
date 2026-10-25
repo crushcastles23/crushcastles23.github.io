@@ -15,7 +15,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Artifact Creature — Drone Scout",
-			"collector_number": "25",
+			"collector_number": "24",
 			"image_uris": {
 				"en": "https://crushcastles23.github.io/sets/WRP-files/img/1.png"
 			}
@@ -25,7 +25,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
 			"type": "Creature — Human Soldier",
-			"collector_number": "13",
+			"collector_number": "14",
 			"image_uris": {
 				"en": "https://crushcastles23.github.io/sets/WRP-files/img/2.png"
 			}
@@ -41,11 +41,11 @@
 			}
 		},
 		{
-			"name": "High Altitude Defense Jet",
+			"name": "Disconnected Sliver",
 			"rarity": "common",
-			"mana_cost": "{2}{W}",
-			"type": "Artifact — Vehicle",
-			"collector_number": "15",
+			"mana_cost": "{W}",
+			"type": "Creature — Sliver",
+			"collector_number": "11",
 			"image_uris": {
 				"en": "https://crushcastles23.github.io/sets/WRP-files/img/4.png"
 			}
@@ -55,7 +55,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
 			"type": "Artifact Creature — Robot Soldier",
-			"collector_number": "23",
+			"collector_number": "22",
 			"image_uris": {
 				"en": "https://crushcastles23.github.io/sets/WRP-files/img/5.png"
 			}
@@ -65,7 +65,7 @@
 			"rarity": "common",
 			"mana_cost": "{4}{W}",
 			"type": "Enchantment Creature — Avatar",
-			"collector_number": "36",
+			"collector_number": "35",
 			"image_uris": {
 				"en": "https://crushcastles23.github.io/sets/WRP-files/img/6.png"
 			}
@@ -75,7 +75,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
 			"type": "Instant",
-			"collector_number": "26",
+			"collector_number": "25",
 			"image_uris": {
 				"en": "https://crushcastles23.github.io/sets/WRP-files/img/7.png"
 			}
@@ -85,7 +85,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Sorcery",
-			"collector_number": "31",
+			"collector_number": "30",
 			"image_uris": {
 				"en": "https://crushcastles23.github.io/sets/WRP-files/img/8.png"
 			}
@@ -95,19 +95,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}{W}",
 			"type": "Sorcery",
-			"collector_number": "24",
+			"collector_number": "23",
 			"image_uris": {
 				"en": "https://crushcastles23.github.io/sets/WRP-files/img/9.png"
-			}
-		},
-		{
-			"name": "Light of Creation",
-			"rarity": "common",
-			"mana_cost": "{3}{W}",
-			"type": "Enchantment Creature — Saga Avatar",
-			"collector_number": "20",
-			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/10.png"
 			}
 		},
 		{
@@ -115,9 +105,9 @@
 			"rarity": "common",
 			"mana_cost": "{U}",
 			"type": "Creature — Merfolk Alien Rogue",
-			"collector_number": "64",
+			"collector_number": "62",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/11.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/10.png"
 			}
 		},
 		{
@@ -125,9 +115,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"type": "Artifact Creature — Robot Wizard",
-			"collector_number": "63",
+			"collector_number": "61",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/12.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/11.png"
 			}
 		},
 		{
@@ -135,9 +125,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{U}",
 			"type": "Artifact Creature — Cyborg Rogue",
-			"collector_number": "48",
+			"collector_number": "47",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/13.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/12.png"
 			}
 		},
 		{
@@ -145,9 +135,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{U}",
 			"type": "Creature — Human Advisor",
-			"collector_number": "38",
+			"collector_number": "37",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/14.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/13.png"
 			}
 		},
 		{
@@ -155,9 +145,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{U}",
 			"type": "Artifact Creature — Cyborg Scout",
-			"collector_number": "69",
+			"collector_number": "67",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/15.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/14.png"
 			}
 		},
 		{
@@ -165,9 +155,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}{U}",
 			"type": "Artifact Creature — Robot Wizard",
-			"collector_number": "49",
+			"collector_number": "48",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/16.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/15.png"
 			}
 		},
 		{
@@ -175,9 +165,9 @@
 			"rarity": "common",
 			"mana_cost": "{U}",
 			"type": "Sorcery",
-			"collector_number": "50",
+			"collector_number": "49",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/17.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/16.png"
 			}
 		},
 		{
@@ -185,9 +175,9 @@
 			"rarity": "common",
 			"mana_cost": "{U}",
 			"type": "Instant",
-			"collector_number": "58",
+			"collector_number": "56",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/18.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/17.png"
 			}
 		},
 		{
@@ -195,9 +185,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"type": "Instant",
-			"collector_number": "45",
+			"collector_number": "44",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/19.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/18.png"
 			}
 		},
 		{
@@ -205,19 +195,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"type": "Sorcery",
-			"collector_number": "51",
+			"collector_number": "50",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/20.png"
-			}
-		},
-		{
-			"name": "Songs of the Frozen Void",
-			"rarity": "common",
-			"mana_cost": "{3}{U}",
-			"type": "Enchantment Creature — Saga Avatar",
-			"collector_number": "65",
-			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/21.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/19.png"
 			}
 		},
 		{
@@ -225,9 +205,9 @@
 			"rarity": "common",
 			"mana_cost": "{B}",
 			"type": "Artifact Creature — Robot Assassin",
-			"collector_number": "82",
+			"collector_number": "80",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/22.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/20.png"
 			}
 		},
 		{
@@ -235,9 +215,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Creature — Human Pirate",
-			"collector_number": "95",
+			"collector_number": "94",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/23.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/21.png"
 			}
 		},
 		{
@@ -245,9 +225,9 @@
 			"rarity": "common",
 			"mana_cost": "{B}",
 			"type": "Creature — Human Soldier",
-			"collector_number": "88",
+			"collector_number": "86",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/24.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/22.png"
 			}
 		},
 		{
@@ -255,9 +235,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{B}",
 			"type": "Creature — Human Soldier",
-			"collector_number": "87",
+			"collector_number": "85",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/25.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/23.png"
 			}
 		},
 		{
@@ -265,19 +245,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{B}",
 			"type": "Artifact Creature — Cyborg Rogue",
-			"collector_number": "83",
+			"collector_number": "81",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/26.png"
-			}
-		},
-		{
-			"name": "Last Days of a Lonely World",
-			"rarity": "common",
-			"mana_cost": "{4}{B}",
-			"type": "Enchantment Creature — Saga Avatar",
-			"collector_number": "94",
-			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/27.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/24.png"
 			}
 		},
 		{
@@ -285,9 +255,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Sorcery",
-			"collector_number": "105",
+			"collector_number": "102",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/28.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/25.png"
 			}
 		},
 		{
@@ -295,9 +265,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Sorcery",
-			"collector_number": "73",
+			"collector_number": "71",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/29.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/26.png"
 			}
 		},
 		{
@@ -305,9 +275,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Sorcery",
-			"collector_number": "90",
+			"collector_number": "88",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/30.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/27.png"
 			}
 		},
 		{
@@ -315,19 +285,19 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Sorcery",
-			"collector_number": "79",
+			"collector_number": "77",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/31.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/28.png"
 			}
 		},
 		{
-			"name": "Shatter Identity",
+			"name": "Infectious Sliver",
 			"rarity": "common",
-			"mana_cost": "{B}",
-			"type": "Sorcery",
-			"collector_number": "101",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Sliver",
+			"collector_number": "92",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/32.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/29.png"
 			}
 		},
 		{
@@ -335,9 +305,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Human Soldier",
-			"collector_number": "128",
+			"collector_number": "125",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/33.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/30.png"
 			}
 		},
 		{
@@ -345,9 +315,9 @@
 			"rarity": "common",
 			"mana_cost": "{R}",
 			"type": "Creature — Human Soldier",
-			"collector_number": "121",
+			"collector_number": "118",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/34.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/31.png"
 			}
 		},
 		{
@@ -355,9 +325,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Alien Soldier",
-			"collector_number": "114",
+			"collector_number": "111",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/35.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/32.png"
 			}
 		},
 		{
@@ -365,9 +335,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Human Pirate",
-			"collector_number": "109",
+			"collector_number": "106",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/36.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/33.png"
 			}
 		},
 		{
@@ -375,9 +345,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{R}",
 			"type": "Enchantment Creature — Avatar",
-			"collector_number": "127",
+			"collector_number": "124",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/37.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/34.png"
 			}
 		},
 		{
@@ -385,9 +355,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{R}",
 			"type": "Artifact Creature — Robot Soldier",
-			"collector_number": "137",
+			"collector_number": "133",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/38.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/35.png"
 			}
 		},
 		{
@@ -395,9 +365,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
 			"type": "Artifact — Vehicle",
-			"collector_number": "141",
+			"collector_number": "137",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/39.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/36.png"
 			}
 		},
 		{
@@ -405,9 +375,9 @@
 			"rarity": "common",
 			"mana_cost": "{R}",
 			"type": "Sorcery",
-			"collector_number": "122",
+			"collector_number": "119",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/40.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/37.png"
 			}
 		},
 		{
@@ -415,9 +385,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
 			"type": "Sorcery",
-			"collector_number": "132",
+			"collector_number": "128",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/41.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/38.png"
 			}
 		},
 		{
@@ -425,19 +395,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
 			"type": "Sorcery",
-			"collector_number": "136",
+			"collector_number": "132",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/42.png"
-			}
-		},
-		{
-			"name": "Blade of the Darkstar",
-			"rarity": "common",
-			"mana_cost": "{3}{R}",
-			"type": "Enchantment Creature — Saga Avatar",
-			"collector_number": "110",
-			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/43.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/39.png"
 			}
 		},
 		{
@@ -445,9 +405,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Human Scout",
-			"collector_number": "151",
+			"collector_number": "147",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/44.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/40.png"
 			}
 		},
 		{
@@ -455,9 +415,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Enchantment Creature — Avatar Warrior",
-			"collector_number": "177",
+			"collector_number": "172",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/45.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/41.png"
 			}
 		},
 		{
@@ -465,9 +425,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
 			"type": "Creature — Human Druid",
-			"collector_number": "144",
+			"collector_number": "140",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/46.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/42.png"
 			}
 		},
 		{
@@ -475,9 +435,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
 			"type": "Enchantment Creature — Avatar Scout",
-			"collector_number": "148",
+			"collector_number": "144",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/47.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/43.png"
 			}
 		},
 		{
@@ -485,9 +445,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}{G}",
 			"type": "Creature — Wurm",
-			"collector_number": "164",
+			"collector_number": "160",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/48.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/44.png"
 			}
 		},
 		{
@@ -495,19 +455,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{G}",
 			"type": "Enchantment Creature — Beast Avatar",
-			"collector_number": "171",
+			"collector_number": "166",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/49.png"
-			}
-		},
-		{
-			"name": "Rite of Creation",
-			"rarity": "common",
-			"mana_cost": "{3}{G}",
-			"type": "Enchantment Creature — Saga Avatar",
-			"collector_number": "163",
-			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/50.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/45.png"
 			}
 		},
 		{
@@ -515,9 +465,9 @@
 			"rarity": "common",
 			"mana_cost": "{5}{G}",
 			"type": "Enchantment Creature — Avatar",
-			"collector_number": "159",
+			"collector_number": "156",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/51.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/46.png"
 			}
 		},
 		{
@@ -525,9 +475,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
 			"type": "Sorcery",
-			"collector_number": "147",
+			"collector_number": "143",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/52.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/47.png"
 			}
 		},
 		{
@@ -535,9 +485,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Sorcery",
-			"collector_number": "172",
+			"collector_number": "167",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/53.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/48.png"
 			}
 		},
 		{
@@ -545,9 +495,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
 			"type": "Enchantment — Aura",
-			"collector_number": "146",
+			"collector_number": "142",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/54.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/49.png"
 			}
 		},
 		{
@@ -555,9 +505,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}",
 			"type": "Artifact — Equipment",
-			"collector_number": "200",
+			"collector_number": "198",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/55.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/50.png"
 			}
 		},
 		{
@@ -565,9 +515,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}",
 			"type": "Artifact",
-			"collector_number": "194",
+			"collector_number": "192",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/56.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/51.png"
 			}
 		},
 		{
@@ -575,9 +525,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}",
 			"type": "Artifact Creature — Robot Soldier",
-			"collector_number": "198",
+			"collector_number": "196",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/57.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/52.png"
 			}
 		},
 		{
@@ -585,9 +535,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land — Planet",
-			"collector_number": "204",
+			"collector_number": "202",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/58.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/53.png"
 			}
 		},
 		{
@@ -595,9 +545,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Artifact Land — Planet",
-			"collector_number": "205",
+			"collector_number": "203",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/59.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/54.png"
 			}
 		},
 		{
@@ -605,9 +555,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land — Planet",
-			"collector_number": "211",
+			"collector_number": "209",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/60.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/55.png"
 			}
 		},
 		{
@@ -615,19 +565,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Creature — Sliver",
-			"collector_number": "12",
+			"collector_number": "13",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/61.png"
-			}
-		},
-		{
-			"name": "Moon Sliver",
-			"rarity": "common",
-			"mana_cost": "{2}{W}",
-			"type": "Creature — Sliver",
-			"collector_number": "21",
-			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/62.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/56.png"
 			}
 		},
 		{
@@ -635,19 +575,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"type": "Creature — Sliver",
-			"collector_number": "71",
+			"collector_number": "69",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/63.png"
-			}
-		},
-		{
-			"name": "Ice Crystal Sliver",
-			"rarity": "common",
-			"mana_cost": "{2}{U}",
-			"type": "Creature — Sliver",
-			"collector_number": "53",
-			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/64.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/57.png"
 			}
 		},
 		{
@@ -655,19 +585,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Creature — Sliver",
-			"collector_number": "74",
+			"collector_number": "72",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/65.png"
-			}
-		},
-		{
-			"name": "Nightmare Sliver",
-			"rarity": "common",
-			"mana_cost": "{2}{B}",
-			"type": "Creature — Sliver",
-			"collector_number": "96",
-			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/66.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/58.png"
 			}
 		},
 		{
@@ -675,19 +595,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Sliver",
-			"collector_number": "124",
+			"collector_number": "121",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/67.png"
-			}
-		},
-		{
-			"name": "Razorcrest Sliver",
-			"rarity": "common",
-			"mana_cost": "{2}{R}",
-			"type": "Creature — Sliver",
-			"collector_number": "131",
-			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/68.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/59.png"
 			}
 		},
 		{
@@ -695,19 +605,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Sliver",
-			"collector_number": "175",
+			"collector_number": "170",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/69.png"
-			}
-		},
-		{
-			"name": "Scout Sliver",
-			"rarity": "common",
-			"mana_cost": "{3}{G}",
-			"type": "Creature — Sliver",
-			"collector_number": "165",
-			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/70.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/60.png"
 			}
 		},
 		{
@@ -715,9 +615,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}",
 			"type": "Artifact Creature — Robot Soldier",
-			"collector_number": "11",
+			"collector_number": "12",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/71.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/61.png"
 			}
 		},
 		{
@@ -725,9 +625,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}",
 			"type": "Artifact Creature — Drone Soldier",
-			"collector_number": "34",
+			"collector_number": "33",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/72.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/62.png"
 			}
 		},
 		{
@@ -737,7 +637,7 @@
 			"type": "Creature — Human Soldier",
 			"collector_number": "8",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/73.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/63.png"
 			}
 		},
 		{
@@ -747,7 +647,7 @@
 			"type": "Creature — Human Soldier Doctor",
 			"collector_number": "10",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/74.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/64.png"
 			}
 		},
 		{
@@ -755,9 +655,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}",
 			"type": "Artifact Creature — Drone",
-			"collector_number": "14",
+			"collector_number": "15",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/75.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/65.png"
 			}
 		},
 		{
@@ -765,19 +665,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{W}",
 			"type": "Creature — Human Soldier",
-			"collector_number": "27",
+			"collector_number": "26",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/76.png"
-			}
-		},
-		{
-			"name": "Song of the Stars",
-			"rarity": "uncommon",
-			"mana_cost": "{4}{W}",
-			"type": "Enchantment Creature — Saga Whale",
-			"collector_number": "32",
-			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/77.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/66.png"
 			}
 		},
 		{
@@ -787,7 +677,7 @@
 			"type": "Enchantment Creature — Avatar",
 			"collector_number": "3",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/78.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/67.png"
 			}
 		},
 		{
@@ -797,7 +687,7 @@
 			"type": "Instant",
 			"collector_number": "9",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/79.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/68.png"
 			}
 		},
 		{
@@ -807,7 +697,7 @@
 			"type": "Sorcery",
 			"collector_number": "4",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/80.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/69.png"
 			}
 		},
 		{
@@ -815,9 +705,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}",
 			"type": "Instant",
-			"collector_number": "28",
+			"collector_number": "27",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/81.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/70.png"
 			}
 		},
 		{
@@ -827,7 +717,7 @@
 			"type": "Sorcery",
 			"collector_number": "5",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/82.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/71.png"
 			}
 		},
 		{
@@ -837,7 +727,7 @@
 			"type": "Sorcery",
 			"collector_number": "2",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/83.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/72.png"
 			}
 		},
 		{
@@ -845,9 +735,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}",
 			"type": "Artifact Creature — Drone",
-			"collector_number": "46",
+			"collector_number": "45",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/84.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/73.png"
 			}
 		},
 		{
@@ -855,9 +745,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}",
 			"type": "Artifact Creature — Robot Shaman",
-			"collector_number": "59",
+			"collector_number": "57",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/85.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/74.png"
 			}
 		},
 		{
@@ -865,9 +755,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{U}",
 			"type": "Creature — Human Soldier",
-			"collector_number": "52",
+			"collector_number": "51",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/86.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/75.png"
 			}
 		},
 		{
@@ -875,9 +765,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}",
 			"type": "Artifact Creature — Drone Scout",
-			"collector_number": "68",
+			"collector_number": "66",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/87.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/76.png"
 			}
 		},
 		{
@@ -885,19 +775,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}",
 			"type": "Enchantment Creature — Avatar Drake",
-			"collector_number": "40",
+			"collector_number": "39",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/88.png"
-			}
-		},
-		{
-			"name": "Star-Cloud Summoner",
-			"rarity": "uncommon",
-			"mana_cost": "{3}{U}",
-			"type": "Enchantment Creature — Saga Drake",
-			"collector_number": "66",
-			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/89.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/77.png"
 			}
 		},
 		{
@@ -905,9 +785,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}",
 			"type": "Enchantment Creature — Avatar",
-			"collector_number": "39",
+			"collector_number": "38",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/90.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/78.png"
 			}
 		},
 		{
@@ -915,9 +795,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{U}",
 			"type": "Artifact Creature — Robot Scout",
-			"collector_number": "60",
+			"collector_number": "58",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/91.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/79.png"
 			}
 		},
 		{
@@ -925,9 +805,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{U}",
 			"type": "Sorcery",
-			"collector_number": "55",
+			"collector_number": "53",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/92.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/80.png"
 			}
 		},
 		{
@@ -935,9 +815,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{U}",
 			"type": "Instant",
-			"collector_number": "72",
+			"collector_number": "70",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/93.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/81.png"
 			}
 		},
 		{
@@ -945,9 +825,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}",
 			"type": "Sorcery",
-			"collector_number": "61",
+			"collector_number": "59",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/94.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/82.png"
 			}
 		},
 		{
@@ -955,9 +835,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}",
 			"type": "Instant",
-			"collector_number": "37",
+			"collector_number": "36",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/95.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/83.png"
 			}
 		},
 		{
@@ -965,9 +845,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}",
 			"type": "Instant",
-			"collector_number": "54",
+			"collector_number": "52",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/96.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/84.png"
 			}
 		},
 		{
@@ -975,19 +855,19 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
 			"type": "Artifact Creature — Cyborg Soldier",
-			"collector_number": "91",
+			"collector_number": "89",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/97.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/85.png"
 			}
 		},
 		{
-			"name": "Synthetic Necromancer",
+			"name": "Sliver Hunter",
 			"rarity": "uncommon",
-			"mana_cost": "{4}{B}",
-			"type": "Artifact Creature — Robot Wizard",
-			"collector_number": "103",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "99",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/98.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/86.png"
 			}
 		},
 		{
@@ -995,9 +875,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
 			"type": "Creature — Alien Assassin",
-			"collector_number": "98",
+			"collector_number": "96",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/99.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/87.png"
 			}
 		},
 		{
@@ -1005,9 +885,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
 			"type": "Artifact Creature — Robot Scout",
-			"collector_number": "75",
+			"collector_number": "73",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/100.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/88.png"
 			}
 		},
 		{
@@ -1015,9 +895,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
 			"type": "Sorcery",
-			"collector_number": "80",
+			"collector_number": "78",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/101.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/89.png"
 			}
 		},
 		{
@@ -1025,19 +905,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B}",
 			"type": "Creature — Human Warlock Soldier",
-			"collector_number": "81",
+			"collector_number": "79",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/102.png"
-			}
-		},
-		{
-			"name": "Ichor Keeper",
-			"rarity": "uncommon",
-			"mana_cost": "{2}{B}",
-			"type": "Enchantment Creature — Saga Avatar",
-			"collector_number": "93",
-			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/103.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/90.png"
 			}
 		},
 		{
@@ -1045,9 +915,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{B}",
 			"type": "Sorcery",
-			"collector_number": "99",
+			"collector_number": "97",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/104.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/91.png"
 			}
 		},
 		{
@@ -1055,9 +925,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
 			"type": "Sorcery",
-			"collector_number": "92",
+			"collector_number": "90",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/105.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/92.png"
 			}
 		},
 		{
@@ -1065,9 +935,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
 			"type": "Instant",
-			"collector_number": "86",
+			"collector_number": "84",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/106.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/93.png"
 			}
 		},
 		{
@@ -1075,9 +945,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{B}",
 			"type": "Sorcery",
-			"collector_number": "97",
+			"collector_number": "95",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/107.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/94.png"
 			}
 		},
 		{
@@ -1085,9 +955,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{B}{B}",
 			"type": "Enchantment Creature — Avatar",
-			"collector_number": "102",
+			"collector_number": "100",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/108.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/95.png"
 			}
 		},
 		{
@@ -1095,9 +965,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{B}{B}",
 			"type": "Enchantment Creature — Avatar",
-			"collector_number": "77",
+			"collector_number": "75",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/109.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/96.png"
 			}
 		},
 		{
@@ -1105,9 +975,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
 			"type": "Artifact — Vehicle",
-			"collector_number": "112",
+			"collector_number": "109",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/110.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/97.png"
 			}
 		},
 		{
@@ -1115,9 +985,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{R}{R}",
 			"type": "Creature — Human Berserker",
-			"collector_number": "138",
+			"collector_number": "134",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/111.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/98.png"
 			}
 		},
 		{
@@ -1125,9 +995,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
 			"type": "Enchantment Creature — Elemental",
-			"collector_number": "134",
+			"collector_number": "130",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/112.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/99.png"
 			}
 		},
 		{
@@ -1135,9 +1005,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
 			"type": "Enchantment Creature — Scout",
-			"collector_number": "135",
+			"collector_number": "131",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/113.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/100.png"
 			}
 		},
 		{
@@ -1145,9 +1015,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Skeleton Scout",
-			"collector_number": "116",
+			"collector_number": "113",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/114.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/101.png"
 			}
 		},
 		{
@@ -1155,9 +1025,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Human Soldier",
-			"collector_number": "111",
+			"collector_number": "108",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/115.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/102.png"
 			}
 		},
 		{
@@ -1165,9 +1035,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
 			"type": "Artifact — Vehicle",
-			"collector_number": "108",
+			"collector_number": "105",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/116.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/103.png"
 			}
 		},
 		{
@@ -1175,9 +1045,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Beast",
-			"collector_number": "133",
+			"collector_number": "129",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/117.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/104.png"
 			}
 		},
 		{
@@ -1185,9 +1055,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
 			"type": "Sorcery",
-			"collector_number": "118",
+			"collector_number": "115",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/118.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/105.png"
 			}
 		},
 		{
@@ -1195,9 +1065,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R}",
 			"type": "Sorcery",
-			"collector_number": "139",
+			"collector_number": "135",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/119.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/106.png"
 			}
 		},
 		{
@@ -1205,9 +1075,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
 			"type": "Instant",
-			"collector_number": "115",
+			"collector_number": "112",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/120.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/107.png"
 			}
 		},
 		{
@@ -1215,9 +1085,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R}",
 			"type": "Sorcery",
-			"collector_number": "120",
+			"collector_number": "117",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/121.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/108.png"
 			}
 		},
 		{
@@ -1225,9 +1095,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
 			"type": "Instant",
-			"collector_number": "113",
+			"collector_number": "110",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/122.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/109.png"
 			}
 		},
 		{
@@ -1235,19 +1105,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
 			"type": "Enchantment Creature — Avatar",
-			"collector_number": "169",
+			"collector_number": "164",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/123.png"
-			}
-		},
-		{
-			"name": "Spirit of the Forests",
-			"rarity": "uncommon",
-			"mana_cost": "{3}{G}{G}",
-			"type": "Enchantment Creature — Saga Beast",
-			"collector_number": "168",
-			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/124.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/110.png"
 			}
 		},
 		{
@@ -1255,9 +1115,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{6}{G}{G}",
 			"type": "Enchantment Creature — Avatar",
-			"collector_number": "178",
+			"collector_number": "173",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/125.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/111.png"
 			}
 		},
 		{
@@ -1265,9 +1125,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{G}",
 			"type": "Enchantment Creature — Avatar",
-			"collector_number": "170",
+			"collector_number": "165",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/126.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/112.png"
 			}
 		},
 		{
@@ -1275,9 +1135,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}",
 			"type": "Enchantment Creature — Avatar",
-			"collector_number": "176",
+			"collector_number": "171",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/127.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/113.png"
 			}
 		},
 		{
@@ -1285,9 +1145,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{G}",
 			"type": "Creature — Human Scout",
-			"collector_number": "166",
+			"collector_number": "161",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/128.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/114.png"
 			}
 		},
 		{
@@ -1295,19 +1155,19 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
 			"type": "Enchantment Creature — Avatar",
-			"collector_number": "158",
+			"collector_number": "155",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/129.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/115.png"
 			}
 		},
 		{
-			"name": "Planetary General",
+			"name": "Drudge Sliver",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}",
-			"type": "Creature — Alien Advisor",
-			"collector_number": "160",
+			"type": "Creature — Sliver",
+			"collector_number": "148",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/130.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/116.png"
 			}
 		},
 		{
@@ -1315,9 +1175,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{G}{G}",
 			"type": "Sorcery",
-			"collector_number": "155",
+			"collector_number": "152",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/131.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/117.png"
 			}
 		},
 		{
@@ -1325,9 +1185,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}",
 			"type": "Sorcery",
-			"collector_number": "157",
+			"collector_number": "154",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/132.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/118.png"
 			}
 		},
 		{
@@ -1335,9 +1195,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}",
 			"type": "Sorcery",
-			"collector_number": "153",
+			"collector_number": "150",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/133.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/119.png"
 			}
 		},
 		{
@@ -1345,9 +1205,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
 			"type": "Sorcery",
-			"collector_number": "152",
+			"collector_number": "149",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/134.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/120.png"
 			}
 		},
 		{
@@ -1355,9 +1215,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{X}{G}{G}",
 			"type": "Artifact Creature — Hydra Robot",
-			"collector_number": "156",
+			"collector_number": "153",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/135.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/121.png"
 			}
 		},
 		{
@@ -1365,9 +1225,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}",
 			"type": "Artifact",
-			"collector_number": "199",
+			"collector_number": "197",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/136.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/122.png"
 			}
 		},
 		{
@@ -1375,9 +1235,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}",
 			"type": "Artifact — Equipment",
-			"collector_number": "197",
+			"collector_number": "195",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/137.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/123.png"
 			}
 		},
 		{
@@ -1385,9 +1245,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}",
 			"type": "Artifact Creature — Robot",
-			"collector_number": "196",
+			"collector_number": "194",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/138.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/124.png"
 			}
 		},
 		{
@@ -1395,9 +1255,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land — Planet",
-			"collector_number": "203",
+			"collector_number": "201",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/139.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/125.png"
 			}
 		},
 		{
@@ -1405,9 +1265,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land — Planet",
-			"collector_number": "201",
+			"collector_number": "199",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/140.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/126.png"
 			}
 		},
 		{
@@ -1415,9 +1275,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land — Planet",
-			"collector_number": "210",
+			"collector_number": "208",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/141.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/127.png"
 			}
 		},
 		{
@@ -1425,9 +1285,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land — Planet",
-			"collector_number": "212",
+			"collector_number": "210",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/142.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/128.png"
 			}
 		},
 		{
@@ -1435,9 +1295,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land — Planet",
-			"collector_number": "213",
+			"collector_number": "211",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/143.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/129.png"
 			}
 		},
 		{
@@ -1445,9 +1305,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land — Planet",
-			"collector_number": "209",
+			"collector_number": "207",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/144.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/130.png"
 			}
 		},
 		{
@@ -1455,9 +1315,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land — Planet",
-			"collector_number": "207",
+			"collector_number": "205",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/145.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/131.png"
 			}
 		},
 		{
@@ -1465,9 +1325,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land — Planet",
-			"collector_number": "214",
+			"collector_number": "212",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/146.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/132.png"
 			}
 		},
 		{
@@ -1475,9 +1335,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land — Planet",
-			"collector_number": "202",
+			"collector_number": "200",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/147.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/133.png"
 			}
 		},
 		{
@@ -1485,9 +1345,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land — Planet",
-			"collector_number": "208",
+			"collector_number": "206",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/148.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/134.png"
 			}
 		},
 		{
@@ -1495,9 +1355,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land — Planet",
-			"collector_number": "216",
+			"collector_number": "214",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/149.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/135.png"
 			}
 		},
 		{
@@ -1505,9 +1365,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}{U}",
 			"type": "Artifact Creature — Robot",
-			"collector_number": "184",
+			"collector_number": "179",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/150.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/136.png"
 			}
 		},
 		{
@@ -1515,9 +1375,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}{B}",
 			"type": "Enchantment Creature — Faerie Avatar",
-			"collector_number": "190",
+			"collector_number": "186",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/151.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/137.png"
 			}
 		},
 		{
@@ -1525,9 +1385,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}{R}",
 			"type": "Artifact Creature — Robot Warlock",
-			"collector_number": "189",
+			"collector_number": "185",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/152.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/138.png"
 			}
 		},
 		{
@@ -1535,9 +1395,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R}{G}",
 			"type": "Creature — Alien",
-			"collector_number": "192",
+			"collector_number": "190",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/153.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/139.png"
 			}
 		},
 		{
@@ -1545,9 +1405,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}{W}",
 			"type": "Enchantment Creature — Avatar",
-			"collector_number": "183",
+			"collector_number": "178",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/154.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/140.png"
 			}
 		},
 		{
@@ -1555,9 +1415,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}{B}",
 			"type": "Creature — Human Soldier",
-			"collector_number": "181",
+			"collector_number": "176",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/155.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/141.png"
 			}
 		},
 		{
@@ -1565,9 +1425,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{U}{R}",
 			"type": "Enchantment Creature — Avatar Dragon",
-			"collector_number": "188",
+			"collector_number": "184",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/156.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/142.png"
 			}
 		},
 		{
@@ -1575,9 +1435,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{B}{G}",
 			"type": "Artifact Creature — Human Cyborg",
-			"collector_number": "179",
+			"collector_number": "174",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/157.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/143.png"
 			}
 		},
 		{
@@ -1585,9 +1445,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R}{W}",
 			"type": "Creature — Human Advisor",
-			"collector_number": "187",
+			"collector_number": "182",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/158.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/144.png"
 			}
 		},
 		{
@@ -1595,9 +1455,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{G}{U}",
 			"type": "Enchantment Artifact Creature — Avatar",
-			"collector_number": "191",
+			"collector_number": "187",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/159.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/145.png"
 			}
 		},
 		{
@@ -1605,9 +1465,9 @@
 			"rarity": "special",
 			"mana_cost": "{W}{U}",
 			"type": "Creature — Sliver",
-			"collector_number": "40",
+			"collector_number": "45",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/160.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/146.png"
 			}
 		},
 		{
@@ -1615,9 +1475,9 @@
 			"rarity": "special",
 			"mana_cost": "{U}{B}",
 			"type": "Creature — Sliver",
-			"collector_number": "45",
+			"collector_number": "50",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/161.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/147.png"
 			}
 		},
 		{
@@ -1625,9 +1485,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{B}{R}",
 			"type": "Creature — Sliver",
-			"collector_number": "39",
+			"collector_number": "44",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/162.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/148.png"
 			}
 		},
 		{
@@ -1635,9 +1495,9 @@
 			"rarity": "special",
 			"mana_cost": "{R}{G}",
 			"type": "Creature — Sliver",
-			"collector_number": "41",
+			"collector_number": "46",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/163.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/149.png"
 			}
 		},
 		{
@@ -1645,9 +1505,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{G}{W}",
 			"type": "Creature — Sliver",
-			"collector_number": "44",
+			"collector_number": "49",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/164.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/150.png"
 			}
 		},
 		{
@@ -1655,9 +1515,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{W}{B}",
 			"type": "Creature — Sliver",
-			"collector_number": "49",
+			"collector_number": "54",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/165.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/151.png"
 			}
 		},
 		{
@@ -1665,9 +1525,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{U}{R}",
 			"type": "Creature — Sliver",
-			"collector_number": "43",
+			"collector_number": "48",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/166.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/152.png"
 			}
 		},
 		{
@@ -1675,9 +1535,9 @@
 			"rarity": "special",
 			"mana_cost": "{B}{G}",
 			"type": "Creature — Sliver",
-			"collector_number": "42",
+			"collector_number": "47",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/167.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/153.png"
 			}
 		},
 		{
@@ -1685,9 +1545,9 @@
 			"rarity": "special",
 			"mana_cost": "{R}{W}",
 			"type": "Creature — Sliver",
-			"collector_number": "48",
+			"collector_number": "53",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/168.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/154.png"
 			}
 		},
 		{
@@ -1695,9 +1555,9 @@
 			"rarity": "special",
 			"mana_cost": "{G}{U}",
 			"type": "Creature — Sliver",
-			"collector_number": "47",
+			"collector_number": "52",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/169.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/155.png"
 			}
 		},
 		{
@@ -1707,7 +1567,7 @@
 			"type": "Legendary Artifact Creature — Robot Soldier",
 			"collector_number": "18",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/170.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/156.png"
 			}
 		},
 		{
@@ -1715,9 +1575,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{W}",
 			"type": "Creature — Human Soldier Ally",
-			"collector_number": "35",
+			"collector_number": "34",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/171.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/157.png"
 			}
 		},
 		{
@@ -1727,7 +1587,7 @@
 			"type": "Creature — Human Soldier",
 			"collector_number": "16",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/172.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/158.png"
 			}
 		},
 		{
@@ -1737,7 +1597,7 @@
 			"type": "Enchantment Creature — Avatar",
 			"collector_number": "19",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/173.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/159.png"
 			}
 		},
 		{
@@ -1747,7 +1607,7 @@
 			"type": "Artifact Creature — Robot Knight",
 			"collector_number": "7",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/174.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/160.png"
 			}
 		},
 		{
@@ -1755,9 +1615,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{W}",
 			"type": "Artifact Creature — Cyborg Soldier",
-			"collector_number": "30",
+			"collector_number": "29",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/175.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/161.png"
 			}
 		},
 		{
@@ -1765,9 +1625,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{W}",
 			"type": "Sorcery",
-			"collector_number": "29",
+			"collector_number": "28",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/176.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/162.png"
 			}
 		},
 		{
@@ -1775,9 +1635,9 @@
 			"rarity": "rare",
 			"mana_cost": "{X}{W}{W}",
 			"type": "Kindred Sorcery — Sliver",
-			"collector_number": "22",
+			"collector_number": "21",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/177.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/163.png"
 			}
 		},
 		{
@@ -1785,9 +1645,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{U}",
 			"type": "Artifact Creature — Human Cyborg Artificer",
-			"collector_number": "56",
+			"collector_number": "54",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/178.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/164.png"
 			}
 		},
 		{
@@ -1795,9 +1655,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{U}",
 			"type": "Artifact Creature — Robot Soldier Scout",
-			"collector_number": "47",
+			"collector_number": "46",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/179.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/165.png"
 			}
 		},
 		{
@@ -1805,9 +1665,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{U}",
 			"type": "Enchantment Creature — Avatar",
-			"collector_number": "62",
+			"collector_number": "60",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/180.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/166.png"
 			}
 		},
 		{
@@ -1815,9 +1675,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{U}",
 			"type": "Artifact Creature — Cyborg Artificer",
-			"collector_number": "70",
+			"collector_number": "68",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/181.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/167.png"
 			}
 		},
 		{
@@ -1825,9 +1685,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{U}",
 			"type": "Instant",
-			"collector_number": "42",
+			"collector_number": "41",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/182.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/168.png"
 			}
 		},
 		{
@@ -1835,9 +1695,9 @@
 			"rarity": "rare",
 			"mana_cost": "{U}",
 			"type": "Instant",
-			"collector_number": "67",
+			"collector_number": "65",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/183.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/169.png"
 			}
 		},
 		{
@@ -1845,9 +1705,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{U}",
 			"type": "Kindred Sorcery — Sliver",
-			"collector_number": "57",
+			"collector_number": "55",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/184.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/170.png"
 			}
 		},
 		{
@@ -1855,9 +1715,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{U}{U}",
 			"type": "Instant",
-			"collector_number": "41",
+			"collector_number": "40",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/185.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/171.png"
 			}
 		},
 		{
@@ -1865,9 +1725,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{B}",
 			"type": "Creature — Human Soldier",
-			"collector_number": "84",
+			"collector_number": "82",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/186.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/172.png"
 			}
 		},
 		{
@@ -1875,9 +1735,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{B}",
 			"type": "Artifact Creature — Cyborg Soldier",
-			"collector_number": "76",
+			"collector_number": "74",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/187.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/173.png"
 			}
 		},
 		{
@@ -1885,9 +1745,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{B}{B}",
 			"type": "Artifact Creature — Zombie Hacker",
-			"collector_number": "89",
+			"collector_number": "87",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/188.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/174.png"
 			}
 		},
 		{
@@ -1895,9 +1755,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{B}",
 			"type": "Enchantment Creature — Avatar",
-			"collector_number": "107",
+			"collector_number": "104",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/189.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/175.png"
 			}
 		},
 		{
@@ -1905,9 +1765,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{B}{B}",
 			"type": "Enchantment Creature — Avatar",
-			"collector_number": "78",
+			"collector_number": "76",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/190.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/176.png"
 			}
 		},
 		{
@@ -1915,19 +1775,19 @@
 			"rarity": "rare",
 			"mana_cost": "{B}{B}",
 			"type": "Sorcery",
-			"collector_number": "106",
+			"collector_number": "103",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/191.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/177.png"
 			}
 		},
 		{
 			"name": "Defiant Last Stand",
 			"rarity": "rare",
 			"mana_cost": "{1}{B}",
-			"type": "Instant",
-			"collector_number": "85",
+			"type": "Enchantment",
+			"collector_number": "83",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/192.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/178.png"
 			}
 		},
 		{
@@ -1935,9 +1795,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{B}{B}",
 			"type": "Kindred Sorcery — Sliver",
-			"collector_number": "100",
+			"collector_number": "98",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/193.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/179.png"
 			}
 		},
 		{
@@ -1945,9 +1805,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Cyborg Soldier",
-			"collector_number": "117",
+			"collector_number": "114",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/194.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/180.png"
 			}
 		},
 		{
@@ -1955,9 +1815,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{R}{R}",
 			"type": "Enchantment Creature — Dragon Avatar",
-			"collector_number": "140",
+			"collector_number": "136",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/195.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/181.png"
 			}
 		},
 		{
@@ -1965,9 +1825,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Alien Cat Mercenary",
-			"collector_number": "130",
+			"collector_number": "127",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/196.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/182.png"
 			}
 		},
 		{
@@ -1975,19 +1835,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{R}{R}",
 			"type": "Creature — Alien Rogue",
-			"collector_number": "143",
+			"collector_number": "139",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/197.png"
-			}
-		},
-		{
-			"name": "Whispers of Supernova",
-			"rarity": "rare",
-			"mana_cost": "{3}{R}",
-			"type": "Enchantment Creature — Saga Avatar",
-			"collector_number": "142",
-			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/198.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/183.png"
 			}
 		},
 		{
@@ -1995,9 +1845,9 @@
 			"rarity": "rare",
 			"mana_cost": "{R}{R}",
 			"type": "Instant",
-			"collector_number": "126",
+			"collector_number": "123",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/199.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/184.png"
 			}
 		},
 		{
@@ -2005,9 +1855,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{R}",
 			"type": "Kindred Sorcery — Sliver",
-			"collector_number": "119",
+			"collector_number": "116",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/200.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/185.png"
 			}
 		},
 		{
@@ -2015,9 +1865,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{R}{R}",
 			"type": "Sorcery",
-			"collector_number": "125",
+			"collector_number": "122",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/201.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/186.png"
 			}
 		},
 		{
@@ -2025,19 +1875,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{G}",
 			"type": "Enchantment Creature — Avatar",
-			"collector_number": "162",
+			"collector_number": "158",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/202.png"
-			}
-		},
-		{
-			"name": "Aural Elk",
-			"rarity": "rare",
-			"mana_cost": "{2}{G}",
-			"type": "Enchantment Creature — Elk Saga",
-			"collector_number": "145",
-			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/203.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/187.png"
 			}
 		},
 		{
@@ -2045,9 +1885,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{G}{G}",
 			"type": "Creature — Dwarf Scout",
-			"collector_number": "150",
+			"collector_number": "146",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/204.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/188.png"
 			}
 		},
 		{
@@ -2055,9 +1895,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{G}",
 			"type": "Creature — Alien Soldier Scout",
-			"collector_number": "161",
+			"collector_number": "157",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/205.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/189.png"
 			}
 		},
 		{
@@ -2065,9 +1905,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{G}",
 			"type": "Creature — Cyborg Rebel Rogue",
-			"collector_number": "167",
+			"collector_number": "162",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/206.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/190.png"
 			}
 		},
 		{
@@ -2075,9 +1915,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{G}{G}",
 			"type": "Creature — Alien Ape",
-			"collector_number": "174",
+			"collector_number": "169",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/207.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/191.png"
 			}
 		},
 		{
@@ -2085,9 +1925,9 @@
 			"rarity": "rare",
 			"mana_cost": "{4}{G}{G}",
 			"type": "Kindred Sorcery — Sliver",
-			"collector_number": "173",
+			"collector_number": "168",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/208.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/192.png"
 			}
 		},
 		{
@@ -2095,9 +1935,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{G}",
 			"type": "Sorcery",
-			"collector_number": "149",
+			"collector_number": "145",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/209.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/193.png"
 			}
 		},
 		{
@@ -2105,9 +1945,9 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Enchantment Land — Planet",
-			"collector_number": "217",
+			"collector_number": "215",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/210.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/194.png"
 			}
 		},
 		{
@@ -2115,9 +1955,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}",
 			"type": "Artifact",
-			"collector_number": "195",
+			"collector_number": "193",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/211.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/195.png"
 			}
 		},
 		{
@@ -2125,9 +1965,9 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Legendary Land Creature — Elemental Planet",
-			"collector_number": "206",
+			"collector_number": "204",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/212.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/196.png"
 			}
 		},
 		{
@@ -2135,9 +1975,9 @@
 			"rarity": "mythic",
 			"mana_cost": "",
 			"type": "Artifact Land — Planet",
-			"collector_number": "215",
+			"collector_number": "213",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/213.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/197.png"
 			}
 		},
 		{
@@ -2145,9 +1985,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{W}{U}{B}{R}{G}",
 			"type": "Enchantment",
-			"collector_number": "182",
+			"collector_number": "177",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/214.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/198.png"
 			}
 		},
 		{
@@ -2155,9 +1995,29 @@
 			"rarity": "mythic",
 			"mana_cost": "{3}{U}{U}{U}",
 			"type": "Sorcery",
-			"collector_number": "44",
+			"collector_number": "43",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/215.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/199.png"
+			}
+		},
+		{
+			"name": "Super Conductor Soldier",
+			"rarity": "mythic",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Artifact Creature — Cyborg Soldier",
+			"collector_number": "188",
+			"image_uris": {
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/200.png"
+			}
+		},
+		{
+			"name": "Mul'Apin, Mother of the Stars",
+			"rarity": "mythic",
+			"mana_cost": "{G}{W}{U}",
+			"type": "Legendary Enchantment Creature — Avatar",
+			"collector_number": "183",
+			"image_uris": {
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/201.png"
 			}
 		},
 		{
@@ -2165,19 +2025,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{5}",
 			"type": "Legendary Enchantment Artifact",
-			"collector_number": "193",
+			"collector_number": "191",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/216.png"
-			}
-		},
-		{
-			"name": "Annihilating Light of Creation",
-			"rarity": "mythic",
-			"mana_cost": "{6}{G}{W}",
-			"type": "Legendary Enchantment Creature — Avatar",
-			"collector_number": "180",
-			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/217.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/202.png"
 			}
 		},
 		{
@@ -2185,9 +2035,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{3}{G}{G}{G}",
 			"type": "Sorcery",
-			"collector_number": "154",
+			"collector_number": "151",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/218.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/203.png"
 			}
 		},
 		{
@@ -2195,9 +2045,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{1}{R}",
 			"type": "Legendary Artifact Creature — Robot Sniper",
-			"collector_number": "129",
+			"collector_number": "126",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/219.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/204.png"
 			}
 		},
 		{
@@ -2205,9 +2055,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{1}{U}",
 			"type": "Legendary Artifact Creature — Construct",
-			"collector_number": "43",
+			"collector_number": "42",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/220.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/205.png"
 			}
 		},
 		{
@@ -2215,9 +2065,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{4}{W}{W}{W}",
 			"type": "Sorcery",
-			"collector_number": "33",
+			"collector_number": "32",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/221.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/206.png"
 			}
 		},
 		{
@@ -2225,9 +2075,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{1}{B}",
 			"type": "Legendary Enchantment Creature — Avatar",
-			"collector_number": "104",
+			"collector_number": "101",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/222.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/207.png"
 			}
 		},
 		{
@@ -2237,37 +2087,7 @@
 			"type": "Legendary Creature — Sliver Horror",
 			"collector_number": "1",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/223.png"
-			}
-		},
-		{
-			"name": "Harea, Dune Walker",
-			"rarity": "mythic",
-			"mana_cost": "{B}{R}{G}",
-			"type": "Legendary Planeswalker — Harea",
-			"collector_number": "186",
-			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/224.png"
-			}
-		},
-		{
-			"name": "General Polkovodets",
-			"rarity": "mythic",
-			"mana_cost": "{1}{W}{B}",
-			"type": "Legendary Planeswalker — Polkovodets",
-			"collector_number": "185",
-			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/225.png"
-			}
-		},
-		{
-			"name": "Mo'o-Ita, Raging Fire",
-			"rarity": "mythic",
-			"mana_cost": "{1}{R}{R}",
-			"type": "Legendary Planeswalker — Mo'o-Ita",
-			"collector_number": "123",
-			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/226.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/208.png"
 			}
 		},
 		{
@@ -2275,9 +2095,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Plains",
-			"collector_number": "218",
+			"collector_number": "216",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/227.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/209.png"
 			}
 		},
 		{
@@ -2285,9 +2105,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Island",
-			"collector_number": "219",
+			"collector_number": "217",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/228.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/210.png"
 			}
 		},
 		{
@@ -2295,9 +2115,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Swamp",
-			"collector_number": "220",
+			"collector_number": "218",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/229.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/211.png"
 			}
 		},
 		{
@@ -2305,9 +2125,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Mountain",
-			"collector_number": "221",
+			"collector_number": "219",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/230.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/212.png"
 			}
 		},
 		{
@@ -2315,9 +2135,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Forest",
-			"collector_number": "222",
+			"collector_number": "220",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/231.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/213.png"
 			}
 		},
 		{
@@ -2327,7 +2147,7 @@
 			"type": "Creature — Sliver",
 			"collector_number": "7",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/232.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/214.png"
 			}
 		},
 		{
@@ -2337,7 +2157,7 @@
 			"type": "Creature — Sliver",
 			"collector_number": "6",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/233.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/215.png"
 			}
 		},
 		{
@@ -2347,7 +2167,7 @@
 			"type": "Creature — Sliver",
 			"collector_number": "4",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/234.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/216.png"
 			}
 		},
 		{
@@ -2355,9 +2175,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{W}",
 			"type": "Creature — Sliver",
-			"collector_number": "9",
+			"collector_number": "10",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/235.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/217.png"
 			}
 		},
 		{
@@ -2365,9 +2185,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{W}",
 			"type": "Creature — Sliver",
-			"collector_number": "8",
+			"collector_number": "9",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/236.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/218.png"
 			}
 		},
 		{
@@ -2375,9 +2195,9 @@
 			"rarity": "special",
 			"mana_cost": "{3}{W}",
 			"type": "Creature — Sliver",
-			"collector_number": "10",
+			"collector_number": "11",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/237.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/219.png"
 			}
 		},
 		{
@@ -2387,7 +2207,17 @@
 			"type": "Creature — Sliver",
 			"collector_number": "5",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/238.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/220.png"
+			}
+		},
+		{
+			"name": "Moon Sliver",
+			"rarity": "special",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Sliver",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/221.png"
 			}
 		},
 		{
@@ -2395,9 +2225,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{U}",
 			"type": "Creature — Sliver",
-			"collector_number": "16",
+			"collector_number": "18",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/239.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/222.png"
 			}
 		},
 		{
@@ -2405,9 +2235,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{U}",
 			"type": "Creature — Sliver",
-			"collector_number": "12",
+			"collector_number": "14",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/240.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/223.png"
 			}
 		},
 		{
@@ -2415,9 +2245,9 @@
 			"rarity": "special",
 			"mana_cost": "{3}{U}",
 			"type": "Creature — Sliver",
-			"collector_number": "13",
+			"collector_number": "15",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/241.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/224.png"
 			}
 		},
 		{
@@ -2425,9 +2255,9 @@
 			"rarity": "special",
 			"mana_cost": "{3}{U}",
 			"type": "Creature — Sliver",
-			"collector_number": "17",
+			"collector_number": "19",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/242.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/225.png"
 			}
 		},
 		{
@@ -2435,9 +2265,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{U}",
 			"type": "Creature — Sliver",
-			"collector_number": "15",
+			"collector_number": "17",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/243.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/226.png"
 			}
 		},
 		{
@@ -2445,9 +2275,9 @@
 			"rarity": "special",
 			"mana_cost": "{3}{U}{U}",
 			"type": "Creature — Sliver",
-			"collector_number": "14",
+			"collector_number": "16",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/244.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/227.png"
 			}
 		},
 		{
@@ -2455,9 +2285,19 @@
 			"rarity": "special",
 			"mana_cost": "{3}{U}",
 			"type": "Creature — Sliver",
-			"collector_number": "11",
+			"collector_number": "12",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/245.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/228.png"
+			}
+		},
+		{
+			"name": "Ice Crystal Sliver",
+			"rarity": "special",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Sliver",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/229.png"
 			}
 		},
 		{
@@ -2465,9 +2305,9 @@
 			"rarity": "special",
 			"mana_cost": "{5}{B}",
 			"type": "Creature — Sliver",
-			"collector_number": "21",
+			"collector_number": "23",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/246.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/230.png"
 			}
 		},
 		{
@@ -2475,9 +2315,9 @@
 			"rarity": "special",
 			"mana_cost": "{3}{B}",
 			"type": "Creature — Sliver",
-			"collector_number": "22",
+			"collector_number": "24",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/247.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/231.png"
 			}
 		},
 		{
@@ -2485,9 +2325,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{B}",
 			"type": "Creature — Sliver",
-			"collector_number": "18",
+			"collector_number": "20",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/248.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/232.png"
 			}
 		},
 		{
@@ -2495,9 +2335,9 @@
 			"rarity": "special",
 			"mana_cost": "{3}{B}",
 			"type": "Creature — Sliver",
-			"collector_number": "23",
+			"collector_number": "26",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/249.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/233.png"
 			}
 		},
 		{
@@ -2505,9 +2345,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{B}",
 			"type": "Creature — Sliver",
-			"collector_number": "19",
+			"collector_number": "21",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/250.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/234.png"
 			}
 		},
 		{
@@ -2515,9 +2355,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{B}",
 			"type": "Creature — Sliver",
-			"collector_number": "20",
+			"collector_number": "22",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/251.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/235.png"
 			}
 		},
 		{
@@ -2525,9 +2365,19 @@
 			"rarity": "special",
 			"mana_cost": "{2}{B}",
 			"type": "Creature — Sliver",
-			"collector_number": "24",
+			"collector_number": "27",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/252.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/236.png"
+			}
+		},
+		{
+			"name": "Nightmare Sliver",
+			"rarity": "special",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Sliver",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/237.png"
 			}
 		},
 		{
@@ -2535,9 +2385,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Sliver",
-			"collector_number": "25",
+			"collector_number": "28",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/253.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/238.png"
 			}
 		},
 		{
@@ -2545,9 +2395,9 @@
 			"rarity": "special",
 			"mana_cost": "{3}{R}",
 			"type": "Creature — Sliver",
-			"collector_number": "31",
+			"collector_number": "35",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/254.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/239.png"
 			}
 		},
 		{
@@ -2555,9 +2405,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Sliver",
-			"collector_number": "29",
+			"collector_number": "33",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/255.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/240.png"
 			}
 		},
 		{
@@ -2565,9 +2415,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Sliver",
-			"collector_number": "28",
+			"collector_number": "31",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/256.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/241.png"
 			}
 		},
 		{
@@ -2575,9 +2425,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Sliver",
-			"collector_number": "30",
+			"collector_number": "34",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/257.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/242.png"
 			}
 		},
 		{
@@ -2585,9 +2435,9 @@
 			"rarity": "special",
 			"mana_cost": "{3}{R}",
 			"type": "Creature — Sliver",
-			"collector_number": "27",
+			"collector_number": "30",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/258.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/243.png"
 			}
 		},
 		{
@@ -2595,9 +2445,19 @@
 			"rarity": "special",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Sliver",
-			"collector_number": "26",
+			"collector_number": "29",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/259.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/244.png"
+			}
+		},
+		{
+			"name": "Razorcrest Sliver",
+			"rarity": "special",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Sliver",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/245.png"
 			}
 		},
 		{
@@ -2605,9 +2465,9 @@
 			"rarity": "special",
 			"mana_cost": "{X}{2}{G}",
 			"type": "Creature — Sliver",
-			"collector_number": "36",
+			"collector_number": "40",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/260.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/246.png"
 			}
 		},
 		{
@@ -2615,9 +2475,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{G}",
 			"type": "Creature — Sliver",
-			"collector_number": "38",
+			"collector_number": "43",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/261.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/247.png"
 			}
 		},
 		{
@@ -2625,9 +2485,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Sliver Mutant",
-			"collector_number": "32",
+			"collector_number": "36",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/262.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/248.png"
 			}
 		},
 		{
@@ -2635,9 +2495,9 @@
 			"rarity": "special",
 			"mana_cost": "{4}{G}",
 			"type": "Creature — Sliver",
-			"collector_number": "37",
+			"collector_number": "42",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/263.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/249.png"
 			}
 		},
 		{
@@ -2645,9 +2505,9 @@
 			"rarity": "special",
 			"mana_cost": "{3}{G}",
 			"type": "Creature — Sliver",
-			"collector_number": "34",
+			"collector_number": "38",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/264.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/250.png"
 			}
 		},
 		{
@@ -2655,9 +2515,9 @@
 			"rarity": "special",
 			"mana_cost": "{4}{G}",
 			"type": "Creature — Sliver",
-			"collector_number": "35",
+			"collector_number": "39",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/265.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/251.png"
 			}
 		},
 		{
@@ -2665,9 +2525,19 @@
 			"rarity": "special",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Sliver",
-			"collector_number": "33",
+			"collector_number": "37",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/266.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/252.png"
+			}
+		},
+		{
+			"name": "Scout Sliver",
+			"rarity": "special",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Sliver",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/253.png"
 			}
 		},
 		{
@@ -2675,19 +2545,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "50",
+			"collector_number": "55",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/267.png"
-			}
-		},
-		{
-			"name": "Apex Sliver",
-			"rarity": "special",
-			"mana_cost": "{5}",
-			"type": "Legendary Creature — Sliver",
-			"collector_number": "1",
-			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/268.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/254.png"
 			}
 		},
 		{
@@ -2695,9 +2555,9 @@
 			"rarity": "special",
 			"mana_cost": "{W}{U}{B}{R}{G}",
 			"type": "Legendary Creature — Sliver",
-			"collector_number": "46",
+			"collector_number": "51",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/269.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/255.png"
 			}
 		},
 		{
@@ -2707,7 +2567,7 @@
 			"type": "Creature — Sliver",
 			"collector_number": "3",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/270.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/256.png"
 			}
 		},
 		{
@@ -2717,7 +2577,177 @@
 			"type": "Creature — Sliver",
 			"collector_number": "2",
 			"image_uris": {
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/257.png"
+			}
+		},
+		{
+			"name": "Light of Creation",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Enchantment Creature — Saga Avatar",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/258.png"
+			}
+		},
+		{
+			"name": "Songs of the Frozen Void",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Enchantment Creature — Saga Avatar",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/259.png"
+			}
+		},
+		{
+			"name": "Last Days of a Lonely World",
+			"rarity": "common",
+			"mana_cost": "{4}{B}",
+			"type": "Enchantment Creature — Saga Avatar",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/260.png"
+			}
+		},
+		{
+			"name": "Blade of the Darkstar",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Enchantment Creature — Saga Avatar",
+			"collector_number": "107",
+			"image_uris": {
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/261.png"
+			}
+		},
+		{
+			"name": "Rite of Creation",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Enchantment Creature — Saga Avatar",
+			"collector_number": "159",
+			"image_uris": {
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/262.png"
+			}
+		},
+		{
+			"name": "Song of the Stars",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{W}",
+			"type": "Enchantment Creature — Saga Whale",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/263.png"
+			}
+		},
+		{
+			"name": "Star-Cloud Summoner",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Enchantment Creature — Saga Drake",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/264.png"
+			}
+		},
+		{
+			"name": "Ichor Keeper",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Enchantment Creature — Saga Avatar",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/265.png"
+			}
+		},
+		{
+			"name": "Spirit of the Forests",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Enchantment Creature — Saga Beast",
+			"collector_number": "163",
+			"image_uris": {
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/266.png"
+			}
+		},
+		{
+			"name": "Whispers of Supernova",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}",
+			"type": "Enchantment Creature — Saga Avatar",
+			"collector_number": "138",
+			"image_uris": {
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/267.png"
+			}
+		},
+		{
+			"name": "Aural Elk",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Enchantment Creature — Saga Elk",
+			"collector_number": "141",
+			"image_uris": {
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/268.png"
+			}
+		},
+		{
+			"name": "Annihilating Light of Dawn",
+			"rarity": "mythic",
+			"mana_cost": "{6}{G}{W}",
+			"type": "Legendary Enchantment Creature — Saga Avatar",
+			"collector_number": "175",
+			"image_uris": {
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/269.png"
+			}
+		},
+		{
+			"name": "Harea, Dune Walker",
+			"rarity": "mythic",
+			"mana_cost": "{B}{R}{G}",
+			"type": "Legendary Planeswalker — Harea",
+			"collector_number": "181",
+			"image_uris": {
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/270.png"
+			}
+		},
+		{
+			"name": "General Polkovodets",
+			"rarity": "mythic",
+			"mana_cost": "{1}{W}{B}",
+			"type": "Legendary Planeswalker — Polkovodets",
+			"collector_number": "180",
+			"image_uris": {
 				"en": "https://crushcastles23.github.io/sets/WRP-files/img/271.png"
+			}
+		},
+		{
+			"name": "Mo'o-Ita, Raging Fire",
+			"rarity": "mythic",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Legendary Planeswalker — Mo'o-Ita",
+			"collector_number": "120",
+			"image_uris": {
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/272.png"
+			}
+		},
+		{
+			"name": "Trogat, Blind but Seeing",
+			"rarity": "mythic",
+			"mana_cost": "{1}{R}{W}",
+			"type": "Legendary Planeswalker — Trogat",
+			"collector_number": "189",
+			"image_uris": {
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/273.png"
+			}
+		},
+		{
+			"name": "Apex Sliver",
+			"rarity": "special",
+			"mana_cost": "{5}",
+			"type": "Legendary Creature — Sliver",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/274.png"
 			}
 		},
 		{
@@ -2727,7 +2757,7 @@
 			"type": "Token Creature — Sliver",
 			"collector_number": "1",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/272.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/275.png"
 			}
 		},
 		{
@@ -2737,7 +2767,7 @@
 			"type": "Token Reminder — Archetypes",
 			"collector_number": "2",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/273.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/276.png"
 			}
 		},
 		{
@@ -2745,9 +2775,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Avatar Rogue",
-			"collector_number": "7",
+			"collector_number": "10",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/274.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/277.png"
 			}
 		},
 		{
@@ -2755,9 +2785,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Artifact — Treasure",
-			"collector_number": "12",
+			"collector_number": "17",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/275.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/278.png"
 			}
 		},
 		{
@@ -2765,9 +2795,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Artifact Creature — Zombie",
-			"collector_number": "8",
+			"collector_number": "12",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/276.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/279.png"
 			}
 		},
 		{
@@ -2775,9 +2805,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Artifact Creature — Robot",
-			"collector_number": "11",
+			"collector_number": "16",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/277.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/280.png"
 			}
 		},
 		{
@@ -2785,9 +2815,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Artifact Creature — Drone",
-			"collector_number": "10",
+			"collector_number": "15",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/278.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/281.png"
 			}
 		},
 		{
@@ -2795,9 +2825,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Soldier",
-			"collector_number": "4",
+			"collector_number": "7",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/279.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/282.png"
 			}
 		},
 		{
@@ -2805,9 +2835,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Artifact Creature — Dog",
-			"collector_number": "9",
+			"collector_number": "14",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/280.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/283.png"
 			}
 		},
 		{
@@ -2815,9 +2845,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Assassin",
-			"collector_number": "6",
+			"collector_number": "9",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/281.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/284.png"
 			}
 		},
 		{
@@ -2825,9 +2855,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Enchantment Creature — Rabbit",
-			"collector_number": "3",
+			"collector_number": "6",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/282.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/285.png"
 			}
 		},
 		{
@@ -2835,9 +2865,69 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Emblem",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/286.png"
+			}
+		},
+		{
+			"name": "Human",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Human",
 			"collector_number": "5",
 			"image_uris": {
-				"en": "https://crushcastles23.github.io/sets/WRP-files/img/283.png"
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/287.png"
+			}
+		},
+		{
+			"name": "Beast",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Beast",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/288.png"
+			}
+		},
+		{
+			"name": "Ally",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Ally",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/289.png"
+			}
+		},
+		{
+			"name": "Bird",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Bird",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/290.png"
+			}
+		},
+		{
+			"name": "Soldier Army",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Soldier Army",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/291.png"
+			}
+		},
+		{
+			"name": "Weapon",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Equipment",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://crushcastles23.github.io/sets/WRP-files/img/292.png"
 			}
 		}
 	]
@@ -2871,12 +2961,10 @@
 	2 Void-Star Dragon
 	2 Quad-Fury Mercenary
 	2 Wily Smuggler
-	2 Whispers of Supernova
 	2 Overcharge
 	2 Flames of the Legion
 	2 Orbital Bombardment
 	2 Rift Born Avatar
-	2 Aural Elk
 	2 Deep Rock Miner
 	2 Ragtag Squad
 	2 Smashing Stowaway
@@ -2889,17 +2977,22 @@
 	1 Twilight City
 	1 Beyond the Event Horizon
 	1 Contact the Collective
+	1 Super Conductor Soldier
+	1 Mul'Apin, Mother of the Stars
 	1 The Battle Matrix
-	1 Annihilating Light of Creation
 	1 Galacta-Genesis
 	1 Qanaas, Spider Sniper
 	1 ClA.I.re, Ascendant Intellect
 	1 Super Massive Black Hole
 	1 Vershina, One With the Universe
 	1 Singularity Sliver
+	2 Whispers of Supernova
+	2 Aural Elk
+	1 Annihilating Light of Dawn
 	1 Harea, Dune Walker
 	1 General Polkovodets
 	1 Mo'o-Ita, Raging Fire
+	1 Trogat, Blind but Seeing
 [uncommon(3)]
 	4 Frostfire Squadron
 	4 Tacti-cube
@@ -2907,7 +3000,6 @@
 	4 Desperate Medic
 	4 Heavy Crab Drone
 	4 Rapid Deployment Unit
-	4 Song of the Stars
 	4 Astral Beast Master
 	4 Defensive Deployment
 	4 Attack of the Clones
@@ -2919,7 +3011,6 @@
 	4 Heroic Extraction Squad
 	4 Tree Hopper
 	4 Astral Wyvern
-	4 Star-Cloud Summoner
 	4 Aether Agent
 	4 Portal Strider
 	4 Intelligence Deployment
@@ -2928,12 +3019,11 @@
 	4 Absorb Reality
 	4 Infiltrate the System
 	4 Fido Fighter
-	4 Synthetic Necromancer
+	4 Sliver Hunter
 	4 Qatil Assassin
 	4 Cyberstalker
 	4 Death of the Legions
 	4 Death Trooper
-	4 Ichor Keeper
 	4 Rebirth Through Robotics
 	4 Hit Team
 	4 Dive Bomb
@@ -2954,13 +3044,12 @@
 	4 Grasp the Void
 	4 Chaotic Vortex
 	4 Star Born Charger
-	4 Spirit of the Forests
 	4 Worldrender
 	4 Star Smasher
 	4 Warp Path Weaver
 	4 Shattered Space Scout
 	4 Orbit Tuner
-	4 Planetary General
+	4 Drudge Sliver
 	4 Galactic Growth
 	4 Lost in a Digital World
 	4 Flourish From the Fallen
@@ -2990,18 +3079,21 @@
 	4 Acquisition Agent
 	4 High Admiral
 	4 Stellar Wildshaper
+	4 Song of the Stars
+	4 Star-Cloud Summoner
+	4 Ichor Keeper
+	4 Spirit of the Forests
 [common(6)]
 	8 Hotshot Speeder Pilot
 	8 Planetary Watcher
 	8 Grizzled Veterans
 	8 Cleric of the Mechanist
-	8 High Altitude Defense Jet
+	8 Disconnected Sliver
 	8 NOVA Squad
 	8 Unwavering Sentinel
 	8 Rapid Deployment
 	8 Sliver Swarm
 	8 Palm-Sized Black Hole
-	8 Light of Creation
 	8 Skrytnist Saboteur
 	8 Robizard
 	8 FAIRIE Squad
@@ -3012,18 +3104,16 @@
 	8 Last-Minute Evac
 	8 Deal Gone Wrong
 	8 Heavy Freeze
-	8 Songs of the Frozen Void
 	8 Death-Bot
 	8 Menacing Opportunist
 	8 Doomed Squad
 	8 Doom Diver
 	8 Deathstrike Cyborg
-	8 Last Days of a Lonely World
 	8 Virtual Unreality
 	8 Black Hole's Shadow
 	8 Emergency Repairs
 	8 Deal with the Machine Gods
-	8 Shatter Identity
+	8 Infectious Sliver
 	8 Paradox Trooper
 	8 Kill-Team Joker
 	8 Commando Squad
@@ -3034,14 +3124,12 @@
 	8 Meteorite Storm
 	8 Scour the Rubble
 	8 Supernova Sight
-	8 Blade of the Darkstar
 	8 Deep-Space Wanderer
 	8 Warp-Touched Warrior
 	8 Astral Conduit
 	8 Celestial Navigator
 	8 Ruiner Wurm
 	8 Star Strider
-	8 Rite of Creation
 	8 Planetary Aligner
 	8 Birth New Worlds
 	8 Stellar Smash
@@ -3053,27 +3141,26 @@
 	8 Planetary Annihilation Station
 	8 Shattered Planet
 	8 Grassland Sliver
-	8 Moon Sliver
 	8 Wavecrash Sliver
-	8 Ice Crystal Sliver
 	8 Bogborn Sliver
-	8 Nightmare Sliver
 	8 Obsidian Sliver
-	8 Razorcrest Sliver
 	8 Vineweft Sliver
-	8 Scout Sliver
+	8 Light of Creation
+	8 Songs of the Frozen Void
+	8 Last Days of a Lonely World
+	8 Blade of the Darkstar
+	8 Rite of Creation
 [common | masterpiece(1)]
 	8 Hotshot Speeder Pilot
 	8 Planetary Watcher
 	8 Grizzled Veterans
 	8 Cleric of the Mechanist
-	8 High Altitude Defense Jet
+	8 Disconnected Sliver
 	8 NOVA Squad
 	8 Unwavering Sentinel
 	8 Rapid Deployment
 	8 Sliver Swarm
 	8 Palm-Sized Black Hole
-	8 Light of Creation
 	8 Skrytnist Saboteur
 	8 Robizard
 	8 FAIRIE Squad
@@ -3084,18 +3171,16 @@
 	8 Last-Minute Evac
 	8 Deal Gone Wrong
 	8 Heavy Freeze
-	8 Songs of the Frozen Void
 	8 Death-Bot
 	8 Menacing Opportunist
 	8 Doomed Squad
 	8 Doom Diver
 	8 Deathstrike Cyborg
-	8 Last Days of a Lonely World
 	8 Virtual Unreality
 	8 Black Hole's Shadow
 	8 Emergency Repairs
 	8 Deal with the Machine Gods
-	8 Shatter Identity
+	8 Infectious Sliver
 	8 Paradox Trooper
 	8 Kill-Team Joker
 	8 Commando Squad
@@ -3106,14 +3191,12 @@
 	8 Meteorite Storm
 	8 Scour the Rubble
 	8 Supernova Sight
-	8 Blade of the Darkstar
 	8 Deep-Space Wanderer
 	8 Warp-Touched Warrior
 	8 Astral Conduit
 	8 Celestial Navigator
 	8 Ruiner Wurm
 	8 Star Strider
-	8 Rite of Creation
 	8 Planetary Aligner
 	8 Birth New Worlds
 	8 Stellar Smash
@@ -3125,27 +3208,26 @@
 	8 Planetary Annihilation Station
 	8 Shattered Planet
 	8 Grassland Sliver
-	8 Moon Sliver
 	8 Wavecrash Sliver
-	8 Ice Crystal Sliver
 	8 Bogborn Sliver
-	8 Nightmare Sliver
 	8 Obsidian Sliver
-	8 Razorcrest Sliver
 	8 Vineweft Sliver
-	8 Scout Sliver
+	8 Light of Creation
+	8 Songs of the Frozen Void
+	8 Last Days of a Lonely World
+	8 Blade of the Darkstar
+	8 Rite of Creation
 [foil(1)]
 	12 Hotshot Speeder Pilot
 	12 Planetary Watcher
 	12 Grizzled Veterans
 	12 Cleric of the Mechanist
-	12 High Altitude Defense Jet
+	12 Disconnected Sliver
 	12 NOVA Squad
 	12 Unwavering Sentinel
 	12 Rapid Deployment
 	12 Sliver Swarm
 	12 Palm-Sized Black Hole
-	12 Light of Creation
 	12 Skrytnist Saboteur
 	12 Robizard
 	12 FAIRIE Squad
@@ -3156,18 +3238,16 @@
 	12 Last-Minute Evac
 	12 Deal Gone Wrong
 	12 Heavy Freeze
-	12 Songs of the Frozen Void
 	12 Death-Bot
 	12 Menacing Opportunist
 	12 Doomed Squad
 	12 Doom Diver
 	12 Deathstrike Cyborg
-	12 Last Days of a Lonely World
 	12 Virtual Unreality
 	12 Black Hole's Shadow
 	12 Emergency Repairs
 	12 Deal with the Machine Gods
-	12 Shatter Identity
+	12 Infectious Sliver
 	12 Paradox Trooper
 	12 Kill-Team Joker
 	12 Commando Squad
@@ -3178,14 +3258,12 @@
 	12 Meteorite Storm
 	12 Scour the Rubble
 	12 Supernova Sight
-	12 Blade of the Darkstar
 	12 Deep-Space Wanderer
 	12 Warp-Touched Warrior
 	12 Astral Conduit
 	12 Celestial Navigator
 	12 Ruiner Wurm
 	12 Star Strider
-	12 Rite of Creation
 	12 Planetary Aligner
 	12 Birth New Worlds
 	12 Stellar Smash
@@ -3197,22 +3275,16 @@
 	12 Planetary Annihilation Station
 	12 Shattered Planet
 	12 Grassland Sliver
-	12 Moon Sliver
 	12 Wavecrash Sliver
-	12 Ice Crystal Sliver
 	12 Bogborn Sliver
-	12 Nightmare Sliver
 	12 Obsidian Sliver
-	12 Razorcrest Sliver
 	12 Vineweft Sliver
-	12 Scout Sliver
 	6 Frostfire Squadron
 	6 Tacti-cube
 	6 Cross-Virtual Soldier
 	6 Desperate Medic
 	6 Heavy Crab Drone
 	6 Rapid Deployment Unit
-	6 Song of the Stars
 	6 Astral Beast Master
 	6 Defensive Deployment
 	6 Attack of the Clones
@@ -3224,7 +3296,6 @@
 	6 Heroic Extraction Squad
 	6 Tree Hopper
 	6 Astral Wyvern
-	6 Star-Cloud Summoner
 	6 Aether Agent
 	6 Portal Strider
 	6 Intelligence Deployment
@@ -3233,12 +3304,11 @@
 	6 Absorb Reality
 	6 Infiltrate the System
 	6 Fido Fighter
-	6 Synthetic Necromancer
+	6 Sliver Hunter
 	6 Qatil Assassin
 	6 Cyberstalker
 	6 Death of the Legions
 	6 Death Trooper
-	6 Ichor Keeper
 	6 Rebirth Through Robotics
 	6 Hit Team
 	6 Dive Bomb
@@ -3259,13 +3329,12 @@
 	6 Grasp the Void
 	6 Chaotic Vortex
 	6 Star Born Charger
-	6 Spirit of the Forests
 	6 Worldrender
 	6 Star Smasher
 	6 Warp Path Weaver
 	6 Shattered Space Scout
 	6 Orbit Tuner
-	6 Planetary General
+	6 Drudge Sliver
 	6 Galactic Growth
 	6 Lost in a Digital World
 	6 Flourish From the Fallen
@@ -3323,12 +3392,10 @@
 	2 Void-Star Dragon
 	2 Quad-Fury Mercenary
 	2 Wily Smuggler
-	2 Whispers of Supernova
 	2 Overcharge
 	2 Flames of the Legion
 	2 Orbital Bombardment
 	2 Rift Born Avatar
-	2 Aural Elk
 	2 Deep Rock Miner
 	2 Ragtag Squad
 	2 Smashing Stowaway
@@ -3341,29 +3408,42 @@
 	1 Twilight City
 	1 Beyond the Event Horizon
 	1 Contact the Collective
+	1 Super Conductor Soldier
+	1 Mul'Apin, Mother of the Stars
 	1 The Battle Matrix
-	1 Annihilating Light of Creation
 	1 Galacta-Genesis
 	1 Qanaas, Spider Sniper
 	1 ClA.I.re, Ascendant Intellect
 	1 Super Massive Black Hole
 	1 Vershina, One With the Universe
 	1 Singularity Sliver
+	12 Light of Creation
+	12 Songs of the Frozen Void
+	12 Last Days of a Lonely World
+	12 Blade of the Darkstar
+	12 Rite of Creation
+	6 Song of the Stars
+	6 Star-Cloud Summoner
+	6 Ichor Keeper
+	6 Spirit of the Forests
+	2 Whispers of Supernova
+	2 Aural Elk
+	1 Annihilating Light of Dawn
 	1 Harea, Dune Walker
 	1 General Polkovodets
 	1 Mo'o-Ita, Raging Fire
+	1 Trogat, Blind but Seeing
 [wildcard(1)]
 	6 Hotshot Speeder Pilot
 	6 Planetary Watcher
 	6 Grizzled Veterans
 	6 Cleric of the Mechanist
-	6 High Altitude Defense Jet
+	6 Disconnected Sliver
 	6 NOVA Squad
 	6 Unwavering Sentinel
 	6 Rapid Deployment
 	6 Sliver Swarm
 	6 Palm-Sized Black Hole
-	6 Light of Creation
 	6 Skrytnist Saboteur
 	6 Robizard
 	6 FAIRIE Squad
@@ -3374,18 +3454,16 @@
 	6 Last-Minute Evac
 	6 Deal Gone Wrong
 	6 Heavy Freeze
-	6 Songs of the Frozen Void
 	6 Death-Bot
 	6 Menacing Opportunist
 	6 Doomed Squad
 	6 Doom Diver
 	6 Deathstrike Cyborg
-	6 Last Days of a Lonely World
 	6 Virtual Unreality
 	6 Black Hole's Shadow
 	6 Emergency Repairs
 	6 Deal with the Machine Gods
-	6 Shatter Identity
+	6 Infectious Sliver
 	6 Paradox Trooper
 	6 Kill-Team Joker
 	6 Commando Squad
@@ -3396,14 +3474,12 @@
 	6 Meteorite Storm
 	6 Scour the Rubble
 	6 Supernova Sight
-	6 Blade of the Darkstar
 	6 Deep-Space Wanderer
 	6 Warp-Touched Warrior
 	6 Astral Conduit
 	6 Celestial Navigator
 	6 Ruiner Wurm
 	6 Star Strider
-	6 Rite of Creation
 	6 Planetary Aligner
 	6 Birth New Worlds
 	6 Stellar Smash
@@ -3415,22 +3491,16 @@
 	6 Planetary Annihilation Station
 	6 Shattered Planet
 	6 Grassland Sliver
-	6 Moon Sliver
 	6 Wavecrash Sliver
-	6 Ice Crystal Sliver
 	6 Bogborn Sliver
-	6 Nightmare Sliver
 	6 Obsidian Sliver
-	6 Razorcrest Sliver
 	6 Vineweft Sliver
-	6 Scout Sliver
 	15 Frostfire Squadron
 	15 Tacti-cube
 	15 Cross-Virtual Soldier
 	15 Desperate Medic
 	15 Heavy Crab Drone
 	15 Rapid Deployment Unit
-	15 Song of the Stars
 	15 Astral Beast Master
 	15 Defensive Deployment
 	15 Attack of the Clones
@@ -3442,7 +3512,6 @@
 	15 Heroic Extraction Squad
 	15 Tree Hopper
 	15 Astral Wyvern
-	15 Star-Cloud Summoner
 	15 Aether Agent
 	15 Portal Strider
 	15 Intelligence Deployment
@@ -3451,12 +3520,11 @@
 	15 Absorb Reality
 	15 Infiltrate the System
 	15 Fido Fighter
-	15 Synthetic Necromancer
+	15 Sliver Hunter
 	15 Qatil Assassin
 	15 Cyberstalker
 	15 Death of the Legions
 	15 Death Trooper
-	15 Ichor Keeper
 	15 Rebirth Through Robotics
 	15 Hit Team
 	15 Dive Bomb
@@ -3477,13 +3545,12 @@
 	15 Grasp the Void
 	15 Chaotic Vortex
 	15 Star Born Charger
-	15 Spirit of the Forests
 	15 Worldrender
 	15 Star Smasher
 	15 Warp Path Weaver
 	15 Shattered Space Scout
 	15 Orbit Tuner
-	15 Planetary General
+	15 Drudge Sliver
 	15 Galactic Growth
 	15 Lost in a Digital World
 	15 Flourish From the Fallen
@@ -3541,12 +3608,10 @@
 	7 Void-Star Dragon
 	7 Quad-Fury Mercenary
 	7 Wily Smuggler
-	7 Whispers of Supernova
 	7 Overcharge
 	7 Flames of the Legion
 	7 Orbital Bombardment
 	7 Rift Born Avatar
-	7 Aural Elk
 	7 Deep Rock Miner
 	7 Ragtag Squad
 	7 Smashing Stowaway
@@ -3559,14 +3624,28 @@
 	4 Twilight City
 	4 Beyond the Event Horizon
 	4 Contact the Collective
+	4 Super Conductor Soldier
+	4 Mul'Apin, Mother of the Stars
 	4 The Battle Matrix
-	4 Annihilating Light of Creation
 	4 Galacta-Genesis
 	4 Qanaas, Spider Sniper
 	4 ClA.I.re, Ascendant Intellect
 	4 Super Massive Black Hole
 	4 Vershina, One With the Universe
 	4 Singularity Sliver
+	6 Light of Creation
+	6 Songs of the Frozen Void
+	6 Last Days of a Lonely World
+	6 Blade of the Darkstar
+	6 Rite of Creation
+	15 Song of the Stars
+	15 Star-Cloud Summoner
+	15 Ichor Keeper
+	15 Spirit of the Forests
+	7 Whispers of Supernova
+	7 Aural Elk
+	4 Annihilating Light of Dawn
 	4 Harea, Dune Walker
 	4 General Polkovodets
 	4 Mo'o-Ita, Raging Fire
+	4 Trogat, Blind but Seeing

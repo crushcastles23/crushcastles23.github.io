@@ -1,4 +1,789 @@
-﻿VERSION 1 CHANGELOG
+﻿VERSION 2 CHANGELOG
+====================
+
+Disconnected Sliver added.
+Infectious Sliver added.
+Sliver Hunter added.
+Drudge Sliver added.
+Super Conductor Soldier added.
+Mul'Apin, Mother of the Stars added.
+Annihilating Light of Dawn added.
+Trogat, Blind but Seeing added.
+Human added.
+Beast added.
+Ally added.
+Bird added.
+Soldier Army added.
+Weapon added.
+
+High Altitude Defense Jet removed.
+Shatter Identity removed.
+Synthetic Necromancer removed.
+Planetary General removed.
+Annihilating Light of Creation removed.
+
+Skrytnist Saboteur
+
+Robizard
+
+FAIRIE Squad
+
+Advanced Robotics Expert
+
+Walker of Frozen Worlds
+
+Frigid Freon Flinger
+
+Gather Intel
+
+Last-Minute Evac
+
+Deal Gone Wrong
+
+Heavy Freeze
+
+Death-Bot
+
+Menacing Opportunist
+
+Doomed Squad
+
+Doom Diver
+
+Deathstrike Cyborg
+
+Virtual Unreality
+
+Black Hole's Shadow
+
+Emergency Repairs
+
+Deal with the Machine Gods
+
+Paradox Trooper
+
+Kill-Team Joker
+
+Commando Squad
+
+Battle-Born Bombardier
+
+Paradox Crafter
+
+Torchlight Squad
+
+Wasp-9 Star Predator
+
+Meteorite Storm
+
+Scour the Rubble
+
+Supernova Sight
+
+Deep-Space Wanderer
+
+Warp-Touched Warrior
+
+Astral Conduit
+
+Celestial Navigator
+
+Ruiner Wurm
+
+Star Strider
+
+Planetary Aligner
+
+Birth New Worlds
+
+Stellar Smash
+
+Bio-Forge
+
+Prototype Combat System
+
+Celestial Body
+
+Mass Produced Soldier
+
+Commercial Hub World
+
+Planetary Annihilation Station
+rules_text: {T}: Add {C}.
+{7}, {T}, Sacrifice this land: Destroy target permanent. => {T}: Add {C}.
+{7}, {T}, Sacrifice this land: Destroy target permanent. Activate only as a sorcery.
+
+Shattered Planet
+rules_text: {T}, Sacrifice this land: Search your library for a basic land card or Planet card, put it onto the battlefield tapped, then shuffle. => This land enters tapped.
+{T}, Sacrifice this land: Search your library for a basic land card or Planet card, put it onto the battlefield, then shuffle.
+
+Grassland Sliver
+
+Wavecrash Sliver
+
+Bogborn Sliver
+
+Obsidian Sliver
+
+Vineweft Sliver
+
+Frostfire Squadron
+
+Tacti-cube
+
+Cross-Virtual Soldier
+
+Desperate Medic
+
+Heavy Crab Drone
+
+Rapid Deployment Unit
+
+Astral Beast Master
+
+Defensive Deployment
+
+Attack of the Clones
+
+Rapid Reload
+
+Celestial Alignment
+
+Assimilate
+
+Drone Controller
+
+Mechanist Cultist
+
+Heroic Extraction Squad
+
+Tree Hopper
+
+Astral Wyvern
+
+Aether Agent
+
+Portal Strider
+
+Intelligence Deployment
+
+Wormhole
+
+Read the Stars
+
+Absorb Reality
+
+Infiltrate the System
+
+Fido Fighter
+
+Qatil Assassin
+
+Cyberstalker
+
+Death of the Legions
+
+Death Trooper
+
+Rebirth Through Robotics
+
+Hit Team
+
+Dive Bomb
+
+One Way Trip
+
+Solar Smasher
+
+Dark Star Avatar
+
+Bombardment Corp
+
+Towering Exo-Soldier
+
+Screeching Gale Elemental
+
+Star-Touched Scout
+
+Deathstronaut
+
+Bloodied Hell Fighter
+
+Asteroid Mining Station
+
+Scrap Gatherer
+
+Fire Fight
+
+Void Breath
+
+Death Burst
+
+Grasp the Void
+
+Chaotic Vortex
+
+Star Born Charger
+
+Worldrender
+
+Star Smasher
+
+Warp Path Weaver
+
+Shattered Space Scout
+
+Orbit Tuner
+
+Galactic Growth
+
+Lost in a Digital World
+
+Flourish From the Fallen
+
+Expanding Growth
+rules_text: Search your library for a land card and put it onto the battlefield. Each opponent may search their library for a land card and put it onto the battlefield. Then each player who searched a library this way shuffles. => Search your library for a land card and put it onto the battlefield. Each opponent may search their library for a basic land card and put it into their hand. Then each player who searched a library this way shuffles.
+
+Hydra-Bot
+
+Memory Deconstructor
+
+Heavy Mech Suit
+
+Final Soldier
+
+Binary Worlds
+
+Architect's Dream World
+
+Shadowed Ringworld
+
+Sulfurous Surface
+
+Treasure Planet
+
+Serene World
+
+Rogue's Planet
+
+Tumultuous Gas Giant
+
+Backwater World
+
+Scorched Death World
+
+Uncharted Rimworld
+
+Crashing Automaton
+
+Starlight Sprite
+
+Shadowsteel Necromancer
+
+Unhinged Xenobiologist
+
+Celestial Sentinel
+
+Battlefield Commander
+rules_text: This creature gets +1/+1 for each differently named token you control.
+{4}: Choose one, then create an artifact creature token with those characteristics. Activate only once each turn.
+• 1/1 white Bird with flying.
+• 2/2 black Zombie. => This creature gets +1/+1 for each differently named token you control.
+{4}: Choose one, then create a creature token with those characteristics. Activate only once each turn and only as a sorcery.
+• 1/1 white artifact Bird with flying.
+• 1/1 white Sliver.
+• 2/2 black artifact Zombie.
+
+Nebula Dragon
+
+Acquisition Agent
+
+High Admiral
+
+Stellar Wildshaper
+
+Crescent Sliver
+
+Skulking Sliver
+
+Bloodswamp Sliver
+
+Gilded Cloud Sliver
+
+Shield-Hide Sliver
+
+Underworld Sliver
+
+Nebula Sliver
+
+Mortuary Sliver
+
+Swarm of Slivers
+
+Speed Sliver
+
+Lieren, Once Human
+
+United Forces General
+
+Holdout Squad
+
+Life Forger
+
+Core Seeker
+rules_text: First strike
+Whenever an exotic creature you control enters, you gain life equal to its power. [i](Cards with multiple permanent types are exotic.)[/i] => First strike
+Whenever an exotic permanent you control enters, you gain 1 life. [i](Cards with multiple permanent types are exotic.)[/i]
+
+Sentinel of Dying Stars
+rules_text: Vigilance
+Whenever a land you control becomes the target of a spell or ability, create a token that's a copy of that land.
+Whenever you play an exotic land or cast an exotic spell, draw a card. This ability only triggers once each turn. [i](Cards with multiple permanent types are exotic.)[/i] => Vigilance
+Whenever a nontoken land you control becomes the target of a spell or ability, create a token that's a copy of that land.
+Whenever you play an exotic land or cast an exotic spell, draw a card. This ability only triggers once each turn. [i](Cards with multiple permanent types are exotic.)[/i]
+
+Reality Fold
+rules_text: Choose one or both—
+• Exile target nonbasic permanent.
+• Exile target permanent you control. Return that card to the battlefield under its owner's control at the beginning of the next end step. => Choose one —
+• Exile target nonbasic permanent.
+• Exile target permanent you control. Return that card to the battlefield under its owner's control at the beginning of the next end step.
+
+Multitudes of the Legion
+
+Keen-Eyed Scavenger
+
+ECHO Squad
+
+Reality Splitter
+
+Warpath Technomancer
+
+Chart Anomalies
+
+Superluminal Motion
+
+Knowledge of the Legion
+rules_text: Draw a card for each Sliver you control plus one. => Draw a card, then draw a card for each Sliver you control.
+
+Break the Barrier
+
+Deathwatch Squad
+
+Cyborg Squad
+
+Electro-Lich
+
+Void Ripper
+
+Darkstar Devastator
+
+Vision of the End
+
+Defiant Last Stand
+type: Instant => Enchantment
+rules_text: Until end of turn, whenever a creature you control dies, you gain 1 life, creatures you control get +1/+1 until end of turn.
+Until end of turn, whenever a creature an opponent controls dies, you may pay 1 life, if you do, draw a card. => Flash
+Whenever a creature you control dies, you gain 1 life, creatures you control get +1/+1 until end of turn.
+Whenever a creature an opponent controls dies, you may pay 1 life, if you do, draw a card.
+At the beginning of the end step, sacrifice this enchantment.
+
+Shadow of the Legion
+
+Endless Legions
+
+Void-Star Dragon
+
+Quad-Fury Mercenary
+
+Wily Smuggler
+
+Overcharge
+
+Flames of the Legion
+
+Orbital Bombardment
+
+Rift Born Avatar
+
+Deep Rock Miner
+
+Ragtag Squad
+
+Smashing Stowaway
+
+Titanape
+
+Strength of the Legion
+
+Cycle of Death
+
+Warp-Touched World
+
+Eldritch Interface
+
+Remina, the Hell Maw
+
+Twilight City
+
+Beyond the Event Horizon
+rules_text: Shroud [i](This permanent can't be the target of spells or abilities.)[/i]
+When this enchantment enters, exile all other nonland permanents.
+{3}: Until end of turn, you may play a card exiled by this enchantment and may spend mana as though it were mana of any type to cast spells this way. Any player may activate this ability during their turn. => Shroud [i](This enchantment can't be the target of spells or abilities.)[/i]
+When this enchantment enters, exile all other nonland permanents.
+{3}: Until end of turn, you may play a card exiled by this enchantment and may spend mana as though it were mana of any type to cast spells this way. Any player may activate this ability during their turn.
+
+Contact the Collective
+rules_text: Each player discards their hand. Each opponent draws 7 cards. You draw cards equal to the total number of cards discarded this way.
+You get an emblem with “You have no maximum hand size.” => Each player discards their hand. Each opponent draws seven cards. You draw cards equal to the total number of cards discarded this way plus seven.
+You get an emblem with “You have no maximum hand size.”
+
+The Battle Matrix
+rules_text: When this artifact enters, exile target creature.
+Whenever you attack, create a token that's a copy of the exiled creature card, except its not legendary and has base power and toughness 1/1. The token enters tapped and attacking. => Hexproof
+When this artifact enters and whenever another ability of this artifact triggers, exile target nontoken creature you control.
+Whenever you attack, create a token that's a copy of a creature card exiled with this artifact, except its not legendary and has base power and toughness 1/1. The token enters tapped and attacking.
+
+Galacta-Genesis
+
+Qanaas, Spider Sniper
+
+ClA.I.re, Ascendant Intellect
+
+Super Massive Black Hole
+
+Vershina, One With the Universe
+
+Singularity Sliver
+
+Hiveguard Sliver
+
+Disrupted Sliver
+
+Ash Blossom Sliver
+
+Stone Sliver
+
+Skittering Sliver
+
+Sunscorched Sliver
+
+Bonescythe Sliver
+
+Moon Sliver
+
+Serpentine Sliver
+
+Leaping Sliver
+
+Mindflow Sliver
+
+Stormcloud Sliver
+
+Riftstrider Sliver
+
+Mirror Sliver
+rules_text: Other Slivers you control have “When this creature enters, if it's not a token, create a token copy of it.” => When this creature enters, create a token copy of it except it loses all abilities.
+Other Slivers you control have “When this creature enters, if it's not a token, create a token copy of it.”
+
+Cryptstalker Sliver
+
+Ice Crystal Sliver
+
+Goliath Sliver
+
+Ichorflow Sliver
+
+Ashheart Sliver
+
+Thorntail Sliver
+
+Caveborn Sliver
+
+Dregscape Sliver
+
+Undeath Sliver
+
+Nightmare Sliver
+
+Blood-Dipped Sliver
+
+Tunnel Borer Sliver
+
+Sharp Sliver
+
+Lava Vent Sliver
+
+Shattershard Sliver
+
+Capricious Sliver
+
+Bloodform Sliver
+
+Razorcrest Sliver
+
+Ravenous Sliver
+
+Willow Wood Sliver
+
+Amber Sliver
+
+Thrashing Sliver
+
+Molder Sliver
+
+Pugilist Sliver
+
+Hatchery Sliver
+
+Scout Sliver
+
+Sliver Hive
+
+Sliver Queen
+
+Starscape Sliver
+
+Prismatic Sliver
+
+Light of Creation
+rules_text: Warp {W} [i](You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)[/i]
+Light of Creation's power and toughness are each equal to the number of creatures you control.
+[i][/i]Create a 1/1 white Human creature token.[i][/i]
+You gain life equal to twice the number of creatures you control. => Warp {1}{W} [i](You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)[/i]
+I, II — Create a 1/1 white Human creature token.
+III — You gain life equal to twice the number of creatures you control.
+---
+This creature creature's power is equal to the number of creatures you control.
+pt: */* => */3
+special_text: Warp {W} [i](You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)[/i]
+Light of Creation's power and toughness are each equal to the number of creatures you control.
+[i][/i]Create a 1/1 white Human creature token.[i][/i]
+You gain life equal to twice the number of creatures you control. => Warp {1}{W} [i](You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)[/i]
+I, II — Create a 1/1 white Human creature token.
+III — You gain life equal to twice the number of creatures you control.
+---
+This creature creature's power is equal to the number of creatures you control.
+
+Songs of the Frozen Void
+rules_text: Warp {1}{U} [i](You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)[/i]
+Tap target creature an opponent controls and put two stun counters on it. For as long as this creature remains on the battlefield, that creature loses all abilities.
+Return all tapped creatures to their owners' hands.
+​ => Warp {1}{U} [i](You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)[/i]
+I, II — Tap target creature an opponent controls and put two stun counters on it. For as long as this creature remains on the battlefield, that creature loses all abilities.
+III — Return all tapped creatures to their owners' hands.
+---
+Vigilance
+special_text: Warp {1}{U} [i](You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)[/i]
+Tap target creature an opponent controls and put two stun counters on it. For as long as this creature remains on the battlefield, that creature loses all abilities.
+Return all tapped creatures to their owners' hands.
+​ => Warp {1}{U} [i](You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)[/i]
+I, II — Tap target creature an opponent controls and put two stun counters on it. For as long as this creature remains on the battlefield, that creature loses all abilities.
+III — Return all tapped creatures to their owners' hands.
+---
+Vigilance
+
+Last Days of a Lonely World
+rules_text: Warp {1}{B} [i](You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)[/i]
+Haste
+Each player sacrifices a creature.
+Creatures you control gain menace and deathtouch until end of turn. => Warp {1}{B} [i](You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)[/i]
+I — Each player sacrifices a creature.
+II, III — Creatures you control gain deathtouch until end of turn.
+---
+Menace
+special_text: Warp {1}{B} [i](You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)[/i]
+Haste
+Each player sacrifices a creature.
+Creatures you control gain menace and deathtouch until end of turn. => Warp {1}{B} [i](You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)[/i]
+I — Each player sacrifices a creature.
+II, III — Creatures you control gain deathtouch until end of turn.
+---
+Menace
+
+Blade of the Darkstar
+rules_text: Warp {R} [i](You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)[/i]
+First strike
+This creature deals 2 damage to target opponent.
+You may discard all the cards in your hand. If you do, draw that many cards. => Warp {R} [i](You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)[/i]
+I, II — This creature deals 2 damage to target opponent.
+III — You may discard all the cards in your hand. If you do, draw that many cards.
+---
+First strike
+special_text: Warp {R} [i](You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)[/i]
+First strike
+This creature deals 2 damage to target opponent.
+You may discard all the cards in your hand. If you do, draw that many cards. => Warp {R} [i](You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)[/i]
+I, II — This creature deals 2 damage to target opponent.
+III — You may discard all the cards in your hand. If you do, draw that many cards.
+---
+First strike
+
+Rite of Creation
+rules_text: Warp {1}{G} [i](You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)[/i]
+Trample
+Mill three cards, then you may return a land card from your graveyard to the battlefield tapped.
+Add two mana of any one color. Until end of turn, you don't lose this mana as steps and phases end. => Warp {1}{G} [i](You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)[/i]
+I — Mill three cards, then you may return a land card from your graveyard to your hand.
+II, III — Add two mana of any one color. Until end of turn, you don't lose this mana as steps and phases end.
+---
+Trample
+special_text: Warp {1}{G} [i](You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)[/i]
+Trample
+Mill three cards, then you may return a land card from your graveyard to the battlefield tapped.
+Add two mana of any one color. Until end of turn, you don't lose this mana as steps and phases end. => Warp {1}{G} [i](You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)[/i]
+I — Mill three cards, then you may return a land card from your graveyard to your hand.
+II, III — Add two mana of any one color. Until end of turn, you don't lose this mana as steps and phases end.
+---
+Trample
+
+Song of the Stars
+rules_text: Warp {W}{W} [i](You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)[/i]
+Flying
+For each player, exile up to one target non-Saga, nonland permanent that player controls until this creature leaves the battlefield.
+You gain 1 life for each card target player owns in exile. => Warp {W}{W} [i](You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)[/i]
+I, II — For each player, exile up to one target non-Saga, nonland permanent that player controls until this creature leaves the battlefield.
+III, IV — You gain 1 life for each card target player owns in exile.
+---
+Flying
+special_text: Warp {W}{W} [i](You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)[/i]
+Flying
+For each player, exile up to one target non-Saga, nonland permanent that player controls until this creature leaves the battlefield.
+You gain 1 life for each card target player owns in exile. => Warp {W}{W} [i](You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)[/i]
+I, II — For each player, exile up to one target non-Saga, nonland permanent that player controls until this creature leaves the battlefield.
+III, IV — You gain 1 life for each card target player owns in exile.
+---
+Flying
+
+Star-Cloud Summoner
+rules_text: Warp {U} [i](You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)[/i]
+Flying
+Double the number of each kind of counter on up to one target non-Saga permanent you control and up to one target card you own in exile.
+Draw a card. Then, exile this creature. You may cast it from exile on a later turn. => Warp {U} [i](You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)[/i]
+I, II — Double the number of each kind of counter on up to one target non-Saga permanent you control and up to one target card you own in exile.
+III — Draw a card. Then, exile this creature. You may cast it from exile on a later turn.
+---
+Flying
+special_text: Warp {U} [i](You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)[/i]
+Flying
+Double the number of each kind of counter on up to one target non-Saga permanent you control and up to one target card you own in exile.
+Draw a card. Then, exile this creature. You may cast it from exile on a later turn. => Warp {U} [i](You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)[/i]
+I, II — Double the number of each kind of counter on up to one target non-Saga permanent you control and up to one target card you own in exile.
+III — Draw a card. Then, exile this creature. You may cast it from exile on a later turn.
+---
+Flying
+
+Ichor Keeper
+rules_text: Warp {B} [i](You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)[/i]
+Deathtouch
+Surveil 2. [i](Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)[/i]
+Surveil 2, then return up to one creature card from your graveyard to the battlefield tapped. => Warp {B} [i](You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)[/i]
+I, II — Surveil 2. [i](Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)[/i]
+III — Surveil 2, then return up to one creature card from your graveyard to the battlefield tapped.
+---
+Deathtouch
+special_text: Warp {B} [i](You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)[/i]
+Deathtouch
+Surveil 2. [i](Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)[/i]
+Surveil 2, then return up to one creature card from your graveyard to the battlefield tapped. => Warp {B} [i](You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)[/i]
+I, II — Surveil 2. [i](Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)[/i]
+III — Surveil 2, then return up to one creature card from your graveyard to the battlefield tapped.
+---
+Deathtouch
+
+Spirit of the Forests
+rules_text: Warp {G}{G} [i](You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)[/i]
+Create a 3/3 green Beast enchantment creature token.
+Creatures you control gain trample and vigilance until end of turn. Put a +1/+1 counter on each exotic creature you control. [i](Cards with multiple permanent types are exotic.)[/i]
+​ => Warp {G}{G} [i](You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)[/i]
+I, II — Create a 3/3 green Beast enchantment creature token.
+III — Creatures you control gain trample and vigilance until end of turn. Put a +1/+1 counter on each exotic creature you control. [i](Cards with multiple permanent types are exotic.)[/i]
+---
+
+special_text: Warp {G}{G} [i](You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)[/i]
+Create a 3/3 green Beast enchantment creature token.
+Creatures you control gain trample and vigilance until end of turn. Put a +1/+1 counter on each exotic creature you control. [i](Cards with multiple permanent types are exotic.)[/i]
+​ => Warp {G}{G} [i](You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)[/i]
+I, II — Create a 3/3 green Beast enchantment creature token.
+III — Creatures you control gain trample and vigilance until end of turn. Put a +1/+1 counter on each exotic creature you control. [i](Cards with multiple permanent types are exotic.)[/i]
+---
+
+
+Whispers of Supernova
+rules_text: Warp {1}{R}{R} [i](You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)[/i]
+Haste
+Put a +1/+1 counter on this creature. It deals damage to target creature equal to its power.
+This creature deals damage to target opponent equal to its power. => Warp {1}{R}{R} [i](You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)[/i]
+I, II — Put a +1/+1 counter on this creature. It deals damage to target creature equal to its power.
+III — This creature deals damage to target opponent equal to its power.
+---
+Haste
+special_text: Warp {1}{R}{R} [i](You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)[/i]
+Haste
+Put a +1/+1 counter on this creature. It deals damage to target creature equal to its power.
+This creature deals damage to target opponent equal to its power. => Warp {1}{R}{R} [i](You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)[/i]
+I, II — Put a +1/+1 counter on this creature. It deals damage to target creature equal to its power.
+III — This creature deals damage to target opponent equal to its power.
+---
+Haste
+
+Aural Elk
+type: Enchantment Creature — Elk Saga => Enchantment Creature — Saga Elk
+rules_text: Warp {1}{G} [i](You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)[/i]
+Trample
+This creature gets +1/+1 for each lore counter on it beyond the first.
+This creature fights up to one target creature.
+Distribute four +1/+1 counters among creatures you control. => Warp {1}{G} [i](You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)[/i]
+This creature gets +1/+1 for each lore counter on it beyond the first.
+I, II — Put a +1/+1 counter on each of up to three other target creatures.
+III — This creature fights up to one target creature.
+---
+Trample
+special_text: Warp {1}{G} [i](You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)[/i]
+Trample
+This creature gets +1/+1 for each lore counter on it beyond the first.
+This creature fights up to one target creature.
+Distribute four +1/+1 counters among creatures you control. => Warp {1}{G} [i](You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)[/i]
+This creature gets +1/+1 for each lore counter on it beyond the first.
+I, II — Put a +1/+1 counter on each of up to three other target creatures.
+III — This creature fights up to one target creature.
+---
+Trample
+
+Harea, Dune Walker
+
+General Polkovodets
+
+Mo'o-Ita, Raging Fire
+
+Apex Sliver
+
+Sliver
+
+Warp Archetypes
+
+Avatar Rogue
+
+Treasure
+
+Zombie
+
+Robot
+
+Drone
+
+Soldier
+
+Dog
+
+Assassin
+
+Rabbit
+
+Contact the Collective Emblem
+
+
+VERSION 1 CHANGELOG
 ====================
 
 First version published.
